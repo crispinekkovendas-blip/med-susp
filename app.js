@@ -1,48 +1,49 @@
 /* ============================================================================
-   BANCO INEPAM — o comportamento.
+   BANCO SUS-SP — o comportamento.
 
-   Sem framework: são cinquenta cartões e três estados por cartão. O que a
+   Sem framework: são cem cartões e três estados por cartão. O que a
    página faz cabe em quatro coisas:
 
-     · filtrar por disciplina (todas / português / matemática);
+     · filtrar por área (cada área de meta.areas) ou por edição (cada prova
+       de meta.fontes que já tem questão no banco);
      · responder: um clique numa alternativa marca, corrige na hora e abre o
        comentário — e a resposta fica guardada no navegador;
-     · o SIMULADO: 10 de português + 10 de matemática sorteadas, na ordem da
-       prova real, sem correção até entregar, com relógio — é o formato do
-       edital (a prova tem 40, sendo 20 de específicas, que este banco não
-       cobre);
+     · o SIMULADO: cinco questões de cada área sorteadas, na ordem da prova,
+       sem correção até entregar, com relógio e meta de 3 minutos por
+       questão (o ritmo da prova real: 100 questões em 5 horas);
      · teclado: com um cartão em foco, A–E responde.
 
-   Tudo o que se guarda fica em localStorage e nunca sai do navegador.
+   Nada aqui nomeia uma área: tudo vem de window.BANCO.meta. Tudo o que se
+   guarda fica em localStorage (chaves susp:*) e nunca sai do navegador.
    ========================================================================== */
 (function () {
   "use strict";
   const B = window.BANCO;
   const Q = B.questoes;
-  /* as questões REAIS — aplicadas pela banca, reconstruídas de documento oficial */
-  const REAIS = Q.filter(q => q.origem === "recuperada");
-  /* provas distintas: a prova transcrita e o julgamento de recursos de
-     Adamantina 2023 são o mesmo concurso */
-  const PROVAS_REAIS = new Set(REAIS.map(q => q.fonte.replace(/rec$/, ""))).size;
-  /* a seleção 50 + 50: as 55 reais + as 45 melhores inéditas (marcadas com selecao) */
-  const SELECAO = Q.filter(q => q.origem === "recuperada" || q.selecao === true);
-  /* filtro: todas | selecao (50 + 50) | banca (só reais) | pt | mt */
-  const filtrar = (lista, f) => f === "todas" ? lista : f === "selecao" ? lista.filter(q => q.origem === "recuperada" || q.selecao === true) : f === "banca" ? lista.filter(q => q.origem === "recuperada") : lista.filter(q => q.disc === f);
+  const AREAS = B.meta.areas;
+  const NOME_AREA = Object.fromEntries(AREAS.map(a => [a.id, a.nome]));
+  const FONTES = Object.fromEntries(B.meta.fontes.map(f => [f.id, f]));
+  /* só entram nos filtros as edições que já têm questão no banco */
+  const EDICOES = B.meta.fontes.filter(f => Q.some(q => q.fonte === f.id));
+  const POR_AREA_SIM = 5;            /* questões de cada área no simulado */
+  const MINUTOS_POR_QUESTAO = 3;     /* 100 questões em 5 horas */
+  const filtrar = (lista, f) => f === "todas" ? lista : NOME_AREA[f] ? lista.filter(q => q.area === f) : lista.filter(q => q.fonte === f);
   const LETRAS = ["A", "B", "C", "D", "E"];
-  const CH_RESP = "inepam:respostas";
-  const CH_SIM = "inepam:simulado";
-  const CH_FILTRO = "inepam:filtro";
-  const FONTES = Object.fromEntries(B.meta.fontes.map(f => [f.id, f.txt]));
-  const DISC = { pt: "Português", mt: "Matemática" };
+  const CH_RESP = "susp:respostas";
+  const CH_SIM = "susp:simulado";
+  const CH_FILTRO = "susp:filtro";
+  const CH_ABA = "susp:aba";
 
   /* --- estado ------------------------------------------------------------ */
   const ler = (k, padrao) => { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : padrao; } catch (e) { return padrao; } };
   const gravar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
   const estado = {
-    filtro: ler(CH_FILTRO, "todas"),        /* todas | pt | mt */
+    filtro: ler(CH_FILTRO, "todas"),        /* todas | <área> | <fonte> */
     respostas: ler(CH_RESP, {}),            /* id -> índice escolhido */
     simulado: ler(CH_SIM, null),            /* { ids, respostas, inicio, entregue } */
   };
+  /* um filtro guardado que não existe mais volta a "todas" */
+  if (estado.filtro !== "todas" && !NOME_AREA[estado.filtro] && !EDICOES.some(f => f.id === estado.filtro)) estado.filtro = "todas";
   const porId = Object.fromEntries(Q.map(q => [q.id, q]));
 
   /* --- utilidades -------------------------------------------------------- */
@@ -63,17 +64,10 @@
   const dois = n => String(n).padStart(2, "0");
   const relogio = ms => { const s = Math.floor(ms / 1000); return `${dois(Math.floor(s / 3600))}:${dois(Math.floor(s % 3600 / 60))}:${dois(s % 60)}`; };
 
-  /* --- de quando é a questão ----------------------------------------------
-     Recuperada: a banca, o ano e o número que a questão tinha na prova
-     ("INEPAM 2025 · Questão 06"). Inédita: nunca foi aplicada, então não
-     ganha ano de prova — leva o ano do edital para o qual foi escrita. */
-  const rotuloOrigem = q => q.origem === "recuperada"
-    ? `${B.meta.banca} ${q.ano} · Questão ${dois(q.numero)}`
-    : `Inédita ${q.ano}`;
+  /* --- de onde é a questão: a prova e o número que ela tinha nela --------- */
+  const rotuloOrigem = q => `${FONTES[q.fonte].rotulo} · Questão ${dois(q.numero)}`;
 
   /* --- o cartão de uma questão ------------------------------------------- */
-  /* `ctx` diz em que modo o cartão vive: no banco corrige na hora; no
-     simulado só depois de entregue. `numero` é o que se imprime no canto. */
   function cartao(q, numero, ctx) {
     const resp = ctx.respostas[q.id];
     const respondida = resp != null;
@@ -97,12 +91,9 @@
 
     const cab = h("div", { class: "cab" },
       h("span", { class: "idx num" }, dois(numero)),
-      h("span", { class: "tag " + q.disc }, DISC[q.disc]),
+      h("span", { class: "tag " + q.area }, NOME_AREA[q.area]),
       h("span", { class: "tag tema" }, q.tema),
-      h("span", { class: "tag origem " + q.origem, title: q.origem === "recuperada"
-          ? `Questão ${dois(q.numero)} de uma prova da banca ${B.meta.banca} em ${q.ano}, reconstruída de documento oficial.`
-          : `Escrita em ${q.ano} no estilo da banca, sobre o conteúdo programático do edital 001/2026. Não foi aplicada em prova.` },
-        rotuloOrigem(q)));
+      h("span", { class: "tag origem", title: `Questão ${dois(q.numero)} da prova ${FONTES[q.fonte].rotulo} (banca ${B.meta.banca}), com o gabarito oficial.` }, rotuloOrigem(q)));
 
     const partes = [cab];
     if (q.texto) partes.push(h("div", { class: "texto", html: q.texto }));
@@ -119,26 +110,20 @@
       partes.push(h("p", { class: "veredito" }, h("span", { class: "selo pendente" }, `Marcada: ${LETRAS[resp]}`), "A correção aparece ao entregar o simulado."));
     }
 
-    const el = h("article", { class: "q", id: "q-" + q.id, tabindex: "-1", "data-id": q.id }, partes);
-    return el;
+    return h("article", { class: "q", id: "q-" + q.id, tabindex: "-1", "data-id": q.id }, partes);
   }
 
   /* --- a explicação tem duas abas ------------------------------------------
-     "Comentário" é o texto completo, no registro da banca: gabarito, cada
-     distrator, a regra e os casos vizinhos. "Simplificando" é a mesma
-     explicação contada como para uma criança: frases curtas, uma ideia por
-     vez, comparação com coisa do dia a dia, e a letra certa dita com todas
-     as letras. A aba escolhida fica guardada e vale para os próximos
-     cartões — quem prefere a versão simples não precisa clicar cem vezes. */
-  const CH_ABA = "inepam:aba";
+     "Comentário" é o texto completo: veredito, cada distrator, o que a banca
+     testa, e as referências de onde vem a resposta. "Simplificando" é a
+     mesma explicação em frases curtas. A aba escolhida fica guardada. */
   let abaAtiva = "comentario";
   try { if (localStorage.getItem(CH_ABA) === "simples") abaAtiva = "simples"; } catch (e) { /* sem armazenamento */ }
   function explicacao(q) {
-    const fonte = `<p class="fonte">${q.origem === "recuperada"
-      ? `Questão ${dois(q.numero)} · ${B.meta.banca} ${q.ano}.`
-      : `Inédita ${q.ano}, no estilo da banca.`}</p>`;
+    const referencias = `<p class="referencias"><span class="rot">Referências</span> ${q.referencias.join(" · ")}</p>`;
+    const fonte = `<p class="fonte">Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo} · banca ${B.meta.banca}.</p>`;
     const paineis = {
-      comentario: h("div", { class: "comentario", role: "tabpanel", id: `pc-${q.id}`, "aria-labelledby": `ac-${q.id}`, html: q.comentario + fonte }),
+      comentario: h("div", { class: "comentario", role: "tabpanel", id: `pc-${q.id}`, "aria-labelledby": `ac-${q.id}`, html: q.comentario + referencias + fonte }),
       simples: h("div", { class: "comentario simples", role: "tabpanel", id: `ps-${q.id}`, "aria-labelledby": `as-${q.id}`, html: q.simples || "" }),
     };
     const abas = {};
@@ -187,12 +172,11 @@
 
   function barra() {
     return h("header", { id: "barra" }, h("div", { class: "miolo" },
-      h("span", { class: "sigla", "aria-hidden": "true" }, "IN"),
+      h("span", { class: "sigla", "aria-hidden": "true" }, "SUS"),
       h("div", { class: "titulo" },
-        h("h1", null, "Banco comentado — INEPAM · Embu das Artes"),
-        h("p", { class: "sub" }, `${B.meta.concurso} · prova em ${B.meta.prova}`)),
-      h("a", { class: "voltar", href: "caderno/", title: "O banco em folhas A4: folha de respostas, linhas para anotar, gabarito comentado em separado" }, "Caderno para imprimir"),
-      h("a", { class: "voltar", href: "../", title: "Quadros de ginecologia, no mesmo domínio" }, "← Quadros")));
+        h("h1", null, `Banco comentado — SUS-SP · ${B.meta.banca}`),
+        h("p", { class: "sub" }, `${B.meta.concurso} · ${B.meta.prova}`)),
+      h("a", { class: "voltar", href: "caderno/", title: "O banco em folhas A4: uma ficha por página, com gabarito, comentário, referências e espaço para anotar" }, "Caderno para imprimir")));
   }
 
   /* --- modo banco ---------------------------------------------------------- */
@@ -212,17 +196,18 @@
       },
     };
 
-    const conta = d => Q.filter(q => q.disc === d).length;
+    const filtros = [["todas", "Todas"]].concat(AREAS.map(a => [a.id, a.nome]), EDICOES.map(f => [f.id, f.rotulo]));
     const seg = h("div", { class: "seg", role: "group", "aria-label": "Filtrar" },
-      [["todas", "Todas", Q.length], ["selecao", "50 + 50", SELECAO.length], ["banca", "Da banca", REAIS.length], ["pt", "Português", conta("pt")], ["mt", "Matemática", conta("mt")]].map(([v, rot, n]) =>
+      filtros.map(([v, rot]) =>
         h("button", { type: "button", "aria-pressed": estado.filtro === v ? "true" : "false",
           onclick: () => { estado.filtro = v; gravar(CH_FILTRO, v); render(); } },
-          rot, h("span", { class: "n" }, n))));
+          rot, h("span", { class: "n" }, filtrar(Q, v).length))));
 
+    const totalSim = AREAS.reduce((s, a) => s + Math.min(POR_AREA_SIM, Q.filter(q => q.area === a.id).length), 0);
     const placar = h("div", { class: "placar", id: "placar", "aria-live": "polite" });
     const regua = h("div", { id: "regua" }, h("div", { class: "miolo" },
       seg,
-      h("button", { class: "acao primaria", type: "button", onclick: iniciarSimulado }, "Simulado 10 + 10"),
+      h("button", { class: "acao primaria", type: "button", onclick: iniciarSimulado }, `Simulado ${totalSim}`),
       h("button", { class: "acao", type: "button", onclick: () => {
         if (!Object.keys(estado.respostas).length) return;
         if (confirm("Apagar todas as respostas guardadas neste navegador?")) { estado.respostas = {}; gravar(CH_RESP, {}); render(); }
@@ -253,30 +238,33 @@
   }
 
   function capa() {
+    const nomes = AREAS.map(a => a.nome);
+    const listaAreas = nomes.length > 1 ? nomes.slice(0, -1).join(", ") + " e " + nomes[nomes.length - 1] : nomes[0];
+    const provas = EDICOES.map(f => f.rotulo).join(", ");
     return h("section", { class: "capa" },
       h("p", { class: "lead", html:
-        `<b>${Q.length} questões comentadas</b> de Língua Portuguesa e Matemática — <b>${REAIS.length} delas reais</b>, aplicadas pela banca <b>${B.meta.banca}</b> em ${PROVAS_REAIS} provas entre 2023 e 2026 — no formato do ${B.meta.concurso} da ${B.meta.orgao}. ` +
-        `Cada questão tem cinco alternativas, como na prova, e o comentário explica o gabarito <b>e cada distrator</b> — porque a banca monta os errados a partir dos erros que ela espera.` }),
+        `<b>${Q.length} questões comentadas</b> de ${listaAreas} — <b>todas reais</b>, aplicadas pela banca <b>${B.meta.banca}</b> em provas de acesso direto (${provas}), com o gabarito oficial. ` +
+        `Cada questão tem cinco alternativas, como na prova, e o comentário explica o gabarito <b>e cada distrator</b>, diz o que a banca está testando e de onde vem a resposta.` }),
       h("div", { class: "fatos" },
-        h("div", null, h("b", null, "40"), h("span", null, "questões na prova")),
-        h("div", null, h("b", null, "10 + 10"), h("span", null, "português + matemática")),
+        h("div", null, h("b", null, "100"), h("span", null, "questões na prova")),
+        h("div", null, h("b", null, "20"), h("span", null, "por área")),
         h("div", null, h("b", null, "5"), h("span", null, "alternativas (A–E)")),
-        h("div", null, h("b", null, "3h"), h("span", null, "de duração"))),
+        h("div", null, h("b", null, "5h"), h("span", null, "de duração"))),
       h("p", { class: "aviso", html:
-        `<b>De onde vêm as questões.</b> O INEPAM não publica os cadernos de prova — só gabaritos e os <em>julgamentos de recursos</em>, em que transcreve enunciado, alternativas e a justificativa. As marcadas <b>INEPAM 20xx · Questão NN</b> são questões reais: ${REAIS.length} questões de ${PROVAS_REAIS} provas da banca entre 2023 e 2026, reconstruídas de documentos oficiais da banca (julgamentos de recursos e uma prova transcrita com gabarito oficial), com o número que tinham na prova original; quando o julgamento não transcreve o enunciado, ele foi reconstituído e o comentário avisa. Isso é tudo o que existe em público — a banca não divulga cadernos. O filtro <b>Da banca</b> mostra só essas. As marcadas <b>Inédita 2026</b> nunca foram aplicadas: seguem o estilo da banca sobre o conteúdo programático do Anexo II do edital 001/2026. As 20 questões de Conhecimentos Específicos da prova não estão aqui.` }));
+        `<b>De onde vêm as questões.</b> Dos cadernos oficiais publicados depois de cada prova, sem retoque no texto. A etiqueta <b>${EDICOES.length ? EDICOES[0].rotulo : "SUS-SP 2026"} · Questão NN</b> diz a prova e o número que a questão tinha nela; o gabarito é o oficial depois dos recursos, e as questões anuladas pela banca ficaram de fora. O comentário abre com o veredito e fecha dizendo o que a banca testa; <b>Simplificando</b> conta a mesma coisa em frases curtas. A prova de acesso direto tem também Clínica Médica, que este banco não cobre.` }));
   }
 
   /* --- modo simulado -------------------------------------------------------- */
   function iniciarSimulado() {
-    const pt = embaralhar(Q.filter(q => q.disc === "pt")).slice(0, 10);
-    const mt = embaralhar(Q.filter(q => q.disc === "mt")).slice(0, 10);
-    estado.simulado = { ids: pt.concat(mt).map(q => q.id), respostas: {}, inicio: Date.now(), entregue: null };
+    const ids = AREAS.flatMap(a => embaralhar(Q.filter(q => q.area === a.id)).slice(0, POR_AREA_SIM).map(q => q.id));
+    estado.simulado = { ids, respostas: {}, inicio: Date.now(), entregue: null };
     gravar(CH_SIM, estado.simulado); render(); window.scrollTo(0, 0);
   }
 
   function paginaSimulado(sim) {
-    const lista = sim.ids.map(id => porId[id]);
+    const lista = sim.ids.map(id => porId[id]).filter(Boolean);
     const entregue = !!sim.entregue;
+    const meta = lista.length * MINUTOS_POR_QUESTAO * 60 * 1000;
     const ctx = {
       respostas: sim.respostas, revela: entregue, mudavel: true,
       responder(q, i) {
@@ -295,7 +283,7 @@
       h("div", null,
         h("p", { class: "rot" }, "Simulado"),
         contagem,
-        h("p", null, "Dez de Português, dez de Matemática, na ordem da prova. A correção só aparece ao entregar.")),
+        h("p", null, `${POR_AREA_SIM} de cada área, na ordem da prova. Meta: ${lista.length * MINUTOS_POR_QUESTAO} minutos (${MINUTOS_POR_QUESTAO} por questão, como na prova). A correção só aparece ao entregar.`)),
       h("div", { style: "display:flex;align-items:center;gap:12px;flex-wrap:wrap" },
         rel,
         entregue
@@ -313,46 +301,46 @@
     if (entregue) partes.push(resultado(sim, lista));
     partes.push(h("div", { class: "lista" }, lista.map((q, i) => cartao(q, i + 1, ctx))));
 
-    const fim = () => rel.textContent = relogio((sim.entregue || Date.now()) - sim.inicio);
+    const fim = () => {
+      const passou = (sim.entregue || Date.now()) - sim.inicio;
+      rel.textContent = relogio(passou);
+      rel.className = "relogio num" + (passou > meta ? " estourou" : "");
+    };
     fim();
     if (!entregue) tique = setInterval(fim, 1000);
     function atualizarContagem() {
-      const n = lista.filter(q => sim.respostas[q.id] != null).length;
-      contagem.textContent = entregue ? `Entregue em ${relogio(sim.entregue - sim.inicio)}.` : `${n} de ${lista.length} marcadas.`;
+      const k = lista.filter(q => sim.respostas[q.id] != null).length;
+      contagem.textContent = entregue ? `Entregue em ${relogio(sim.entregue - sim.inicio)}.` : `${k} de ${lista.length} marcadas.`;
     }
     atualizarContagem();
     return h("main", null, partes);
   }
 
   function resultado(sim, lista) {
-    const disc = d => {
-      const qs = lista.filter(q => q.disc === d);
-      return { n: qs.length, certas: qs.filter(q => sim.respostas[q.id] === q.correta).length };
-    };
-    const pt = disc("pt"), mt = disc("mt");
-    const total = pt.certas + mt.certas;
-    /* a nota é de 0 a 100 e o corte do edital é 50 — projeta-se o que estas 20
-       valeriam se as 20 de específicas seguissem a mesma taxa de acerto */
-    const proj = Math.round(100 * total / lista.length);
+    const porArea = AREAS.map(a => {
+      const qs = lista.filter(q => q.area === a.id);
+      return { a, n: qs.length, certas: qs.filter(q => sim.respostas[q.id] === q.correta).length };
+    });
+    const total = porArea.reduce((s, x) => s + x.certas, 0);
+    const proj = lista.length ? Math.round(100 * total / lista.length) : 0;
     const erradas = lista.filter(q => sim.respostas[q.id] != null && sim.respostas[q.id] !== q.correta);
     const brancas = lista.filter(q => sim.respostas[q.id] == null);
     return h("section", { class: "resultado", "aria-live": "polite" },
       h("h2", null, `${total} de ${lista.length}`),
       h("div", { class: "nums" },
-        h("div", null, h("b", null, `${pt.certas}/${pt.n}`), h("span", null, "Português")),
-        h("div", null, h("b", null, `${mt.certas}/${mt.n}`), h("span", null, "Matemática")),
+        porArea.map(x => h("div", null, h("b", null, `${x.certas}/${x.n}`), h("span", null, x.a.nome))),
         h("div", null, h("b", null, `${proj}%`), h("span", null, "de acerto"))),
-      h("p", { html: `O edital exige <b>50 pontos em 100</b> para ser aprovado. Mantendo esta taxa nas 40 questões da prova, você estaria ` +
+      h("p", { html: `O edital habilita quem faz <b>50% da nota</b> da prova objetiva. Mantendo esta taxa nas 100 questões da prova, você estaria ` +
         (proj >= 50 ? `<span class="ok">acima do corte</span>.` : `<span class="erro">abaixo do corte</span>.`) +
         (brancas.length ? ` ${brancas.length} ficaram em branco.` : "") }),
-      erradas.length ? h("p", { html: `Erradas: ${erradas.map((q, i) => `<a href="#q-${q.id}">${dois(lista.indexOf(q) + 1)}</a>`).join(", ")} — os comentários já estão abertos abaixo.` }) : h("p", { class: "ok" }, "Nenhuma errada."));
+      erradas.length ? h("p", { html: `Erradas: ${erradas.map(q => `<a href="#q-${q.id}">${dois(lista.indexOf(q) + 1)}</a>`).join(", ")} — os comentários já estão abertos abaixo.` }) : h("p", { class: "ok" }, "Nenhuma errada."));
   }
 
   /* --- rodapé ---------------------------------------------------------------- */
   function rodape() {
     return h("footer", null,
-      h("p", null, `Estrutura da prova, conforme o edital: ${B.meta.estrutura}. Nota mínima para aprovação: 50 em 100. É proibido o uso de calculadora.`),
-      h("p", null, "Documentos oficiais usados para reconstruir as questões da banca:"),
+      h("p", null, `Estrutura da prova, conforme o edital: ${B.meta.estrutura}. Habilitação: 50% da nota da prova objetiva.`),
+      h("p", null, "Cadernos e gabaritos oficiais de onde vêm as questões:"),
       h("ul", { class: "fontes" }, B.meta.fontes.map(f => h("li", null, f.txt))),
       h("p", null, "Tudo o que você marca fica só neste navegador. Nada é enviado a lugar nenhum."));
   }
