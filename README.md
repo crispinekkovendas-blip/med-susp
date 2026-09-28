@@ -144,12 +144,18 @@ Uma ficha por questão: etiqueta de origem, tema, enunciado, alternativas com
 bolha, gabarito em destaque, comentário, referências, Simplificando,
 autoavaliação (acertei / errei / chutei / revisar) e pauta para anotar.
 **Cada ficha ocupa uma página A4 inteira ou duas**: a ficha tem
-`min-height: 256mm`; `caderno.js` mede cada uma no navegador e marca com a
-classe `dupla` as que não cabem numa página, que passam a ocupar exatamente
-duas, com a pauta preenchendo o que sobra da segunda (sem isso, a segunda
-folha saía quase em branco). Com as questões atuais, 87 das 100 fichas são
-duplas — o comentário completo com cinco distratores não cabe numa página em
-corpo 9,5 pt.
+`min-height: 256mm`, e `caderno.js` mede o <em>conteúdo</em> de cada uma
+(tudo menos a pauta) na geometria da folha impressa (classe `medindo` no
+body: 210 mm com texto de 182 mm, seja qual for a tela), e refaz a medida
+antes de imprimir. Se o conteúdo cabe numa página deixando 34 mm ou mais de
+pauta, é uma página normal; se cabe deixando ao menos 10 mm, a ficha é
+`apertada` (a pauta abre mão do mínimo de 24 mm); senão é `dupla` e ocupa
+exatamente duas páginas, com a pauta preenchendo a segunda (sem isso, a
+segunda folha saía quase em branco). Com as questões atuais (medição de
+2026-09-28): 10 fichas normais, 29 apertadas e 61 duplas — cerca de 161
+páginas de fichas. O comentário completo com cinco distratores raramente
+cabe numa página em corpo 9,5 pt; a opção "Letra grande" aumenta enunciado,
+alternativas, comentário e Simplificando, e aumenta o número de duplas.
 
 Antes das fichas: capa (com o **nome do estudante**, também no rodapé de toda
 página), instruções, mapa de temas por área; texto compartilhado sai uma vez
@@ -157,7 +163,10 @@ por sequência. Depois: gabarito resumido e "Meu resultado" (opcionais);
 folha de respostas opcional. Opções em `susp:caderno`: área, edição,
 Simplificando, pauta, letra, folha, resumo, nome. Cores impressas de verdade
 (`print-color-adjust: exact`). Para conferir, meça `.questao` no navegador:
-todas devem dar 256 ou 512 mm.
+as normais dão 256 mm, as duplas 512 mm, e as apertadas ficam entre 256 e
+uns 275 mm na tela (o texto da tela é 6 mm mais estreito que o do papel;
+no papel cabem numa página, porque a medida foi feita na geometria do
+papel).
 
 ## Verificação — como rodar e o que prova
 
