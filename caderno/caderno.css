@@ -115,6 +115,8 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 :root { --pagina: 256mm; }
 .questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px;
   display: flex; flex-direction: column; min-height: var(--pagina); }
+/* ficha longa: duas páginas inteiras (caderno.js mede e marca) */
+.questao.dupla { min-height: calc(2 * var(--pagina)); }
 .questao > * { flex: 0 0 auto; }
 .questao header { display: flex; align-items: center; gap: 2.5mm; font-family: var(--sans); font-size: 8.5pt; color: var(--ink-2); padding: 0 4mm 0 0; border-bottom: 1px solid var(--line); background: #F6F7F9; flex-wrap: wrap; }
 .questao .num { font-family: var(--mono); font-size: 13pt; font-weight: 500; color: #fff; background: var(--accent); padding: 2mm 3mm; align-self: stretch; display: flex; align-items: center; }

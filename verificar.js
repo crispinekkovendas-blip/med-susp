@@ -169,6 +169,8 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   const proibido = regras.filter(r => (r.sel.includes(".questao") || r.sel.includes(".comentario")) && /overflow:\s*hidden|break-inside:\s*avoid|page-break-inside:\s*avoid/.test(r.corpo));
   exige(!proibido.length, "caderno.css: .questao e .comentario não podem ter overflow: hidden nem break-inside: avoid (a ficha longa precisa correr para a página seguinte)");
   exige(/--pagina:\s*256mm/.test(css), "caderno.css: --pagina deve ser 256mm");
+  exige(/\.questao\.dupla\s*\{\s*min-height:\s*calc\(2 \* var\(--pagina\)\)/.test(css), "caderno.css: a ficha longa (.questao.dupla) precisa ocupar duas páginas inteiras");
+  exige(/classList\.add\("dupla"\)/.test(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8")), "caderno.js: não marca a ficha longa com a classe dupla");
 }
 
 /* --- um DOM de mentira ---------------------------------------------------- */

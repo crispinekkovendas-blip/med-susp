@@ -196,6 +196,28 @@
   }
 
   const raiz = document.getElementById("app");
-  function render() { raiz.innerHTML = ""; raiz.setAttribute("aria-busy", "false"); raiz.append(painel(), documento()); }
+  /* Ficha que não cabe numa página: passa a ocupar DUAS páginas inteiras
+     (classe "dupla"), e a pauta de anotações cresce até o fim da segunda —
+     sem isso, o resto da segunda folha sairia em branco. Só no navegador:
+     precisa de medida real (o DOM de mentira do harness não mede). */
+  function medirFichas() {
+    const fichas = document.querySelectorAll(".questao");
+    if (!fichas.length || typeof fichas[0].getBoundingClientRect !== "function") return;
+    const regua = document.createElement("div");
+    regua.style.cssText = "position:absolute;visibility:hidden;height:var(--pagina)";
+    document.body.appendChild(regua);
+    const pagina = regua.getBoundingClientRect().height;
+    regua.remove();
+    if (!pagina) return;
+    fichas.forEach(f => {
+      f.classList.remove("dupla");
+      if (f.getBoundingClientRect().height > pagina + 1) f.classList.add("dupla");
+    });
+  }
+  function render() {
+    raiz.innerHTML = ""; raiz.setAttribute("aria-busy", "false"); raiz.append(painel(), documento());
+    if (typeof requestAnimationFrame === "function") requestAnimationFrame(medirFichas);
+  }
   render();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(medirFichas);
 })();
