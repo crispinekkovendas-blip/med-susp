@@ -42,6 +42,12 @@ user decided.
   a 2027 batch later is a data change.
 - Clínica Médica is **out of scope** (the user listed four areas).
 - The two explanation tabs stay, **including Simplificando**.
+- **Sources are VUNESP only** (decided after the planning research showed that
+  SUS-SP 2025 and 2022 were Quadrix): SUS-SP 2026 supplies 20 per area (17 in
+  Cirurgia, where the banca annulled 21, 23 and 36), and **HRPP 2026**
+  (Hospital Regional de Presidente Prudente, VUNESP, 30/11/2025, 100 questions,
+  five alternatives) supplies the rest. UNESP Botucatu, FAMEMA and Einstein are
+  excluded because they use four alternatives. No inéditas, no Quadrix.
 
 ## 2. Folder, repo, deploy
 
@@ -82,8 +88,10 @@ public mirrors, which serve the original VUNESP PDFs with a text layer:
   (100 questions, 5 h, text layer intact; PDF 1.5, 1.29 MB).
 - Estratégia MED and MedCof blog posts: gabarito preliminar and definitivo
   per edition, and their own PDF mirrors.
-- If a mirror is missing for an edition, the user's Chrome session can fetch
-  the PDF from the candidate area; the harness only needs the resulting text.
+- The candidate area needs a candidate login (verified), so a caderno with no
+  public mirror is only reachable through a candidate the user knows; the
+  plan's Task 13 lists the attempts for the HRPP 2026 caderno, which had no
+  public mirror at planning time, and the fallback if none works.
 
 Every downloaded PDF and its `pdftotext` output are kept in
 `ferramentas/cadernos/` with a `FONTES.md` that records URL, date and size, so
@@ -102,11 +110,12 @@ alternatives, A–E, one correct.
 
 ### 3.3 Selection rule
 
-- The **2026 edition** (exam applied 14/12/2025) supplies its full block of 20
-  per area, minus annulled questions and questions that need an image.
-- The **2025 edition** supplies the remaining questions of each area (5 when
-  nothing was dropped), chosen to cover temas the 2026 block did not touch.
-  If 2025 cannot fill an area, the 2024 edition is next.
+- The **SUS-SP 2026 edition** (exam applied 14/12/2025) supplies its full
+  block of 20 per area, minus annulled questions (4, 21, 23, 36 — three of
+  them in Cirurgia) and questions that need an image.
+- **HRPP 2026** (VUNESP, same format) supplies the remaining questions of each
+  area (5; 8 in Cirurgia), chosen to cover temas the SUS-SP block did not
+  touch. SUS-SP 2025 and 2022 are Quadrix exams and are not used.
 - Excluded: questions annulled by the banca (gabarito "*"), questions whose
   image is essential (ECG, radiograph, photo, graph). Tables are reproduced
   as HTML in `texto`. A question that only references a well-known figure
@@ -138,8 +147,12 @@ meta: {
       txt: "Seleção Pública para Residência Médica 2026 — SUS/SP, prova objetiva de acesso direto (VUNESP, 14/12/2025), gabarito definitivo",
       caderno: "ferramentas/cadernos/susp2026.txt",
       gabarito: "ferramentas/cadernos/susp2026-gabarito.txt" },
-    { id: "susp2025", edicao: 2025, ... }
-  ]
+    { id: "hrpp2026", edicao: 2026, rotulo: "HRPP 2026",
+      txt: "Processo Seletivo para Residência Médica 2026 — Hospital Regional de Presidente Prudente, prova objetiva 001 de acesso direto (VUNESP, 30/11/2025); gabarito de 02/12/2025",
+      caderno: "ferramentas/cadernos/hrpp2026.txt",
+      gabarito: "ferramentas/cadernos/hrpp2026-gabarito.txt" }
+  ],
+  site: "susp.vercel.app"
 }
 ```
 
@@ -149,9 +162,9 @@ temas are all generated from it. The only per-area thing outside the data is
 the colour token in CSS (`--ped`, `--prev`, `--cir`, `--go`), keyed by area
 id; adding an area means one CSS token plus data.
 
-`edicao` is the **residency-year label the banca uses** (the 2026 exam was
-applied in December 2025). The student always sees the edition label:
-"SUS-SP 2026 · Questão 55".
+`edicao` is the **residency-year label the banca uses** (the 2026 exams were
+applied in November/December 2025). The student always sees
+`${rotulo} · Questão NN`: "SUS-SP 2026 · Questão 55", "HRPP 2026 · Questão 12".
 
 ### 4.2 A question
 
@@ -260,9 +273,10 @@ demands the right failure message and restores.
 Checks specific to this bank:
 
 1. **Shape:** `meta.areas` non-empty with unique ids; every question's `area`
-   is in it; the same number of questions in every area, equal to the
-   constant `POR_AREA` at the top of the harness (`1` during Deliverable 1's
-   stub bank, `25` from Deliverable 3 on); ids `<area>01…` sequential in
+   is in it; per-area counts equal to the constant
+   `ESPERADO = { ped, prev, cir, go }` at the top of the harness (`1` each
+   during Deliverable 1's stub bank, `25` as each area is written — a
+   shortfall in one area is explicit, never hidden); ids `<area>01…` sequential in
    `meta.areas` order; newest edition first inside an area, then by numero.
 2. **Fidelity to the caderno** — the guarantee INEPAM could not give. For
    every question the harness reads the fonte's `caderno` text file and
@@ -327,8 +341,8 @@ from a file, never through a Bash heredoc (known harness issue).
    controls adapted, and a **stub bank of 4 real 2026 questions** (one per
    area, fully commented) so that app, caderno and harness run end to end.
    Preview deploy, then production (project `susp` created).
-2. **Sourcing:** 2026 and 2025 cadernos and definitive gabaritos in
-   `ferramentas/cadernos/`, extractor and gabarito parser working on both,
+2. **Sourcing:** SUS-SP 2026 and HRPP 2026 cadernos and definitive gabaritos
+   in `ferramentas/cadernos/`, extractor and gabarito parser working on both,
    block boundaries confirmed, `selecao.md` written with the 100 picks.
 3. **Content, one area at a time** in the order Pediatria, Preventiva,
    Cirurgia, GO: build the 25 objects, write comentário, simples and
