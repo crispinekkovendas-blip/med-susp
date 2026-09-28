@@ -23,7 +23,7 @@
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
-  const PADRAO = { area: "todas", edicao: "todas", simples: true, pauta: "linhas", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
+  const PADRAO = { area: "todas", edicao: "todas", simples: true, figuras: true, pauta: "linhas", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
   const ler = () => { try { const s = JSON.parse(localStorage.getItem(CH) || "{}"); const o = Object.assign({}, PADRAO); for (const k in PADRAO) if (k in s) o[k] = s[k]; return o; } catch (e) { return Object.assign({}, PADRAO); } };
   const gravar = () => { try { localStorage.setItem(CH, JSON.stringify(op)); } catch (e) { /* sem armazenamento */ } };
   let op = ler();
@@ -60,7 +60,7 @@
     const n = escolhidas().length;
     return h("section", { id: "painel", "aria-label": "Opções do caderno" }, h("div", { class: "miolo" },
       h("div", { class: "cab" },
-        h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, referências, Simplificando e pauta para anotar`)),
+        h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, figura, referências, Simplificando e pauta para anotar`)),
         h("div", { class: "acoes" },
           h("a", { class: "acao", href: "../" }, "← Banco na tela"),
           h("button", { class: "acao primaria", type: "button", onclick: () => window.print() }, "Imprimir / salvar em PDF"))),
@@ -71,6 +71,8 @@
         opcao("area", "Área", [["todas", "Todas"]].concat(AREAS.map(a => [a.id, a.nome]))),
         opcao("edicao", "Edição", [["todas", "Todas"]].concat(EDICOES.map(f => [f.id, f.rotulo]))),
         opcao("simples", "Simplificando", [[true, "Incluir"], [false, "Não"]]),
+        /* com figura toda ficha vira duas páginas; sem, 4 em 10 cabem numa */
+        opcao("figuras", "Figuras", [[true, "Incluir"], [false, "Não"]]),
         opcao("pauta", "Anotações", [["linhas", "Pauta"], ["nenhuma", "Em branco"]]),
         opcao("letra", "Letra", [["normal", "Normal"], ["grande", "Grande"]]),
         opcao("folha", "Folha de respostas", [[false, "Não"], [true, "Sim"]]),
@@ -140,7 +142,7 @@
         h("div", { class: "texto-comentario", html: q.comentario }),
         /* a figura: caminho relativo a caderno/, com largura e altura (a
            medida da ficha precisa do tamanho antes de a imagem carregar) */
-        q.figura ? h("figure", { class: "figura" }, h("span", { class: "moldura", style: `--w:${q.figura.w};--h:${q.figura.h}` }, h("img", { src: "../" + q.figura.src, width: q.figura.w, height: q.figura.h, alt: q.figura.legenda })), h("figcaption", null, q.figura.legenda + " ", h("span", { class: "credito" }, q.figura.fonte))) : null,
+        op.figuras && q.figura ? h("figure", { class: "figura" }, h("span", { class: "moldura", style: `--w:${q.figura.w};--h:${q.figura.h}` }, h("img", { src: "../" + q.figura.src, width: q.figura.w, height: q.figura.h, alt: q.figura.legenda })), h("figcaption", null, q.figura.legenda + " ", h("span", { class: "credito" }, q.figura.fonte))) : null,
         h("p", { class: "referencias", html: `<span class="rot">Referências</span> ${q.referencias.join(" · ")}` }),
         op.simples && q.simples ? h("div", { class: "simples" }, h("p", { class: "rot" }, "Simplificando"), h("div", { html: q.simples })) : null,
         h("p", { class: "fonte" }, `Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo}.`)),

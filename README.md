@@ -24,6 +24,11 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Ginecologia e Obstetrícia | 20 | 5 | 25 |
 | **Total** | **76** | **24** | **100** |
 
+Figuras: 100 (uma por questão). Fichas do caderno (medição de 2026-09-28,
+geometria do papel): com figuras, as 100 são duplas — 200 páginas de fichas;
+sem figuras (opção "Figuras: Não"), 10 normais, 29 apertadas e 61 duplas —
+161 páginas.
+
 Ids `ped01–ped25`, `prev01–prev25`, `cir01–cir25`, `go01–go25`; dentro da área,
 primeiro as de 2026, depois as de 2021, cada grupo pelo número da questão na
 prova. Do SUS-SP 2026 ficaram de fora as anuladas (4, 21, 23 e 36 — a 4 é de
@@ -41,7 +46,7 @@ caderno/              o banco em papel (index.html, caderno.js, caderno.css)
 figuras/              <id>.jpg, uma por questão (≤ 1400 px, ≤ 600 KB) + FONTES.md (proveniência);
                       candidatos.json, escolhas.json e figuras.json ficam fora do ar
 verificar.js          o harness — não vai para o ar (.vercelignore)
-controles.js          os 60 controles negativos do harness — idem
+controles.js          os 61 controles negativos do harness — idem
 ferramentas/          fora do ar: metadados, extração, montagem, figuras, testes, seleção, cadernos
 docs/superpowers/     spec e plano — fora do ar
 ```
@@ -220,7 +225,7 @@ Antes das fichas: capa (com o **nome do estudante**, também no rodapé de toda
 página), instruções, mapa de temas por área; texto compartilhado sai uma vez
 por sequência. Depois: gabarito resumido e "Meu resultado" (opcionais);
 folha de respostas opcional. Opções em `susp:caderno`: área, edição,
-Simplificando, pauta, letra, folha, resumo, nome. Cores impressas de verdade
+Simplificando, figuras, pauta, letra, folha, resumo, nome. Cores impressas de verdade
 (`print-color-adjust: exact`). Para conferir, meça `.questao` no navegador:
 as normais dão 256 mm, as duplas 512 mm, e as apertadas ficam entre 256 e
 uns 275 mm na tela (o texto da tela é 6 mm mais estreito que o do papel;
@@ -232,7 +237,7 @@ papel).
 ```
 node ferramentas/montar.js       # reescreve banco.js a partir das entradas
 node verificar.js                # ~10.900 conferências; sai 1 se algo falhar
-node controles.js                # planta 60 falhas, uma por vez, e exige que cada uma seja mordida
+node controles.js                # planta 61 falhas, uma por vez, e exige que cada uma seja mordida
 python ferramentas/testes.py     # 15 testes das ferramentas (extração, gabarito, normalização)
 node ferramentas/conferir_readme.js
 ```

@@ -452,10 +452,11 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(((app.querySelector(".rodape-impresso") || {}).textContent || "").startsWith("Genaro Tuco Zarate · "), "o rodapé impresso não começa com o nome do estudante");
     /* uma área, sem Simplificando, em branco, com folha, sem resumo */
     const a0 = AREAS[0];
-    app = montar({ area: a0.id, simples: false, pauta: "nenhuma", folha: true, resumo: false });
+    app = montar({ area: a0.id, simples: false, figuras: false, pauta: "nenhuma", folha: true, resumo: false });
     const qs2 = todos(app, ".questao");
     exige(qs2.length === Q.filter(q => q.area === a0.id).length, `com a área ${a0.id}, o caderno montou ${qs2.length} fichas`);
     exige(todos(app, ".simples").length === 0, "Simplificando desligado ainda aparece");
+    exige(todos(app, ".figura").length === 0, "a opção Figuras desligada ainda imprime figuras");
     exige(todos(app, ".notas").length === qs2.length && todos(app, ".notas").every(x => x.className.includes("nenhuma")), "a opção de anotações em branco não chegou às fichas");
     exige(todos(app, ".folha").flatMap(f => todos(f, ".bolha")).length === qs2.length * 5, "a folha de respostas não tem 5 bolhas por questão");
     exige(todos(app, ".gabarito").length === 0, "com resumo desligado, o gabarito resumido ainda foi impresso");
