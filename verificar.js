@@ -29,7 +29,7 @@ const exige = (c, m) => { n++; if (!c) erro(m); };
 
 /* quantas questões cada área deve ter: 1 no esboço; a tarefa de conteúdo de
    cada área sobe para o número final dela */
-const ESPERADO = { ped: 20, prev: 19, cir: 17, go: 20 };
+const ESPERADO = { ped: 25, prev: 25, cir: 25, go: 25 };
 
 /* --- carrega o banco ---------------------------------------------------- */
 const src = fs.readFileSync(path.join(AQUI, "banco.js"), "utf8");
