@@ -130,6 +130,15 @@ def test_extracao_susp2026():
         for L, a in zip("ABCDE", q["alternativas"]):
             assert normalizar(a) in cad, f"alternativa {L} da questão {q['numero']} não está no texto do caderno"
 
+@teste
+def test_normalizar_js_e_py_batem():
+    from normalizar import normalizar
+    amostras = ["Recém-<strong>nascido</strong> “a termo” — SatO2 ≥ 95 %", "dialí\xad\ntica;\n  Ácido  fólico", "<p>“Mola” – hCG ‘alto’</p>", "x − y", "(< 7 dias) e PA > 90", "<p>sat &lt; 90</p>"]
+    saida_js = subprocess.run(["node", "-e", "const {normalizar}=require('./ferramentas/normalizar.js');const a=JSON.parse(process.argv[1]);process.stdout.write(JSON.stringify(a.map(normalizar)))", json.dumps(amostras)], capture_output=True, text=True, encoding="utf-8", cwd=os.path.join(AQUI, ".."))
+    assert saida_js.returncode == 0, saida_js.stderr
+    assert json.loads(saida_js.stdout) == [normalizar(s) for s in amostras], f"JS {saida_js.stdout} != PY {[normalizar(s) for s in amostras]}"
+    assert normalizar("Recém-<strong>nascido</strong> “a termo”") == 'recem- nascido "a termo"'
+
 if __name__ == "__main__":
     for f in testes:
         try:
