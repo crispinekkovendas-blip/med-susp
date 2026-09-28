@@ -1,0 +1,202 @@
+/* ============================================================================
+   Caderno para imprimir — um livro de estudo em folhas A4.
+
+   Cores impressas de verdade: `print-color-adjust: exact` faz o Chrome
+   imprimir fundos e bordas coloridas mesmo com "Gráficos de fundo"
+   desligado. A paleta é a do site (azul-marinho para Português, âmbar para
+   Matemática), em tintas claras que não atrapalham marca-texto.
+   ========================================================================== */
+:root {
+  --ink: #10151B; --ink-2: #48525F; --ink-3: #7A8391;
+  --line: #D5DAE1; --line-2: #AEB6C0;
+  --bg-2: #E9ECF0;
+  --accent: #123A5E; --accent-2: #1B5E96; --accent-bg: #EAF1F8;
+  --pt: #123A5E; --pt-bg: #EAF1F8;
+  --mt: #8A6209; --mt-bg: #FBF3E1;
+  --ok: #1A6B4B; --ok-bg: #E8F4EE;
+  --simples: #6B3D8F; --simples-bg: #F4EEF9;
+  --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+html, body { margin: 0; background: var(--bg-2); color: var(--ink); }
+body { font: 10.5pt/1.5 var(--serif); -webkit-font-smoothing: antialiased; }
+:where(a, button):focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+.rot { font-family: var(--sans); font-size: 8pt; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+
+/* --- painel de opções (só na tela) --------------------------------------- */
+#painel { background: #fff; border-bottom: 1px solid var(--line); font-family: var(--sans); font-size: 13px; }
+#painel .miolo { max-width: 1000px; margin: 0 auto; padding: 14px 16px 12px; }
+#painel .cab { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+#painel h1 { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -.01em; }
+#painel .sub { margin: 2px 0 0; color: var(--ink-3); font-size: 12.5px; }
+#painel .acoes { display: flex; gap: 8px; flex-wrap: wrap; }
+.acao { border: 1px solid var(--line); border-radius: 6px; background: #fff; padding: 8px 13px; font: inherit; font-size: 13px; color: var(--ink-2); text-decoration: none; cursor: pointer; }
+.acao:hover { border-color: var(--line-2); color: var(--ink); }
+.acao.primaria { background: var(--accent-2); border-color: var(--accent-2); color: #fff; font-weight: 500; }
+.acao.primaria:hover { background: var(--accent); border-color: var(--accent); }
+#painel .opcoes { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 12px; }
+.opcao { display: flex; flex-direction: column; gap: 5px; }
+.opcao .rot { font-size: 10.5px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; background: #fff; overflow: hidden; }
+.seg button { border: 0; border-right: 1px solid var(--line); background: transparent; padding: 6px 11px; font: inherit; font-size: 12.5px; color: var(--ink-2); cursor: pointer; }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+#painel .dica { margin: 12px 0 0; color: var(--ink-3); font-size: 12px; }
+
+/* --- as folhas ----------------------------------------------------------- */
+#documento { padding: 16px 0 40px; }
+.pagina { width: 210mm; max-width: 100%; margin: 0 auto 14px; padding: 16mm 17mm 18mm; background: #fff; box-shadow: 0 1px 2px rgba(16,21,27,.08), 0 6px 20px rgba(16,21,27,.08); position: relative; }
+.letra-grande { font-size: 12pt; }
+h2 { font-family: var(--sans); font-size: 16pt; font-weight: 600; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 2.5px solid var(--accent); letter-spacing: -.01em; display: flex; align-items: baseline; gap: 3mm; }
+h2 .sec { font-family: var(--mono); font-size: 8pt; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: #fff; background: var(--accent); padding: .8mm 2mm; border-radius: 2px; position: relative; top: -1mm; }
+h3 { font-family: var(--sans); font-size: 11pt; font-weight: 600; margin: 7mm 0 2mm; color: var(--accent); }
+.sub { margin: 0 0 5mm; color: var(--ink-2); font-family: var(--sans); font-size: 9.5pt; }
+.tag { display: inline-block; font-family: var(--sans); font-size: 7.5pt; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; padding: .6mm 1.8mm; border-radius: 2px; }
+.tag.pt { background: var(--pt-bg); color: var(--pt); }
+.tag.mt { background: var(--mt-bg); color: var(--mt); }
+
+/* capa */
+.capa { border-top: 6mm solid var(--accent); }
+.capa .faixa { display: flex; justify-content: space-between; font-family: var(--sans); font-size: 8.5pt; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 12mm; }
+.capa h1 { font-family: var(--sans); font-size: 30pt; font-weight: 600; line-height: 1.05; letter-spacing: -.025em; margin: 0 0 4mm; color: var(--ink); }
+.capa h1 em { font-style: normal; color: var(--accent-2); }
+.capa .lema { font-size: 12pt; color: var(--ink-2); margin: 0 0 9mm; max-width: 62ch; }
+.fatos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin: 0 0 9mm; }
+.fatos div { padding: 3mm 4mm; border: 1px solid var(--line); border-top: 3px solid var(--accent-2); border-radius: 2px; background: #fff; }
+.fatos dt { font-family: var(--sans); font-size: 8pt; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+.fatos dd { margin: 1mm 0 0; font-family: var(--mono); font-size: 16pt; color: var(--ink); }
+.campos p { font-family: var(--sans); margin: 0 0 4mm; font-size: 10.5pt; display: flex; align-items: flex-end; gap: 3mm; }
+.linha { display: inline-block; width: 110mm; border-bottom: 1px solid var(--ink); height: 5mm; vertical-align: bottom; }
+.linha.curta { width: 30mm; }
+.linha.nome { height: auto; min-height: 5mm; padding: 0 2mm 1mm; font-family: var(--sans); font-size: 13pt; font-weight: 600; color: var(--accent); letter-spacing: -.01em; }
+#painel .campo { font: inherit; font-size: 13px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; min-width: 240px; color: var(--ink); }
+.instrucoes { margin-top: 8mm; padding: 5mm 6mm; background: var(--accent-bg); border-left: 3px solid var(--accent-2); border-radius: 2px; }
+.instrucoes h2 { border: 0; padding: 0; margin: 0 0 2mm; font-size: 12pt; color: var(--accent); }
+.instrucoes ol { padding-left: 5mm; margin: 0; }
+.instrucoes li { margin: 0 0 2mm; font-size: 10pt; }
+.instrucoes b { font-weight: 600; color: var(--accent); }
+.capa .nota { margin-top: 10mm; font-family: var(--sans); font-size: 8.5pt; color: var(--ink-3); }
+
+/* folha de respostas e gabarito resumido */
+.colunas { display: flex; gap: 8mm; flex-wrap: wrap; align-items: flex-start; }
+table.grade { border-collapse: collapse; font-family: var(--mono); font-size: 9pt; }
+table.grade th, table.grade td { border: 1px solid var(--line-2); padding: 1.1mm 1.5mm; text-align: center; }
+table.grade th { font-family: var(--sans); font-weight: 600; font-size: 8pt; background: var(--accent-bg); color: var(--accent); }
+table.grade td.n { font-weight: 500; background: #F6F7F9; }
+table.grade td.conf { width: 7mm; }
+.bolha { display: inline-block; width: 4.2mm; height: 4.2mm; border: 1.3px solid var(--ink); border-radius: 50%; vertical-align: middle; background: #fff; }
+table.chave td.l { font-weight: 600; width: 9mm; color: var(--accent); }
+
+/* mapa de temas */
+table.temas { border-collapse: collapse; width: 100%; font-size: 9.5pt; }
+table.temas td { border-bottom: 1px solid var(--line); padding: 1.3mm 2mm; vertical-align: top; }
+table.temas td.d { width: 24mm; }
+table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: right; color: var(--ink-2); width: 42%; letter-spacing: .02em; }
+
+/* --- fichas ----------------------------------------------------------------- */
+/* o texto de apoio longo sai em duas colunas, para caber numa página só */
+.texto { margin: 0 0 6mm; padding: 4mm 5mm; border: 1px solid var(--line-2); border-left: 4px solid var(--accent-2); background: #FBFCFD; break-inside: avoid; page-break-inside: avoid;
+  column-count: 2; column-gap: 6mm; column-rule: 1px solid var(--line); font-size: 9.5pt; line-height: 1.4; }
+.texto p { margin: 0 0 1.6mm; }
+.texto .rot { display: block; margin-bottom: 2mm; color: var(--accent); column-span: all; }
+.texto .fonte { font-size: 8.5pt; color: var(--ink-3); }
+/* UMA FICHA = UMA PÁGINA. A ficha tem a altura útil da folha A4 (297 − 14 −
+   16 de margens − 6 do rodapé = 261 mm) e é uma coluna flexível: o que o
+   comentário não usar, as linhas de anotação ocupam. Assim nunca sobra
+   branco no fim da página — sobra pauta. */
+/* 256 mm: 297 − 14 − 16 de margens − 6 do rodapé − 5 de folga para o
+   arredondamento do navegador, para nenhuma ficha vazar para a página seguinte */
+:root { --pagina: 256mm; }
+.questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px; break-inside: avoid; page-break-inside: avoid; overflow: hidden;
+  display: flex; flex-direction: column; min-height: var(--pagina); }
+.questao > * { flex: 0 0 auto; }
+.questao header { display: flex; align-items: center; gap: 2.5mm; font-family: var(--sans); font-size: 8.5pt; color: var(--ink-2); padding: 0 4mm 0 0; border-bottom: 1px solid var(--line); background: #F6F7F9; flex-wrap: wrap; }
+.questao .num { font-family: var(--mono); font-size: 13pt; font-weight: 500; color: #fff; background: var(--accent); padding: 2mm 3mm; align-self: stretch; display: flex; align-items: center; }
+.questao.mt .num { background: var(--mt); }
+.questao .tema { color: var(--ink-2); }
+.questao .origem { margin-left: auto; border: 1px solid var(--line-2); border-radius: 2px; padding: .5mm 2mm; font-size: 8pt; background: #fff; color: var(--ink-3); }
+.questao .origem.recuperada { border-color: var(--accent-2); color: var(--accent); font-weight: 600; }
+.questao .enunciado { margin: 0; padding: 3.5mm 5mm 1.5mm; font-size: 10.5pt; }
+.alts { list-style: none; margin: 0; padding: 1mm 5mm 3mm; font-size: 10pt; }
+.alts li { display: flex; align-items: baseline; gap: 2.5mm; margin: 0 0 1.2mm; }
+.alts .bolha { flex: 0 0 auto; position: relative; top: .8mm; }
+.alts .letra { flex: 0 0 5mm; font-family: var(--sans); font-weight: 600; font-size: 9.5pt; color: var(--ink-2); }
+.alts .letra::after { content: ")"; }
+/* gabarito + comentário, na mesma ficha */
+.comentario { border-top: 1px solid var(--line); padding: 3mm 5mm 3.5mm; background: #FDFDFE; }
+.comentario .gab { display: flex; align-items: center; gap: 3mm; margin: 0 0 2.5mm; }
+.comentario .letrao { font-family: var(--mono); font-size: 13pt; font-weight: 600; color: #fff; background: var(--ok); padding: .6mm 2.4mm; border-radius: 2px; line-height: 1.3; }
+.comentario .alt-certa { font-size: 10pt; color: var(--ink-2); }
+.texto-comentario { font-size: 9.5pt; line-height: 1.45; }
+.texto-comentario p { margin: 0 0 1.8mm; }
+.texto-comentario p:first-child { font-size: 10pt; }
+.texto-comentario p:last-child { margin-bottom: 0; }
+.texto-comentario strong { font-weight: 600; color: var(--ink); }
+.texto-comentario em { font-style: italic; }
+.simples { margin: 3mm 0 0; padding: 2.5mm 4mm; background: var(--simples-bg); border-left: 3px solid var(--simples); border-radius: 2px; font-size: 9pt; line-height: 1.45; }
+.simples .rot { color: var(--simples); display: block; margin-bottom: 1.5mm; }
+.simples p { margin: 0 0 1.5mm; }
+.simples p:last-child { margin-bottom: 0; }
+.simples em { font-style: normal; background: #fff; padding: 0 1mm; border-radius: 1px; box-shadow: inset 0 0 0 1px #DACBE6; }
+.comentario .fonte { margin: 3mm 0 0; font-family: var(--sans); font-size: 8pt; color: var(--ink-3); }
+/* autoavaliação e anotações */
+.auto { display: flex; align-items: center; gap: 5mm; padding: 2.5mm 5mm; border-top: 1px dashed var(--line-2); font-family: var(--sans); font-size: 9pt; color: var(--ink-2); }
+.auto .caixa { display: inline-flex; align-items: center; gap: 1.6mm; }
+.auto .quadrado { display: inline-block; width: 3.6mm; height: 3.6mm; border: 1.2px solid var(--ink); border-radius: 1px; background: #fff; }
+/* O resto da página é do estudante. As duas caixas são o elemento flexível
+   da ficha (flex: 1): crescem até o fim da folha, sem mínimo fixo — é isso
+   que faz cada ficha caber numa página sem sobrar branco. */
+.rascunho, .notas { margin: 0; padding: 2mm 5mm 3mm; border-top: 1px dashed var(--line-2); display: flex; flex-direction: column; flex: 1 1 auto !important; min-height: 24mm; }
+.rascunho .rot, .notas .rot { display: block; margin-bottom: 1.5mm; }
+/* matemática: quadriculado de 5 mm, bem leve (linhas a 9% de opacidade),
+   para a conta ficar por cima sem competir com o fundo */
+.rascunho::after { content: ""; display: block; flex: 1 1 auto; min-height: 16mm; border: 1px solid rgba(16,21,27,.22); border-radius: 2px; background-color: #fff;
+  background-image: linear-gradient(to right, rgba(16,21,27,.09) 0.25mm, transparent 0.25mm), linear-gradient(to bottom, rgba(16,21,27,.09) 0.25mm, transparent 0.25mm);
+  background-size: 5mm 5mm; background-position: 0 0; }
+/* português: pauta, quadriculado ou em branco */
+.notas .linhas { flex: 1 1 auto; min-height: 16mm; }
+.notas.linhas .linhas { background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(8.5mm - 1px), var(--line-2) calc(8.5mm - 1px), var(--line-2) 8.5mm); }
+.notas.quadriculado .linhas { border: 1px solid rgba(16,21,27,.22); border-radius: 2px;
+  background-image: linear-gradient(to right, rgba(16,21,27,.09) 0.25mm, transparent 0.25mm), linear-gradient(to bottom, rgba(16,21,27,.09) 0.25mm, transparent 0.25mm); background-size: 5mm 5mm; }
+.notas.nenhuma .linhas { background: none; }
+/* o quadro de resultado usa linhas de verdade */
+.resultado .linhas .linha { display: block; width: 100%; height: 8.5mm; border-bottom: 1px solid var(--line-2); }
+
+/* resultado */
+.resultado .fatos { grid-template-columns: repeat(3, 1fr); }
+.resultado .fatos dd { font-size: 12pt; }
+.resultado .sub { margin-top: 3mm; }
+
+.rodape-impresso { display: none; }
+
+/* --- tela pequena ----------------------------------------------------------- */
+@media (max-width: 720px) {
+  .pagina { padding: 7mm 4mm; margin-bottom: 8px; }
+  .fatos { grid-template-columns: repeat(2, 1fr); }
+  .capa h1 { font-size: 22pt; }
+  .linha { width: 55mm; }
+  .questao .origem { margin-left: 0; }
+  table.temas td.nums { width: 35%; }
+}
+
+/* --- impressão ---------------------------------------------------------------- */
+@page { size: A4 portrait; margin: 14mm 14mm 16mm; }
+@media print {
+  html, body { background: #fff; }
+  #painel { display: none !important; }
+  #documento { padding: 0; }
+  .pagina { width: auto; max-width: none; margin: 0; padding: 0; box-shadow: none; break-before: page; page-break-before: always; }
+  .pagina.capa { break-before: auto; page-break-before: auto; border-top-width: 5mm; padding-top: 6mm; }
+  .questao, .comentario, .texto { break-inside: avoid; page-break-inside: avoid; }
+  /* cada ficha é uma página: sem margem, quebra depois; o título da seção
+     some para não ocupar uma página quase vazia antes da primeira ficha */
+  .questao { margin: 0; break-after: page; page-break-after: always; }
+  .questoes > h2 { display: none; }
+  .texto { break-after: page; page-break-after: always; margin: 0; }
+  h2 { break-after: avoid; page-break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  .rodape-impresso { display: block; position: fixed; bottom: 0; left: 0; right: 0; text-align: center; font-family: var(--sans); font-size: 7.5pt; color: var(--ink-3); }
+  body { padding-bottom: 5mm; }
+}
