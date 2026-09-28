@@ -7,6 +7,9 @@ const fs = require("fs"), path = require("path");
 const RAIZ = path.join(__dirname, "..");
 const meta = require("./meta.js");
 const { serializar } = require("./serializar.js");
+/* a figura de cada questão: fatos da máquina (figuras.json) + legenda à mão */
+const figuras = JSON.parse(fs.readFileSync(path.join(RAIZ, "figuras", "figuras.json"), "utf8"));
+const legendas = require("./legendas.js");
 
 const questoesDe = {}, gabaritoDe = {};
 for (const f of meta.fontes) {
@@ -39,6 +42,10 @@ for (const a of meta.areas) {
     if (q.texto) obj.texto = q.texto;       /* texto compartilhado, vindo do caderno */
     if (e.texto) obj.texto = e.texto;       /* ou escrito à mão (tabela em HTML) */
     Object.assign(obj, { enunciado: q.enunciado, alternativas: q.alternativas, correta: "ABCDE".indexOf(g), referencias: e.referencias, comentario: e.comentario, simples: e.simples });
+    const fig = figuras[obj.id], leg = legendas[obj.id];
+    if (fig && !leg) throw new Error(`${onde}: a figura ${fig.src} está sem legenda em ferramentas/legendas.js`);
+    if (leg && !fig) throw new Error(`${onde}: há legenda para ${obj.id} em legendas.js, mas nenhuma figura em figuras/figuras.json`);
+    if (fig) obj.figura = { src: fig.src, w: fig.w, h: fig.h, legenda: leg, fonte: fig.fonte, pagina: fig.pagina };
     questoes.push(obj);
   });
 }

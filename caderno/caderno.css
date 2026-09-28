@@ -162,6 +162,13 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 .texto-comentario p:last-child { margin-bottom: 0; }
 .texto-comentario strong { font-weight: 600; color: var(--ink); }
 .texto-comentario em { font-style: italic; }
+/* a figura do comentário: altura limitada para não comer a ficha (a medida
+   das fichas já a inclui); legenda e crédito em letra miúda */
+.figura { margin: 2.5mm 0 0; break-inside: avoid; page-break-inside: avoid; }
+.figura img { display: block; max-width: 100%; max-height: 62mm; width: auto; height: auto; border: 1px solid var(--line-2); border-radius: 2px; }
+.figura figcaption { margin-top: 1.2mm; font-family: var(--sans); font-size: 8pt; line-height: 1.4; color: var(--ink-2); }
+.figura .credito { color: var(--ink-3); }
+.letra-grande .figura figcaption { font-size: 9pt; }
 .simples { margin: 3mm 0 0; padding: 2.5mm 4mm; background: var(--simples-bg); border-left: 3px solid var(--simples); border-radius: 2px; font-size: 9pt; line-height: 1.45; }
 .simples .rot { color: var(--simples); display: block; margin-bottom: 1.5mm; }
 .simples p { margin: 0 0 1.5mm; }

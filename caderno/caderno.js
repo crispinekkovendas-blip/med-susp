@@ -138,6 +138,9 @@
       h("div", { class: "comentario", "data-id": q.id, "data-letra": letra },
         h("div", { class: "gab" }, h("span", { class: "rot" }, "Gabarito"), h("span", { class: "letrao" }, letra), h("span", { class: "alt-certa", html: q.alternativas[q.correta] })),
         h("div", { class: "texto-comentario", html: q.comentario }),
+        /* a figura: caminho relativo a caderno/, com largura e altura (a
+           medida da ficha precisa do tamanho antes de a imagem carregar) */
+        q.figura ? h("figure", { class: "figura" }, h("img", { src: "../" + q.figura.src, width: q.figura.w, height: q.figura.h, alt: q.figura.legenda }), h("figcaption", null, q.figura.legenda + " ", h("span", { class: "credito" }, q.figura.fonte))) : null,
         h("p", { class: "referencias", html: `<span class="rot">Referências</span> ${q.referencias.join(" · ")}` }),
         op.simples && q.simples ? h("div", { class: "simples" }, h("p", { class: "rot" }, "Simplificando"), h("div", { html: q.simples })) : null,
         h("p", { class: "fonte" }, `Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo}.`)),
@@ -234,4 +237,6 @@
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(medirFichas);
   /* imprimir de uma tela estreita (celular) não pode dar outro caderno */
   if (typeof window.addEventListener === "function") window.addEventListener("beforeprint", medirFichas);
+  /* as figuras chegam depois do primeiro render: a medida é refeita no load */
+  if (typeof window.addEventListener === "function") window.addEventListener("load", medirFichas);
 })();

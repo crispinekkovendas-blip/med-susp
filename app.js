@@ -122,8 +122,10 @@
   function explicacao(q) {
     const referencias = `<p class="referencias"><span class="rot">Referências</span> ${q.referencias.join(" · ")}</p>`;
     const fonte = `<p class="fonte">Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo} · banca ${B.meta.banca}.</p>`;
+    const figura = q.figura ? figuraHtml(q.figura) : "";
     const paineis = {
-      comentario: h("div", { class: "comentario", role: "tabpanel", id: `pc-${q.id}`, "aria-labelledby": `ac-${q.id}`, html: q.comentario + referencias + fonte }),
+      comentario: h("div", { class: "comentario", role: "tabpanel", id: `pc-${q.id}`, "aria-labelledby": `ac-${q.id}`, html: q.comentario + figura + referencias + fonte,
+        onclick: e => { if (q.figura && e && e.target && e.target.tagName === "IMG") ampliar(q.figura); } }),
       simples: h("div", { class: "comentario simples", role: "tabpanel", id: `ps-${q.id}`, "aria-labelledby": `as-${q.id}`, html: q.simples || "" }),
     };
     const abas = {};
@@ -145,6 +147,29 @@
     return h("div", { class: "explicacao" },
       h("div", { class: "abas", role: "tablist", "aria-label": "Como explicar" }, abas.comentario, abas.simples),
       paineis.comentario, paineis.simples);
+  }
+
+  /* --- a figura do comentário -----------------------------------------------
+     Uma foto ou imagem de exame por questão (Wikimedia Commons, licença
+     livre), entre o comentário e as referências: imagem com width/height
+     (a página não pula quando ela carrega), legenda e crédito com link para
+     a página de origem. Clicar na imagem abre a versão ampliada. */
+  const escapa = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+  const credito = f => `<span class="credito">${escapa(f.fonte).replace("Wikimedia Commons", `<a href="${escapa(f.pagina)}" target="_blank" rel="noopener">Wikimedia Commons</a>`)}</span>`;
+  function figuraHtml(f) {
+    return `<figure class="figura"><img src="${escapa(f.src)}" width="${f.w}" height="${f.h}" alt="${escapa(f.legenda)}" loading="lazy" decoding="async"><figcaption>${escapa(f.legenda)} ${credito(f)}</figcaption></figure>`;
+  }
+  /* a figura ampliada cobre a tela; clique em qualquer lugar, o × ou Esc fecham */
+  function ampliar(f) {
+    const antiga = document.querySelector(".ampliar"); if (antiga) antiga.remove();
+    const caixa = h("div", { class: "ampliar", role: "dialog", "aria-modal": "true", "aria-label": "Figura ampliada" },
+      h("figure", null, h("img", { src: f.src, alt: f.legenda }), h("figcaption", { html: `${escapa(f.legenda)} ${credito(f)}` })),
+      h("button", { class: "fechar", type: "button", "aria-label": "Fechar" }, "×"));
+    const fecha = () => { caixa.remove(); document.removeEventListener("keydown", tecla); };
+    const tecla = e => { if (e && e.key === "Escape") fecha(); };
+    caixa.addEventListener("click", fecha);
+    document.addEventListener("keydown", tecla);
+    document.body.append(caixa);
   }
 
   /* --- teclado: A–E responde o cartão em foco ---------------------------- */

@@ -43,6 +43,24 @@ const AREAS = B.meta.areas;
 const IDS_AREA = AREAS.map(a => a.id);
 const FONTES = Object.fromEntries(B.meta.fontes.map(f => [f.id, f]));
 const dois = x => String(x).padStart(2, "0");
+/* largura e altura reais de um JPEG (marcador SOF) ou PNG (IHDR) */
+function dimensoes(b) {
+  if (b.length > 24 && b[0] === 0x89 && b[1] === 0x50) return { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+  if (b.length > 4 && b[0] === 0xFF && b[1] === 0xD8) {
+    const SOF = [0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF];
+    let i = 2;
+    while (i + 9 < b.length) {
+      if (b[i] !== 0xFF) { i++; continue; }
+      const m = b[i + 1];
+      if (m === 0xFF) { i++; continue; }
+      if (m === 0xD8 || m === 0x01 || (m >= 0xD0 && m <= 0xD7)) { i += 2; continue; }
+      if (SOF.includes(m)) return { h: b.readUInt16BE(i + 5), w: b.readUInt16BE(i + 7) };
+      i += 2 + b.readUInt16BE(i + 2);
+    }
+  }
+  return null;
+}
+const figurasUsadas = new Set();
 
 /* --- a forma ------------------------------------------------------------ */
 exige(AREAS.length >= 1 && new Set(IDS_AREA).size === AREAS.length, "meta.areas vazio ou com id repetido");
@@ -135,6 +153,28 @@ for (const q of Q) {
     exige(media <= 14, `${q.id}: "simples" com frases longas (média ${media.toFixed(1)} palavras por frase)`);
     exige(Math.max(...tam) <= 26, `${q.id}: "simples" tem uma frase de ${Math.max(...tam)} palavras`);
   }
+  /* figura: toda questão tem uma; arquivo real em figuras/, tamanho declarado
+     igual ao do arquivo, envelope de tamanho, legenda, fonte com licença livre */
+  exige(!!q.figura && typeof q.figura === "object", `${q.id}: sem figura`);
+  if (q.figura && typeof q.figura === "object") {
+    const fg = q.figura;
+    exige(fg.src === `figuras/${q.id}.jpg` || fg.src === `figuras/${q.id}.png`, `${q.id}: figura.src deve ser figuras/${q.id}.jpg (é "${fg.src}")`);
+    const arq = path.join(AQUI, String(fg.src || ""));
+    const existe = /^figuras\/[a-z]+\d\d\.(jpg|png)$/.test(String(fg.src)) && fs.existsSync(arq);
+    exige(existe, `${q.id}: o arquivo da figura não existe (${fg.src})`);
+    if (existe) {
+      const dim = dimensoes(fs.readFileSync(arq));
+      exige(!!dim && dim.w === fg.w && dim.h === fg.h, `${q.id}: figura declara ${fg.w}×${fg.h}, o arquivo tem ${dim ? dim.w + "×" + dim.h : "formato desconhecido"}`);
+      const kb = Math.round(fs.statSync(arq).size / 1024);
+      exige(kb <= 600, `${q.id}: figura pesada (${kb} KB, limite 600)`);
+      figurasUsadas.add(path.basename(fg.src));
+    }
+    exige(Number.isInteger(fg.w) && Number.isInteger(fg.h) && fg.w >= 400 && fg.h >= 300 && fg.w <= 1400 && fg.h <= 1400 && fg.w / fg.h >= 0.5 && fg.w / fg.h <= 3, `${q.id}: figura de ${fg.w}×${fg.h} fora do envelope (400–1400 px, proporção entre 1:2 e 3:1)`);
+    exige(typeof fg.legenda === "string" && fg.legenda.length >= 20 && fg.legenda.length <= 320 && !/<[a-z]/i.test(fg.legenda), `${q.id}: legenda da figura fora de 20–320 caracteres (ou com tag)`);
+    exige(typeof fg.fonte === "string" && fg.fonte.length >= 10 && fg.fonte.length <= 200 && /Wikimedia Commons/.test(fg.fonte) && /\b(CC0|CC BY|CC BY-SA|Public domain|domínio público)\b/i.test(fg.fonte), `${q.id}: fonte da figura precisa de autor, licença (CC0, CC BY, CC BY-SA ou domínio público) e "Wikimedia Commons"`);
+    exige(!/\bNC\b|\bND\b/.test(String(fg.fonte)), `${q.id}: figura com licença NC ou ND não pode entrar`);
+    exige(typeof fg.pagina === "string" && fg.pagina.startsWith("https://commons.wikimedia.org/wiki/File:"), `${q.id}: figura.pagina precisa ser a página do arquivo no Commons`);
+  }
   /* marcação: só as tags permitidas, equilibradas, nada vazado */
   for (const campo of ["enunciado", "comentario", "texto", "simples"]) {
     const t = q[campo]; if (!t) continue;
@@ -148,6 +188,16 @@ for (const q of Q) {
     exige(!estranhas.length, `${q.id}: tag não permitida em ${campo}: <${estranhas[0]}>`);
     exige(!/undefined|\[object Object\]|NaN/.test(t), `${q.id}: vazamento em ${campo}`);
   }
+}
+
+/* --- figuras: nada solto na pasta, FONTES.md registra todas ---------------- */
+{
+  const pasta = path.join(AQUI, "figuras");
+  const soltos = fs.existsSync(pasta) ? fs.readdirSync(pasta).filter(a => /\.(jpg|png)$/i.test(a) && !figurasUsadas.has(a)) : [];
+  exige(!soltos.length, `figuras/ tem arquivo que nenhuma questão usa: ${soltos.slice(0, 3).join(", ")}`);
+  const fontesMd = fs.existsSync(path.join(pasta, "FONTES.md")) ? fs.readFileSync(path.join(pasta, "FONTES.md"), "utf8") : "";
+  for (const q of Q) if (q.figura && q.figura.src) exige(fontesMd.includes(`| ${q.figura.src} |`), `${q.id}: figuras/FONTES.md não registra ${q.figura.src}`);
+  exige(!fontesMd.split("\n").some(l => l.startsWith("| ") && /CC BY-NC|CC BY-ND|-NC\b|-ND\b/.test(l)), "figuras/FONTES.md registra uma licença NC ou ND");
 }
 
 /* --- bytes de controle nos arquivos ------------------------------------- */
@@ -186,6 +236,11 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   exige(/\.seg\s*\{[^}]*flex-wrap:\s*wrap/.test(estreitas), "app.css: nas telas estreitas .seg precisa de flex-wrap: wrap (os filtros de GO e das edições ficam cortados no celular)");
   exige(/\.questao\.dupla\s*\{\s*min-height:\s*calc\(2 \* var\(--pagina\)\)/.test(css), "caderno.css: a ficha longa (.questao.dupla) precisa ocupar duas páginas inteiras");
   exige(/classList\.add\("dupla"\)/.test(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8")), "caderno.js: não marca a ficha longa com a classe dupla");
+  /* figuras: altura limitada na ficha, medida refeita quando as imagens
+     carregam, e a versão ampliada da página cobre a tela */
+  exige(/\.figura img\s*\{[^}]*max-height:\s*\d+mm/.test(css), "caderno.css: a figura da ficha precisa de max-height em mm (uma foto alta comeria a página)");
+  exige(/"load"/.test(cjs), "caderno.js: a medida das fichas precisa ser refeita depois que as imagens carregam (evento load)");
+  exige(/\.ampliar\s*\{[^}]*position:\s*fixed/.test(acss), "app.css: falta .ampliar { position: fixed … } (a figura ampliada precisa cobrir a tela)");
 }
 
 /* --- um DOM de mentira ---------------------------------------------------- */
@@ -202,6 +257,7 @@ function domDeMentira() {
       addEventListener(k, f) { (el.listeners[k] = el.listeners[k] || []).push(f); },
       append(...xs) { for (const x of xs) { const c = typeof x === "object" ? x : { nodeType: 3, textContent: String(x), tagName: "#text", children: [] }; c.parentNode = el; el.children.push(c); } },
       replaceWith(novo) { const p = el.parentNode; if (!p) return; const i = p.children.indexOf(el); if (i >= 0) { p.children[i] = novo; novo.parentNode = p; el.parentNode = null; } },
+      remove() { const p = el.parentNode; if (!p) return; const i = p.children.indexOf(el); if (i >= 0) p.children.splice(i, 1); el.parentNode = null; },
       closest() { return null; }, scrollIntoView() {},
       querySelector(sel) { return busca(el, sel)[0] || null; }, querySelectorAll(sel) { return busca(el, sel); },
       nodeType: 1,
@@ -222,10 +278,14 @@ function domDeMentira() {
     return out;
   }
   const app = mk("div"); app.attrs.id = "app";
+  const body = mk("body"); body.append(app);
   const document = {
     createElement: mk, createTextNode: t => ({ nodeType: 3, textContent: String(t), tagName: "#text", children: [] }),
-    getElementById: id => id === "app" ? app : busca(app, "#" + id)[0] || null,
-    addEventListener() {}, querySelector: s => busca(app, s)[0] || null, querySelectorAll: s => busca(app, s),
+    getElementById: id => id === "app" ? app : busca(body, "#" + id)[0] || null,
+    body, listeners: {},
+    addEventListener(k, f) { (document.listeners[k] = document.listeners[k] || []).push(f); },
+    removeEventListener(k, f) { document.listeners[k] = (document.listeners[k] || []).filter(x => x !== f); },
+    querySelector: s => busca(body, s)[0] || null, querySelectorAll: s => busca(body, s),
   };
   const armazem = {};
   const window = {
@@ -281,6 +341,18 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(pc && ps && pc.hidden === false && ps.hidden === true, "a aba Comentário não é a visível de início");
     exige(pc && pc.innerHTML.startsWith(Q[0].comentario), "o painel Comentário não mostra o comentário");
     exige(pc && pc.innerHTML.includes('class="referencias"') && Q[0].referencias.every(r => pc.innerHTML.includes(r)), "o painel Comentário não traz a linha de referências");
+    /* a figura: dentro do painel, com tamanho, legenda e crédito; o clique amplia; Esc fecha */
+    if (Q[0].figura) {
+      const fg = Q[0].figura;
+      exige(pc && pc.innerHTML.includes('<figure class="figura">') && pc.innerHTML.includes(`src="${fg.src}"`) && pc.innerHTML.includes(fg.legenda) && pc.innerHTML.includes(fg.pagina), "o painel Comentário não traz a figura (imagem + legenda + crédito com link)");
+      exige(pc && pc.innerHTML.includes(`width="${fg.w}" height="${fg.h}"`), "a imagem do comentário sai sem width/height (a página pularia quando ela carrega)");
+      exige(pc && pc.innerHTML.indexOf('<figure class="figura">') < pc.innerHTML.indexOf('class="referencias"'), "a figura precisa vir antes das referências");
+      ((pc && pc.listeners.click) || []).forEach(fn => fn({ target: { tagName: "IMG" } }));
+      const amp = window.document.querySelector(".ampliar");
+      exige(!!amp && !!amp.querySelector("img") && amp.querySelector("img").attrs.src === fg.src && amp.innerHTML.concat(amp.textContent, (amp.querySelector("figcaption") || {}).innerHTML || "").includes(fg.legenda), "clicar na imagem não abre a figura ampliada (.ampliar com a imagem e a legenda)");
+      (window.document.listeners.keydown || []).slice().forEach(fn => fn({ key: "Escape" }));
+      exige(!window.document.querySelector(".ampliar"), "Esc não fecha a figura ampliada");
+    }
     if (abas.length === 2) (abas[1].listeners.click || []).forEach(fn => fn());
     exige(ps && ps.hidden === false && pc.hidden === true, "clicar em Simplificando não trocou o painel");
     exige(window.localStorage.getItem("susp:aba") === "simples", "a aba escolhida não foi guardada em susp:aba");
@@ -357,6 +429,13 @@ const todos = (el, sel) => el.querySelectorAll(sel);
         && f.querySelector(".tag").textContent === AREAS.find(a => a.id === d.area).nome;
     };
     exige(qs.every(fichaOk), "alguma ficha não traz, dentro dela, gabarito certo + comentário + referências + Simplificando + autoavaliação + pauta + tag da área");
+    const figuraOk = f => {
+      const d = Q.find(x => x.id === f.attrs["data-id"]); if (!d || !d.figura) return true;
+      const c = f.querySelector(".comentario"), g = c && c.querySelector(".figura"), im = g && g.querySelector("img");
+      return !!im && im.attrs.src === "../" + d.figura.src && String(im.attrs.width) === String(d.figura.w) && String(im.attrs.height) === String(d.figura.h)
+        && g.textContent.includes(d.figura.legenda) && g.textContent.includes(d.figura.fonte);
+    };
+    exige(qs.every(figuraOk), "alguma ficha não traz a figura (imagem em ../figuras/ com largura e altura, legenda e fonte) dentro do comentário");
     const fontes = qs.map(f => (f.querySelector(".fonte") || {}).textContent || "");
     const fonteOk = (t, i) => { const d = Q.find(x => x.id === qs[i].attrs["data-id"]); return t === `Questão ${dois(d.numero)} · ${FONTES[d.fonte].rotulo}.`; };
     exige(fontes.every(fonteOk), `a linha de fonte da ficha não é "Questão NN · ROTULO." ("${fontes.find((t, i) => !fonteOk(t, i))}")`);
@@ -391,7 +470,7 @@ const todos = (el, sel) => el.querySelectorAll(sel);
 /* --- relatório ------------------------------------------------------------- */
 const porArea = AREAS.map(a => `${a.curto} ${Q.filter(q => q.area === a.id).length}`).join(" · ");
 const porFonte = B.meta.fontes.map(f => `${f.rotulo} ${Q.filter(q => q.fonte === f.id).length}`).join(" · ");
-console.log(`\n${falhas.length ? "✗" : "✓"} banco SUS-SP — ${Q.length} questões (${porArea}; ${porFonte}) · ${n} conferências`);
+console.log(`\n${falhas.length ? "✗" : "✓"} banco SUS-SP — ${Q.length} questões (${porArea}; ${porFonte}) · ${Q.filter(q => q.figura).length} figuras · ${n} conferências`);
 for (const f of falhas) console.log("   ! " + f);
 console.log(falhas.length ? `\n${falhas.length} problema(s).` : "\ntudo certo.");
 process.exit(falhas.length ? 1 : 0);

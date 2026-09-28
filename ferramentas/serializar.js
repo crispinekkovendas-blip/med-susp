@@ -1,7 +1,7 @@
 /* Escreve banco.js a partir do objeto: chaves sem aspas, strings em JSON,
    campos na ordem fixa, uma questão por bloco, um cabeçalho por área. Só o
    montar.js chama isto; banco.js nunca é editado como texto. */
-const CAMPOS = ["id", "area", "tema", "fonte", "edicao", "numero", "texto", "enunciado", "alternativas", "correta", "referencias", "comentario", "simples"];
+const CAMPOS = ["id", "area", "tema", "fonte", "edicao", "numero", "texto", "enunciado", "alternativas", "correta", "referencias", "comentario", "simples", "figura"];
 const CABECALHO = `/* ============================================================================
    BANCO DE QUESTÕES COMENTADAS — SUS-SP · VUNESP · acesso direto
 
@@ -10,7 +10,10 @@ const CABECALHO = `/* ==========================================================
        extraídos do caderno oficial (texto da banca, sem retoque);
      · ferramentas/cadernos/<fonte>-gabarito.txt — o gabarito oficial;
      · ferramentas/entrada/<area>.js — tema, referências, comentário e
-       Simplificando, escritos à mão.
+       Simplificando, escritos à mão;
+     · figuras/figuras.json — arquivo, tamanho, autor e licença da figura
+       (Wikimedia Commons, gerado por ferramentas/figuras.py) — e
+       ferramentas/legendas.js, a legenda escrita à mão.
    Não edite este arquivo: mude a entrada e rode \`node ferramentas/montar.js\`.
    ========================================================================== */
 `;

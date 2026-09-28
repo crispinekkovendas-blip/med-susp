@@ -1,0 +1,902 @@
+{
+ "ped01": {
+  "src": "figuras/ped01.jpg",
+  "w": 932,
+  "h": 1400,
+  "fonte": "MC3 Samantha J. Webb · Public domain · Wikimedia Commons",
+  "titulo": "File:U.S. Navy Seaman Rebekah Abernathy, right, measures the height of a child being screened to compete in Samoan Special Olympics activities during a Pacific Partnership 2013 health fair in Apia, Samoa, June 8 130608-N-SP369-126.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:U.S._Navy_Seaman_Rebekah_Abernathy,_right,_measures_the_height_of_a_child_being_screened_to_compete_in_Samoan_Special_Olympics_activities_during_a_Pacific_Partnership_2013_health_fair_in_Apia,_Samoa,_June_8_130608-N-SP369-126.jpg",
+  "bytes": 258897
+ },
+ "ped02": {
+  "src": "figuras/ped02.jpg",
+  "w": 720,
+  "h": 960,
+  "fonte": "Mohammad2018 · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Molscum contagiosum new image.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Molscum_contagiosum_new_image.jpg",
+  "bytes": 48989
+ },
+ "ped03": {
+  "src": "figuras/ped03.jpg",
+  "w": 983,
+  "h": 738,
+  "fonte": "S Sudharshan, Sudha K Ganesh, Jyotirmay Biswas · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:PMID20029144 01 congenital toxoplasmosis - chorioretinal scar.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:PMID20029144_01_congenital_toxoplasmosis_-_chorioretinal_scar.png",
+  "bytes": 75280
+ },
+ "ped04": {
+  "src": "figuras/ped04.jpg",
+  "w": 1400,
+  "h": 1108,
+  "fonte": "Shixart1985 · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Child undergoing an EEG test with electrodes on the head while lying on a bed in a clinic setting (cropped).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Child_undergoing_an_EEG_test_with_electrodes_on_the_head_while_lying_on_a_bed_in_a_clinic_setting_(cropped).jpg",
+  "bytes": 179220
+ },
+ "ped05": {
+  "src": "figuras/ped05.jpg",
+  "w": 1400,
+  "h": 980,
+  "fonte": "Márcia Cristina Martins da Silva · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Tityus serrulatus 260138359.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Tityus_serrulatus_260138359.jpg",
+  "bytes": 366328
+ },
+ "ped06": {
+  "src": "figuras/ped06.jpg",
+  "w": 700,
+  "h": 466,
+  "fonte": "CDC/Dr. Edwin P. Ewing, Jr. · Public domain · Wikimedia Commons",
+  "titulo": "File:Aortic stenosis rheumatic, gross pathology 20G0014 lores.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Aortic_stenosis_rheumatic,_gross_pathology_20G0014_lores.jpg",
+  "bytes": 73245
+ },
+ "ped07": {
+  "src": "figuras/ped07.jpg",
+  "w": 1400,
+  "h": 1102,
+  "fonte": "Hxa098020 · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Visually read a urine test strip by comparing it with the color key provided by the manufacturer. Color chart from Urinox-10 urine test strips by Diagnox is shown in this image.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Visually_read_a_urine_test_strip_by_comparing_it_with_the_color_key_provided_by_the_manufacturer._Color_chart_from_Urinox-10_urine_test_strips_by_Diagnox_is_shown_in_this_image.jpg",
+  "bytes": 167292
+ },
+ "ped08": {
+  "src": "figuras/ped08.jpg",
+  "w": 1400,
+  "h": 919,
+  "fonte": "Greg Knobloch · Public domain · Wikimedia Commons",
+  "titulo": "File:Mantoux tuberculin skin test.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Mantoux_tuberculin_skin_test.jpg",
+  "bytes": 182286
+ },
+ "ped09": {
+  "src": "figuras/ped09.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Governo do Estado de São Paulo · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Início da vacinação infantil com a Coronavac (51832474003).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:In%C3%ADcio_da_vacina%C3%A7%C3%A3o_infantil_com_a_Coronavac_(51832474003).jpg",
+  "bytes": 113063
+ },
+ "ped10": {
+  "src": "figuras/ped10.jpg",
+  "w": 1400,
+  "h": 891,
+  "fonte": "Littlekidsdoc · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Bullous impetigo1.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Bullous_impetigo1.jpg",
+  "bytes": 165387
+ },
+ "ped11": {
+  "src": "figuras/ped11.jpg",
+  "w": 1120,
+  "h": 1400,
+  "fonte": "D Sharon Pruitt · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Scared Child at Nighttime.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Scared_Child_at_Nighttime.jpg",
+  "bytes": 246356
+ },
+ "ped12": {
+  "src": "figuras/ped12.jpg",
+  "w": 800,
+  "h": 600,
+  "fonte": "Glow (Wikimedia Commons) · Public domain · Wikimedia Commons",
+  "titulo": "File:Prematur in CPAP.JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Prematur_in_CPAP.JPG",
+  "bytes": 78784
+ },
+ "ped13": {
+  "src": "figuras/ped13.jpg",
+  "w": 1285,
+  "h": 1400,
+  "fonte": "SpicyMilkBoy · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Sickle cell anemia smear.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Sickle_cell_anemia_smear.jpg",
+  "bytes": 157487
+ },
+ "ped14": {
+  "src": "figuras/ped14.jpg",
+  "w": 1400,
+  "h": 1388,
+  "fonte": "Michael Hawke MD · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Acute Otitis Media Stage of Resolution.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Acute_Otitis_Media_Stage_of_Resolution.jpg",
+  "bytes": 127673
+ },
+ "ped15": {
+  "src": "figuras/ped15.jpg",
+  "w": 1050,
+  "h": 1400,
+  "fonte": "Harmid · Public domain · Wikimedia Commons",
+  "titulo": "File:Infuuszakjes.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Infuuszakjes.jpg",
+  "bytes": 202247
+ },
+ "ped16": {
+  "src": "figuras/ped16.jpg",
+  "w": 788,
+  "h": 1400,
+  "fonte": "Natanalyzator · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Left side Dacryocystitis woman 80 years.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Left_side_Dacryocystitis_woman_80_years.jpg",
+  "bytes": 126181
+ },
+ "ped17": {
+  "src": "figuras/ped17.jpg",
+  "w": 1040,
+  "h": 839,
+  "fonte": "James Heilman, MD · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:LargeHepaticAbscess.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:LargeHepaticAbscess.png",
+  "bytes": 105644
+ },
+ "ped18": {
+  "src": "figuras/ped18.jpg",
+  "w": 1063,
+  "h": 798,
+  "fonte": "Paulo Henrique Orlandi Mourao · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Schizocyte smear 2009-12-22.JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Schizocyte_smear_2009-12-22.JPG",
+  "bytes": 100276
+ },
+ "ped19": {
+  "src": "figuras/ped19.jpg",
+  "w": 640,
+  "h": 480,
+  "fonte": "Erich Schulz · Public domain · Wikimedia Commons",
+  "titulo": "File:Metoclopramide ampule.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Metoclopramide_ampule.jpg",
+  "bytes": 48922
+ },
+ "ped20": {
+  "src": "figuras/ped20.jpg",
+  "w": 745,
+  "h": 850,
+  "fonte": "James Heilman, MD · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Intracranial bleed with significant midline shift.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Intracranial_bleed_with_significant_midline_shift.png",
+  "bytes": 70102
+ },
+ "ped21": {
+  "src": "figuras/ped21.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Drpoulette · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Baby being weighed.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Baby_being_weighed.jpg",
+  "bytes": 215924
+ },
+ "ped22": {
+  "src": "figuras/ped22.jpg",
+  "w": 800,
+  "h": 600,
+  "fonte": "Kauser Ahmed Methel · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Cute Baby Playing.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Cute_Baby_Playing.jpg",
+  "bytes": 63564
+ },
+ "ped23": {
+  "src": "figuras/ped23.jpg",
+  "w": 1400,
+  "h": 1289,
+  "fonte": "CDC Public Health Image Library · Public domain · Wikimedia Commons",
+  "titulo": "File:Bordetella pertussis.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Bordetella_pertussis.jpg",
+  "bytes": 196737
+ },
+ "ped24": {
+  "src": "figuras/ped24.jpg",
+  "w": 1400,
+  "h": 1212,
+  "fonte": "James Heilman, MD · CC BY 3.0 · Wikimedia Commons",
+  "titulo": "File:4 vials of human cerebrospinal fluid.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:4_vials_of_human_cerebrospinal_fluid.jpg",
+  "bytes": 171048
+ },
+ "ped25": {
+  "src": "figuras/ped25.jpg",
+  "w": 1400,
+  "h": 775,
+  "fonte": "U.S. Air Force photo/Staff Sgt Eric T. Sheler · Public domain · Wikimedia Commons",
+  "titulo": "File:Phenylketonuria testing.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Phenylketonuria_testing.jpg",
+  "bytes": 203077
+ },
+ "prev01": {
+  "src": "figuras/prev01.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Josscelio ximenes · CC0 · Wikimedia Commons",
+  "titulo": "File:Unidade Básica de Saúde, J. Ximenes.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Unidade_B%C3%A1sica_de_Sa%C3%BAde,_J._Ximenes.jpg",
+  "bytes": 236147
+ },
+ "prev02": {
+  "src": "figuras/prev02.jpg",
+  "w": 588,
+  "h": 508,
+  "fonte": "Mikael Häggström · CC0 · Wikimedia Commons",
+  "titulo": "File:Ultrasonography of abdominal aortic aneurysm in sagittal plane.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_abdominal_aortic_aneurysm_in_sagittal_plane.jpg",
+  "bytes": 40995
+ },
+ "prev03": {
+  "src": "figuras/prev03.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Nádia Aguiar · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:UPA Gama - Unidade de Pronto Atendimento Fachada.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:UPA_Gama_-_Unidade_de_Pronto_Atendimento_Fachada.jpg",
+  "bytes": 247167
+ },
+ "prev04": {
+  "src": "figuras/prev04.jpg",
+  "w": 904,
+  "h": 947,
+  "fonte": "autor não identificado · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Child with chickenpox.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Child_with_chickenpox.jpg",
+  "bytes": 64134
+ },
+ "prev05": {
+  "src": "figuras/prev05.jpg",
+  "w": 1398,
+  "h": 1400,
+  "fonte": "డా. గన్నవరపు నరసింహమూర్తి · CC0 · Wikimedia Commons",
+  "titulo": "File:Severely deformed hands from Rheumatoid Arthritis.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Severely_deformed_hands_from_Rheumatoid_Arthritis.jpg",
+  "bytes": 393168
+ },
+ "prev06": {
+  "src": "figuras/prev06.jpg",
+  "w": 600,
+  "h": 800,
+  "fonte": "jencu · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Glucose tolerance test - Can't they just give me a donut or chocolate bar?.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Glucose_tolerance_test_-_Can%27t_they_just_give_me_a_donut_or_chocolate_bar%3F.jpg",
+  "bytes": 69211
+ },
+ "prev07": {
+  "src": "figuras/prev07.jpg",
+  "w": 916,
+  "h": 1400,
+  "fonte": "Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Sir Austin Bradford Hill, portrait Wellcome L0027006.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Sir_Austin_Bradford_Hill,_portrait_Wellcome_L0027006.jpg",
+  "bytes": 314666
+ },
+ "prev08": {
+  "src": "figuras/prev08.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Gadogado123 · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Monofilament testing.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Monofilament_testing.jpg",
+  "bytes": 184825
+ },
+ "prev09": {
+  "src": "figuras/prev09.jpg",
+  "w": 1086,
+  "h": 1400,
+  "fonte": "Wujaszek (pl.wikipedia) · Public domain · Wikimedia Commons",
+  "titulo": "File:William Sealy Gosset.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:William_Sealy_Gosset.jpg",
+  "bytes": 289313
+ },
+ "prev10": {
+  "src": "figuras/prev10.jpg",
+  "w": 1024,
+  "h": 540,
+  "fonte": "Nevit Dilmen · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:RICA Stenosis 174302500.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:RICA_Stenosis_174302500.jpg",
+  "bytes": 116705
+ },
+ "prev11": {
+  "src": "figuras/prev11.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Microbiz Mag · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Burnout At Work - Occupational Burnout.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Burnout_At_Work_-_Occupational_Burnout.jpg",
+  "bytes": 125616
+ },
+ "prev12": {
+  "src": "figuras/prev12.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Bill Branson (Photographer) · Public domain · Wikimedia Commons",
+  "titulo": "File:Mammography patient.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Mammography_patient.jpg",
+  "bytes": 224733
+ },
+ "prev13": {
+  "src": "figuras/prev13.jpg",
+  "w": 1400,
+  "h": 788,
+  "fonte": "Exec8 · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Senior Citizen Exercise Machines not in use in Singapore.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Senior_Citizen_Exercise_Machines_not_in_use_in_Singapore.jpg",
+  "bytes": 332694
+ },
+ "prev14": {
+  "src": "figuras/prev14.jpg",
+  "w": 1400,
+  "h": 1253,
+  "fonte": "Beendy234 · CC0 · Wikimedia Commons",
+  "titulo": "File:Checking blood pressure at home.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Checking_blood_pressure_at_home.jpg",
+  "bytes": 143379
+ },
+ "prev15": {
+  "src": "figuras/prev15.jpg",
+  "w": 1400,
+  "h": 1055,
+  "fonte": "Anneli Salo · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Nordic walking in Vallila C H8219.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Nordic_walking_in_Vallila_C_H8219.jpg",
+  "bytes": 406176
+ },
+ "prev16": {
+  "src": "figuras/prev16.jpg",
+  "w": 1400,
+  "h": 981,
+  "fonte": "JIRCAS · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Sweet potato farmers in Peru with pesticide sprayers.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Sweet_potato_farmers_in_Peru_with_pesticide_sprayers.jpg",
+  "bytes": 185025
+ },
+ "prev17": {
+  "src": "figuras/prev17.jpg",
+  "w": 1400,
+  "h": 1014,
+  "fonte": "Jmarchn · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:DoingSpirometry.JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:DoingSpirometry.JPG",
+  "bytes": 163439
+ },
+ "prev18": {
+  "src": "figuras/prev18.jpg",
+  "w": 1400,
+  "h": 584,
+  "fonte": "Whispyhistory · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Avaxim vaccine.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Avaxim_vaccine.jpg",
+  "bytes": 216573
+ },
+ "prev19": {
+  "src": "figuras/prev19.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Jefferson Rudy/Agência Senado · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Ministério da Saúde (49702074856).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Minist%C3%A9rio_da_Sa%C3%BAde_(49702074856).jpg",
+  "bytes": 409025
+ },
+ "prev20": {
+  "src": "figuras/prev20.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Calvin411 · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:CHUM Emergency Level Resuscitation.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:CHUM_Emergency_Level_Resuscitation.jpg",
+  "bytes": 190516
+ },
+ "prev21": {
+  "src": "figuras/prev21.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "ONG Soluções Urbanas - Urbanismo, Cultura e Cidadania · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Visita domiciliar.JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Visita_domiciliar.JPG",
+  "bytes": 438786
+ },
+ "prev22": {
+  "src": "figuras/prev22.jpg",
+  "w": 970,
+  "h": 643,
+  "fonte": "Fabiovieiramd · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Community health workers, Vila Aparecida Family Health Programme, Pedreira, São Paulo, Brazil, 2000.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Community_health_workers,_Vila_Aparecida_Family_Health_Programme,_Pedreira,_S%C3%A3o_Paulo,_Brazil,_2000.jpg",
+  "bytes": 88609
+ },
+ "prev23": {
+  "src": "figuras/prev23.jpg",
+  "w": 1400,
+  "h": 865,
+  "fonte": "Agência de Notícias do Acre · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Medical ultrasound examination, Brazil.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Medical_ultrasound_examination,_Brazil.jpg",
+  "bytes": 176346
+ },
+ "prev24": {
+  "src": "figuras/prev24.jpg",
+  "w": 1400,
+  "h": 930,
+  "fonte": "Agência Brasília · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Abertura da 15ª Conferência Nacional de Saúde (23348814202).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Abertura_da_15%C2%AA_Confer%C3%AAncia_Nacional_de_Sa%C3%BAde_(23348814202).jpg",
+  "bytes": 185587
+ },
+ "prev25": {
+  "src": "figuras/prev25.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "CDC Global · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Ebola Treatment Unit.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ebola_Treatment_Unit.jpg",
+  "bytes": 493780
+ },
+ "cir01": {
+  "src": "figuras/cir01.jpg",
+  "w": 1047,
+  "h": 687,
+  "fonte": "Streetz-van der Werf et al. · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:AdrenalCrisis.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:AdrenalCrisis.jpg",
+  "bytes": 81830
+ },
+ "cir02": {
+  "src": "figuras/cir02.jpg",
+  "w": 851,
+  "h": 755,
+  "fonte": "Jmarchn · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Duodenal ulcer.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Duodenal_ulcer.jpg",
+  "bytes": 73671
+ },
+ "cir03": {
+  "src": "figuras/cir03.jpg",
+  "w": 1400,
+  "h": 1156,
+  "fonte": "డా. గన్నవరపు నరసింహమూర్తి · CC0 · Wikimedia Commons",
+  "titulo": "File:Peptic ulcer.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Peptic_ulcer.jpg",
+  "bytes": 208850
+ },
+ "cir04": {
+  "src": "figuras/cir04.jpg",
+  "w": 1400,
+  "h": 1193,
+  "fonte": "Doctor roach · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Mallory-Weiss-Läsion der Speiseröhre.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Mallory-Weiss-L%C3%A4sion_der_Speiser%C3%B6hre.jpg",
+  "bytes": 249298
+ },
+ "cir05": {
+  "src": "figuras/cir05.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "U.S. Navy · Public domain · Wikimedia Commons",
+  "titulo": "File:Laparoscopic surgery - 210710-M-TS451-1028 (51313716419).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Laparoscopic_surgery_-_210710-M-TS451-1028_(51313716419).jpg",
+  "bytes": 224799
+ },
+ "cir06": {
+  "src": "figuras/cir06.jpg",
+  "w": 981,
+  "h": 911,
+  "fonte": "KieranMaher at English Wikibooks · Public domain · Wikimedia Commons",
+  "titulo": "File:GastricEmptying.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:GastricEmptying.jpg",
+  "bytes": 95933
+ },
+ "cir07": {
+  "src": "figuras/cir07.jpg",
+  "w": 1400,
+  "h": 1104,
+  "fonte": "Pittigrilli · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Patient lying in bed in intensive care unit of hospital with apparatuses and hemodialysis machine.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Patient_lying_in_bed_in_intensive_care_unit_of_hospital_with_apparatuses_and_hemodialysis_machine.jpg",
+  "bytes": 291053
+ },
+ "cir08": {
+  "src": "figuras/cir08.jpg",
+  "w": 768,
+  "h": 576,
+  "fonte": "Anpol42 · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Intraoperative view of the sigmoid colon cancer.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Intraoperative_view_of_the_sigmoid_colon_cancer.jpg",
+  "bytes": 97978
+ },
+ "cir09": {
+  "src": "figuras/cir09.jpg",
+  "w": 758,
+  "h": 599,
+  "fonte": "Apostolos Stamatiadis · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Bandligation11.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Bandligation11.jpg",
+  "bytes": 42783
+ },
+ "cir10": {
+  "src": "figuras/cir10.jpg",
+  "w": 1400,
+  "h": 1400,
+  "fonte": "JerryTahl · Public domain · Wikimedia Commons",
+  "titulo": "File:Two pilonidal cysts in the natal cleft.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Two_pilonidal_cysts_in_the_natal_cleft.jpg",
+  "bytes": 192878
+ },
+ "cir11": {
+  "src": "figuras/cir11.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Rrreeewww · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Feigwarzen.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Feigwarzen.jpg",
+  "bytes": 255864
+ },
+ "cir12": {
+  "src": "figuras/cir12.jpg",
+  "w": 960,
+  "h": 720,
+  "fonte": "Anatomist90 · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Liver with portal vein dissected.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Liver_with_portal_vein_dissected.jpg",
+  "bytes": 135755
+ },
+ "cir13": {
+  "src": "figuras/cir13.jpg",
+  "w": 807,
+  "h": 581,
+  "fonte": "Doc James · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:BlackmoreTube.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:BlackmoreTube.jpg",
+  "bytes": 45382
+ },
+ "cir14": {
+  "src": "figuras/cir14.jpg",
+  "w": 1158,
+  "h": 956,
+  "fonte": "Hellerhoff · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Chronische Pankreatitis mit Verkalkungen - CT axial.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Chronische_Pankreatitis_mit_Verkalkungen_-_CT_axial.jpg",
+  "bytes": 143451
+ },
+ "cir15": {
+  "src": "figuras/cir15.jpg",
+  "w": 910,
+  "h": 1057,
+  "fonte": "James Heilman, MD · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:LargePleuralEffusionLatPlain.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:LargePleuralEffusionLatPlain.png",
+  "bytes": 69718
+ },
+ "cir16": {
+  "src": "figuras/cir16.jpg",
+  "w": 877,
+  "h": 807,
+  "fonte": "Clinical Cases (Wikipedia) · CC BY-SA 2.5 · Wikimedia Commons",
+  "titulo": "File:Pneumothorax CXR.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Pneumothorax_CXR.jpg",
+  "bytes": 76249
+ },
+ "cir17": {
+  "src": "figuras/cir17.jpg",
+  "w": 1400,
+  "h": 937,
+  "fonte": "Randhillon · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Jaw thrust maneuver.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Jaw_thrust_maneuver.jpg",
+  "bytes": 125234
+ },
+ "cir18": {
+  "src": "figuras/cir18.jpg",
+  "w": 1400,
+  "h": 575,
+  "fonte": "Ed Uthman · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Acute Appendicitis.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Acute_Appendicitis.jpg",
+  "bytes": 114759
+ },
+ "cir19": {
+  "src": "figuras/cir19.jpg",
+  "w": 1400,
+  "h": 1050,
+  "fonte": "Anpol42 · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Two component mesh for Rutkow repair.JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Two_component_mesh_for_Rutkow_repair.JPG",
+  "bytes": 508946
+ },
+ "cir20": {
+  "src": "figuras/cir20.jpg",
+  "w": 1400,
+  "h": 982,
+  "fonte": "Drahreg01 · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:MorisonNoText.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:MorisonNoText.png",
+  "bytes": 287505
+ },
+ "cir21": {
+  "src": "figuras/cir21.jpg",
+  "w": 1018,
+  "h": 782,
+  "fonte": "James Heilman, MD · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Abdotrauma.PNG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Abdotrauma.PNG",
+  "bytes": 77344
+ },
+ "cir22": {
+  "src": "figuras/cir22.jpg",
+  "w": 743,
+  "h": 519,
+  "fonte": "G Srikanth, MD Wasim, A Sajjad, Neel Shetty · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Laparoscopy 01.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Laparoscopy_01.jpg",
+  "bytes": 65211
+ },
+ "cir23": {
+  "src": "figuras/cir23.jpg",
+  "w": 956,
+  "h": 502,
+  "fonte": "JasonRobertYoungMD · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Large Pancreatic Pseudocyst.PNG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Large_Pancreatic_Pseudocyst.PNG",
+  "bytes": 101784
+ },
+ "cir24": {
+  "src": "figuras/cir24.jpg",
+  "w": 1200,
+  "h": 855,
+  "fonte": "Ed Uthman, MD · CC BY-SA 2.0 · Wikimedia Commons",
+  "titulo": "File:Rectal Adenocarcinoma Arising in Villous Adenoma (1).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Rectal_Adenocarcinoma_Arising_in_Villous_Adenoma_(1).jpg",
+  "bytes": 352717
+ },
+ "cir25": {
+  "src": "figuras/cir25.jpg",
+  "w": 1036,
+  "h": 716,
+  "fonte": "Hellerhoff · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:01-Sigmadivertikulitis CT ax 001 Perforation.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:01-Sigmadivertikulitis_CT_ax_001_Perforation.png",
+  "bytes": 108660
+ },
+ "go01": {
+  "src": "figuras/go01.jpg",
+  "w": 755,
+  "h": 481,
+  "fonte": "Mme Mim · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Molar pregnancy 0001.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Molar_pregnancy_0001.jpg",
+  "bytes": 44539
+ },
+ "go02": {
+  "src": "figuras/go02.jpg",
+  "w": 1400,
+  "h": 907,
+  "fonte": "Arie Basuki · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Pregnant women vaccination.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Pregnant_women_vaccination.jpg",
+  "bytes": 284241
+ },
+ "go03": {
+  "src": "figuras/go03.jpg",
+  "w": 976,
+  "h": 735,
+  "fonte": "Wolfgang Moroder · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Nuchal translucency Dr. Wolfgang Moroder.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Nuchal_translucency_Dr._Wolfgang_Moroder.jpg",
+  "bytes": 120287
+ },
+ "go04": {
+  "src": "figuras/go04.jpg",
+  "w": 666,
+  "h": 529,
+  "fonte": "Mikael Häggström · CC0 · Wikimedia Commons",
+  "titulo": "File:Cervix length measurement.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Cervix_length_measurement.jpg",
+  "bytes": 56298
+ },
+ "go05": {
+  "src": "figuras/go05.jpg",
+  "w": 937,
+  "h": 1400,
+  "fonte": "Colin · CC BY 2.0 · Wikimedia Commons",
+  "titulo": "File:Oxytocin intravenous bag.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Oxytocin_intravenous_bag.jpg",
+  "bytes": 165432
+ },
+ "go06": {
+  "src": "figuras/go06.jpg",
+  "w": 1400,
+  "h": 604,
+  "fonte": "Mikael Häggström · CC0 · Wikimedia Commons",
+  "titulo": "File:Blob sign of ectopic pregnancy.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Blob_sign_of_ectopic_pregnancy.png",
+  "bytes": 128729
+ },
+ "go07": {
+  "src": "figuras/go07.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Reversing Your Diabetes Today · CC0 · Wikimedia Commons",
+  "titulo": "File:Testing Blood Sugar Levels.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Testing_Blood_Sugar_Levels.jpg",
+  "bytes": 123283
+ },
+ "go08": {
+  "src": "figuras/go08.jpg",
+  "w": 800,
+  "h": 600,
+  "fonte": "Nevit Dilmen · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Ultrasound Scan ND 0119145729 1508230.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ultrasound_Scan_ND_0119145729_1508230.png",
+  "bytes": 48926
+ },
+ "go09": {
+  "src": "figuras/go09.jpg",
+  "w": 743,
+  "h": 508,
+  "fonte": "Derivative by Mikael Häggström · CC BY 2.5 · Wikimedia Commons",
+  "titulo": "File:Ultrasound of embryo at 5 weeks, colored.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ultrasound_of_embryo_at_5_weeks,_colored.png",
+  "bytes": 45858
+ },
+ "go10": {
+  "src": "figuras/go10.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Nephron · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Hypertrophic decidual vasculopathy high mag.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Hypertrophic_decidual_vasculopathy_high_mag.jpg",
+  "bytes": 450805
+ },
+ "go11": {
+  "src": "figuras/go11.jpg",
+  "w": 976,
+  "h": 735,
+  "fonte": "Wolfgang Moroder · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Human placenta umbilical cord Ultrasound by Dr. W. Moroder.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Human_placenta_umbilical_cord_Ultrasound_by_Dr._W._Moroder.jpg",
+  "bytes": 97780
+ },
+ "go12": {
+  "src": "figuras/go12.jpg",
+  "w": 946,
+  "h": 1400,
+  "fonte": "Jason Hickey · CC BY 3.0 · Wikimedia Commons",
+  "titulo": "File:X-ray child's hand.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:X-ray_child%27s_hand.jpg",
+  "bytes": 93767
+ },
+ "go13": {
+  "src": "figuras/go13.jpg",
+  "w": 1012,
+  "h": 849,
+  "fonte": "Stefano Di Michele et al · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Superficial peritoneal endometriosis.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Superficial_peritoneal_endometriosis.png",
+  "bytes": 102168
+ },
+ "go14": {
+  "src": "figuras/go14.jpg",
+  "w": 750,
+  "h": 1334,
+  "fonte": "Mre80 · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Taking pap-smear 1.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Taking_pap-smear_1.png",
+  "bytes": 146226
+ },
+ "go15": {
+  "src": "figuras/go15.jpg",
+  "w": 1400,
+  "h": 933,
+  "fonte": "Aveaoz · CC0 · Wikimedia Commons",
+  "titulo": "File:HPV Vaccine Gardasil 9 box.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:HPV_Vaccine_Gardasil_9_box.jpg",
+  "bytes": 113870
+ },
+ "go16": {
+  "src": "figuras/go16.jpg",
+  "w": 1400,
+  "h": 1184,
+  "fonte": "Vack Xu · CC0 · Wikimedia Commons",
+  "titulo": "File:Estradiol Patch Australia.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Estradiol_Patch_Australia.jpg",
+  "bytes": 261298
+ },
+ "go17": {
+  "src": "figuras/go17.jpg",
+  "w": 1400,
+  "h": 838,
+  "fonte": "Vera de Kok · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Implanon 03.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Implanon_03.jpg",
+  "bytes": 154849
+ },
+ "go18": {
+  "src": "figuras/go18.jpg",
+  "w": 625,
+  "h": 498,
+  "fonte": "Janice Carr, CDC · Public domain · Wikimedia Commons",
+  "titulo": "File:Lactobacillus sp 01.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Lactobacillus_sp_01.png",
+  "bytes": 29306
+ },
+ "go19": {
+  "src": "figuras/go19.jpg",
+  "w": 772,
+  "h": 401,
+  "fonte": "Jmarchn · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:DXA lumbar column with osteoporosi.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:DXA_lumbar_column_with_osteoporosi.png",
+  "bytes": 58747
+ },
+ "go20": {
+  "src": "figuras/go20.jpg",
+  "w": 959,
+  "h": 1400,
+  "fonte": "SCiardullo · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Calcificaciones en pop-corn CC 02.JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Calcificaciones_en_pop-corn_CC_02.JPG",
+  "bytes": 126242
+ },
+ "go21": {
+  "src": "figuras/go21.jpg",
+  "w": 1400,
+  "h": 1054,
+  "fonte": "KGH · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Endometrial adenocarcinoma (1).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Endometrial_adenocarcinoma_(1).jpg",
+  "bytes": 466846
+ },
+ "go22": {
+  "src": "figuras/go22.jpg",
+  "w": 917,
+  "h": 749,
+  "fonte": "Department of Pathology, Calicut Medical College · CC BY-SA 4.0 · Wikimedia Commons",
+  "titulo": "File:Cervical Intraepithelial neoplasia LSIL 20X.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Cervical_Intraepithelial_neoplasia_LSIL_20X.jpg",
+  "bytes": 111803
+ },
+ "go23": {
+  "src": "figuras/go23.jpg",
+  "w": 800,
+  "h": 600,
+  "fonte": "Nevit Dilmen · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Ultrasound Scan ND 0113090912 0914270.png",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Ultrasound_Scan_ND_0113090912_0914270.png",
+  "bytes": 89213
+ },
+ "go24": {
+  "src": "figuras/go24.jpg",
+  "w": 1400,
+  "h": 937,
+  "fonte": "Arneb · CC BY-SA 3.0 · Wikimedia Commons",
+  "titulo": "File:Entbindungsbett.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Entbindungsbett.jpg",
+  "bytes": 155173
+ },
+ "go25": {
+  "src": "figuras/go25.jpg",
+  "w": 1400,
+  "h": 930,
+  "fonte": "Wellcome Collection · CC BY 4.0 · Wikimedia Commons",
+  "titulo": "File:Retrovir packaging Wellcome L0047501.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Retrovir_packaging_Wellcome_L0047501.jpg",
+  "bytes": 186257
+ }
+}
