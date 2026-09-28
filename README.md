@@ -147,7 +147,7 @@ autoavaliação (acertei / errei / chutei / revisar) e pauta para anotar.
 `min-height: 256mm`; `caderno.js` mede cada uma no navegador e marca com a
 classe `dupla` as que não cabem numa página, que passam a ocupar exatamente
 duas, com a pauta preenchendo o que sobra da segunda (sem isso, a segunda
-folha saía quase em branco). Com as questões atuais, 75 das 100 fichas são
+folha saía quase em branco). Com as questões atuais, 87 das 100 fichas são
 duplas — o comentário completo com cinco distratores não cabe numa página em
 corpo 9,5 pt.
 
