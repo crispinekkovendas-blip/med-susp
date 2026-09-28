@@ -18,6 +18,14 @@
 - **The 2026 caderno is two-column with some full-width questions**, question numbers are `NN.` + TAB, alternatives `(A)` + TAB, and the PDF mixes soft hyphens (U+00AD) with hard hyphens at line breaks. The PyMuPDF block approach in Task 4 parsed all 100 questions cleanly in a prototype.
 - **Expected counts per area are a harness constant** `ESPERADO = { ped, prev, cir, go }` (not one `POR_AREA`), so a shortfall in one area (if HRPP cannot be sourced) is explicit rather than hidden.
 
+## State at handoff (2026-09-28, end of the Fable session)
+
+The content that needs the strongest model was written first, out of plan order, because it depends only on the extracted questions and gabaritos:
+
+- `ferramentas/entrada/ped.js` (20), `prev.js` (19), `cir.js` (17), `go.js` (20) hold the **76 SUS-SP 2026 commentaries**, each checked against every content rule of the harness (a scratchpad checker with the same regexes). Question 91 (forest plot) is excluded; 21, 23, 36 are annulled. `ferramentas/selecao.md` records this and the HRPP gaps to fill (5 · 6 · 8 · 5).
+- Tasks 3 and 4 were executed in the scratchpad with the plan's code on the real files: `parse_gabarito.py` gave `100 questões, anuladas [4, 21, 23, 36]` and `extrai_questoes.py` gave `100 questões; 0 com problema`, with the extended `--rodape` (area titles, `RASCUNHO`) and the repeated-hyphen fix now in this plan. The plan's code is the validated version; run it as written.
+- So, for the executor: Tasks 1–13 are unchanged. In Tasks 14–17, **Step 2 (authoring) is already done for the SUS-SP questions**; what remains per area is `montar` → raise `ESPERADO` → harness → controls → deploy, and the HRPP entries, which are written by Fable after Task 13 finds the HRPP caderno (switch models for that). The read-through of the SUS-SP commentaries was done by the author at writing time.
+
 ## Global Constraints
 
 - Everything written into the project (UI text, comments, README, commit messages, tool output) is **pt-BR**; replies to the user are English.
@@ -198,7 +206,7 @@ def ler(nome):
 def test_fontes_2026_baixadas():
     assert md5(os.path.join(CADERNOS, "susp2026-caderno.pdf")) == "f6d7843b513f7f29edd9dfb435c1347d", "caderno SUS-SP 2026 não é o documento esperado"
     gab = ler("susp2026-gabarito-preliminar.txt")
-    assert "41 - B" in gab and "100 - A" in gab, "gabarito preliminar SUS-SP 2026 sem as linhas esperadas"
+    assert "41 - B" in gab and "100 - B" in gab, "gabarito preliminar SUS-SP 2026 sem as linhas esperadas"
     rec = ler("susp2026-recursos.txt")
     assert rec.count("ANULADA") == 1525, "edital de recursos SUS-SP 2026: contagem de ANULADA diferente de 1525"
     hr = ler("hrpp2026-gabarito-preliminar.txt")
@@ -337,7 +345,7 @@ def test_gabarito_susp2026():
     g = gabarito_lido("susp2026-gabarito.txt")
     assert len(g) == 100 and sorted(g) == list(range(1, 101)), "não são 100 linhas de 1 a 100"
     assert {n for n, x in g.items() if x == "*"} == {4, 21, 23, 36}, f"anuladas erradas: {sorted(n for n, x in g.items() if x == '*')}"
-    assert g[41] == "B" and g[55] == "B" and g[61] == "E" and g[81] == "D" and g[100] == "A", "letras de conferência erradas"
+    assert g[41] == "B" and g[55] == "B" and g[61] == "E" and g[81] == "D" and g[100] == "B", "letras de conferência erradas"
     assert all(x in "ABCDE*" for x in g.values())
 
 @teste
@@ -498,6 +506,7 @@ def test_juntar_hifens():
         "pré-\nnatal": "pré-natal", "recém-\nnascido": "recém-nascido", "pós-\noperatório": "pós-operatório",
         "anti-\nhistamínico": "anti-histamínico", "intra-\nabdominal": "intra-abdominal", "auto-\nimune": "autoimune",
         "anos-\nmaço": "anos-maço", "sub-\nrogar": "sub-rogar", "contra-\nindicação": "contraindicação",
+        "queixa-\n-se": "queixa-se", "Ringer-\n-lactato": "Ringer-lactato", "DNA- \n-HPV": "DNA-HPV", "proges- \nterona": "progesterona",
     }
     for entrada, esperado in casos.items():
         saida, _ = juntar_hifens(entrada)
@@ -542,6 +551,10 @@ def test_extracao_susp2026():
     assert por[81]["alternativas"][3].startswith("o apoio matricial")
     assert por[20]["area"] == "cm" and por[21]["area"] == "cir" and por[41]["area"] == "ped" and por[61]["area"] == "go" and por[81]["area"] == "prev" and por[100]["area"] == "prev"
     assert not any(re.search(r"\([A-E]\)\t", q["enunciado"]) for q in qs), "marcador de alternativa sobrou num enunciado"
+    # os títulos das áreas ("Pediatria", "Ginecologia e Obstetrícia"…) são linhas do caderno
+    # entre os blocos: não podem ficar colados na última alternativa do bloco anterior
+    assert not any(re.search(r"(Clínica Médica|Cirurgia|Pediatria|Ginecologia e Obstetrícia|Saúde Coletiva)$", a) for q in qs for a in q["alternativas"]), "título de área colado numa alternativa"
+    assert "queixa-se" in por[47]["enunciado"] and "Ringer-lactato" in por[55]["alternativas"][1], "hífen repetido na quebra de linha não foi tratado"
     assert not any(re.search(r"\([B-E]\)\t", a) for q in qs for a in q["alternativas"]), "alternativas coladas"
     # fidelidade: tudo o que está no JSON está, palavra por palavra, no texto ordenado do caderno
     from normalizar import normalizar
@@ -597,6 +610,11 @@ PREFIXOS = {"anti", "auto", "contra", "extra", "infra", "intra", "semi", "sub", 
 
 def juntar_hifens(texto):
     texto = texto.replace("\xad\n", "").replace("\xad", "")
+    # hífen repetido na quebra ("queixa-\n-se", "Ringer-\n-lactato"): a banca
+    # repete o hífen de um composto/ênclise partido — fica UM hífen, sem quebra
+    texto = re.sub(r"([^\W\d_]+)-[ \t]*\n[ \t]*-([^\W\d_]+)", r"\1-\2", texto)
+    # espaço perdido entre o hífen e a quebra ("proges- \nterona") vira "-\n"
+    texto = re.sub(r"-[ \t]+\n", "-\n", texto)
     decisoes = []
     def f(m):
         a, b = m.group(1), m.group(2)
@@ -686,11 +704,13 @@ if __name__ == "__main__":
 - [ ] **Step 4: Run it on the 2026 caderno and review the hyphen decisions**
 
 ```bash
-PYTHONUTF8=1 python ferramentas/extrai_questoes.py --pdf ferramentas/cadernos/susp2026-caderno.pdf --primeira-pagina 3 --rodape "SESA2504/001-AcessoDireto|Confidencial até o momento da aplicação\." --blocos "cm:1-20,cir:21-40,ped:41-60,go:61-80,prev:81-100" --saida ferramentas/cadernos/susp2026
+PYTHONUTF8=1 python ferramentas/extrai_questoes.py --pdf ferramentas/cadernos/susp2026-caderno.pdf --primeira-pagina 3 --rodape "SESA2504/001-AcessoDireto|Confidencial até o momento da aplicação\.|Clínica Médica|Cirurgia|Pediatria|Ginecologia e Obstetrícia|Medicina Preventiva e Social, Medicina de|Família e Comunidade, Saúde Coletiva|RASCUNHO( RASCUNHO)?" --blocos "cm:1-20,cir:21-40,ped:41-60,go:61-80,prev:81-100" --saida ferramentas/cadernos/susp2026
 cat ferramentas/cadernos/susp2026-hifens.txt
 ```
 
-Expected: `100 questões; 0 com problema []; com imagem: [20, …]; N hifens decididos`. Read every line of the hyphen report. A wrong join (a real compound glued, or a plain word kept hyphenated) is fixed by adding the word's left part to `SEMPRE_HIFEN`/`PREFIXOS` (or removing it) and rerunning — never by editing the outputs.
+The `--rodape` regex lists every line the caderno prints outside the questions: footer, confidentiality line, the **area titles** that open each block (they sit on their own line and would otherwise be glued to the previous block's last alternative; the Preventiva title wraps over two lines, hence its two fragments) and the `RASCUNHO` heading of the scratch page after question 100. Page numbers are dropped by the extractor itself.
+
+Expected: `100 questões; 0 com problema []; com imagem: [7, 20]; N hifens decididos` (the two image blocks are in Clínica Médica; the ECG of question 20 is vector art, which `get_text("blocks")` does not report — that is why Task 13 also renders pages with large `page.get_drawings()` before deciding on images). Read every line of the hyphen report. A wrong join (a real compound glued, or a plain word kept hyphenated) is fixed by adding the word's left part to `SEMPRE_HIFEN`/`PREFIXOS` (or removing it) and rerunning — never by editing the outputs.
 
 - [ ] **Step 5: Run the tests**
 
