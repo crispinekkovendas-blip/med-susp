@@ -165,7 +165,10 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 /* a figura do comentário: altura limitada para não comer a ficha (a medida
    das fichas já a inclui); legenda e crédito em letra miúda */
 .figura { margin: 2.5mm 0 0; break-inside: avoid; page-break-inside: avoid; }
-.figura img { display: block; max-width: 100%; max-height: 62mm; width: auto; height: auto; border: 1px solid var(--line-2); border-radius: 2px; }
+/* a moldura já tem o tamanho final (altura de até 62mm, largura pela
+   proporção): a medida da ficha vale antes de a imagem carregar */
+.figura .moldura { display: block; width: calc(min(62mm, var(--h) * 1px) * var(--w) / var(--h)); max-width: 100%; aspect-ratio: var(--w) / var(--h); border: 1px solid var(--line-2); border-radius: 2px; overflow: hidden; }
+.figura img { display: block; width: 100%; height: 100%; object-fit: cover; max-height: 62mm; }
 .figura figcaption { margin-top: 1.2mm; font-family: var(--sans); font-size: 8pt; line-height: 1.4; color: var(--ink-2); }
 .figura .credito { color: var(--ink-3); }
 .letra-grande .figura figcaption { font-size: 9pt; }

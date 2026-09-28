@@ -219,7 +219,10 @@ footer a { color: var(--accent-2); }
 /* a figura do comentário (entre o texto e as referências) e a versão
    ampliada, que cobre a tela: clique abre, clique/×/Esc fecham */
 .comentario .figura { margin: 14px 0 0; }
-.comentario .figura img { display: block; max-width: 100%; max-height: 380px; width: auto; height: auto; border: 1px solid var(--line); border-radius: var(--r); background: var(--bg-3); cursor: zoom-in; }
+/* a moldura tem o tamanho final antes de a imagem carregar: altura de até
+   380px (ou a da imagem), largura pela proporção, nunca mais que o painel */
+.figura .moldura { display: block; width: calc(min(380px, var(--h) * 1px) * var(--w) / var(--h)); max-width: 100%; aspect-ratio: var(--w) / var(--h); border: 1px solid var(--line); border-radius: var(--r); background: var(--bg-3); overflow: hidden; }
+.comentario .figura img { display: block; width: 100%; height: 100%; object-fit: cover; cursor: zoom-in; }
 .comentario .figura figcaption { margin-top: 8px; font-size: 12.5px; line-height: 1.5; color: var(--ink-2); }
 .figura .credito { display: block; margin-top: 2px; font-size: 11.5px; color: var(--ink-3); }
 .figura .credito a { color: inherit; }

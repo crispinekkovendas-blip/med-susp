@@ -157,7 +157,9 @@
   const escapa = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
   const credito = f => `<span class="credito">${escapa(f.fonte).replace("Wikimedia Commons", `<a href="${escapa(f.pagina)}" target="_blank" rel="noopener">Wikimedia Commons</a>`)}</span>`;
   function figuraHtml(f) {
-    return `<figure class="figura"><img src="${escapa(f.src)}" width="${f.w}" height="${f.h}" alt="${escapa(f.legenda)}" loading="lazy" decoding="async"><figcaption>${escapa(f.legenda)} ${credito(f)}</figcaption></figure>`;
+    /* a moldura já tem o tamanho final (--w/--h → aspect-ratio no CSS), então
+       nada se mexe quando a imagem, preguiçosa, chega */
+    return `<figure class="figura"><span class="moldura" style="--w:${f.w};--h:${f.h}"><img src="${escapa(f.src)}" width="${f.w}" height="${f.h}" alt="${escapa(f.legenda)}" loading="lazy" decoding="async"></span><figcaption>${escapa(f.legenda)} ${credito(f)}</figcaption></figure>`;
   }
   /* a figura ampliada cobre a tela; clique em qualquer lugar, o × ou Esc fecham */
   function ampliar(f) {
