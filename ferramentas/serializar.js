@@ -1,0 +1,40 @@
+/* Escreve banco.js a partir do objeto: chaves sem aspas, strings em JSON,
+   campos na ordem fixa, uma questão por bloco, um cabeçalho por área. Só o
+   montar.js chama isto; banco.js nunca é editado como texto. */
+const CAMPOS = ["id", "area", "tema", "fonte", "edicao", "numero", "texto", "enunciado", "alternativas", "correta", "referencias", "comentario", "simples"];
+const CABECALHO = `/* ============================================================================
+   BANCO DE QUESTÕES COMENTADAS — SUS-SP · VUNESP · acesso direto
+
+   GERADO por ferramentas/montar.js a partir de:
+     · ferramentas/cadernos/<fonte>-questoes.json — enunciado e alternativas
+       extraídos do caderno oficial (texto da banca, sem retoque);
+     · ferramentas/cadernos/<fonte>-gabarito.txt — o gabarito oficial;
+     · ferramentas/entrada/<area>.js — tema, referências, comentário e
+       Simplificando, escritos à mão.
+   Não edite este arquivo: mude a entrada e rode \`node ferramentas/montar.js\`.
+   ========================================================================== */
+`;
+const j = v => JSON.stringify(v);
+function serializar(banco) {
+  const linhas = [CABECALHO + "window.BANCO = {"];
+  linhas.push("  meta: " + JSON.stringify(banco.meta, null, 2).replace(/\n/g, "\n  ") + ",");
+  linhas.push("  questoes: [");
+  let area = null;
+  for (const q of banco.questoes) {
+    if (q.area !== area) {
+      area = q.area;
+      const nome = (banco.meta.areas.find(a => a.id === area) || {}).nome || area;
+      linhas.push("", "/* " + "=".repeat(74), "   " + nome.toUpperCase(), "   " + "=".repeat(74) + " */", "");
+    }
+    const partes = [];
+    for (const k of CAMPOS) {
+      if (q[k] === undefined) continue;
+      if (k === "alternativas" || k === "referencias") partes.push("  " + k + ": [\n" + q[k].map(a => "    " + j(a) + ",").join("\n") + "\n  ]");
+      else partes.push("  " + k + ": " + j(q[k]));
+    }
+    linhas.push("{ " + partes.join(",\n").replace(/^  /, "") + " },", "");
+  }
+  linhas.push("  ],", "};");
+  return linhas.join("\n") + "\n";
+}
+module.exports = { serializar, CAMPOS };
