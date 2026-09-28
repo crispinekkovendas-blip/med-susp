@@ -188,6 +188,8 @@ footer a { color: var(--accent-2); }
 
 /* --- telas estreitas ---------------------------------------------------- */
 @media (max-width: 720px) {
+  .seg { flex-wrap: wrap; }
+  .seg button { border-bottom: 1px solid var(--line); }
   .fatos { grid-template-columns: repeat(2, 1fr); }
   .fatos div:nth-child(2) { border-right: 0; }
   .fatos div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }

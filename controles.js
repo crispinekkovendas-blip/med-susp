@@ -12,7 +12,7 @@
    Não vai para o deploy (.vercelignore). */
 const fs = require("fs"), path = require("path"), cp = require("child_process");
 const DIR = __dirname;
-const ARQS = ["banco.js", "app.js", "caderno/caderno.js", "caderno/caderno.css"];
+const ARQS = ["banco.js", "app.js", "app.css", "caderno/caderno.js", "caderno/caderno.css"];
 const originais = Object.fromEntries(ARQS.map(a => [a, fs.readFileSync(path.join(DIR, a), "utf8")]));
 
 function roda() {
@@ -117,6 +117,16 @@ const controles = [
     txt: o => planta(o, ".questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px;", ".questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px; overflow: hidden;"), cita: /não podem ter overflow: hidden nem break-inside: avoid/ },
   { arquivo: "app.js", nome: "app: aparece filtro de uma edição que não tem questões (edição inventada)",
     txt: o => planta(o, "const EDICOES = B.meta.fontes.filter(f => Q.some(q => q.fonte === f.id));", 'const EDICOES = B.meta.fontes.concat([{ id: "falsa", rotulo: "FALSA 2020" }]);'), cita: /há filtro de edição sem questão nenhuma|há \d+ botões de filtro/ },
+  { arquivo: "app.css", nome: "app.css: os filtros voltam a não quebrar linha no celular",
+    txt: o => planta(o, "  .seg { flex-wrap: wrap; }\n", ""), cita: /flex-wrap: wrap/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: a ficha apertada não é marcada",
+    txt: o => planta(o, 'f.classList.add("apertada")', "void 0"), cita: /classe apertada/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: a medida não é refeita antes de imprimir",
+    txt: o => planta(o, 'window.addEventListener("beforeprint", medirFichas)', "void 0"), cita: /beforeprint/ },
+  { arquivo: "caderno/caderno.css", nome: "caderno.css: a pauta da ficha apertada volta a exigir 24mm",
+    txt: o => planta(o, ".questao.apertada .notas { min-height: 0; }", ".questao.apertada .notas { min-height: 24mm; }"), cita: /apertada \.notas/ },
+  { arquivo: "caderno/caderno.css", nome: "caderno.css: Letra grande sem efeito no comentário",
+    txt: o => planta(o, ".letra-grande .texto-comentario { font-size: 11pt; }\n", ""), cita: /Letra grande não chega/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: página de 250mm",
     txt: o => planta(o, "--pagina: 256mm", "--pagina: 250mm"), cita: /--pagina deve ser 256mm/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: a ficha longa volta a ocupar uma página só",

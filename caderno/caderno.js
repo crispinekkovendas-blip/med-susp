@@ -209,10 +209,22 @@
     const pagina = regua.getBoundingClientRect().height;
     regua.remove();
     if (!pagina) return;
+    /* A pauta não é conteúdo: ela cresce ou encolhe para encher a página.
+       Mede-se o que sobra (enunciado, alternativas, comentário…) na
+       geometria da folha impressa (classe "medindo" no body). Se cabe numa
+       página deixando pauta de 34 mm ou mais, é uma página normal; se cabe
+       deixando ao menos 10 mm, é uma página "apertada" (a pauta abre mão do
+       mínimo); senão, são duas páginas inteiras ("dupla"). */
+    const mm = pagina / 256;
+    document.body.classList.add("medindo");
     fichas.forEach(f => {
-      f.classList.remove("dupla");
-      if (f.getBoundingClientRect().height > pagina + 1) f.classList.add("dupla");
+      f.classList.remove("dupla", "apertada");
+      const notas = f.querySelector(".notas");
+      const conteudo = f.getBoundingClientRect().height - (notas ? notas.getBoundingClientRect().height : 0);
+      if (conteudo > pagina - 10 * mm) f.classList.add("dupla");
+      else if (conteudo > pagina - 34 * mm) f.classList.add("apertada");
     });
+    document.body.classList.remove("medindo");
   }
   function render() {
     raiz.innerHTML = ""; raiz.setAttribute("aria-busy", "false"); raiz.append(painel(), documento());
@@ -220,4 +232,6 @@
   }
   render();
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(medirFichas);
+  /* imprimir de uma tela estreita (celular) não pode dar outro caderno */
+  if (typeof window.addEventListener === "function") window.addEventListener("beforeprint", medirFichas);
 })();

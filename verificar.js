@@ -169,6 +169,21 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   const proibido = regras.filter(r => (r.sel.includes(".questao") || r.sel.includes(".comentario")) && /overflow:\s*hidden|break-inside:\s*avoid|page-break-inside:\s*avoid/.test(r.corpo));
   exige(!proibido.length, "caderno.css: .questao e .comentario não podem ter overflow: hidden nem break-inside: avoid (a ficha longa precisa correr para a página seguinte)");
   exige(/--pagina:\s*256mm/.test(css), "caderno.css: --pagina deve ser 256mm");
+  /* revisão final: a pauta não conta como conteúdo, a medida é feita na
+     geometria da folha e refeita antes de imprimir; Letra grande chega à
+     ficha; no celular os filtros quebram linha em vez de sumir */
+  exige(/\.questao\.apertada \.notas\s*\{[^}]*min-height:\s*0/.test(css), "caderno.css: falta .questao.apertada .notas { min-height: 0 } (a pauta abre mão do mínimo quando o conteúdo quase cabe numa página)");
+  exige(/\.medindo \.pagina\s*\{[^}]*width:\s*210mm/.test(css), "caderno.css: falta .medindo .pagina { width: 210mm … } (a medida das fichas precisa da geometria da folha, não da tela)");
+  for (const sel of [".enunciado", ".alts", ".texto-comentario", ".simples"]) exige(new RegExp("\\.letra-grande " + sel.replace(".", "\\.") + "\\s*\\{[^}]*font-size").test(css), `caderno.css: a opção Letra grande não chega à ficha (falta .letra-grande ${sel})`);
+  const cjs = fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8");
+  exige(/classList\.add\("apertada"\)/.test(cjs), "caderno.js: a medida da ficha precisa descontar a pauta e marcar a ficha apertada (classe apertada)");
+  exige(/"beforeprint"/.test(cjs), "caderno.js: a medida das fichas precisa ser refeita antes de imprimir (beforeprint)");
+  const acss = fs.readFileSync(path.join(AQUI, "app.css"), "utf8");
+  const ini = acss.indexOf("@media (max-width: 720px)");
+  let prof = 0, fim = -1;
+  for (let i = acss.indexOf("{", ini); i < acss.length; i++) { if (acss[i] === "{") prof++; else if (acss[i] === "}") { prof--; if (!prof) { fim = i; break; } } }
+  const estreitas = ini >= 0 && fim > ini ? acss.slice(ini, fim) : "";
+  exige(/\.seg\s*\{[^}]*flex-wrap:\s*wrap/.test(estreitas), "app.css: nas telas estreitas .seg precisa de flex-wrap: wrap (os filtros de GO e das edições ficam cortados no celular)");
   exige(/\.questao\.dupla\s*\{\s*min-height:\s*calc\(2 \* var\(--pagina\)\)/.test(css), "caderno.css: a ficha longa (.questao.dupla) precisa ocupar duas páginas inteiras");
   exige(/classList\.add\("dupla"\)/.test(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8")), "caderno.js: não marca a ficha longa com a classe dupla");
 }

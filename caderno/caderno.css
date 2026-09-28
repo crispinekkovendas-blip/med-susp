@@ -51,6 +51,14 @@ body { font: 10.5pt/1.5 var(--serif); -webkit-font-smoothing: antialiased; }
 #documento { padding: 16px 0 40px; }
 .pagina { width: 210mm; max-width: 100%; margin: 0 auto 14px; padding: 16mm 17mm 18mm; background: #fff; box-shadow: 0 1px 2px rgba(16,21,27,.08), 0 6px 20px rgba(16,21,27,.08); position: relative; }
 .letra-grande { font-size: 12pt; }
+/* a opção "Letra grande" tem de vencer os tamanhos absolutos da ficha */
+.letra-grande .enunciado { font-size: 12pt; }
+.letra-grande .alts { font-size: 11.5pt; }
+.letra-grande .comentario .alt-certa { font-size: 11.5pt; }
+.letra-grande .texto-comentario { font-size: 11pt; }
+.letra-grande .texto-comentario p:first-child { font-size: 11.5pt; }
+.letra-grande .simples { font-size: 10.5pt; }
+.letra-grande .comentario .referencias { font-size: 9pt; }
 h2 { font-family: var(--sans); font-size: 16pt; font-weight: 600; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 2.5px solid var(--accent); letter-spacing: -.01em; display: flex; align-items: baseline; gap: 3mm; }
 h2 .sec { font-family: var(--mono); font-size: 8pt; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: #fff; background: var(--accent); padding: .8mm 2mm; border-radius: 2px; position: relative; top: -1mm; }
 h3 { font-family: var(--sans); font-size: 11pt; font-weight: 600; margin: 7mm 0 2mm; color: var(--accent); }
@@ -117,6 +125,14 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
   display: flex; flex-direction: column; min-height: var(--pagina); }
 /* ficha longa: duas páginas inteiras (caderno.js mede e marca) */
 .questao.dupla { min-height: calc(2 * var(--pagina)); }
+/* ficha "apertada": o conteúdo só cabe numa página se a pauta abrir mão do
+   seu mínimo — melhor uma pauta curta do que uma segunda folha só de pauta */
+.questao.apertada .notas { min-height: 0; }
+.questao.apertada .notas .linhas { min-height: 0; }
+/* geometria de medida (caderno.js liga a classe no body só enquanto mede):
+   a folha impressa tem 210 mm com 14 mm de margem — texto de 182 mm —,
+   seja qual for a largura da tela */
+.medindo .pagina { width: 210mm !important; max-width: none !important; padding-left: 14mm !important; padding-right: 14mm !important; }
 .questao > * { flex: 0 0 auto; }
 .questao header { display: flex; align-items: center; gap: 2.5mm; font-family: var(--sans); font-size: 8.5pt; color: var(--ink-2); padding: 0 4mm 0 0; border-bottom: 1px solid var(--line); background: #F6F7F9; flex-wrap: wrap; }
 .questao .num { font-family: var(--mono); font-size: 13pt; font-weight: 500; color: #fff; background: var(--accent); padding: 2mm 3mm; align-self: stretch; display: flex; align-items: center; }
