@@ -1,31 +1,31 @@
 /* Controles negativos do verificar.js. Roda em Node: `node controles.js`.
 
-   Cada controle planta UMA falha num arquivo (banco.js ou app.js), escrita
-   por cima e restaurada no fim aconteça o que acontecer, roda o verificar.js
-   e exige que ele FALHE e que a mensagem cite o lugar certo. Um harness que
-   passa com a falha plantada é um harness cego — e foi assim que se
-   descobriu, na primeira versão, um regex morto (`"correta": ` contra
-   `correta: `) que fazia dois controles não alterarem nada e "passarem".
+   Cada controle planta UMA falha num arquivo (banco.js, app.js,
+   caderno/caderno.js ou caderno/caderno.css), roda o verificar.js e exige
+   que ele FALHE citando o lugar certo; o arquivo é restaurado aconteça o
+   que acontecer. Um harness que passa com a falha plantada é um harness
+   cego. Um controle que não altera nada é erro.
+
+   banco.js é gerado, mas plantar nele é legítimo: o que se testa é o
+   harness, e o arquivo volta ao original no fim.
 
    Não vai para o deploy (.vercelignore). */
 const fs = require("fs"), path = require("path"), cp = require("child_process");
 const DIR = __dirname;
-const ARQS = ["banco.js", "app.js", "caderno/caderno.js"];
+const ARQS = ["banco.js", "app.js", "caderno/caderno.js", "caderno/caderno.css"];
 const originais = Object.fromEntries(ARQS.map(a => [a, fs.readFileSync(path.join(DIR, a), "utf8")]));
 
 function roda() {
   const r = cp.spawnSync("node", ["verificar.js"], { cwd: DIR, encoding: "utf8" });
   return { ok: r.status === 0, saida: (r.stdout || "") + (r.stderr || "") };
 }
-
-/* substitui exatamente UMA ocorrência ou aborta — um controle que não altera
-   nada é um controle que não controla nada */
+/* substitui exatamente UMA ocorrência ou aborta */
 function planta(orig, velho, novo) {
   const partes = orig.split(velho);
   if (partes.length !== 2) throw new Error(`controle inválido: ${partes.length - 1} ocorrência(s) de ${JSON.stringify(velho).slice(0, 80)}`);
   return partes.join(novo);
 }
-/* a mesma coisa, mas só dentro do bloco de UMA questão */
+/* a mesma coisa, mas só dentro do bloco de UMA questão de banco.js */
 function noBloco(orig, id, velho, novo) {
   const i = orig.indexOf(`{ id: "${id}",`);
   if (i < 0) throw new Error("id inexistente " + id);
@@ -34,84 +34,93 @@ function noBloco(orig, id, velho, novo) {
   return orig.slice(0, i) + planta(bloco, velho, novo) + (f < 0 ? "" : orig.slice(f));
 }
 const moveGabarito = (orig, id, para) => noBloco(orig, id, /correta: \d,/.exec(orig.slice(orig.indexOf(`{ id: "${id}",`)))[0], `correta: ${para},`);
+const primeiroId = area => { const m = originais["banco.js"].match(new RegExp(`\\{ id: "(${area}\\d\\d)",`)); return m[1]; };
+const PED = primeiroId("ped"), PREV = primeiroId("prev"), CIR = primeiroId("cir"), GO = primeiroId("go");
 
 const controles = [
-  /* --- o gabarito é recalculado ------------------------------------------ */
-  { nome: "identidade: gabarito de m37 movido para A (sinal trocado)",
-    txt: o => moveGabarito(o, "m37", 0), cita: /m37: a alternativa A .* não é igual/ },
-  { nome: "identidade: gabarito de m15 movido para B ((x − 3)²)",
-    txt: o => moveGabarito(o, "m15", 1), cita: /m15: a alternativa B .* não é igual/ },
-  { nome: "identidade: distrator de m38 trocado por um equivalente ((x − 3)(x − 2)) — dois gabaritos",
-    txt: o => planta(o, '"(x − 1)(x − 6)",', '"(x − 3)(x − 2)",'), cita: /m38: a alternativa B .* também é igual/ },
-  { nome: "identidade: expressão original de m39 adulterada em `conta`",
-    txt: o => planta(o, 'conta: "x => (2 * x + 3) ** 2"', 'conta: "x => (2 * x + 3) ** 2 + 1"'), cita: /m39: a alternativa C .* não é igual/ },
-  { nome: "numérica: `valor` de m45 mudado para 130 (a conta continua dando 150)",
-    txt: o => planta(o, "valor: 150,", "valor: 130,"), cita: /m45: a conta dá 150/ },
-  { nome: "numérica com raiz cúbica: gabarito de m26 movido para A (2∛3)",
-    txt: o => moveGabarito(o, "m26", 0), cita: /m26/ },
-  { nome: "numérica recuperada: gabarito de m01 movido para C",
-    txt: o => moveGabarito(o, "m01", 2), cita: /m01/ },
-  { nome: "numérica: m35 volta a ter 3/10 ao lado de 0,3 — o mesmo número em duas alternativas",
-    txt: o => noBloco(o, "m35", '"0,33",', '"3/10",'), cita: /m35: as alternativas A e E valem o mesmo/ },
-  /* --- o comentário e o "simples" dizem a letra certa ---------------------- */
-  { nome: "veredito: comentário de p33 diz Gabarito D, gabarito é C",
-    txt: o => planta(o, "Gabarito <strong>C</strong>: <em>trigésimo</em>", "Gabarito <strong>D</strong>: <em>trigésimo</em>"), cita: /p33: o comentário dá o veredito para D/ },
-  { nome: "simples: p26 sem o campo",
-    txt: o => noBloco(o, "p26", "simples: ", "simplesX: "), cita: /p26: sem "simples"/ },
-  { nome: "simples: m45 diz letra A, gabarito é C",
-    txt: o => noBloco(o, "m45", "letra <strong>C</strong>", "letra <strong>A</strong>"), cita: /m45: o "simples" diz letra A/ },
-  { nome: "simples: m47 com uma frase de 40 palavras (texto de adulto)",
-    txt: o => noBloco(o, "m47", "<p>Jogue duas moedas.", "<p>Quando jogamos duas moedas honestas ao mesmo tempo e observamos com atenção o resultado de cada uma delas separadamente, percebemos que existem exatamente quatro possibilidades igualmente prováveis para o par de faces obtido, e apenas uma delas mostra cara nas duas moedas simultaneamente."), cita: /m47: "simples" tem uma frase de \d+ palavras/ },
-  /* --- de quando é a questão --------------------------------------------- */
-  { nome: "ano/número: p01 diz que era a questão 7 da prova, mas o comentário cita a 06",
-    txt: o => noBloco(o, "p01", "numero: 6,", "numero: 7,"), cita: /p01: o comentário cita a questão 06, e `numero` diz 7/ },
-  { nome: "ano/número: p11 (inédita, edital 2026) com ano 2025",
-    txt: o => noBloco(o, "p11", "ano: 2026,", "ano: 2025,"), cita: /p11: ano 2025 não bate com o da fonte edital2026/ },
-  { arquivo: "app.js", nome: "app: etiqueta volta a dizer só \"Questão da banca\", sem ano nem número",
-    txt: o => planta(o, "? `${B.meta.banca} ${q.ano} · Questão ${dois(q.numero)}`", '? "Questão da banca"'), cita: /a etiqueta da questão recuperada não traz ano e número/ },
-  { nome: "origem: comentário de p51 volta a dizer a cidade e o cargo",
-    txt: o => noBloco(o, "p51", "Questão 01 de Português (INEPAM 2023).", "Questão 01 de Português da prova de Psicólogo de Adamantina (INEPAM 2023)."), cita: /p51: o comentário cita a origem além de banca e ano/ },
-  { arquivo: "caderno/caderno.js", nome: "caderno: a linha de fonte da ficha volta a trazer o documento",
-    txt: o => planta(o, "`Questão ${dois(q.numero)} · ${B.meta.banca} ${q.ano}.`", "`Questão ${dois(q.numero)} · ${B.meta.banca} ${q.ano} — ${FONTES[q.fonte]}.`"), cita: /a linha de fonte da ficha diz mais do que banca e ano/ },
+  /* --- gabarito oficial e fidelidade ao caderno --------------------------- */
+  { nome: `gabarito: correta de ${PED} movida para outra letra`,
+    txt: o => moveGabarito(o, PED, (Number(/correta: (\d),/.exec(o.slice(o.indexOf(`{ id: "${PED}",`)))[1]) + 1) % 5), cita: /correta diz [A-E], o gabarito oficial de susp2026 diz/ },
+  { nome: `fidelidade: uma palavra trocada no enunciado de ${PED}`,
+    txt: o => noBloco(o, PED, "Caderneta de Saúde da Criança", "Caderneta de Saúde da Família"), cita: /o enunciado não está, palavra por palavra/ },
+  { nome: `fidelidade: alternativa B de ${CIR} com uma palavra a mais`,
+    txt: o => noBloco(o, CIR, "corticoterapia prolongada", "corticoterapia muito prolongada"), cita: /a alternativa B não está, palavra por palavra/ },
+  { nome: `anulada: ${CIR} passa a dizer que era a questão 21 (anulada)`,
+    txt: o => noBloco(o, CIR, "numero: 22,", "numero: 21,"), cita: /foi ANULADA pela banca/ },
+  { nome: `edição: ${GO} com edicao 2025`,
+    txt: o => noBloco(o, GO, "edicao: 2026,", "edicao: 2025,"), cita: /edicao 2025 não bate com a da fonte/ },
   /* --- a forma ------------------------------------------------------------ */
-  { nome: "forma: p50 removido (uma questão a menos)",
-    txt: o => { const i = o.indexOf('{ id: "p50",'); const f = o.indexOf('{ id: "m01",'); return o.slice(0, i) + o.slice(f); }, cita: /esperava \d+ questões, há \d+/ },
-  { nome: "forma: p51 (real) marcada como inédita — contagem de reais e ordem",
-    txt: o => noBloco(o, "p51", 'origem: "recuperada",', 'origem: "inedita",'), cita: /esperava 55 questões reais/ },
-  { nome: "distribuição: quatro gabaritos E de inéditas viram A",
-    txt: o => ["p15", "p21", "p28", "p32"].reduce((t, id) => moveGabarito(t, id, 0), o), cita: /letras desequilibradas nas inéditas/ },
-  { arquivo: "app.js", nome: "app: o filtro \"Da banca\" mostra as inéditas em vez das reais",
-    txt: o => planta(o, 'f === "banca" ? lista.filter(q => q.origem === "recuperada")', 'f === "banca" ? lista.filter(q => q.origem === "inedita")'), cita: /o filtro "Da banca" mostrou \d+ cartões/ },
-  { nome: "marcação: <strong> sem fechamento em p26",
-    txt: o => planta(o, "<em>Pa-ra-<strong>guai</strong></em>", "<em>Pa-ra-<strong>guai</em>"), cita: /p26: <strong> desequilibrado/ },
-  /* --- a página: as abas ------------------------------------------------- */
-  { arquivo: "app.js", nome: "app: o cartão ignora a aba guardada e abre sempre em Comentário",
-    txt: o => planta(o, "    mostra(abaAtiva);\n", '    mostra("comentario");\n'), cita: /o segundo cartão não abriu na aba guardada/ },
+  { nome: `ids: ${PREV} renomeada para prev09`,
+    txt: o => noBloco(o, PREV, `id: "${PREV}",`, 'id: "prev09",'), cita: /prev09: id fora da sequência/ },
+  { nome: `contagem: ${GO} removida`,
+    txt: o => { const i = o.indexOf(`{ id: "${GO}",`); const f = o.indexOf("\n{ id: ", i + 1); return o.slice(0, i) + (f < 0 ? "  ],\n};\n" : o.slice(f + 1)); }, cita: /esperava \d+ questões em go, há \d+/ },
+  { nome: `área: ${PED} com área "pedx"`,
+    txt: o => noBloco(o, PED, 'area: "ped",', 'area: "pedx",'), cita: /área "pedx" não está em meta.areas/ },
+  { nome: `tema: ${PED} com tema de 80 caracteres`,
+    txt: o => noBloco(o, PED, 'tema: "Avaliação nutricional — índice estatura-para-idade",', 'tema: "Avaliação nutricional — índice estatura-para-idade e seus usos na puericultura",'), cita: /tema fora de 8–70/ },
+  { nome: `referências: ${CIR} sem referências`,
+    txt: o => { const i = o.indexOf(`{ id: "${CIR}",`); const a = o.indexOf("referencias: [", i); const b = o.indexOf("]", a); return o.slice(0, a) + "referencias: [" + o.slice(b); }, cita: /referencias precisa de 1 a 3 entradas/ },
+  /* --- comentário e Simplificando ---------------------------------------- */
+  { nome: `abertura: comentário de ${PED} abre com outro número`,
+    txt: o => noBloco(o, PED, "Questão 41 (SUS-SP 2026). Gabarito", "Questão 14 (SUS-SP 2026). Gabarito"), cita: /não abre com "Questão 41 \(SUS-SP 2026\)"/ },
+  { nome: `veredito: comentário de ${PED} diz Gabarito C`,
+    txt: o => noBloco(o, PED, "Gabarito <strong>B</strong>", "Gabarito <strong>C</strong>"), cita: /dá o veredito para C, e o gabarito é B/ },
+  { nome: `veredito duplo: comentário de ${GO} com duas frases de veredito`,
+    txt: o => noBloco(o, GO, "Gabarito <strong>E</strong>. Tudo", "Gabarito <strong>E</strong>. Gabarito <strong>E</strong>. Tudo"), cita: /exatamente uma frase "Gabarito <strong>X<\/strong>" \(há 2\)/ },
+  { nome: `distrator: comentário de ${PED} deixa de explicar a letra C`,
+    txt: o => noBloco(o, PED, "<strong>C</strong> está errada", "C está errada"), cita: /não explica a alternativa C/ },
+  { nome: `fecho: comentário de ${PREV} sem "O que a banca testa"`,
+    txt: o => noBloco(o, PREV, "O que a banca testa", "O que a prova testa"), cita: /não fecha dizendo "O que a banca testa"/ },
+  { nome: `simples: ${GO} diz letra A`,
+    txt: o => noBloco(o, GO, "letra <strong>E</strong>", "letra <strong>A</strong>"), cita: /o "simples" diz letra A, e o gabarito é E/ },
+  { nome: `simples: ${PREV} com uma frase de 40 palavras`,
+    txt: o => noBloco(o, PREV, "A equipe do posto cuida de todo mundo do bairro.", "A equipe do posto de saúde da família cuida de todas as pessoas que moram no bairro e conhece cada casa e cada história de perto ao longo de muitos anos de trabalho contínuo e paciente com a comunidade inteira."), cita: /"simples" tem uma frase de \d+ palavras/ },
+  { nome: `marcação: <span> no comentário de ${PED}`,
+    txt: o => noBloco(o, PED, "<em>stunting</em>", "<span>stunting</span>"), cita: /tag não permitida em comentario: <span>/ },
+  { nome: `marcação: <strong> sem fechamento em ${CIR}`,
+    txt: o => noBloco(o, CIR, "<strong>crise adrenal</strong>", "<strong>crise adrenal"), cita: /<strong> desequilibrado em comentario/ },
+  /* --- a página ---------------------------------------------------------- */
+  { arquivo: "app.js", nome: "app: etiqueta sem o rótulo da prova",
+    txt: o => planta(o, "const rotuloOrigem = q => `${FONTES[q.fonte].rotulo} · Questão ${dois(q.numero)}`;", "const rotuloOrigem = q => `Questão ${dois(q.numero)}`;"), cita: /etiqueta "Questão \d\d", esperava/ },
+  { arquivo: "app.js", nome: "app: o filtro por área mostra tudo",
+    txt: o => planta(o, "NOME_AREA[f] ? lista.filter(q => q.area === f)", "NOME_AREA[f] ? lista"), cita: /o filtro "Pediatria" mostrou \d+ cartões/ },
+  { arquivo: "app.js", nome: "app: respostas gravadas na chave do INEPAM",
+    txt: o => planta(o, 'const CH_RESP = "susp:respostas";', 'const CH_RESP = "inepam:respostas";'), cita: /gravou numa chave do banco INEPAM|não gravou em susp:respostas/ },
+  { arquivo: "app.js", nome: "app: clicar em Simplificando não guarda a escolha",
+    txt: o => planta(o, "try { localStorage.setItem(CH_ABA, qual); } catch (e) { /* sem armazenamento */ }", "/* nada */"), cita: /a aba escolhida não foi guardada/ },
+  { arquivo: "app.js", nome: "app: o simulado deixa a primeira área de fora",
+    txt: o => planta(o, "const ids = AREAS.flatMap(a => embaralhar(", "const ids = AREAS.slice(1).flatMap(a => embaralhar("), cita: /o simulado sorteou \d+ questões, esperava \d+/ },
+  { arquivo: "app.js", nome: "app: o comentário sai sem a linha de referências",
+    txt: o => planta(o, "html: q.comentario + referencias + fonte", "html: q.comentario + fonte"), cita: /não traz a linha de referências/ },
+  { arquivo: "app.js", nome: "app: a tag de área do cartão traz o id, não o nome",
+    txt: o => planta(o, 'h("span", { class: "tag " + q.area }, NOME_AREA[q.area]),\n      h("span", { class: "tag tema" }', 'h("span", { class: "tag " + q.area }, q.area),\n      h("span", { class: "tag tema" }'), cita: /a tag de área do cartão não traz a classe e o nome/ },
   { arquivo: "app.js", nome: "app: os dois painéis ficam visíveis ao mesmo tempo",
     txt: o => planta(o, "paineis[k].hidden = k !== qual;", "paineis[k].hidden = false;"), cita: /a aba Comentário não é a visível de início/ },
-  /* --- o caderno para imprimir ------------------------------------------- */
-  { arquivo: "caderno/caderno.js", nome: "caderno: texto de apoio repetido em cada questão",
-    txt: o => planta(o, "lista[i - 1].texto !== q.texto)", "true)"), cita: /texto de apoio impresso \d+ vez/ },
+  /* --- o caderno --------------------------------------------------------- */
   { arquivo: "caderno/caderno.js", nome: "caderno: gabarito resumido com a letra seguinte",
     txt: o => planta(o, "[i + k + 1, LETRAS[q.correta], q.id]", "[i + k + 1, LETRAS[(q.correta + 1) % 5], q.id]"), cita: /o gabarito impresso não bate/ },
-  { arquivo: "caderno/caderno.js", nome: "caderno: conjunto de questões ignorado (imprime tudo)",
-    txt: o => planta(o, 'op.origem === "todas" || q.origem === "recuperada" || (op.origem === "selecao" && q.selecao === true)', "true"), cita: /o caderno padrão montou \d+ questões/ },
-  { nome: "seleção: uma inédita a mais marcada (p11) — 51 de português",
-    txt: o => noBloco(o, "p11", 'origem: "inedita",', 'origem: "inedita",\n  selecao: true,'), cita: /a seleção tem 51 de português/ },
-  { nome: "seleção: uma real (p01) com selecao: true",
-    txt: o => noBloco(o, "p01", 'origem: "recuperada",', 'origem: "recuperada",\n  selecao: true,'), cita: /`selecao` só pode ser true, e só em inédita/ },
-  { arquivo: "app.js", nome: "app: o filtro \"50 + 50\" mostra as reais só",
-    txt: o => planta(o, 'f === "selecao" ? lista.filter(q => q.origem === "recuperada" || q.selecao === true)', 'f === "selecao" ? lista.filter(q => q.origem === "recuperada")'), cita: /o filtro "50 \+ 50" mostrou \d+ cartões/ },
   { arquivo: "caderno/caderno.js", nome: "caderno: comentário de outra questão dentro da ficha",
     txt: o => planta(o, 'h("div", { class: "texto-comentario", html: q.comentario })', 'h("div", { class: "texto-comentario", html: Q[0].comentario })'), cita: /alguma ficha não traz/ },
-  { arquivo: "caderno/caderno.js", nome: "caderno: a letra grande do gabarito na ficha é a seguinte",
-    txt: o => planta(o, 'h("span", { class: "letrao" }, letra)', 'h("span", { class: "letrao" }, LETRAS[(q.correta + 1) % 5])'), cita: /alguma ficha não traz/ },
   { arquivo: "caderno/caderno.js", nome: "caderno: o nome do estudante some da capa",
     txt: o => planta(o, 'h("span", { class: "linha nome" }, op.nome || "")', 'h("span", { class: "linha nome" }, "")'), cita: /a capa não traz o nome do estudante/ },
   { arquivo: "caderno/caderno.js", nome: "caderno: Simplificando some da ficha",
     txt: o => planta(o, "op.simples && q.simples ?", "false ?"), cita: /alguma ficha não traz/ },
-  { arquivo: "app.js", nome: "app: clicar em Simplificando não guarda a escolha",
-    txt: o => planta(o, "try { localStorage.setItem(CH_ABA, qual); } catch (e) { /* sem armazenamento */ }", "/* nada */"), cita: /a aba escolhida não foi guardada/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: a linha de fonte da ficha traz o documento inteiro",
+    txt: o => planta(o, "`Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo}.`", "`Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo} — ${FONTES[q.fonte].txt}.`"), cita: /a linha de fonte da ficha não é/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: o filtro de área é ignorado",
+    txt: o => planta(o, '(op.area === "todas" || q.area === op.area)', "true"), cita: /com a área ped, o caderno montou \d+ fichas/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: a ficha sai sem referências",
+    txt: o => planta(o, 'h("p", { class: "referencias", html: `<span class="rot">Referências</span> ${q.referencias.join(" · ")}` }),', ""), cita: /alguma ficha não traz/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: o mapa de temas perde a tag da área",
+    txt: o => planta(o, 'h("td", { class: "d" }, h("span", { class: "tag " + q.area }, NOME_AREA[q.area])),', 'h("td", { class: "d" }, h("span", { class: "tag " + q.area }, q.area)),'), cita: /o mapa de temas não lista cada questão sob a sua área/ },
+  { arquivo: "caderno/caderno.css", nome: "caderno.css: overflow: hidden volta à ficha",
+    txt: o => planta(o, ".questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px;", ".questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px; overflow: hidden;"), cita: /não podem ter overflow: hidden nem break-inside: avoid/ },
+  { arquivo: "caderno/caderno.css", nome: "caderno.css: página de 250mm",
+    txt: o => planta(o, "--pagina: 256mm", "--pagina: 250mm"), cita: /--pagina deve ser 256mm/ },
+  { arquivo: "caderno/caderno.css", nome: "caderno.css: a ficha longa volta a ocupar uma página só",
+    txt: o => planta(o, ".questao.dupla { min-height: calc(2 * var(--pagina)); }", ".questao.dupla { }"), cita: /a ficha longa \(\.questao\.dupla\) precisa ocupar duas páginas/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: a ficha longa não é marcada",
+    txt: o => planta(o, 'f.classList.add("dupla")', 'void 0'), cita: /não marca a ficha longa com a classe dupla/ },
 ];
 
 let falhos = 0;
