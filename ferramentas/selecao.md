@@ -8,7 +8,12 @@ palavras · (HRPP) a lacuna que preenche.
 
 Estado: as entradas do SUS-SP 2026 (`entrada/*.js`) estão escritas — 76
 questões (20 + 19 + 17 + 20). As do HRPP 2026 esperam o caderno (Tarefa 13
-do plano).
+do plano). Em 2026-09-28 o caderno do HRPP 2026 não foi encontrado em
+nenhuma fonte pública (Estratégia MED, Medway, MedCof, site do hospital,
+Hardwork, nomes prováveis no CDN); só o gabarito (anuladas 15 e 55) e os
+modelos de recurso das questões 14, 66, 69 e 75. Falta o estudante ou
+alguém com login de candidato do HRPP2501 baixar o caderno em
+vunesp.com.br (Área do candidato → Provas e Gabaritos).
 
 ## Pediatria (25 = 20 SUS-SP + 5 HRPP)
 
