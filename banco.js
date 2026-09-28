@@ -47,6 +47,14 @@ window.BANCO = {
         "txt": "Seleção Pública para Residência Médica 2026 — SUS/SP, prova objetiva de acesso direto (VUNESP, 14/12/2025); gabarito de 16/12/2025 com as anulações do edital de análise de recursos de 20/01/2026 (questões 4, 21, 23 e 36)",
         "caderno": "ferramentas/cadernos/susp2026.txt",
         "gabarito": "ferramentas/cadernos/susp2026-gabarito.txt"
+      },
+      {
+        "id": "susp2021",
+        "edicao": 2021,
+        "rotulo": "SUS-SP 2021",
+        "txt": "Seleção Pública para Residência Médica 2021 — SUS/SP, prova objetiva 001 de acesso direto (VUNESP, 10/01/2021); gabarito após recursos (anuladas 27 e 57), na transcrição publicada pelo Estratégia MED em 02/2021",
+        "caderno": "ferramentas/cadernos/susp2021.txt",
+        "gabarito": "ferramentas/cadernos/susp2021-gabarito.txt"
       }
     ]
   },

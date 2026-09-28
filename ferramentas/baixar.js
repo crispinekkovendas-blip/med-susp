@@ -11,6 +11,8 @@ const ARQUIVOS = [
   ["susp2026-recursos.pdf", "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2026/01/SESA2504_306_20260120131302.pdf.pdf"],
   ["hrpp2026-gabarito-preliminar.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2025/12/HRPP2501_306_20251202163016.pdf.pdf"],
   ["hrpp2026-resultado.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2026/01/HRPP2501_306_20260126122312.pdf.pdf"],
+  ["susp2021-caderno.pdf", "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2021/01/Prova-AC_-SUS-SP-1.pdf"],
+  ["susp2021-gabarito-estrategia.pdf", "https://cdn.medblog.estrategiaeducacional.com.br/wp-content/uploads/2021/02/Gabarito-SUS-SP-2021.pdf"],
 ];
 function baixar(url, destino, saltos = 0) {
   return new Promise((ok, falha) => {

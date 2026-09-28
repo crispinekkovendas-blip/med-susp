@@ -1,7 +1,7 @@
 """Extrai as questões de um caderno VUNESP (PDF) com PyMuPDF.
 
-Por página, os blocos de texto são ordenados assim: um bloco "largo" (mais de
-60 % da largura) abre uma faixa vertical; dentro de cada faixa vêm primeiro
+Por página, os blocos de texto são ordenados assim: um bloco "largo" (cruza
+o centro da página) abre uma faixa vertical; dentro de cada faixa vêm primeiro
 os blocos da coluna esquerda, depois os da direita, cada um de cima para
 baixo. Isso reproduz a ordem de leitura de um caderno em duas colunas em que
 algumas questões são compostas na largura toda. Blocos de imagem viram a
@@ -26,6 +26,10 @@ PREFIXOS = {"anti", "auto", "contra", "extra", "infra", "intra", "semi", "sub", 
             "pseudo", "retro", "supra", "ante", "arqui", "sócio", "socio", "tele", "agro", "eletro", "geo",
             "hidro", "mega", "poli", "proto", "psico", "auto", "peri", "endo", "epi", "para"}
 
+# palavras inteiras que a quebra faz parecer prefixo + palavra
+NAO_SAO_COMPOSTOS = {"pré-via", "pré-vias", "pré-vio", "pré-vios", "inter-rogar", "inter-rogatório", "inter-romper",
+                     "inter-rompida", "inter-rompido", "inter-rupção", "super-visão", "sub-stância", "sub-stituir"}
+
 def juntar_hifens(texto):
     texto = texto.replace("\xad\n", "").replace("\xad", "")
     # hífen repetido na quebra ("queixa-\n-se", "Ringer-\n-lactato"): a banca
@@ -37,7 +41,8 @@ def juntar_hifens(texto):
     def f(m):
         a, b = m.group(1), m.group(2)
         al = a.lower()
-        mantem = al in SEMPRE_HIFEN or (al in PREFIXOS and (b[0].lower() == "h" or b[0].lower() == al[-1] or (al == "sub" and b[0].lower() in "br")))
+        composto = (a + "-" + b).lower()
+        mantem = composto not in NAO_SAO_COMPOSTOS and (al in SEMPRE_HIFEN or (al in PREFIXOS and (b[0].lower() == "h" or (b[0].lower() == al[-1] and al[-1] in "aeiou") or (al == "sub" and b[0].lower() in "br"))))
         saida = a + "-" + b if mantem else a + b
         decisoes.append(f"{a}-/{b} → {saida}" + (" (mantido)" if mantem else ""))
         return saida
@@ -51,11 +56,14 @@ def texto_ordenado(pdf, primeira_pagina):
         page = doc[pno]
         w = page.rect.width
         blocos = page.get_text("blocks")
-        largos = sorted([b for b in blocos if b[2] - b[0] > 0.6 * w], key=lambda b: b[1])
+        # largo = cruza o centro da página (uma instrução centrada de uma linha
+        # também é larga, mesmo com menos de 60 % da largura)
+        largo = lambda b: b[0] < w / 2 - 10 and b[2] > w / 2 + 10
+        largos = sorted([b for b in blocos if largo(b)], key=lambda b: b[1])
         def faixa(b):
             return sum(1 for l in largos if l[1] <= b[1] + 1)
         def chave(b):
-            if b[2] - b[0] > 0.6 * w:
+            if largo(b):
                 return (2 * largos.index(b), 0, round(b[1]))
             col = 0 if (b[0] + b[2]) / 2 < w / 2 else 1
             return (2 * faixa(b) - 1, col, round(b[1]))
@@ -67,25 +75,48 @@ def limpar(texto, rodape):
     padrao = r"(?m)^\s*(" + rodape + r"|\d{1,2})\s*$\n?"
     return re.sub(padrao, "", texto)
 
+# instrução que abre um texto compartilhado por uma faixa de questões; o
+# texto vai da instrução até o número da questão seguinte
+APOIO = re.compile(r"(?m)^(?:As quest[õo]es de n[úu]meros (\d+) (?:e|a) (\d+) referem-se .*|Considere .*? para responder [àa]s quest[õo]es de n[úu]meros (\d+) (?:e|a) (\d+)\.)[ \t]*$")
+
+def texto_de_apoio(bruto):
+    """(texto_sem_apoio, apoio) — apoio = {"de", "ate", "html"} ou None."""
+    m = APOIO.search(bruto)
+    if not m:
+        return bruto, None
+    de, ate = int(m.group(1) or m.group(3)), int(m.group(2) or m.group(4))
+    instrucao = re.sub(r"\s+", " ", m.group(0)).strip()
+    caso = re.sub(r"\s+", " ", bruto[m.end():]).strip()
+    html = f"<p><em>{instrucao}</em></p>" + (f"<p>{caso}</p>" if caso else "")
+    return bruto[:m.start()], {"de": de, "ate": ate, "html": html}
+
 def separar_questoes(texto):
     partes = re.split(r"(?m)^(\d{2,3})\.\t[ ]*", texto)
     limpa = lambda s: re.sub(r"\s+", " ", s).strip()
     questoes = []
+    apoios = []
+    _, apoio = texto_de_apoio(partes[0])      # um texto antes da primeira questão
+    if apoio: apoios.append(apoio)
     for i in range(1, len(partes), 2):
         numero, corpo = int(partes[i]), partes[i + 1]
         m = re.search(r"(?m)^\(A\)\t[ ]*", corpo)
         if not m:
             questoes.append({"numero": numero, "erro": "sem alternativa (A)"}); continue
         enunciado, resto = corpo[:m.start()], corpo[m.start():]
+        resto, apoio = texto_de_apoio(resto)   # o texto das questões seguintes vem depois da (E)
         alts = re.split(r"(?m)^\(([A-E])\)\t[ ]*", resto)
         letras, textos = alts[1::2], [limpa(t) for t in alts[2::2]]
         imagem = "[IMAGEM]" in enunciado or any("[IMAGEM]" in t for t in textos)
         enunciado = limpa(enunciado.replace("[IMAGEM]", " "))
         textos = [limpa(t.replace("[IMAGEM]", " ")) for t in textos]
         q = {"numero": numero, "enunciado": enunciado, "alternativas": textos, "imagem": imagem}
+        for a in apoios:
+            if a["de"] <= numero <= a["ate"]:
+                q["texto"] = a["html"]
         if letras != list("ABCDE"):
             q["erro"] = f"alternativas {letras}"
         questoes.append(q)
+        if apoio: apoios.append(apoio)
     return questoes
 
 def main():

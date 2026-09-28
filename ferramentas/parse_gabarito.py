@@ -11,21 +11,28 @@ onde saem as anulações da prova pedida, e/ou uma lista manual --anuladas.
 import argparse, re, sys
 
 def letras_da_prova(texto, prova):
-    """Os pares "NN - X" do bloco da prova pedida, até o bloco seguinte."""
+    """Os pares "NN - X" do bloco da prova pedida, até o bloco seguinte.
+    Sem cabeçalho "NNN. PROVA OBJETIVA" (gabarito transcrito por cursinho,
+    como o do SUS-SP 2021), o texto inteiro é o bloco. Uma letra seguida de
+    asterisco ("27- A*") é questão anulada e vira "*"."""
     blocos = re.split(r"(?m)^\s*(\d{3})\.\s*PROVA\s+OBJETIVA", texto)
     # blocos = [antes, "001", corpo, "002", corpo, ...]
+    corpo = None
+    if len(blocos) == 1:
+        corpo = texto
     for i in range(1, len(blocos), 2):
         if blocos[i] == prova:
             corpo = blocos[i + 1]
-            pares = re.findall(r"(\d{1,3})\s*-\s*([A-E])\b", corpo)
-            letras = {}
-            for n, x in pares:
-                n = int(n)
-                if n in letras:
-                    break          # a numeração recomeçou: acabou a prova
-                letras[n] = x
-            return letras
-    raise SystemExit(f"prova {prova} não encontrada no gabarito")
+    if corpo is None:
+        raise SystemExit(f"prova {prova} não encontrada no gabarito")
+    pares = re.findall(r"(\d{1,3})\s*-\s*([A-E])(\*?)(?![A-Za-z])", corpo)
+    letras = {}
+    for n, x, anulada in pares:
+        n = int(n)
+        if n in letras:
+            break          # a numeração recomeçou: acabou a prova
+        letras[n] = "*" if anulada else x
+    return letras
 
 def anuladas_do_edital(raw, prova):
     """Questões da prova pedida marcadas ANULADA no edital de recursos.
@@ -69,7 +76,8 @@ def main():
         raise SystemExit(f"numeração com buracos: {sorted(letras)[:10]}…")
     with open(a.saida, "w", encoding="utf-8", newline="\n") as f:
         for n in sorted(letras):
-            f.write(f"{n} {'*' if n in anuladas else letras[n]}\n")
+            f.write(f"{n} {'*' if n in anuladas or letras[n] == '*' else letras[n]}\n")
+    anuladas |= {n for n, x in letras.items() if x == '*'}
     print(f"{a.saida}: {len(letras)} questões, anuladas {sorted(anuladas) or 'nenhuma'}")
 
 if __name__ == "__main__":

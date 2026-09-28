@@ -36,7 +36,8 @@ for (const a of meta.areas) {
     if (!Array.isArray(e.referencias) || !e.referencias.length) throw new Error(`${onde}: falta referencias`);
     const fonte = meta.fontes.find(f => f.id === e.fonte);
     const obj = { id: a.id + String(i + 1).padStart(2, "0"), area: a.id, tema: e.tema, fonte: e.fonte, edicao: fonte.edicao, numero: e.numero };
-    if (e.texto) obj.texto = e.texto;
+    if (q.texto) obj.texto = q.texto;       /* texto compartilhado, vindo do caderno */
+    if (e.texto) obj.texto = e.texto;       /* ou escrito à mão (tabela em HTML) */
     Object.assign(obj, { enunciado: q.enunciado, alternativas: q.alternativas, correta: "ABCDE".indexOf(g), referencias: e.referencias, comentario: e.comentario, simples: e.simples });
     questoes.push(obj);
   });
