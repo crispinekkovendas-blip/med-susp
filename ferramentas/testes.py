@@ -64,6 +64,72 @@ def test_parse_recursos_anuladas():
     raw = "x\n001 - Prova\nObjetiva\n1 4 ANULADA\n003 - Prova\nObjetiva\n1 4 ANULADA\n001 - Prova\nObjetiva\n1 23 Indeferido\n001 - Prova Objetiva 36 ANULADA\n"
     assert anuladas_do_edital(raw, "001") == {4, 36}
 
+@teste
+def test_juntar_hifens():
+    from extrai_questoes import juntar_hifens
+    casos = {
+        "hiper-\ntensão": "hipertensão", "dialí\xad\ntica": "dialítica",
+        "pré-\nnatal": "pré-natal", "recém-\nnascido": "recém-nascido", "pós-\noperatório": "pós-operatório",
+        "anti-\nhistamínico": "anti-histamínico", "intra-\nabdominal": "intra-abdominal", "auto-\nimune": "autoimune",
+        "anos-\nmaço": "anos-maço", "sub-\nrogar": "sub-rogar", "contra-\nindicação": "contraindicação",
+        "queixa-\n-se": "queixa-se", "Ringer-\n-lactato": "Ringer-lactato", "DNA- \n-HPV": "DNA-HPV", "proges- \nterona": "progesterona",
+    }
+    for entrada, esperado in casos.items():
+        saida, _ = juntar_hifens(entrada)
+        assert saida == esperado, f"{entrada!r} -> {saida!r}, esperava {esperado!r}"
+
+@teste
+def test_separar_questoes_basico():
+    from extrai_questoes import separar_questoes
+    txt = "41.\tNa Caderneta, há índices.\nQual índice?\n(A)\tPeso.\n(B)\tEstatura.\n(C)\tPeso-para-estatura.\n(D)\tIMC.\n(E)\tEscore-z.\n42.\tMenina, 2 anos.\n(A)\ta\n(B)\tb\n(C)\tc\n(D)\td\n(E)\te\n"
+    qs = separar_questoes(txt)
+    assert [q["numero"] for q in qs] == [41, 42]
+    assert qs[0]["enunciado"] == "Na Caderneta, há índices. Qual índice?"
+    assert qs[0]["alternativas"] == ["Peso.", "Estatura.", "Peso-para-estatura.", "IMC.", "Escore-z."]
+    assert qs[0]["imagem"] is False
+
+@teste
+def test_separar_nao_quebra_em_parentese_com_espaco():
+    # "(A) " com espaço no meio do enunciado (uma citação) não é alternativa: a banca separa com TAB
+    from extrai_questoes import separar_questoes
+    txt = "07.\tO item diz:\n(A) o primeiro;\n(B) o segundo.\nAssinale.\n(A)\tum\n(B)\tdois\n(C)\ttrês\n(D)\tquatro\n(E)\tcinco\n"
+    qs = separar_questoes(txt)
+    assert len(qs) == 1 and qs[0]["alternativas"] == ["um", "dois", "três", "quatro", "cinco"]
+    assert "(A) o primeiro" in qs[0]["enunciado"]
+
+@teste
+def test_separar_marca_imagem():
+    from extrai_questoes import separar_questoes
+    txt = "20.\tRealiza o eletrocardiograma a seguir:\n[IMAGEM]\n(A)\ta\n(B)\tb\n(C)\tc\n(D)\td\n(E)\te\n"
+    qs = separar_questoes(txt)
+    assert qs[0]["imagem"] is True and "[IMAGEM]" not in qs[0]["enunciado"]
+
+@teste
+def test_extracao_susp2026():
+    qs = json.loads(ler("susp2026-questoes.json"))
+    assert len(qs) == 100 and [q["numero"] for q in qs] == list(range(1, 101))
+    assert all(len(q["alternativas"]) == 5 and all(a for a in q["alternativas"]) for q in qs), "alguma questão sem 5 alternativas"
+    por = {q["numero"]: q for q in qs}
+    assert por[41]["enunciado"].startswith("Na Caderneta de Saúde da Criança")
+    assert por[42]["alternativas"][4].startswith("molusco contagioso")
+    assert por[61]["alternativas"][4].startswith("Mola hidatiforme completa")
+    assert "hidrocortisona intravenosa" in por[22]["alternativas"][1]
+    assert por[81]["alternativas"][3].startswith("o apoio matricial")
+    assert por[20]["area"] == "cm" and por[21]["area"] == "cir" and por[41]["area"] == "ped" and por[61]["area"] == "go" and por[81]["area"] == "prev" and por[100]["area"] == "prev"
+    assert not any(re.search(r"\([A-E]\)\t", q["enunciado"]) for q in qs), "marcador de alternativa sobrou num enunciado"
+    # os títulos das áreas ("Pediatria", "Ginecologia e Obstetrícia"…) são linhas do caderno
+    # entre os blocos: não podem ficar colados na última alternativa do bloco anterior
+    assert not any(re.search(r"(Clínica Médica|Cirurgia|Pediatria|Ginecologia e Obstetrícia|Saúde Coletiva)$", a) for q in qs for a in q["alternativas"]), "título de área colado numa alternativa"
+    assert "queixa-se" in por[47]["enunciado"] and "Ringer-lactato" in por[55]["alternativas"][1], "hífen repetido na quebra de linha não foi tratado"
+    assert not any(re.search(r"\([B-E]\)\t", a) for q in qs for a in q["alternativas"]), "alternativas coladas"
+    # fidelidade: tudo o que está no JSON está, palavra por palavra, no texto ordenado do caderno
+    from normalizar import normalizar
+    cad = normalizar(ler("susp2026.txt"))
+    for q in qs:
+        assert normalizar(q["enunciado"]) in cad, f"enunciado {q['numero']} não está no texto do caderno"
+        for L, a in zip("ABCDE", q["alternativas"]):
+            assert normalizar(a) in cad, f"alternativa {L} da questão {q['numero']} não está no texto do caderno"
+
 if __name__ == "__main__":
     for f in testes:
         try:

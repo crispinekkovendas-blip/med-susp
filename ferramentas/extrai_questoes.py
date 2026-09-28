@@ -1,0 +1,119 @@
+"""Extrai as questões de um caderno VUNESP (PDF) com PyMuPDF.
+
+Por página, os blocos de texto são ordenados assim: um bloco "largo" (mais de
+60 % da largura) abre uma faixa vertical; dentro de cada faixa vêm primeiro
+os blocos da coluna esquerda, depois os da direita, cada um de cima para
+baixo. Isso reproduz a ordem de leitura de um caderno em duas colunas em que
+algumas questões são compostas na largura toda. Blocos de imagem viram a
+linha "[IMAGEM]" (a questão que a contém é marcada `imagem: true`).
+
+Hifens de fim de linha: hífen suave (U+00AD) é sempre hifenização e some;
+hífen comum junta as duas partes, salvo quando a parte esquerda é um prefixo
+que leva hífen (pré, pós, recém…) ou um prefixo que leva hífen diante de h
+ou de vogal igual (anti-histamínico, intra-abdominal). Toda decisão vai para
+<saida>-hifens.txt, para revisão humana.
+
+    python ferramentas/extrai_questoes.py --pdf ferramentas/cadernos/susp2026-caderno.pdf \
+        --primeira-pagina 3 --rodape "SESA2504/001-AcessoDireto|Confidencial até o momento da aplicação\\." \
+        --blocos "cm:1-20,cir:21-40,ped:41-60,go:61-80,prev:81-100" --saida ferramentas/cadernos/susp2026
+"""
+import argparse, json, re, sys
+
+SEMPRE_HIFEN = {"pré", "pós", "pró", "recém", "ex", "vice", "bem", "mal", "não", "sem", "além", "aquém",
+                "grão", "grã", "anos", "beta", "alfa", "gama", "delta", "ômega", "primeiro", "segundo"}
+PREFIXOS = {"anti", "auto", "contra", "extra", "infra", "intra", "semi", "sub", "super", "ultra", "micro",
+            "macro", "neo", "pan", "co", "multi", "inter", "trans", "hiper", "hipo", "mini", "sobre",
+            "pseudo", "retro", "supra", "ante", "arqui", "sócio", "socio", "tele", "agro", "eletro", "geo",
+            "hidro", "mega", "poli", "proto", "psico", "auto", "peri", "endo", "epi", "para"}
+
+def juntar_hifens(texto):
+    texto = texto.replace("\xad\n", "").replace("\xad", "")
+    # hífen repetido na quebra ("queixa-\n-se", "Ringer-\n-lactato"): a banca
+    # repete o hífen de um composto/ênclise partido — fica UM hífen, sem quebra
+    texto = re.sub(r"([^\W\d_]+)-[ \t]*\n[ \t]*-([^\W\d_]+)", r"\1-\2", texto)
+    # espaço perdido entre o hífen e a quebra ("proges- \nterona") vira "-\n"
+    texto = re.sub(r"-[ \t]+\n", "-\n", texto)
+    decisoes = []
+    def f(m):
+        a, b = m.group(1), m.group(2)
+        al = a.lower()
+        mantem = al in SEMPRE_HIFEN or (al in PREFIXOS and (b[0].lower() == "h" or b[0].lower() == al[-1] or (al == "sub" and b[0].lower() in "br")))
+        saida = a + "-" + b if mantem else a + b
+        decisoes.append(f"{a}-/{b} → {saida}" + (" (mantido)" if mantem else ""))
+        return saida
+    return re.sub(r"([^\W\d_]+)-\n\s*([^\W\d_]+)", f, texto), decisoes
+
+def texto_ordenado(pdf, primeira_pagina):
+    import fitz
+    doc = fitz.open(pdf)
+    linhas = []
+    for pno in range(primeira_pagina - 1, doc.page_count):
+        page = doc[pno]
+        w = page.rect.width
+        blocos = page.get_text("blocks")
+        largos = sorted([b for b in blocos if b[2] - b[0] > 0.6 * w], key=lambda b: b[1])
+        def faixa(b):
+            return sum(1 for l in largos if l[1] <= b[1] + 1)
+        def chave(b):
+            if b[2] - b[0] > 0.6 * w:
+                return (2 * largos.index(b), 0, round(b[1]))
+            col = 0 if (b[0] + b[2]) / 2 < w / 2 else 1
+            return (2 * faixa(b) - 1, col, round(b[1]))
+        for b in sorted(blocos, key=chave):
+            linhas.append("[IMAGEM]" if b[6] == 1 else b[4].rstrip("\n"))
+    return "\n".join(linhas)
+
+def limpar(texto, rodape):
+    padrao = r"(?m)^\s*(" + rodape + r"|\d{1,2})\s*$\n?"
+    return re.sub(padrao, "", texto)
+
+def separar_questoes(texto):
+    partes = re.split(r"(?m)^(\d{2,3})\.\t[ ]*", texto)
+    limpa = lambda s: re.sub(r"\s+", " ", s).strip()
+    questoes = []
+    for i in range(1, len(partes), 2):
+        numero, corpo = int(partes[i]), partes[i + 1]
+        m = re.search(r"(?m)^\(A\)\t[ ]*", corpo)
+        if not m:
+            questoes.append({"numero": numero, "erro": "sem alternativa (A)"}); continue
+        enunciado, resto = corpo[:m.start()], corpo[m.start():]
+        alts = re.split(r"(?m)^\(([A-E])\)\t[ ]*", resto)
+        letras, textos = alts[1::2], [limpa(t) for t in alts[2::2]]
+        imagem = "[IMAGEM]" in enunciado or any("[IMAGEM]" in t for t in textos)
+        enunciado = limpa(enunciado.replace("[IMAGEM]", " "))
+        textos = [limpa(t.replace("[IMAGEM]", " ")) for t in textos]
+        q = {"numero": numero, "enunciado": enunciado, "alternativas": textos, "imagem": imagem}
+        if letras != list("ABCDE"):
+            q["erro"] = f"alternativas {letras}"
+        questoes.append(q)
+    return questoes
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--pdf", required=True)
+    ap.add_argument("--primeira-pagina", type=int, default=1)
+    ap.add_argument("--rodape", default=r"Confidencial até o momento da aplicação\.")
+    ap.add_argument("--blocos", required=True, help='ex.: "cm:1-20,cir:21-40,ped:41-60,go:61-80,prev:81-100"')
+    ap.add_argument("--saida", required=True)
+    a = ap.parse_args()
+    areas = {}
+    for parte in a.blocos.split(","):
+        area, faixa = parte.split(":"); ini, fim = map(int, faixa.split("-"))
+        for n in range(ini, fim + 1): areas[n] = area
+    texto = limpar(texto_ordenado(a.pdf, a.primeira_pagina), a.rodape)
+    texto, decisoes = juntar_hifens(texto)
+    with open(a.saida + ".txt", "w", encoding="utf-8", newline="\n") as f: f.write(texto)
+    with open(a.saida + "-hifens.txt", "w", encoding="utf-8", newline="\n") as f: f.write("\n".join(decisoes) + "\n")
+    questoes = separar_questoes(texto)
+    problemas = [q for q in questoes if "erro" in q]
+    for q in questoes:
+        q["area"] = areas.get(q["numero"], "?")
+    with open(a.saida + "-questoes.json", "w", encoding="utf-8", newline="\n") as f:
+        json.dump(questoes, f, ensure_ascii=False, indent=1)
+    imagens = [q["numero"] for q in questoes if q.get("imagem")]
+    print(f"{len(questoes)} questões; {len(problemas)} com problema {[(q['numero'], q['erro']) for q in problemas]}; com imagem: {imagens}; {len(decisoes)} hifens decididos (ver {a.saida}-hifens.txt)")
+    if problemas or len(questoes) != len(areas):
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
