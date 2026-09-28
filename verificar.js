@@ -1,213 +1,154 @@
 /* ============================================================================
-   Conferência do banco INEPAM. Roda em Node: `node verificar.js`.
+   Conferência do banco SUS-SP. Roda em Node: `node verificar.js`.
 
    O que ela prova:
-     · a forma: 100 questões, 50 + 50, ids únicos, cinco alternativas cada,
-       gabarito dentro do intervalo, alternativas distintas, comentário com
-       tamanho de comentário e não de frase;
-     · a MATEMÁTICA: toda questão traz `conta` e `valor`; a conta é
-       recalculada aqui e tem de dar o `valor`, e o `valor` tem de ser o
-       número escrito na alternativa marcada como certa. Um gabarito errado
-       de matemática não passa. Nas questões de IDENTIDADE ALGÉBRICA (fatorar,
-       desenvolver, frações algébricas) não há número: `conta` é a expressão
-       original como função de x, cada alternativa é traduzida para JS e
-       avaliada em três valores de x, e só a do gabarito pode coincidir;
-     · a coerência do comentário: ele tem de nomear a letra do gabarito
-       (`<strong>B`), senão o texto explica uma coisa e o gabarito diz outra;
-     · a marcação: tags de abertura e fechamento equilibradas, nada de
-       `undefined`, nenhum byte de controle;
-     · a página monta: index.html, app.css e app.js existem, e app.js roda
-       num DOM de mentira sem estourar, produzindo 100 cartões.
+     · a forma: áreas de meta.areas, ESPERADO questões em cada uma, ids em
+       sequência, ordem (área → fonte → número), cinco alternativas, gabarito
+       0..4, alternativas distintas;
+     · a FIDELIDADE: enunciado, cada alternativa e o texto de apoio de toda
+       questão estão, palavra por palavra (normalizados), no texto do caderno
+       oficial guardado em ferramentas/cadernos/<fonte>.txt; e `correta` é a
+       letra do gabarito oficial (<fonte>-gabarito.txt), nunca uma anulada;
+     · o conteúdo: comentário (tamanho, abertura, veredito único, as cinco
+       letras, fecho), Simplificando (tamanho, letra, frases curtas),
+       tema, referências, tags permitidas e equilibradas;
+     · a página e o caderno montam num DOM de mentira e mostram o que o banco
+       diz (etiquetas, filtros, abas, referências, simulado, fichas, mapa,
+       nome do estudante); o CSS do caderno deixa a ficha longa correr.
+
+   O harness prova coerência e fidelidade, não verdade médica: o comentário
+   de cada questão é lido por uma pessoa antes de a área ser dada por pronta.
    ========================================================================== */
 const fs = require("fs"), path = require("path"), vm = require("vm");
+const { normalizar } = require("./ferramentas/normalizar.js");
 const AQUI = __dirname;
 const falhas = [];
 const erro = m => falhas.push(m);
 let n = 0;
 const exige = (c, m) => { n++; if (!c) erro(m); };
 
+/* quantas questões cada área deve ter: 1 no esboço; a tarefa de conteúdo de
+   cada área sobe para o número final dela */
+const ESPERADO = { ped: 20, prev: 19, cir: 17, go: 20 };
+
 /* --- carrega o banco ---------------------------------------------------- */
 const src = fs.readFileSync(path.join(AQUI, "banco.js"), "utf8");
 const ctx = vm.createContext({ window: {} });
 vm.runInContext(src, ctx, { filename: "banco.js" });
 const B = ctx.window.BANCO;
-exige(B && Array.isArray(B.questoes), "banco.js não define window.BANCO.questoes");
+exige(B && Array.isArray(B.questoes) && B.meta && Array.isArray(B.meta.areas) && Array.isArray(B.meta.fontes), "banco.js não define window.BANCO com meta.areas, meta.fontes e questoes");
 const Q = B.questoes;
 const LETRAS = "ABCDE";
-const FONTES = new Set(B.meta.fontes.map(f => f.id));
+const AREAS = B.meta.areas;
+const IDS_AREA = AREAS.map(a => a.id);
+const FONTES = Object.fromEntries(B.meta.fontes.map(f => [f.id, f]));
+const dois = x => String(x).padStart(2, "0");
 
 /* --- a forma ------------------------------------------------------------ */
-/* 55 reais (10 + 32 de português, 8 + 5 de matemática) e 82 inéditas */
-const ESPERADO = { total: 137, pt: 82, mt: 55, reais: 55, reaisPt: 42, reaisMt: 13 };
-exige(Q.length === ESPERADO.total, `esperava ${ESPERADO.total} questões, há ${Q.length}`);
-exige(Q.filter(q => q.disc === "pt").length === ESPERADO.pt, `esperava ${ESPERADO.pt} de português`);
-exige(Q.filter(q => q.disc === "mt").length === ESPERADO.mt, `esperava ${ESPERADO.mt} de matemática`);
-const REAIS = Q.filter(q => q.origem === "recuperada");
-exige(REAIS.length === ESPERADO.reais, `esperava ${ESPERADO.reais} questões reais (da banca), há ${REAIS.length}`);
-exige(REAIS.filter(q => q.disc === "pt").length === ESPERADO.reaisPt && REAIS.filter(q => q.disc === "mt").length === ESPERADO.reaisMt, "reais por disciplina fora do esperado");
-/* a seleção 50 + 50: as reais + as inéditas marcadas com `selecao` */
-const SELECAO = Q.filter(q => q.origem === "recuperada" || q.selecao === true);
-exige(Q.every(q => q.selecao === undefined || (q.selecao === true && q.origem === "inedita")), "`selecao` só pode ser true, e só em inédita");
-exige(SELECAO.filter(q => q.disc === "pt").length === 50 && SELECAO.filter(q => q.disc === "mt").length === 50, `a seleção tem ${SELECAO.filter(q => q.disc === "pt").length} de português e ${SELECAO.filter(q => q.disc === "mt").length} de matemática, esperava 50 + 50`);
-/* no banco, as reais de cada disciplina vêm antes das inéditas */
-for (const d of ["pt", "mt"]) {
-  const seq = Q.filter(q => q.disc === d).map(q => q.origem === "recuperada" ? "r" : "i").join("");
-  exige(/^r+i+$/.test(seq), `em ${d}, as questões da banca não vêm todas antes das inéditas`);
+exige(AREAS.length >= 1 && new Set(IDS_AREA).size === AREAS.length, "meta.areas vazio ou com id repetido");
+exige(AREAS.every(a => a.id && a.nome && a.curto), "toda área precisa de id, nome e curto");
+exige(Object.keys(ESPERADO).length === AREAS.length && IDS_AREA.every(id => id in ESPERADO), "ESPERADO no harness não cobre as mesmas áreas de meta.areas");
+for (const a of AREAS) {
+  const qs = Q.filter(q => q.area === a.id);
+  exige(qs.length === ESPERADO[a.id], `esperava ${ESPERADO[a.id]} questões em ${a.id}, há ${qs.length}`);
+  qs.forEach((q, i) => exige(q.id === a.id + dois(i + 1), `${q.id}: id fora da sequência (esperava ${a.id}${dois(i + 1)})`));
 }
-const ids = new Set();
+const ordemArea = Q.map(q => IDS_AREA.indexOf(q.area));
+exige(ordemArea.every((v, i) => i === 0 || v >= ordemArea[i - 1]), "as questões não estão agrupadas por área na ordem de meta.areas");
+const ordemFonte = Object.fromEntries(B.meta.fontes.map((f, i) => [f.id, i]));
+for (let i = 1; i < Q.length; i++) {
+  const a = Q[i - 1], b = Q[i];
+  if (a.area !== b.area) continue;
+  exige(ordemFonte[a.fonte] < ordemFonte[b.fonte] || (ordemFonte[a.fonte] === ordemFonte[b.fonte] && a.numero < b.numero), `${b.id}: fora da ordem (fonte, número) dentro da área`);
+}
+
+/* --- cadernos e gabaritos das fontes ------------------------------------ */
+const cadernoDe = {}, gabaritoDe = {};
+for (const f of B.meta.fontes) {
+  n++;
+  const pc = path.join(AQUI, f.caderno || ""), pg = path.join(AQUI, f.gabarito || "");
+  if (!f.caderno || !fs.existsSync(pc)) { erro(`fonte ${f.id}: falta o texto do caderno ${f.caderno}`); continue; }
+  if (!f.gabarito || !fs.existsSync(pg)) { erro(`fonte ${f.id}: falta o gabarito ${f.gabarito}`); continue; }
+  cadernoDe[f.id] = normalizar(fs.readFileSync(pc, "utf8"));
+  gabaritoDe[f.id] = {};
+  for (const l of fs.readFileSync(pg, "utf8").trim().split(/\r?\n/)) { const [num, x] = l.trim().split(/\s+/); gabaritoDe[f.id][Number(num)] = x; }
+  exige(Object.keys(gabaritoDe[f.id]).length >= 50, `fonte ${f.id}: gabarito com menos de 50 linhas`);
+  exige(typeof f.rotulo === "string" && /^[A-Za-z\-]+ 20\d\d$/.test(f.rotulo), `fonte ${f.id}: rotulo deve ser "NOME ANO" ("${f.rotulo}")`);
+  exige(Number.isInteger(f.edicao) && String(f.edicao) === String(f.rotulo).slice(-4), `fonte ${f.id}: edicao não bate com o ano do rotulo`);
+  exige(typeof f.txt === "string" && f.txt.length >= 40, `fonte ${f.id}: txt (descrição do documento) curto ou ausente`);
+}
+
+/* --- cada questão -------------------------------------------------------- */
+const ids = new Set(), vistosFonteNumero = new Set();
+const TAGS = ["p", "strong", "em", "ul", "ol", "li", "table", "thead", "tbody", "tr", "th", "td", "sub", "sup", "br"];
 for (const q of Q) {
   exige(!ids.has(q.id), `id repetido: ${q.id}`); ids.add(q.id);
+  exige(IDS_AREA.includes(q.area), `${q.id}: área "${q.area}" não está em meta.areas`);
+  exige(q.fonte in FONTES, `${q.id}: fonte "${q.fonte}" não está em meta.fontes`);
+  const f = FONTES[q.fonte] || {};
+  exige(q.edicao === f.edicao, `${q.id}: edicao ${q.edicao} não bate com a da fonte ${q.fonte} (${f.edicao})`);
+  exige(Number.isInteger(q.numero) && q.numero >= 1 && q.numero <= 120, `${q.id}: sem número da questão na prova`);
+  const chave = q.fonte + "#" + q.numero;
+  exige(!vistosFonteNumero.has(chave), `${q.id}: a questão ${q.numero} de ${q.fonte} entrou duas vezes`); vistosFonteNumero.add(chave);
+  /* gabarito oficial */
+  const g = (gabaritoDe[q.fonte] || {})[q.numero];
+  exige(g !== undefined, `${q.id}: a questão ${q.numero} não está no gabarito de ${q.fonte}`);
+  exige(g !== "*", `${q.id}: a questão ${q.numero} de ${q.fonte} foi ANULADA pela banca`);
+  exige(Number.isInteger(q.correta) && q.correta >= 0 && q.correta <= 4, `${q.id}: gabarito fora de 0..4`);
+  if (g && g !== "*") exige(LETRAS[q.correta] === g, `${q.id}: correta diz ${LETRAS[q.correta]}, o gabarito oficial de ${q.fonte} diz ${g}`);
+  /* fidelidade ao caderno */
+  const cad = cadernoDe[q.fonte];
+  if (cad) {
+    exige(cad.includes(normalizar(q.enunciado)), `${q.id}: o enunciado não está, palavra por palavra, no caderno ${q.fonte}`);
+    (q.alternativas || []).forEach((a, i) => exige(cad.includes(normalizar(a)), `${q.id}: a alternativa ${LETRAS[i]} não está, palavra por palavra, no caderno ${q.fonte}`));
+    if (q.texto) for (const trecho of normalizar(q.texto).split(/[.;:|]/).map(s => s.trim()).filter(s => s.length >= 20)) exige(cad.includes(trecho), `${q.id}: trecho do texto de apoio não está no caderno ("${trecho.slice(0, 40)}…")`);
+  }
   exige(typeof q.enunciado === "string" && q.enunciado.length >= 20, `${q.id}: enunciado curto ou ausente`);
   exige(Array.isArray(q.alternativas) && q.alternativas.length === 5, `${q.id}: precisa de 5 alternativas`);
-  exige(Number.isInteger(q.correta) && q.correta >= 0 && q.correta <= 4, `${q.id}: gabarito fora de 0..4`);
-  exige(typeof q.tema === "string" && q.tema.length >= 3, `${q.id}: sem tema`);
-  exige(q.origem === "recuperada" || q.origem === "inedita", `${q.id}: origem inválida "${q.origem}"`);
-  exige(FONTES.has(q.fonte), `${q.id}: fonte "${q.fonte}" não está em meta.fontes`);
-  /* de quando é a questão: ano em todas, igual ao da fonte; nas recuperadas,
-     o número que ela tinha na prova, e o comentário — que cita a prova —
-     tem de citar o MESMO número. Inédita não tem número de prova. */
-  exige(Number.isInteger(q.ano) && q.ano >= 2020 && q.ano <= 2026, `${q.id}: sem ano válido`);
-  const fonteObj = B.meta.fontes.find(f => f.id === q.fonte);
-  exige(fonteObj && fonteObj.ano === q.ano, `${q.id}: ano ${q.ano} não bate com o da fonte ${q.fonte} (${fonteObj && fonteObj.ano})`);
-  if (q.origem === "recuperada") {
-    exige(Number.isInteger(q.numero) && q.numero >= 1 && q.numero <= 60, `${q.id}: recuperada sem número da questão na prova`);
-    const cit = (q.comentario || "").match(/[Qq]uest[ãa]o (\d{1,2})\b/);
-    exige(cit && Number(cit[1]) === q.numero, `${q.id}: o comentário cita a questão ${cit ? cit[1] : "?"}, e \`numero\` diz ${q.numero}`);
-    /* a origem, no texto, é só "INEPAM + ano": sem cidade, cargo, edital, secretaria ou documento */
-    const vazou = (String(q.comentario) + " " + String(q.simples || "")).replace(/<[^>]+>/g, " ")
-      .match(/Adamantina|Embu das Artes|Guariba|Pradópolis|Emilianópolis|Luminárias|Santa Isabel|Nova Ubiratã|Marinópolis|Córrego do Bom Jesus|Estiva Gerbi|Nova Monte Verde|Campo Limpo Paulista|Bom Jardim da Serra|Mongaguá|Águas de São Pedro|Psicólogo|PEB II|cargos? de|Monitor de Transporte|Residência Jurídica|\bSME\b|\bSMAJ\b|\bSMS\b|\bPS 0|\bCP 0|Concurso 0|Processo Seletivo|idAnexo|spsconcursos/);
-    exige(!vazou, `${q.id}: o comentário cita a origem além de banca e ano ("${vazou && vazou[0]}")`);
-  } else exige(q.numero === undefined, `${q.id}: inédita não tem número de prova`);
-  exige(typeof q.comentario === "string" && q.comentario.length >= 600, `${q.id}: comentário curto (${(q.comentario || "").length})`);
-  const norm = s => String(s).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim().toLowerCase();
   const vistas = new Set();
-  for (const a of q.alternativas) {
-    exige(norm(a).length > 0, `${q.id}: alternativa vazia`);
-    exige(!vistas.has(norm(a)), `${q.id}: alternativa repetida "${norm(a)}"`); vistas.add(norm(a));
+  for (const a of q.alternativas || []) {
+    const na = normalizar(a);
+    exige(na.length > 0, `${q.id}: alternativa vazia`);
+    exige(!vistas.has(na), `${q.id}: alternativa repetida "${na.slice(0, 40)}"`); vistas.add(na);
   }
-  /* O comentário dá o VEREDITO com a letra certa. "Menciona a letra em algum
-     lugar" não serve: todo comentário menciona as cinco letras ao explicar os
-     distratores — um controle negativo passou por essa fresta. O que se exige
-     é a frase de veredito ("Gabarito <strong>X</strong>", "<strong>X é a
-     correta", "<strong>X é a errada"), uma só, e com a letra do gabarito. */
+  exige(typeof q.tema === "string" && q.tema.length >= 8 && q.tema.length <= 70, `${q.id}: tema fora de 8–70 caracteres`);
+  exige(Array.isArray(q.referencias) && q.referencias.length >= 1 && q.referencias.length <= 3 && q.referencias.every(r => typeof r === "string" && r.length >= 10 && r.length <= 120), `${q.id}: referencias precisa de 1 a 3 entradas de 10–120 caracteres`);
+  /* comentário */
   const letra = LETRAS[q.correta];
-  const vereditos = [...q.comentario.matchAll(/(?:[Gg]abarito <strong>([A-E])<\/strong>|<strong>([A-E]) é a (?:correta|errada))/g)]
-    .map(m => m[1] || m[2]);
-  exige(vereditos.length >= 1, `${q.id}: o comentário não traz a frase de veredito com a letra`);
+  exige(typeof q.comentario === "string" && q.comentario.length >= 600, `${q.id}: comentário curto (${(q.comentario || "").length})`);
+  const abre = String(q.comentario || "").replace(/<[^>]+>/g, "").trim();
+  exige(abre.startsWith(`Questão ${q.numero} (${f.rotulo})`), `${q.id}: o comentário não abre com "Questão ${q.numero} (${f.rotulo})"`);
+  const vereditos = [...String(q.comentario || "").matchAll(/[Gg]abarito <strong>([A-E])<\/strong>/g)].map(m => m[1]);
+  exige(vereditos.length === 1, `${q.id}: o comentário precisa de exatamente uma frase "Gabarito <strong>X</strong>" (há ${vereditos.length})`);
   exige(vereditos.every(v => v === letra), `${q.id}: o comentário dá o veredito para ${[...new Set(vereditos)].join("/")}, e o gabarito é ${letra}`);
-  /* "Simplificando": a mesma explicação contada para uma criança. Tem de
-     existir, dizer a letra certa por extenso ("a letra <strong>X</strong>",
-     e nunca outra) e SER simples de verdade — o que se mede: média de no
-     máximo 14 palavras por frase, nenhuma frase com mais de 26. Um trecho do
-     comentário da banca copiado para cá não passa por essa régua. */
+  for (const L of LETRAS) exige(String(q.comentario || "").includes(`<strong>${L}</strong>`), `${q.id}: o comentário não explica a alternativa ${L} (falta <strong>${L}</strong>)`);
+  exige(/O que a banca testa/.test(q.comentario || ""), `${q.id}: o comentário não fecha dizendo "O que a banca testa"`);
+  /* Simplificando */
   exige(typeof q.simples === "string" && q.simples.length >= 200, `${q.id}: sem "simples" (ou curto demais)`);
   if (typeof q.simples === "string") {
     const letrasS = [...q.simples.matchAll(/letra <strong>([A-E])<\/strong>/g)].map(m => m[1]);
     exige(letrasS.length >= 1, `${q.id}: o "simples" não diz "a letra <strong>X</strong>"`);
     exige(letrasS.every(v => v === letra), `${q.id}: o "simples" diz letra ${[...new Set(letrasS)].join("/")}, e o gabarito é ${letra}`);
-    /* tags viram espaço (senão "</p><p>" cola duas frases numa) e só conta
-       como palavra o que tem letra ou dígito — "+", "=" e "−" não são
-       palavras para uma criança ler */
-    const frases = q.simples.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()
-      .split(/[.!?…]+\s+|[.!?…]+$/).map(f => f.trim()).filter(Boolean);
-    const tam = frases.map(f => f.split(/\s+/).filter(w => /[\p{L}\d]/u.test(w)).length);
+    const frases = q.simples.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().split(/[.!?…]+\s+|[.!?…]+$/).map(s => s.trim()).filter(Boolean);
+    const tam = frases.map(s => s.split(/\s+/).filter(w => /[\p{L}\d]/u.test(w)).length);
     const media = tam.reduce((a, b) => a + b, 0) / tam.length;
     exige(media <= 14, `${q.id}: "simples" com frases longas (média ${media.toFixed(1)} palavras por frase)`);
     exige(Math.max(...tam) <= 26, `${q.id}: "simples" tem uma frase de ${Math.max(...tam)} palavras`);
   }
-  /* marcação equilibrada, nada vazado */
+  /* marcação: só as tags permitidas, equilibradas, nada vazado */
   for (const campo of ["enunciado", "comentario", "texto", "simples"]) {
     const t = q[campo]; if (!t) continue;
-    for (const tag of ["strong", "em", "p", "code", "table", "tr", "td", "th", "thead", "tbody"]) {
-      const abre = (t.match(new RegExp("<" + tag + "(\\s|>)", "g")) || []).length;
-      const fecha = (t.match(new RegExp("</" + tag + ">", "g")) || []).length;
-      exige(abre === fecha, `${q.id}: <${tag}> desequilibrado em ${campo} (${abre} abre, ${fecha} fecha)`);
+    for (const tag of TAGS) {
+      if (tag === "br") continue;
+      const abreT = (t.match(new RegExp("<" + tag + "(\\s|>)", "g")) || []).length;
+      const fechaT = (t.match(new RegExp("</" + tag + ">", "g")) || []).length;
+      exige(abreT === fechaT, `${q.id}: <${tag}> desequilibrado em ${campo} (${abreT} abre, ${fechaT} fecha)`);
     }
+    const estranhas = [...t.matchAll(/<\/?([a-z][a-z0-9]*)/g)].map(m => m[1]).filter(tg => !TAGS.includes(tg));
+    exige(!estranhas.length, `${q.id}: tag não permitida em ${campo}: <${estranhas[0]}>`);
     exige(!/undefined|\[object Object\]|NaN/.test(t), `${q.id}: vazamento em ${campo}`);
   }
 }
-
-/* --- a matemática: recalcula e confere com a alternativa ---------------- */
-const numeroDe = txt => {
-  /* extrai o número escrito numa alternativa: "R$ 1.740,00", "2,5% ao mês",
-     "2/3", "60°", "15 dias", "6 dias e 40 minutos" (este último não é
-     número simples e devolve null) */
-  let s = String(txt).replace(/<[^>]+>/g, "").trim();
-  const frac = s.match(/^(\d+)\s*\/\s*(\d+)$/);
-  if (frac) return Number(frac[1]) / Number(frac[2]);
-  if (/[√∛]/.test(s)) return null;
-  s = s.replace(/R\$\s*/g, "").replace(/\./g, "").replace(",", ".");
-  const m = s.match(/^-?\d+(?:\.\d+)?/);
-  return m ? Number(m[0]) : null;
-};
-const iguais = (a, b) => Math.abs(a - b) <= 1e-6 * Math.max(1, Math.abs(a), Math.abs(b));
-/* Identidade algébrica: a alternativa não traz um número, traz uma expressão
-   em x. `conta` é a expressão ORIGINAL como função de x; cada alternativa é
-   traduzida de álgebra para JS ("3x(x − 2)" → "3*x*(x-2)") e avaliada em
-   três valores de x. A do gabarito tem de coincidir nos três, e NENHUMA outra
-   pode — senão há dois gabaritos, ou o gabarito está errado. É o mesmo
-   princípio das numéricas: o gabarito é recalculado a partir das
-   alternativas, e não lido delas. (Antes, `conta` testava a identidade num
-   único x e dava sempre 0 — não provava nada sobre a letra.) */
-const algebraParaJs = txt => String(txt).replace(/<[^>]+>/g, "")
-  .replace(/−/g, "-").replace(/[×·]/g, "*").replace(/²/g, "**2").replace(/³/g, "**3").replace(/\s+/g, "")
-  .replace(/(\d|\))(?=[x(])/g, "$1*").replace(/x(?=[x(\d])/g, "x*");
-const PONTOS = [7, 11, 2.5];
-const avaliaAlt = a => { const f = new Function("x", "return (" + algebraParaJs(a) + ");"); return PONTOS.map(x => f(x)); };
-for (const q of Q.filter(q => q.disc === "mt")) {
-  n++;
-  if (q.identidade) {
-    let f;
-    try { f = vm.runInNewContext(q.conta, { Math }); } catch (e) { erro(`${q.id}: a conta não roda: ${e.message}`); continue; }
-    if (typeof f !== "function") { erro(`${q.id}: identidade sem função de x em \`conta\``); continue; }
-    exige(q.valor === undefined, `${q.id}: identidade não leva \`valor\``);
-    const ref = PONTOS.map(x => f(x));
-    q.alternativas.forEach((a, i) => {
-      let v;
-      try { v = avaliaAlt(a); } catch (e) { erro(`${q.id}: a alternativa ${LETRAS[i]} não traduz para JS ("${algebraParaJs(a)}")`); return; }
-      const bate = v.every((y, k) => Number.isFinite(y) && iguais(y, ref[k]));
-      if (i === q.correta) exige(bate, `${q.id}: a alternativa ${LETRAS[i]} "${a}" não é igual à expressão original em x = ${PONTOS.join(", ")}`);
-      else exige(!bate, `${q.id}: a alternativa ${LETRAS[i]} "${a}" também é igual à expressão original — dois gabaritos`);
-    });
-    continue;
-  }
-  if (q.conta == null) {
-    /* questões conceituais de matemática não têm conta — mas precisam dizer isso */
-    if (!/conceit|conjunto/i.test(q.tema)) erro(`${q.id}: questão de matemática sem \`conta\``);
-    continue;
-  }
-  let calc;
-  try { calc = vm.runInNewContext(q.conta, { Math }); } catch (e) { erro(`${q.id}: a conta não roda: ${e.message}`); continue; }
-  exige(typeof q.valor === "number", `${q.id}: sem \`valor\``);
-  exige(iguais(calc, q.valor), `${q.id}: a conta dá ${calc}, e \`valor\` diz ${q.valor}`);
-  const naAlt = numeroDe(q.alternativas[q.correta]);
-  if (naAlt != null) exige(iguais(naAlt, q.valor), `${q.id}: a alternativa ${LETRAS[q.correta]} diz ${naAlt}, e a conta dá ${q.valor}`);
-  /* duas alternativas não podem valer o mesmo número, mesmo escritas de
-     formas diferentes ("0,3" e "3/10"; "2/10" e "1/5") — uma prova real não
-     faz isso, e a auditoria achou dois casos que o harness deixava passar */
-  /* "0,0013" e "0,0013%" são números diferentes (a taxa decimal e a taxa em
-     porcentagem) — uma prova real da banca os pôs lado a lado de propósito */
-  const nums = q.alternativas.map(a => ({ v: numeroDe(a), pct: /%/.test(String(a)) }));
-  nums.forEach((x, i) => nums.forEach((y, k) => {
-    if (k > i && x.v != null && y.v != null && x.pct === y.pct && iguais(x.v, y.v)) erro(`${q.id}: as alternativas ${LETRAS[i]} e ${LETRAS[k]} valem o mesmo (${x.v})`);
-  }));
-  /* e nenhuma OUTRA alternativa pode valer o mesmo — senão há dois gabaritos */
-  const pctCerta = /%/.test(String(q.alternativas[q.correta]));
-  q.alternativas.forEach((a, i) => {
-    if (i === q.correta) return;
-    const v = numeroDe(a);
-    if (v != null && /%/.test(String(a)) === pctCerta && iguais(v, q.valor)) erro(`${q.id}: a alternativa ${LETRAS[i]} também vale ${v}`);
-  });
-}
-
-/* --- distribuição das letras (informativo, e um piso) ------------------- */
-/* o equilíbrio é cobrado só nas inéditas: as reais têm a letra que a banca
-   deu, e não se mexe nela */
-const dist = [0, 0, 0, 0, 0], distIne = [0, 0, 0, 0, 0];
-for (const q of Q) { dist[q.correta]++; if (q.origem === "inedita") distIne[q.correta]++; }
-const distTxt = dist.map((c, i) => `${LETRAS[i]}:${c}`).join(" ");
-const distIneTxt = distIne.map((c, i) => `${LETRAS[i]}:${c}`).join(" ");
-exige(Math.min(...distIne) >= 13, `letras desequilibradas nas inéditas (${distIneTxt}) — alguma letra com menos de 13 gabaritos`);
 
 /* --- bytes de controle nos arquivos ------------------------------------- */
 for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/caderno.js", "caderno/caderno.css", "caderno/index.html"]) {
@@ -220,7 +161,17 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   if (maus) erro(`${arq}: ${maus} byte(s) de controle`);
 }
 
-/* --- a página monta num DOM de mentira ---------------------------------- */
+/* --- o CSS do caderno deixa a ficha longa correr para a página seguinte --- */
+{
+  n++;
+  const css = fs.readFileSync(path.join(AQUI, "caderno", "caderno.css"), "utf8");
+  const regras = [...css.matchAll(/([^{}]+)\{([^}]*)\}/g)].map(m => ({ sel: m[1].split(",").map(s => s.trim()), corpo: m[2] }));
+  const proibido = regras.filter(r => (r.sel.includes(".questao") || r.sel.includes(".comentario")) && /overflow:\s*hidden|break-inside:\s*avoid|page-break-inside:\s*avoid/.test(r.corpo));
+  exige(!proibido.length, "caderno.css: .questao e .comentario não podem ter overflow: hidden nem break-inside: avoid (a ficha longa precisa correr para a página seguinte)");
+  exige(/--pagina:\s*256mm/.test(css), "caderno.css: --pagina deve ser 256mm");
+}
+
+/* --- um DOM de mentira ---------------------------------------------------- */
 function domDeMentira() {
   const mk = tag => {
     const el = {
@@ -233,11 +184,8 @@ function domDeMentira() {
       setAttribute(k, v) { el.attrs[k] = v; }, getAttribute(k) { return el.attrs[k] == null ? null : el.attrs[k]; },
       addEventListener(k, f) { (el.listeners[k] = el.listeners[k] || []).push(f); },
       append(...xs) { for (const x of xs) { const c = typeof x === "object" ? x : { nodeType: 3, textContent: String(x), tagName: "#text", children: [] }; c.parentNode = el; el.children.push(c); } },
-      /* replaceWith de verdade: é assim que o app troca o cartão respondido
-         pelo cartão com comentário. Sem isso o DOM de mentira nunca veria o
-         comentário nem as abas — e foi assim (um no-op) até as abas. */
       replaceWith(novo) { const p = el.parentNode; if (!p) return; const i = p.children.indexOf(el); if (i >= 0) { p.children[i] = novo; novo.parentNode = p; el.parentNode = null; } },
-      closest() { return null }, scrollIntoView() {},
+      closest() { return null; }, scrollIntoView() {},
       querySelector(sel) { return busca(el, sel)[0] || null; }, querySelectorAll(sel) { return busca(el, sel); },
       nodeType: 1,
     };
@@ -264,75 +212,95 @@ function domDeMentira() {
   };
   const armazem = {};
   const window = {
-    document, localStorage: { getItem: k => armazem[k] == null ? null : armazem[k], setItem: (k, v) => { armazem[k] = String(v); } },
-    scrollTo() {}, confirm: () => true, setTimeout: (f) => { f(); return 1; }, setInterval: () => 1, clearInterval() {},
+    document, localStorage: { getItem: k => armazem[k] == null ? null : armazem[k], setItem: (k, v) => { armazem[k] = String(v); }, removeItem: k => { delete armazem[k]; } },
+    scrollTo() {}, confirm: () => true, setTimeout: f => { f(); return 1; }, setInterval: () => 1, clearInterval() {},
     Date, Math, JSON, Object, Array, Number, String, Boolean, RegExp, console,
   };
   window.window = window;
   return { window, document, app };
 }
+const contexto = window => vm.createContext(Object.assign({}, window, { window, document: window.document, setTimeout: window.setTimeout, setInterval: window.setInterval, clearInterval: window.clearInterval, localStorage: window.localStorage, confirm: window.confirm }));
+const todos = (el, sel) => el.querySelectorAll(sel);
+
+/* --- a página monta ------------------------------------------------------- */
 {
   n++;
-  const { window, document, app } = domDeMentira();
-  const c = vm.createContext(Object.assign({}, window, { window, document, setTimeout: window.setTimeout, setInterval: window.setInterval, clearInterval: window.clearInterval, localStorage: window.localStorage, confirm: window.confirm }));
+  const { window, app } = domDeMentira();
+  const c = contexto(window);
   try {
     vm.runInContext(src, c, { filename: "banco.js" });
     vm.runInContext(fs.readFileSync(path.join(AQUI, "app.js"), "utf8"), c, { filename: "app.js" });
-    const cartoes = app.querySelectorAll(".q");
+    const cartoes = todos(app, ".q");
     exige(cartoes.length === Q.length, `a página montou ${cartoes.length} cartões, esperava ${Q.length}`);
-    const alts = app.querySelectorAll(".alt");
+    const alts = todos(app, ".alt");
     exige(alts.length === Q.length * 5, `a página montou ${alts.length} alternativas, esperava ${Q.length * 5}`);
-    exige(app.querySelectorAll(".comentario").length === 0, "comentário visível antes de responder");
-    /* a etiqueta de origem diz banca, ano e número de prova (recuperada) ou
-       "Inédita" e o ano do edital */
-    const etq = i => (cartoes[i].querySelector(".origem") || {}).textContent || "";
-    const iRec = Q.findIndex(q => q.origem === "recuperada"), iIne = Q.findIndex(q => q.origem === "inedita");
-    const qRec = Q[iRec], qIne = Q[iIne];
-    exige(etq(iRec).includes(`${B.meta.banca} ${qRec.ano}`) && etq(iRec).includes(`Questão ${String(qRec.numero).padStart(2, "0")}`),
-      `a etiqueta da questão recuperada não traz ano e número ("${etq(iRec)}")`);
-    exige(etq(iIne).includes("Inédita") && etq(iIne).includes(String(qIne.ano)) && !/Questão \d/.test(etq(iIne)),
-      `a etiqueta da inédita deveria dizer "Inédita ${qIne.ano}" ("${etq(iIne)}")`);
-    /* responde a primeira questão pelo clique e confere que o comentário abre */
-    const b = alts[0]; (b.listeners.click || []).forEach(f => f());
-    exige(JSON.parse(window.localStorage.getItem("inepam:respostas") || "{}")[Q[0].id] === 0, "responder não gravou no armazenamento");
-    /* o cartão respondido foi trocado por um com comentário e duas abas; a
-       segunda mostra o "Simplificando" e a escolha fica guardada */
-    const c1 = app.querySelectorAll(".q")[0];
+    exige(todos(app, ".comentario").length === 0, "comentário visível antes de responder");
+    /* etiqueta "ROTULO · Questão NN" e tag da área vinda de meta.areas */
+    cartoes.forEach((cel, i) => {
+      const q = Q[i], e = (cel.querySelector(".origem") || {}).textContent || "";
+      const esperado = `${FONTES[q.fonte].rotulo} · Questão ${dois(q.numero)}`;
+      n++; if (e !== esperado) erro(`${q.id}: etiqueta "${e}", esperava "${esperado}"`);
+      const t = cel.querySelector(".tag");
+      n++; if (!(t && t.className.split(/\s+/).includes(q.area) && t.textContent === AREAS.find(a => a.id === q.area).nome)) erro(`${q.id}: a tag de área do cartão não traz a classe e o nome da área de meta.areas`);
+    });
+    /* filtros: Todas + uma por área + uma por edição com questões */
+    const botoes = todos(app, ".seg").flatMap(s => todos(s, "button"));
+    const rotulos = botoes.map(b => b.textContent);
+    const fontesComQ = B.meta.fontes.filter(f => Q.some(q => q.fonte === f.id));
+    exige(botoes.length === 1 + AREAS.length + fontesComQ.length, `há ${botoes.length} botões de filtro, esperava ${1 + AREAS.length + fontesComQ.length} (Todas + áreas + edições com questões)`);
+    for (const a of AREAS) exige(rotulos.some(r => r.startsWith(a.nome) && r.endsWith(String(Q.filter(q => q.area === a.id).length))), `falta o filtro "${a.nome}" com a contagem certa`);
+    for (const f of fontesComQ) exige(rotulos.some(r => r.startsWith(f.rotulo)), `falta o filtro da edição "${f.rotulo}"`);
+    exige(!B.meta.fontes.some(f => !fontesComQ.includes(f) && rotulos.some(r => r.startsWith(f.rotulo))), "há filtro de edição sem questão nenhuma");
+    /* responder grava, corrige e abre as abas */
+    (alts[0].listeners.click || []).forEach(fn => fn());
+    exige(JSON.parse(window.localStorage.getItem("susp:respostas") || "{}")[Q[0].id] === 0, "responder não gravou em susp:respostas");
+    exige(window.localStorage.getItem("inepam:respostas") === null && window.localStorage.getItem("inepam:aba") === null, "a página gravou numa chave do banco INEPAM");
+    const c1 = todos(app, ".q")[0];
     exige(c1 && c1.querySelector(".veredito"), "o cartão respondido não foi trocado pelo cartão corrigido");
-    const abas = c1 ? c1.querySelectorAll(".aba") : [];
+    const abas = c1 ? todos(c1, ".aba") : [];
     exige(abas.length === 2, `o cartão respondido tem ${abas.length} abas, esperava 2`);
-    const pc = c1 && c1.querySelectorAll(".comentario").find(e => !e.className.includes("simples"));
+    const pc = c1 && todos(c1, ".comentario").find(e => !e.className.includes("simples"));
     const ps = c1 && c1.querySelector(".simples");
     exige(pc && ps && pc.hidden === false && ps.hidden === true, "a aba Comentário não é a visível de início");
-    if (abas.length === 2) (abas[1].listeners.click || []).forEach(f => f());
-    exige(ps && ps.hidden === false && pc.hidden === true, "clicar em Simplificando não trocou o painel");
-    exige(window.localStorage.getItem("inepam:aba") === "simples", "a aba escolhida não foi guardada");
-    exige(ps && ps.innerHTML.length >= 200 && ps.innerHTML === Q[0].simples, "o painel Simplificando não mostra o texto da questão");
     exige(pc && pc.innerHTML.startsWith(Q[0].comentario), "o painel Comentário não mostra o comentário");
-    /* o cartão seguinte respondido já nasce na aba guardada */
-    const alts2 = app.querySelectorAll(".q")[1].querySelectorAll(".alt");
-    (alts2[1].listeners.click || []).forEach(f => f());
-    const c2 = app.querySelectorAll(".q")[1];
-    const ps2 = c2 && c2.querySelector(".simples");
-    exige(ps2 && ps2.hidden === false, "o segundo cartão não abriu na aba guardada (Simplificando)");
-    /* o filtro "Da banca" mostra só as questões reais */
-    const botoes = app.querySelectorAll(".seg").flatMap(s => s.querySelectorAll("button"));
-    const bBanca = botoes.find(b => b.textContent.includes("Da banca"));
-    exige(!!bBanca, "não há o botão de filtro \"Da banca\"");
-    if (bBanca) {
-      (bBanca.listeners.click || []).forEach(f => f());
-      const soReais = app.querySelectorAll(".q");
-      exige(soReais.length === REAIS.length, `o filtro "Da banca" mostrou ${soReais.length} cartões, esperava ${REAIS.length}`);
-      exige(soReais.every(c => Q.find(q => q.id === c.attrs["data-id"]).origem === "recuperada"), "o filtro \"Da banca\" deixou passar inédita");
-      exige(window.localStorage.getItem("inepam:filtro") === JSON.stringify("banca"), "o filtro escolhido não foi guardado");
+    exige(pc && pc.innerHTML.includes('class="referencias"') && Q[0].referencias.every(r => pc.innerHTML.includes(r)), "o painel Comentário não traz a linha de referências");
+    if (abas.length === 2) (abas[1].listeners.click || []).forEach(fn => fn());
+    exige(ps && ps.hidden === false && pc.hidden === true, "clicar em Simplificando não trocou o painel");
+    exige(window.localStorage.getItem("susp:aba") === "simples", "a aba escolhida não foi guardada em susp:aba");
+    exige(ps && ps.innerHTML === Q[0].simples, "o painel Simplificando não mostra o texto da questão");
+    if (Q.length > 1) {
+      const alts2 = todos(todos(app, ".q")[1], ".alt");
+      (alts2[1].listeners.click || []).forEach(fn => fn());
+      const ps2 = todos(app, ".q")[1].querySelector(".simples");
+      exige(ps2 && ps2.hidden === false, "o segundo cartão não abriu na aba guardada (Simplificando)");
     }
-    /* e o filtro "50 + 50" mostra a seleção */
-    const bSel = app.querySelectorAll(".seg").flatMap(s => s.querySelectorAll("button")).find(b => b.textContent.includes("50 + 50"));
-    exige(!!bSel, "não há o botão de filtro \"50 + 50\"");
-    if (bSel) {
-      (bSel.listeners.click || []).forEach(f => f());
-      const sel = app.querySelectorAll(".q");
-      exige(sel.length === SELECAO.length && sel.every(c => { const d = Q.find(x => x.id === c.attrs["data-id"]); return d.origem === "recuperada" || d.selecao === true; }), `o filtro "50 + 50" mostrou ${sel.length} cartões, esperava ${SELECAO.length}, só da seleção`);
+    /* filtro por área */
+    const a0 = AREAS[0];
+    const bArea = botoes.find(b => b.textContent.startsWith(a0.nome));
+    if (bArea) (bArea.listeners.click || []).forEach(fn => fn());
+    const soArea = todos(app, ".q");
+    exige(bArea && soArea.length === Q.filter(q => q.area === a0.id).length && soArea.every(cel => Q.find(q => q.id === cel.attrs["data-id"]).area === a0.id), `o filtro "${a0.nome}" mostrou ${soArea.length} cartões`);
+    exige(window.localStorage.getItem("susp:filtro") === JSON.stringify(a0.id), "o filtro escolhido não foi guardado em susp:filtro");
+    /* filtro por edição */
+    const f0 = fontesComQ[0];
+    const bFonte = todos(app, ".seg").flatMap(s => todos(s, "button")).find(b => b.textContent.startsWith(f0.rotulo));
+    if (bFonte) (bFonte.listeners.click || []).forEach(fn => fn());
+    exige(bFonte && todos(app, ".q").length === Q.filter(q => q.fonte === f0.id).length, `o filtro "${f0.rotulo}" mostrou ${todos(app, ".q").length} cartões`);
+    /* capa e rodapé contam a partir dos dados */
+    const lead = app.querySelector(".lead");
+    exige(lead && lead.innerHTML.includes(`${Q.length} questões`), "a capa não conta as questões a partir dos dados");
+    exige(todos(app, ".fontes").flatMap(u => todos(u, "li")).length === B.meta.fontes.length, "o rodapé não lista as fontes");
+    /* simulado: min(5, n) de cada área */
+    const bSim = todos(app, "button").find(b => b.textContent.startsWith("Simulado"));
+    exige(!!bSim, "não há o botão do simulado");
+    if (bSim) {
+      (bSim.listeners.click || []).forEach(fn => fn());
+      const sim = JSON.parse(window.localStorage.getItem("susp:simulado") || "null");
+      const esperadoSim = AREAS.reduce((s, a) => s + Math.min(5, Q.filter(q => q.area === a.id).length), 0);
+      exige(sim && sim.ids.length === esperadoSim, `o simulado sorteou ${sim && sim.ids.length} questões, esperava ${esperadoSim}`);
+      for (const a of AREAS) { const nA = Math.min(5, Q.filter(q => q.area === a.id).length); exige(sim && sim.ids.filter(id => Q.find(q => q.id === id).area === a.id).length === nA, `o simulado não sorteou ${nA} de ${a.nome}`); }
+      exige(todos(app, ".q").length === esperadoSim, "a página do simulado não montou os cartões sorteados");
+      exige(!!app.querySelector(".relogio"), "o simulado não tem relógio");
     }
   } catch (e) { erro(`app.js estourou no DOM de mentira: ${e.message}`); }
 }
@@ -341,77 +309,72 @@ function domDeMentira() {
 {
   n++;
   const montar = opcoes => {
-    const { window, document, app } = domDeMentira();
-    if (opcoes) window.localStorage.setItem("inepam:caderno2", JSON.stringify(opcoes));
-    const c = vm.createContext(Object.assign({}, window, { window, document, setTimeout: window.setTimeout, setInterval: window.setInterval, clearInterval: window.clearInterval, localStorage: window.localStorage, confirm: window.confirm }));
+    const { window, app } = domDeMentira();
+    if (opcoes) window.localStorage.setItem("susp:caderno", JSON.stringify(opcoes));
+    const c = contexto(window);
     vm.runInContext(src, c, { filename: "banco.js" });
     vm.runInContext(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8"), c, { filename: "caderno.js" });
     return app;
   };
-  const todos = (app, sel) => app.querySelectorAll(sel);
   try {
     for (const arq of ["caderno/index.html", "caderno/caderno.css"]) exige(fs.existsSync(path.join(AQUI, arq)), `falta ${arq}`);
-    /* padrão: a seleção 50 + 50, cada ficha completa (gabarito + comentário +
-       Simplificando + autoavaliação + espaço de anotações), sem folha de
-       respostas, com o gabarito resumido no fim */
     let app = montar(null);
     const qs = todos(app, ".questao");
-    exige(qs.length === SELECAO.length, `o caderno padrão montou ${qs.length} questões, esperava ${SELECAO.length} (seleção 50 + 50)`);
-    exige(qs.every(q => { const d = Q.find(x => x.id === q.attrs["data-id"]); return d && (d.origem === "recuperada" || d.selecao === true); }), "o caderno padrão trouxe inédita fora da seleção");
-    exige(todos(app, ".alts").flatMap(a => todos(a, ".bolha")).length === SELECAO.length * 5, "as questões não têm uma bolha por alternativa");
-    const fichaOk = q => {
-      const dados = Q.find(x => x.id === q.attrs["data-id"]);
-      const c = q.querySelector(".comentario");
-      return dados && c && c.attrs["data-letra"] === LETRAS[dados.correta]
-        && c.querySelector(".letrao").textContent === LETRAS[dados.correta]
-        && c.querySelector(".texto-comentario").innerHTML === dados.comentario
-        && !!c.querySelector(".simples") && c.querySelector(".simples").querySelectorAll("div")[0].innerHTML === dados.simples
-        && todos(q, ".alts").flatMap(a => todos(a, ".certa")).length === 1
-        && todos(q, ".auto").flatMap(a => todos(a, ".quadrado")).length === 4
-        && todos(q, ".rascunho").length === (dados.disc === "mt" ? 1 : 0)
-        && todos(q, ".notas").length === (dados.disc === "pt" ? 1 : 0)
-        && (dados.disc === "mt" || q.querySelector(".notas").className.includes("linhas"));
+    exige(qs.length === Q.length, `o caderno padrão montou ${qs.length} fichas, esperava ${Q.length}`);
+    const seqAreas = qs.map(f => IDS_AREA.indexOf((Q.find(x => x.id === f.attrs["data-id"]) || {}).area));
+    exige(seqAreas.every((v, i) => v >= 0 && (i === 0 || v >= seqAreas[i - 1])), "as fichas não estão agrupadas por área na ordem de meta.areas");
+    exige(todos(app, ".alts").flatMap(a => todos(a, ".bolha")).length === Q.length * 5, "as fichas não têm uma bolha por alternativa");
+    const fichaOk = f => {
+      const d = Q.find(x => x.id === f.attrs["data-id"]);
+      const c = f.querySelector(".comentario");
+      const refs = c && c.querySelector(".referencias");
+      return d && c && c.attrs["data-letra"] === LETRAS[d.correta]
+        && c.querySelector(".letrao").textContent === LETRAS[d.correta]
+        && c.querySelector(".texto-comentario").innerHTML === d.comentario
+        && !!refs && d.referencias.every(r => refs.innerHTML.includes(r))
+        && !!c.querySelector(".simples") && todos(c.querySelector(".simples"), "div")[0].innerHTML === d.simples
+        && todos(f, ".alts").flatMap(a => todos(a, ".certa")).length === 1
+        && todos(f, ".auto").flatMap(a => todos(a, ".quadrado")).length === 4
+        && todos(f, ".notas").length === 1 && f.querySelector(".notas").className.includes("linhas")
+        && todos(f, ".rascunho").length === 0
+        && f.querySelector(".tag").textContent === AREAS.find(a => a.id === d.area).nome;
     };
-    exige(qs.every(fichaOk), "alguma ficha não traz, dentro dela, gabarito certo + comentário do banco + Simplificando + autoavaliação + espaço de anotações (pauta em português, quadriculado em matemática)");
-    /* na ficha, a origem é só banca e ano — nada de cidade, cargo ou documento */
-    const fontes = qs.map(q => q.querySelector(".fonte").textContent);
-    const fonteOk = f => /^Questão \d\d · INEPAM 20\d\d\.$/.test(f) || /^Inédita 20\d\d, no estilo da banca\.$/.test(f);
-    exige(fontes.every(fonteOk), `a linha de fonte da ficha diz mais do que banca e ano ("${fontes.find(f => !fonteOk(f))}")`);
-    exige(todos(app, ".comentarios").length === 0, "os comentários não podem ficar numa seção separada");
+    exige(qs.every(fichaOk), "alguma ficha não traz, dentro dela, gabarito certo + comentário + referências + Simplificando + autoavaliação + pauta + tag da área");
+    const fontes = qs.map(f => (f.querySelector(".fonte") || {}).textContent || "");
+    const fonteOk = (t, i) => { const d = Q.find(x => x.id === qs[i].attrs["data-id"]); return t === `Questão ${dois(d.numero)} · ${FONTES[d.fonte].rotulo}.`; };
+    exige(fontes.every(fonteOk), `a linha de fonte da ficha não é "Questão NN · ROTULO." ("${fontes.find((t, i) => !fonteOk(t, i))}")`);
     exige(todos(app, ".folha").length === 0, "a folha de respostas só entra quando pedida");
     const chave = todos(app, ".chave").flatMap(t => todos(t, ".l"));
-    exige(chave.length === SELECAO.length && chave.every(td => { const q = Q.find(x => x.id === td.attrs["data-id"]); return q && td.attrs["data-letra"] === LETRAS[q.correta]; }), "o gabarito impresso não bate com as letras do banco");
-    /* o texto de apoio sai UMA vez para a sequência de questões que o compartilham */
-    let esperados = 0; SELECAO.forEach((q, i) => { if (q.texto && (i === 0 || SELECAO[i - 1].texto !== q.texto)) esperados++; });
-    const textos = todos(app, ".questoes").flatMap(s => todos(s, ".texto"));
-    exige(textos.length === esperados, `texto de apoio impresso ${textos.length} vez(es), esperava ${esperados} (uma por sequência)`);
+    exige(chave.length === Q.length && chave.every(td => { const q = Q.find(x => x.id === td.attrs["data-id"]); return q && td.attrs["data-letra"] === LETRAS[q.correta]; }), "o gabarito impresso não bate com as letras do banco");
+    const mapa = app.querySelector(".mapa");
+    const linhasMapa = mapa ? todos(mapa, "tr") : [];
+    exige(linhasMapa.length === Q.length, `o mapa de temas tem ${linhasMapa.length} linhas, esperava ${Q.length} (uma por questão)`);
+    exige(linhasMapa.every((tr, i) => (tr.querySelector(".tag") || {}).textContent === AREAS.find(a => a.id === Q[i].area).nome), "o mapa de temas não lista cada questão sob a sua área, na ordem do banco");
     exige(todos(app, ".capa").length === 1 && todos(app, ".mapa").length === 1 && todos(app, ".resultado").length === 1, "faltam capa, mapa de temas ou quadro de resultado");
-    /* o nome do estudante na capa e no rodapé de toda página */
     const nomeCapa = (app.querySelector(".capa").querySelector(".nome") || {}).textContent || "";
     exige(nomeCapa === "Genaro Tuco Zarate", `a capa não traz o nome do estudante ("${nomeCapa}")`);
-    exige((app.querySelector(".rodape-impresso") || {}).textContent.startsWith("Genaro Tuco Zarate · "), "o rodapé impresso não começa com o nome do estudante");
-    /* todas, sem Simplificando, sem linhas, com folha de respostas, sem resumo */
-    app = montar({ origem: "todas", disc: "todas", simples: false, pauta: "nenhuma", folha: true, resumo: false });
+    exige(((app.querySelector(".rodape-impresso") || {}).textContent || "").startsWith("Genaro Tuco Zarate · "), "o rodapé impresso não começa com o nome do estudante");
+    /* uma área, sem Simplificando, em branco, com folha, sem resumo */
+    const a0 = AREAS[0];
+    app = montar({ area: a0.id, simples: false, pauta: "nenhuma", folha: true, resumo: false });
     const qs2 = todos(app, ".questao");
-    exige(qs2.length === Q.length, `com "todas", o caderno montou ${qs2.length} questões, esperava ${Q.length}`);
-    exige(qs2.every(q => todos(q, ".comentario").length === 1), "falta o comentário dentro de alguma ficha");
+    exige(qs2.length === Q.filter(q => q.area === a0.id).length, `com a área ${a0.id}, o caderno montou ${qs2.length} fichas`);
     exige(todos(app, ".simples").length === 0, "Simplificando desligado ainda aparece");
-    exige(todos(app, ".notas").length === Q.filter(q => q.disc === "pt").length && todos(app, ".notas").every(n => n.className.includes("nenhuma")), "a opção de anotações em branco não chegou às fichas de português");
-    exige(todos(app, ".folha").flatMap(f => todos(f, ".bolha")).length === Q.length * 5, "a folha de respostas não tem 5 bolhas por questão");
+    exige(todos(app, ".notas").length === qs2.length && todos(app, ".notas").every(x => x.className.includes("nenhuma")), "a opção de anotações em branco não chegou às fichas");
+    exige(todos(app, ".folha").flatMap(f => todos(f, ".bolha")).length === qs2.length * 5, "a folha de respostas não tem 5 bolhas por questão");
     exige(todos(app, ".gabarito").length === 0, "com resumo desligado, o gabarito resumido ainda foi impresso");
-    /* só matemática da banca */
-    app = montar({ origem: "banca", disc: "mt" });
-    exige(todos(app, ".questao").length === REAIS.filter(q => q.disc === "mt").length, "o filtro de disciplina do caderno não funciona");
-    /* só português da seleção: 50; e outro nome vai para a capa e o rodapé */
-    app = montar({ origem: "selecao", disc: "pt", nome: "Maria Silva" });
-    exige(todos(app, ".questao").length === 50, "a seleção de português no caderno não tem 50");
+    /* uma edição, outro nome */
+    const f0 = B.meta.fontes.find(f => Q.some(q => q.fonte === f.id));
+    app = montar({ edicao: f0.id, nome: "Maria Silva" });
+    exige(todos(app, ".questao").length === Q.filter(q => q.fonte === f0.id).length, "o filtro de edição do caderno não funciona");
     exige(app.querySelector(".capa").querySelector(".nome").textContent === "Maria Silva" && app.querySelector(".rodape-impresso").textContent.startsWith("Maria Silva · "), "trocar o nome não chega à capa e ao rodapé");
   } catch (e) { erro(`caderno.js estourou no DOM de mentira: ${e.message}`); }
 }
 
-/* --- relatório ----------------------------------------------------------- */
-const rec = Q.filter(q => q.origem === "recuperada").length;
-console.log(`\n${falhas.length ? "✗" : "✓"} banco INEPAM — ${Q.length} questões (${rec} recuperadas da banca, ${Q.length - rec} inéditas) · ${n} conferências · gabaritos ${distTxt}`);
+/* --- relatório ------------------------------------------------------------- */
+const porArea = AREAS.map(a => `${a.curto} ${Q.filter(q => q.area === a.id).length}`).join(" · ");
+const porFonte = B.meta.fontes.map(f => `${f.rotulo} ${Q.filter(q => q.fonte === f.id).length}`).join(" · ");
+console.log(`\n${falhas.length ? "✗" : "✓"} banco SUS-SP — ${Q.length} questões (${porArea}; ${porFonte}) · ${n} conferências`);
 for (const f of falhas) console.log("   ! " + f);
 console.log(falhas.length ? `\n${falhas.length} problema(s).` : "\ntudo certo.");
 process.exit(falhas.length ? 1 : 0);
