@@ -11,3 +11,5 @@ figuras/candidatos.json
 figuras/escolhas.json
 figuras/figuras.json
 figuras/_folha-*.png
+# os PDFs do caderno (ferramentas/pdf.py) ficam só no disco
+pdf

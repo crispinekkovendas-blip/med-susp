@@ -170,7 +170,7 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 /* a moldura já tem o tamanho final (altura de até 62mm, largura pela
    proporção): a medida da ficha vale antes de a imagem carregar */
 .figura .moldura { display: block; width: calc(min(62mm, var(--h) * 1px) * var(--w) / var(--h)); max-width: 100%; aspect-ratio: var(--w) / var(--h); border: 1px solid var(--line-2); border-radius: 2px; overflow: hidden; }
-.figura img { display: block; width: 100%; height: 100%; object-fit: cover; max-height: 62mm; }
+.figura img { display: block; width: 100%; height: 100%; object-fit: cover; max-height: 52mm; }
 .figura figcaption { margin-top: 1.2mm; font-family: var(--sans); font-size: 8pt; line-height: 1.4; color: var(--ink-2); }
 .figura .credito { color: var(--ink-3); }
 .letra-grande .figura figcaption { font-size: 9pt; }
@@ -194,6 +194,12 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 .materia .ponto h4 { margin-top: 0; }
 .materia .resp { display: block; font-size: 8.5pt; color: var(--ink-2); }
 .letra-grande .materia { font-size: 10.5pt; }
+/* a página própria da mini-aula: sem moldura, corpo um pouco maior; a pauta
+   preenche o resto da página */
+.materia-pagina .materia { margin: 0; border: 0; border-radius: 0; padding: 3mm 5mm 3.5mm; font-size: 9.5pt; line-height: 1.5; }
+.materia-pagina .materia > .rot { font-size: 9pt; }
+.materia-pagina .materia h4 { font-size: 8pt; margin: 3mm 0 1.2mm; }
+.letra-grande .materia-pagina .materia { font-size: 11pt; }
 .comentario .fonte { margin: 3mm 0 0; font-family: var(--sans); font-size: 8pt; color: var(--ink-3); }
 .comentario .referencias { margin: 2.5mm 0 0; font-family: var(--sans); font-size: 8pt; line-height: 1.4; color: var(--ink-2); }
 .comentario .referencias .rot { margin-right: 1.5mm; }
@@ -245,7 +251,7 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
   #documento { padding: 0; }
   .pagina { width: auto; max-width: none; margin: 0; padding: 0; box-shadow: none; break-before: page; page-break-before: always; }
   .pagina.capa { break-before: auto; page-break-before: auto; border-top-width: 5mm; padding-top: 6mm; }
-  .texto, .questao header, .comentario .gab, .auto, .alts li { break-inside: avoid; page-break-inside: avoid; }
+  .texto, .questao header, .comentario .gab, .auto, .alts li, .simples, .figura, .materia .ponto { break-inside: avoid; page-break-inside: avoid; }
   /* cada ficha é uma página: sem margem, quebra depois; o título da seção
      some para não ocupar uma página quase vazia antes da primeira ficha */
   .questao { margin: 0; break-after: page; page-break-after: always; }

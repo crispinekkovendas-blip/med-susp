@@ -23,12 +23,17 @@
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
-  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: true, figuras: true, pauta: "linhas", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
+  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "pagina", figuras: true, pauta: "linhas", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
   /* no papel não há clique: as respostas do "Verifique o que aprendeu" saem à vista */
   const materiaImpressa = m => m.replace(/<details><summary>Resposta<\/summary>([\s\S]*?)<\/details>/g, '<span class="resp"><em>Resposta:</em> $1</span>');
   const ler = () => { try { const s = JSON.parse(localStorage.getItem(CH) || "{}"); const o = Object.assign({}, PADRAO); for (const k in PADRAO) if (k in s) o[k] = s[k]; return o; } catch (e) { return Object.assign({}, PADRAO); } };
+  /* valores antigos guardados (true) viram o padrão novo; as opções também
+     valem pela URL (?area=ped&materia=junto), sem gravar — é assim que os
+     PDFs são gerados (ferramentas/pdf.py) */
+  const daUrl = o => { try { const p = new URLSearchParams(window.location.search); for (const k in PADRAO) if (p.has(k)) { const v = p.get(k); o[k] = v === "true" ? true : v === "false" ? false : v; } } catch (e) { /* sem URL */ } return o; };
+  const normalizar = o => { if (o.materia === true) o.materia = "pagina"; return o; };
   const gravar = () => { try { localStorage.setItem(CH, JSON.stringify(op)); } catch (e) { /* sem armazenamento */ } };
-  let op = ler();
+  let op = normalizar(daUrl(ler()));
   if (op.area !== "todas" && !NOME_AREA[op.area]) op.area = "todas";
   if (op.edicao !== "todas" && !EDICOES.some(f => f.id === op.edicao)) op.edicao = "todas";
 
@@ -73,7 +78,7 @@
         opcao("area", "Área", [["todas", "Todas"]].concat(AREAS.map(a => [a.id, a.nome]))),
         opcao("edicao", "Edição", [["todas", "Todas"]].concat(EDICOES.map(f => [f.id, f.rotulo]))),
         opcao("simples", "Simplificando", [[true, "Incluir"], [false, "Não"]]),
-        opcao("materia", "Sobre a matéria", [[true, "Incluir"], [false, "Não"]]),
+        opcao("materia", "Sobre a matéria", [["pagina", "Em página própria"], ["junto", "Na ficha"], [false, "Não"]]),
         /* com figura toda ficha vira duas páginas; sem, 4 em 10 cabem numa */
         opcao("figuras", "Figuras", [[true, "Incluir"], [false, "Não"]]),
         opcao("pauta", "Anotações", [["linhas", "Pauta"], ["nenhuma", "Em branco"]]),
@@ -130,14 +135,25 @@
   }
 
   /* --- a ficha de uma questão ------------------------------------------------- */
+  const materiaBloco = q => h("div", { class: "materia" }, h("p", { class: "rot" }, "Sobre a matéria"), h("div", { html: materiaImpressa(q.materia) }));
+  /* o resto da página é do estudante: pauta (ou em branco), até o fim */
+  const notas = () => h("div", { class: "notas " + op.pauta, "aria-label": "Espaço para anotações" }, h("span", { class: "rot" }, "Minhas anotações"), h("div", { class: "linhas" }));
+  const cabecalho = (q, numero, origem) => h("header", null,
+    h("span", { class: "num" }, dois(numero)),
+    h("span", { class: "tag " + q.area }, NOME_AREA[q.area]),
+    h("span", { class: "tema" }, q.tema),
+    h("span", { class: "origem" }, origem));
+  /* Devolve uma ou duas fichas. No modo padrão ("Sobre a matéria em página
+     própria") a questão ocupa a ficha — enunciado, alternativas, comentário,
+     figura, referências, Simplificando, autoavaliação, pauta no que sobra —
+     e, logo depois, a página da mini-aula com a sua pauta: ao menos duas
+     páginas por questão, mais se o conteúdo pedir. A pauta em toda ficha
+     evita página com o fim em branco. */
   function ficha(q, numero) {
     const letra = LETRAS[q.correta];
-    return h("article", { class: "questao " + q.area, "data-id": q.id },
-      h("header", null,
-        h("span", { class: "num" }, dois(numero)),
-        h("span", { class: "tag " + q.area }, NOME_AREA[q.area]),
-        h("span", { class: "tema" }, q.tema),
-        h("span", { class: "origem" }, rotulo(q))),
+    const propria = op.materia === "pagina" && !!q.materia;
+    const a = h("article", { class: "questao " + q.area, "data-id": q.id },
+      cabecalho(q, numero, rotulo(q)),
       h("p", { class: "enunciado", html: q.enunciado }),
       h("ol", { class: "alts" }, q.alternativas.map((a, i) => h("li", { class: i === q.correta ? "certa" : "" },
         h("span", { class: "bolha", "aria-hidden": "true" }), h("span", { class: "letra" }, LETRAS[i]), h("span", { class: "txt", html: a })))),
@@ -149,13 +165,14 @@
         op.figuras && q.figura ? h("figure", { class: "figura" }, h("span", { class: "moldura", style: `--w:${q.figura.w};--h:${q.figura.h}` }, h("img", { src: "../" + q.figura.src, width: q.figura.w, height: q.figura.h, alt: q.figura.legenda })), h("figcaption", null, q.figura.legenda + " ", h("span", { class: "credito" }, q.figura.fonte))) : null,
         h("p", { class: "referencias", html: `<span class="rot">Referências</span> ${q.referencias.join(" · ")}` }),
         op.simples && q.simples ? h("div", { class: "simples" }, h("p", { class: "rot" }, "Simplificando"), h("div", { html: q.simples })) : null,
-        op.materia && q.materia ? h("div", { class: "materia" }, h("p", { class: "rot" }, "Sobre a matéria"), h("div", { html: materiaImpressa(q.materia) })) : null,
+        op.materia === "junto" && q.materia ? materiaBloco(q) : null,
         h("p", { class: "fonte" }, `Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo}.`)),
       h("div", { class: "auto" },
         h("span", { class: "rot" }, "Eu"),
         ["acertei", "errei", "chutei", "revisar"].map(t => h("span", { class: "caixa" }, h("span", { class: "quadrado" }), t))),
-      /* o resto da página é do estudante: pauta (ou em branco), até o fim */
-      h("div", { class: "notas " + op.pauta, "aria-label": "Espaço para anotações" }, h("span", { class: "rot" }, "Minhas anotações"), h("div", { class: "linhas" })));
+      notas());
+    if (!propria) return [a];
+    return [a, h("article", { class: "questao materia-pagina " + q.area, "data-id": q.id }, cabecalho(q, numero, "Sobre a matéria"), materiaBloco(q), notas())];
   }
   function questoes(lista) {
     const itens = [];
@@ -168,7 +185,7 @@
         let fim = i; while (fim + 1 < lista.length && lista[fim + 1].texto === q.texto) fim++;
         itens.push(h("div", { class: "texto" }, h("p", { class: "rot" }, fim > i ? `Texto para as fichas ${dois(numero)} a ${dois(fim + 1)}` : `Texto para a ficha ${dois(numero)}`), h("div", { html: q.texto })));
       }
-      itens.push(ficha(q, numero));
+      itens.push(...ficha(q, numero));
     });
     return h("section", { class: "pagina questoes" }, h("h2", null, h("span", { class: "sec" }, "Fichas"), "Questões comentadas"), itens);
   }
@@ -233,8 +250,11 @@
       f.classList.remove("tripla", "dupla", "apertada");
       const notas = f.querySelector(".notas");
       const conteudo = f.getBoundingClientRect().height - (notas ? notas.getBoundingClientRect().height : 0);
-      if (conteudo > 2 * pagina - 10 * mm) f.classList.add("tripla");
-      else if (conteudo > pagina - 10 * mm) f.classList.add("dupla");
+      /* na página da mini-aula a pauta é o espaço de anotações prometido:
+         se sobrarem menos de 40 mm, ela ganha a página seguinte inteira */
+      const folga = f.classList.contains("materia-pagina") ? 40 * mm : 10 * mm;
+      if (conteudo > 2 * pagina - folga) f.classList.add("tripla");
+      else if (conteudo > pagina - folga) f.classList.add("dupla");
       else if (conteudo > pagina - 34 * mm) f.classList.add("apertada");
     });
     document.body.classList.remove("medindo");
