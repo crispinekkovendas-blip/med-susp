@@ -26,6 +26,14 @@ The content that needs the strongest model was written first, out of plan order,
 - Tasks 3 and 4 were executed in the scratchpad with the plan's code on the real files: `parse_gabarito.py` gave `100 questões, anuladas [4, 21, 23, 36]` and `extrai_questoes.py` gave `100 questões; 0 com problema`, with the extended `--rodape` (area titles, `RASCUNHO`) and the repeated-hyphen fix now in this plan. The plan's code is the validated version; run it as written.
 - So, for the executor: Tasks 1–13 are unchanged. In Tasks 14–17, **Step 2 (authoring) is already done for the SUS-SP questions**; what remains per area is `montar` → raise `ESPERADO` → harness → controls → deploy, and the HRPP entries, which are written by Fable after Task 13 finds the HRPP caderno (switch models for that). The read-through of the SUS-SP commentaries was done by the author at writing time.
 
+## What happened after the plan (2026-09-28, later the same day)
+
+This plan was executed to the end (Tasks 1–18), reviewed, merged into `main` and deployed. Everything below is recorded in `README.md`, which is the current authority; the plan's task text is history.
+
+- **Task 13 outcome:** the HRPP 2026 caderno was never found in a public source; the 24 missing questions came from **SUS-SP 2021** (VUNESP, five alternatives; key transcribed by Estratégia MED, annulled 27 and 57). The plan's `ESPERADO` 25/25/25/25 was met with 76 + 24.
+- **Figures round:** one Wikimedia Commons figure per question (free licences only, credit in the caption), page and caderno rendering, `figuras.py` pipeline, harness checks, caderno option "Figuras". Every ficha became two pages.
+- **Round 2 (branch `mais-vunesp`):** +100 questions (25 per area) from UNESP Botucatu 2026, Einstein 2026 and Einstein 2025 — four alternatives, kept as the banca wrote them — with the model, harness, page, answer sheet, controls and tests extended for 4-or-5 alternatives. FAMEMA 2026 (official caderno only in the VUNESP candidate area) and UNIFESP 2026 (first phase not by VUNESP) were excluded; reasons in `ferramentas/cadernos/FONTES.md`. `ESPERADO` is now 50 per area. Final numbers: 200 questions, 200 figures, ≈ 21.700 harness checks, 65 controls, 19 tool tests.
+
 ## Global Constraints
 
 - Everything written into the project (UI text, comments, README, commit messages, tool output) is **pt-BR**; replies to the user are English.

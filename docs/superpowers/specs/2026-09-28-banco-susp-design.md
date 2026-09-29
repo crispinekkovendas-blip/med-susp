@@ -1,10 +1,39 @@
 # Banco SUS-SP (VUNESP) — commented question bank — design
 
-Date: 2026-09-28 · Project: `med/susp/` (new; own Vercel project `susp`) · Status: approved in chat, awaiting written review
+Date: 2026-09-28 · Project: `med/susp/` (new; own Vercel project `susp`) · Status: built, deployed and extended twice (see the addendum below); `README.md` is now the authority
 
 This spec is in English because it is a working document for review. Everything
 it produces (data file, app, caderno, README, code comments, tooling output)
 stays in pt-BR, as the study projects require.
+
+> **Addendum (2026-09-28, after the build).** This spec describes the first
+> 100 questions. Two later rounds changed what it says, and `README.md` is the
+> document to trust for the current state:
+>
+> - **Figures.** Every question has a `figura` (photo or exam image from the
+>   Wikimedia Commons, CC0 / public domain / CC BY / CC BY-SA, with author,
+>   licence and link), shown in the Comentário tab (click enlarges, Esc closes)
+>   and in the ficha of the caderno (≤ 62 mm; option "Figuras: Não" removes
+>   them). Pipeline: `ferramentas/figuras.py` + `commons.py`, captions in
+>   `ferramentas/legendas.js`, metadata in `figuras/figuras.json`, provenance
+>   in `figuras/FONTES.md`. The harness checks file, real dimensions, licence
+>   and caption; with figures every ficha is two pages.
+> - **Round 2: 200 questions, 50 per area.** The secondary source is not HRPP
+>   2026 (its caderno never appeared) but the other VUNESP selections with an
+>   official public caderno: **UNESP Botucatu 2026** (45), **Einstein 2026**
+>   (28) and **Einstein 2025** (27) — all with **four alternatives**, kept as
+>   the banca wrote them. §4's "5 alternativas" and "correta 0–4" now read
+>   "4 or 5, the ones the banca gave": the harness accepts both, requires the
+>   comentário to explain exactly the letters that exist, the page's keyboard
+>   only answers letters the question has, and the answer sheet draws one
+>   bubble per alternative. FAMEMA 2026 (caderno only in the candidate area)
+>   and UNIFESP 2026 (first phase not by VUNESP) are out, with the reasons in
+>   `ferramentas/cadernos/FONTES.md`.
+> - **Tooling.** `extrai_questoes.py` gained `--estilo` (numbering
+>   `QUESTÃO NN`), accepts four alternatives and flags empty (image)
+>   alternatives; `parse_gabarito.py` accepts `PROVA ESCRITA OBJETIVA`,
+>   two-digit headers, `N` for annulled and `--alteracoes` for changes that
+>   exist only as an image. Harness ≈ 21.700 checks, 65 controls, 19 tests.
 
 ## 1. Goal
 
