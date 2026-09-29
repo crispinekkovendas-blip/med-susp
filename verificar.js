@@ -275,7 +275,9 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   exige(/\.ampliar\s*\{[^}]*position:\s*fixed/.test(acss), "app.css: falta .ampliar { position: fixed … } (a figura ampliada precisa cobrir a tela)");
   /* Sobre a matéria: ficha de três páginas, caixa do Ponto clínico nos dois CSS */
   exige(/\.questao\.tripla\s*\{\s*min-height:\s*calc\(3 \* var\(--pagina\)\)/.test(css), "caderno.css: a ficha muito longa (.questao.tripla) precisa ocupar três páginas inteiras");
-  exige(/contains\("materia-pagina"\) \? 40 \* mm/.test(cjs), "caderno.js: a página Sobre a matéria precisa garantir 40 mm de pauta (senão a pauta ganha a página seguinte)");
+  exige(/contains\("materia-pagina"\) \? 50 \* mm/.test(cjs), "caderno.js: a página Sobre a matéria precisa garantir 50 mm de pauta, um quinto da página (senão a pauta ganha a página seguinte)");
+  exige(/pauta: "quadriculado"/.test(cjs), "caderno.js: a pauta padrão precisa ser a quadriculada");
+  exige(/\.notas\.quadriculado \.linhas\s*\{[^}]*background-size:\s*5mm 5mm/.test(css), "caderno.css: a pauta quadriculada (.notas.quadriculado .linhas) precisa do quadriculado de 5 mm");
   exige(/classList\.add\("tripla"\)/.test(cjs), "caderno.js: não marca a ficha muito longa com a classe tripla");
   exige(/\.materia \.ponto\s*\{/.test(css) && /\.comentario\.materia \.ponto\s*\{/.test(acss), "falta o estilo da caixa Ponto clínico (.materia .ponto no caderno.css, .comentario.materia .ponto no app.css)");
 }
@@ -485,19 +487,18 @@ const todos = (el, sel) => el.querySelectorAll(sel);
         && !!c.querySelector(".simples") && todos(c.querySelector(".simples"), "div")[0].innerHTML === d.simples
         && todos(f, ".alts").flatMap(a => todos(a, ".certa")).length === 1
         && todos(f, ".auto").flatMap(a => todos(a, ".quadrado")).length === 4
-        && todos(f, ".notas").length === 1 && f.querySelector(".notas").className.includes("linhas")
         && todos(f, ".rascunho").length === 0
         && f.querySelector(".tag").textContent === AREAS.find(a => a.id === d.area).nome;
     };
-    exige(qs.every(fichaOk), "alguma ficha não traz, dentro dela, gabarito certo + comentário + referências + Simplificando + autoavaliação + pauta + tag da área");
+    exige(qs.every(fichaOk), "alguma ficha não traz, dentro dela, gabarito certo + comentário + referências + Simplificando + autoavaliação + tag da área");
     exige(todos(app, ".materia").length === Q.filter(q => q.materia).length, `o caderno imprime ${todos(app, ".materia").length} blocos Sobre a matéria, esperava ${Q.filter(q => q.materia).length}`);
     exige(todos(app, ".materia").every(x => !x.innerHTML.includes("<details")), "no papel, o Verifique o que aprendeu não pode sair com <details> (as respostas ficariam escondidas)");
     /* padrão: Sobre a matéria em página própria — a ficha da questão sem pauta
        e, logo depois, a página da mini-aula (número, área, texto, pauta) */
     exige(paginasM.length === Q.filter(q => q.materia).length, `o caderno padrão traz ${paginasM.length} páginas Sobre a matéria, esperava uma por questão (${Q.filter(q => q.materia).length})`);
-    const paginaMOk = f => { const d = Q.find(x => x.id === f.attrs["data-id"]); const m = f.querySelector(".materia"); return !!d && !!m && todos(m, "div")[0].innerHTML === impressa(d.materia) && todos(f, ".notas").length === 1 && f.querySelector(".notas").className.includes("linhas") && !!f.querySelector(".num") && (f.querySelector(".tag") || {}).textContent === AREAS.find(a => a.id === d.area).nome; };
+    const paginaMOk = f => { const d = Q.find(x => x.id === f.attrs["data-id"]); const m = f.querySelector(".materia"); return !!d && !!m && todos(m, "div")[0].innerHTML === impressa(d.materia) && todos(f, ".notas").length === 1 && f.querySelector(".notas").className.includes("quadriculado") && !!f.querySelector(".num") && (f.querySelector(".tag") || {}).textContent === AREAS.find(a => a.id === d.area).nome; };
     exige(paginasM.every(paginaMOk), "alguma página Sobre a matéria não traz o número, a tag da área, a mini-aula com as respostas à vista e a pauta");
-    exige(qs.every(f => !f.querySelector(".materia")), "com Sobre a matéria em página própria, a ficha da questão não pode trazer a mini-aula");
+    exige(qs.every(f => !f.querySelector(".materia") && todos(f, ".notas").length === 0), "com Sobre a matéria em página própria, a ficha da questão não pode trazer a mini-aula nem a pauta (a pauta é uma só, na página da mini-aula)");
     exige(todasFichas.every((f, i) => !f.className.includes("materia-pagina") || (i > 0 && todasFichas[i - 1].attrs["data-id"] === f.attrs["data-id"] && !todasFichas[i - 1].className.includes("materia-pagina"))), "a página Sobre a matéria precisa vir logo depois da ficha da sua questão");
     const figuraOk = f => {
       const d = Q.find(x => x.id === f.attrs["data-id"]); if (!d || !d.figura) return true;
@@ -535,7 +536,7 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     /* Sobre a matéria na ficha: a mini-aula dentro do comentário e a pauta na mesma ficha */
     app = montar({ materia: "junto" });
     const qsJ = todos(app, ".questao");
-    exige(todos(app, ".materia-pagina").length === 0 && qsJ.length === Q.length && qsJ.every(f => { const d = Q.find(x => x.id === f.attrs["data-id"]); const c = f.querySelector(".comentario"); return !!c && (!d.materia || !!c.querySelector(".materia")) && todos(f, ".notas").length === 1 && f.querySelector(".notas").className.includes("linhas"); }), "com Sobre a matéria na ficha, a mini-aula precisa sair dentro do comentário e a pauta na mesma ficha");
+    exige(todos(app, ".materia-pagina").length === 0 && qsJ.length === Q.length && qsJ.every(f => { const d = Q.find(x => x.id === f.attrs["data-id"]); const c = f.querySelector(".comentario"); return !!c && (!d.materia || !!c.querySelector(".materia")) && todos(f, ".notas").length === 1 && f.querySelector(".notas").className.includes("quadriculado"); }), "com Sobre a matéria na ficha, a mini-aula precisa sair dentro do comentário e a pauta na mesma ficha");
     /* uma edição, outro nome */
     const f0 = B.meta.fontes.find(f => Q.some(q => q.fonte === f.id));
     app = montar({ edicao: f0.id, nome: "Maria Silva" });

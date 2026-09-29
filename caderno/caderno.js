@@ -23,7 +23,7 @@
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
-  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "pagina", figuras: true, pauta: "linhas", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
+  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "pagina", figuras: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
   /* no papel não há clique: as respostas do "Verifique o que aprendeu" saem à vista */
   const materiaImpressa = m => m.replace(/<details><summary>Resposta<\/summary>([\s\S]*?)<\/details>/g, '<span class="resp"><em>Resposta:</em> $1</span>');
   const ler = () => { try { const s = JSON.parse(localStorage.getItem(CH) || "{}"); const o = Object.assign({}, PADRAO); for (const k in PADRAO) if (k in s) o[k] = s[k]; return o; } catch (e) { return Object.assign({}, PADRAO); } };
@@ -81,7 +81,7 @@
         opcao("materia", "Sobre a matéria", [["pagina", "Em página própria"], ["junto", "Na ficha"], [false, "Não"]]),
         /* com figura toda ficha vira duas páginas; sem, 4 em 10 cabem numa */
         opcao("figuras", "Figuras", [[true, "Incluir"], [false, "Não"]]),
-        opcao("pauta", "Anotações", [["linhas", "Pauta"], ["nenhuma", "Em branco"]]),
+        opcao("pauta", "Anotações", [["quadriculado", "Quadriculado"], ["linhas", "Pauta"], ["nenhuma", "Em branco"]]),
         opcao("letra", "Letra", [["normal", "Normal"], ["grande", "Grande"]]),
         opcao("folha", "Folha de respostas", [[false, "Não"], [true, "Sim"]]),
         opcao("resumo", "Gabarito resumido no fim", [[true, "Sim"], [false, "Não"]])),
@@ -145,10 +145,10 @@
     h("span", { class: "origem" }, origem));
   /* Devolve uma ou duas fichas. No modo padrão ("Sobre a matéria em página
      própria") a questão ocupa a ficha — enunciado, alternativas, comentário,
-     figura, referências, Simplificando, autoavaliação, pauta no que sobra —
-     e, logo depois, a página da mini-aula com a sua pauta: ao menos duas
-     páginas por questão, mais se o conteúdo pedir. A pauta em toda ficha
-     evita página com o fim em branco. */
+     figura, referências, Simplificando, autoavaliação — e, logo depois, a
+     página da mini-aula com o espaço de anotações (um só por questão,
+     quadriculado por padrão): ao menos duas páginas por questão, mais se o
+     conteúdo pedir. Nos outros modos a pauta fica na ficha da questão. */
   function ficha(q, numero) {
     const letra = LETRAS[q.correta];
     const propria = op.materia === "pagina" && !!q.materia;
@@ -170,7 +170,7 @@
       h("div", { class: "auto" },
         h("span", { class: "rot" }, "Eu"),
         ["acertei", "errei", "chutei", "revisar"].map(t => h("span", { class: "caixa" }, h("span", { class: "quadrado" }), t))),
-      notas());
+      propria ? null : notas());
     if (!propria) return [a];
     return [a, h("article", { class: "questao materia-pagina " + q.area, "data-id": q.id }, cabecalho(q, numero, "Sobre a matéria"), materiaBloco(q), notas())];
   }
@@ -251,11 +251,13 @@
       const notas = f.querySelector(".notas");
       const conteudo = f.getBoundingClientRect().height - (notas ? notas.getBoundingClientRect().height : 0);
       /* na página da mini-aula a pauta é o espaço de anotações prometido:
-         se sobrarem menos de 40 mm, ela ganha a página seguinte inteira */
-      const folga = f.classList.contains("materia-pagina") ? 40 * mm : 10 * mm;
+         se sobrar menos de um quinto da página (50 mm), ela ganha a página
+         seguinte inteira; a ficha sem pauta só vira dupla se o conteúdo
+         passar da página inteira */
+      const folga = f.classList.contains("materia-pagina") ? 50 * mm : (notas ? 10 * mm : 0);
       if (conteudo > 2 * pagina - folga) f.classList.add("tripla");
       else if (conteudo > pagina - folga) f.classList.add("dupla");
-      else if (conteudo > pagina - 34 * mm) f.classList.add("apertada");
+      else if (notas && conteudo > pagina - 34 * mm) f.classList.add("apertada");
     });
     document.body.classList.remove("medindo");
   }

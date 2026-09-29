@@ -60,7 +60,7 @@ caderno/              o banco em papel (index.html, caderno.js, caderno.css)
 figuras/              <id>.jpg, uma por questão (≤ 1400 px, ≤ 600 KB) + FONTES.md (proveniência);
                       candidatos.json, escolhas.json e figuras.json ficam fora do ar
 verificar.js          o harness — não vai para o ar (.vercelignore)
-controles.js          os 81 controles negativos do harness — idem
+controles.js          os 84 controles negativos do harness — idem
 ferramentas/          fora do ar: metadados, extração, montagem, figuras, testes, seleção, cadernos
 docs/superpowers/     spec e plano — fora do ar
 ```
@@ -266,15 +266,16 @@ navegador. Capa e rodapé contam tudo a partir dos dados.
 Uma ficha por questão: etiqueta de origem, tema, enunciado, alternativas com
 bolha, gabarito em destaque, comentário, figura (no máximo 52 mm de altura,
 com legenda e crédito), referências, Simplificando, autoavaliação (acertei /
-errei / chutei / revisar) e pauta para anotar.
+errei / chutei / revisar); o espaço para anotar fica na página da mini-aula.
 **Sobre a matéria sai em página própria por padrão** (opção "Sobre a
 matéria: Em página própria"): a ficha da questão — enunciado, alternativas,
-comentário, figura, referências, Simplificando, autoavaliação, pauta no
-que sobra — ocupa a primeira página (ou duas, se não couber), e logo depois
+comentário, figura, referências, Simplificando, autoavaliação — ocupa a
+primeira página (ou duas, se não couber), e logo depois
 vem a página da mini-aula: cabeçalho com número, área e tema, o texto com as
-respostas do "Verifique" à vista, e a pauta preenchendo o resto — se
-sobrarem menos de 40 mm, a pauta ganha a página seguinte inteira. Toda
-questão ocupa ao menos duas páginas, e nenhuma página termina em branco. "Na ficha" põe a mini-aula dentro do comentário e a
+respostas do "Verifique" à vista, e o **espaço de anotações — um só por
+questão, quadriculado de 5 mm por padrão** — preenchendo o resto; se sobrar
+menos de um quinto da página (50 mm), ele ganha a página seguinte inteira.
+Toda questão ocupa ao menos duas páginas. "Na ficha" põe a mini-aula dentro do comentário e a
 pauta na mesma ficha (o modo antigo); "Não" tira a mini-aula.
 **Cada ficha ocupa uma, duas ou três páginas A4 inteiras**: a ficha tem
 `min-height: 256mm`, e `caderno.js` mede o <em>conteúdo</em> de cada uma
@@ -298,7 +299,7 @@ página), instruções, mapa de temas por área; texto compartilhado sai uma vez
 por sequência. Depois: gabarito resumido e "Meu resultado" (opcionais);
 folha de respostas opcional. Opções em `susp:caderno`: área, edição,
 Simplificando, Sobre a matéria (página própria / na ficha / não), figuras,
-pauta, letra, folha, resumo, nome; as mesmas opções valem pela URL
+anotações (quadriculado / pauta / em branco), letra, folha, resumo, nome; as mesmas opções valem pela URL
 (`caderno/?area=ped&materia=junto`), sem gravar. Cores impressas de verdade
 (`print-color-adjust: exact`). Para conferir, meça `.questao` no navegador:
 as normais dão 256 mm, as duplas 512 mm, as triplas 768 mm, e as apertadas ficam entre 256 e
@@ -312,7 +313,7 @@ papel).
 (`--headless=new --print-to-pdf`, perfil próprio para não brigar com o Chrome
 aberto, servido por `http.server` local) em `pdf/caderno-<area>.pdf` e
 `pdf/caderno-completo.pdf`, com as opções padrão (Sobre a matéria em página
-própria, figuras, pauta), e conta as páginas com PyMuPDF. A pasta `pdf/`
+própria, figuras, quadriculado), e conta as páginas com PyMuPDF. A pasta `pdf/`
 não vai para o git nem para o ar.
 
 ## Verificação — como rodar e o que prova
@@ -320,7 +321,7 @@ não vai para o git nem para o ar.
 ```
 node ferramentas/montar.js       # reescreve banco.js a partir das entradas
 node verificar.js                # ~28.500 conferências; sai 1 se algo falhar
-node controles.js                # planta 81 falhas, uma por vez, e exige que cada uma seja mordida
+node controles.js                # planta 84 falhas, uma por vez, e exige que cada uma seja mordida
 python ferramentas/testes.py     # 19 testes das ferramentas (extração, gabarito, normalização)
 node ferramentas/conferir_readme.js
 ```
