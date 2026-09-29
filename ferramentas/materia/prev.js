@@ -980,4 +980,979 @@ module.exports = {
 <li>Um tratamento que prolonga a vida sem curar faz o quê com a prevalência? <details><summary>Resposta</summary>Aumenta, porque aumenta a duração média da doença.</details></li>
 </ol>
 `,
+"unesp2026#81": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Situar a política de saúde brasileira de 1974 a 1979 no contexto da ditadura.</li>
+<li>Explicar a criação do Inamps e a dicotomia entre saúde pública e assistência médica previdenciária.</li>
+<li>Reconhecer os embriões da reforma sanitária no fim da década.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Inamps</dt>
+<dd>Instituto Nacional de Assistência Médica da Previdência Social, criado em 1977, que comprava serviços médicos para os segurados.</dd>
+<dt>SINPAS</dt>
+<dd>Sistema Nacional de Previdência e Assistência Social (Lei 6.439/1977), que reorganizou a previdência em institutos.</dd>
+<dt>Modelo médico-assistencial privatista</dt>
+<dd>Financiamento público da previdência comprando serviços do setor privado, com foco curativo e hospitalar.</dd>
+<dt>Dicotomia saúde pública/assistência médica</dt>
+<dd>Ministério da Saúde cuidava das campanhas e da prevenção; a Previdência, da assistência aos segurados.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Durante a ditadura civil-militar, a saúde se organizou em dois mundos. O <strong>Ministério da Saúde</strong>, com orçamento pequeno, cuidava da <strong>saúde pública</strong>: campanhas, vigilância, endemias. A <strong>Previdência Social</strong>, financiada pelas contribuições de empregados e empregadores, cuidava da <strong>assistência médica</strong> dos trabalhadores formais, comprando serviços de hospitais e clínicas privadas. Quem não tinha carteira dependia da filantropia. É a <strong>dicotomia</strong> que a reforma sanitária vai denunciar.</p>
+<p>O período de <strong>1974 a 1979</strong> (governo Geisel e início de Figueiredo) consolidou esse modelo em plena crise do "milagre": o II PND ampliou gastos sociais; a Lei 6.229/1975 desenhou um Sistema Nacional de Saúde que reafirmou a divisão; e a Lei 6.439/1977 criou o <strong>SINPAS</strong>, separando a previdência em institutos, entre eles o <strong>Inamps</strong>, responsável pela assistência médica dos segurados, que se tornou o maior comprador de serviços privados do país e o símbolo do modelo médico-assistencial privatista, com fraudes e desigualdade de acesso.</p>
+<p>No mesmo período nasceram os contrapontos: o movimento sanitário nos departamentos de medicina preventiva, o CEBES (1976) e a ABRASCO (1979), o Programa de Interiorização das Ações de Saúde e Saneamento (PIASS, 1976), primeira expansão da atenção primária ao Nordeste, e o I Simpósio de Política Nacional de Saúde na Câmara (1979), em que a proposta de um sistema único e universal foi apresentada. A crise financeira da previdência nos anos 1980 abriu caminho às AIS, ao SUDS e, em 1988, ao SUS, quando o Inamps foi absorvido e depois extinto (1993).</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando um paciente idoso conta que "antigamente só quem tinha carteira era atendido", ele está descrevendo o Inamps. O SUS universal é a resposta histórica a essa lembrança.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Anos 1970: saúde pública no Ministério, assistência médica na Previdência, para segurados.</li>
+<li>1975: Sistema Nacional de Saúde; 1977: SINPAS e criação do Inamps.</li>
+<li>Inamps comprava serviços privados: modelo médico-assistencial privatista.</li>
+<li>Contrapontos: CEBES, ABRASCO, PIASS; caminho para AIS, SUDS e SUS.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que o Inamps fazia e a quem servia? <details><summary>Resposta</summary>Prestava e comprava assistência médica para os segurados da Previdência, sobretudo do setor privado.</details></li>
+<li>Qual era a dicotomia da política de saúde dos anos 1970? <details><summary>Resposta</summary>Saúde pública a cargo do Ministério da Saúde e assistência médica a cargo da Previdência, restrita aos contribuintes.</details></li>
+</ol>
+`,
+"unesp2026#82": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Distinguir o texto do artigo 196 da Constituição do artigo 2º da Lei 8.080.</li>
+<li>Explicar como a Lei Orgânica desdobra o direito constitucional à saúde.</li>
+<li>Conhecer a estrutura das leis 8.080 e 8.142 de 1990.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Artigo 196 da Constituição</dt>
+<dd>"A saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas…"</dd>
+<dt>Lei 8.080/1990</dt>
+<dd>Lei Orgânica da Saúde: organização, direção, competências e funcionamento do SUS.</dd>
+<dt>Lei 8.142/1990</dt>
+<dd>Participação da comunidade (conferências e conselhos) e transferências de recursos.</dd>
+<dt>Determinantes e condicionantes</dt>
+<dd>Alimentação, moradia, saneamento, trabalho, renda, educação, lazer, acesso a bens e serviços (art. 3º da 8.080).</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Constituição de 1988 inaugura o direito à saúde no <strong>artigo 196</strong>: "A saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos e ao acesso universal e igualitário às ações e serviços para sua promoção, proteção e recuperação".</p>
+<p>A <strong>Lei 8.080</strong>, de 19 de setembro de 1990, regulamenta esse direito. Seu <strong>artigo 2º</strong> repete o princípio e o desdobra: "A saúde é um direito fundamental do ser humano, devendo o Estado prover as condições indispensáveis ao seu pleno exercício. § 1º <strong>O dever do Estado de garantir a saúde consiste na formulação e execução de políticas econômicas e sociais que visem à redução de riscos de doenças e de outros agravos</strong> e no estabelecimento de condições que assegurem acesso universal e igualitário às ações e aos serviços para a sua promoção, proteção e recuperação. § 2º O dever do Estado não exclui o das pessoas, da família, das empresas e da sociedade". O artigo 3º lista os determinantes e condicionantes; o 4º define o SUS; o 5º, seus objetivos; o 7º, os princípios e diretrizes (universalidade, integralidade, equidade, descentralização, participação, entre outros).</p>
+<p>A confusão de prova está no vocabulário parecido: a Constituição fala em "políticas sociais e econômicas que visem à redução do risco de doença"; a Lei 8.080 fala em "formulação e execução de políticas econômicas e sociais que visem à redução de riscos de doenças", com a expressão "o dever do Estado de garantir a saúde consiste", que só existe na lei. A Lei 8.142 completa o marco com conselhos, conferências e repasse de recursos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando um paciente diz que a saúde é "dever do Estado", ele cita a Constituição; quando um gestor fala que o dever "consiste na formulação e execução de políticas", ele cita a Lei 8.080.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Art. 196 da Constituição: saúde é direito de todos e dever do Estado.</li>
+<li>Art. 2º da Lei 8.080: o dever consiste na formulação e execução de políticas econômicas e sociais.</li>
+<li>Art. 3º: determinantes; art. 7º: princípios e diretrizes do SUS.</li>
+<li>Lei 8.142: participação da comunidade e financiamento.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Onde está a frase "o dever do Estado de garantir a saúde consiste na formulação e execução de políticas econômicas e sociais"? <details><summary>Resposta</summary>No artigo 2º, parágrafo 1º, da Lei 8.080/1990.</details></li>
+<li>O que a Lei 8.142 acrescentou? <details><summary>Resposta</summary>As conferências e os conselhos de saúde e as regras de transferência de recursos.</details></li>
+</ol>
+`,
+"unesp2026#84": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar a composição mínima da equipe de Saúde da Família pela PNAB de 2017.</li>
+<li>Distinguir os profissionais obrigatórios dos que podem ser vinculados.</li>
+<li>Situar saúde bucal, endemias e eMulti em relação à equipe.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Equipe de Saúde da Família (eSF)</dt>
+<dd>Médico, enfermeiro, auxiliar ou técnico de enfermagem e agentes comunitários de saúde: o núcleo.</dd>
+<dt>Equipe de Saúde Bucal</dt>
+<dd>Cirurgião-dentista e auxiliar ou técnico em saúde bucal, vinculados à eSF, em modalidade I ou II.</dd>
+<dt>Agente de combate às endemias</dt>
+<dd>Profissional da vigilância que pode integrar a equipe, com atuação no território.</dd>
+<dt>Carga horária</dt>
+<dd>40 horas semanais para todos, com a possibilidade de médicos em arranjos de 20, 30 ou 40 horas.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Política Nacional de Atenção Básica (Portaria 2.436/2017) define a <strong>composição mínima</strong> da equipe de Saúde da Família: <strong>médico</strong> (preferencialmente de família e comunidade), <strong>enfermeiro</strong> (preferencialmente especialista em saúde da família), <strong>auxiliar ou técnico de enfermagem</strong> e <strong>agentes comunitários de saúde</strong>, em número definido pela vulnerabilidade do território (até 750 pessoas por agente e cobertura de 100% em áreas de risco). Cada equipe é referência para 2.000 a 3.500 pessoas.</p>
+<p>A esse núcleo <strong>podem ser vinculados</strong>: o <strong>cirurgião-dentista</strong> e o <strong>auxiliar ou técnico em saúde bucal</strong>, que compõem a equipe de Saúde Bucal (modalidade I: dentista e auxiliar ou técnico; modalidade II: dentista, técnico e auxiliar), e o <strong>agente de combate às endemias</strong>, integrando vigilância e atenção primária no território. As <strong>equipes multiprofissionais</strong> (eMulti, antigo NASF) não fazem parte da eSF: apoiam várias equipes por matriciamento. A equipe de Atenção Primária (eAP) é um arranjo alternativo, sem agentes obrigatórios, com médico e enfermeiro em cargas de 20 ou 30 horas.</p>
+<p>A distinção importa nas provas e na gestão: sem médico, enfermeiro, técnico e agentes não há equipe de Saúde da Família nem financiamento dela; sem dentista ou agente de endemias, há. O agente comunitário deve morar na área, e a PNAB de 2017 permitiu que exerça atividades como aferir pressão e glicemia capilar, com supervisão.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Numa unidade nova, o primeiro mapa é o da equipe: quem é núcleo, quem é vinculado, quem é apoio. O médico que sabe que o agente de endemias pode ser da equipe e que a eMulti não é conserta fluxos errados de encaminhamento desde a primeira semana.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Mínimo: médico, enfermeiro, auxiliar ou técnico de enfermagem, agentes comunitários.</li>
+<li>Vinculados: dentista, auxiliar ou técnico em saúde bucal, agente de combate às endemias.</li>
+<li>eMulti apoia várias equipes; não compõe a eSF.</li>
+<li>2.000 a 3.500 pessoas por equipe; até 750 por agente.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais profissionais são obrigatórios na equipe de Saúde da Família? <details><summary>Resposta</summary>Médico, enfermeiro, auxiliar ou técnico de enfermagem e agentes comunitários de saúde.</details></li>
+<li>O dentista faz parte do núcleo mínimo? <details><summary>Resposta</summary>Não; compõe a equipe de Saúde Bucal, vinculada à eSF.</details></li>
+</ol>
+`,
+"unesp2026#86": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer a lógica de distribuição e controle da declaração de óbito.</li>
+<li>Saber quem pode receber o formulário e a quem é vedado.</li>
+<li>Entender por que o médico, e não a funerária, atesta a morte.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Declaração de óbito (DO)</dt>
+<dd>Documento padronizado em três vias, numerado, que atesta a morte e alimenta o SIM.</dd>
+<dt>Portaria 116/2009</dt>
+<dd>Regulamenta a coleta de dados, o fluxo e a distribuição da DO e da declaração de nascido vivo.</dd>
+<dt>Serviço de verificação de óbito (SVO)</dt>
+<dd>Esclarece causas de morte natural sem assistência ou sem diagnóstico definido.</dd>
+<dt>Instituto médico-legal (IML)</dt>
+<dd>Atesta as mortes por causas externas ou suspeitas.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A declaração de óbito é ao mesmo tempo um documento legal (permite o sepultamento e o registro civil) e a fonte das estatísticas de mortalidade. Por isso o Ministério da Saúde controla sua impressão, numeração e <strong>distribuição</strong>: os formulários são fornecidos pelas secretarias de saúde <strong>a quem atesta a morte</strong>: estabelecimentos de saúde, institutos médico-legais, serviços de verificação de óbito, cartórios de registro civil (para as localidades sem médico) e médicos cadastrados. É <strong>vedada a distribuição a empresas funerárias</strong> e a qualquer estabelecimento que não faça o atestado, para impedir que o documento circule sem o ato médico que lhe dá sentido.</p>
+<p>Quem preenche depende da morte. Morte <strong>natural com assistência</strong>: o médico que acompanhava, ou o do estabelecimento. Morte natural <strong>sem assistência</strong> ou sem causa definida: o <strong>SVO</strong> onde existe; sem SVO, o médico do serviço público ou, na falta, qualquer médico da localidade, e, sem médico, duas testemunhas no cartório. Morte por <strong>causa externa</strong> (acidente, violência, suspeita): o <strong>IML</strong>, sempre, mesmo que o óbito tenha ocorrido no hospital dias depois do evento. A DO tem três vias: a primeira vai à secretaria de saúde (SIM), a segunda ao cartório com a família, a terceira fica no estabelecimento.</p>
+<p>O médico é obrigado a fornecer a DO quando é o responsável, não pode cobrar por ela nem assinar em branco, e deve preencher a causa básica com cuidado, pois é ela que a estatística usa. Dados incompletos ou "parada cardiorrespiratória" como causa desqualificam o registro.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Se uma funerária oferece "resolver a declaração", a resposta é não: o formulário só sai da secretaria para quem atesta, e assinar sem ter examinado o corpo ou conhecido o caso é infração ética e crime. Na dúvida sobre causa externa, o caminho é o IML.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>DO: documento legal e fonte do SIM; distribuição controlada pela secretaria de saúde.</li>
+<li>Recebem: estabelecimentos de saúde, IML, SVO, cartórios sem médico, médicos cadastrados.</li>
+<li>Vedado: empresas funerárias e quem não atesta.</li>
+<li>Causa externa: IML; natural sem assistência: SVO; com assistência: o médico.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>A quem é vedada a distribuição da declaração de óbito? <details><summary>Resposta</summary>Às empresas funerárias e a qualquer estabelecimento que não atesta a morte.</details></li>
+<li>Quem atesta uma morte por acidente ocorrida no hospital dias depois? <details><summary>Resposta</summary>O IML, porque a causa é externa.</details></li>
+</ol>
+`,
+"unesp2026#89": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir infectividade, patogenicidade e virulência.</li>
+<li>Diferenciar virulência (propriedade do agente) de letalidade (indicador).</li>
+<li>Aplicar as definições a exemplos clássicos.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Infectividade</dt>
+<dd>Capacidade de alojar-se e multiplicar-se no hospedeiro; medida pela taxa de ataque secundário.</dd>
+<dt>Patogenicidade</dt>
+<dd>Capacidade de produzir doença entre os infectados; proporção de infectados que adoecem.</dd>
+<dt>Virulência</dt>
+<dd>Capacidade de produzir casos graves ou fatais entre os doentes.</dd>
+<dt>Imunogenicidade</dt>
+<dd>Capacidade de induzir imunidade duradoura no hospedeiro.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A epidemiologia das doenças infecciosas descreve o agente por propriedades que respondem a perguntas em cadeia. <strong>Infectividade</strong>: dado o contato, o agente consegue se instalar e multiplicar? O sarampo e a varicela têm infectividade altíssima; a hanseníase, baixa. <strong>Patogenicidade</strong>: dada a infecção, aparece doença? O sarampo adoece quase todos os infectados; a poliomielite paralisa uma minoria, e a maioria dos infectados é assintomática. <strong>Virulência</strong>: dada a doença, ela é grave? A raiva e o Ebola são virulentos; o resfriado comum, não. <strong>Imunogenicidade</strong>: a infecção deixa imunidade duradoura? Sarampo sim; gonorreia não. A <strong>dose infectante</strong> e o <strong>poder invasivo</strong> completam o retrato.</p>
+<p>A virulência é uma <strong>propriedade</strong> do agente, que depende também do hospedeiro e das condições; a <strong>letalidade</strong> é o <strong>indicador</strong> que a mede em uma população: óbitos dividido por casos. Um mesmo agente pode ter letalidade diferente em lugares com acesso diferente a tratamento, sem que a virulência tenha mudado. Da mesma forma, a taxa de ataque secundário mede a infectividade e a proporção de doença clínica mede a patogenicidade.</p>
+<p>Essas propriedades orientam o controle: alta infectividade pede vacinação em massa e altas coberturas (sarampo); baixa patogenicidade com alta infectividade cria muitos portadores assintomáticos que transmitem (pólio, hepatite A na criança); alta virulência com baixa infectividade permite isolamento eficaz (Ebola). O poder imunogênico define se a vacina ou a infecção natural protegem por toda a vida.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ao explicar a um paciente por que a criança sem sintomas pode transmitir pólio, a resposta é patogenicidade baixa com infectividade alta. Ao explicar por que a raiva exige profilaxia mesmo com risco pequeno, a resposta é virulência máxima. Nomear a propriedade organiza a conduta.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Infectividade: instalar-se e multiplicar; patogenicidade: adoecer; virulência: gravidade.</li>
+<li>Virulência é propriedade; letalidade é o indicador (óbitos/casos).</li>
+<li>Sarampo: tudo alto; pólio: infectividade alta, patogenicidade baixa; raiva: virulência máxima.</li>
+<li>As propriedades definem a estratégia de controle.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual propriedade descreve a capacidade de alojar-se e multiplicar-se no hospedeiro? <details><summary>Resposta</summary>A infectividade.</details></li>
+<li>Qual é a diferença entre virulência e letalidade? <details><summary>Resposta</summary>Virulência é a propriedade do agente de causar doença grave; letalidade é o indicador que a mede, óbitos entre os doentes.</details></li>
+</ol>
+`,
+"unesp2026#91": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o estudo de coorte pela direção, pela medida e pelo caráter observacional.</li>
+<li>Calcular e interpretar incidência e risco relativo.</li>
+<li>Comparar coorte com caso-controle, transversal e ensaio clínico.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Coorte</dt>
+<dd>Grupo definido pela exposição, seguido no tempo para medir a incidência do desfecho.</dd>
+<dt>Risco relativo</dt>
+<dd>Incidência nos expostos dividida pela incidência nos não expostos; medida direta de risco.</dd>
+<dt>Coorte histórica (retrospectiva)</dt>
+<dd>Exposição e desfecho já ocorreram, mas o desenho parte da exposição registrada no passado.</dd>
+<dt>Perda de seguimento</dt>
+<dd>Principal ameaça da coorte; perdas diferenciais distorcem a incidência.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O estudo de <strong>coorte</strong> parte da <strong>exposição</strong>: identifica pessoas expostas e não expostas a um fator suposto como causa, todas sem a doença no início, e as <strong>segue no tempo</strong> para contar quem adoece. Por isso produz <strong>incidências</strong> e, delas, o <strong>risco relativo</strong> e o risco atribuível, medidas <strong>diretas</strong> de risco. É <strong>observacional</strong>: o pesquisador não decide quem se expõe, ao contrário do ensaio clínico, em que a exposição (o tratamento) é alocada por randomização. Pode ser prospectiva (segue a partir de agora) ou histórica (reconstrói a partir de registros), mas a lógica é sempre da causa para o efeito.</p>
+<p>Suas forças: estabelece a <strong>temporalidade</strong>, mede incidência, estuda vários desfechos de uma mesma exposição e serve para exposições raras. Suas fraquezas: é cara e demorada, inadequada para doenças raras e vulnerável à <strong>perda de seguimento</strong> e à confusão, que se controla por pareamento e análise ajustada.</p>
+<p>O <strong>caso-controle</strong> faz o caminho inverso: parte do <strong>desfecho</strong> (casos e controles) e olha para trás em busca da exposição; não mede incidência, estima o risco pela <strong>razão de chances</strong>, é rápido e barato e serve a doenças raras, ao custo de vieses de seleção e de memória. O <strong>transversal</strong> mede exposição e desfecho ao mesmo tempo, dá prevalência e não estabelece temporalidade. O <strong>ecológico</strong> compara populações, não indivíduos. O <strong>ensaio clínico randomizado</strong> é experimental e é o único que controla confundidores desconhecidos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Para reconhecer o desenho numa prova, faça duas perguntas: o estudo começa pela exposição ou pela doença? O pesquisador escolheu quem se expõe? Exposição sem escolha é coorte; doença é caso-controle; escolha é ensaio. A medida confirma: incidência e risco relativo são da coorte.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Coorte: parte da exposição, segue no tempo, mede incidência e risco relativo; observacional.</li>
+<li>Forças: temporalidade, vários desfechos, exposições raras; fraquezas: custo, tempo, perdas.</li>
+<li>Caso-controle: parte do desfecho, razão de chances, doenças raras.</li>
+<li>Transversal: prevalência; ensaio clínico: exposição alocada por randomização.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que medida de associação a coorte produz e por quê? <details><summary>Resposta</summary>O risco relativo, porque mede a incidência nos expostos e nos não expostos.</details></li>
+<li>O que diferencia a coorte do ensaio clínico? <details><summary>Resposta</summary>Na coorte a exposição é observada; no ensaio ela é alocada pelo pesquisador, em geral por randomização.</details></li>
+</ol>
+`,
+"unesp2026#92": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar as situações em que a vacinação é adiada.</li>
+<li>Reconhecer as falsas contraindicações, que não justificam adiar.</li>
+<li>Aplicar os intervalos entre imunoglobulina e vacinas de vírus vivo.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Adiamento</dt>
+<dd>Postergar a dose por uma condição transitória que pode reduzir a resposta ou confundir a avaliação de eventos adversos.</dd>
+<dt>Contraindicação</dt>
+<dd>Condição em que a vacina não deve ser dada: anafilaxia prévia, imunodeficiência grave para vacinas vivas, gestação para vacinas vivas.</dd>
+<dt>Falsa contraindicação</dt>
+<dd>Situação em que se deixa de vacinar sem motivo: resfriado, desnutrição, prematuridade, antibiótico, história familiar de reação.</dd>
+<dt>Interferência por anticorpos passivos</dt>
+<dd>Imunoglobulinas e hemoderivados neutralizam o vírus vacinal atenuado por semanas a meses.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O Manual de Normas e Procedimentos para Vacinação distingue três situações. As <strong>contraindicações</strong> verdadeiras são poucas: reação anafilática a dose anterior ou a componente, imunodeficiência grave e gestação para as vacinas de vírus vivo, encefalopatia nos 7 dias após vacina com componente pertussis. As situações de <strong>adiamento</strong> são transitórias: <strong>doença aguda febril grave</strong> (para não confundir a evolução da doença com evento adverso e não vacinar quem está em estresse imunológico); uso de <strong>corticoide em dose imunossupressora</strong> (2 mg/kg/dia de prednisona por 14 dias ou mais, ou 20 mg/dia no maior), com vacinas vivas adiadas até 1 mês após a suspensão; quimioterapia e outros imunossupressores; e a <strong>administração de imunoglobulina, sangue ou derivados</strong>, que exige intervalo antes das vacinas de vírus vivo injetáveis (tríplice viral, tetraviral, varicela), em geral de <strong>3 meses</strong> após imunoglobulina padrão e até 11 meses após imunoglobulina intravenosa em dose alta.</p>
+<p>As <strong>falsas contraindicações</strong> são a causa mais comum de oportunidade perdida: doença aguda leve com febre baixa, resfriado, diarreia leve, uso de antibiótico, desnutrição, prematuridade e baixo peso (vacina-se pela idade cronológica, salvo BCG e hepatite B abaixo de 2 kg), internação hospitalar, alergia não anafilática, história familiar de reação, aleitamento, convalescença.</p>
+<p>O intervalo entre vacinas vivas injetáveis diferentes é de 30 dias quando não aplicadas no mesmo dia; vacinas inativadas não exigem intervalo entre si nem com as vivas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Criança internada por bronquiolite leve, prematura, em uso de antibiótico, pode e deve ser vacinada antes da alta. Criança com febre alta e toxemia espera; criança que recebeu imunoglobulina espera pela tríplice viral.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Adiar: doença aguda febril grave, corticoide em dose imunossupressora, imunossupressores, imunoglobulina antes de vacinas vivas injetáveis.</li>
+<li>Imunoglobulina: cerca de 3 meses antes de tríplice viral e varicela (até 11 após IGIV em dose alta).</li>
+<li>Falsas contraindicações: resfriado, desnutrição, prematuridade, antibiótico, internação, aleitamento.</li>
+<li>Vivas injetáveis diferentes: mesmo dia ou 30 dias de intervalo.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Cite duas situações de adiamento da vacinação. <details><summary>Resposta</summary>Doença aguda febril grave e uso recente de imunoglobulina antes de vacinas vivas injetáveis, como caxumba e rubéola.</details></li>
+<li>Prematuridade adia a vacinação? <details><summary>Resposta</summary>Não; vacina-se pela idade cronológica, exceto BCG e hepatite B abaixo de 2 kg.</details></li>
+</ol>
+`,
+"unesp2026#93": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conduzir o recém-nascido contato de mãe bacilífera: quimioprofilaxia primária antes da BCG.</li>
+<li>Escolher o esquema: rifampicina por 4 meses ou isoniazida por 3 meses, sem prova tuberculínica.</li>
+<li>Manter o aleitamento e notificar.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Quimioprofilaxia primária</dt>
+<dd>Tratamento do recém-nascido exposto antes que se infecte, sem prova tuberculínica prévia.</dd>
+<dt>BCG adiada</dt>
+<dd>A vacina não é aplicada ao nascer no contato de bacilífero; aplica-se ao fim da profilaxia.</dd>
+<dt>Bacilífera</dt>
+<dd>Pessoa com tuberculose pulmonar ou laríngea com baciloscopia ou teste molecular positivos.</dd>
+<dt>Aleitamento com máscara</dt>
+<dd>A mãe amamenta usando máscara cirúrgica até deixar de ser bacilífera; o leite não transmite o bacilo.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O recém-nascido de mãe com tuberculose bacilífera está exposto a um risco alto de infecção e de formas graves. O Manual de Recomendações para o Controle da Tuberculose orienta: <strong>não aplicar a BCG ao nascer</strong>, porque a vacina impediria a interpretação da prova tuberculínica e não protege de imediato; iniciar <strong>quimioprofilaxia primária</strong> com <strong>rifampicina por 4 meses</strong> (esquema preferencial atual) ou isoniazida por 3 meses; ao fim, <strong>aplicar a BCG</strong> se o recém-nascido estiver assintomático. Na versão anterior, a prova tuberculínica era feita ao fim da isoniazida para decidir entre BCG (negativa) e continuar até 6 meses (positiva); com a rifampicina por 4 meses, a recomendação é aplicar a BCG ao término, sem prova.</p>
+<p>O recém-nascido é avaliado clinicamente antes e durante a profilaxia; qualquer sinal de doença (febre, baixo ganho de peso, hepatoesplenomegalia, desconforto respiratório) leva à investigação de tuberculose congênita ou perinatal e ao tratamento completo. A mãe em tratamento correto deixa de ser bacilífera em 2 a 3 semanas; até lá, amamenta com máscara, e a separação não é indicada. O <strong>aleitamento é mantido</strong>: os fármacos passam ao leite em quantidade sem risco.</p>
+<p>A situação é <strong>notificada</strong> à vigilância como contato, o serviço registra a profilaxia e faz a busca de outros contatos domiciliares. Se a mãe tem tuberculose resistente, a decisão é da referência. Se a mãe é bacilífera no parto e não tratada, o caso é o mesmo, com investigação da mãe em paralelo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A pergunta "posso amamentar?" recebe sim, com máscara nas primeiras semanas; a pergunta "meu bebê vai tomar a BCG?" recebe "vai, no fim da profilaxia". O que não pode acontecer é o bebê sair da maternidade com a BCG aplicada e sem a profilaxia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Contato de mãe bacilífera: sem BCG ao nascer, quimioprofilaxia primária.</li>
+<li>Rifampicina por 4 meses (ou isoniazida 3 meses); BCG ao fim, sem prova tuberculínica.</li>
+<li>Aleitamento mantido, com máscara até a mãe deixar de ser bacilífera.</li>
+<li>Notificar e buscar os outros contatos.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a BCG não é aplicada ao nascer no contato de bacilífera? <details><summary>Resposta</summary>Porque não protege de imediato e atrapalharia a avaliação; aplica-se ao fim da quimioprofilaxia.</details></li>
+<li>A mãe em tratamento pode amamentar? <details><summary>Resposta</summary>Sim, com máscara enquanto for bacilífera; os fármacos no leite não oferecem risco.</details></li>
+</ol>
+`,
+"unesp2026#94": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir Redes de Atenção à Saúde e linhas de cuidado.</li>
+<li>Explicar a relação entre a estrutura integrada da rede e o percurso do usuário na linha.</li>
+<li>Situar a atenção primária como coordenadora da rede.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Rede de Atenção à Saúde (RAS)</dt>
+<dd>Arranjo organizativo de ações e serviços de diferentes densidades tecnológicas, integrados por sistemas de apoio e logística.</dd>
+<dt>Linha de cuidado</dt>
+<dd>Percurso assistencial pactuado para uma condição, com fluxos, protocolos e responsabilidades em cada ponto.</dd>
+<dt>Ponto de atenção</dt>
+<dd>Cada serviço da rede (unidade básica, ambulatório, hospital, CAPS) com sua função definida.</dd>
+<dt>Condição crônica</dt>
+<dd>Problema de saúde de longa duração que exige cuidado contínuo e coordenado; foco das redes.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Portaria 4.279/2010 define as <strong>Redes de Atenção à Saúde</strong> como arranjos organizativos de ações e serviços de saúde, de diferentes densidades tecnológicas, que, integrados por meio de sistemas de apoio técnico, logístico e de gestão, buscam garantir a <strong>integralidade do cuidado</strong>. A rede tem uma população definida, uma estrutura operacional (a atenção primária como centro de comunicação, os pontos de atenção secundários e terciários, os sistemas de apoio como laboratório e farmácia, os sistemas logísticos como regulação, prontuário e transporte, e o sistema de governança) e um modelo de atenção, voltado sobretudo às condições crônicas.</p>
+<p>A <strong>linha de cuidado</strong> é o desenho do <strong>percurso do usuário</strong> dentro da rede para uma condição específica: da suspeita ao diagnóstico, do tratamento ao seguimento, com os fluxos, os protocolos clínicos, os critérios de encaminhamento e as responsabilidades de cada ponto pactuados. A linha de cuidado da gestante, do infarto, do AVC, do câncer de mama ou da saúde mental diz o que a unidade básica faz, quando e como encaminha, o que o hospital garante e como o paciente volta.</p>
+<p>A relação entre os dois conceitos é de <strong>estrutura e trajeto</strong>: a rede é a organização integrada dos serviços; a linha de cuidado é o caminho que o usuário percorre por eles, orientado por protocolos. As redes temáticas do SUS (Rede Cegonha, de urgência, psicossocial, de cuidados à pessoa com deficiência, de doenças crônicas) organizam-se justamente por linhas de cuidado.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando um paciente com dor torácica chega à unidade básica, a linha de cuidado do infarto diz o que fazer nos próximos 10 minutos e para onde ele vai; a rede de urgência garante que o SAMU, o hospital com hemodinâmica e o retorno à unidade existam. Conhecer as duas coisas é o que transforma protocolo em cuidado.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>RAS: arranjo integrado de serviços de diferentes densidades, com apoio, logística e governança.</li>
+<li>Linha de cuidado: percurso do usuário para uma condição, com fluxos e protocolos.</li>
+<li>Rede é estrutura; linha é trajeto; a atenção primária coordena.</li>
+<li>Redes temáticas do SUS se organizam por linhas de cuidado.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a relação entre rede de atenção e linha de cuidado? <details><summary>Resposta</summary>A rede integra os serviços; a linha de cuidado orienta o percurso do usuário por eles, com fluxos e protocolos.</details></li>
+<li>Qual ponto coordena a rede? <details><summary>Resposta</summary>A atenção primária, como centro de comunicação e coordenadora do cuidado.</details></li>
+</ol>
+`,
+"unesp2026#96": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Compreender a violência contra a mulher como questão de gênero e de determinantes sociais.</li>
+<li>Descrever os eixos da Política Nacional de Enfrentamento à Violência contra as Mulheres.</li>
+<li>Reconhecer o papel do setor saúde na rede intersetorial.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Violência de gênero</dt>
+<dd>Violência dirigida à mulher por ser mulher, enraizada na desigualdade de poder entre os sexos.</dd>
+<dt>Intersetorialidade</dt>
+<dd>Ação articulada de saúde, assistência social, segurança, justiça, educação e trabalho.</dd>
+<dt>Rede de enfrentamento</dt>
+<dd>Conjunto de serviços e instituições que atuam na prevenção, na assistência e na responsabilização.</dd>
+<dt>Lei Maria da Penha</dt>
+<dd>Lei 11.340/2006; define as formas de violência doméstica e cria medidas protetivas.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Política Nacional de Enfrentamento à Violência contra as Mulheres (2011) parte de uma concepção: a violência não é um desvio individual nem um problema privado, é a expressão de <strong>relações desiguais de poder entre homens e mulheres</strong>, sustentadas por normas culturais, dependência econômica, racismo, precariedade de moradia e trabalho e falhas do Estado. Por reconhecer essas <strong>múltiplas determinantes sociais</strong>, a política define que o enfrentamento tem de ser <strong>intersetorial e multidisciplinar</strong>, em quatro eixos: <strong>prevenção</strong> (educação, mudança cultural), <strong>assistência</strong> (rede de atendimento humanizado), <strong>combate</strong> (responsabilização pela Lei Maria da Penha) e <strong>garantia de direitos</strong> (autonomia econômica, moradia, acesso à justiça).</p>
+<p>A PNAISM incorpora a mesma leitura: a violência é um problema de saúde pública que adoece, mata e atravessa gerações, e o setor saúde é parte da rede, não seu centro. Cabe a ele acolher, identificar (a maioria das mulheres chega com queixas indiretas: dor crônica, depressão, lesões repetidas), cuidar das lesões físicas e psíquicas, oferecer profilaxias na violência sexual, <strong>notificar</strong> ao SINAN (obrigatório na suspeita, sigiloso, distinto da denúncia) e articular com a assistência social, as delegacias especializadas, os centros de referência, as casas-abrigo e a justiça, sempre respeitando a autonomia da mulher sobre os próprios passos.</p>
+<p>O que a política afasta: reduzir a violência a patologia individual do agressor ou da vítima, esperar que a mulher "denuncie" como condição do cuidado, delegar tudo à polícia, ou tratar como assunto de família.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Uma mulher com dor crônica, insônia e consultas frequentes merece a pergunta, a sós: "alguém em casa faz você ter medo?". Se a resposta é sim, o plano se faz com ela: notificação, cuidado das lesões, contatos da rede, e o retorno marcado.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Violência contra a mulher: questão de gênero e de determinantes sociais múltiplas.</li>
+<li>Enfrentamento intersetorial e multidisciplinar: prevenção, assistência, combate, garantia de direitos.</li>
+<li>Saúde acolhe, identifica, cuida, notifica e articula a rede; não substitui os outros setores.</li>
+<li>Autonomia da mulher; a denúncia não é condição do cuidado.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a política define o enfrentamento como intersetorial? <details><summary>Resposta</summary>Porque a violência tem múltiplas determinantes sociais (gênero, economia, cultura, Estado) que nenhum setor resolve sozinho.</details></li>
+<li>Quais são os quatro eixos da política? <details><summary>Resposta</summary>Prevenção, assistência, combate e garantia de direitos.</details></li>
+</ol>
+`,
+"unesp2026#97": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Calcular a letalidade e distingui-la do coeficiente de mortalidade.</li>
+<li>Calcular a mortalidade proporcional e o coeficiente de mortalidade específico.</li>
+<li>Escolher o denominador certo para cada indicador.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Letalidade</dt>
+<dd>Óbitos pela doença dividido pelo número de casos da doença, em porcentagem.</dd>
+<dt>Coeficiente de mortalidade específico</dt>
+<dd>Óbitos pela doença dividido pela população exposta, por 100 mil, no período.</dd>
+<dt>Mortalidade proporcional</dt>
+<dd>Óbitos pela doença dividido pelo total de óbitos por todas as causas, em porcentagem.</dd>
+<dt>Coeficiente de incidência</dt>
+<dd>Casos novos dividido pela população em risco, no período.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Cada indicador de mortalidade tem um <strong>denominador</strong> que define a pergunta. A <strong>letalidade</strong> pergunta "de quem tem a doença, quantos morrem dela?": o denominador são os <strong>casos</strong>. Num município com 80 casos de câncer de mama no ano e 4 óbitos por esse câncer, a letalidade é 4 ÷ 80 = <strong>5%</strong>. O tamanho da população e a proporção de mulheres não entram, porque a pergunta é sobre os doentes.</p>
+<p>O <strong>coeficiente de mortalidade específico</strong> pergunta "quanto a doença mata na população?": o denominador é a <strong>população exposta</strong>. Com 12.000 habitantes, 4 ÷ 12.000 = 33 por 100 mil; se o indicador é restrito às mulheres, 52% de 12.000 são 6.240, e 4 ÷ 6.240 = 64 por 100 mil mulheres. A <strong>mortalidade proporcional</strong> pergunta "de todos os que morreram, que fração morreu dessa causa?": o denominador é o <strong>total de óbitos</strong>, o que exige saber quantas pessoas morreram no município por todas as causas. O <strong>coeficiente de incidência</strong> pergunta "quantos adoeceram?": 80 ÷ 6.240 = cerca de 1.282 por 100 mil mulheres.</p>
+<p>Os erros de prova são trocas de denominador: dividir os óbitos pela população e chamar de letalidade, ou dividir pelos casos e chamar de mortalidade. A letalidade é a medida da <strong>gravidade</strong> e da qualidade da assistência; o coeficiente de mortalidade, do <strong>impacto</strong> na população; a mortalidade proporcional, da <strong>importância relativa</strong> da causa. Uma doença pode ter letalidade alta e mortalidade baixa (raiva), ou letalidade baixa e mortalidade alta (doenças cardiovasculares).</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Antes de calcular, escreva a pergunta e o denominador: "de quem tem" (casos), "na população" (habitantes) ou "de todos os óbitos" (mortes totais). Os números do enunciado que não entram no denominador estão lá para distrair.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Letalidade: óbitos pela doença ÷ casos da doença.</li>
+<li>Mortalidade específica: óbitos pela doença ÷ população exposta.</li>
+<li>Mortalidade proporcional: óbitos pela doença ÷ total de óbitos.</li>
+<li>Letalidade mede gravidade; mortalidade mede impacto; proporcional mede importância relativa.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>80 casos e 4 óbitos por câncer de mama: qual é a letalidade? <details><summary>Resposta</summary>4 dividido por 80: 5%.</details></li>
+<li>Que dado faltaria para a mortalidade proporcional por câncer de mama? <details><summary>Resposta</summary>O total de óbitos por todas as causas no município no período.</details></li>
+</ol>
+`,
+"unesp2026#100": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o caso-controle e seus vieses típicos: seleção e memória.</li>
+<li>Associar cada estratégia metodológica ao viés que ela reduz.</li>
+<li>Explicar por que registros eletrônicos reduzem o viés de memória.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Viés de memória (recordação)</dt>
+<dd>Casos lembram exposições passadas de forma diferente dos controles, em geral com mais cuidado.</dd>
+<dt>Viés de seleção</dt>
+<dd>Casos e controles escolhidos de modo que a chance de entrar no estudo depende da exposição.</dd>
+<dt>Viés do entrevistador</dt>
+<dd>O pesquisador pergunta ou registra de forma diferente conforme sabe quem é caso.</dd>
+<dt>Cegamento</dt>
+<dd>Entrevistador ou avaliador sem saber quem é caso ou controle, quem foi exposto ou tratado.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O caso-controle começa pelo desfecho e pergunta ao passado. É rápido, barato e o desenho de escolha para doenças raras, mas sua fragilidade está justamente em <strong>como se lembra e se registra a exposição</strong>. Quem tem a doença procura explicações e recorda exposições com mais detalhe (ou as exagera); quem é controle não tem por que lembrar. Esse é o <strong>viés de memória</strong>, e a defesa contra ele é obter a exposição de uma fonte <strong>registrada antes do desfecho</strong>: prontuários e <strong>registros eletrônicos</strong>, bases de dispensação de medicamentos, registros ocupacionais, exames armazenados. Fontes assim são as mesmas para casos e controles e não dependem da lembrança.</p>
+<p>Outros vieses têm outras defesas. O <strong>viés de seleção</strong> se combate escolhendo controles da <strong>mesma população-base</strong> dos casos (controles populacionais, de vizinhança ou hospitalares com doenças não relacionadas à exposição), e com critérios de inclusão idênticos. O <strong>viés do entrevistador</strong> se combate com <strong>cegamento</strong> do entrevistador quanto ao status de caso e com questionários padronizados. A <strong>confusão</strong> se combate com pareamento, restrição e análise ajustada. O viés de aferição diferencial se combate medindo a exposição da mesma forma nos dois grupos.</p>
+<p>A leitura de um caso-controle exige perguntar: de onde vieram os controles? Como a exposição foi medida e por quem? Os entrevistadores sabiam quem era caso? Que confundidores foram ajustados? A resposta a cada pergunta é uma estratégia com nome, e a prova costuma cobrar a ligação entre estratégia e viés.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Um estudo que liga um medicamento a uma malformação, baseado no que as mães lembram ter tomado na gestação, tem viés de memória embutido; o mesmo estudo com os registros de dispensação da farmácia é outro estudo. Ao ler, procure a fonte da exposição antes de acreditar na razão de chances.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Caso-controle: parte do desfecho; vulnerável a memória e seleção.</li>
+<li>Registros eletrônicos e fontes anteriores ao desfecho reduzem o viés de memória.</li>
+<li>Controles da mesma população-base reduzem o viés de seleção.</li>
+<li>Cegamento do entrevistador reduz o viés do entrevistador; pareamento e ajuste, a confusão.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que registros eletrônicos reduzem o viés de memória? <details><summary>Resposta</summary>Porque a exposição foi registrada antes do desfecho, da mesma forma para casos e controles, sem depender da lembrança.</details></li>
+<li>Que estratégia combate o viés do entrevistador? <details><summary>Resposta</summary>O cegamento do entrevistador quanto ao status de caso, com questionário padronizado.</details></li>
+</ol>
+`,
+"einstein2026#61": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diagnosticar o delirium pelos critérios clínicos e pelo CAM.</li>
+<li>Identificar as causas precipitantes, com os anticolinérgicos à frente.</li>
+<li>Tratar com medidas não farmacológicas e correção da causa.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Delirium</dt>
+<dd>Alteração aguda e flutuante da atenção e da consciência, com pensamento desorganizado, por causa orgânica.</dd>
+<dt>CAM (Confusion Assessment Method)</dt>
+<dd>Início agudo com flutuação, desatenção e pensamento desorganizado ou alteração da consciência.</dd>
+<dt>Carga anticolinérgica</dt>
+<dd>Soma dos efeitos anticolinérgicos dos fármacos em uso: difenidramina, amitriptilina, oxibutinina, entre outros.</dd>
+<dt>Critérios de Beers</dt>
+<dd>Lista de medicamentos potencialmente inapropriados para idosos.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O delirium é uma emergência geriátrica frequente e subdiagnosticada: começa em <strong>horas a dias</strong>, <strong>flutua</strong> ao longo do dia (pior à noite), e tem como núcleo a <strong>desatenção</strong>, com pensamento desorganizado, alteração do nível de consciência, inversão do ciclo sono-vigília e, às vezes, alucinações. Pode ser hiperativo (agitação), hipoativo (apatia, o mais comum e o mais perdido) ou misto. O CAM operacionaliza o diagnóstico à beira do leito. A demência prévia é o principal fator predisponente; o delirium não é demência, mas a agrava.</p>
+<p>A causa é sempre orgânica e muitas vezes múltipla: <strong>medicamentos</strong> (anticolinérgicos, benzodiazepínicos, opioides, corticoides), infecção, desidratação, distúrbios eletrolíticos, <strong>constipação e retenção urinária</strong>, dor, hipóxia, privação de sono, mudança de ambiente. Na idosa em uso de <strong>difenidramina</strong> para dormir, <strong>amitriptilina</strong> para dor e <strong>oxibutinina</strong> para bexiga, a carga anticolinérgica é a explicação mais provável, agravada pela constipação de dias; todos os três estão nos critérios de Beers.</p>
+<p>O tratamento é <strong>não farmacológico e etiológico</strong>: <strong>suspender os anticolinérgicos</strong> e revisar cada fármaco, hidratar, tratar a constipação e a retenção, corrigir eletrólitos, tratar infecção se houver, <strong>reorientar</strong> (relógio, calendário, luz do dia, óculos e aparelho auditivo), <strong>mobilizar cedo</strong>, preservar o sono, manter familiares próximos e evitar contenção. Antipsicótico em dose baixa só na agitação que põe em risco o paciente ou o cuidado; benzodiazepínico só na abstinência alcoólica. A reavaliação é em 24 horas, e a família precisa saber que a melhora pode levar dias a semanas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Idoso que "ficou confuso de repente" faz três coisas antes de qualquer exame de imagem: lista de remédios na mão (anticolinérgicos e benzodiazepínicos saem), toque retal e bexiga (constipação e retenção), e glicemia com sódio. A tomografia fica para o déficit focal ou o trauma.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Agudo, flutuante, desatenção, pensamento desorganizado; CAM à beira do leito.</li>
+<li>Causas: anticolinérgicos e outros fármacos, infecção, desidratação, constipação, retenção, dor.</li>
+<li>Suspender anticolinérgicos, hidratar, tratar a causa, reorientar, mobilizar, preservar sono.</li>
+<li>Antipsicótico só na agitação de risco; sem benzodiazepínico (salvo abstinência).</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o sintoma nuclear do delirium? <details><summary>Resposta</summary>A desatenção, de início agudo e curso flutuante.</details></li>
+<li>Quais fármacos suspender na idosa com delirium em uso de difenidramina, amitriptilina e oxibutinina? <details><summary>Resposta</summary>Os três, pela carga anticolinérgica; a oxibutinina pode ser revisada com opção não anticolinérgica.</details></li>
+</ol>
+`,
+"einstein2026#66": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar o modelo de estágios de mudança ao adolescente que quer parar de fumar.</li>
+<li>Avaliar a dependência de nicotina com o teste de Fagerström.</li>
+<li>Oferecer a abordagem cognitivo-comportamental em grupo, sem farmacoterapia no adolescente.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Estágios de mudança</dt>
+<dd>Pré-contemplação, contemplação, preparação, ação, manutenção e recaída (Prochaska e DiClemente).</dd>
+<dt>Teste de Fagerström</dt>
+<dd>Seis perguntas que graduam a dependência de nicotina de muito baixa a muito elevada.</dd>
+<dt>Abordagem intensiva</dt>
+<dd>Sessões estruturadas, individuais ou em grupo, com técnicas cognitivo-comportamentais, no SUS.</dd>
+<dt>Autonomia do adolescente</dt>
+<dd>Direito de ser atendido sozinho e de ter sigilo, salvo risco de vida.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O adolescente que procura a unidade sozinho para parar de fumar, motivado por um evento na família, está no estágio de <strong>preparação</strong> (ou contemplação avançada): reconhece o problema e quer agir. O modelo de estágios de mudança orienta a resposta: em pré-contemplação, informa-se e semeia-se dúvida; em contemplação, trabalha-se a ambivalência; em <strong>preparação</strong>, <strong>aproveita-se a janela</strong> para planejar a parada com data, estratégias e apoio; em ação e manutenção, previne-se a recaída. Perder a janela é o erro mais caro.</p>
+<p>O primeiro passo clínico é <strong>avaliar a dependência</strong> com o teste de Fagerström (tempo até o primeiro cigarro, número por dia, dificuldade em ambientes proibidos) e a história de tentativas anteriores. Quem fuma desde os 12 anos pode ter dependência moderada a alta, com fissura e sintomas de abstinência, o que muda o plano de enfrentamento.</p>
+<p>O tratamento no SUS é a <strong>abordagem cognitivo-comportamental</strong>, breve na consulta e <strong>intensiva em grupo</strong> (quatro sessões semanais estruturadas, depois quinzenais e mensais), com material do INCA. A <strong>farmacoterapia</strong> (reposição de nicotina, bupropiona, vareniclina) é indicada para adultos com dependência moderada a alta; em <strong>menores de 18 anos não é recomendada</strong> nos protocolos brasileiros, por falta de evidência, e por isso o adolescente recebe o aconselhamento e o grupo, com envolvimento da família quando ele consentir. O atendimento é sigiloso e sem exigência de acompanhante.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A frase "vou marcar com você para a semana que vem, quando seus pais puderem vir" devolve o adolescente à rua com o cigarro. Atenda hoje, aplique o Fagerström, marque a data de parada e a primeira sessão do grupo; os pais entram se ele quiser.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Estágios de mudança: identificar o estágio e agir na janela de preparação.</li>
+<li>Avaliar a dependência com Fagerström e as tentativas anteriores.</li>
+<li>Abordagem cognitivo-comportamental em grupo no SUS.</li>
+<li>Sem farmacoterapia em menores de 18 anos; atendimento sigiloso e sem acompanhante.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em que estágio está o adolescente que procura ajuda sozinho para parar? <details><summary>Resposta</summary>Preparação: reconhece o problema e quer agir; a conduta é planejar a parada agora.</details></li>
+<li>Adolescente de 16 anos com Fagerström alto recebe bupropiona? <details><summary>Resposta</summary>Não; a farmacoterapia não é recomendada abaixo de 18 anos; oferece-se a abordagem em grupo.</details></li>
+</ol>
+`,
+"einstein2026#69": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diagnosticar a fibromialgia pelos critérios clínicos, sem exames confirmatórios.</li>
+<li>Hierarquizar o tratamento: exercício, educação e psicoterapia antes do fármaco.</li>
+<li>Escolher fármacos adjuvantes com segurança no idoso com função renal reduzida.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Fibromialgia</dt>
+<dd>Dor difusa crônica com fadiga, sono não reparador e sintomas cognitivos, por sensibilização central.</dd>
+<dt>Sensibilização central</dt>
+<dd>Amplificação do processamento da dor no sistema nervoso, sem lesão tecidual.</dd>
+<dt>Exercício supervisionado</dt>
+<dd>Aeróbico de baixo impacto e fortalecimento progressivos; a intervenção com melhor evidência.</dd>
+<dt>Fármaco adjuvante</dt>
+<dd>Amitriptilina, duloxetina, pregabalina ou ciclobenzaprina, em dose baixa, associados ao plano não farmacológico.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A fibromialgia é um quadro de <strong>dor musculoesquelética difusa</strong> há mais de 3 meses, com <strong>fadiga</strong>, <strong>sono não reparador</strong>, dificuldade de concentração e humor deprimido, em paciente com exame e exames normais. O diagnóstico é clínico (critérios do ACR de 2010/2016, com índice de dor generalizada e escala de gravidade de sintomas), sem pontos dolorosos obrigatórios e sem marcador; hemograma, VHS, TSH e CK servem para afastar diferenciais (hipotireoidismo, polimialgia reumática, miopatia). A dor é real e tem base em sensibilização central, não em inflamação.</p>
+<p>As recomendações da EULAR e da Sociedade Brasileira de Reumatologia hierarquizam: a <strong>base é não farmacológica</strong>: <strong>educação</strong> sobre a doença (nomear, explicar que não é destrutiva, envolver na decisão), <strong>exercício físico supervisionado</strong> e progressivo (aeróbico de baixo impacto, fortalecimento, aquático, tai chi), <strong>terapia cognitivo-comportamental</strong>, higiene do sono e tratamento das comorbidades psiquiátricas. Os <strong>fármacos são adjuvantes</strong>, com efeito modesto: amitriptilina em dose baixa à noite, duloxetina, pregabalina ou ciclobenzaprina, escolhidos pelo sintoma dominante e pelo perfil do paciente.</p>
+<p>Na idosa com função renal reduzida, viúva, isolada, com 14 meses de dor sem plano estruturado, o próximo passo é <strong>fortalecer o plano multiprofissional</strong> (exercício em grupo, psicoterapia, educação), com fármaco adjuvante cauteloso: amitriptilina em dose baixa exige atenção a queda, arritmia e retenção; a pregabalina precisa de ajuste renal; a duloxetina é opção com a pressão controlada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Trocar de analgésico a cada consulta é o caminho da polifarmácia sem alívio. A consulta que muda a fibromialgia é a que explica a doença, prescreve a caminhada supervisionada, encaminha à psicologia e marca o retorno, com o fármaco em dose baixa como coadjuvante, não como protagonista.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Dor difusa crônica com fadiga, sono ruim e sintomas cognitivos; diagnóstico clínico.</li>
+<li>Base: educação, exercício supervisionado, terapia cognitivo-comportamental.</li>
+<li>Fármacos adjuvantes em dose baixa: amitriptilina, duloxetina, pregabalina, ciclobenzaprina.</li>
+<li>No idoso: cautela com anticolinérgicos, ajuste renal da pregabalina, sem opioide.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a base do tratamento da fibromialgia? <details><summary>Resposta</summary>Educação, exercício físico supervisionado e psicoterapia; os fármacos são adjuvantes.</details></li>
+<li>Que cuidado exige a pregabalina na idosa com TFG de 55? <details><summary>Resposta</summary>Ajuste de dose pela função renal e atenção a sonolência e quedas.</details></li>
+</ol>
+`,
+"einstein2026#70": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Interpretar a prova tuberculínica no contato de bacilífero com o corte de 5 mm.</li>
+<li>Indicar o esquema 3HP (rifapentina e isoniazida semanais por 12 semanas) como primeira escolha.</li>
+<li>Reconhecer o contexto de moradia coletiva como fator de risco e de intervenção.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Infecção latente (ILTB)</dt>
+<dd>Bacilo presente sem doença: sem sintomas, radiografia normal, prova ou IGRA positivos.</dd>
+<dt>3HP</dt>
+<dd>Rifapentina mais isoniazida, uma dose semanal por 12 semanas: esquema curto preferencial desde 2021.</dd>
+<dt>Corte de 5 mm</dt>
+<dd>Prova tuberculínica positiva em contatos, pessoas com HIV e imunossuprimidos.</dd>
+<dt>Moradia coletiva</dt>
+<dd>Aglomeração e ventilação ruim; alto risco de transmissão e alvo de busca ativa.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O contato adulto de um caso bacilífero é avaliado para <strong>doença</strong> (sintomas, radiografia de tórax e, se houver tosse, escarro ou teste molecular) e, afastada a doença, para <strong>infecção latente</strong> com prova tuberculínica ou IGRA. No <strong>contato</strong>, a prova é positiva a partir de <strong>5 mm</strong>, independentemente da BCG; 10 mm é o corte para as demais situações. Prova negativa é repetida em 8 semanas. A infecção latente confirmada é tratada porque o risco de adoecer é maior nos dois primeiros anos após o contato, e ainda mais em quem vive aglomerado, é migrante recente de país de alta carga ou tem comorbidades.</p>
+<p>O <strong>Protocolo de vigilância da ILTB</strong> de 2022 coloca como <strong>primeira escolha o esquema 3HP</strong>: <strong>rifapentina e isoniazida em dose semanal, por 12 semanas</strong> (12 doses), supervisionado ou não, para adultos e crianças a partir de 2 anos, inclusive pessoas com HIV sem interação com os antirretrovirais em uso. As opções: rifampicina diária por 4 meses (120 doses) e isoniazida diária por 6 a 9 meses (180 a 270 doses). O 3HP tem melhor adesão e menor hepatotoxicidade; a hipersensibilidade sistêmica é o evento adverso a vigiar. Gestantes preferem isoniazida ou rifampicina, e contatos de casos resistentes têm decisão em referência.</p>
+<p>A moradia coletiva de dez trabalhadores é, por si, motivo de <strong>busca ativa</strong> de todos os moradores, avaliação de ventilação e articulação com a vigilância e a saúde do trabalhador; o migrante recente tem direito ao SUS integralmente. A notificação da ILTB é obrigatória e o seguimento mensal acompanha adesão e efeitos adversos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Contato assintomático, radiografia normal, prova de 5 mm: não é "reação da BCG", é infecção latente a tratar. Prescreva o 3HP, explique as 12 semanas e marque o retorno mensal; e mande a equipe ao alojamento, porque há outros nove a avaliar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Contato: afastar doença; prova tuberculínica positiva a partir de 5 mm.</li>
+<li>ILTB: tratar; primeira escolha 3HP (rifapentina e isoniazida semanais, 12 semanas).</li>
+<li>Opções: rifampicina 4 meses, isoniazida 6 a 9 meses.</li>
+<li>Moradia coletiva: busca ativa de todos, ventilação, vigilância.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o corte da prova tuberculínica no contato de bacilífero? <details><summary>Resposta</summary>5 mm, independentemente da vacinação BCG.</details></li>
+<li>Qual é o esquema preferencial para a infecção latente desde 2021? <details><summary>Resposta</summary>3HP: rifapentina e isoniazida em dose semanal por 12 semanas.</details></li>
+</ol>
+`,
+"einstein2026#71": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a insegurança alimentar como determinante da obesidade em contextos de pobreza.</li>
+<li>Priorizar a ação intersetorial e as mudanças graduais sobre a prescrição de dietas e fármacos.</li>
+<li>Aplicar o Guia Alimentar e a Política Nacional de Alimentação e Nutrição na atenção primária.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Insegurança alimentar</dt>
+<dd>Acesso irregular ou insuficiente a alimentos em quantidade e qualidade, por falta de recursos.</dd>
+<dt>Dupla carga</dt>
+<dd>Coexistência de obesidade e deficiências nutricionais na mesma pessoa ou família pobre.</dd>
+<dt>Determinantes sociais</dt>
+<dd>Renda, trabalho, moradia, escolaridade, gênero e raça que moldam a alimentação e o adoecimento.</dd>
+<dt>Intersetorialidade</dt>
+<dd>Articulação da saúde com assistência social, programas de transferência de renda, educação e agricultura familiar.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A obesidade nas populações pobres não é resultado de escolhas erradas, mas de um ambiente em que os alimentos mais baratos, acessíveis e duráveis são os ultraprocessados, e em que a comida acaba antes do fim do mês. A <strong>insegurança alimentar</strong> produz ciclos de restrição e compensação, preferência por alimentos densos em energia, ansiedade e sono ruim, e coexiste com anemia e outras carências: a <strong>dupla carga</strong>.</p>
+<p>Diante desse quadro, prescrever dieta hipocalórica detalhada ou iniciar fármaco antiobesidade ignora a causa e produz culpa e abandono. A conduta com sentido é a que a atenção primária e o Guia Alimentar propõem: <strong>mudanças graduais e possíveis</strong> no padrão alimentar (comida de verdade, feita em casa, feijão e arroz, o que a região produz; menos ultraprocessados quando há escolha), sem metas irreais; e <strong>articulação com os programas sociais locais</strong>: cadastro único e benefícios, CRAS, restaurante popular, cozinhas comunitárias, banco de alimentos, agricultura familiar e o Programa de Aquisição de Alimentos. O impacto clínico imediato é limitado, e mesmo assim essa é a prioridade, porque sem comida regular não há dieta possível.</p>
+<p>A avaliação da insegurança alimentar (escala EBIA ou o rastreio de duas perguntas) deve fazer parte da consulta; o cuidado inclui rastreamento de anemia e de carências, atenção à saúde mental e ao sono, e seguimento com vínculo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A pergunta "nos últimos três meses, os alimentos acabaram antes de você ter dinheiro para comprar mais?" muda a consulta. Se a resposta é sim, o plano começa pelo CRAS e pela cozinha comunitária, e a orientação alimentar respeita o prato que existe, não o que a diretriz idealiza.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Insegurança alimentar é determinante da obesidade e coexiste com carências.</li>
+<li>Prioridade: mudanças graduais e articulação com programas sociais, mesmo com impacto inicial limitado.</li>
+<li>Guia Alimentar: comida de verdade, feita em casa, o que a região produz.</li>
+<li>Rastrear insegurança alimentar, anemia, saúde mental; fármaco e cirurgia pelos critérios habituais.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a dieta hipocalórica detalhada não é a resposta na insegurança alimentar? <details><summary>Resposta</summary>Porque a causa é a falta de acesso regular a alimentos; a prescrição ignora o determinante e gera culpa e abandono.</details></li>
+<li>Que ações intersetoriais o médico de família pode acionar? <details><summary>Resposta</summary>CRAS e cadastro único, cozinhas comunitárias, banco de alimentos, agricultura familiar, creche e escola integral.</details></li>
+</ol>
+`,
+"einstein2026#75": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir teleinterconsulta e as outras modalidades de telemedicina do CFM.</li>
+<li>Explicar a responsabilidade solidária dos médicos envolvidos.</li>
+<li>Conhecer os deveres de registro, consentimento e sigilo.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Teleinterconsulta</dt>
+<dd>Troca de informações e opiniões entre médicos, com ou sem o paciente, para auxílio diagnóstico ou terapêutico.</dd>
+<dt>Teleconsulta</dt>
+<dd>Consulta a distância entre médico e paciente, mediada por tecnologia.</dd>
+<dt>Responsabilidade solidária</dt>
+<dd>Cada médico responde pela qualidade do atendimento dentro de sua esfera de atuação.</dd>
+<dt>Registro em prontuário</dt>
+<dd>Dever de documentar a teleinterconsulta, com identificação dos médicos e conteúdo das orientações.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Resolução CFM 2.314/2022 e a Lei 14.510/2022 consolidaram a telemedicina no Brasil e definiram suas modalidades: <strong>teleconsulta</strong> (médico e paciente), <strong>teleinterconsulta</strong> (médico e médico, com ou sem a presença do paciente), telediagnóstico (laudo a distância), telecirurgia, teletriagem, telemonitoramento e teleconsultoria. Na teleinterconsulta, o médico assistente que está com o paciente pede a opinião de outro, em geral especialista, e recebe orientações para a conduta.</p>
+<p>A responsabilidade nessa relação é <strong>compartilhada e solidária</strong>: o médico que <strong>assiste</strong> o paciente continua responsável pela decisão clínica, pela execução e pelo cuidado presencial; o médico <strong>consultado</strong> responde pelas orientações que deu, com base nas informações que recebeu. Nenhum dos dois transfere ao outro a totalidade da responsabilidade: o plantonista não pode dizer "só segui o cardiologista", nem o cardiologista "não estava lá". <strong>Cada um responde dentro de sua esfera de atuação</strong>, e a qualidade da informação trocada é dever dos dois.</p>
+<p>Daí decorrem os deveres práticos: <strong>registrar em prontuário</strong> a teleinterconsulta, com data, hora, identificação e CRM do médico consultado e as orientações recebidas; obter o <strong>consentimento</strong> do paciente quando sua identificação ou imagem forem compartilhadas; garantir <strong>sigilo</strong> e segurança dos dados (plataforma adequada, não conversas informais em aplicativos sem registro); e manter a possibilidade de atendimento presencial quando necessário. A teleinterconsulta é instrumento de qualificação da rede, com telerregulação e apoio a municípios do interior, e não substitui a transferência quando indicada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na suspeita de infarto no interior, ligue para a referência, mas escreva no prontuário quem atendeu, o que orientou e a hora; a orientação recebida é sua para executar e do consultor para responder. Áudio de aplicativo sem registro não protege o paciente nem os dois médicos.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Teleinterconsulta: médico consulta médico, com ou sem o paciente (CFM 2.314/2022).</li>
+<li>Responsabilidade solidária: assistente decide e executa; consultado responde pelas orientações.</li>
+<li>Registrar em prontuário com identificação, CRM e conteúdo; consentimento e sigilo.</li>
+<li>Não substitui transferência quando indicada.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quem responde pela conduta numa teleinterconsulta? <details><summary>Resposta</summary>Ambos, de forma solidária: o assistente pela decisão e execução, o consultado pelas orientações, cada um em sua esfera.</details></li>
+<li>O que deve constar no prontuário? <details><summary>Resposta</summary>Data, hora, identificação e CRM do médico consultado e as orientações recebidas.</details></li>
+</ol>
+`,
+"einstein2025#61": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer os sinais de alarme da dengue e classificar o paciente em grupos A, B, C e D.</li>
+<li>Iniciar a reposição volêmica intravenosa do grupo C na própria unidade.</li>
+<li>Conhecer o fluxo: hidratação, hematócrito, transferência e retorno.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Sinais de alarme</dt>
+<dd>Dor abdominal intensa, vômitos persistentes, acúmulo de líquidos, sangramento de mucosas, letargia, hepatomegalia, aumento do hematócrito com queda de plaquetas.</dd>
+<dt>Fase crítica</dt>
+<dd>Do 3º ao 7º dia, quando a febre cede e o extravasamento plasmático pode levar ao choque.</dd>
+<dt>Grupo C</dt>
+<dd>Dengue com sinal de alarme, sem choque: hidratação venosa imediata e observação em leito.</dd>
+<dt>Grupo D</dt>
+<dd>Dengue grave: choque, sangramento grave ou disfunção de órgão; terapia intensiva.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O manejo da dengue é guiado pela <strong>classificação de risco</strong> e não pelo diagnóstico laboratorial. <strong>Grupo A</strong>: sem sinais de alarme, sem comorbidade ou risco social; hidratação oral em casa, com orientação dos sinais de alarme e retorno. <strong>Grupo B</strong>: sem sinais de alarme, mas com sangramento de pele ou condição especial (gestante, extremos de idade, comorbidades); hidratação oral supervisionada na unidade e hemograma. <strong>Grupo C</strong>: <strong>sinal de alarme presente</strong>; <strong>reposição venosa imediata</strong>, 10 mL/kg de soro fisiológico ou Ringer na primeira hora, repetida até três vezes conforme a resposta, hematócrito antes e depois, e <strong>internação em leito de observação por ao menos 48 horas</strong>. <strong>Grupo D</strong>: choque ou gravidade; 20 mL/kg em 20 minutos, repetido, e terapia intensiva.</p>
+<p>Os sinais de alarme marcam o início do <strong>extravasamento plasmático</strong> da fase crítica, quando a febre cede: <strong>dor abdominal intensa e contínua</strong>, vômitos persistentes, acúmulo de líquidos (ascite, derrame pleural), sangramento de mucosas, letargia ou irritabilidade, hipotensão postural, hepatomegalia e aumento progressivo do hematócrito. Um só sinal já define o grupo C.</p>
+<p>A regra que salva vidas é que o <strong>grupo C começa o soro venoso onde está</strong>, inclusive na unidade básica, e só depois é transferido para a unidade de referência com leito e laboratório, com o acesso venoso e a hidratação em curso. Esperar a transferência para hidratar é o erro que leva ao choque. Anti-inflamatórios e ácido acetilsalicílico são contraindicados; a analgesia é com dipirona ou paracetamol. Notificação compulsória.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Febre há 4 dias, manchas na pele e dor abdominal intensa que começou quando a febre baixou: não é "melhora", é a fase crítica. Puncione, corra 10 mL/kg de soro na primeira hora, colha o hematócrito e chame a transferência com o soro correndo.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>A: sem alarme, oral em casa; B: risco especial, oral na unidade com hemograma.</li>
+<li>C: sinal de alarme, soro venoso 10 mL/kg/h imediato, hematócrito, leito por 48 horas.</li>
+<li>D: choque, 20 mL/kg em 20 minutos, terapia intensiva.</li>
+<li>Grupo C inicia a hidratação venosa na unidade antes de transferir; sem anti-inflamatório.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que sinais definem o grupo C? <details><summary>Resposta</summary>Qualquer sinal de alarme: dor abdominal intensa, vômitos persistentes, acúmulo de líquidos, sangramento de mucosas, letargia, hepatomegalia ou hematócrito em ascensão.</details></li>
+<li>Onde começa a hidratação venosa do grupo C? <details><summary>Resposta</summary>Na unidade onde o paciente está, antes da transferência, com 10 mL/kg na primeira hora.</details></li>
+</ol>
+`,
+"einstein2025#62": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer a Política Nacional para a População em Situação de Rua e o Consultório na Rua.</li>
+<li>Garantir o vínculo com a unidade básica do território sem exigências que excluem.</li>
+<li>Articular assistência social e sociedade civil para o pré-natal da gestante em situação de rua.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>População em situação de rua</dt>
+<dd>Grupo heterogêneo em pobreza extrema, com vínculos familiares fragilizados, que usa logradouros públicos como moradia.</dd>
+<dt>Consultório na Rua</dt>
+<dd>Equipe multiprofissional itinerante da atenção primária que atende no local onde as pessoas vivem.</dd>
+<dt>Cadastro sem endereço</dt>
+<dd>O cadastro na unidade básica não exige comprovante de residência; usa-se o endereço de referência.</dd>
+<dt>Redução de danos</dt>
+<dd>Estratégia de cuidado que não condiciona o atendimento à abstinência.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O Decreto 7.053/2009 instituiu a Política Nacional para a População em Situação de Rua com os princípios de dignidade, universalidade e <strong>acesso sem exigências</strong>; a Portaria 122/2011 criou as equipes de <strong>Consultório na Rua</strong>, que fazem busca ativa, acolhimento e cuidado no território, com redução de danos, e que são parte da atenção primária, vinculadas a uma unidade básica. O cadastro no SUS e na unidade <strong>não exige comprovante de residência</strong> nem documento: registra-se o endereço de referência (o viaduto, a praça, o serviço de acolhimento).</p>
+<p>Uma gestante de 18 anos vivendo sob um viaduto tem direito ao <strong>pré-natal completo</strong>, e a conduta é <strong>cadastrá-la na unidade básica mais próxima do lugar onde dorme</strong>, garantindo que as consultas, os exames e as vacinas aconteçam ali ou pela equipe de rua, com a caderneta em mãos; <strong>acionar a assistência social</strong> (CREAS, Centro POP, serviços de acolhimento para gestantes e mães, cadastro único e benefícios); e <strong>buscar parcerias</strong> com organizações da sociedade civil, abrigos, casas de passagem e a maternidade de referência para sustentar a adesão.</p>
+<p>O que expulsa: exigir documento, endereço fixo, acompanhante, horário rígido, abstinência ou "passar antes" por outro serviço. O vínculo com uma equipe, o horário flexível, a busca ativa quando falta e a articulação com a maternidade são o que faz a gestante em situação de rua chegar ao parto acompanhada e com o bebê protegido.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na visita sob o viaduto, o pré-natal começa ali: cartão da gestante, exames colhidos no local ou agendados com a equipe de rua, vacinas, e o combinado de onde ela pode encontrar a equipe. A pergunta "você tem documento?" vem depois, e a resposta "não" não muda nada.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Política Nacional (2009) e Consultório na Rua (2011): acesso sem exigências, cuidado no território.</li>
+<li>Cadastro na unidade básica do local onde dorme, sem comprovante de residência.</li>
+<li>Assistência social e sociedade civil para sustentar a adesão ao pré-natal.</li>
+<li>Redução de danos; nada de condicionar o cuidado a documento, endereço ou abstinência.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O cadastro da gestante em situação de rua exige comprovante de residência? <details><summary>Resposta</summary>Não; registra-se o endereço de referência do local onde ela vive.</details></li>
+<li>Quais parceiros sustentam a adesão ao pré-natal? <details><summary>Resposta</summary>Assistência social (Centro POP, CREAS, acolhimento), sociedade civil, a maternidade de referência e a equipe de Consultório na Rua.</details></li>
+</ol>
+`,
+"einstein2025#63": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a violência patrimonial entre as formas de violência doméstica da Lei Maria da Penha.</li>
+<li>Adotar a postura do profissional: nomear, informar direitos e planejar com a mulher.</li>
+<li>Evitar minimizar, delegar ou decidir pela paciente.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Violência patrimonial</dt>
+<dd>Reter, subtrair ou destruir bens, documentos, salário ou recursos da mulher, ou controlar seu dinheiro.</dd>
+<dt>Formas de violência (art. 7º)</dt>
+<dd>Física, psicológica, sexual, patrimonial e moral, pela Lei 11.340/2006.</dd>
+<dt>Medidas protetivas de urgência</dt>
+<dd>Determinações judiciais como afastamento do agressor e restituição de bens, solicitadas na delegacia ou no juizado.</dd>
+<dt>Plano de segurança</dt>
+<dd>Estratégias combinadas com a mulher para reduzir riscos, no ritmo dela.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Lei Maria da Penha define cinco formas de violência doméstica e familiar contra a mulher, e a <strong>patrimonial</strong> é a menos reconhecida: reter o salário, controlar o dinheiro, impedir de trabalhar, destruir objetos, esconder documentos, contrair dívidas em nome dela. Costuma vir junto da psicológica (humilhação, ameaça, isolamento) e antecede a física. Uma mulher que trabalha, mas cujo salário é retido pelo marido e que precisa pedir dinheiro para necessidades básicas, vive violência patrimonial, ainda que não haja agressão.</p>
+<p>Quando a mulher revela, a postura do profissional tem três movimentos. <strong>Nomear</strong>: dizer que aquilo é violência patrimonial, prevista em lei, e que não é normal nem culpa dela; muitas nunca ouviram esse nome e o reconhecimento é terapêutico. <strong>Informar direitos</strong>: a Lei Maria da Penha, as medidas protetivas (inclusive restituição de bens e proibição de atos que prejudiquem o patrimônio), a Defensoria Pública, os centros de referência, a delegacia especializada, a rede de assistência social. <strong>Planejar junto</strong>: perguntar o que ela quer, avaliar risco (escalada, ameaças, armas), construir um plano de segurança e marcar retorno, respeitando o tempo dela. A <strong>notificação</strong> ao SINAN é obrigatória e sigilosa, e não depende da vontade da paciente de denunciar.</p>
+<p>O que não fazer: minimizar ("problema de casal"), delegar ("procure a delegacia" e encerrar), pressionar por denúncia, prescrever ansiolítico como resposta, ou tratar apenas a dor nas costas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A frase "o que você descreve tem nome: é violência patrimonial, e a lei protege você" costuma ser a primeira vez que a mulher ouve que não está exagerando. Depois dela vêm os contatos escritos da rede, a pergunta sobre risco e o retorno em duas semanas.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Violência patrimonial: reter salário, controlar dinheiro, destruir bens, esconder documentos.</li>
+<li>Nomear, informar direitos (Maria da Penha, medidas protetivas, Defensoria, rede), planejar junto.</li>
+<li>Notificar ao SINAN; avaliar risco; respeitar o tempo da mulher.</li>
+<li>Não minimizar, não delegar, não decidir por ela, não medicalizar.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Reter o salário da esposa é que forma de violência pela Lei Maria da Penha? <details><summary>Resposta</summary>Violência patrimonial, prevista no artigo 7º.</details></li>
+<li>Qual é a postura do profissional diante da revelação? <details><summary>Resposta</summary>Nomear a violência, informar os direitos e a rede, e planejar com a mulher, com notificação e avaliação de risco.</details></li>
+</ol>
+`,
+"einstein2025#66": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Indicar a profilaxia pré-exposição ao HIV no adolescente a partir de 15 anos e 35 kg.</li>
+<li>Distinguir PrEP de PEP: janela, duração e indicações.</li>
+<li>Respeitar a autonomia e o sigilo do adolescente na prevenção combinada.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>PrEP</dt>
+<dd>Profilaxia pré-exposição: tenofovir com entricitabina diário (ou sob demanda em homens cis) para quem tem risco continuado.</dd>
+<dt>PEP</dt>
+<dd>Profilaxia pós-exposição: antirretrovirais por 28 dias, iniciados em até 72 horas da exposição.</dd>
+<dt>Prevenção combinada</dt>
+<dd>Preservativo, testagem regular, PrEP, PEP, tratamento como prevenção, vacinas e redução de danos.</dd>
+<dt>Autonomia do adolescente</dt>
+<dd>Direito a atendimento sem acompanhante e a sigilo, previsto no ECA e nos protocolos do Ministério.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O protocolo brasileiro de <strong>PrEP</strong> (2022) indica a profilaxia a pessoas com risco continuado de infecção pelo HIV: homens que fazem sexo com homens, pessoas trans, trabalhadores do sexo, parcerias sorodiferentes e qualquer pessoa com práticas de risco frequentes, uso irregular de preservativo, infecções sexualmente transmissíveis recentes ou uso repetido de PEP. A idade mínima é <strong>15 anos</strong>, com <strong>peso de 35 kg ou mais</strong>, e o adolescente pode iniciar sem autorização dos responsáveis, com sigilo garantido. Antes da primeira dose: teste de HIV negativo, creatinina, sorologias de hepatites e sífilis; depois, retorno em 30 dias e a cada 3 meses com testagem. A PrEP diária protege após 7 dias de uso; a PrEP sob demanda (2+1+1) é opção para homens cisgênero.</p>
+<p>A <strong>PEP</strong> é para a exposição que já aconteceu: iniciada em até <strong>72 horas</strong> (quanto antes, melhor), por <strong>28 dias</strong>, com tenofovir, lamivudina e dolutegravir. Quem precisa de PEP repetidamente é candidato à PrEP. Nenhuma das duas substitui o preservativo, que protege das outras infecções, nem a testagem regular; a <strong>prevenção combinada</strong> soma tudo, incluindo vacinas (hepatite B, HPV, meningocócica quando indicada) e tratamento das parcerias.</p>
+<p>O adolescente de 16 anos, homoafetivo, sexualmente ativo, que pede orientação, tem indicação de PrEP e direito de recebê-la naquela consulta, com aconselhamento, preservativos e testagem, sem exigir a presença dos pais e sem condicionar a prevenção à abstinência.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Adolescente que procura sozinho orientação sobre HIV recebe teste, preservativo e PrEP no mesmo dia, com sigilo, e sai com o retorno de 30 dias marcado. Mandar chamar os pais ou "voltar aos 18" é perder a única consulta em que ele veio.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>PrEP: risco continuado; a partir de 15 anos e 35 kg; teste negativo antes; retorno trimestral.</li>
+<li>PEP: até 72 horas, 28 dias; uso repetido indica PrEP.</li>
+<li>Prevenção combinada: preservativo, testagem, PrEP, PEP, vacinas.</li>
+<li>Adolescente: atendimento sem acompanhante e com sigilo.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os critérios de idade e peso para a PrEP? <details><summary>Resposta</summary>15 anos ou mais e 35 kg ou mais.</details></li>
+<li>Qual é a janela e a duração da PEP? <details><summary>Resposta</summary>Início em até 72 horas da exposição e 28 dias de antirretrovirais.</details></li>
+</ol>
+`,
+"einstein2025#68": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Graduar a síndrome de abstinência alcoólica e reconhecer os sinais de gravidade.</li>
+<li>Tratar a abstinência leve a moderada no CAPS com benzodiazepínico e tiamina.</li>
+<li>Saber o que o CAPS faz: acolhe e trata, sem exigir encaminhamento prévio.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Síndrome de abstinência alcoólica</dt>
+<dd>Tremor, sudorese, ansiedade, insônia, náuseas e taquicardia de 6 a 24 horas após reduzir ou parar o álcool.</dd>
+<dt>Delirium tremens</dt>
+<dd>Forma grave, de 48 a 72 horas: confusão, alucinações, agitação, febre, instabilidade; risco de morte.</dd>
+<dt>Tiamina</dt>
+<dd>Vitamina B1, dada antes da glicose, para prevenir a encefalopatia de Wernicke.</dd>
+<dt>CAPS AD</dt>
+<dd>Centro de Atenção Psicossocial para álcool e outras drogas, porta aberta e cuidado no território.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A abstinência alcoólica surge de 6 a 24 horas após a última dose, com tremor, sudorese, taquicardia, ansiedade, insônia e náuseas; pode evoluir para convulsões (24 a 48 horas) e para o <strong>delirium tremens</strong> (48 a 72 horas). A gravidade se gradua pela clínica e por escalas como a CIWA-Ar: <strong>leve a moderada</strong> (sinais autonômicos sem confusão, sem convulsão, sem comorbidade descompensada) pode ser tratada <strong>ambulatorialmente</strong>, com observação por algumas horas e rede de apoio; grave, com história de delirium ou convulsão, comorbidade clínica, gestação ou ausência de suporte, exige internação.</p>
+<p>O tratamento da abstinência leve a moderada é <strong>benzodiazepínico</strong> (diazepam 10 mg até de 8 em 8 horas, com redução ao longo de uma semana; lorazepam se hepatopatia), <strong>tiamina 100 mg</strong> intramuscular por 5 dias (antes de qualquer glicose, para não precipitar Wernicke), hidratação e correção de eletrólitos, e <strong>orientação dos sinais de alarme</strong> (confusão, alucinações, febre, convulsão) com <strong>retorno breve</strong>, em 24 a 48 horas.</p>
+<p>O <strong>CAPS AD</strong> é um serviço de <strong>porta aberta</strong> da Rede de Atenção Psicossocial: acolhe quem chega, faz a avaliação, trata a abstinência que não exige internação e constrói o projeto terapêutico singular, com a atenção primária como parceira. Não é preciso passar antes pela unidade básica nem pelo pronto-socorro; quem precisa de leito vai ao hospital geral ou ao CAPS III com acolhimento noturno. A mulher desempregada, mãe, que bebe desde os 16 anos e pede ajuda, é acolhida ali e sai com tratamento, tiamina, rede de apoio mapeada e retorno marcado.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quem chega ao CAPS pedindo para parar de beber não ouve "volte com encaminhamento". Observe algumas horas, meça a gravidade, dê a tiamina antes do soro glicosado, prescreva o diazepam com esquema de redução e marque a volta em dois dias. A janela de motivação é curta.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Abstinência: 6 a 24 horas; convulsões 24 a 48; delirium tremens 48 a 72.</li>
+<li>Leve a moderada: diazepam até 10 mg de 8/8 horas com redução, tiamina 100 mg IM por 5 dias, retorno breve.</li>
+<li>Internar: grave, história de delirium ou convulsão, comorbidade, gestação, sem suporte.</li>
+<li>CAPS AD é porta aberta: acolhe e trata sem encaminhamento prévio.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a tiamina vem antes da glicose? <details><summary>Resposta</summary>Para não precipitar a encefalopatia de Wernicke em quem tem deficiência de B1.</details></li>
+<li>O CAPS pode tratar a abstinência leve sem encaminhamento da unidade básica? <details><summary>Resposta</summary>Sim; é serviço de porta aberta que acolhe, avalia e trata, com a atenção primária como parceira.</details></li>
+</ol>
+`,
+"einstein2025#69": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar as características de um ensaio clínico randomizado bem conduzido.</li>
+<li>Explicar o que a randomização entrega e como o sigilo da alocação e o cegamento a protegem.</li>
+<li>Entender a análise por intenção de tratar e as perdas de seguimento.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Randomização</dt>
+<dd>Alocação por sorteio, que distribui confundidores conhecidos e desconhecidos entre os grupos.</dd>
+<dt>Sigilo da alocação</dt>
+<dd>Quem inclui o paciente não sabe a que grupo ele irá; evita seleção manipulada.</dd>
+<dt>Cegamento</dt>
+<dd>Paciente, equipe e avaliador sem saber o tratamento; evita vieses de desempenho e de aferição.</dd>
+<dt>Intenção de tratar</dt>
+<dd>Analisar cada paciente no grupo em que foi sorteado, mesmo que não tenha seguido o tratamento.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O ensaio clínico randomizado é o padrão para avaliar tratamentos porque a <strong>randomização</strong> produz grupos <strong>comparáveis no ponto de partida</strong>: se o sorteio funcionou, as características basais (idade, gravidade, comorbidades, tudo o que se mede e o que não se mede) ficam distribuídas de forma semelhante, e a única diferença sistemática entre os grupos é o tratamento. A tabela 1 de todo ensaio existe para mostrar isso; grupos basais parecidos são a evidência de que a randomização foi bem feita e de que a comparação é justa.</p>
+<p>A randomização precisa ser protegida. O <strong>sigilo da alocação</strong> (envelopes opacos, central telefônica ou eletrônica) impede que quem recruta escolha, consciente ou não, quem vai para cada braço. O <strong>cegamento</strong> de pacientes, equipe e avaliadores de desfecho impede que expectativas mudem o cuidado ou a medida do resultado, sobretudo em desfechos subjetivos. O <strong>seguimento completo</strong>, com perdas pequenas e semelhantes entre os grupos, evita que as perdas desfaçam o equilíbrio inicial. A <strong>análise por intenção de tratar</strong> mantém cada paciente no grupo sorteado, ainda que tenha trocado ou abandonado o tratamento, porque analisar só quem aderiu reintroduz a seleção que a randomização eliminou. Somam-se o registro prévio do protocolo, o tamanho de amostra calculado, o desfecho primário definido de antemão e o relato pelo CONSORT.</p>
+<p>Os sinais de má condução: diferenças basais importantes, alocação por dia da semana ou prontuário, sem cegamento quando era possível, perdas grandes ou desiguais, análise por protocolo apresentada como principal, desfechos trocados após ver os dados e término precoce por benefício sem regra prévia.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ao ler um ensaio, vá primeiro à tabela 1 e ao fluxograma: grupos parecidos no início e poucos perdidos no fim dizem mais sobre a confiabilidade do que o valor de p. Depois, pergunte se a análise foi por intenção de tratar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Randomização entrega grupos comparáveis no início; a tabela 1 comprova.</li>
+<li>Sigilo da alocação e cegamento protegem contra seleção e aferição enviesadas.</li>
+<li>Seguimento completo e análise por intenção de tratar preservam o equilíbrio.</li>
+<li>Protocolo registrado, desfecho primário prévio, relato CONSORT.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que indica que a randomização funcionou? <details><summary>Resposta</summary>Grupos semelhantes nas características basais no início do estudo.</details></li>
+<li>Por que analisar por intenção de tratar? <details><summary>Resposta</summary>Para manter a comparabilidade criada pelo sorteio; analisar só quem aderiu reintroduz seleção.</details></li>
+</ol>
+`,
+"einstein2025#70": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Distinguir revisão sistemática de meta-análise e de revisão narrativa.</li>
+<li>Explicar a ponderação dos estudos pela precisão na estimativa sumária.</li>
+<li>Interpretar heterogeneidade, modelos de efeito e viés de publicação.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Revisão sistemática</dt>
+<dd>Síntese com pergunta definida, busca exaustiva, critérios explícitos e avaliação do risco de viés dos estudos.</dd>
+<dt>Meta-análise</dt>
+<dd>Combinação estatística dos resultados dos estudos numa estimativa única, ponderada.</dd>
+<dt>Heterogeneidade (I²)</dt>
+<dd>Variação entre os estudos além do acaso; alta quando I² passa de 50 a 75%.</dd>
+<dt>Gráfico de funil</dt>
+<dd>Dispersão dos estudos por precisão; assimetria sugere viés de publicação.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>revisão sistemática</strong> é um método: pergunta estruturada (PICO), protocolo registrado, busca em várias bases sem restrição de idioma, seleção por dois revisores, extração padronizada e avaliação do risco de viés de cada estudo; o relato segue o PRISMA. Ela pode ou não terminar em <strong>meta-análise</strong>, que é a etapa estatística: combinar os resultados numa <strong>estimativa sumária</strong>. Uma revisão narrativa, sem busca sistemática nem critérios explícitos, não é nenhuma das duas. Uma meta-análise de estudos com alto risco de viés produz uma estimativa precisa e enviesada.</p>
+<p>Na meta-análise, os estudos não contam igual: cada um recebe um <strong>peso proporcional à sua precisão</strong>, em geral o inverso da variância, de modo que estudos maiores, com intervalos de confiança estreitos, pesam mais, e estudos pequenos pesam menos. O gráfico de floresta mostra cada estudo com seu peso e a estimativa combinada em losango. O <strong>modelo de efeito fixo</strong> assume um único efeito verdadeiro; o de <strong>efeitos aleatórios</strong> admite que o efeito varia entre estudos e é preferido quando há heterogeneidade. A <strong>heterogeneidade</strong> se mede pelo I² e pelo teste Q, e se explora por análises de subgrupo e meta-regressão; heterogeneidade alta não impede a meta-análise, mas exige explicação.</p>
+<p>O <strong>viés de publicação</strong> (estudos negativos não publicados) é avaliado pelo gráfico de funil e por testes de assimetria, e é reduzido pela busca em registros de ensaios e na literatura cinzenta. A qualidade do conjunto da evidência é graduada pelo GRADE. Em resumo: a revisão sistemática responde "o que existe e quão confiável é"; a meta-análise responde "qual é o efeito combinado, com que precisão".</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>No gráfico de floresta, olhe o tamanho dos quadrados antes do losango: o estudo grande que domina o peso pode ser o que decide o resultado. Depois olhe o I²; um losango estreito com I² de 90% é uma média de estudos que não concordam entre si.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Revisão sistemática: método explícito e reprodutível; meta-análise: síntese estatística.</li>
+<li>Cada estudo pesa conforme a sua precisão (inverso da variância).</li>
+<li>Efeitos aleatórios com heterogeneidade; I² mede; subgrupos exploram.</li>
+<li>Gráfico de funil para viés de publicação; GRADE para a qualidade da evidência.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Como a meta-análise combina os estudos? <details><summary>Resposta</summary>Ponderando cada estudo pela sua precisão, com maior peso para os maiores e mais precisos.</details></li>
+<li>Toda revisão sistemática tem meta-análise? <details><summary>Resposta</summary>Não; a meta-análise é a etapa estatística opcional, feita quando os estudos são combináveis.</details></li>
+</ol>
+`,
 };
