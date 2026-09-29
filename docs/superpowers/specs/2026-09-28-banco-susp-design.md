@@ -402,3 +402,22 @@ an image; a link from the gineco hub; any change to `inepam/`.
   cover; check whether the 100 / 20-per-area structure held.
 - After the 2027 exam (December 2026): add its caderno as a new fonte the same
   way, if the client wants a refresh.
+
+
+## Adendo 3 — "Sobre a matéria" (2026-09-29)
+
+Terceira camada de explicação, pedida pelo usuário como a página de
+livro-texto (à Pearson) do assunto de cada questão. Decisões em chat:
+conjunto completo (Objetivos de aprendizagem · Termos-chave · O essencial ·
+Ponto clínico · Resumo · Verifique o que aprendeu), aba na página + bloco no
+caderno ligado por padrão, tamanho médio. Implementação: campo `materia`
+(entre `simples` e `figura`) vindo de `ferramentas/materia/<area>.js`, chave
+`fonte#numero`; terceira aba "Sobre a matéria" (`susp:aba = materia`; cartão
+sem ela abre no Comentário); no caderno, `div.materia` com as respostas do
+"Verifique" reescritas à vista e opção `materia`; ficha `tripla`
+(`min-height: calc(3 * var(--pagina))`) quando nem duas páginas bastam.
+Harness: seis partes na ordem, contagens, 1.800–3.600 caracteres de texto
+(a faixa medida — a estrutura de seis partes soma ≈1.200 caracteres de
+andaime aos ≈1.800 de texto corrido), nada do item, tags extras `h4 dl dt dd
+div details summary`; 13 controles novos (78). As 200 escritas em oito lotes
+de 25; plano em `docs/superpowers/plans/2026-09-29-sobre-a-materia.md`.

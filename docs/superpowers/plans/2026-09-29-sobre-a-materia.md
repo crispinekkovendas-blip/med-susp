@@ -3,7 +3,10 @@
 Status: design approved in chat by the user on 2026-09-29 (AskUserQuestion answers:
 **Full Pearson set**, **page tab + caderno on by default**, **1,500–2,200
 characters per question**). The "does this look right?" design message was sent;
-work starts on the user's yes. Nothing of this layer is implemented yet.
+Implemented on 2026-09-29 on `mais-vunesp` (f62ce9a … 099f0ec): code, harness
+(28.498 checks), 78 controls, the 200 mini-lessons; field mandatory. Length
+came out at 2,400–3,600 characters of text (see Data). Caderno page counts not
+re-measured in the browser.
 
 Repo state when this was written: branch `mais-vunesp` (HEAD 45050a0), unmerged
 into `main` (5c7f34a = 100-question bank + figures). Production

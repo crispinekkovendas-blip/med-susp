@@ -6,8 +6,9 @@ Médica do SUS-SP (banca VUNESP), acesso direto. **200 questões**, todas reais,
 de cinco provas da VUNESP — SUS-SP 2026 e 2021 (cinco alternativas), UNESP
 Botucatu 2026, Einstein 2026 e Einstein 2025 (quatro alternativas, como a
 banca as fez) —, extraídas dos cadernos oficiais, com gabarito oficial,
-comentário, referências, Simplificando e **uma figura por questão** (foto ou
-imagem de exame do Wikimedia Commons, licença livre, com crédito). Sem framework, sem build, sem
+comentário, referências, Simplificando, **uma figura por questão** (foto ou
+imagem de exame do Wikimedia Commons, licença livre, com crédito) e **uma
+página de livro-texto por questão** ("Sobre a matéria"). Sem framework, sem build, sem
 servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 
 | O quê | Onde |
@@ -26,12 +27,16 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Ginecologia e Obstetrícia | 20 | 5 | 11 | 7 | 7 | 50 |
 | **Total** | **76** | **24** | **45** | **28** | **27** | **200** |
 
-Figuras: 200 (uma por questão). Fichas do caderno (medição de 2026-09-28 no
+Figuras: 200 (uma por questão). Sobre a matéria: 200 (uma por questão,
+1.800–3.600 caracteres de texto cada). Fichas do caderno (medição de
+2026-09-28, antes da camada Sobre a matéria, no
 site, geometria do papel): com figuras, as 200 são duplas — 400 páginas de
 fichas, nenhuma passando de duas páginas (conteúdo máximo 493 mm); sem
 figuras (opção "Figuras: Não"), 23 normais, 69 apertadas e 108 duplas — 308
 páginas. A folha de respostas desenha 225 bolhas para as 50 de Pediatria
-(25 × 5 + 25 × 4).
+(25 × 5 + 25 × 4). Com Sobre a matéria ligado (padrão desde 2026-09-29) as
+fichas passam a duas ou três páginas (classe `tripla`); a contagem não foi
+refeita no site.
 
 Ids `ped01–ped50`, `prev01–prev50`, `cir01–cir50`, `go01–go50`; dentro da área,
 as fontes na ordem de `meta.fontes` (SUS-SP 2026, SUS-SP 2021, UNESP 2026,
@@ -55,7 +60,7 @@ caderno/              o banco em papel (index.html, caderno.js, caderno.css)
 figuras/              <id>.jpg, uma por questão (≤ 1400 px, ≤ 600 KB) + FONTES.md (proveniência);
                       candidatos.json, escolhas.json e figuras.json ficam fora do ar
 verificar.js          o harness — não vai para o ar (.vercelignore)
-controles.js          os 65 controles negativos do harness — idem
+controles.js          os 78 controles negativos do harness — idem
 ferramentas/          fora do ar: metadados, extração, montagem, figuras, testes, seleção, cadernos
 docs/superpowers/     spec e plano — fora do ar
 ```
@@ -84,11 +89,19 @@ docs/superpowers/     spec e plano — fora do ar
 - `legendas.js` — **também à mão**: a legenda da figura de cada questão, pelo
   id (`ped01: "…"`). Toda questão tem figura e toda figura tem legenda;
   `montar.js` aborta se faltar um lado.
+- `materia/<area>.js` — **também à mão**: a página de livro-texto de cada
+  questão ("Sobre a matéria"), pela chave `"fonte#numero"` da entrada, em
+  HTML escrito em linhas (uma tag de bloco por linha; `montar.js` tira as
+  quebras). Seis partes, nesta ordem, cada uma aberta por `<h4>`: Objetivos
+  de aprendizagem (ul, 3–4), Termos-chave (dl, 3–6), O essencial (3–5 p),
+  Ponto clínico (`div.ponto` com h4 e 1–2 p), Resumo (ul, 3–6), Verifique o
+  que aprendeu (ol, 2–3 li com `<details><summary>Resposta</summary>…`).
+  Toda questão tem a sua; `montar.js` aborta se uma chave não for entrada.
 - `figuras.py` + `commons.py` — a busca e o download das figuras no Wikimedia
   Commons (só CC0, domínio público, CC BY e CC BY-SA), as folhas de contato
   para revisão visual e o `gerar`, que escreve `figuras/figuras.json` (arquivo,
   tamanho, autor, licença, página) e `figuras/FONTES.md`. Ver "Figuras".
-- `montar.js` — junta texto da banca + gabarito + entrada + figura (figuras.json
+- `montar.js` — junta texto da banca + gabarito + entrada + matéria + figura (figuras.json
   + legendas.js) e reescreve `banco.js`. Aborta em qualquer inconsistência
   (número inexistente, bloco errado, anulada, campo faltando, figura sem
   legenda ou legenda sem figura).
@@ -172,6 +185,13 @@ Regras que o harness cobra:
   e nenhuma a mais; fecha com "O que a banca testa".
 - **Simplificando**: ≥ 200 caracteres; diz `a letra <strong>X</strong>`;
   média ≤ 14 palavras por frase, nenhuma com mais de 26.
+- **Sobre a matéria** (`materia`): as seis partes na ordem, com os títulos
+  exatos; 3–4 objetivos, 3–6 termos com `<dt>`+`<dd>`, 3–5 parágrafos no
+  essencial, a caixa `div.ponto` (o único `<div>`), 3–6 itens no resumo, 2–3
+  perguntas com `<details><summary>Resposta</summary>`; 1.800 a 3.600
+  caracteres de texto; fala da matéria, não do item — sem
+  `<strong>A</strong>`, "Gabarito", "alternativa" ou "Questão N"; tags
+  permitidas: as de cima mais `h4 dl dt dd div details summary`.
 - `tema` de 8 a 70 caracteres; `referencias` de 1 a 3, cada uma de 10 a 120;
   só as tags `p strong em ul ol li table thead tbody tr th td sub sup br`,
   equilibradas.
@@ -225,10 +245,12 @@ restante mostra o próprio achado da questão.
 
 ## A página na tela (app.js)
 
-Cartões com cinco alternativas; responder corrige na hora e abre a explicação
-em duas abas — *Comentário* (texto, depois a figura com legenda e crédito
-linkado ao Commons, depois a linha de referências) e *Simplificando* —,
-e a aba escolhida vale para os próximos cartões (`susp:aba`). A imagem sai
+Cartões com as alternativas da prova (cinco ou quatro); responder corrige na hora e abre a explicação
+em três abas — *Comentário* (texto, depois a figura com legenda e crédito
+linkado ao Commons, depois a linha de referências), *Simplificando* e
+*Sobre a matéria* (a página de livro-texto; as respostas do "Verifique o que
+aprendeu" abrem ao clique) —, e a aba escolhida vale para os próximos
+cartões (`susp:aba`). A imagem sai
 com `width`/`height` e `loading="lazy"` (a página não pula nem baixa as 100
 de uma vez); clicar nela abre a versão ampliada (`.ampliar`, cobre a tela;
 clique, × ou Esc fecham). Filtros: Todas ·
@@ -242,9 +264,10 @@ navegador. Capa e rodapé contam tudo a partir dos dados.
 
 Uma ficha por questão: etiqueta de origem, tema, enunciado, alternativas com
 bolha, gabarito em destaque, comentário, figura (no máximo 62 mm de altura,
-com legenda e crédito), referências, Simplificando, autoavaliação (acertei /
+com legenda e crédito), referências, Simplificando, Sobre a matéria (com as
+respostas do "Verifique" à vista), autoavaliação (acertei /
 errei / chutei / revisar) e pauta para anotar.
-**Cada ficha ocupa uma página A4 inteira ou duas**: a ficha tem
+**Cada ficha ocupa uma, duas ou três páginas A4 inteiras**: a ficha tem
 `min-height: 256mm`, e `caderno.js` mede o <em>conteúdo</em> de cada uma
 (tudo menos a pauta) na geometria da folha impressa (classe `medindo` no
 body: 210 mm com texto de 182 mm, seja qual for a tela), e refaz a medida
@@ -252,7 +275,8 @@ antes de imprimir. Se o conteúdo cabe numa página deixando 34 mm ou mais de
 pauta, é uma página normal; se cabe deixando ao menos 10 mm, a ficha é
 `apertada` (a pauta abre mão do mínimo de 24 mm); senão é `dupla` e ocupa
 exatamente duas páginas, com a pauta preenchendo a segunda (sem isso, a
-segunda folha saía quase em branco). A medida é refeita no `load` (as
+segunda folha saía quase em branco); se nem em duas cabe deixando 10 mm,
+é `tripla`. A medida é refeita no `load` (as
 figuras chegam depois do primeiro render) e antes de imprimir. Com as
 questões atuais e as figuras (medição de 2026-09-28): ver os números em
 "Números". O comentário completo com os distratores mais a figura
@@ -264,9 +288,9 @@ Antes das fichas: capa (com o **nome do estudante**, também no rodapé de toda
 página), instruções, mapa de temas por área; texto compartilhado sai uma vez
 por sequência. Depois: gabarito resumido e "Meu resultado" (opcionais);
 folha de respostas opcional. Opções em `susp:caderno`: área, edição,
-Simplificando, figuras, pauta, letra, folha, resumo, nome. Cores impressas de verdade
+Simplificando, Sobre a matéria, figuras, pauta, letra, folha, resumo, nome. Cores impressas de verdade
 (`print-color-adjust: exact`). Para conferir, meça `.questao` no navegador:
-as normais dão 256 mm, as duplas 512 mm, e as apertadas ficam entre 256 e
+as normais dão 256 mm, as duplas 512 mm, as triplas 768 mm, e as apertadas ficam entre 256 e
 uns 275 mm na tela (o texto da tela é 6 mm mais estreito que o do papel;
 no papel cabem numa página, porque a medida foi feita na geometria do
 papel).
@@ -275,8 +299,8 @@ papel).
 
 ```
 node ferramentas/montar.js       # reescreve banco.js a partir das entradas
-node verificar.js                # ~21.700 conferências; sai 1 se algo falhar
-node controles.js                # planta 65 falhas, uma por vez, e exige que cada uma seja mordida
+node verificar.js                # ~28.500 conferências; sai 1 se algo falhar
+node controles.js                # planta 78 falhas, uma por vez, e exige que cada uma seja mordida
 python ferramentas/testes.py     # 19 testes das ferramentas (extração, gabarito, normalização)
 node ferramentas/conferir_readme.js
 ```
@@ -292,7 +316,11 @@ modelo de uma questão" (arquivo real, tamanho lido do cabeçalho, licença
 livre, FONTES.md) e, no DOM de mentira, que o painel Comentário traz a figura
 antes das referências, que o clique abre `.ampliar` e Esc fecha, e que a
 ficha do caderno traz a imagem (`../figuras/…`, com largura e altura), a
-legenda e a fonte.
+legenda e a fonte. De Sobre a matéria, prova a forma de cada mini-aula
+(partes na ordem, contagens, tamanho, nada do item) e, no DOM de mentira, a
+terceira aba (mostra, guarda em `susp:aba`, o próximo cartão abre nela e um
+cartão sem ela abre no Comentário), o bloco na ficha com as respostas à
+vista e a opção que o desliga, e o CSS da ficha `tripla`.
 
 `controles.js` é a prova de que o harness não é cego: cada controle altera
 **um** arquivo (`banco.js`, `app.js`, `caderno/caderno.js` ou
@@ -307,7 +335,8 @@ lidos pelo autor; quando a pergunta é "está certo?", leia a referência citada
 
 - **Nunca edite `banco.js`, `<fonte>.txt` ou `<fonte>-questoes.json` à mão.**
   Comentário errado: corrija em `ferramentas/entrada/<area>.js` e rode
-  `montar.js`. Hífen mal juntado: ajuste as listas em `extrai_questoes.py`
+  `montar.js`; mini-aula (Sobre a matéria): `ferramentas/materia/<area>.js`,
+  mesma chave `fonte#numero`. Hífen mal juntado: ajuste as listas em `extrai_questoes.py`
   e reextraia. Gabarito: `parse_gabarito.py`.
 - Para acrescentar uma edição: baixar caderno e gabarito para `cadernos/`
   (registrar em `FONTES.md` e em `baixar.js`), `parse_gabarito.py` (cabeçalho
