@@ -127,10 +127,6 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 .questao.dupla { min-height: calc(2 * var(--pagina)); }
 /* ficha muito longa (Sobre a matéria + figura): três páginas inteiras */
 .questao.tripla { min-height: calc(3 * var(--pagina)); }
-/* ficha "apertada": o conteúdo só cabe numa página se a pauta abrir mão do
-   seu mínimo — melhor uma pauta curta do que uma segunda folha só de pauta */
-.questao.apertada .notas { min-height: 0; }
-.questao.apertada .notas .linhas { min-height: 0; }
 /* geometria de medida (caderno.js liga a classe no body só enquanto mede):
    a folha impressa tem 210 mm com 14 mm de margem — texto de 182 mm —,
    seja qual for a largura da tela */
@@ -181,9 +177,9 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 .simples em { font-style: normal; background: #fff; padding: 0 1mm; border-radius: 1px; box-shadow: inset 0 0 0 1px #DACBE6; }
 /* "Sobre a matéria": a página de livro-texto na ficha; as respostas do
    "Verifique" saem à vista (.resp) */
-.materia { margin: 3mm 0 0; padding: 2.5mm 4mm 3mm; border: 1px solid var(--line-2); border-radius: 2px; font-size: 9pt; line-height: 1.45; }
+.materia { margin: 3mm 0 0; padding: 3mm 0 0; border-top: 1px solid var(--line-2); font-size: 9.5pt; line-height: 1.5; }
 .materia > .rot { color: var(--accent); display: block; margin-bottom: 1.5mm; }
-.materia h4 { font-family: var(--sans); font-size: 7.5pt; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 2.5mm 0 1mm; break-after: avoid; page-break-after: avoid; }
+.materia h4 { font-family: var(--sans); font-size: 8pt; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 3mm 0 1.2mm; break-after: avoid; page-break-after: avoid; }
 .materia p { margin: 0 0 1.2mm; }
 .materia ul, .materia ol { margin: 0 0 1mm; padding-left: 5mm; }
 .materia li { margin: 0 0 .6mm; }
@@ -219,10 +215,13 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
   background-size: 5mm 5mm; background-position: 0 0; }
 /* português: pauta, quadriculado ou em branco */
 .notas .linhas { flex: 1 1 auto; min-height: 16mm; }
-.notas.linhas .linhas { background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(8.5mm - 1px), var(--line-2) calc(8.5mm - 1px), var(--line-2) 8.5mm); }
-.notas.quadriculado .linhas { border: 1px solid rgba(16,21,27,.22); border-radius: 2px;
+/* o quadro dos termos-chave: 40 mm fixos, mesmo fundo da pauta; depois dele, "Minhas anotações" */
+.notas .termos { flex: none; height: 40mm; border: 1px solid rgba(16,21,27,.22); border-radius: 2px; }
+.notas .termos + .rot { margin-top: 2.5mm; }
+.notas.linhas .linhas, .notas.linhas .termos { background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(8.5mm - 1px), var(--line-2) calc(8.5mm - 1px), var(--line-2) 8.5mm); }
+.notas.quadriculado .linhas, .notas.quadriculado .termos { border: 1px solid rgba(16,21,27,.22); border-radius: 2px;
   background-image: linear-gradient(to right, rgba(16,21,27,.09) 0.25mm, transparent 0.25mm), linear-gradient(to bottom, rgba(16,21,27,.09) 0.25mm, transparent 0.25mm); background-size: 5mm 5mm; }
-.notas.nenhuma .linhas { background: none; }
+.notas.nenhuma .linhas, .notas.nenhuma .termos { background: none; }
 /* o quadro de resultado usa linhas de verdade */
 .resultado .linhas .linha { display: block; width: 100%; height: 8.5mm; border-bottom: 1px solid var(--line-2); }
 
@@ -252,8 +251,10 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
   .pagina { width: auto; max-width: none; margin: 0; padding: 0; box-shadow: none; break-before: page; page-break-before: always; }
   .pagina.capa { break-before: auto; page-break-before: auto; border-top-width: 5mm; padding-top: 6mm; }
   .texto, .questao header, .comentario .gab, .auto, .alts li, .simples, .figura, .materia .ponto { break-inside: avoid; page-break-inside: avoid; }
-  /* a pauta vai inteira para a página seguinte quando não cabe (sem uma tira dela no fim da página anterior) */
-  .notas { break-inside: avoid; page-break-inside: avoid; }
+  /* a pauta pode correr para a página seguinte (nada fica em branco); só o
+     quadro dos termos não se parte, e os rótulos não ficam órfãos */
+  .notas .termos { break-inside: avoid; page-break-inside: avoid; }
+  .notas .rot { break-after: avoid; page-break-after: avoid; }
   /* cada ficha é uma página: sem margem, quebra depois; o título da seção
      some para não ocupar uma página quase vazia antes da primeira ficha */
   .questao { margin: 0; break-after: page; page-break-after: always; }

@@ -60,7 +60,7 @@ caderno/              o banco em papel (index.html, caderno.js, caderno.css)
 figuras/              <id>.jpg, uma por questão (≤ 1400 px, ≤ 600 KB) + FONTES.md (proveniência);
                       candidatos.json, escolhas.json e figuras.json ficam fora do ar
 verificar.js          o harness — não vai para o ar (.vercelignore)
-controles.js          os 84 controles negativos do harness — idem
+controles.js          os 85 controles negativos do harness — idem
 ferramentas/          fora do ar: metadados, extração, montagem, figuras, testes, seleção, cadernos
 docs/superpowers/     spec e plano — fora do ar
 ```
@@ -267,26 +267,26 @@ Uma ficha por questão: etiqueta de origem, tema, enunciado, alternativas com
 bolha, gabarito em destaque, comentário, figura (no máximo 52 mm de altura,
 com legenda e crédito), referências, Simplificando, autoavaliação (acertei /
 errei / chutei / revisar); o espaço para anotar fica na página da mini-aula.
-**Sobre a matéria sai em página própria por padrão** (opção "Sobre a
-matéria: Em página própria"): a ficha da questão — enunciado, alternativas,
-comentário, figura, referências, Simplificando, autoavaliação — ocupa a
-primeira página (ou duas, se não couber), e logo depois
-vem a página da mini-aula: cabeçalho com número, área e tema, o texto com as
-respostas do "Verifique" à vista, e o **espaço de anotações — um só por
-questão, quadriculado de 5 mm por padrão** — preenchendo o resto; se sobrar
-menos de um quinto da página (50 mm), ele ganha a página seguinte inteira.
-Toda questão ocupa ao menos duas páginas. "Na ficha" põe a mini-aula dentro do comentário e a
-pauta na mesma ficha (o modo antigo); "Não" tira a mini-aula.
+**A mini-aula vem logo depois do comentário** (opção "Sobre a matéria:
+Depois do comentário", o padrão): enunciado, alternativas, gabarito,
+comentário, figura, referências, Simplificando, Sobre a matéria, linha de
+fonte, autoavaliação e, no fim, o **espaço de anotações — um só por
+questão, quadriculado de 5 mm por padrão**: primeiro um quadro de 40 mm para
+o estudante escrever os **termos-chave** (copiar da mini-aula já vale como
+anotação), depois "Minhas anotações" preenchendo o resto. A ficha corre por
+quantas páginas precisar, sem espaço em branco no meio; se no fim sobrarem
+menos de 90 mm para a pauta (40 de termos e 50 de anotações), ela ganha a
+página seguinte. "Em página própria" separa a mini-aula numa página com a
+pauta; "Não" a tira.
 **Cada ficha ocupa uma, duas ou três páginas A4 inteiras**: a ficha tem
 `min-height: 256mm`, e `caderno.js` mede o <em>conteúdo</em> de cada uma
 (tudo menos a pauta) na geometria da folha impressa (classe `medindo` no
 body: 210 mm com texto de 182 mm, seja qual for a tela), e refaz a medida
-antes de imprimir. Se o conteúdo cabe numa página deixando 34 mm ou mais de
-pauta, é uma página normal; se cabe deixando ao menos 10 mm, a ficha é
-`apertada` (a pauta abre mão do mínimo de 24 mm); senão é `dupla` e ocupa
-exatamente duas páginas, com a pauta preenchendo a segunda (sem isso, a
-segunda folha saía quase em branco); se nem em duas cabe deixando 10 mm,
-é `tripla`. A medida é refeita no `load` (as
+antes de imprimir. Se o conteúdo cabe numa página deixando 90 mm ou mais para a pauta, é uma
+página normal; senão é `dupla` e ocupa exatamente duas páginas, com a pauta
+preenchendo a segunda; se nem em duas cabe deixando 90 mm, é `tripla`. A
+ficha sem pauta (a da questão, no modo página própria) só cresce quando o
+conteúdo passa da página inteira. A medida é refeita no `load` (as
 figuras chegam depois do primeiro render) e antes de imprimir. Com as
 questões atuais e as figuras (medição de 2026-09-28): ver os números em
 "Números". O comentário completo com os distratores mais a figura
@@ -302,10 +302,8 @@ Simplificando, Sobre a matéria (página própria / na ficha / não), figuras,
 anotações (quadriculado / pauta / em branco), letra, folha, resumo, nome; as mesmas opções valem pela URL
 (`caderno/?area=ped&materia=junto`), sem gravar. Cores impressas de verdade
 (`print-color-adjust: exact`). Para conferir, meça `.questao` no navegador:
-as normais dão 256 mm, as duplas 512 mm, as triplas 768 mm, e as apertadas ficam entre 256 e
-uns 275 mm na tela (o texto da tela é 6 mm mais estreito que o do papel;
-no papel cabem numa página, porque a medida foi feita na geometria do
-papel).
+as normais dão 256 mm, as duplas 512 mm e as triplas 768 mm (a medida é feita
+na geometria do papel).
 
 ### PDF
 
@@ -321,7 +319,7 @@ não vai para o git nem para o ar.
 ```
 node ferramentas/montar.js       # reescreve banco.js a partir das entradas
 node verificar.js                # ~28.500 conferências; sai 1 se algo falhar
-node controles.js                # planta 84 falhas, uma por vez, e exige que cada uma seja mordida
+node controles.js                # planta 85 falhas, uma por vez, e exige que cada uma seja mordida
 python ferramentas/testes.py     # 19 testes das ferramentas (extração, gabarito, normalização)
 node ferramentas/conferir_readme.js
 ```

@@ -23,7 +23,7 @@
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
-  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "pagina", figuras: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
+  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "junto", figuras: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
   /* no papel não há clique: as respostas do "Verifique o que aprendeu" saem à vista */
   const materiaImpressa = m => m.replace(/<details><summary>Resposta<\/summary>([\s\S]*?)<\/details>/g, '<span class="resp"><em>Resposta:</em> $1</span>');
   const ler = () => { try { const s = JSON.parse(localStorage.getItem(CH) || "{}"); const o = Object.assign({}, PADRAO); for (const k in PADRAO) if (k in s) o[k] = s[k]; return o; } catch (e) { return Object.assign({}, PADRAO); } };
@@ -31,7 +31,7 @@
      valem pela URL (?area=ped&materia=junto), sem gravar — é assim que os
      PDFs são gerados (ferramentas/pdf.py) */
   const daUrl = o => { try { const p = new URLSearchParams(window.location.search); for (const k in PADRAO) if (p.has(k)) { const v = p.get(k); o[k] = v === "true" ? true : v === "false" ? false : v; } } catch (e) { /* sem URL */ } return o; };
-  const normalizar = o => { if (o.materia === true) o.materia = "pagina"; return o; };
+  const normalizar = o => { if (o.materia === true) o.materia = "junto"; return o; };
   const gravar = () => { try { localStorage.setItem(CH, JSON.stringify(op)); } catch (e) { /* sem armazenamento */ } };
   let op = normalizar(daUrl(ler()));
   if (op.area !== "todas" && !NOME_AREA[op.area]) op.area = "todas";
@@ -78,7 +78,7 @@
         opcao("area", "Área", [["todas", "Todas"]].concat(AREAS.map(a => [a.id, a.nome]))),
         opcao("edicao", "Edição", [["todas", "Todas"]].concat(EDICOES.map(f => [f.id, f.rotulo]))),
         opcao("simples", "Simplificando", [[true, "Incluir"], [false, "Não"]]),
-        opcao("materia", "Sobre a matéria", [["pagina", "Em página própria"], ["junto", "Na ficha"], [false, "Não"]]),
+        opcao("materia", "Sobre a matéria", [["junto", "Depois do comentário"], ["pagina", "Em página própria"], [false, "Não"]]),
         /* com figura toda ficha vira duas páginas; sem, 4 em 10 cabem numa */
         opcao("figuras", "Figuras", [[true, "Incluir"], [false, "Não"]]),
         opcao("pauta", "Anotações", [["quadriculado", "Quadriculado"], ["linhas", "Pauta"], ["nenhuma", "Em branco"]]),
@@ -136,19 +136,23 @@
 
   /* --- a ficha de uma questão ------------------------------------------------- */
   const materiaBloco = q => h("div", { class: "materia" }, h("p", { class: "rot" }, "Sobre a matéria"), h("div", { html: materiaImpressa(q.materia) }));
-  /* o resto da página é do estudante: pauta (ou em branco), até o fim */
-  const notas = () => h("div", { class: "notas " + op.pauta, "aria-label": "Espaço para anotações" }, h("span", { class: "rot" }, "Minhas anotações"), h("div", { class: "linhas" }));
+  /* o fim da ficha é do estudante: um quadro de 40 mm para os termos-chave
+     (copiar da mini-aula já é anotação) e "Minhas anotações" até o fim da
+     página — quadriculado, pauta ou em branco */
+  const notas = () => h("div", { class: "notas " + op.pauta, "aria-label": "Espaço para anotações" },
+    h("span", { class: "rot" }, "Termos-chave"), h("div", { class: "termos" }),
+    h("span", { class: "rot" }, "Minhas anotações"), h("div", { class: "linhas" }));
   const cabecalho = (q, numero, origem) => h("header", null,
     h("span", { class: "num" }, dois(numero)),
     h("span", { class: "tag " + q.area }, NOME_AREA[q.area]),
     h("span", { class: "tema" }, q.tema),
     h("span", { class: "origem" }, origem));
-  /* Devolve uma ou duas fichas. No modo padrão ("Sobre a matéria em página
-     própria") a questão ocupa a ficha — enunciado, alternativas, comentário,
-     figura, referências, Simplificando, autoavaliação — e, logo depois, a
-     página da mini-aula com o espaço de anotações (um só por questão,
-     quadriculado por padrão): ao menos duas páginas por questão, mais se o
-     conteúdo pedir. Nos outros modos a pauta fica na ficha da questão. */
+  /* Devolve uma ou duas fichas. No modo padrão ("Sobre a matéria depois do
+     comentário") a questão é uma ficha contínua — enunciado, alternativas,
+     comentário, figura, referências, Simplificando, mini-aula, autoavaliação
+     e a pauta no fim — que corre por quantas páginas precisar, sem espaço em
+     branco no meio. Em "página própria", a mini-aula sai numa segunda ficha
+     com a pauta. */
   function ficha(q, numero) {
     const letra = LETRAS[q.correta];
     const propria = op.materia === "pagina" && !!q.materia;
@@ -238,26 +242,23 @@
     regua.remove();
     if (!pagina) return;
     /* A pauta não é conteúdo: ela cresce ou encolhe para encher a página.
-       Mede-se o que sobra (enunciado, alternativas, comentário…) na
-       geometria da folha impressa (classe "medindo" no body). Se cabe numa
-       página deixando pauta de 34 mm ou mais, é uma página normal; se cabe
-       deixando ao menos 10 mm, é uma página "apertada" (a pauta abre mão do
-       mínimo); senão, são duas páginas inteiras ("dupla") — ou três
-       ("tripla"), se nem em duas cabe deixando 10 mm. */
+       Mede-se o que sobra (enunciado, alternativas, comentário, mini-aula)
+       na geometria da folha impressa (classe "medindo" no body). A ficha
+       com pauta precisa de 90 mm para ela — 40 mm de termos-chave e ao
+       menos 50 mm de anotações, um quinto da página: se cabe numa página
+       deixando isso, é uma página normal; senão, são duas páginas inteiras
+       ("dupla") — ou três ("tripla") — com a pauta preenchendo o fim. A
+       ficha sem pauta (a da questão, no modo página própria) só cresce
+       quando o conteúdo passa da página inteira. */
     const mm = pagina / 256;
     document.body.classList.add("medindo");
     fichas.forEach(f => {
-      f.classList.remove("tripla", "dupla", "apertada");
+      f.classList.remove("tripla", "dupla");
       const notas = f.querySelector(".notas");
       const conteudo = f.getBoundingClientRect().height - (notas ? notas.getBoundingClientRect().height : 0);
-      /* na página da mini-aula a pauta é o espaço de anotações prometido:
-         se sobrar menos de um quinto da página (50 mm), ela ganha a página
-         seguinte inteira; a ficha sem pauta só vira dupla se o conteúdo
-         passar da página inteira */
-      const folga = f.classList.contains("materia-pagina") ? 50 * mm : (notas ? 10 * mm : 0);
+      const folga = notas ? 90 * mm : 0;
       if (conteudo > 2 * pagina - folga) f.classList.add("tripla");
       else if (conteudo > pagina - folga) f.classList.add("dupla");
-      else if (notas && conteudo > pagina - 34 * mm) f.classList.add("apertada");
     });
     document.body.classList.remove("medindo");
   }
