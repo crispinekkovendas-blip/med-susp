@@ -26,9 +26,12 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Ginecologia e Obstetrícia | 20 | 5 | 11 | 7 | 7 | 50 |
 | **Total** | **76** | **24** | **45** | **28** | **27** | **200** |
 
-Figuras: 200 (uma por questão). Fichas do caderno (medição de 2026-09-28,
-geometria do papel): com figuras, as 200 são duplas — 400 páginas de fichas;
-sem figuras (opção "Figuras: Não"), ver a medição registrada em "Caderno".
+Figuras: 200 (uma por questão). Fichas do caderno (medição de 2026-09-28 no
+site, geometria do papel): com figuras, as 200 são duplas — 400 páginas de
+fichas, nenhuma passando de duas páginas (conteúdo máximo 493 mm); sem
+figuras (opção "Figuras: Não"), 23 normais, 69 apertadas e 108 duplas — 308
+páginas. A folha de respostas desenha 225 bolhas para as 50 de Pediatria
+(25 × 5 + 25 × 4).
 
 Ids `ped01–ped50`, `prev01–prev50`, `cir01–cir50`, `go01–go50`; dentro da área,
 as fontes na ordem de `meta.fontes` (SUS-SP 2026, SUS-SP 2021, UNESP 2026,
@@ -251,8 +254,8 @@ pauta, é uma página normal; se cabe deixando ao menos 10 mm, a ficha é
 exatamente duas páginas, com a pauta preenchendo a segunda (sem isso, a
 segunda folha saía quase em branco). A medida é refeita no `load` (as
 figuras chegam depois do primeiro render) e antes de imprimir. Com as
-questões atuais e as figuras (medição de 2026-09-28): ver a linha "fichas"
-em "Números". O comentário completo com cinco distratores mais a figura
+questões atuais e as figuras (medição de 2026-09-28): ver os números em
+"Números". O comentário completo com os distratores mais a figura
 raramente cabe numa página em corpo 9,5 pt; a opção "Letra grande" aumenta
 enunciado, alternativas, comentário e Simplificando, e aumenta o número de
 duplas.
