@@ -156,6 +156,23 @@ main { max-width: 960px; margin: 0 auto; padding: 22px 16px 0; }
 .comentario.simples { font-size: 15.5px; line-height: 1.7; color: var(--ink); }
 .comentario.simples p + p { margin-top: 12px; }
 .comentario.simples em { font-style: normal; background: #fff; padding: 0 4px; border-radius: 3px; border: 1px solid var(--line); }
+/* "Sobre a matéria": a página de livro-texto — títulos pequenos em
+   versalete, termos-chave em lista de definição, o Ponto clínico numa caixa
+   e as respostas do "Verifique o que aprendeu" escondidas até o clique */
+.comentario.materia { color: var(--ink); }
+.comentario.materia h4 { margin: 16px 0 6px; font-size: 11px; font-weight: 600; letter-spacing: .11em; text-transform: uppercase; color: var(--accent); }
+.comentario.materia h4:first-child { margin-top: 0; }
+.comentario.materia ul, .comentario.materia ol { margin: 0; padding-left: 20px; }
+.comentario.materia li + li { margin-top: 4px; }
+.comentario.materia dl { margin: 0; display: grid; grid-template-columns: minmax(0, max-content) 1fr; gap: 4px 12px; }
+.comentario.materia dt { font-weight: 600; color: var(--ink); }
+.comentario.materia dd { margin: 0; color: var(--ink-2); }
+.comentario.materia .ponto { margin: 14px 0 0; padding: 10px 14px; border-left: 3px solid var(--accent); background: #fff; border-radius: 0 var(--r) var(--r) 0; }
+.comentario.materia .ponto h4 { margin-top: 0; }
+.comentario.materia details { margin-top: 3px; }
+.comentario.materia summary { cursor: pointer; font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-2); }
+.comentario.materia details[open] { padding: 6px 10px; background: #fff; border: 1px solid var(--line); border-radius: var(--r); }
+.comentario.materia details[open] summary { margin-bottom: 4px; }
 
 /* tabela dentro de um enunciado */
 table.tabela { border-collapse: collapse; font-family: var(--sans); font-size: 14px; min-width: 260px; }
@@ -236,4 +253,6 @@ footer a { color: var(--accent-2); }
 @media (max-width: 720px) {
   .ampliar { padding: 12px; }
   .ampliar figcaption { font-size: 13px; }
+  .comentario.materia dl { grid-template-columns: 1fr; gap: 2px 0; }
+  .comentario.materia dd { padding-left: 12px; margin-bottom: 4px; }
 }

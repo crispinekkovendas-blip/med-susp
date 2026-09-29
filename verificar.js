@@ -30,6 +30,9 @@ const exige = (c, m) => { n++; if (!c) erro(m); };
 /* quantas questões cada área deve ter: 1 no esboço; a tarefa de conteúdo de
    cada área sobe para o número final dela */
 const ESPERADO = { ped: 50, prev: 50, cir: 50, go: 50 };
+/* "Sobre a matéria": opcional enquanto as 200 estão sendo escritas; vira
+   obrigatória (true) quando todas existirem */
+const EXIGE_MATERIA = false;
 
 /* --- carrega o banco ---------------------------------------------------- */
 const src = fs.readFileSync(path.join(AQUI, "banco.js"), "utf8");
@@ -99,6 +102,9 @@ for (const f of B.meta.fontes) {
 /* --- cada questão -------------------------------------------------------- */
 const ids = new Set(), vistosFonteNumero = new Set();
 const TAGS = ["p", "strong", "em", "ul", "ol", "li", "table", "thead", "tbody", "tr", "th", "td", "sub", "sup", "br"];
+const TAGS_MATERIA = TAGS.concat(["h4", "dl", "dt", "dd", "div", "details", "summary"]);
+const PARTES = ["Objetivos de aprendizagem", "Termos-chave", "O essencial", "Ponto clínico", "Resumo", "Verifique o que aprendeu"];
+const impressa = m => m.replace(/<details><summary>Resposta<\/summary>([\s\S]*?)<\/details>/g, '<span class="resp"><em>Resposta:</em> $1</span>');
 for (const q of Q) {
   exige(!ids.has(q.id), `id repetido: ${q.id}`); ids.add(q.id);
   exige(IDS_AREA.includes(q.area), `${q.id}: área "${q.area}" não está em meta.areas`);
@@ -179,16 +185,38 @@ for (const q of Q) {
     exige(!/\bNC\b|\bND\b/.test(String(fg.fonte)), `${q.id}: figura com licença NC ou ND não pode entrar`);
     exige(typeof fg.pagina === "string" && fg.pagina.startsWith("https://commons.wikimedia.org/wiki/File:"), `${q.id}: figura.pagina precisa ser a página do arquivo no Commons`);
   }
+  /* "Sobre a matéria": a mini-aula — seis partes na ordem, contagens,
+     tamanho, e nada sobre o item (letras, gabarito, "alternativa") */
+  if (EXIGE_MATERIA) exige(typeof q.materia === "string", `${q.id}: sem "materia" (Sobre a matéria)`);
+  if (q.materia !== undefined) {
+    const m = String(q.materia);
+    const H4 = [...m.matchAll(/<h4>([^<]*)<\/h4>/g)].map(x => x[1]);
+    exige(H4.join("|") === PARTES.join("|"), `${q.id}: "materia" precisa das seis partes na ordem (${PARTES.join(" · ")}); há: ${H4.join(" · ") || "nenhuma"}`);
+    const secao = nome => { const i = m.indexOf(`<h4>${nome}</h4>`); if (i < 0) return ""; const j = H4.indexOf(nome); const fim = j >= 0 && j + 1 < H4.length ? m.indexOf(`<h4>${H4[j + 1]}</h4>`, i + 1) : -1; return m.slice(i, fim < 0 ? undefined : fim); };
+    const conta = (s, tag) => (s.match(new RegExp("<" + tag + "(\\s|>)", "g")) || []).length;
+    const nObj = conta(secao(PARTES[0]), "li"), nTer = conta(secao(PARTES[1]), "dt"), nEss = conta(secao(PARTES[2]), "p"), nRes = conta(secao(PARTES[4]), "li"), nVer = conta(secao(PARTES[5]), "li");
+    exige(nObj >= 3 && nObj <= 4, `${q.id}: "materia" com ${nObj} objetivos (esperava 3–4)`);
+    exige(nTer >= 3 && nTer <= 6 && conta(secao(PARTES[1]), "dd") === nTer, `${q.id}: "materia" com ${nTer} termos-chave (esperava 3–6, cada um com <dt> e <dd>)`);
+    exige(nEss >= 3 && nEss <= 5, `${q.id}: "materia" com ${nEss} parágrafos em O essencial (esperava 3–5)`);
+    exige(/<div class="ponto"><h4>Ponto clínico<\/h4>(<p>(?:(?!<\/p>)[\s\S])*<\/p>){1,2}<\/div>/.test(m) && (m.match(/<div\b/g) || []).length === 1, `${q.id}: "materia" sem a caixa <div class="ponto"> com o Ponto clínico (1–2 parágrafos, o único <div>)`);
+    exige(nRes >= 3 && nRes <= 6, `${q.id}: "materia" com ${nRes} itens no Resumo (esperava 3–6)`);
+    exige(nVer >= 2 && nVer <= 3 && (secao(PARTES[5]).match(/<details><summary>Resposta<\/summary>[^<]{3,}<\/details>/g) || []).length === nVer, `${q.id}: "materia" com ${nVer} perguntas no Verifique (esperava 2–3, cada uma com <details><summary>Resposta</summary>…</details>)`);
+    const texto = m.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    exige(texto.length >= 1400 && texto.length <= 2600, `${q.id}: "materia" com ${texto.length} caracteres de texto (esperava 1.400–2.600)`);
+    exige(!/<strong>[A-E]<\/strong>|[Gg]abarito|[Aa]lternativa|Quest[ãa]o \d/.test(m), `${q.id}: "materia" fala do item (letra, gabarito, alternativa ou "Questão N") — é sobre a matéria, não sobre a questão`);
+    exige(!/\n/.test(m), `${q.id}: "materia" com quebra de linha (montar.js devia ter tirado)`);
+  }
   /* marcação: só as tags permitidas, equilibradas, nada vazado */
-  for (const campo of ["enunciado", "comentario", "texto", "simples"]) {
+  for (const campo of ["enunciado", "comentario", "texto", "simples", "materia"]) {
     const t = q[campo]; if (!t) continue;
-    for (const tag of TAGS) {
+    const permitidas = campo === "materia" ? TAGS_MATERIA : TAGS;
+    for (const tag of permitidas) {
       if (tag === "br") continue;
       const abreT = (t.match(new RegExp("<" + tag + "(\\s|>)", "g")) || []).length;
       const fechaT = (t.match(new RegExp("</" + tag + ">", "g")) || []).length;
       exige(abreT === fechaT, `${q.id}: <${tag}> desequilibrado em ${campo} (${abreT} abre, ${fechaT} fecha)`);
     }
-    const estranhas = [...t.matchAll(/<\/?([a-z][a-z0-9]*)/g)].map(m => m[1]).filter(tg => !TAGS.includes(tg));
+    const estranhas = [...t.matchAll(/<\/?([a-z][a-z0-9]*)/g)].map(m => m[1]).filter(tg => !permitidas.includes(tg));
     exige(!estranhas.length, `${q.id}: tag não permitida em ${campo}: <${estranhas[0]}>`);
     exige(!/undefined|\[object Object\]|NaN/.test(t), `${q.id}: vazamento em ${campo}`);
   }
@@ -228,7 +256,7 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
      ficha; no celular os filtros quebram linha em vez de sumir */
   exige(/\.questao\.apertada \.notas\s*\{[^}]*min-height:\s*0/.test(css), "caderno.css: falta .questao.apertada .notas { min-height: 0 } (a pauta abre mão do mínimo quando o conteúdo quase cabe numa página)");
   exige(/\.medindo \.pagina\s*\{[^}]*width:\s*210mm/.test(css), "caderno.css: falta .medindo .pagina { width: 210mm … } (a medida das fichas precisa da geometria da folha, não da tela)");
-  for (const sel of [".enunciado", ".alts", ".texto-comentario", ".simples"]) exige(new RegExp("\\.letra-grande " + sel.replace(".", "\\.") + "\\s*\\{[^}]*font-size").test(css), `caderno.css: a opção Letra grande não chega à ficha (falta .letra-grande ${sel})`);
+  for (const sel of [".enunciado", ".alts", ".texto-comentario", ".simples", ".materia"]) exige(new RegExp("\\.letra-grande " + sel.replace(".", "\\.") + "\\s*\\{[^}]*font-size").test(css), `caderno.css: a opção Letra grande não chega à ficha (falta .letra-grande ${sel})`);
   const cjs = fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8");
   exige(/classList\.add\("apertada"\)/.test(cjs), "caderno.js: a medida da ficha precisa descontar a pauta e marcar a ficha apertada (classe apertada)");
   exige(/"beforeprint"/.test(cjs), "caderno.js: a medida das fichas precisa ser refeita antes de imprimir (beforeprint)");
@@ -245,6 +273,10 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   exige(/\.figura img\s*\{[^}]*max-height:\s*\d+mm/.test(css), "caderno.css: a figura da ficha precisa de max-height em mm (uma foto alta comeria a página)");
   exige(/"load"/.test(cjs), "caderno.js: a medida das fichas precisa ser refeita depois que as imagens carregam (evento load)");
   exige(/\.ampliar\s*\{[^}]*position:\s*fixed/.test(acss), "app.css: falta .ampliar { position: fixed … } (a figura ampliada precisa cobrir a tela)");
+  /* Sobre a matéria: ficha de três páginas, caixa do Ponto clínico nos dois CSS */
+  exige(/\.questao\.tripla\s*\{\s*min-height:\s*calc\(3 \* var\(--pagina\)\)/.test(css), "caderno.css: a ficha muito longa (.questao.tripla) precisa ocupar três páginas inteiras");
+  exige(/classList\.add\("tripla"\)/.test(cjs), "caderno.js: não marca a ficha muito longa com a classe tripla");
+  exige(/\.materia \.ponto\s*\{/.test(css) && /\.comentario\.materia \.ponto\s*\{/.test(acss), "falta o estilo da caixa Ponto clínico (.materia .ponto no caderno.css, .comentario.materia .ponto no app.css)");
 }
 
 /* --- um DOM de mentira ---------------------------------------------------- */
@@ -340,7 +372,8 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     const c1 = todos(app, ".q")[0];
     exige(c1 && c1.querySelector(".veredito"), "o cartão respondido não foi trocado pelo cartão corrigido");
     const abas = c1 ? todos(c1, ".aba") : [];
-    exige(abas.length === 2, `o cartão respondido tem ${abas.length} abas, esperava 2`);
+    const nAbas = Q[0].materia ? 3 : 2;
+    exige(abas.length === nAbas, `o cartão respondido tem ${abas.length} abas, esperava ${nAbas}`);
     const pc = c1 && todos(c1, ".comentario").find(e => !e.className.includes("simples"));
     const ps = c1 && c1.querySelector(".simples");
     exige(pc && ps && pc.hidden === false && ps.hidden === true, "a aba Comentário não é a visível de início");
@@ -358,7 +391,7 @@ const todos = (el, sel) => el.querySelectorAll(sel);
       (window.document.listeners.keydown || []).slice().forEach(fn => fn({ key: "Escape" }));
       exige(!window.document.querySelector(".ampliar"), "Esc não fecha a figura ampliada");
     }
-    if (abas.length === 2) (abas[1].listeners.click || []).forEach(fn => fn());
+    if (abas.length >= 2) (abas[1].listeners.click || []).forEach(fn => fn());
     exige(ps && ps.hidden === false && pc.hidden === true, "clicar em Simplificando não trocou o painel");
     exige(window.localStorage.getItem("susp:aba") === "simples", "a aba escolhida não foi guardada em susp:aba");
     exige(ps && ps.innerHTML === Q[0].simples, "o painel Simplificando não mostra o texto da questão");
@@ -367,6 +400,27 @@ const todos = (el, sel) => el.querySelectorAll(sel);
       (alts2[1].listeners.click || []).forEach(fn => fn());
       const ps2 = todos(app, ".q")[1].querySelector(".simples");
       exige(ps2 && ps2.hidden === false, "o segundo cartão não abriu na aba guardada (Simplificando)");
+    }
+    /* a terceira aba, "Sobre a matéria": troca o painel, fica guardada, e o
+       próximo cartão com mini-aula abre nela; um cartão sem ela abre no Comentário */
+    if (Q[0].materia && abas.length === 3) {
+      exige(abas[2].textContent === "Sobre a matéria", `a terceira aba se chama "${abas[2].textContent}", esperava "Sobre a matéria"`);
+      (abas[2].listeners.click || []).forEach(fn => fn());
+      const pm = c1.querySelector(".materia");
+      exige(pm && pm.hidden === false && ps.hidden === true && pc.hidden === true, "clicar em Sobre a matéria não trocou o painel");
+      exige(window.localStorage.getItem("susp:aba") === "materia", "a aba Sobre a matéria não foi guardada em susp:aba");
+      exige(pm && pm.innerHTML === Q[0].materia, "o painel Sobre a matéria não mostra a mini-aula da questão");
+      const k = Q.findIndex((q, i) => i >= 2 && q.materia), s = Q.findIndex((q, i) => i >= 2 && !q.materia);
+      if (k >= 0) {
+        (todos(todos(app, ".q")[k], ".alt")[0].listeners.click || []).forEach(fn => fn());
+        const pmk = todos(app, ".q")[k].querySelector(".materia");
+        exige(pmk && pmk.hidden === false, "um cartão respondido depois não abriu na aba guardada (Sobre a matéria)");
+      }
+      if (s >= 0) {
+        (todos(todos(app, ".q")[s], ".alt")[0].listeners.click || []).forEach(fn => fn());
+        const cs = todos(app, ".q")[s], pcs = todos(cs, ".comentario").find(e => !e.className.includes("simples") && !e.className.includes("materia"));
+        exige(todos(cs, ".aba").length === 2 && pcs && pcs.hidden === false, "um cartão sem Sobre a matéria não abriu no Comentário");
+      }
     }
     /* filtro por área */
     const a0 = AREAS[0];
@@ -427,13 +481,16 @@ const todos = (el, sel) => el.querySelectorAll(sel);
         && c.querySelector(".texto-comentario").innerHTML === d.comentario
         && !!refs && d.referencias.every(r => refs.innerHTML.includes(r))
         && !!c.querySelector(".simples") && todos(c.querySelector(".simples"), "div")[0].innerHTML === d.simples
+        && (!d.materia || (!!c.querySelector(".materia") && todos(c.querySelector(".materia"), "div")[0].innerHTML === impressa(d.materia)))
         && todos(f, ".alts").flatMap(a => todos(a, ".certa")).length === 1
         && todos(f, ".auto").flatMap(a => todos(a, ".quadrado")).length === 4
         && todos(f, ".notas").length === 1 && f.querySelector(".notas").className.includes("linhas")
         && todos(f, ".rascunho").length === 0
         && f.querySelector(".tag").textContent === AREAS.find(a => a.id === d.area).nome;
     };
-    exige(qs.every(fichaOk), "alguma ficha não traz, dentro dela, gabarito certo + comentário + referências + Simplificando + autoavaliação + pauta + tag da área");
+    exige(qs.every(fichaOk), "alguma ficha não traz, dentro dela, gabarito certo + comentário + referências + Simplificando + Sobre a matéria (com as respostas à vista) + autoavaliação + pauta + tag da área");
+    exige(todos(app, ".materia").length === Q.filter(q => q.materia).length, `o caderno imprime ${todos(app, ".materia").length} blocos Sobre a matéria, esperava ${Q.filter(q => q.materia).length}`);
+    exige(todos(app, ".materia").every(x => !x.innerHTML.includes("<details")), "no papel, o Verifique o que aprendeu não pode sair com <details> (as respostas ficariam escondidas)");
     const figuraOk = f => {
       const d = Q.find(x => x.id === f.attrs["data-id"]); if (!d || !d.figura) return true;
       const c = f.querySelector(".comentario"), g = c && c.querySelector(".figura"), im = g && g.querySelector("img");
@@ -457,10 +514,11 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(((app.querySelector(".rodape-impresso") || {}).textContent || "").startsWith("Genaro Tuco Zarate · "), "o rodapé impresso não começa com o nome do estudante");
     /* uma área, sem Simplificando, em branco, com folha, sem resumo */
     const a0 = AREAS[0];
-    app = montar({ area: a0.id, simples: false, figuras: false, pauta: "nenhuma", folha: true, resumo: false });
+    app = montar({ area: a0.id, simples: false, materia: false, figuras: false, pauta: "nenhuma", folha: true, resumo: false });
     const qs2 = todos(app, ".questao");
     exige(qs2.length === Q.filter(q => q.area === a0.id).length, `com a área ${a0.id}, o caderno montou ${qs2.length} fichas`);
     exige(todos(app, ".simples").length === 0, "Simplificando desligado ainda aparece");
+    exige(todos(app, ".materia").length === 0, "Sobre a matéria desligado ainda aparece");
     exige(todos(app, ".figura").length === 0, "a opção Figuras desligada ainda imprime figuras");
     exige(todos(app, ".notas").length === qs2.length && todos(app, ".notas").every(x => x.className.includes("nenhuma")), "a opção de anotações em branco não chegou às fichas");
     const bolhasEsperadas = Q.filter(q => q.area === a0.id).reduce((s, q) => s + q.alternativas.length, 0);
@@ -477,7 +535,7 @@ const todos = (el, sel) => el.querySelectorAll(sel);
 /* --- relatório ------------------------------------------------------------- */
 const porArea = AREAS.map(a => `${a.curto} ${Q.filter(q => q.area === a.id).length}`).join(" · ");
 const porFonte = B.meta.fontes.map(f => `${f.rotulo} ${Q.filter(q => q.fonte === f.id).length}`).join(" · ");
-console.log(`\n${falhas.length ? "✗" : "✓"} banco SUS-SP — ${Q.length} questões (${porArea}; ${porFonte}) · ${Q.filter(q => q.figura).length} figuras · ${n} conferências`);
+console.log(`\n${falhas.length ? "✗" : "✓"} banco SUS-SP — ${Q.length} questões (${porArea}; ${porFonte}) · ${Q.filter(q => q.figura).length} figuras · ${Q.filter(q => q.materia).length} com Sobre a matéria · ${n} conferências`);
 for (const f of falhas) console.log("   ! " + f);
 console.log(falhas.length ? `\n${falhas.length} problema(s).` : "\ntudo certo.");
 process.exit(falhas.length ? 1 : 0);

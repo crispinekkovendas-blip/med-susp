@@ -23,7 +23,9 @@
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
-  const PADRAO = { area: "todas", edicao: "todas", simples: true, figuras: true, pauta: "linhas", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
+  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: true, figuras: true, pauta: "linhas", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
+  /* no papel não há clique: as respostas do "Verifique o que aprendeu" saem à vista */
+  const materiaImpressa = m => m.replace(/<details><summary>Resposta<\/summary>([\s\S]*?)<\/details>/g, '<span class="resp"><em>Resposta:</em> $1</span>');
   const ler = () => { try { const s = JSON.parse(localStorage.getItem(CH) || "{}"); const o = Object.assign({}, PADRAO); for (const k in PADRAO) if (k in s) o[k] = s[k]; return o; } catch (e) { return Object.assign({}, PADRAO); } };
   const gravar = () => { try { localStorage.setItem(CH, JSON.stringify(op)); } catch (e) { /* sem armazenamento */ } };
   let op = ler();
@@ -60,7 +62,7 @@
     const n = escolhidas().length;
     return h("section", { id: "painel", "aria-label": "Opções do caderno" }, h("div", { class: "miolo" },
       h("div", { class: "cab" },
-        h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, figura, referências, Simplificando e pauta para anotar`)),
+        h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, figura, referências, Simplificando, Sobre a matéria e pauta para anotar`)),
         h("div", { class: "acoes" },
           h("a", { class: "acao", href: "../" }, "← Banco na tela"),
           h("button", { class: "acao primaria", type: "button", onclick: () => window.print() }, "Imprimir / salvar em PDF"))),
@@ -71,6 +73,7 @@
         opcao("area", "Área", [["todas", "Todas"]].concat(AREAS.map(a => [a.id, a.nome]))),
         opcao("edicao", "Edição", [["todas", "Todas"]].concat(EDICOES.map(f => [f.id, f.rotulo]))),
         opcao("simples", "Simplificando", [[true, "Incluir"], [false, "Não"]]),
+        opcao("materia", "Sobre a matéria", [[true, "Incluir"], [false, "Não"]]),
         /* com figura toda ficha vira duas páginas; sem, 4 em 10 cabem numa */
         opcao("figuras", "Figuras", [[true, "Incluir"], [false, "Não"]]),
         opcao("pauta", "Anotações", [["linhas", "Pauta"], ["nenhuma", "Em branco"]]),
@@ -146,6 +149,7 @@
         op.figuras && q.figura ? h("figure", { class: "figura" }, h("span", { class: "moldura", style: `--w:${q.figura.w};--h:${q.figura.h}` }, h("img", { src: "../" + q.figura.src, width: q.figura.w, height: q.figura.h, alt: q.figura.legenda })), h("figcaption", null, q.figura.legenda + " ", h("span", { class: "credito" }, q.figura.fonte))) : null,
         h("p", { class: "referencias", html: `<span class="rot">Referências</span> ${q.referencias.join(" · ")}` }),
         op.simples && q.simples ? h("div", { class: "simples" }, h("p", { class: "rot" }, "Simplificando"), h("div", { html: q.simples })) : null,
+        op.materia && q.materia ? h("div", { class: "materia" }, h("p", { class: "rot" }, "Sobre a matéria"), h("div", { html: materiaImpressa(q.materia) })) : null,
         h("p", { class: "fonte" }, `Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo}.`)),
       h("div", { class: "auto" },
         h("span", { class: "rot" }, "Eu"),
@@ -203,7 +207,8 @@
 
   const raiz = document.getElementById("app");
   /* Ficha que não cabe numa página: passa a ocupar DUAS páginas inteiras
-     (classe "dupla"), e a pauta de anotações cresce até o fim da segunda —
+     (classe "dupla") — ou TRÊS ("tripla"), com Sobre a matéria e figura —,
+     e a pauta de anotações cresce até o fim da última —
      sem isso, o resto da segunda folha sairia em branco. Só no navegador:
      precisa de medida real (o DOM de mentira do harness não mede). */
   function medirFichas() {
@@ -220,14 +225,16 @@
        geometria da folha impressa (classe "medindo" no body). Se cabe numa
        página deixando pauta de 34 mm ou mais, é uma página normal; se cabe
        deixando ao menos 10 mm, é uma página "apertada" (a pauta abre mão do
-       mínimo); senão, são duas páginas inteiras ("dupla"). */
+       mínimo); senão, são duas páginas inteiras ("dupla") — ou três
+       ("tripla"), se nem em duas cabe deixando 10 mm. */
     const mm = pagina / 256;
     document.body.classList.add("medindo");
     fichas.forEach(f => {
-      f.classList.remove("dupla", "apertada");
+      f.classList.remove("tripla", "dupla", "apertada");
       const notas = f.querySelector(".notas");
       const conteudo = f.getBoundingClientRect().height - (notas ? notas.getBoundingClientRect().height : 0);
-      if (conteudo > pagina - 10 * mm) f.classList.add("dupla");
+      if (conteudo > 2 * pagina - 10 * mm) f.classList.add("tripla");
+      else if (conteudo > pagina - 10 * mm) f.classList.add("dupla");
       else if (conteudo > pagina - 34 * mm) f.classList.add("apertada");
     });
     document.body.classList.remove("medindo");

@@ -7,6 +7,8 @@
      · ferramentas/cadernos/<fonte>-gabarito.txt — o gabarito oficial;
      · ferramentas/entrada/<area>.js — tema, referências, comentário e
        Simplificando, escritos à mão;
+     · ferramentas/materia/<area>.js — "Sobre a matéria", a mini-aula de
+       livro-texto de cada questão, escrita à mão (campo materia);
      · figuras/figuras.json — arquivo, tamanho, autor e licença da figura
        (Wikimedia Commons, gerado por ferramentas/figuras.py) — e
        ferramentas/legendas.js, a legenda escrita à mão.

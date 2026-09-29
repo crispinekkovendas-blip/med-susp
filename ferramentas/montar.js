@@ -1,5 +1,6 @@
 /* Monta banco.js: junta o texto da banca (questoes.json), o gabarito oficial
-   e o que foi escrito à mão (entrada/<area>.js). Ids por área, na ordem de
+   e o que foi escrito à mão (entrada/<area>.js e, se houver, a mini-aula
+   "Sobre a matéria" de materia/<area>.js, chave "fonte#numero"). Ids por área, na ordem de
    meta.areas; dentro da área, na ordem de meta.fontes e depois pelo número
    da questão na prova. Aborta em qualquer inconsistência — banco.js só
    existe se tudo bateu. Roda: `node ferramentas/montar.js` */
@@ -23,6 +24,12 @@ for (const a of meta.areas) {
   const arq = path.join(__dirname, "entrada", a.id + ".js");
   const entradas = fs.existsSync(arq) ? require(arq) : [];
   entradas.sort((x, y) => (ordemFonte[x.fonte] - ordemFonte[y.fonte]) || (x.numero - y.numero));
+  /* "Sobre a matéria": opcional por questão enquanto está sendo escrita; uma
+     chave que não é entrada nenhuma é erro (número trocado) */
+  const arqM = path.join(__dirname, "materia", a.id + ".js");
+  const materias = fs.existsSync(arqM) ? require(arqM) : {};
+  const chaves = new Set(entradas.map(e => e.fonte + "#" + e.numero));
+  for (const k of Object.keys(materias)) if (!chaves.has(k)) throw new Error(`${a.id}: materia/${a.id}.js tem a chave ${k}, que não é nenhuma entrada`);
   const vistos = new Set();
   entradas.forEach((e, i) => {
     const onde = `${a.id} ${e.fonte} #${e.numero}`;
@@ -46,8 +53,14 @@ for (const a of meta.areas) {
     if (fig && !leg) throw new Error(`${onde}: a figura ${fig.src} está sem legenda em ferramentas/legendas.js`);
     if (leg && !fig) throw new Error(`${onde}: há legenda para ${obj.id} em legendas.js, mas nenhuma figura em figuras/figuras.json`);
     if (fig) obj.figura = { src: fig.src, w: fig.w, h: fig.h, legenda: leg, fonte: fig.fonte, pagina: fig.pagina };
+    const m = materias[e.fonte + "#" + e.numero];
+    if (m !== undefined) {
+      if (typeof m !== "string" || !m.trim()) throw new Error(`${onde}: matéria vazia`);
+      /* escrita em linhas (uma tag de bloco por linha); guardada sem as quebras */
+      obj.materia = m.split("\n").map(s => s.trim()).filter(Boolean).join("");
+    }
     questoes.push(obj);
   });
 }
 fs.writeFileSync(path.join(RAIZ, "banco.js"), serializar({ meta, questoes }), "utf8");
-console.log(`banco.js: ${questoes.length} questões (${meta.areas.map(a => `${a.id} ${questoes.filter(q => q.area === a.id).length}`).join(" · ")})`);
+console.log(`banco.js: ${questoes.length} questões (${meta.areas.map(a => `${a.id} ${questoes.filter(q => q.area === a.id).length}`).join(" · ")}) · ${questoes.filter(q => q.materia).length} com "Sobre a matéria"`);

@@ -113,12 +113,15 @@
     return h("article", { class: "q", id: "q-" + q.id, tabindex: "-1", "data-id": q.id }, partes);
   }
 
-  /* --- a explicação tem duas abas ------------------------------------------
+  /* --- a explicação tem três abas ------------------------------------------
      "Comentário" é o texto completo: veredito, cada distrator, o que a banca
      testa, e as referências de onde vem a resposta. "Simplificando" é a
-     mesma explicação em frases curtas. A aba escolhida fica guardada. */
+     mesma explicação em frases curtas. "Sobre a matéria" é a mini-aula de
+     livro-texto do assunto (objetivos, termos-chave, o essencial, ponto
+     clínico, resumo, verifique o que aprendeu). A aba escolhida fica
+     guardada; um cartão sem a terceira aba abre no Comentário. */
   let abaAtiva = "comentario";
-  try { if (localStorage.getItem(CH_ABA) === "simples") abaAtiva = "simples"; } catch (e) { /* sem armazenamento */ }
+  try { const g = localStorage.getItem(CH_ABA); if (g === "simples" || g === "materia") abaAtiva = g; } catch (e) { /* sem armazenamento */ }
   function explicacao(q) {
     const referencias = `<p class="referencias"><span class="rot">Referências</span> ${q.referencias.join(" · ")}</p>`;
     const fonte = `<p class="fonte">Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo} · banca ${B.meta.banca}.</p>`;
@@ -128,8 +131,10 @@
         onclick: e => { if (q.figura && e && e.target && e.target.tagName === "IMG") ampliar(q.figura); } }),
       simples: h("div", { class: "comentario simples", role: "tabpanel", id: `ps-${q.id}`, "aria-labelledby": `as-${q.id}`, html: q.simples || "" }),
     };
+    if (q.materia) paineis.materia = h("div", { class: "comentario materia", role: "tabpanel", id: `pm-${q.id}`, "aria-labelledby": `am-${q.id}`, html: q.materia });
     const abas = {};
     const mostra = qual => {
+      if (!paineis[qual]) qual = "comentario";
       for (const k of Object.keys(paineis)) {
         paineis[k].hidden = k !== qual;
         abas[k].setAttribute("aria-selected", k === qual ? "true" : "false");
@@ -143,10 +148,11 @@
     };
     abas.comentario = h("button", { class: "aba", type: "button", role: "tab", id: `ac-${q.id}`, "aria-controls": `pc-${q.id}`, onclick: () => escolhe("comentario") }, "Comentário");
     abas.simples = h("button", { class: "aba", type: "button", role: "tab", id: `as-${q.id}`, "aria-controls": `ps-${q.id}`, onclick: () => escolhe("simples") }, "Simplificando");
+    if (paineis.materia) abas.materia = h("button", { class: "aba", type: "button", role: "tab", id: `am-${q.id}`, "aria-controls": `pm-${q.id}`, onclick: () => escolhe("materia") }, "Sobre a matéria");
     mostra(abaAtiva);
     return h("div", { class: "explicacao" },
-      h("div", { class: "abas", role: "tablist", "aria-label": "Como explicar" }, abas.comentario, abas.simples),
-      paineis.comentario, paineis.simples);
+      h("div", { class: "abas", role: "tablist", "aria-label": "Como explicar" }, abas.comentario, abas.simples, abas.materia || null),
+      paineis.comentario, paineis.simples, paineis.materia || null);
   }
 
   /* --- a figura do comentário -----------------------------------------------
@@ -271,14 +277,14 @@
     return h("section", { class: "capa" },
       h("p", { class: "lead", html:
         `<b>${Q.length} questões comentadas</b> de ${listaAreas} — <b>todas reais</b>, aplicadas pela banca <b>${B.meta.banca}</b> em provas de acesso direto (${provas}), com o gabarito oficial. ` +
-        `Cada questão tem cinco alternativas, como na prova, e o comentário explica o gabarito <b>e cada distrator</b>, diz o que a banca está testando e de onde vem a resposta.` }),
+        `Cada questão sai com as alternativas que tinha na prova (cinco na SUS-SP, quatro na UNESP e no Einstein), e o comentário explica o gabarito <b>e cada distrator</b>, diz o que a banca está testando e de onde vem a resposta.` }),
       h("div", { class: "fatos" },
         h("div", null, h("b", null, "100"), h("span", null, "questões na prova")),
         h("div", null, h("b", null, "20"), h("span", null, "por área")),
         h("div", null, h("b", null, "5"), h("span", null, "alternativas (A–E)")),
         h("div", null, h("b", null, "5h"), h("span", null, "de duração"))),
       h("p", { class: "aviso", html:
-        `<b>De onde vêm as questões.</b> Dos cadernos oficiais publicados depois de cada prova, sem retoque no texto. A etiqueta <b>${EDICOES.length ? EDICOES[0].rotulo : "SUS-SP 2026"} · Questão NN</b> diz a prova e o número que a questão tinha nela; o gabarito é o oficial depois dos recursos, e as questões anuladas pela banca ficaram de fora. O comentário abre com o veredito e fecha dizendo o que a banca testa; <b>Simplificando</b> conta a mesma coisa em frases curtas. A prova de acesso direto tem também Clínica Médica, que este banco não cobre.` }));
+        `<b>De onde vêm as questões.</b> Dos cadernos oficiais publicados depois de cada prova, sem retoque no texto. A etiqueta <b>${EDICOES.length ? EDICOES[0].rotulo : "SUS-SP 2026"} · Questão NN</b> diz a prova e o número que a questão tinha nela; o gabarito é o oficial depois dos recursos, e as questões anuladas pela banca ficaram de fora. O comentário abre com o veredito e fecha dizendo o que a banca testa; <b>Simplificando</b> conta a mesma coisa em frases curtas; <b>Sobre a matéria</b> é a página de livro-texto do assunto — objetivos, termos-chave, o essencial, ponto clínico, resumo e perguntas para conferir. A prova de acesso direto tem também Clínica Médica, que este banco não cobre.` }));
   }
 
   /* --- modo simulado -------------------------------------------------------- */
