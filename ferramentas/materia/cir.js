@@ -980,4 +980,979 @@ module.exports = {
 <li>Qual é a conduta na diverticulite Hinchey II com abscesso pélvico de 5 cm? <details><summary>Resposta</summary>Antibiótico venoso e drenagem percutânea guiada por imagem.</details></li>
 </ol>
 `,
+"unesp2026#61": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a luxação do joelho como lesão de alto risco para a artéria poplítea.</li>
+<li>Escolher o substituto vascular no trauma de membro: veia autóloga, retirada do membro contralateral.</li>
+<li>Conhecer os passos da revascularização e a fasciotomia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Luxação do joelho</dt>
+<dd>Lesão da artéria poplítea em até um terço dos casos, mesmo quando a luxação reduziu sozinha.</dd>
+<dt>Sinais duros de lesão arterial</dt>
+<dd>Ausência de pulso, isquemia, sangramento pulsátil, hematoma expansivo, frêmito ou sopro.</dd>
+<dt>Veia safena magna contralateral</dt>
+<dd>Substituto de escolha: autóloga, resistente à infecção, sem comprometer a drenagem do membro lesado.</dd>
+<dt>Fasciotomia</dt>
+<dd>Abertura dos quatro compartimentos da perna para prevenir ou tratar a síndrome compartimental após reperfusão.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A artéria poplítea está fixa acima e abaixo do joelho e, na <strong>luxação</strong>, é tracionada e lesada com frequência; o membro fica com <strong>sinais duros</strong> (sem pulso, frio, pálido, com dor e parestesia) e a janela para salvar a perna é de cerca de <strong>6 horas</strong> de isquemia. Sinais duros indicam exploração cirúrgica direta; sinais moderados ou índice tornozelo-braço abaixo de 0,9 pedem angiotomografia. A fratura ou luxação é reduzida e estabilizada, e a revascularização vem em seguida, com shunt temporário se a ortopedia precisar de tempo.</p>
+<p>A lesão da poplítea raramente permite sutura simples ou anastomose término-terminal sem tensão: na maioria é preciso <strong>interposição de enxerto</strong>. O substituto de escolha no trauma é a <strong>veia autóloga</strong>, quase sempre a <strong>safena magna</strong>, porque tem calibre compatível, resiste à infecção no campo contaminado e tem boa perviedade a longo prazo; as próteses sintéticas ficam para quando não há veia, e infectam mais. A regra é retirá-la do <strong>membro contralateral</strong>: o membro lesado pode ter as veias profundas comprometidas pelo trauma ou pela síndrome compartimental, e a safena ipsilateral é uma via de drenagem que não se deve sacrificar; além disso, dissecar a coxa lesada aumenta a morbidade local.</p>
+<p>Completam a operação a <strong>fasciotomia</strong> dos quatro compartimentos, liberal quando a isquemia passou de 4 a 6 horas, houve lesão venosa associada, hipotensão ou lesão de partes moles extensa, o reparo das veias maiores quando possível, a anticoagulação intraoperatória e a vigilância da síndrome de reperfusão. A amputação primária se discute pela extensão da lesão de nervo, osso e partes moles, e o escore MESS ajuda sem decidir sozinho.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Joelho luxado que "voltou ao lugar" no local do acidente é o mais perigoso: a poplítea pode estar rota com o joelho aparentemente normal. Palpe os pulsos, meça o índice tornozelo-braço e, na dúvida, angiotomografia. E quando for enxertar, marque a safena da outra perna.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Luxação do joelho: lesão da poplítea em até um terço; janela de 6 horas.</li>
+<li>Sinais duros: cirurgia; sinais moderados ou ITB abaixo de 0,9: angiotomografia.</li>
+<li>Substituto de escolha: veia safena magna do membro contralateral.</li>
+<li>Fasciotomia liberal; reparo venoso; vigiar reperfusão.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que retirar a safena do membro contralateral? <details><summary>Resposta</summary>Porque a safena do membro lesado é via de drenagem que não se sacrifica, as veias profundas podem estar comprometidas e a dissecção na coxa lesada aumenta a morbidade.</details></li>
+<li>Quando a fasciotomia é indicada de forma liberal? <details><summary>Resposta</summary>Isquemia acima de 4 a 6 horas, lesão venosa associada, hipotensão ou lesão extensa de partes moles.</details></li>
+</ol>
+`,
+"unesp2026#62": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Explicar a bioquímica da lesão de isquemia e reperfusão.</li>
+<li>Reconhecer o papel dos radicais livres, dos leucócitos e da lipoperoxidação.</li>
+<li>Prever as consequências locais e sistêmicas após a revascularização.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Xantina oxidase</dt>
+<dd>Enzima gerada na isquemia que, com o oxigênio da reperfusão, produz superóxido e peróxido de hidrogênio.</dd>
+<dt>Radicais livres do oxigênio</dt>
+<dd>Superóxido, peróxido e hidroxila, que oxidam lipídios, proteínas e DNA.</dd>
+<dt>Lipoperoxidação</dt>
+<dd>Oxidação em cadeia dos ácidos graxos das membranas, com perda da integridade celular.</dd>
+<dt>Síndrome de reperfusão</dt>
+<dd>Hipercalemia, acidose, mioglobinúria, lesão renal e edema após o retorno do fluxo.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A isquemia prepara o terreno: sem oxigênio, a célula esgota o ATP, acumula hipoxantina (produto da degradação dos nucleotídeos), o cálcio entra e converte a xantina desidrogenase em <strong>xantina oxidase</strong>, e o pH cai. Quando a revascularização devolve o sangue, o <strong>oxigênio</strong> encontra essa maquinaria e a xantina oxidase gera uma explosão de <strong>radicais livres</strong>: superóxido, peróxido de hidrogênio e, na presença de ferro livre, o radical hidroxila, o mais reativo. Por isso o dano se agrava depois que o fluxo volta: é a <strong>lesão de reperfusão</strong>.</p>
+<p>Os radicais atacam as <strong>membranas</strong> pela <strong>lipoperoxidação</strong>, uma reação em cadeia nos ácidos graxos poli-insaturados que destrói a barreira celular e a mitocondrial, além de oxidar proteínas e DNA. O endotélio lesado expressa moléculas de adesão e libera quimiocinas; os <strong>leucócitos</strong>, sobretudo neutrófilos, aderem, migram e produzem mais radicais e proteases, obstruem capilares (fenômeno de não refluxo) e amplificam a inflamação, junto do complemento e das plaquetas. O edema celular e intersticial comprime a microcirculação e fecha o ciclo.</p>
+<p>No membro, o resultado é <strong>edema, síndrome compartimental e necrose muscular</strong>; no organismo, a <strong>síndrome de reperfusão</strong>: hipercalemia e acidose pelo conteúdo celular liberado, mioglobinúria e lesão renal, arritmias, e lesão pulmonar e de órgãos à distância pelos mediadores inflamatórios. A prevenção passa por revascularizar cedo, fasciotomia liberal, hidratação vigorosa com alcalinização da urina, correção do potássio e monitorização; antioxidantes e pré-condicionamento têm evidência experimental e pouco uso clínico.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Depois da revascularização, o pior inimigo do rim e do coração é o que sai do músculo: potássio e mioglobina. Soro, bicarbonato se a urina está ácida, potássio seriado e a perna aberta se os compartimentos endurecem. Um membro que piora após o fluxo voltar é reperfusão, não trombose, até que o Doppler diga o contrário.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Isquemia acumula hipoxantina e xantina oxidase; reperfusão traz oxigênio e gera radicais livres.</li>
+<li>Radicais oxidam membranas (lipoperoxidação), proteínas e DNA; ferro livre gera hidroxila.</li>
+<li>Leucócitos aderem, migram, obstruem e amplificam a inflamação.</li>
+<li>Consequências: síndrome compartimental, hipercalemia, acidose, mioglobinúria, lesão renal e pulmonar.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o dano aumenta quando o sangue volta ao membro isquêmico? <details><summary>Resposta</summary>Porque o oxigênio reage com a xantina oxidase acumulada na isquemia e gera radicais livres, que lesam membranas e atraem leucócitos.</details></li>
+<li>Quais são as consequências sistêmicas da reperfusão? <details><summary>Resposta</summary>Hipercalemia, acidose, mioglobinúria com lesão renal, arritmias e lesão inflamatória à distância.</details></li>
+</ol>
+`,
+"unesp2026#63": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Avaliar os sintomas do trato urinário inferior com o IPSS e o exame inicial.</li>
+<li>Aplicar a escada terapêutica da hiperplasia prostática benigna.</li>
+<li>Reconhecer as indicações de cirurgia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>IPSS</dt>
+<dd>Escore de sintomas prostáticos: 0 a 7 leve, 8 a 19 moderado, 20 a 35 grave.</dd>
+<dt>Alfabloqueador</dt>
+<dd>Tansulosina, doxazosina, alfuzosina: relaxam o músculo liso do colo e da próstata; alívio em dias.</dd>
+<dt>Inibidor da 5-alfa-redutase</dt>
+<dd>Finasterida, dutasterida: reduzem o volume da próstata grande em meses e o risco de retenção e cirurgia.</dd>
+<dt>Indicações absolutas de cirurgia</dt>
+<dd>Retenção refratária, infecções repetidas, hematúria recorrente, cálculos vesicais, insuficiência renal pós-renal.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A hiperplasia prostática benigna produz sintomas de <strong>esvaziamento</strong> (jato fraco, hesitação, gotejamento, esforço) e de <strong>armazenamento</strong> (frequência, urgência, noctúria). A avaliação inicial é história com <strong>IPSS</strong>, exame físico com toque retal, urina simples, <strong>PSA</strong> (que também estima o volume e afasta o câncer quando o toque é suspeito), creatinina se houver suspeita de obstrução e ultrassonografia com resíduo pós-miccional. O diário miccional identifica a poliúria noturna, que não é próstata.</p>
+<p>O tratamento é escalonado. Sintomas <strong>leves</strong> (IPSS até 7) ou sem incômodo: <strong>vigilância</strong> com medidas comportamentais (reduzir líquidos à noite, cafeína e álcool, revisar diuréticos). Sintomas <strong>moderados a graves</strong> que incomodam: <strong>alfabloqueador</strong> como primeira escolha, com resposta em dias e reavaliação em 4 a 6 semanas; os efeitos são hipotensão postural, tontura e ejaculação retrógrada. Se a próstata é <strong>grande</strong> (acima de 30 a 40 g ou PSA acima de 1,5), associa-se o <strong>inibidor da 5-alfa-redutase</strong>, que em 6 meses reduz o volume e, a longo prazo, o risco de retenção e cirurgia; a combinação é a mais eficaz na próstata volumosa. Antimuscarínico ou agonista beta-3 entram para sintomas de armazenamento persistentes com resíduo baixo; a tadalafila diária é opção com disfunção erétil.</p>
+<p>A <strong>cirurgia</strong> (ressecção transuretral, enucleação a laser, prostatectomia simples para próstatas muito grandes) é indicada nas <strong>complicações</strong>: retenção urinária refratária, infecções de repetição, hematúria recorrente, cálculo vesical, insuficiência renal por obstrução, e na falha ou intolerância ao tratamento clínico com sintomas que prejudicam a vida. Um homem com IPSS 19, PSA baixo e toque benigno começa pelo alfabloqueador, não pela cirurgia nem pela combinação.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Antes de prescrever, olhe o diário miccional e a lista de remédios: noctúria por poliúria noturna ou por diurético à noite não melhora com tansulosina. E avise sobre a tontura ao levantar; a queda do idoso na primeira semana é o efeito adverso que mais desfaz o tratamento.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>IPSS, toque, PSA, urina, resíduo pós-miccional, diário miccional.</li>
+<li>Leve: vigilância e comportamento; moderado a grave: alfabloqueador primeiro.</li>
+<li>Próstata grande: associar inibidor da 5-alfa-redutase.</li>
+<li>Cirurgia: retenção refratária, infecções, hematúria, cálculo, insuficiência renal, falha clínica.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o primeiro fármaco para sintomas moderados de HPB? <details><summary>Resposta</summary>Um alfabloqueador, com reavaliação em 4 a 6 semanas.</details></li>
+<li>Quando associar o inibidor da 5-alfa-redutase? <details><summary>Resposta</summary>Na próstata grande (acima de 30 a 40 g ou PSA acima de 1,5), para reduzir volume, retenção e cirurgia.</details></li>
+</ol>
+`,
+"unesp2026#64": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conduzir a cólica renal: analgesia com anti-inflamatório e imagem com tomografia sem contraste.</li>
+<li>Indicar a terapia expulsiva para o cálculo ureteral distal pequeno.</li>
+<li>Reconhecer as indicações de intervenção urgente e eletiva.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Terapia médica expulsiva</dt>
+<dd>Alfabloqueador (tansulosina) por até 4 semanas para facilitar a passagem de cálculos ureterais de 5 a 10 mm.</dd>
+<dt>Tomografia sem contraste</dt>
+<dd>Padrão-ouro na cólica renal: localiza, mede e caracteriza o cálculo e mostra hidronefrose.</dd>
+<dt>Cálculo obstrutivo infectado</dt>
+<dd>Febre com hidronefrose: emergência que exige drenagem (duplo J ou nefrostomia) antes de tratar o cálculo.</dd>
+<dt>Ureteroscopia e litotripsia extracorpórea</dt>
+<dd>Opções para cálculos que não saem ou não podem esperar.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A cólica renal é a dor da distensão aguda do sistema coletor por um cálculo que migra. O paciente jovem, com dor lombar intensa irradiada ao flanco e à virilha, hematúria microscópica e sem febre, é o quadro típico. A <strong>tomografia sem contraste</strong> confirma, mede o cálculo, localiza e mostra o grau de hidronefrose; a ultrassonografia é a opção na gestante e para seguimento. O laboratório inclui urina, creatinina e, se houver febre, hemograma e urocultura.</p>
+<p>O tratamento começa pela <strong>analgesia</strong>: <strong>anti-inflamatório não esteroide</strong> (diclofenaco, cetorolaco, ibuprofeno) é a primeira escolha, mais eficaz que o opioide e com menos náusea, porque reduz a pressão intrapélvica e o edema ureteral; opioide como resgate; antiespasmódico tem pouco valor. Hidratação forçada não ajuda a expelir.</p>
+<p>A chance de eliminação espontânea depende do tamanho e da posição: cálculos <strong>até 5 mm</strong> saem em mais de 80% dos casos, sobretudo no <strong>ureter distal</strong>; de 5 a 10 mm, em cerca de metade; acima de 10 mm, raramente. Para o cálculo ureteral <strong>até 10 mm</strong>, com dor controlada, sem infecção, sem insuficiência renal e com rim contralateral normal, indica-se a <strong>terapia expulsiva</strong>: <strong>alfabloqueador</strong> (tansulosina) por até 4 semanas, com maior benefício nos cálculos distais de 5 a 10 mm, mais analgesia e filtragem da urina, com imagem de controle. A <strong>intervenção</strong> (ureteroscopia com laser, litotripsia extracorpórea) entra na dor refratária, no cálculo que não migra em 4 a 6 semanas, nos maiores que 10 mm, na obstrução persistente e no rim único; a <strong>obstrução com febre</strong> é emergência de drenagem por duplo J ou nefrostomia, com antibiótico, antes de qualquer tratamento do cálculo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Cálculo distal de 5 mm sem hidronefrose e sem febre vai para casa com anti-inflamatório, tansulosina e a orientação de voltar se tiver febre ou dor que não cede. Se voltar febril com o rim dilatado, o tratamento é o duplo J hoje e a ureteroscopia depois; ureteroscopar um sistema infectado é o erro que leva à sepse.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Tomografia sem contraste; anti-inflamatório é a analgesia de primeira linha.</li>
+<li>Até 5 mm: sai na maioria; até 10 mm distal: terapia expulsiva com alfabloqueador por até 4 semanas.</li>
+<li>Intervenção: dor refratária, sem migração em 4 a 6 semanas, acima de 10 mm, rim único.</li>
+<li>Febre com obstrução: drenar (duplo J ou nefrostomia) e antibiótico antes do cálculo.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a conduta no cálculo ureteral distal de 5 mm sem complicações? <details><summary>Resposta</summary>Analgesia com anti-inflamatório e terapia expulsiva com alfabloqueador, com controle por imagem.</details></li>
+<li>O que fazer diante de cálculo obstrutivo com febre? <details><summary>Resposta</summary>Drenar de urgência com duplo J ou nefrostomia e iniciar antibiótico; o cálculo se trata depois.</details></li>
+</ol>
+`,
+"unesp2026#65": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer os sinais de lesão uretral no trauma pélvico e perineal.</li>
+<li>Aplicar a regra: uretrografia retrógrada antes de qualquer sondagem.</li>
+<li>Conduzir a derivação urinária e o tratamento da lesão.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Sinais de lesão uretral</dt>
+<dd>Sangue no meato, hematoma perineal em borboleta, incapacidade de urinar, próstata alta ou não palpável.</dd>
+<dt>Uretrocistografia retrógrada</dt>
+<dd>Contraste injetado pelo meato com radiografia oblíqua; mostra extravasamento e o nível da lesão.</dd>
+<dt>Cistostomia suprapúbica</dt>
+<dd>Derivação da urina pela punção da bexiga, sem passar pela uretra lesada.</dd>
+<dt>Lesão de uretra anterior e posterior</dt>
+<dd>Anterior (bulbar) no trauma perineal em queda a cavaleiro; posterior (membranosa) na fratura de pelve.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A uretra masculina se lesa de dois modos: a <strong>anterior</strong>, sobretudo bulbar, no <strong>trauma perineal direto</strong> (queda a cavaleiro, guidão de moto), com hematoma perineal e escrotal em <strong>borboleta</strong> limitado pela fáscia de Colles; a <strong>posterior</strong>, membranosa, na <strong>fratura de pelve</strong>, por cisalhamento do diafragma urogenital, com próstata deslocada para cima ao toque retal. Em ambas, os sinais clássicos são <strong>sangue no meato uretral</strong>, <strong>incapacidade de urinar</strong> com bexiga palpável e o hematoma; qualquer um deles é suficiente para suspeitar.</p>
+<p>A regra que não admite exceção: <strong>diante de sinais de lesão uretral, não se passa sonda vesical</strong>. A sonda às cegas pode converter uma laceração parcial em completa, criar falso trajeto, infectar o hematoma e piorar a estenose futura. O exame é a <strong>uretrocistografia retrógrada</strong>: 20 a 30 mL de contraste injetados pelo meato com o paciente em oblíqua, que mostra a uretra íntegra (então a sonda pode ser passada) ou o <strong>extravasamento</strong>, parcial ou completo, e o seu nível. No paciente instável a uretrografia espera a estabilização, e a urina é derivada.</p>
+<p>Confirmada a lesão, a <strong>derivação</strong> é a <strong>cistostomia suprapúbica</strong>, por punção guiada ou aberta. Lesões parciais podem ser tratadas com sonda passada sob visão endoscópica; a lesão posterior completa tem duas opções: realinhamento endoscópico precoce ou cistostomia com uretroplastia tardia em 3 a 6 meses, quando o hematoma se organizou; a anterior completa por trauma fechado também vai para uretroplastia tardia. As sequelas são estenose, incontinência e disfunção erétil, e a lesão de bexiga associada é procurada pela cistografia.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Motociclista com sangue no meato e escroto roxo em borboleta: a sonda fica na gaveta. Uretrografia na sala de trauma; se houver extravasamento, punção suprapúbica com a bexiga cheia. Passar a sonda "para monitorar a diurese" é o erro que o urologista vai operar por anos.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Anterior: trauma perineal, hematoma em borboleta; posterior: fratura de pelve, próstata alta.</li>
+<li>Sangue no meato, retenção, hematoma: nunca sondar antes da uretrografia retrógrada.</li>
+<li>Extravasamento: cistostomia suprapúbica; parcial pode receber sonda sob visão.</li>
+<li>Completa: realinhamento precoce ou uretroplastia tardia; sequelas: estenose, incontinência, disfunção erétil.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que sinais contraindicam a sondagem vesical no trauma? <details><summary>Resposta</summary>Sangue no meato, hematoma perineal, incapacidade de urinar e próstata alta ao toque.</details></li>
+<li>Como se deriva a urina na lesão uretral confirmada? <details><summary>Resposta</summary>Por cistostomia suprapúbica.</details></li>
+</ol>
+`,
+"unesp2026#66": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer os sinais ultrassonográficos de malignidade do nódulo de tireoide.</li>
+<li>Somar os pontos do ACR TI-RADS e aplicar o limiar de tamanho para a punção.</li>
+<li>Conhecer a sequência: TSH, ultrassonografia, punção com Bethesda.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>ACR TI-RADS</dt>
+<dd>Pontuação por composição, ecogenicidade, forma, margens e focos ecogênicos; categorias 1 a 5.</dd>
+<dt>Mais alto que largo</dt>
+<dd>Diâmetro anteroposterior maior que o transversal no corte axial: crescimento que atravessa os planos, sinal de malignidade.</dd>
+<dt>Microcalcificações</dt>
+<dd>Focos ecogênicos puntiformes sem sombra, típicos do carcinoma papilífero.</dd>
+<dt>Sistema Bethesda</dt>
+<dd>Classificação citológica da punção em seis categorias, com risco de malignidade e conduta.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Nódulos de tireoide são achados comuns e a maioria é benigna; a tarefa é selecionar quem punciona. A avaliação começa com <strong>TSH</strong>: se suprimido, cintilografia, porque o nódulo quente quase nunca é maligno e não se punciona; se normal ou alto, a <strong>ultrassonografia</strong> decide pelo <strong>ACR TI-RADS</strong>, que soma pontos em cinco categorias: <strong>composição</strong> (cístico 0, espongiforme 0, misto 1, <strong>sólido 2</strong>), <strong>ecogenicidade</strong> (anecoico 0, hiper ou isoecoico 1, <strong>hipoecoico 2</strong>, muito hipoecoico 3), <strong>forma</strong> (mais largo que alto 0, <strong>mais alto que largo 3</strong>), <strong>margens</strong> (lisas ou mal definidas 0, lobuladas ou <strong>irregulares 2</strong>, extensão extratireoidiana 3) e <strong>focos ecogênicos</strong> (nenhum ou cauda de cometa 0, macrocalcificações 1, periféricas 2, <strong>puntiformes 3</strong>).</p>
+<p>A soma define a categoria: 0 pontos TR1 (benigno), 2 TR2 (não suspeito), 3 TR3 (levemente suspeito), 4 a 6 TR4 (moderadamente suspeito) e <strong>7 ou mais TR5 (altamente suspeito)</strong>. O <strong>tamanho</strong> decide a punção: TR3 punciona com 2,5 cm ou mais (seguimento a partir de 1,5), TR4 com 1,5 cm ou mais (seguimento a partir de 1,0) e <strong>TR5 com 1,0 cm ou mais</strong> (seguimento a partir de 0,5). Um nódulo sólido (2), hipoecoico (2), mais alto que largo (3), de margens irregulares (2) e com microcalcificações (3) soma 12 pontos: TR5, e com 2,0 cm é puncionado.</p>
+<p>A <strong>punção aspirativa por agulha fina</strong> guiada por ultrassom é classificada por <strong>Bethesda</strong>: I não diagnóstico (repetir), II benigno (seguimento), III e IV indeterminados (repetir, teste molecular ou lobectomia), V suspeito e VI maligno (cirurgia). Linfonodos cervicais suspeitos são puncionados também. O carcinoma papilífero, o mais comum, é o que mais reúne esses sinais e tem excelente prognóstico.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ao ler o laudo, some os pontos você mesmo: sólido, hipoecoico, mais alto que largo, irregular e com pontos brilhantes passam de 7 antes de chegar às margens. Confira o TSH antes de puncionar e peça ao radiologista para olhar os linfonodos laterais no mesmo exame.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>TSH primeiro: suprimido, cintilografia; normal, ultrassonografia com TI-RADS.</li>
+<li>Pontos: sólido 2, hipoecoico 2, mais alto que largo 3, irregular 2, microcalcificações 3.</li>
+<li>7 ou mais: TR5, punção a partir de 1,0 cm; TR4 a partir de 1,5; TR3 a partir de 2,5.</li>
+<li>Punção classificada por Bethesda; V e VI vão à cirurgia.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quantos pontos soma um nódulo sólido, hipoecoico, mais alto que largo, irregular e com focos puntiformes? <details><summary>Resposta</summary>12 pontos: TI-RADS 5, altamente suspeito.</details></li>
+<li>A partir de que tamanho um TR5 é puncionado? <details><summary>Resposta</summary>1,0 cm; entre 0,5 e 1,0 cm faz-se seguimento.</details></li>
+</ol>
+`,
+"unesp2026#67": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o carcinoma de orofaringe associado ao HPV pelo fenótipo do paciente.</li>
+<li>Diferenciar os fatores de risco e os sítios: HPV na orofaringe, tabaco e álcool na boca e laringe, EBV na nasofaringe.</li>
+<li>Conhecer as implicações no estadiamento, no prognóstico e na prevenção.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>HPV 16</dt>
+<dd>Tipo oncogênico responsável pela maioria dos carcinomas de orofaringe HPV-positivos.</dd>
+<dt>p16</dt>
+<dd>Marcador imuno-histoquímico substituto da infecção por HPV no tumor de orofaringe.</dd>
+<dt>Orofaringe</dt>
+<dd>Amígdalas, base da língua, palato mole e parede posterior; sítio do câncer por HPV.</dd>
+<dt>Vírus Epstein-Barr</dt>
+<dd>Associado ao carcinoma de nasofaringe, sobretudo o indiferenciado.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O câncer de cabeça e pescoço tem duas epidemias. A clássica, do <strong>tabaco e do álcool</strong>, acomete homens mais velhos, com tumores de cavidade oral, laringe e hipofaringe, muitas vezes precedidos de leucoplasia e eritroplasia. A nova, do <strong>HPV</strong>, sobretudo o tipo 16, acomete <strong>adultos mais jovens, não fumantes e não etilistas</strong>, com tumores da <strong>orofaringe</strong>: <strong>amígdala palatina</strong> e base da língua, onde o epitélio das criptas é vulnerável ao vírus transmitido por sexo oral. A apresentação típica é uma lesão exofítica na amígdala ou uma massa cervical cística (metástase linfonodal) com tumor primário pequeno, em homem de 35 a 55 anos.</p>
+<p>A confirmação do HPV se faz pela <strong>imuno-histoquímica para p16</strong>, com ou sem detecção do DNA viral; o resultado muda o <strong>estadiamento</strong> (a 8ª edição do TNM tem uma classificação própria para o carcinoma de orofaringe p16-positivo) e o <strong>prognóstico</strong>, muito melhor do que o do tumor por tabaco no mesmo estádio, com resposta maior à radioquimioterapia e menos segundos tumores. O tratamento é cirurgia (transoral robótica em selecionados) ou radioterapia com quimioterapia, e a desintensificação está em estudo.</p>
+<p>O mapa dos vírus e sítios ajuda a não confundir: <strong>HPV na orofaringe</strong>; <strong>EBV na nasofaringe</strong>, com massa cervical alta, obstrução nasal, otite serosa unilateral e epistaxe, comum no sul da China e na África; herpes-vírus não causam esse câncer; e o HPV não é o fator dominante na cavidade oral nem na laringe. A prevenção é a <strong>vacina contra o HPV</strong>, que o PNI oferece a meninos e meninas de 9 a 14 anos e a grupos especiais, e o exame da orofaringe em toda massa cervical.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Jovem que não fuma nem bebe, com odinofagia de meses e amígdala assimétrica exofítica, tem carcinoma por HPV até prova em contrário: biópsia, p16, e o pescoço examinado com atenção. Explique que o prognóstico é melhor que o do fumante e que o parceiro não precisa ser "testado".</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Orofaringe (amígdala, base da língua) em jovem sem tabaco e álcool: HPV 16.</li>
+<li>p16 confirma; estadiamento e prognóstico próprios, mais favoráveis.</li>
+<li>Tabaco e álcool: boca, laringe, hipofaringe; EBV: nasofaringe.</li>
+<li>Prevenção: vacina contra o HPV; massa cervical cística leva a examinar a orofaringe.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o principal fator de risco do carcinoma de amígdala em jovem não fumante? <details><summary>Resposta</summary>A infecção por papilomavírus humano, sobretudo o tipo 16.</details></li>
+<li>Que vírus se associa ao carcinoma de nasofaringe? <details><summary>Resposta</summary>O vírus Epstein-Barr.</details></li>
+</ol>
+`,
+"unesp2026#69": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar as complicações mecânicas do infarto que exigem cirurgia de urgência.</li>
+<li>Reconhecer cada uma pela clínica e pelo ecocardiograma.</li>
+<li>Conduzir a estabilização até a sala cirúrgica.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Comunicação interventricular pós-infarto</dt>
+<dd>Rotura do septo, com sopro holossistólico novo, frêmito e choque; mais comum no infarto anterior.</dd>
+<dt>Insuficiência mitral aguda</dt>
+<dd>Rotura ou disfunção do músculo papilar, sobretudo o posteromedial, no infarto inferior; edema agudo e choque.</dd>
+<dt>Rotura de parede livre</dt>
+<dd>Tamponamento e dissociação eletromecânica; a mais letal; pseudoaneurisma quando contida.</dd>
+<dt>Balão intra-aórtico</dt>
+<dd>Suporte circulatório temporário que reduz a pós-carga e o shunt enquanto se prepara a cirurgia.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Depois do infarto, a necrose amolece a parede entre o 2º e o 7º dia, e a parede pode se romper em três lugares. A <strong>rotura do septo interventricular</strong> cria uma comunicação com shunt da esquerda para a direita: <strong>sopro holossistólico novo</strong> na borda esternal esquerda, frêmito, insuficiência biventricular e choque; o ecocardiograma mostra o defeito e o fluxo. A <strong>rotura do músculo papilar</strong>, quase sempre o posteromedial, irrigado só pela coronária direita, produz <strong>insuficiência mitral aguda maciça</strong>: edema agudo de pulmão súbito com sopro que pode ser discreto, no infarto inferior. A <strong>rotura da parede livre</strong> leva a hemopericárdio, <strong>tamponamento</strong> e dissociação eletromecânica, e mata em minutos; quando o pericárdio contém a rotura, forma-se um pseudoaneurisma, que também é indicação de cirurgia pelo risco de rotura.</p>
+<p>As três são <strong>complicações mecânicas</strong> e têm em comum o tratamento <strong>cirúrgico de urgência ou emergência</strong>: fechamento da comunicação com remendo, troca ou plastia da valva mitral, e reparo da parede com pericardiocentese de ponte no tamponamento. Enquanto se organiza a cirurgia, o suporte inclui vasodilatador se a pressão permitir (reduz o shunt e a regurgitação), inotrópico, ventilação e <strong>balão intra-aórtico</strong> ou outro suporte mecânico; a mortalidade sem cirurgia é quase total e, com ela, ainda alta, mas é a única chance. O fechamento percutâneo da comunicação é opção em selecionados.</p>
+<p>Outras complicações do infarto não entram nessa lista cirúrgica: as arritmias se tratam com fármacos e dispositivos; o choque cardiogênico por disfunção, com revascularização e suporte; a pericardite e a síndrome de Dressler, com anti-inflamatório; o aneurisma verdadeiro do ventrículo, com tratamento clínico e cirurgia eletiva raramente; o trombo mural, com anticoagulante.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Sopro novo ou edema agudo súbito entre o 2º e o 7º dia de um infarto é ecocardiograma à beira do leito naquele minuto: comunicação interventricular ou papilar roto não esperam a próxima visita. Chame a cirurgia cardíaca com o balão sendo passado.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Complicações mecânicas: comunicação interventricular, insuficiência mitral aguda por músculo papilar, rotura de parede livre.</li>
+<li>Do 2º ao 7º dia; sopro novo, edema agudo súbito, tamponamento.</li>
+<li>Todas cirúrgicas de urgência ou emergência; balão intra-aórtico como ponte.</li>
+<li>Arritmias, pericardite, aneurisma e trombo não são cirurgia de urgência.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são as três complicações mecânicas do infarto que exigem cirurgia? <details><summary>Resposta</summary>Comunicação interventricular, insuficiência mitral aguda por rotura do músculo papilar e rotura da parede livre.</details></li>
+<li>Por que o músculo papilar posteromedial rompe mais? <details><summary>Resposta</summary>Porque tem irrigação única, pela coronária direita, e sofre no infarto inferior.</details></li>
+</ol>
+`,
+"unesp2026#76": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Distinguir a infecção necrotizante de partes moles do abscesso e da celulite comuns.</li>
+<li>Reconhecer a gangrena de Fournier e seus fatores de risco.</li>
+<li>Tratar com desbridamento cirúrgico imediato, antibiótico de amplo espectro e suporte.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Fasceíte necrotizante</dt>
+<dd>Infecção que se propaga pela fáscia com necrose e trombose dos vasos; polimicrobiana no períneo.</dd>
+<dt>Gangrena de Fournier</dt>
+<dd>Fasceíte necrotizante do períneo e da genitália, a partir de foco anorretal, urogenital ou cutâneo.</dd>
+<dt>Dor desproporcional</dt>
+<dd>Dor muito maior do que o aspecto da pele sugere; sinal precoce de necrose profunda.</dd>
+<dt>Crepitação</dt>
+<dd>Gás no subcutâneo produzido por anaeróbios e enterobactérias; sinal tardio e de gravidade.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Um abscesso perianal comum dói, flutua e melhora com drenagem. A <strong>infecção necrotizante</strong> começa parecida e em horas muda de natureza: a bactéria corre pela <strong>fáscia</strong>, trombosa os vasos perfurantes e mata a pele por cima, enquanto as toxinas produzem <strong>toxemia</strong>. Os sinais que separam as duas são <strong>dor desproporcional</strong> ao aspecto local, <strong>edema tenso</strong> que extrapola a área de eritema, <strong>áreas de necrose</strong> ou bolhas violáceas, <strong>crepitação</strong>, anestesia da pele, secreção fétida "de água de louça" e <strong>sinais sistêmicos</strong>: taquicardia, febre ou hipotermia, hipotensão, confusão, leucocitose ou leucopenia, acidose, creatinina alta. O escore LRINEC (PCR, leucócitos, hemoglobina, sódio, creatinina, glicose) ajuda, mas a clínica manda.</p>
+<p>No <strong>períneo</strong>, a forma é a <strong>gangrena de Fournier</strong>: infecção polimicrobiana (enterobactérias, estreptococos, anaeróbios) a partir de abscesso perianal, fístula, infecção urinária, estenose de uretra ou lesão de pele, em <strong>diabéticos</strong>, obesos, etilistas, tabagistas e imunossuprimidos, sobretudo homens. Espalha-se pelas fáscias de Colles, Dartos e Scarpa até a parede abdominal, poupando os testículos, que têm irrigação própria. A tomografia mostra gás e a extensão, mas não deve atrasar a cirurgia.</p>
+<p>O tratamento é <strong>desbridamento cirúrgico imediato e amplo</strong> de toda a fáscia e pele desvitalizadas, repetido a cada 24 a 48 horas até não haver necrose, com colostomia ou derivação urinária quando o foco ou a contaminação exigem; <strong>antibiótico de amplo espectro</strong> intravenoso (carbapenêmico ou piperacilina-tazobactam com vancomicina, e clindamicina pelo efeito antitoxina) e <strong>reanimação</strong> da sepse com controle glicêmico. A mortalidade é de 20 a 40%, e cada hora de atraso no desbridamento a aumenta; a reconstrução vem depois, com enxertos e retalhos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Diabético descompensado com "abscesso perianal" e pele escura, crepitação e pressão caindo não vai para a drenagem no ambulatório: vai para o centro cirúrgico com o antibiótico correndo, e o cirurgião abre até encontrar tecido que sangra. A tomografia é útil se não atrasar a incisão.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Necrotizante: dor desproporcional, edema tenso, necrose, crepitação, toxemia; abscesso comum não tem isso.</li>
+<li>Fournier: períneo e genitália, polimicrobiana, em diabéticos e imunossuprimidos; testículos poupados.</li>
+<li>Desbridamento imediato e repetido, antibiótico amplo com clindamicina, reanimação.</li>
+<li>Imagem não atrasa a cirurgia; mortalidade sobe a cada hora.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que sinais indicam infecção necrotizante e não abscesso simples? <details><summary>Resposta</summary>Dor desproporcional, edema além do eritema, necrose ou bolhas violáceas, crepitação e toxemia.</details></li>
+<li>Qual é o tratamento definitivo da gangrena de Fournier? <details><summary>Resposta</summary>Desbridamento cirúrgico amplo e repetido, com antibiótico de amplo espectro e suporte da sepse.</details></li>
+</ol>
+`,
+"unesp2026#78": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a doença diverticular como a causa mais comum de hemorragia digestiva baixa volumosa no idoso.</li>
+<li>Conduzir a hemorragia baixa: reanimação, afastar fonte alta, colonoscopia.</li>
+<li>Saber que a maioria para sozinha e quando intervir.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Hematoquezia</dt>
+<dd>Sangue vivo ou vinhoso pelo reto; fonte baixa na maioria, mas alta em 10 a 15% quando volumosa.</dd>
+<dt>Sangramento diverticular</dt>
+<dd>Rotura do vaso reto no colo do divertículo; indolor, volumoso, sem inflamação, cede em 75 a 90%.</dd>
+<dt>Angiectasia</dt>
+<dd>Malformação vascular do cólon direito do idoso; segunda causa, sangramento menor e recorrente.</dd>
+<dt>Angiotomografia</dt>
+<dd>Localiza o sangramento ativo acima de 0,3 mL/min e orienta a embolização.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A hemorragia digestiva baixa aguda acomete sobretudo idosos, e a <strong>doença diverticular</strong> é a causa mais comum do sangramento <strong>volumoso</strong>: a artéria reta no colo do divertículo se rompe por trauma da parede fina, sem inflamação, e produz <strong>hematoquezia indolor</strong>, muitas vezes de grande volume, com instabilidade e necessidade de transfusão. Anti-inflamatórios, ácido acetilsalicílico e anticoagulantes aumentam o risco. As outras causas: angiectasias (idosos, sangramento menor e recorrente), colite isquêmica (dor e diarreia sanguinolenta), neoplasia e pólipos, doença inflamatória, hemorroidas e, no jovem, o divertículo de Meckel.</p>
+<p>O manejo começa pela <strong>reanimação</strong> e pela estratificação; um sangramento volumoso com instabilidade exige <strong>afastar a fonte alta</strong> (10 a 15% das hematoquezias maciças vêm de úlcera ou varizes): sonda nasogástrica com aspirado sem sangue ajuda, e a endoscopia alta é feita se houver dúvida. A <strong>colonoscopia</strong> após preparo, nas primeiras 24 horas, é o exame de escolha: identifica a fonte, permite hemostasia (clipe, injeção, ligadura) e mostra o divertículo com estigma. No instável em que a colonoscopia não é possível, a <strong>angiotomografia</strong> localiza e a <strong>angioembolização</strong> trata.</p>
+<p>O sangramento diverticular <strong>cessa espontaneamente em 75 a 90%</strong> dos casos, e a conduta inicial é <strong>suporte clínico</strong>: transfusão com meta de hemoglobina de 7 a 8, suspensão de anticoagulantes e anti-inflamatórios quando possível, observação. A recorrência é de 25 a 40%. A cirurgia (colectomia segmentar da fonte localizada ou subtotal quando não se localiza) fica para o sangramento persistente com transfusão maciça (mais de 6 unidades), instabilidade refratária ou falha da endoscopia e da embolização. Toque retal normal e fezes formadas sem esforço afastam a origem anorretal e reforçam o cólon como fonte.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Idosa com sangue vinhoso em quantidade, sem dor, com toque retal limpo, é diverticular até a colonoscopia dizer o contrário. Transfunda com meta baixa, tire a aspirina se der, prepare o cólon e espere: a maioria para antes do exame. Não se opera na primeira noite.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Hemorragia baixa volumosa no idoso: doença diverticular; indolor, sem inflamação.</li>
+<li>Reanimar; afastar fonte alta se maciça; colonoscopia em 24 horas com preparo.</li>
+<li>Instável sem colonoscopia: angiotomografia e embolização.</li>
+<li>Cessa sozinho em 75 a 90%: suporte; cirurgia só na persistência ou falha das outras vias.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a causa mais comum de hemorragia digestiva baixa volumosa no idoso? <details><summary>Resposta</summary>A doença diverticular dos cólons.</details></li>
+<li>Qual é a conduta inicial no sangramento diverticular? <details><summary>Resposta</summary>Suporte clínico com reanimação e transfusão conforme a meta, suspensão de antiagregantes e anticoagulantes quando possível, e colonoscopia após preparo.</details></li>
+</ol>
+`,
+"unesp2026#80": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Explicar a fisiologia do ferimento torácico aspirativo e do curativo de três pontas.</li>
+<li>Saber quando o curativo pode ser fechado nas quatro pontas.</li>
+<li>Conhecer os sítios de descompressão por agulha e de drenagem segundo o ATLS.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Ferimento torácico aspirativo</dt>
+<dd>Abertura na parede maior que dois terços do diâmetro da traqueia; o ar entra por ela na inspiração.</dd>
+<dt>Curativo de três pontas</dt>
+<dd>Oclusivo fixado em três lados: válvula que impede a entrada de ar e deixa sair.</dd>
+<dt>Dreno torácico</dt>
+<dd>Tubo no 5º espaço intercostal, linha axilar anterior a média, em selo d'água.</dd>
+<dt>Pneumotórax hipertensivo iatrogênico</dt>
+<dd>Consequência de ocluir totalmente o ferimento sem dreno: o ar do pulmão lesado não escapa.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Quando a parede torácica tem um orifício grande, o ar prefere entrar por ele a passar pela traqueia: a cada inspiração o pulmão do lado colapsa e o do outro ventila mal. É o <strong>pneumotórax aberto</strong>, ou ferimento aspirativo, reconhecido pelo ruído de sucção e pela dessaturação. O tratamento imediato do ATLS é o <strong>curativo oclusivo fixado em três lados</strong>: na inspiração a pressão negativa cola o curativo e fecha o orifício; na expiração o lado livre se abre e deixa o ar sair. É uma válvula improvisada que evita converter o pneumotórax aberto em <strong>hipertensivo</strong>, o que aconteceria se o curativo fosse fechado nos quatro lados sem outra via de escape, porque o pulmão lesado continua a vazar ar para a pleura.</p>
+<p>O curativo de três pontas é ponte. O tratamento definitivo é a <strong>drenagem torácica</strong> em selo d'água, por incisão separada do ferimento, e o fechamento cirúrgico da parede. <strong>Com o tórax drenado</strong>, o ar da pleura tem por onde sair, e o curativo pode então ser <strong>oclusivo fechado nos quatro lados</strong>; sem dreno, nunca. Se o paciente piora após o curativo, a primeira medida é descolar o curativo para liberar o ar.</p>
+<p>Os sítios do ATLS: <strong>descompressão por agulha</strong> do pneumotórax hipertensivo no <strong>5º espaço intercostal, linha axilar anterior</strong> no adulto (o 2º espaço, linha hemiclavicular, é opção, sobretudo na criança), com cateter longo; <strong>dreno torácico</strong> no <strong>5º espaço intercostal, entre as linhas axilar anterior e média</strong>, acima da borda superior da costela inferior, direcionado para cima e para trás, conectado ao selo d'água e confirmado por radiografia. A toracotomia fica para drenagem inicial acima de 1.500 mL ou 200 mL por hora por 2 a 4 horas, e para o escape aéreo maciço com lesão de via aérea.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ferimento que "chupa" ar: plástico estéril colado em três lados na hora, oxigênio, e o dreno no 5º espaço logo depois, longe do buraco. Só depois do dreno o curativo vira quatro lados. Se a saturação cair após o curativo, solte um lado antes de pensar em qualquer outra coisa.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Ferimento aspirativo: ar entra pela parede; curativo oclusivo em três lados como válvula.</li>
+<li>Quatro lados só com o tórax drenado; sem dreno, converte em hipertensivo.</li>
+<li>Agulha: 5º espaço, axilar anterior (ou 2º hemiclavicular); dreno: 5º espaço, axilar anterior a média.</li>
+<li>Definitivo: dreno em selo d'água e fechamento cirúrgico da parede.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o curativo do ferimento aspirativo é fixado em três lados? <details><summary>Resposta</summary>Para funcionar como válvula: impede a entrada de ar na inspiração e deixa sair na expiração, evitando o pneumotórax hipertensivo.</details></li>
+<li>Quando o curativo pode ser fechado nos quatro lados? <details><summary>Resposta</summary>Depois que o tórax está drenado, porque o ar da pleura passa a ter via de escape pelo dreno.</details></li>
+</ol>
+`,
+"einstein2026#16": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a diverticulite aguda pela clínica e confirmá-la por tomografia antes de tratar.</li>
+<li>Classificar em não complicada e complicada e escolher o tratamento.</li>
+<li>Saber por que a colonoscopia espera a fase aguda.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Diverticulite aguda</dt>
+<dd>Inflamação e microperfuração de um divertículo, com dor no quadrante inferior esquerdo, febre e leucocitose.</dd>
+<dt>Tomografia com contraste</dt>
+<dd>Exame de escolha: confirma, gradua (Hinchey) e afasta abscesso, perfuração e outras causas.</dd>
+<dt>Não complicada</dt>
+<dd>Espessamento e densificação da gordura sem abscesso, perfuração, fístula ou obstrução.</dd>
+<dt>Colonoscopia tardia</dt>
+<dd>Feita 6 a 8 semanas após o episódio para afastar neoplasia; contraindicada na fase aguda pelo risco de perfuração.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Dor no abdome inferior esquerdo de dias, febre baixa, leucocitose e, ao exame, dor localizada com ou sem massa palpável, em pessoa acima de 50 anos, é diverticulite até prova em contrário. Mas o diagnóstico clínico erra em um quarto dos casos, e o tratamento depende do que há dentro do abdome: por isso a <strong>tomografia com contraste</strong> vem <strong>antes de tratar</strong>. Ela confirma a inflamação pericólica, <strong>gradua</strong> (Hinchey I abscesso pericólico, II pélvico ou à distância, III peritonite purulenta, IV fecal), mostra ar extraluminal, fístula e obstrução, e afasta apendicite, câncer perfurado, doença inflamatória e doença ginecológica, que se tratam de outra forma. Enquanto se aguarda a imagem, <strong>jejum</strong>, hidratação e <strong>sintomáticos</strong>; o antibiótico é decidido pelo resultado.</p>
+<p>Diverticulite <strong>não complicada</strong> em paciente imunocompetente, sem comorbidades graves e sem toxemia pode ser tratada <strong>ambulatorialmente</strong>, com dieta líquida e analgesia; o antibiótico deixou de ser obrigatório nesses casos, mas se mantém em imunossuprimidos, gestantes, sepse e comorbidades. <strong>Complicada</strong>: internação, antibiótico venoso, drenagem percutânea de abscessos acima de 3 a 4 cm; peritonite exige cirurgia (ressecção com anastomose ou Hartmann conforme a estabilidade e a contaminação).</p>
+<p>A <strong>colonoscopia é contraindicada na fase aguda</strong>: a insuflação e o aparelho podem perfurar o segmento inflamado. Ela é feita <strong>6 a 8 semanas depois</strong>, em quem não fez colonoscopia recente, para afastar um câncer que a tomografia pode confundir com diverticulite. Em paciente com história de câncer de mama e sem alteração do hábito, a colonoscopia tardia é ainda mais importante, mas nunca agora.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Não prescreva antibiótico "para diverticulite" com base no exame físico: peça a tomografia com contraste, deixe em jejum com analgesia e decida com a imagem. E anote na alta: colonoscopia em 6 a 8 semanas. É nessa consulta que se acha o tumor escondido atrás do divertículo.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Clínica sugere; tomografia com contraste confirma, gradua e afasta diferenciais antes do tratamento.</li>
+<li>Não complicada: ambulatorial, dieta líquida, analgesia; antibiótico seletivo.</li>
+<li>Complicada: internação, antibiótico venoso, drenagem percutânea; peritonite: cirurgia.</li>
+<li>Colonoscopia só 6 a 8 semanas depois; na fase aguda perfura.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a tomografia precede o antibiótico na suspeita de diverticulite? <details><summary>Resposta</summary>Porque confirma o diagnóstico, gradua a gravidade e afasta apendicite, câncer perfurado e doença ginecológica, que mudam o tratamento.</details></li>
+<li>Quando fazer a colonoscopia? <details><summary>Resposta</summary>De 6 a 8 semanas após o episódio, para afastar neoplasia; nunca na fase aguda.</details></li>
+</ol>
+`,
+"einstein2026#19": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer os sinais de alarme da disfagia.</li>
+<li>Indicar a endoscopia digestiva alta como primeiro exame na disfagia com alarme.</li>
+<li>Diferenciar disfagia mecânica de motora e conhecer os exames seguintes.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Disfagia progressiva</dt>
+<dd>Primeiro para sólidos, depois para pastosos e líquidos: padrão da obstrução mecânica que cresce.</dd>
+<dt>Sinais de alarme</dt>
+<dd>Idade acima de 50, perda de peso, anemia, sangramento, tabagismo e etilismo, história curta e progressiva.</dd>
+<dt>Carcinoma espinocelular de esôfago</dt>
+<dd>Tumor do terço médio associado a tabaco e álcool, comum no Brasil; o adenocarcinoma segue o Barrett.</dd>
+<dt>Acalasia</dt>
+<dd>Disfagia para sólidos e líquidos desde o início, regurgitação, esofagograma em bico de pássaro e manometria com aperistalse.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A disfagia esofágica tem dois padrões. A <strong>mecânica</strong> (estenose, tumor, anel) começa com <strong>sólidos</strong> e progride para pastosos e líquidos à medida que a luz se estreita; a <strong>motora</strong> (acalasia, espasmo, esclerodermia) é para <strong>sólidos e líquidos desde o início</strong>, intermitente, com regurgitação. Uma disfagia de meses que começou com sólidos e agora atinge líquidos, em homem de 69 anos, tabagista pesado, com perda de 5 kg, reúne o padrão mecânico e vários <strong>sinais de alarme</strong>: idade, emagrecimento, tabagismo, progressão rápida.</p>
+<p>Com alarme, o primeiro exame é a <strong>endoscopia digestiva alta</strong>, porque vê a mucosa, biopsia a lesão e dilata ou coloca prótese quando preciso. O carcinoma espinocelular do terço médio, ligado ao tabaco e ao álcool e frequente no Nordeste e no Sul, e o adenocarcinoma do terço distal, que surge do esôfago de Barrett, são os diagnósticos a afastar; a estenose péptica e o anel de Schatzki são as causas benignas. Nenhum diagnóstico funcional (acalasia, espasmo) pode ser feito antes de excluir a obstrução mecânica, porque o tumor da cárdia imita a acalasia (pseudoacalasia).</p>
+<p>Se a endoscopia é normal ou mostra esôfago dilatado com resíduos e cárdia que se abre com pressão, seguem-se o <strong>esofagograma baritado</strong> (afilamento em bico de pássaro na acalasia) e a <strong>manometria de alta resolução</strong>, que define os subtipos de acalasia e os outros distúrbios motores. A tomografia estadia o tumor confirmado. Na atenção primária, a conduta certa é o pedido da endoscopia com prioridade, sem tentar tratamento empírico com inibidor de bomba de prótons ou procinético diante desse quadro.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Disfagia que "desce" de sólidos para líquidos em quatro meses, com cinco quilos a menos, em fumante de 50 anos-maço, não é refluxo nem "nervoso": é endoscopia com urgência. Anote na guia os sinais de alarme; eles encurtam a fila.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Mecânica: sólidos depois líquidos, progressiva; motora: sólidos e líquidos desde o início.</li>
+<li>Alarme: idade, perda de peso, anemia, tabaco e álcool, progressão rápida.</li>
+<li>Com alarme, endoscopia primeiro; afastar carcinoma espinocelular e adenocarcinoma.</li>
+<li>Endoscopia normal: esofagograma e manometria para acalasia e distúrbios motores.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o primeiro exame na disfagia progressiva com emagrecimento? <details><summary>Resposta</summary>A endoscopia digestiva alta, para afastar obstrução mecânica e neoplasia com biópsia.</details></li>
+<li>Por que não diagnosticar acalasia sem endoscopia? <details><summary>Resposta</summary>Porque o tumor da cárdia imita a acalasia (pseudoacalasia), e a obstrução mecânica precisa ser excluída antes.</details></li>
+</ol>
+`,
+"einstein2026#22": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar a infecção de sítio cirúrgico e reconhecer a forma complicada.</li>
+<li>Saber que tecido necrótico exige desbridamento, não só antibiótico.</li>
+<li>Escolher o antibiótico empírico e os cuidados da ferida aberta.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Infecção de sítio cirúrgico</dt>
+<dd>Incisional superficial (pele e subcutâneo), profunda (fáscia e músculo) ou de órgão e espaço, até 30 dias.</dd>
+<dt>Desbridamento</dt>
+<dd>Remoção cirúrgica de todo o tecido necrótico e purulento até o tecido viável que sangra.</dd>
+<dt>Cicatrização por segunda intenção</dt>
+<dd>Ferida deixada aberta, com curativos ou pressão negativa, até o fechamento pelo tecido de granulação.</dd>
+<dt>Fatores de risco</dt>
+<dd>Diabetes descontrolado, obesidade, tabagismo, desnutrição, corticoide, cirurgia longa e contaminada.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A infecção de sítio cirúrgico aparece em geral entre o 4º e o 7º dia: eritema, calor, dor, edema e secreção na incisão, com ou sem febre. A forma <strong>superficial</strong> sem coleção pode responder à abertura de alguns pontos e a cuidados locais, com antibiótico se houver celulite acima de 5 cm ou sinais sistêmicos. Quando há <strong>exsudato purulento</strong>, <strong>odor fétido</strong>, <strong>necrose</strong> de pele ou de gordura, deiscência ou coleção, a infecção é <strong>complicada</strong>, e o antibiótico sozinho não a resolve: o tecido morto não é perfundido, o antibiótico não chega e as bactérias seguem se multiplicando nele.</p>
+<p>A conduta é <strong>abrir a ferida e desbridar</strong> no centro cirúrgico: remover todo o tecido desvitalizado e o pus, lavar, colher cultura do tecido profundo (o swab superficial contamina) e deixar a ferida <strong>aberta</strong> para curativos diários ou terapia por pressão negativa, com fechamento tardio quando a granulação estiver limpa. Na mastectomia, isso inclui verificar a viabilidade dos retalhos de pele e drenar o seroma infectado.</p>
+<p>O <strong>antibiótico</strong> é adjuvante e começa <strong>empírico intravenoso</strong>, escolhido pelo local e pelo risco: na ferida com necrose e odor fétido em diabética hospitalizada, cobre-se estafilococo resistente à meticilina (vancomicina), gram-negativos e anaeróbios (piperacilina-tazobactam ou carbapenêmico), com ajuste pela cultura. O <strong>controle glicêmico</strong> (meta abaixo de 180 mg/dL) é parte do tratamento, porque a hiperglicemia paralisa o neutrófilo, e a nutrição também. A prevenção passa por profilaxia no tempo certo, normotermia, glicemia controlada, tricotomia com tosquiador na hora e antissepsia adequada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ferida com cheiro e pele preta não melhora com mais um antibiótico: o que ela precisa é de bisturi até sangrar, cultura do fundo e a glicemia abaixo de 180. Depois disso, o antibiótico de amplo espectro faz sentido e a pressão negativa fecha em semanas o que a sutura fecharia mal.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Superficial sem coleção: abrir pontos e cuidado local; antibiótico se celulite extensa ou sinais sistêmicos.</li>
+<li>Pus, necrose, odor, coleção: desbridamento cirúrgico, cultura profunda, ferida aberta.</li>
+<li>Antibiótico empírico venoso amplo (vancomicina mais betalactâmico com anaeróbios) ajustado pela cultura.</li>
+<li>Controle glicêmico e nutrição fazem parte do tratamento.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o antibiótico sozinho não resolve a ferida com necrose? <details><summary>Resposta</summary>Porque o tecido necrótico não é perfundido e o antibiótico não o alcança; é preciso desbridar.</details></li>
+<li>Como se colhe a cultura da infecção de sítio cirúrgico? <details><summary>Resposta</summary>Do tecido ou da secreção profunda durante o desbridamento; o swab superficial reflete contaminação.</details></li>
+</ol>
+`,
+"einstein2026#23": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir o momento da profilaxia antibiótica cirúrgica: até uma hora antes da incisão.</li>
+<li>Escolher o fármaco pelo tipo de cirurgia e saber quando repetir a dose.</li>
+<li>Distinguir profilaxia de tratamento e evitar o prolongamento.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Profilaxia cirúrgica</dt>
+<dd>Antibiótico dado para que a concentração tecidual esteja no pico na hora da incisão e da contaminação.</dd>
+<dt>Cirurgia limpa-contaminada</dt>
+<dd>Abre trato respiratório, digestivo, urinário ou genital sob controle; a profilaxia é sempre indicada.</dd>
+<dt>Redose intraoperatória</dt>
+<dd>Repetição a cada duas meias-vidas do fármaco (cefazolina a cada 4 horas) ou com perda de mais de 1.500 mL.</dd>
+<dt>Cefazolina</dt>
+<dd>Agente padrão para a maioria das cirurgias; com metronidazol quando há anaeróbios (cólon, íleo).</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A profilaxia antibiótica reduz a infecção de sítio cirúrgico quando o fármaco está no tecido <strong>no momento em que a contaminação acontece</strong>: na incisão e durante a operação. Por isso o único momento correto é <strong>até 60 minutos antes da incisão</strong> (até 120 minutos para vancomicina e fluoroquinolonas, pela infusão lenta), em geral na indução anestésica. Dar na véspera, na enfermaria "na chamada" ou depois da incisão perde o efeito; dar após o fechamento não protege nada e só seleciona resistência.</p>
+<p>A indicação depende da <strong>classe da ferida</strong>: nas <strong>limpas</strong> só com prótese ou alto risco; nas <strong>limpas-contaminadas</strong>, sempre; nas <strong>contaminadas</strong>, sempre; nas <strong>infectadas</strong>, o que se faz é tratamento, não profilaxia. A cistectomia com conduto ileal abre o trato urinário e o intestino: limpa-contaminada com flora entérica, e a profilaxia cobre gram-negativos e anaeróbios (cefazolina com metronidazol, cefoxitina ou ampicilina-sulbactam), com dose ajustada ao peso (cefazolina 2 g, 3 g acima de 120 kg).</p>
+<p>Durante a operação, a <strong>redose</strong> mantém a concentração: a cada duas meias-vidas (cefazolina a cada 4 horas) ou quando o sangramento passa de 1.500 mL. A profilaxia termina <strong>com o fechamento da pele</strong>; prolongar por 24 horas ou mais não reduz infecção, aumenta resistência e <em>Clostridioides difficile</em>, mesmo com drenos ou cateteres. Se a cirurgia encontra infecção estabelecida, o esquema vira terapêutico com duração própria. Vancomicina entra na colonização conhecida por MRSA ou alergia grave a betalactâmico, associada à cobertura de gram-negativos quando indicada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A pergunta do checklist "profilaxia feita nos últimos 60 minutos?" existe porque o antibiótico que fica na bolsa do carrinho até depois da incisão é o erro mais comum e mais evitável da prevenção de infecção. Na indução, com a dose pelo peso, e de novo às 4 horas se a cirurgia for longa.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Momento: até 60 minutos antes da incisão (120 para vancomicina e quinolonas), na indução.</li>
+<li>Limpas com prótese, limpas-contaminadas e contaminadas: profilaxia; infectadas: tratamento.</li>
+<li>Cefazolina padrão; com metronidazol quando há anaeróbios; dose pelo peso.</li>
+<li>Redose a cada duas meias-vidas ou sangramento acima de 1.500 mL; termina no fechamento da pele.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o momento correto da profilaxia antibiótica? <details><summary>Resposta</summary>Até uma hora antes da incisão, em geral na indução anestésica.</details></li>
+<li>Por que não prolongar a profilaxia após a cirurgia? <details><summary>Resposta</summary>Porque não reduz infecção de sítio cirúrgico e aumenta resistência e infecção por C. difficile.</details></li>
+</ol>
+`,
+"einstein2026#24": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o choque hemorrágico compensado pelos sinais precoces.</li>
+<li>Iniciar a reanimação com cristaloide aquecido em volume limitado e preparar sangue.</li>
+<li>Acionar a cirurgia na chegada do trauma abdominal com FAST positivo.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Classes de hemorragia</dt>
+<dd>I até 15% da volemia; II 15 a 30% (taquicardia, pressão de pulso estreita); III 30 a 40% (hipotensão); IV acima de 40%.</dd>
+<dt>Choque compensado</dt>
+<dd>Pressão mantida à custa de taquicardia, vasoconstrição e ansiedade; a queda da pressão é tardia.</dd>
+<dt>Reanimação com controle de danos</dt>
+<dd>Cristaloide limitado, hemocomponentes cedo em proporção, hipotensão permissiva até o controle cirúrgico.</dd>
+<dt>Lactato e déficit de base</dt>
+<dd>Marcadores da hipoperfusão que quantificam o choque e guiam a resposta.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>No trauma, choque é hemorrágico até prova em contrário, e a pressão arterial é o último sinal a cair. O ATLS ensina a ler os sinais precoces: <strong>taquicardia</strong>, <strong>pressão de pulso estreita</strong>, pele fria e pálida, enchimento capilar lento, <strong>ansiedade ou confusão</strong>, diurese reduzida. Uma mulher taquicárdica com pressão ainda normal após capotamento em alta velocidade está em <strong>classe II</strong>, com 15 a 30% da volemia perdida, e o abdome com FAST positivo é a fonte provável.</p>
+<p>A reanimação inicial é <strong>cristaloide aquecido</strong> em volume limitado, <strong>500 mL a 1 litro</strong> em bolus com reavaliação da resposta (respondedor, transitório, não respondedor), e não os 2 litros de antigamente, porque o excesso de cristaloide dilui os fatores, esfria, acidifica e desfaz o coágulo. Ao mesmo tempo, <strong>tipagem e prova cruzada</strong> com sangue O reservado, <strong>gasometria com lactato</strong> e déficit de base para medir a hipoperfusão, ácido tranexâmico nas primeiras 3 horas, e a ativação do protocolo de transfusão maciça se a resposta for transitória ou ausente, com hemácias, plasma e plaquetas em proporção próxima de 1:1:1. A meta de pressão é modesta (sistólica em torno de 90) até o controle do sangramento, salvo no trauma craniano.</p>
+<p>A <strong>cirurgia é acionada na chegada</strong>, não depois da falha da reanimação: o cirurgião avalia o FAST, decide entre tomografia (estável) e laparotomia (instável) e acompanha a resposta ao volume. Esperar para ver se "o soro resolve" no abdome que sangra é perder o tempo em que a laparotomia ainda salva. Os erros clássicos: confiar na pressão normal, dar cristaloide sem limite, atrasar o sangue e chamar a cirurgia só quando o paciente hipotende.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pressão normal com frequência de 120 depois de um capotamento é choque, e a FAST positiva diz onde. Um bolus de 500 mL aquecido, sangue pedido, lactato colhido e o cirurgião ao lado da maca: essa é a sequência dos primeiros cinco minutos, não a tomografia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Sinais precoces: taquicardia, pressão de pulso estreita, pele fria, ansiedade; pressão cai tarde.</li>
+<li>Cristaloide aquecido em bolus limitado (500 mL a 1 L) com reavaliação; sangue cedo, 1:1:1 se maciça.</li>
+<li>Tipagem, gasometria com lactato, ácido tranexâmico em 3 horas, hipotensão permissiva até o controle.</li>
+<li>Cirurgia acionada na chegada com FAST positivo; instável vai à laparotomia.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que sinais indicam choque hemorrágico antes da queda da pressão? <details><summary>Resposta</summary>Taquicardia, pressão de pulso estreita, pele fria e pálida, enchimento capilar lento e ansiedade.</details></li>
+<li>Quando a cirurgia deve ser acionada no trauma abdominal com FAST positivo? <details><summary>Resposta</summary>Na chegada, durante a reanimação inicial, para decidir entre tomografia e laparotomia conforme a estabilidade.</details></li>
+</ol>
+`,
+"einstein2026#25": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer os sinais de lesão inalatória na vítima de incêndio em ambiente fechado.</li>
+<li>Indicar a intubação precoce antes do edema fechar a via aérea.</li>
+<li>Conduzir a reanimação inicial do queimado e a intoxicação por monóxido de carbono.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Lesão inalatória</dt>
+<dd>Queimadura térmica da via aérea superior, lesão química das vias inferiores pela fumaça e intoxicação por CO e cianeto.</dd>
+<dt>Sinais de lesão inalatória</dt>
+<dd>Incêndio em ambiente fechado, queimadura de face, cílios e vibrissas chamuscados, escarro carbonáceo, rouquidão, estridor.</dd>
+<dt>Intubação precoce</dt>
+<dd>Via aérea definitiva antes que o edema torne a laringoscopia impossível, nas primeiras horas.</dd>
+<dt>Carboxiemoglobina</dt>
+<dd>Marcador da intoxicação por monóxido de carbono; oximetria de pulso falsamente normal.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A vítima de incêndio em <strong>ambiente pequeno e fechado</strong>, retirada após 20 minutos, agitada e confusa, tem três problemas ao mesmo tempo: <strong>queimadura térmica da via aérea superior</strong> pelo ar quente, <strong>lesão química das vias inferiores</strong> pelos produtos da combustão e <strong>intoxicação por monóxido de carbono</strong> (e cianeto), que explica a confusão. Os <strong>sinais</strong> que apontam a lesão inalatória são a história do ambiente fechado, <strong>queimaduras de face e pescoço</strong>, <strong>cílios e vibrissas chamuscados</strong>, fuligem na boca e no nariz, <strong>escarro carbonáceo</strong>, rouquidão, tosse, estridor e sibilos.</p>
+<p>O edema da via aérea evolui nas primeiras horas, sobretudo com a reanimação volêmica, e a laringoscopia que é fácil na chegada vira impossível depois. Por isso a regra é <strong>intubar cedo</strong>, com tubo de calibre adequado, em quem tem sinais de lesão inalatória, queimadura extensa de face, estridor, rebaixamento ou queimadura de mais de 40% da superfície; oxigênio a 100% por máscara com reservatório enquanto se prepara. A broncoscopia confirma e gradua depois. A oximetria de pulso não vê a carboxiemoglobina; a gasometria com cooximetria mede, e o tratamento do CO é <strong>oxigênio a 100%</strong>, hiperbárico em casos selecionados; a hidroxocobalamina trata o cianeto na suspeita com instabilidade e lactato alto.</p>
+<p>Em seguida, o ABCDE do queimado: <strong>reanimação volêmica</strong> pela fórmula de Parkland (2 a 4 mL/kg por % de superfície queimada em 24 horas, metade nas primeiras 8 horas, ajustada pela diurese de 0,5 mL/kg/h), analgesia, prevenção da hipotermia, avaliação da superfície pela regra dos nove, escarotomias nas queimaduras circunferenciais e transferência para centro de queimados. A lesão inalatória, por si, aumenta a necessidade de volume e a mortalidade.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Cílios queimados e voz rouca em quem saiu de um quarto em chamas são indicação de tubo agora, com o paciente ainda falando, e não depois que o estridor aparecer. Peça a cooximetria, mantenha oxigênio a 100% e comece o Parkland pelo relógio da queimadura, não pelo da chegada.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Ambiente fechado, queimadura de face, cílios e vibrissas chamuscados, escarro carbonáceo, rouquidão: lesão inalatória.</li>
+<li>Intubar cedo, antes do edema; oxigênio a 100%; cooximetria para CO.</li>
+<li>Parkland 2 a 4 mL/kg por % queimado em 24 horas, metade em 8 horas, guiado pela diurese.</li>
+<li>Analgesia, aquecimento, escarotomia se circunferencial, centro de queimados.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a intubação na lesão inalatória deve ser precoce? <details><summary>Resposta</summary>Porque o edema da via aérea progride nas primeiras horas e torna a intubação impossível depois.</details></li>
+<li>Por que a oximetria de pulso engana na intoxicação por monóxido de carbono? <details><summary>Resposta</summary>Porque não distingue carboxiemoglobina de oxiemoglobina; é preciso cooximetria na gasometria.</details></li>
+</ol>
+`,
+"einstein2026#28": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Distinguir ressecabilidade anatômica de operabilidade clínica no câncer de pâncreas.</li>
+<li>Indicar a paliação biliar endoscópica quando a cirurgia está fora.</li>
+<li>Conhecer a avaliação do risco cirúrgico e as opções paliativas.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Ressecável</dt>
+<dd>Tumor sem contato com artérias e com veias livres ou pouco envolvidas; candidato à duodenopancreatectomia.</dd>
+<dt>Inoperável</dt>
+<dd>Paciente cujo estado clínico não tolera a cirurgia, ainda que o tumor seja ressecável.</dd>
+<dt>Drenagem biliar por CPRE</dt>
+<dd>Prótese metálica autoexpansível no colédoco, que alivia icterícia, prurido e colangite.</dd>
+<dt>Duodenopancreatectomia (Whipple)</dt>
+<dd>Única cirurgia curativa para o tumor de cabeça; mortalidade de 2 a 5% em centros de volume, morbidade alta.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A icterícia indolor com colúria, prurido e emagrecimento no idoso é o quadro clássico do <strong>adenocarcinoma da cabeça do pâncreas</strong>, confirmado por tomografia com protocolo pancreático e, quando preciso, ecoendoscopia com punção. O estadiamento responde a uma pergunta anatômica: o tumor é <strong>ressecável</strong> (sem contato arterial, veia porta e mesentérica livres), <strong>borderline</strong> (contato limitado, candidato a neoadjuvância) ou <strong>irressecável</strong> (envolvimento arterial ou metástase)?</p>
+<p>A segunda pergunta é sobre o <strong>paciente</strong>: ele é <strong>operável</strong>? A duodenopancreatectomia dura horas, tem morbidade de 30 a 50% (fístula, gastroparesia, sangramento) e exige reserva cardiopulmonar; a avaliação inclui estado funcional (ECOG), fragilidade, DPOC e sua gravidade, cardiopatia, nutrição e idade biológica. Um homem de 74 anos com DPOC grave, hipertensão e perda de 12 kg pode ter um tumor anatomicamente ressecável e ser <strong>clinicamente inoperável</strong>: a cirurgia teria mortalidade e perda de qualidade de vida maiores que o benefício, que já é limitado pela sobrevida da doença.</p>
+<p>Nesse caso a conduta é <strong>paliar a bile</strong>: <strong>CPRE com prótese metálica</strong> no colédoco, que alivia a icterícia, o prurido e o risco de colangite com menos morbidade que a derivação cirúrgica; a drenagem transparietal ou por ecoendoscopia fica para a falha. Somam-se controle da dor (bloqueio do plexo celíaco quando preciso), suporte nutricional com enzimas, prótese duodenal se obstruir, e quimioterapia paliativa se o estado funcional permitir, com cuidados paliativos desde o início. A drenagem pré-operatória de rotina em quem vai operar não é indicada, salvo colangite, bilirrubina muito alta ou neoadjuvância.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Antes de dizer "ressecável, vamos operar", olhe o pulmão e a escala de fragilidade: um Whipple em DPOC grave é uma operação que o tumor não justifica. A prótese biliar pela CPRE devolve semanas sem prurido e sem icterícia, e a conversa sobre o que o paciente quer para o tempo que tem começa ali.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Ressecabilidade é do tumor (vasos); operabilidade é do paciente (reserva, fragilidade, comorbidades).</li>
+<li>Ressecável mas inoperável: sem cirurgia; paliar.</li>
+<li>Paliação biliar: CPRE com prótese metálica; dor, nutrição, prótese duodenal, quimioterapia se possível.</li>
+<li>Drenagem pré-operatória de rotina não é indicada em quem vai operar.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que diferencia ressecável de operável? <details><summary>Resposta</summary>Ressecável descreve a anatomia do tumor; operável descreve se o paciente tolera a cirurgia.</details></li>
+<li>Qual é a conduta na icterícia obstrutiva do tumor de pâncreas em paciente inoperável? <details><summary>Resposta</summary>Drenagem biliar por CPRE com prótese metálica e cuidados paliativos.</details></li>
+</ol>
+`,
+"einstein2025#16": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diagnosticar a pancreatite aguda pelos critérios clínicos e laboratoriais.</li>
+<li>Tratar a fase inicial: hidratação com Ringer lactato, analgesia, antiemético, monitorização.</li>
+<li>Saber o que não fazer: antibiótico profilático e tomografia precoce.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Critérios diagnósticos</dt>
+<dd>Dois de três: dor típica, lipase ou amilase acima de 3 vezes o normal, imagem compatível.</dd>
+<dt>Ringer lactato</dt>
+<dd>Cristaloide de escolha; hidratação moderada, guiada por metas, sem excesso.</dd>
+<dt>Gravidade (Atlanta)</dt>
+<dd>Leve sem falência; moderada com falência transitória ou complicação local; grave com falência persistente.</dd>
+<dt>Tomografia tardia</dt>
+<dd>Feita após 72 a 96 horas, quando há dúvida ou piora, para ver necrose e coleções.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A pancreatite aguda é diagnosticada com <strong>dois de três critérios</strong>: dor epigástrica intensa irradiada ao dorso, <strong>lipase ou amilase acima de três vezes</strong> o limite superior (a lipase é mais sensível e específica e permanece alta por mais dias) e imagem compatível. Numa mulher jovem com dias de dor, vômitos e enzimas elevadas, o diagnóstico está feito sem tomografia; a <strong>ultrassonografia</strong> é o exame inicial, para procurar cálculos, a causa mais comum, seguida do álcool.</p>
+<p>O tratamento das primeiras horas é <strong>suporte</strong>: <strong>monitorização</strong> de sinais vitais, diurese e laboratório; <strong>jejum</strong> curto, com dieta oral precoce em 24 a 48 horas assim que a dor e os vômitos permitirem (a nutrição enteral precoce reduz infecção); <strong>hidratação com Ringer lactato</strong>, hoje em ritmo moderado (bolus de 10 mL/kg se houver hipovolemia, depois 1,5 mL/kg/h com reavaliação), porque a hidratação agressiva aumentou sobrecarga sem benefício; <strong>analgesia</strong> escalonada (dipirona, opioide se preciso); <strong>antiemético</strong>; e sonda vesical quando é preciso medir a diurese na hipovolemia. A gravidade é estimada pela clínica, pelo hematócrito, pela ureia e pela PCR em 48 horas, e pela falência de órgãos.</p>
+<p>O que <strong>não</strong> se faz: <strong>antibiótico profilático</strong>, que não previne infecção da necrose e seleciona fungos e resistentes (antibiótico só na necrose infectada ou colangite); <strong>tomografia precoce</strong>, que subestima a necrose antes de 72 horas e não muda a conduta inicial; sonda nasogástrica de rotina; inibidor de secreção. Na pancreatite biliar, a colangiografia endoscópica urgente é só para colangite ou obstrução persistente, e a colecistectomia se faz na mesma internação nos casos leves.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pancreatite com lipase alta e paciente estável não precisa de tomografia nem de ceftriaxona no primeiro dia: precisa de Ringer no ritmo certo, dor controlada, ultrassonografia procurando pedra e a decisão de alimentar cedo. A tomografia tem hora: quando piora ou no terceiro dia com dúvida.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Diagnóstico: dois de três (dor, enzimas acima de 3 vezes, imagem); ultrassonografia inicial para cálculos.</li>
+<li>Suporte: monitorização, Ringer lactato moderado por metas, analgesia, antiemético, dieta precoce.</li>
+<li>Sem antibiótico profilático; sem tomografia antes de 72 horas.</li>
+<li>Biliar leve: colecistectomia na mesma internação; CPRE só com colangite ou obstrução.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os critérios diagnósticos da pancreatite aguda? <details><summary>Resposta</summary>Dois de três: dor típica, lipase ou amilase acima de três vezes o normal e imagem compatível.</details></li>
+<li>Por que não usar antibiótico profilático? <details><summary>Resposta</summary>Porque não previne a infecção da necrose e seleciona fungos e bactérias resistentes; só na necrose infectada ou colangite.</details></li>
+</ol>
+`,
+"einstein2025#21": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o pneumotórax hipertensivo pela clínica no politraumatizado.</li>
+<li>Descomprimir antes de qualquer exame, depois drenar.</li>
+<li>Diferenciar do hemotórax maciço e do tamponamento cardíaco.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Pneumotórax hipertensivo</dt>
+<dd>Ar sob pressão na pleura que colapsa o pulmão, desvia o mediastino e comprime as cavas.</dd>
+<dt>Toracocentese descompressiva</dt>
+<dd>Cateter longo e calibroso no 5º espaço intercostal, linha axilar anterior; escape de ar confirma.</dd>
+<dt>Hemotórax maciço</dt>
+<dd>Mais de 1.500 mL na pleura: macicez, sem murmúrio, jugulares colabadas, choque hipovolêmico.</dd>
+<dt>Tamponamento cardíaco</dt>
+<dd>Tríade de Beck: hipotensão, jugulares túrgidas, bulhas abafadas; pulmões normais.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O politraumatizado que chega com <strong>dispneia, agitação, hipotensão e taquicardia</strong>, <strong>sem murmúrio</strong> de um lado, com <strong>hipertimpanismo</strong>, <strong>desvio da traqueia</strong> e <strong>jugulares túrgidas</strong>, tem pneumotórax hipertensivo, e a decisão é tomada no B do ATLS, antes de radiografia, FAST ou qualquer outro exame. A fisiologia explica a pressa: cada inspiração bombeia mais ar para a pleura, o mediastino desvia, as cavas dobram e o retorno venoso desaba, num choque obstrutivo que a reposição de volume não corrige.</p>
+<p>A conduta é a <strong>toracocentese descompressiva</strong> imediata: cateter de 14 G ou maior, longo, no <strong>5º espaço intercostal, linha axilar anterior</strong> (o 2º espaço, linha hemiclavicular, é a opção clássica e a de escolha na criança), com escape de ar e melhora hemodinâmica que confirmam; se a agulha falha pela parede espessa, a toracostomia digital resolve. A descompressão converte o hipertensivo em aberto, e a <strong>drenagem torácica</strong> em selo d'água no mesmo espaço é o passo seguinte, ainda na sala de trauma. Só então vêm a radiografia e o resto da avaliação.</p>
+<p>Os diferenciais do choque com tórax lesado se separam pelo exame: o <strong>hemotórax maciço</strong> também tira o murmúrio, mas o hemitórax é <strong>maciço à percussão</strong> e as <strong>jugulares estão colabadas</strong> pela hipovolemia, e o tratamento é dreno calibroso com reposição de sangue e toracotomia se drenar mais de 1.500 mL; o <strong>tamponamento cardíaco</strong> tem jugulares túrgidas e hipotensão, mas os <strong>pulmões estão normais</strong> e as bulhas abafadas, e o FAST mostra o líquido pericárdico, tratado com pericardiocentese ou toracotomia. Intubar e ventilar com pressão positiva um pneumotórax hipertensivo não descomprimido precipita a parada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ausculta silenciosa de um lado, percussão de tambor e jugulares cheias em quem hipotende: a agulha entra antes que alguém peça o raio X. Se a percussão for maciça e as jugulares vazias, é sangue, e a resposta é dreno e transfusão. O exame físico decide em 30 segundos.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Dispneia, hipotensão, sem murmúrio, hipertimpanismo, traqueia desviada, jugulares túrgidas: hipertensivo.</li>
+<li>Descompressão por agulha (5º espaço axilar anterior) ou toracostomia digital, depois dreno.</li>
+<li>Sem imagem antes; sem ventilação com pressão positiva antes de descomprimir.</li>
+<li>Hemotórax maciço: macicez e jugulares colabadas; tamponamento: pulmões normais e bulhas abafadas.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a primeira medida no pneumotórax hipertensivo? <details><summary>Resposta</summary>Toracocentese descompressiva imediata com cateter calibroso, seguida de drenagem torácica.</details></li>
+<li>Como diferenciar do hemotórax maciço à beira do leito? <details><summary>Resposta</summary>No hemotórax a percussão é maciça e as jugulares estão colabadas; no hipertensivo há hipertimpanismo e jugulares túrgidas.</details></li>
+</ol>
+`,
+"einstein2025#22": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar o traumatismo cranioencefálico pelo Glasgow e reconhecer a piora.</li>
+<li>Indicar a intubação com Glasgow de 8 ou menos.</li>
+<li>Transferir ao centro de trauma com neurocirurgião sem atrasar por exames.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>TCE grave</dt>
+<dd>Glasgow de 3 a 8 após a reanimação; exige via aérea definitiva e neurocirurgia disponível.</dd>
+<dt>Deterioração neurológica</dt>
+<dd>Queda de 2 pontos ou mais no Glasgow, anisocoria ou déficit novo: hematoma em expansão até prova em contrário.</dd>
+<dt>Sequência rápida de intubação</dt>
+<dd>Pré-oxigenação, indutor e bloqueador neuromuscular com estabilização cervical em linha.</dd>
+<dt>Transferência precoce</dt>
+<dd>Decisão de transferir tomada assim que se reconhece a necessidade, sem esperar exames que o destino repetirá.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Motociclista sem capacete que chega com Glasgow que cai para 8 nos primeiros minutos tem <strong>TCE grave</strong> em evolução, e o mecanismo (queda a 50 km/h sem proteção) faz do hematoma extradural ou subdural a causa mais provável. O Glasgow é calculado componente por componente após o ABC e a correção de hipóxia e hipotensão, e o que importa é a <strong>tendência</strong>: a queda de 2 pontos ou mais, a anisocoria e o déficit motor são sinais de lesão expansiva.</p>
+<p>Com <strong>Glasgow de 8 ou menos</strong>, a via aérea está em risco (perda de reflexos, hipoventilação, aspiração) e a hipóxia e a hipercapnia agravam a lesão: indica-se <strong>intubação orotraqueal</strong> por sequência rápida, com estabilização manual da coluna, evitando hipotensão na indução, com ventilação para normocapnia (PaCO2 de 35 a 40) e saturação acima de 90%. Hiperventilação só como resgate breve diante de sinais de herniação, junto de salina hipertônica ou manitol. A pressão arterial é mantida (sistólica acima de 100 a 110 no adulto) porque um só episódio de hipotensão dobra a mortalidade.</p>
+<p>O hospital que recebe o paciente e não tem neurocirurgião nem tomografia imediata deve <strong>transferir para o centro de trauma</strong> assim que a necessidade é reconhecida, com o paciente intubado, estabilizado e com a coluna protegida. A tomografia é feita se estiver disponível sem atraso e pode ser transmitida; não se retarda a transferência para completar exames que o destino repetirá, nem se espera "para ver se melhora". Durante o transporte, monitorização, cabeceira elevada, sedação e analgesia, glicemia e temperatura controladas, e comunicação prévia com a equipe receptora.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Glasgow 8 em quem chegou com 11 é uma corrida contra um hematoma: tubo agora, pressão mantida, e o telefone do centro de trauma antes da tomografia. O exame que salva esse paciente é a craniotomia no lugar certo, não a imagem no lugar errado.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Glasgow após ABC; queda de 2 pontos, anisocoria ou déficit: lesão expansiva.</li>
+<li>Glasgow 8 ou menos: intubação por sequência rápida com coluna estabilizada; normocapnia, saturação acima de 90%.</li>
+<li>Manter pressão; hiperventilação e osmoterapia só na herniação iminente.</li>
+<li>Transferir cedo ao centro com neurocirurgião; exames não atrasam a transferência.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a indicação de via aérea definitiva no TCE? <details><summary>Resposta</summary>Glasgow de 8 ou menos, além de incapacidade de proteger a via aérea ou hipoxemia refratária.</details></li>
+<li>O que fazer se o hospital não tem neurocirurgião? <details><summary>Resposta</summary>Estabilizar, intubar se indicado e transferir de imediato para o centro de trauma, sem atrasar por exames.</details></li>
+</ol>
+`,
+"einstein2025#25": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer que a colelitíase na criança pede investigação de hemólise crônica.</li>
+<li>Explicar a formação de cálculos pigmentares na anemia falciforme.</li>
+<li>Conduzir a colelitíase sintomática no paciente falciforme.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Cálculo pigmentar preto</dt>
+<dd>Bilirrubinato de cálcio formado pelo excesso de bilirrubina indireta da hemólise crônica.</dd>
+<dt>Anemia falciforme</dt>
+<dd>Hemólise crônica com colelitíase em até metade dos pacientes até a adolescência.</dd>
+<dt>Causas de colelitíase na criança</dt>
+<dd>Hemólise (falciforme, esferocitose, talassemia), nutrição parenteral, obesidade, ceftriaxona, doença ileal, fibrose cística.</dd>
+<dt>Colecistectomia eletiva no falciforme</dt>
+<dd>Feita fora da crise, com hidratação, oxigenação e, em casos selecionados, transfusão pré-operatória.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Cálculo na vesícula de uma criança de 12 anos não é achado banal: sem obesidade, nutrição parenteral prolongada, uso de ceftriaxona, doença de Crohn ileal ou fibrose cística, a primeira hipótese é <strong>hemólise crônica</strong>. A destruição acelerada de hemácias inunda o fígado de bilirrubina indireta, que é conjugada e excretada em excesso na bile, precipita como bilirrubinato de cálcio e forma <strong>cálculos pigmentares pretos</strong>, múltiplos e pequenos, com vesícula de paredes normais. A <strong>anemia falciforme</strong> é a causa a lembrar no Brasil, seguida da esferocitose hereditária e das talassemias.</p>
+<p>A investigação é simples: hemograma com reticulócitos (anemia com reticulocitose), bilirrubina indireta e LDH elevadas, haptoglobina baixa, esfregaço (drepanócitos, esferócitos), <strong>eletroforese de hemoglobina</strong> para a falciforme e teste de fragilidade osmótica ou EMA para a esferocitose. Uma criança de 12 anos com falciforme não diagnosticada é rara onde há triagem neonatal, mas o traço, as formas SC e a esferocitose leve escapam, e a colelitíase pode ser a primeira pista.</p>
+<p>No falciforme, a colelitíase é frequente e a <strong>colecistectomia laparoscópica</strong> está indicada quando sintomática, e muitos centros a recomendam mesmo assintomática, para evitar a confusão entre cólica biliar e crise vaso-oclusiva e as complicações (colecistite, coledocolitíase, pancreatite) num paciente que tolera mal a cirurgia de urgência. A operação é <strong>eletiva, fora da crise</strong>, com hidratação, oxigenação, aquecimento, analgesia e, nas cirurgias de médio porte, transfusão pré-operatória para hemoglobina em torno de 10 g/dL, que reduz a síndrome torácica aguda; a colangiorressonância afasta cálculos no colédoco antes. Na esferocitose, a colecistectomia pode ser combinada à esplenectomia quando essa é indicada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Menina de 12 anos com cólica biliar e cálculos múltiplos: antes de marcar a cirurgia, peça reticulócitos, bilirrubinas e a eletroforese de hemoglobina. Operar um falciforme sem saber que ele é falciforme é a receita da síndrome torácica no pós-operatório.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Colelitíase na criança sem causa óbvia: investigar hemólise crônica.</li>
+<li>Hemólise gera cálculos pigmentares pretos; falciforme é a principal causa, depois esferocitose e talassemia.</li>
+<li>Reticulócitos, bilirrubina indireta, LDH, haptoglobina, esfregaço, eletroforese de hemoglobina.</li>
+<li>No falciforme: colecistectomia eletiva fora da crise, com preparo e transfusão em casos selecionados.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a anemia falciforme causa cálculos biliares? <details><summary>Resposta</summary>A hemólise crônica gera excesso de bilirrubina que precipita na bile como cálculos pigmentares pretos.</details></li>
+<li>Que cuidados precedem a colecistectomia no falciforme? <details><summary>Resposta</summary>Operar fora da crise, com hidratação, oxigenação, aquecimento, e transfusão pré-operatória em casos selecionados.</details></li>
+</ol>
+`,
+"einstein2025#27": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a lesão subepitelial gástrica pelo aspecto endoscópico.</li>
+<li>Explicar por que a biópsia de superfície resulta em falso negativo.</li>
+<li>Conhecer a investigação por ecoendoscopia e as hipóteses principais, com o GIST à frente.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Lesão subepitelial</dt>
+<dd>Abaulamento recoberto por mucosa normal, originado da submucosa ou da muscular própria.</dd>
+<dt>GIST</dt>
+<dd>Tumor estromal gastrointestinal, da muscular própria, com KIT (CD117) e DOG1 positivos; potencial maligno pelo tamanho e mitoses.</dd>
+<dt>Ecoendoscopia</dt>
+<dd>Define a camada de origem, o tamanho e a ecogenicidade, e permite punção com agulha fina ou grossa.</dd>
+<dt>Umbilicação central</dt>
+<dd>Ulceração no ápice da lesão, por onde ela sangra; comum no GIST e no tumor neuroendócrino.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Uma lesão de 3 cm no fundo gástrico, <strong>recoberta por mucosa normal</strong>, com <strong>umbilicação central</strong>, que sangrou, é uma <strong>lesão subepitelial</strong>: o tumor nasce abaixo do epitélio e empurra a mucosa, que permanece íntegra por cima. A <strong>biópsia endoscópica convencional</strong> pega a mucosa normal e não alcança o tumor; o resultado "gastrite" ou "mucosa sem alterações" é <strong>falso negativo</strong>, e não afasta nada. Biópsias em túnel (biópsia sobre biópsia) e a biópsia da úlcera da umbilicação aumentam o rendimento, mas o exame de escolha é outro.</p>
+<p>A <strong>ecoendoscopia</strong> define a <strong>camada de origem</strong> e a natureza: lesão hipoecoica da <strong>muscular própria</strong> (4ª camada) é <strong>GIST</strong> ou leiomioma; da submucosa, lipoma (hiperecoico), tumor neuroendócrino, pâncreas ectópico (antro, com ducto), cisto de duplicação; a compressão extrínseca pelo baço ou por vasos também é reconhecida. A <strong>punção guiada</strong> por ecoendoscopia, de preferência com agulha de biópsia, dá tecido para imuno-histoquímica (KIT e DOG1 no GIST; desmina e actina no leiomioma; cromogranina no neuroendócrino), e a tomografia estadia.</p>
+<p>O <strong>GIST</strong> é a lesão subepitelial mais importante do estômago: sangra por ulceração, tem potencial maligno estimado pelo tamanho e pelo índice mitótico, e o tratamento é a <strong>ressecção com margens</strong> (em cunha, laparoscópica) sem linfadenectomia, com imatinibe adjuvante nos de alto risco e neoadjuvante nos grandes ou de localização difícil. Lesões abaixo de 2 cm sem sinais de alarme podem ser vigiadas; acima de 2 cm, ou com sangramento, crescimento ou aspecto irregular, investigam-se e ressecam-se.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando o laudo diz "nódulo submucoso, biópsias com mucosa normal", o caso não está encerrado: está no começo. Peça a ecoendoscopia com punção antes de dar alta por hematêmese; um GIST de 3 cm que sangrou é cirurgia, e a biópsia que "não mostrou nada" é o motivo pelo qual ele volta a sangrar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Mucosa normal sobre abaulamento com umbilicação: lesão subepitelial.</li>
+<li>Biópsia de superfície é falso negativo; não afasta tumor.</li>
+<li>Ecoendoscopia define camada e permite punção com imuno-histoquímica.</li>
+<li>GIST: muscular própria, KIT e DOG1; ressecção com margens sem linfadenectomia; imatinibe conforme o risco.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a biópsia convencional falha na lesão subepitelial? <details><summary>Resposta</summary>Porque colhe a mucosa normal que recobre o tumor, sem alcançar a submucosa ou a muscular própria.</details></li>
+<li>Qual exame define a origem e permite o diagnóstico? <details><summary>Resposta</summary>A ecoendoscopia, que mostra a camada de origem e guia a punção para imuno-histoquímica.</details></li>
+</ol>
+`,
+"einstein2025#28": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer as estratégias de rastreamento do câncer colorretal e o papel duplo da colonoscopia.</li>
+<li>Saber as idades e os intervalos para a população geral e para os grupos de risco.</li>
+<li>Aplicar as regras de rastreio nas doenças inflamatórias intestinais e na história familiar.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Sequência adenoma-carcinoma</dt>
+<dd>A maioria dos cânceres nasce de pólipos adenomatosos ao longo de 10 anos; remover o pólipo previne o câncer.</dd>
+<dt>Teste imunoquímico fecal (FIT)</dt>
+<dd>Pesquisa de sangue oculto anual; positivo leva à colonoscopia.</dd>
+<dt>Colonoscopia terapêutica</dt>
+<dd>Polipectomia e ressecção endoscópica de lesões precoces, que diagnostica e trata no mesmo ato.</dd>
+<dt>Rastreio na colite</dt>
+<dd>Colonoscopia com cromoscopia 8 anos após o início da colite extensa, repetida a cada 1 a 3 anos.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O câncer colorretal é o único cujo rastreamento <strong>previne</strong> a doença, e não só a detecta cedo, porque a <strong>sequência adenoma-carcinoma</strong> leva anos e o pólipo removido não vira câncer. A <strong>colonoscopia</strong> tem por isso um <strong>papel duplo</strong>: <strong>diagnostica</strong> e, na mesma sessão, <strong>trata</strong> por polipectomia ou mucosectomia os adenomas e os cânceres precoces confinados à mucosa ou à submucosa superficial (T1 de baixo risco), que dispensam cirurgia. Nenhum outro método de rastreio faz as duas coisas.</p>
+<p>Para a população de <strong>risco médio</strong>, o rastreio começa aos <strong>45 anos</strong> nas diretrizes americanas (50 nas brasileiras, com tendência a antecipar pelo aumento em jovens) e vai até 75, individualizado depois: <strong>teste imunoquímico fecal anual</strong>, <strong>colonoscopia a cada 10 anos</strong>, ou sigmoidoscopia a cada 5 anos; tomografia virtual e DNA fecal são opções. O teste positivo leva sempre à colonoscopia. No Brasil não há programa populacional organizado, e o rastreio é oportunístico.</p>
+<p>Os <strong>grupos de risco</strong> começam antes e repetem mais: <strong>parente de primeiro grau</strong> com câncer ou adenoma avançado antes de 60 anos, colonoscopia aos 40 ou 10 anos antes do caso, a cada 5 anos; <strong>síndromes hereditárias</strong> (polipose adenomatosa familiar, Lynch) com protocolos próprios desde a adolescência ou os 20 a 25 anos; <strong>doença inflamatória intestinal</strong> (retocolite e Crohn colônico extensos) com colonoscopia de vigilância a partir de <strong>8 anos do início dos sintomas</strong>, com cromoscopia e biópsias, a cada 1 a 3 anos conforme a extensão, a atividade e a colangite esclerosante (anual desde o diagnóstico). Adenomas prévios definem intervalos de 3 a 7 anos conforme número, tamanho e histologia.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Aos 45 a 50 anos, ofereça o rastreio e explique a diferença: o sangue oculto anual é fácil, a colonoscopia a cada 10 anos tira o pólipo que faria o câncer. Em quem tem colite há 8 anos, o relógio da vigilância já começou, mesmo com a doença quieta.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Rastreio previne pelo ciclo adenoma-carcinoma; colonoscopia diagnostica e trata (polipectomia, lesões precoces).</li>
+<li>Risco médio: 45 a 50 até 75 anos; FIT anual ou colonoscopia a cada 10 anos; positivo vai à colonoscopia.</li>
+<li>Parente de primeiro grau antes de 60: aos 40 ou 10 anos antes, a cada 5 anos.</li>
+<li>Colite extensa: vigilância 8 anos após o início, a cada 1 a 3 anos, com cromoscopia.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que papel terapêutico a colonoscopia tem no rastreio? <details><summary>Resposta</summary>Remove adenomas e resseca cânceres precoces confinados à mucosa ou à submucosa superficial, prevenindo e tratando.</details></li>
+<li>Quando começa a vigilância na retocolite extensa? <details><summary>Resposta</summary>Oito anos após o início dos sintomas, com colonoscopia e cromoscopia a cada 1 a 3 anos.</details></li>
+</ol>
+`,
+"einstein2025#29": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar a insuficiência venosa crônica pelo CEAP, usando o sinal clínico mais grave presente.</li>
+<li>Indicar o tratamento cirúrgico das varizes pelos sintomas e pelo impacto na qualidade de vida.</li>
+<li>Prescrever a compressão elástica e as medidas conservadoras.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Classificação CEAP</dt>
+<dd>Clínica (C0 a C6), etiologia, anatomia e fisiopatologia; C3 é edema, C4 alterações de pele, C5 úlcera cicatrizada, C6 úlcera ativa.</dd>
+<dt>Refluxo safeno-femoral</dt>
+<dd>Incompetência da válvula da junção, mostrada pelo Doppler; alvo da cirurgia ou da ablação.</dd>
+<dt>Meias de compressão graduada</dt>
+<dd>20 a 30 mmHg para C2 e C3 sintomáticas; 30 a 40 para C4 a C6; contraindicadas na doença arterial.</dd>
+<dt>Ablação endovenosa</dt>
+<dd>Laser ou radiofrequência na safena, com escleroterapia ou flebectomia das tributárias; opção à safenectomia.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A insuficiência venosa crônica é classificada pelo <strong>CEAP</strong>, e a letra clínica é dada pelo <strong>sinal mais grave presente</strong>: C0 sem sinais, C1 telangiectasias e veias reticulares, C2 varizes, <strong>C3 edema</strong>, C4 alterações tróficas (pigmentação, eczema, lipodermatoesclerose), C5 úlcera cicatrizada, C6 úlcera ativa; acrescenta-se "s" quando há sintomas. Uma cabeleireira de 45 anos com varizes, dor, peso e queimação no fim do dia que melhoram com a elevação, <strong>e edema</strong>, é <strong>C3s</strong>, ainda que as varizes sejam o achado mais chamativo: o edema supera as varizes na escala.</p>
+<p>O <strong>Doppler venoso</strong> mapeia o refluxo (safena magna, parva, junções, perfurantes) e afasta trombose e obstrução. O tratamento conservador vale para todos: <strong>meias de compressão graduada</strong> (20 a 30 mmHg), elevação dos membros, atividade física, controle do peso e pausas na ortostase prolongada; flebotônicos aliviam sintomas. Mas a compressão trata sintomas, não corrige o refluxo, e a adesão a longo prazo é baixa em quem trabalha de pé e no calor.</p>
+<p>O <strong>tratamento intervencionista</strong> é indicado quando há <strong>sintomas que prejudicam a qualidade de vida</strong>, edema, alterações de pele, úlcera, tromboflebite ou sangramento de variz, com refluxo documentado: safenectomia com ligadura da junção, ou <strong>ablação endovenosa</strong> por laser ou radiofrequência, hoje preferida pelas diretrizes pela menor dor e retorno mais rápido, com flebectomia ou escleroterapia das tributárias; a escleroterapia com espuma trata tributárias e recidivas. As meias continuam no pós-operatório e como prevenção. Varizes sem sintomas e sem sinais tróficos podem ser apenas acompanhadas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quem passa o dia em pé e tem dor, peso e edema no fim da tarde, com refluxo safeno-femoral no Doppler, não melhora só com a meia que ela não consegue usar no salão: a indicação é a ablação ou a safenectomia, com a compressão como coadjuvante. Classifique pelo edema (C3), não pela variz.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>CEAP clínico pelo sinal mais grave: C3 é edema; C4 pele; C5 e C6 úlcera.</li>
+<li>Doppler mapeia o refluxo; compressão, elevação e exercício para todos.</li>
+<li>Cirurgia ou ablação endovenosa: sintomas com impacto, edema, alterações de pele, úlcera, com refluxo documentado.</li>
+<li>Meias de 20 a 30 mmHg como coadjuvante; contraindicadas na doença arterial.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Como se classifica uma paciente com varizes, sintomas e edema? <details><summary>Resposta</summary>C3s: o edema é o sinal mais grave presente, e o "s" indica sintomas.</details></li>
+<li>Quando o tratamento cirúrgico das varizes está indicado? <details><summary>Resposta</summary>Quando há sintomas com impacto na qualidade de vida, edema, alterações de pele, úlcera, tromboflebite ou sangramento, com refluxo documentado.</details></li>
+</ol>
+`,
 };

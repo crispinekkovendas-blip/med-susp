@@ -40,7 +40,7 @@ a clinical note box, a bullet summary, checkpoint questions with answers.
   6. `<h4>Verifique o que aprendeu</h4><ol>` 2–3 `<li>pergunta <details><summary>Resposta</summary>resposta curta</details></li>`
 - Allowed tags for this field: current TAGS + `h4 dl dt dd div details summary`
   (the `div` only with `class="ponto"`).
-- Length: text without tags **1,800–3,300 characters** (measured: the six-part scaffolding adds ≈1,200 to the ≈1,500 of reading text; the first two batches came out at 2,400–3,300).
+- Length: text without tags **1,800–3,600 characters** (measured over the first six batches: the six-part scaffolding adds ≈1,200 to the ≈1,800 of reading text; sections land at 2,400–3,600).
 - Must NOT contain `<strong>A</strong>`-style letter references, "Gabarito",
   "alternativa" or "Questão N" — it is about the subject, not the item.
 - pt-BR, same voice as the comentários; no invented statistics; references

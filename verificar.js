@@ -202,7 +202,7 @@ for (const q of Q) {
     exige(nRes >= 3 && nRes <= 6, `${q.id}: "materia" com ${nRes} itens no Resumo (esperava 3–6)`);
     exige(nVer >= 2 && nVer <= 3 && (secao(PARTES[5]).match(/<details><summary>Resposta<\/summary>[^<]{3,}<\/details>/g) || []).length === nVer, `${q.id}: "materia" com ${nVer} perguntas no Verifique (esperava 2–3, cada uma com <details><summary>Resposta</summary>…</details>)`);
     const texto = m.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-    exige(texto.length >= 1800 && texto.length <= 3300, `${q.id}: "materia" com ${texto.length} caracteres de texto (esperava 1.800–3.300)`);
+    exige(texto.length >= 1800 && texto.length <= 3600, `${q.id}: "materia" com ${texto.length} caracteres de texto (esperava 1.800–3.600)`);
     exige(!/<strong>[A-E]<\/strong>|[Gg]abarito|[Aa]lternativa|Quest[ãa]o \d/.test(m), `${q.id}: "materia" fala do item (letra, gabarito, alternativa ou "Questão N") — é sobre a matéria, não sobre a questão`);
     exige(!/\n/.test(m), `${q.id}: "materia" com quebra de linha (montar.js devia ter tirado)`);
   }
