@@ -32,7 +32,7 @@ const exige = (c, m) => { n++; if (!c) erro(m); };
 const ESPERADO = { ped: 50, prev: 50, cir: 50, go: 50 };
 /* "Sobre a matéria": opcional enquanto as 200 estão sendo escritas; vira
    obrigatória (true) quando todas existirem */
-const EXIGE_MATERIA = false;
+const EXIGE_MATERIA = true;
 
 /* --- carrega o banco ---------------------------------------------------- */
 const src = fs.readFileSync(path.join(AQUI, "banco.js"), "utf8");
