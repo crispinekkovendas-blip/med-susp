@@ -23,5 +23,15 @@ module.exports = {
     { id: "susp2021", edicao: 2021, rotulo: "SUS-SP 2021",
       txt: "Seleção Pública para Residência Médica 2021 — SUS/SP, prova objetiva 001 de acesso direto (VUNESP, 10/01/2021); gabarito após recursos (anuladas 27 e 57), na transcrição publicada pelo Estratégia MED em 02/2021",
       caderno: "ferramentas/cadernos/susp2021.txt", gabarito: "ferramentas/cadernos/susp2021-gabarito.txt" },
+    /* outras seleções da VUNESP, todas com QUATRO alternativas (A–D) */
+    { id: "unesp2026", edicao: 2026, rotulo: "UNESP 2026",
+      txt: "Residência Médica 2026 — Faculdade de Medicina de Botucatu (UNESP), prova escrita objetiva 001 de áreas básicas / acesso direto (VUNESP, 29/11/2025), 100 questões de quatro alternativas; gabarito de 01/12/2025 com a alteração do edital de recursos de 05/12/2025 (questão 42 para B; nenhuma anulada)",
+      caderno: "ferramentas/cadernos/unesp2026.txt", gabarito: "ferramentas/cadernos/unesp2026-gabarito.txt" },
+    { id: "einstein2026", edicao: 2026, rotulo: "Einstein 2026",
+      txt: "Processo Seletivo 2026 — Programas de Residência Médica do Einstein Hospital Israelita, prova escrita objetiva 001 de acesso direto (VUNESP, 02/11/2025), 75 questões de quatro alternativas; gabarito após a análise dos recursos, edital de 28/11/2025 (anulada a 49)",
+      caderno: "ferramentas/cadernos/einstein2026.txt", gabarito: "ferramentas/cadernos/einstein2026-gabarito.txt" },
+    { id: "einstein2025", edicao: 2025, rotulo: "Einstein 2025",
+      txt: "Processo Seletivo 2025 — Programas de Residência Médica do Hospital Israelita Albert Einstein, prova escrita objetiva 001 de acesso direto (VUNESP, 20/10/2024), 75 questões de quatro alternativas; gabarito após a análise dos recursos, edital de 11/2024 (anuladas 11, 31, 44 e 45)",
+      caderno: "ferramentas/cadernos/einstein2025.txt", gabarito: "ferramentas/cadernos/einstein2025-gabarito.txt" },
   ],
 };

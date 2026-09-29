@@ -190,6 +190,54 @@ def test_gabarito_susp2021():
     assert {n for n, x in g.items() if x == "*"} == {27, 57}
     assert g[1] == "B" and g[41] == "C" and g[61] == "B" and g[81] == "C" and g[100] == "B"
 
+@teste
+def test_parse_gabarito_cabecalho_escrita_e_anulada_N():
+    # Einstein: "001. PROVA ESCRITA OBJETIVA (TEÓRICA)"; no edital de resultado de 2025 o cabeçalho é "01." e a anulada vem como "N"
+    from parse_gabarito import letras_da_prova
+    txt = "01. PROVA ESCRITA OBJETIVA (TEÓRICA)\nACESSO DIRETO\n1  -  A\n2  -  C\n11  -  N\n75  -  C\n002. PROVA ESCRITA OBJETIVA (TEÓRICA)\n1  -  B\n"
+    g = letras_da_prova(txt, "001")
+    assert g[1] == "A" and g[2] == "C" and g[11] == "*" and g[75] == "C" and 3 not in g
+    assert letras_da_prova(txt, "002") == {1: "B"}
+
+@teste
+def test_gabaritos_unesp2026_e_einstein():
+    g = gabarito_lido("unesp2026-gabarito.txt")
+    assert len(g) == 100 and g[42] == "B" and "*" not in g.values(), "UNESP 2026: 42 trocada para B pelo edital de recursos, nenhuma anulada"
+    g = gabarito_lido("einstein2026-gabarito.txt")
+    assert len(g) == 75 and g[49] == "*" and g[1] == "C" and g[75] == "C"
+    g = gabarito_lido("einstein2025-gabarito.txt")
+    assert len(g) == 75 and {n for n, x in g.items() if x == "*"} == {11, 31, 44, 45} and g[1] == "A"
+
+@teste
+def test_separar_estilo_questao_e_quatro_alternativas():
+    from extrai_questoes import separar_questoes
+    txt = "QUESTÃO  03\t\nRN de 37 semanas.\n(A)\tum.\n(B)\tdois.\n(C)\ttrês.\n(D)\tquatro.\nQUESTÃO  04\t\nOutra.\n(A)\tx.\n(B)\ty.\n(C)\tz.\n(D)\t\n"
+    qs = separar_questoes(txt, "questao")
+    assert [q["numero"] for q in qs] == [3, 4]
+    assert qs[0]["alternativas"] == ["um.", "dois.", "três.", "quatro."] and "erro" not in qs[0]
+    assert qs[1]["erro"] == "alternativa vazia (imagem)" and qs[1]["imagem"] is True
+    assert "erro" in separar_questoes("01.\tX.\n(A)\ta.\n(B)\tb.\n(C)\tc.\n", "ponto")[0], "três alternativas têm de ser marcadas como problema"
+
+@teste
+def test_extracao_unesp2026_e_einstein():
+    for fonte, n in (("unesp2026", 100), ("einstein2026", 75), ("einstein2025", 75)):
+        qs = json.loads(ler(fonte + "-questoes.json"))
+        assert len(qs) == n and [q["numero"] for q in qs] == list(range(1, n + 1)), fonte
+        assert all(len(q["alternativas"]) == 4 for q in qs if "erro" not in q), fonte + ": alguma questão sem 4 alternativas"
+        from normalizar import normalizar
+        cad = normalizar(ler(fonte + ".txt"))
+        for q in qs:
+            if "erro" in q: continue
+            assert normalizar(q["enunciado"]) in cad and all(normalizar(a) in cad for a in q["alternativas"]), f"{fonte} {q['numero']} infiel ao texto"
+    por = {q["numero"]: q for q in json.loads(ler("unesp2026-questoes.json"))}
+    assert por[87]["erro"] == "alternativa vazia (imagem)", "UNESP 87: as alternativas são imagens do formulário de DO"
+    assert por[98]["texto"] == por[99]["texto"] == por[100]["texto"] and por[100]["texto"].startswith("<p><em>Leia o texto a seguir")
+    assert "texto" not in por[97]
+    assert por[1]["area"] == "ped" and por[21]["area"] == "go" and por[41]["area"] == "cm" and por[61]["area"] == "cir" and por[81]["area"] == "prev"
+    por = {q["numero"]: q for q in json.loads(ler("einstein2026-questoes.json"))}
+    assert por[15]["area"] == "cm" and por[16]["area"] == "cir" and por[31]["area"] == "ped" and por[46]["area"] == "go" and por[61]["area"] == "prev"
+    assert not any(re.search(r"(Cirurgia Geral|pediatria|gINECOLOGIA E oBSTETRÍCIA|MEDICINA DA FAMÍLIA E SAÚDE COLETIVA)$", a, re.I) for q in por.values() for a in q["alternativas"]), "título de bloco colado numa alternativa"
+
 if __name__ == "__main__":
     for f in testes:
         try:

@@ -28,7 +28,8 @@ PREFIXOS = {"anti", "auto", "contra", "extra", "infra", "intra", "semi", "sub", 
 
 # palavras inteiras que a quebra faz parecer prefixo + palavra
 NAO_SAO_COMPOSTOS = {"pré-via", "pré-vias", "pré-vio", "pré-vios", "inter-rogar", "inter-rogatório", "inter-romper",
-                     "inter-rompida", "inter-rompido", "inter-rupção", "super-visão", "sub-stância", "sub-stituir"}
+                     "inter-rompida", "inter-rompido", "inter-rupção", "super-visão", "sub-stância", "sub-stituir",
+                     "sem-pre"}
 
 def juntar_hifens(texto):
     texto = texto.replace("\xad\n", "").replace("\xad", "")
@@ -77,21 +78,26 @@ def limpar(texto, rodape):
 
 # instrução que abre um texto compartilhado por uma faixa de questões; o
 # texto vai da instrução até o número da questão seguinte
-APOIO = re.compile(r"(?m)^(?:As quest[õo]es de n[úu]meros (\d+) (?:e|a) (\d+) referem-se .*|Considere .*? para responder [àa]s quest[õo]es de n[úu]meros (\d+) (?:e|a) (\d+)\.)[ \t]*$")
+APOIO = re.compile(r"(?m)^(?:As quest[õo]es de n[úu]meros (\d+) (?:e|a) (\d+) referem-se .*|Considere .*? para responder [àa]s quest[õo]es de n[úu]meros (\d+) (?:e|a) (\d+)\.|Leia o texto a seguir para responder [àa]s quest[õo]es de (\d+) a (\d+):?)[ \t]*$")
 
 def texto_de_apoio(bruto):
     """(texto_sem_apoio, apoio) — apoio = {"de", "ate", "html"} ou None."""
     m = APOIO.search(bruto)
     if not m:
         return bruto, None
-    de, ate = int(m.group(1) or m.group(3)), int(m.group(2) or m.group(4))
+    de, ate = [int(g) for g in m.groups() if g][:2]
     instrucao = re.sub(r"\s+", " ", m.group(0)).strip()
     caso = re.sub(r"\s+", " ", bruto[m.end():]).strip()
     html = f"<p><em>{instrucao}</em></p>" + (f"<p>{caso}</p>" if caso else "")
     return bruto[:m.start()], {"de": de, "ate": ate, "html": html}
 
-def separar_questoes(texto):
-    partes = re.split(r"(?m)^(\d{2,3})\.\t[ ]*", texto)
+ESTILOS = {
+    "ponto": r"(?m)^(\d{2,3})\.\t[ ]*",              # "01.<TAB>" (SUS-SP, Einstein)
+    "questao": r"(?m)^QUESTÃO[  ]+(\d{2,3})\t[ ]*",  # "QUESTÃO 03<TAB>" (UNESP; espaço fino U+2009)
+}
+
+def separar_questoes(texto, estilo="ponto"):
+    partes = re.split(ESTILOS[estilo], texto)
     limpa = lambda s: re.sub(r"\s+", " ", s).strip()
     questoes = []
     apoios = []
@@ -113,8 +119,12 @@ def separar_questoes(texto):
         for a in apoios:
             if a["de"] <= numero <= a["ate"]:
                 q["texto"] = a["html"]
-        if letras != list("ABCDE"):
+        # cinco alternativas (SUS-SP) ou quatro (UNESP, Einstein): as que a banca deu
+        if letras not in (list("ABCDE"), list("ABCD")):
             q["erro"] = f"alternativas {letras}"
+        # alternativa sem texto = alternativa que é uma imagem (formulário de DO na UNESP 2026, questão 87)
+        elif any(not t for t in textos):
+            q["erro"] = "alternativa vazia (imagem)"; q["imagem"] = True
         questoes.append(q)
         if apoio: apoios.append(apoio)
     return questoes
@@ -125,6 +135,7 @@ def main():
     ap.add_argument("--primeira-pagina", type=int, default=1)
     ap.add_argument("--rodape", default=r"Confidencial até o momento da aplicação\.")
     ap.add_argument("--blocos", required=True, help='ex.: "cm:1-20,cir:21-40,ped:41-60,go:61-80,prev:81-100"')
+    ap.add_argument("--estilo", default="ponto", choices=sorted(ESTILOS), help='numeração: "ponto" (01.) ou "questao" (QUESTÃO 03)')
     ap.add_argument("--saida", required=True)
     a = ap.parse_args()
     areas = {}
@@ -135,7 +146,7 @@ def main():
     texto, decisoes = juntar_hifens(texto)
     with open(a.saida + ".txt", "w", encoding="utf-8", newline="\n") as f: f.write(texto)
     with open(a.saida + "-hifens.txt", "w", encoding="utf-8", newline="\n") as f: f.write("\n".join(decisoes) + "\n")
-    questoes = separar_questoes(texto)
+    questoes = separar_questoes(texto, a.estilo)
     problemas = [q for q in questoes if "erro" in q]
     for q in questoes:
         q["area"] = areas.get(q["numero"], "?")

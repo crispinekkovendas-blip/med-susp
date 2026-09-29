@@ -29,7 +29,7 @@ const exige = (c, m) => { n++; if (!c) erro(m); };
 
 /* quantas questões cada área deve ter: 1 no esboço; a tarefa de conteúdo de
    cada área sobe para o número final dela */
-const ESPERADO = { ped: 25, prev: 25, cir: 25, go: 25 };
+const ESPERADO = { ped: 50, prev: 50, cir: 50, go: 50 };
 
 /* --- carrega o banco ---------------------------------------------------- */
 const src = fs.readFileSync(path.join(AQUI, "banco.js"), "utf8");
@@ -122,7 +122,9 @@ for (const q of Q) {
     if (q.texto) for (const trecho of normalizar(q.texto).split(/[.;:|]/).map(s => s.trim()).filter(s => s.length >= 20)) exige(cad.includes(trecho), `${q.id}: trecho do texto de apoio não está no caderno ("${trecho.slice(0, 40)}…")`);
   }
   exige(typeof q.enunciado === "string" && q.enunciado.length >= 20, `${q.id}: enunciado curto ou ausente`);
-  exige(Array.isArray(q.alternativas) && q.alternativas.length === 5, `${q.id}: precisa de 5 alternativas`);
+  /* cinco alternativas (SUS-SP) ou quatro (UNESP, Einstein) — as que a banca deu */
+  exige(Array.isArray(q.alternativas) && (q.alternativas.length === 4 || q.alternativas.length === 5), `${q.id}: precisa de 4 ou 5 alternativas (há ${(q.alternativas || []).length})`);
+  exige(Number.isInteger(q.correta) && q.correta < (q.alternativas || []).length, `${q.id}: correta ${q.correta} aponta para uma alternativa que a questão não tem (${(q.alternativas || []).length} alternativas)`);
   const vistas = new Set();
   for (const a of q.alternativas || []) {
     const na = normalizar(a);
@@ -139,7 +141,9 @@ for (const q of Q) {
   const vereditos = [...String(q.comentario || "").matchAll(/[Gg]abarito <strong>([A-E])<\/strong>/g)].map(m => m[1]);
   exige(vereditos.length === 1, `${q.id}: o comentário precisa de exatamente uma frase "Gabarito <strong>X</strong>" (há ${vereditos.length})`);
   exige(vereditos.every(v => v === letra), `${q.id}: o comentário dá o veredito para ${[...new Set(vereditos)].join("/")}, e o gabarito é ${letra}`);
-  for (const L of LETRAS) exige(String(q.comentario || "").includes(`<strong>${L}</strong>`), `${q.id}: o comentário não explica a alternativa ${L} (falta <strong>${L}</strong>)`);
+  const letrasDaQuestao = LETRAS.slice(0, (q.alternativas || []).length || 5);
+  for (const L of letrasDaQuestao) exige(String(q.comentario || "").includes(`<strong>${L}</strong>`), `${q.id}: o comentário não explica a alternativa ${L} (falta <strong>${L}</strong>)`);
+  for (const L of LETRAS.slice(letrasDaQuestao.length)) exige(!String(q.comentario || "").includes(`<strong>${L}</strong>`), `${q.id}: o comentário fala de uma alternativa ${L} que a questão não tem`);
   exige(/O que a banca testa/.test(q.comentario || ""), `${q.id}: o comentário não fecha dizendo "O que a banca testa"`);
   /* Simplificando */
   exige(typeof q.simples === "string" && q.simples.length >= 200, `${q.id}: sem "simples" (ou curto demais)`);
@@ -310,7 +314,8 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     const cartoes = todos(app, ".q");
     exige(cartoes.length === Q.length, `a página montou ${cartoes.length} cartões, esperava ${Q.length}`);
     const alts = todos(app, ".alt");
-    exige(alts.length === Q.length * 5, `a página montou ${alts.length} alternativas, esperava ${Q.length * 5}`);
+    const totalAlts = Q.reduce((s, q) => s + q.alternativas.length, 0);
+    exige(alts.length === totalAlts, `a página montou ${alts.length} alternativas, esperava ${totalAlts}`);
     exige(todos(app, ".comentario").length === 0, "comentário visível antes de responder");
     /* etiqueta "ROTULO · Questão NN" e tag da área vinda de meta.areas */
     cartoes.forEach((cel, i) => {
@@ -412,7 +417,7 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(qs.length === Q.length, `o caderno padrão montou ${qs.length} fichas, esperava ${Q.length}`);
     const seqAreas = qs.map(f => IDS_AREA.indexOf((Q.find(x => x.id === f.attrs["data-id"]) || {}).area));
     exige(seqAreas.every((v, i) => v >= 0 && (i === 0 || v >= seqAreas[i - 1])), "as fichas não estão agrupadas por área na ordem de meta.areas");
-    exige(todos(app, ".alts").flatMap(a => todos(a, ".bolha")).length === Q.length * 5, "as fichas não têm uma bolha por alternativa");
+    exige(todos(app, ".alts").flatMap(a => todos(a, ".bolha")).length === Q.reduce((s, q) => s + q.alternativas.length, 0), "as fichas não têm uma bolha por alternativa");
     const fichaOk = f => {
       const d = Q.find(x => x.id === f.attrs["data-id"]);
       const c = f.querySelector(".comentario");
@@ -458,7 +463,8 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(todos(app, ".simples").length === 0, "Simplificando desligado ainda aparece");
     exige(todos(app, ".figura").length === 0, "a opção Figuras desligada ainda imprime figuras");
     exige(todos(app, ".notas").length === qs2.length && todos(app, ".notas").every(x => x.className.includes("nenhuma")), "a opção de anotações em branco não chegou às fichas");
-    exige(todos(app, ".folha").flatMap(f => todos(f, ".bolha")).length === qs2.length * 5, "a folha de respostas não tem 5 bolhas por questão");
+    const bolhasEsperadas = Q.filter(q => q.area === a0.id).reduce((s, q) => s + q.alternativas.length, 0);
+    exige(todos(app, ".folha").flatMap(f => todos(f, ".bolha")).length === bolhasEsperadas, `a folha de respostas não tem uma bolha por alternativa de cada questão (${todos(app, ".folha").flatMap(f => todos(f, ".bolha")).length}, esperava ${bolhasEsperadas})`);
     exige(todos(app, ".gabarito").length === 0, "com resumo desligado, o gabarito resumido ainda foi impresso");
     /* uma edição, outro nome */
     const f0 = B.meta.fontes.find(f => Q.some(q => q.fonte === f.id));

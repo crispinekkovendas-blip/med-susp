@@ -1,4 +1,4 @@
-# Seleção das questões (2026-09-28)
+# Seleção das questões (2026-09-28; rodada 2 no fim)
 
 Regra: SUS-SP 2026 inteira (20 por área), menos as anuladas pela banca e as
 questões que dependem de figura; o resto de cada área vem do **SUS-SP 2021**
@@ -106,3 +106,39 @@ taquitócico · 59 HIV: via de parto. Deixadas: 41 (violência sexual), 42
 (líquido amniótico gemelar).
 
 Excluídas: nenhuma.
+
+## Rodada 2 (2026-09-28): UNESP 2026, Einstein 2026 e Einstein 2025 — mais 25 por área
+
+Regra: as outras seleções da VUNESP com caderno oficial público (todas de quatro alternativas), 25 por área, escolhidas para cobrir o que os 100 primeiros não cobriam; fora as anuladas (Einstein 2026: 49; Einstein 2025: 11, 31, 44, 45) e as que dependem de figura (UNESP 16, 25, 41, 52, 71, 73, 74, 79 e 87, cujas alternativas são imagens; Einstein 2026: 17, 29, 36, 39, 46, 65, 68, 73, 74, 75; Einstein 2025: 17, 18, 20). FAMEMA 2026 e UNIFESP 2026 ficaram de fora (ver README, "De onde vêm as questões"). Uma linha por questão: número · tema.
+
+### Pediatria (+25 = 11 UNESP 2026 + 8 Einstein 2026 + 6 Einstein 2025)
+
+UNESP 2026: 3 Reanimação neonatal · 4 Clampeamento tardio do cordão · 5 Síndrome de Down na adolescência · 7 Síndrome metabólica na criança · 9 PCR na criança asmática · 12 Doença celíaca · 13 Corpo estranho ingerido · 14 Alergia à proteína do leite de vaca no bebê em aleitamento exclusivo · 15 Quando investigar malformação do trato urinário no lactente · 18 Cefaleia, vômitos e ataxia na criança · 19 Febre reumática.
+
+Einstein 2026: 31 Síndrome torácica aguda · 33 Sibilância recorrente no lactente · 34 Introdução alimentar no lactente de alto risco para alergia · 37 Hepatite A na criança · 38 Doença de Kawasaki de alto risco · 42 Síndrome de Turner · 43 Criptorquidia · 44 Engasgo do lactente consciente com tosse.
+
+Einstein 2025: 32 Glomerulonefrite pós-estreptocócica · 33 Desidratação na diarreia · 36 Anafilaxia ao ovo no lactente · 38 Puberdade masculina · 40 PFAPA · 41 Claudicação no pré-escolar.
+
+### Medicina Preventiva e Social (+25 = 12 UNESP 2026 + 6 Einstein 2026 + 7 Einstein 2025)
+
+UNESP 2026: 81 Políticas de saúde de 1974 a 1979 · 82 De onde vem a frase · 84 Equipe de Saúde da Família · 86 Declaração de óbito · 89 Infectividade, patogenicidade, virulência · 91 Expostos e não expostos seguidos no tempo · 92 Quando adiar uma vacina · 93 Recém-nascido contato de mãe bacilífera · 94 Redes de Atenção à Saúde e linhas de cuidado · 96 Violência contra a mulher · 97 Letalidade · 100 Caso-controle com registros eletrônicos.
+
+Einstein 2026: 61 Delirium na idosa · 66 Adolescente que quer parar de fumar · 69 Fibromialgia na idosa · 70 Contato de bacilífero com PT de 5 mm · 71 Obesidade com insegurança alimentar · 75 Teleinterconsulta.
+
+Einstein 2025: 61 Dengue com sinal de alarme · 62 Gestante em situação de rua · 63 Violência patrimonial · 66 PrEP no adolescente · 68 Abstinência alcoólica leve no CAPS · 69 Ensaio clínico bem conduzido · 70 Meta-análise.
+
+### Cirurgia (+25 = 11 UNESP 2026 + 7 Einstein 2026 + 7 Einstein 2025)
+
+UNESP 2026: 61 Trauma arterial do joelho · 62 Isquemia e reperfusão · 63 HPB com sintomas moderados · 64 Cálculo ureteral de 5 mm · 65 Sangue no meato após trauma perineal · 66 Nódulo de tireoide · 67 Carcinoma de amígdala em jovem não fumante · 69 Complicações mecânicas do infarto que vão para a cirurgia · 76 Necrose, crepitação e toxemia no períneo · 78 Hematoquezia volumosa na idosa · 80 Ferimento torácico aspirativo.
+
+Einstein 2026: 16 Diverticulite aguda · 19 Disfagia progressiva com emagrecimento · 22 Ferida infectada com necrose · 23 Profilaxia antibiótica cirúrgica · 24 FAST positivo em choque compensado · 25 Queimadura de face em ambiente fechado · 28 Tumor de pâncreas ressecável, paciente inoperável.
+
+Einstein 2025: 16 Pancreatite aguda grave · 21 Pneumotórax hipertensivo no trauma · 22 TCE que piora para Glasgow 8 · 25 Cálculo biliar na criança · 27 Lesão subepitelial gástrica · 28 Rastreamento do câncer colorretal · 29 Insuficiência venosa crônica.
+
+### Ginecologia e Obstetrícia (+25 = 11 UNESP 2026 + 7 Einstein 2026 + 7 Einstein 2025)
+
+UNESP 2026: 21 Trabalho de parto pré-termo tardio · 23 Primeira consulta · 24 Prevenção da pré-eclâmpsia · 26 Hemorragia pós-parto · 27 Variedade de posição · 28 Endometrite pós-cesárea · 33 Dismenorreia com DIU de cobre · 35 Risco hereditário de câncer de mama · 36 Prolapso genital · 37 Após cirurgia conservadora da mama, a radioterapia é obrigatória · 39 Osteoporose densitométrica.
+
+Einstein 2026: 47 Amenorreia primária com puberdade completa · 50 Síndrome antifosfolípide na gestação · 51 Restrição do crescimento fetal · 53 Bradicardia fetal no expulsivo com cabeça baixa · 54 Ectópica com metotrexato · 57 Enxaqueca com aura · 58 Morcelamento protegido na histerectomia.
+
+Einstein 2025: 48 Diabetes pré-gestacional · 49 Pré-eclâmpsia grave com 35 semanas · 53 Aloimunização Rh · 54 Sífilis na gestação · 55 Sangramento do primeiro trimestre · 56 Câncer de mama HER2 positivo · 59 DIP sem abscesso.

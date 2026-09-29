@@ -7,6 +7,11 @@ onde saem as anulações da prova pedida, e/ou uma lista manual --anuladas.
 
     python ferramentas/parse_gabarito.py --preliminar cadernos/susp2026-gabarito-preliminar.txt \
         --recursos cadernos/susp2026-recursos.txt --prova 001 --saida cadernos/susp2026-gabarito.txt
+
+Quando o edital de recursos é uma imagem (UNESP 2026), as trocas entram à
+mão: --alteracoes "42=B" e --anuladas "…". Quando o edital de resultado já
+traz o gabarito após os recursos (Einstein), ele é a própria --preliminar
+("N" = anulada).
 """
 import argparse, re, sys
 
@@ -15,23 +20,27 @@ def letras_da_prova(texto, prova):
     Sem cabeçalho "NNN. PROVA OBJETIVA" (gabarito transcrito por cursinho,
     como o do SUS-SP 2021), o texto inteiro é o bloco. Uma letra seguida de
     asterisco ("27- A*") é questão anulada e vira "*"."""
-    blocos = re.split(r"(?m)^\s*(\d{3})\.\s*PROVA\s+OBJETIVA", texto)
+    # "001. PROVA OBJETIVA" (SUS-SP), "001. PROVA ESCRITA OBJETIVA" (UNESP,
+    # Einstein) e até "01. PROVA ESCRITA OBJETIVA" (edital de resultado do
+    # Einstein 2025): o número da prova é comparado com zeros à esquerda
+    blocos = re.split(r"(?m)^\s*(\d{2,3})\.\s*PROVA\s+(?:ESCRITA\s+)?OBJETIVA", texto)
     # blocos = [antes, "001", corpo, "002", corpo, ...]
     corpo = None
     if len(blocos) == 1:
         corpo = texto
     for i in range(1, len(blocos), 2):
-        if blocos[i] == prova:
+        if blocos[i].zfill(3) == prova.zfill(3):
             corpo = blocos[i + 1]
     if corpo is None:
         raise SystemExit(f"prova {prova} não encontrada no gabarito")
-    pares = re.findall(r"(\d{1,3})\s*-\s*([A-E])(\*?)(?![A-Za-z])", corpo)
+    # "11 - N" (Einstein, gabarito após recursos) é questão anulada
+    pares = re.findall(r"(\d{1,3})\s*-\s*([A-EN])(\*?)(?![A-Za-z])", corpo)
     letras = {}
     for n, x, anulada in pares:
         n = int(n)
         if n in letras:
             break          # a numeração recomeçou: acabou a prova
-        letras[n] = "*" if anulada else x
+        letras[n] = "*" if anulada or x == "N" else x
     return letras
 
 def anuladas_do_edital(raw, prova):
@@ -63,12 +72,18 @@ def main():
     ap.add_argument("--preliminar", required=True)
     ap.add_argument("--recursos")
     ap.add_argument("--anuladas", default="")
+    ap.add_argument("--alteracoes", default="", help='letras trocadas pelo edital de recursos, ex.: "42=B,83=B"')
     ap.add_argument("--prova", default="001")
     ap.add_argument("--saida", required=True)
     a = ap.parse_args()
     with open(a.preliminar, encoding="utf-8", errors="replace") as f:
         letras = letras_da_prova(f.read(), a.prova)
     anuladas = set(int(x) for x in a.anuladas.split(",") if x.strip())
+    for troca in [x for x in a.alteracoes.split(",") if x.strip()]:
+        n, x = troca.split("=")
+        if int(n) not in letras:
+            raise SystemExit(f"alteração da questão {n}, que não está no gabarito")
+        letras[int(n)] = x.strip().upper()
     if a.recursos:
         with open(a.recursos, encoding="utf-8", errors="replace") as f:
             anuladas |= anuladas_do_edital(f.read(), a.prova)

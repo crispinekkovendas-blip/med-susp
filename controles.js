@@ -36,6 +36,8 @@ function noBloco(orig, id, velho, novo) {
 const moveGabarito = (orig, id, para) => noBloco(orig, id, /correta: \d,/.exec(orig.slice(orig.indexOf(`{ id: "${id}",`)))[0], `correta: ${para},`);
 const primeiroId = area => { const m = originais["banco.js"].match(new RegExp(`\\{ id: "(${area}\\d\\d)",`)); return m[1]; };
 const PED = primeiroId("ped"), PREV = primeiroId("prev"), CIR = primeiroId("cir"), GO = primeiroId("go");
+/* a primeira questão de quatro alternativas (UNESP 2026): o bloco em que o array alternativas tem 4 linhas */
+const QUATRO = (() => { const b = originais["banco.js"]; const m = /\{ id: "(\w+)",\n  area: "\w+",\n  tema: "[^"\n]*",\n  fonte: "unesp2026"/.exec(b); if (!m) throw new Error("não há questão da UNESP 2026 em banco.js"); return m[1]; })();
 
 const controles = [
   /* --- gabarito oficial e fidelidade ao caderno --------------------------- */
@@ -166,6 +168,15 @@ const controles = [
     txt: o => planta(o, "max-height: 62mm;", "max-height: none;"), cita: /max-height em mm/ },
   { arquivo: "app.css", nome: "app.css: a figura ampliada deixa de cobrir a tela",
     txt: o => planta(o, ".ampliar { position: fixed;", ".ampliar { position: static;"), cita: /\.ampliar \{ position: fixed/ },
+  /* --- quatro alternativas (UNESP, Einstein) ------------------------------ */
+  { nome: `quatro alternativas: gabarito E numa questão A–D (${QUATRO})`,
+    txt: o => moveGabarito(o, QUATRO, 4), cita: /aponta para uma alternativa que a questão não tem/ },
+  { nome: `quatro alternativas: ${QUATRO} fica com três alternativas`,
+    txt: o => { const i = o.indexOf(`{ id: "${QUATRO}",`); const a = o.indexOf("alternativas: [", i); const b = o.indexOf("\n  ]", a); const linhas = o.slice(a, b).split("\n"); return o.slice(0, a) + linhas.slice(0, -1).join("\n") + o.slice(b); }, cita: /precisa de 4 ou 5 alternativas \(há 3\)/ },
+  { nome: `quatro alternativas: o comentário de ${QUATRO} fala de uma letra E`,
+    txt: o => noBloco(o, QUATRO, "<strong>D</strong> está errada", "<strong>E</strong> está errada"), cita: /fala de uma alternativa E que a questão não tem/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: a folha de respostas volta a dar 5 bolhas a todas",
+    txt: o => planta(o, "i < lista[n - 1].alternativas.length ? h(\"span\", { class: \"bolha\" }) : null", 'h("span", { class: "bolha" })'), cita: /folha de respostas não tem uma bolha por alternativa/ },
 ];
 
 let falhos = 0;

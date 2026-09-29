@@ -2,10 +2,12 @@
 
 Banco de questões comentadas de **Pediatria, Medicina Preventiva e Social,
 Cirurgia e Ginecologia e Obstetrícia** para a Seleção Pública para Residência
-Médica do SUS-SP (banca VUNESP), acesso direto. **100 questões**, todas reais,
-extraídas dos cadernos oficiais, com gabarito oficial, comentário, referências,
-Simplificando e **uma figura por questão** (foto ou imagem de exame do
-Wikimedia Commons, licença livre, com crédito). Sem framework, sem build, sem
+Médica do SUS-SP (banca VUNESP), acesso direto. **200 questões**, todas reais,
+de cinco provas da VUNESP — SUS-SP 2026 e 2021 (cinco alternativas), UNESP
+Botucatu 2026, Einstein 2026 e Einstein 2025 (quatro alternativas, como a
+banca as fez) —, extraídas dos cadernos oficiais, com gabarito oficial,
+comentário, referências, Simplificando e **uma figura por questão** (foto ou
+imagem de exame do Wikimedia Commons, licença livre, com crédito). Sem framework, sem build, sem
 servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 
 | O quê | Onde |
@@ -16,25 +18,29 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 
 ## Números (2026-09-28)
 
-| Área | SUS-SP 2026 | SUS-SP 2021 | Total |
-|---|---|---|---|
-| Pediatria | 20 | 5 | 25 |
-| Medicina Preventiva e Social | 19 | 6 | 25 |
-| Cirurgia | 17 | 8 | 25 |
-| Ginecologia e Obstetrícia | 20 | 5 | 25 |
-| **Total** | **76** | **24** | **100** |
+| Área | SUS-SP 2026 | SUS-SP 2021 | UNESP 2026 | Einstein 2026 | Einstein 2025 | Total |
+|---|---|---|---|---|---|---|
+| Pediatria | 20 | 5 | 11 | 8 | 6 | 50 |
+| Medicina Preventiva e Social | 19 | 6 | 12 | 6 | 7 | 50 |
+| Cirurgia | 17 | 8 | 11 | 7 | 7 | 50 |
+| Ginecologia e Obstetrícia | 20 | 5 | 11 | 7 | 7 | 50 |
+| **Total** | **76** | **24** | **45** | **28** | **27** | **200** |
 
-Figuras: 100 (uma por questão). Fichas do caderno (medição de 2026-09-28,
-geometria do papel): com figuras, as 100 são duplas — 200 páginas de fichas;
-sem figuras (opção "Figuras: Não"), 10 normais, 29 apertadas e 61 duplas —
-161 páginas.
+Figuras: 200 (uma por questão). Fichas do caderno (medição de 2026-09-28,
+geometria do papel): com figuras, as 200 são duplas — 400 páginas de fichas;
+sem figuras (opção "Figuras: Não"), ver a medição registrada em "Caderno".
 
-Ids `ped01–ped25`, `prev01–prev25`, `cir01–cir25`, `go01–go25`; dentro da área,
-primeiro as de 2026, depois as de 2021, cada grupo pelo número da questão na
-prova. Do SUS-SP 2026 ficaram de fora as anuladas (4, 21, 23 e 36 — a 4 é de
-Clínica Médica) e a 91 (depende de um gráfico). Do SUS-SP 2021 entraram 24,
-escolhidas para cobrir temas que o bloco de 2026 não tocou; a lista e o
-motivo de cada escolha estão em `ferramentas/selecao.md`.
+Ids `ped01–ped50`, `prev01–prev50`, `cir01–cir50`, `go01–go50`; dentro da área,
+as fontes na ordem de `meta.fontes` (SUS-SP 2026, SUS-SP 2021, UNESP 2026,
+Einstein 2026, Einstein 2025), cada grupo pelo número da questão na prova —
+os 25 primeiros ids de cada área são o banco original do SUS-SP, os 25
+seguintes a rodada das outras provas. Do SUS-SP 2026 ficaram de fora as
+anuladas (4, 21, 23 e 36 — a 4 é de Clínica Médica) e a 91 (depende de um
+gráfico). Do SUS-SP 2021 entraram 24, escolhidas para cobrir temas que o
+bloco de 2026 não tocou. Das outras três provas entraram 25 por área (cerca
+de 6 a 12 por prova), escolhidas para cobrir o que os 100 primeiros não
+cobriam, fora as anuladas e as que dependem de figura; a lista e o motivo de
+cada escolha estão em `ferramentas/selecao.md`.
 
 ## Arquivos
 
@@ -46,7 +52,7 @@ caderno/              o banco em papel (index.html, caderno.js, caderno.css)
 figuras/              <id>.jpg, uma por questão (≤ 1400 px, ≤ 600 KB) + FONTES.md (proveniência);
                       candidatos.json, escolhas.json e figuras.json ficam fora do ar
 verificar.js          o harness — não vai para o ar (.vercelignore)
-controles.js          os 61 controles negativos do harness — idem
+controles.js          os 65 controles negativos do harness — idem
 ferramentas/          fora do ar: metadados, extração, montagem, figuras, testes, seleção, cadernos
 docs/superpowers/     spec e plano — fora do ar
 ```
@@ -86,9 +92,9 @@ docs/superpowers/     spec e plano — fora do ar
 - `serializar.js` — a escrita de `banco.js` (chaves sem aspas, ordem fixa).
 - `normalizar.js` / `normalizar.py` — a mesma normalização de texto nas duas
   linguagens (`testes.py` confere a paridade).
-- `testes.py` — 15 testes das ferramentas: `python ferramentas/testes.py`.
+- `testes.py` — 19 testes das ferramentas: `python ferramentas/testes.py`.
 - `conferir_readme.js` — a tabela acima contra `banco.js`.
-- `selecao.md` — as 100 escolhas e o motivo de cada uma.
+- `selecao.md` — as 200 escolhas e o motivo de cada uma.
 
 ## De onde vêm as questões — e por que só estas
 
@@ -100,17 +106,35 @@ e "Provas e Gabaritos" exige login de candidato, então os documentos vêm de
 espelhos (QConcursos, Estratégia MED, Medway), com URL e md5 em
 `ferramentas/cadernos/FONTES.md`.
 
-Outras provas de residência da VUNESP foram avaliadas e descartadas: UNESP
-Botucatu 2026, FAMEMA 2026 e Einstein 2025 usam **quatro** alternativas; o
-HRPP 2026 (cinco alternativas) não tem caderno em fonte pública; as provas de
-pré-requisito são de nível de especialista.
+A segunda rodada (2026-09-28) trouxe as outras seleções da VUNESP com caderno
+oficial público, todas de **quatro alternativas**: **UNESP Botucatu 2026**
+(prova 001 de áreas básicas / acesso direto, 29/11/2025, 100 questões;
+caderno no CDN do Estratégia MED; gabarito de 01/12/2025 com a única troca do
+edital de recursos, a questão 42 para B — o edital é uma imagem, e a troca
+entra à mão em `parse_gabarito.py --alteracoes`), **Einstein 2026** (prova
+001 de acesso direto, 02/11/2025, 75 questões; caderno e gabarito após
+recursos no edital de resultado de 28/11/2025, anulada a 49) e **Einstein
+2025** (20/10/2024, 75 questões; gabarito após recursos no edital de
+resultado, anuladas 11, 31, 44 e 45, marcadas com `N`). Ficaram de fora:
+**FAMEMA 2026** (VUNESP, mas o caderno só existe na área do candidato — os
+PDFs públicos são re-digitados por cursinhos e o PCI Concursos fica atrás de
+uma verificação de segurança), **UNIFESP 2026** (a 1ª fase foi elaborada pela
+própria EPM-UNIFESP; a VUNESP só assume no PSRM 2026-2027, prova em
+29/11/2026), o HRPP 2026 (sem caderno público), a FAMERP (Fundatec) e as
+provas de pré-requisito (nível de especialista).
 
 O caderno do SUS-SP 2026 tem 100 questões em blocos fixos de 20 (Clínica
 Médica 1–20, Cirurgia 21–40, Pediatria 41–60, GO 61–80, Preventiva 81–100);
 o de 2021 tem os mesmos blocos em outra ordem (Preventiva 1–20, CM 21–40, GO
 41–60, Cirurgia 61–80, Pediatria 81–100). O gabarito de 2026 é o preliminar
 com as anulações do edital de recursos de 20/01/2026 (nenhuma letra mudou);
-o de 2021 é a transcrição do Estratégia MED com as anuladas 27 e 57.
+o de 2021 é a transcrição do Estratégia MED com as anuladas 27 e 57. O da
+UNESP 2026 não titula os blocos: pelo conteúdo, Pediatria 1–20, GO 21–40, CM
+41–60, Cirurgia 61–80, Preventiva 81–100 (numeração `QUESTÃO NN`, lista de
+siglas nas páginas 3–4, texto compartilhado nas 98–100, alternativas da 87
+são imagens). Os do Einstein têm 75 questões em blocos de 15 (CM 1–15,
+Cirurgia 16–30, Pediatria 31–45, GO 46–60, Preventiva 61–75), com os títulos
+de bloco em caixa trocada no de 2026.
 
 ## O modelo de uma questão
 
@@ -118,7 +142,7 @@ o de 2021 é a transcrição do Estratégia MED com as anuladas 27 e 57.
 { id: "ped01", area: "ped", tema: "Avaliação nutricional — índice estatura-para-idade",
   fonte: "susp2026", edicao: 2026, numero: 41,
   texto: "<p>…</p>",                 // opcional: texto compartilhado do caderno (ou tabela em HTML)
-  enunciado: "…", alternativas: ["…", "…", "…", "…", "…"], correta: 1,   // índice 0–4
+  enunciado: "…", alternativas: ["…", "…", "…", "…", "…"], correta: 1,   // índice 0–4; UNESP e Einstein têm 4 alternativas
   referencias: ["Ministério da Saúde — Norma Técnica do SISVAN, 2011", "…"],
   comentario: "<p>Questão 41 (SUS-SP 2026). Gabarito <strong>B</strong>. …</p>",
   simples: "<p>A resposta é a letra <strong>B</strong>. …</p>",
@@ -135,10 +159,14 @@ Regras que o harness cobra:
   colapsados), no `ferramentas/cadernos/<fonte>.txt`; `correta` é a letra do
   gabarito oficial; anulada não entra; `numero` único por fonte; `edicao`
   igual à da fonte. Nada no banco pode ser inventado ou digitado com erro.
+- **Alternativas**: quatro ou cinco, as que a banca deu — nunca se inventa
+  uma quinta; `correta` tem de existir; a página aceita as teclas A–E mas só
+  responde às letras que a questão tem, e a folha de respostas do caderno
+  desenha uma bolha por alternativa.
 - **Comentário**: ≥ 600 caracteres; abre com `Questão N (ROTULO)`; uma única
-  frase de veredito `Gabarito <strong>X</strong>`; explica as cinco letras
-  (`<strong>A</strong>` … `<strong>E</strong>`); fecha com "O que a banca
-  testa".
+  frase de veredito `Gabarito <strong>X</strong>`; explica cada letra que a
+  questão tem (`<strong>A</strong>` … `<strong>D</strong>` ou `<strong>E</strong>`)
+  e nenhuma a mais; fecha com "O que a banca testa".
 - **Simplificando**: ≥ 200 caracteres; diz `a letra <strong>X</strong>`;
   média ≤ 14 palavras por frase, nenhuma com mais de 26.
 - `tema` de 8 a 70 caracteres; `referencias` de 1 a 3, cada uma de 10 a 120;
@@ -182,7 +210,15 @@ reumatologia"), prev21 e prev25 (visita domiciliar e unidade de Ebola, cena
 e não o tema), go10 (a lesão placentária da pré-eclâmpsia, em histologia,
 porque não há foto livre de aferição de PA em gestante), go11 (Doppler da
 placenta, não placenta prévia) e go12 (idade óssea, porque não há foto livre
-do análogo de GnRH). O restante mostra o próprio achado da questão.
+do análogo de GnRH). Na segunda rodada: cir26 (ultrassom da safena, aqui
+trombosada, para a ponte venosa), cir40 (farmácia hospitalar, para a hora da
+profilaxia), prev31 (os médicos de Framingham, para o estudo de coorte),
+prev49 (comprimidos, para o ensaio clínico), prev50 (biblioteca médica, para
+a meta-análise), prev36 (mamografia, para a letalidade), go29 (balão de
+tamponamento, o passo seguinte à ocitocina), go30 (parto, para a variedade
+de posição), go35 (radioterapia em geral) e go42 (um DIU de cobre, porque o
+de levonorgestrel só existe em desenho no Commons — a legenda diz isso). O
+restante mostra o próprio achado da questão.
 
 ## A página na tela (app.js)
 
@@ -236,9 +272,9 @@ papel).
 
 ```
 node ferramentas/montar.js       # reescreve banco.js a partir das entradas
-node verificar.js                # ~10.900 conferências; sai 1 se algo falhar
-node controles.js                # planta 61 falhas, uma por vez, e exige que cada uma seja mordida
-python ferramentas/testes.py     # 15 testes das ferramentas (extração, gabarito, normalização)
+node verificar.js                # ~21.700 conferências; sai 1 se algo falhar
+node controles.js                # planta 65 falhas, uma por vez, e exige que cada uma seja mordida
+python ferramentas/testes.py     # 19 testes das ferramentas (extração, gabarito, normalização)
 node ferramentas/conferir_readme.js
 ```
 
@@ -271,11 +307,15 @@ lidos pelo autor; quando a pergunta é "está certo?", leia a referência citada
   `montar.js`. Hífen mal juntado: ajuste as listas em `extrai_questoes.py`
   e reextraia. Gabarito: `parse_gabarito.py`.
 - Para acrescentar uma edição: baixar caderno e gabarito para `cadernos/`
-  (registrar em `FONTES.md`), `parse_gabarito.py`, `extrai_questoes.py` com
-  o `--rodape` e os `--blocos` daquele caderno (confira os limites dos blocos
-  lendo a primeira e a última questão de cada um), acrescentar a fonte em
-  `meta.js`, escrever as entradas, subir `ESPERADO` em `verificar.js`,
-  rodar tudo, deploy.
+  (registrar em `FONTES.md` e em `baixar.js`), `parse_gabarito.py` (cabeçalho
+  `NNN. PROVA [ESCRITA] OBJETIVA`, `N` ou `*` = anulada, `--alteracoes` para
+  trocas que só existem em imagem), `extrai_questoes.py` com o `--rodape`
+  (que também apaga os títulos de bloco), os `--blocos` daquele caderno
+  (confira os limites lendo a primeira e a última questão de cada um) e o
+  `--estilo` da numeração (`ponto` = `01.`, `questao` = `QUESTÃO 03`),
+  acrescentar a fonte em `meta.js`, escrever as entradas (quatro ou cinco
+  letras, as da banca), as figuras (`figuras.py`) e as legendas, subir
+  `ESPERADO` em `verificar.js`, a tabela do README, rodar tudo, deploy.
 - Para trocar a figura de uma questão: `python ferramentas/figuras.py trocar
   ped02 "File:Outra imagem.jpg"` (o título tem de estar em
   `figuras/candidatos.json` — se não estiver, acrescente uma busca em

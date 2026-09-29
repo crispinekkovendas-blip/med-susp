@@ -111,7 +111,8 @@
       h("p", { class: "sub" }, "Para quem prefere responder tudo antes de destapar: uma bolha por questão e uma coluna para ✓ ou ✗."),
       h("div", { class: "colunas" }, colunas.map(col => h("table", { class: "grade" },
         h("thead", null, h("tr", null, h("th", null, "Nº"), [..."ABCDE"].map(l => h("th", null, l)), h("th", null, "✓"))),
-        h("tbody", null, col.map(n => h("tr", null, h("td", { class: "n" }, dois(n)), [..."ABCDE"].map(() => h("td", null, h("span", { class: "bolha" }))), h("td", { class: "conf" }))))))));
+        /* uma bolha por alternativa: as questões de quatro (UNESP, Einstein) deixam a coluna E vazia */
+        h("tbody", null, col.map(n => h("tr", null, h("td", { class: "n" }, dois(n)), [..."ABCDE"].map((L, i) => h("td", null, i < lista[n - 1].alternativas.length ? h("span", { class: "bolha" }) : null)), h("td", { class: "conf" }))))))));
   }
 
   /* uma linha por questão, agrupadas por área na ordem de meta.areas */

@@ -134,15 +134,119 @@ CONSULTAS = {
   "go23": ["ductus venosus Doppler", "fetal Doppler ultrasound"],
   "go24": ["labor delivery hospital", "childbirth delivery room"],
   "go25": ["zidovudine", "cesarean section surgery"],
+  # --- UNESP 2026 / Einstein 2026 / Einstein 2025 (ids 26–50 de cada área) ---
+  "ped26": ["neonatal resuscitation bag mask ventilation newborn", "newborn resuscitation"],
+  "ped27": ["umbilical cord clamping newborn", "umbilical cord clamp"],
+  "ped28": ["Down syndrome teenager", "Down syndrome girl"],
+  "ped29": ["acanthosis nigricans neck", "childhood obesity"],
+  "ped30": ["pediatric CPR chest compressions child manikin", "cardiopulmonary resuscitation child"],
+  "ped31": ["tapioca rice flour cornmeal", "gluten-free flour"],
+  "ped32": ["swallowed coin x-ray child", "foreign body ingestion radiograph coin"],
+  "ped33": ["mother breastfeeding baby", "breastfeeding infant"],
+  "ped34": ["hydronephrosis ultrasound", "voiding cystourethrogram vesicoureteral reflux"],
+  "ped35": ["medulloblastoma MRI", "posterior fossa tumor MRI child"],
+  "ped36": ["Aschoff body histology", "rheumatic fever Aschoff"],
+  "ped37": ["acute chest syndrome chest x-ray sickle cell", "sickle cell disease chest radiograph"],
+  "ped38": ["spacer inhaler child mask", "metered dose inhaler spacer toddler"],
+  "ped39": ["baby eating solid food", "complementary feeding infant"],
+  "ped40": ["hepatitis A virus electron micrograph", "jaundice child sclera"],
+  "ped41": ["Kawasaki disease strawberry tongue", "Kawasaki disease child"],
+  "ped42": ["Turner syndrome webbed neck", "Turner syndrome karyotype 45,X"],
+  "ped43": ["undescended testis", "orchidopexy"],
+  "ped44": ["infant choking back blows", "infant back blows first aid"],
+  "ped45": ["post-streptococcal glomerulonephritis histology", "impetigo child"],
+  "ped46": ["oral rehydration salts child", "oral rehydration solution"],
+  "ped47": ["epinephrine auto-injector", "adrenaline autoinjector"],
+  "ped48": ["Prader orchidometer", "orchidometer beads"],
+  "ped49": ["aphthous ulcer mouth", "aphthous stomatitis"],
+  "ped50": ["hip ultrasound effusion child", "transient synovitis hip ultrasound"],
+  "prev26": ["INAMPS prédio", "hospital Brasil década de 1970"],
+  "prev27": ["promulgação Constituição 1988", "Constituição Federal 1988"],
+  "prev28": ["equipe saúde da família", "agente comunitário de saúde visita domiciliar"],
+  "prev29": ["declaração de óbito", "death certificate form"],
+  "prev30": ["Mycobacterium tuberculosis scanning electron micrograph", "bacteria scanning electron micrograph"],
+  "prev31": ["Framingham Heart Study", "cohort study epidemiology researchers"],
+  "prev32": ["vaccination child Brazil", "vaccine vial syringe"],
+  "prev33": ["BCG vaccine vial", "BCG vaccination scar"],
+  "prev34": ["ambulância SAMU", "hospital corridor SUS"],
+  "prev35": ["Lei Maria da Penha", "Delegacia da Mulher"],
+  "prev36": ["mammography exam", "cancer registry statistics"],
+  "prev37": ["electronic health record computer hospital", "prontuário eletrônico"],
+  "prev38": ["elderly woman hospital bed", "elderly patient hands nurse"],
+  "prev39": ["teenager smoking cigarette", "adolescent smoking"],
+  "prev40": ["elderly woman exercise group", "older adults walking group"],
+  "prev41": ["tuberculin skin test reading ruler", "Mantoux induration"],
+  "prev42": ["ultra-processed food supermarket", "Bolsa Família"],
+  "prev43": ["telemedicine doctor video call", "telemedicine consultation"],
+  "prev44": ["Aedes aegypti mosquito", "dengue mosquito"],
+  "prev45": ["consultório na rua", "homeless people under viaduct Brazil"],
+  "prev46": ["Lei Maria da Penha campanha", "wallet money hands"],
+  "prev47": ["PrEP Truvada tablet", "tenofovir emtricitabine tablet"],
+  "prev48": ["Centro de Atenção Psicossocial", "diazepam tablets"],
+  "prev49": ["clinical trial pills placebo", "randomized controlled trial"],
+  "prev50": ["medical journals stack library", "Cochrane"],
+  "cir26": ["great saphenous vein harvest", "saphenous vein graft"],
+  "cir27": ["fasciotomy leg compartment syndrome", "fasciotomy"],
+  "cir28": ["benign prostatic hyperplasia ultrasound", "tamsulosin capsule"],
+  "cir29": ["ureteral stone CT", "kidney stone CT scan"],
+  "cir30": ["retrograde urethrogram urethral injury", "urethrography"],
+  "cir31": ["thyroid nodule ultrasound microcalcifications", "thyroid ultrasound nodule"],
+  "cir32": ["tonsil carcinoma", "oropharyngeal cancer HPV p16"],
+  "cir33": ["ventricular septal rupture myocardial infarction", "papillary muscle rupture"],
+  "cir34": ["Fournier gangrene", "necrotizing fasciitis"],
+  "cir35": ["diverticular bleeding colonoscopy", "colonic diverticulosis colonoscopy"],
+  "cir36": ["chest tube drainage", "chest drain thoracostomy"],
+  "cir37": ["sigmoid diverticulitis CT", "diverticulitis CT"],
+  "cir38": ["esophageal cancer endoscopy", "esophageal squamous cell carcinoma endoscopy"],
+  "cir39": ["surgical wound infection necrosis", "wound debridement"],
+  "cir40": ["cefazolin vial", "antibiotic intravenous operating room"],
+  "cir41": ["FAST ultrasound free fluid Morison", "trauma bay resuscitation"],
+  "cir42": ["inhalation injury burn face", "facial burn"],
+  "cir43": ["ERCP biliary stent", "pancreatic head tumor CT"],
+  "cir44": ["acute pancreatitis CT", "pancreatitis CT scan"],
+  "cir45": ["needle thoracostomy", "tension pneumothorax chest x-ray"],
+  "cir46": ["epidural hematoma CT", "anisocoria dilated pupil"],
+  "cir47": ["gallstones gallbladder ultrasound", "pigment gallstones"],
+  "cir48": ["gastrointestinal stromal tumor endoscopy", "GIST endoscopic ultrasound"],
+  "cir49": ["colonoscopy polypectomy", "colon polyp colonoscopy"],
+  "cir50": ["varicose veins leg", "varicose veins"],
+  "go26": ["cardiotocography monitor", "preterm labor hospital"],
+  "go27": ["levothyroxine tablets", "glucose meter pregnancy"],
+  "go28": ["aspirin tablets", "calcium carbonate tablets"],
+  "go29": ["oxytocin ampoule", "tranexamic acid ampoule"],
+  "go30": ["vaginal delivery crowning", "childbirth delivery"],
+  "go31": ["clindamycin vial", "postpartum woman hospital bed"],
+  "go32": ["copper IUD", "intrauterine device copper"],
+  "go33": ["BRCA1 genetic testing", "DNA sequencing laboratory"],
+  "go34": ["uterine prolapse", "pelvic organ prolapse"],
+  "go35": ["radiotherapy linear accelerator breast", "radiation therapy machine"],
+  "go36": ["alendronate tablets", "osteoporosis bone histology"],
+  "go37": ["pelvic ultrasound uterus", "transabdominal pelvic ultrasound"],
+  "go38": ["enoxaparin syringe", "low molecular weight heparin injection"],
+  "go39": ["umbilical artery Doppler waveform", "middle cerebral artery Doppler fetus"],
+  "go40": ["obstetric forceps", "vacuum extractor delivery"],
+  "go41": ["methotrexate vial", "ectopic pregnancy ultrasound"],
+  "go42": ["levonorgestrel IUD Mirena", "hormonal IUD"],
+  "go43": ["leiomyosarcoma uterus histology", "uterine sarcoma"],
+  "go44": ["caudal regression syndrome x-ray", "sacral agenesis"],
+  "go45": ["hydralazine ampoule", "magnesium sulfate ampoule"],
+  "go46": ["Coombs test", "blood group Rh typing"],
+  "go47": ["benzathine penicillin vial", "Treponema pallidum darkfield"],
+  "go48": ["early pregnancy ultrasound gestational sac", "threatened abortion ultrasound"],
+  "go49": ["trastuzumab vial", "HER2 immunohistochemistry"],
+  "go50": ["pelvic inflammatory disease ultrasound", "ceftriaxone vial"],
 }
 
 MIN_LADO = 400
 
 
 def candidatos():
-    """Para cada id, até 6 candidatas com licença aceita, JPEG/PNG, lado ≥ 400 px."""
-    saida = {}
+    """Para cada id ainda sem candidatas, até 6 com licença aceita, JPEG/PNG, lado ≥ 400 px.
+    Os ids que já estão em candidatos.json não são refeitos."""
+    saida = json.load(open(CANDIDATOS, encoding="utf-8")) if os.path.exists(CANDIDATOS) else {}
     for qid, buscas in CONSULTAS.items():
+        if qid in saida:
+            continue
         lista = []
         for termo in buscas:
             try:
@@ -186,8 +290,8 @@ def baixar(ids=None):
         buf = io.StringIO(); antigo = sys.stdout; sys.stdout = buf
         try:
             commons.baixar(titulo, destino)
-        except SystemExit as ex:
-            sys.stdout = antigo; print(qid, "FALHOU:", ex); continue
+        except (SystemExit, Exception) as ex:   # 404, rede: segue para a próxima, o gerar acusa depois
+            sys.stdout = antigo; print(qid, "FALHOU:", titulo, "->", ex); continue
         finally:
             sys.stdout = antigo
         for l in buf.getvalue().splitlines():
@@ -323,6 +427,46 @@ CONSULTAS7 = {
 }
 
 
+CONSULTAS8 = {
+  "ped37": ["chest x-ray pneumonia child", "lobar pneumonia chest radiograph"],
+  "ped44": ["infant CPR manikin", "baby first aid manikin", "infant choking"],
+  "ped48": ["orchidometer", "testicular volume measurement"],
+  "ped50": ["hip joint ultrasound", "pediatric hip ultrasound", "child limping"],
+  "prev26": ["Previdência Social prédio", "INPS", "Ministério da Previdência Social"],
+  "prev45": ["homeless woman Brazil", "população em situação de rua", "morador de rua São Paulo"],
+  "cir33": ["myocardial infarction gross pathology heart", "cardiac surgery operating room", "heart surgery"],
+  "cir35": ["diverticulosis colon", "colonic diverticula endoscopy", "diverticula colonoscopy"],
+  "cir38": ["esophageal cancer", "esophageal carcinoma", "esophagus tumor endoscopy"],
+  "cir40": ["cefazolin", "antibiotic vial syringe", "intravenous antibiotic bag"],
+  "go29": ["oxytocin injection", "uterotonic", "postpartum hemorrhage"],
+  "go31": ["postpartum ward", "cesarean scar", "endometritis"],
+  "go39": ["Doppler ultrasound fetal artery", "umbilical artery Doppler", "obstetric Doppler"],
+  "go45": ["magnesium sulfate injection", "hydralazine", "preeclampsia"],
+  "go47": ["penicillin injection", "benzathine penicillin", "Treponema pallidum"],
+}
+
+
+CONSULTAS9 = {
+  "prev39": ["teen smoking", "young man smoking cigarette", "cigarette in hand"],
+  "prev40": ["senior women exercise class", "elderly aerobics", "tai chi park elderly", "hidroginástica idosos"],
+  "prev47": ["Truvada", "tenofovir", "HIV prevention pill"],
+  "prev49": ["placebo pills", "clinical trial pharmacy", "medical research pills capsules"],
+  "prev50": ["medical library journals", "scientific journals shelf", "systematic review"],
+  "cir26": ["vein harvesting surgery", "coronary artery bypass vein graft harvest", "saphenous vein"],
+  "cir36": ["thoracostomy tube patient", "chest tube insertion", "chest tube patient"],
+  "cir40": ["IV antibiotic infusion", "syringe drawing medication vial", "anesthesia induction operating room"],
+  "go29": ["oxytocin", "syntocinon ampoule", "labour ward nurse"],
+  "go37": ["pelvic ultrasound normal uterus", "transabdominal ultrasound uterus", "uterus ultrasound"],
+  "go50": ["salpingitis ultrasound", "tubo-ovarian abscess ultrasound", "hydrosalpinx ultrasound", "ceftriaxone"],
+}
+
+
+CONSULTAS10 = {
+  "go42": ["levonorgestrel intrauterine system", "Mirena device photo", "hormonal IUD hand", "Kyleena"],
+  "ped28": ["child with Down syndrome playing", "Down syndrome kid smiling", "criança síndrome de Down"],
+}
+
+
 def candidatos2(tabela=None):
     c = json.load(open(CANDIDATOS, encoding="utf-8"))
     for qid, buscas in (tabela or CONSULTAS2).items():
@@ -424,6 +568,12 @@ if __name__ == "__main__":
         candidatos2(CONSULTAS6)
     elif modo == "candidatos7":
         candidatos2(CONSULTAS7)
+    elif modo == "candidatos8":
+        candidatos2(CONSULTAS8)
+    elif modo == "candidatos9":
+        candidatos2(CONSULTAS9)
+    elif modo == "candidatos10":
+        candidatos2(CONSULTAS10)
     elif modo == "escolher":
         escolher()
     elif modo == "baixar":
