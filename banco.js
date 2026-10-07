@@ -19,8 +19,16 @@ window.BANCO = {
     "banca": "VUNESP",
     "orgao": "Secretaria de Estado da Saúde de São Paulo — SUS/SP",
     "concurso": "Seleção Pública para Residência Médica — acesso direto",
-    "prova": "previsão: dezembro de 2026 (edital 2027 ainda não publicado)",
+    "prova": "13/12/2026, à tarde (edital 2027 de 01/10/2026; gabarito em 15/12/2026)",
+    "cronograma": "inscrições de 20/10 a 05/11/2026 · prova 13/12/2026 · gabarito 15/12/2026 · recursos 16 e 17/12/2026 · classificação definitiva 12/02/2027",
     "estrutura": "100 questões · 5 alternativas · 20 por área · 5 horas",
+    "numeros": {
+      "questoes": 100,
+      "porArea": 20,
+      "alternativas": 5,
+      "horas": 5,
+      "corte": 50
+    },
     "site": "susp.vercel.app",
     "areas": [
       {

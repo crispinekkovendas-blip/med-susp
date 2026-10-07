@@ -5,8 +5,8 @@
     python ferramentas/pdf.py ped        -> só o de Pediatria
 
 As opções do caderno vão pela URL (?area=ped&materia=pagina…), que caderno.js
-lê sem gravar; o padrão é Sobre a matéria em página própria, com figuras e
-pauta. O caderno é servido por um http.server local (o file:// não serve para
+lê sem gravar; o padrão é Sobre a matéria depois do comentário, com figuras
+e quadriculado. O caderno é servido por um http.server local (o file:// não serve para
 o banco.js nem para as figuras) e impresso por um perfil próprio do Chrome,
 para não brigar com o Chrome aberto. As páginas são contadas com PyMuPDF.
 """

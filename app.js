@@ -25,8 +25,9 @@
   const FONTES = Object.fromEntries(B.meta.fontes.map(f => [f.id, f]));
   /* só entram nos filtros as edições que já têm questão no banco */
   const EDICOES = B.meta.fontes.filter(f => Q.some(q => q.fonte === f.id));
+  const NUM = B.meta.numeros || { questoes: 100, porArea: 20, alternativas: 5, horas: 5, corte: 50 };
   const POR_AREA_SIM = 5;            /* questões de cada área no simulado */
-  const MINUTOS_POR_QUESTAO = 3;     /* 100 questões em 5 horas */
+  const MINUTOS_POR_QUESTAO = Math.round(NUM.horas * 60 / NUM.questoes);   /* o ritmo da prova real */
   const filtrar = (lista, f) => f === "todas" ? lista : NOME_AREA[f] ? lista.filter(q => q.area === f) : lista.filter(q => q.fonte === f);
   const LETRAS = ["A", "B", "C", "D", "E"];
   const CH_RESP = "susp:respostas";
@@ -181,11 +182,19 @@
   }
 
   /* --- teclado: A–E responde o cartão em foco ---------------------------- */
+  /* Sem cartão em foco (a página acabou de abrir, ou o cartão anterior já foi
+     respondido e o botão ficou inerte), vale o primeiro cartão ainda sem
+     resposta que está na tela — assim A–E responde um cartão atrás do outro. */
+  function cartaoEmVista() {
+    const abertos = Array.from(document.querySelectorAll(".q")).filter(a => Array.from(a.querySelectorAll(".alt")).some(b => !b.disabled));
+    const alto = window.innerHeight || 800;
+    return abertos.find(a => { const r = a.getBoundingClientRect ? a.getBoundingClientRect() : null; return !r || (r.bottom > 0 && r.top < alto); }) || null;
+  }
   document.addEventListener("keydown", e => {
     if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
-    const i = LETRAS.indexOf(e.key.toUpperCase());
+    const i = LETRAS.indexOf(String(e.key || "").toUpperCase());
     if (i < 0 || e.ctrlKey || e.metaKey || e.altKey) return;
-    const art = e.target.closest && e.target.closest(".q");
+    const art = (e.target && e.target.closest && e.target.closest(".q")) || cartaoEmVista();
     if (!art) return;
     const b = art.querySelectorAll(".alt")[i];
     if (b && !b.disabled) { e.preventDefault(); b.click(); }
@@ -279,10 +288,10 @@
         `<b>${Q.length} questões comentadas</b> de ${listaAreas} — <b>todas reais</b>, aplicadas pela banca <b>${B.meta.banca}</b> em provas de acesso direto (${provas}), com o gabarito oficial. ` +
         `Cada questão sai com as alternativas que tinha na prova (cinco na SUS-SP, quatro na UNESP e no Einstein), e o comentário explica o gabarito <b>e cada distrator</b>, diz o que a banca está testando e de onde vem a resposta.` }),
       h("div", { class: "fatos" },
-        h("div", null, h("b", null, "100"), h("span", null, "questões na prova")),
-        h("div", null, h("b", null, "20"), h("span", null, "por área")),
-        h("div", null, h("b", null, "5"), h("span", null, "alternativas (A–E)")),
-        h("div", null, h("b", null, "5h"), h("span", null, "de duração"))),
+        h("div", null, h("b", null, String(NUM.questoes)), h("span", null, "questões na prova")),
+        h("div", null, h("b", null, String(NUM.porArea)), h("span", null, "por área")),
+        h("div", null, h("b", null, String(NUM.alternativas)), h("span", null, "alternativas (A–E)")),
+        h("div", null, h("b", null, `${NUM.horas}h`), h("span", null, "de duração"))),
       h("p", { class: "aviso", html:
         `<b>De onde vêm as questões.</b> Dos cadernos oficiais publicados depois de cada prova, sem retoque no texto. A etiqueta <b>${EDICOES.length ? EDICOES[0].rotulo : "SUS-SP 2026"} · Questão NN</b> diz a prova e o número que a questão tinha nela; o gabarito é o oficial depois dos recursos, e as questões anuladas pela banca ficaram de fora. O comentário abre com o veredito e fecha dizendo o que a banca testa; <b>Simplificando</b> conta a mesma coisa em frases curtas; <b>Sobre a matéria</b> é a página de livro-texto do assunto — objetivos, termos-chave, o essencial, ponto clínico, resumo e perguntas para conferir.` }));
   }
@@ -363,8 +372,8 @@
       h("div", { class: "nums" },
         porArea.map(x => h("div", null, h("b", null, `${x.certas}/${x.n}`), h("span", null, x.a.nome))),
         h("div", null, h("b", null, `${proj}%`), h("span", null, "de acerto"))),
-      h("p", { html: `O edital habilita quem faz <b>50% da nota</b> da prova objetiva. Mantendo esta taxa nas 100 questões da prova, você estaria ` +
-        (proj >= 50 ? `<span class="ok">acima do corte</span>.` : `<span class="erro">abaixo do corte</span>.`) +
+      h("p", { html: `O edital habilita quem faz <b>${NUM.corte}% da nota</b> da prova objetiva. Mantendo esta taxa nas ${NUM.questoes} questões da prova, você estaria ` +
+        (proj >= NUM.corte ? `<span class="ok">acima do corte</span>.` : `<span class="erro">abaixo do corte</span>.`) +
         (brancas.length ? ` ${brancas.length} ficaram em branco.` : "") }),
       erradas.length ? h("p", { html: `Erradas: ${erradas.map(q => `<a href="#q-${q.id}">${dois(lista.indexOf(q) + 1)}</a>`).join(", ")} — os comentários já estão abertos abaixo.` }) : h("p", { class: "ok" }, "Nenhuma errada."));
   }

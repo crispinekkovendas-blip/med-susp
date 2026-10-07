@@ -16,7 +16,8 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 |---|---|
 | Banco na tela | https://susp.vercel.app/ |
 | Caderno para imprimir | https://susp.vercel.app/caderno/ |
-| Deploy | `npx vercel deploy --prod --yes` a partir de `med/susp/` (projeto `susp`; repositório git local, trabalho em `main`) |
+| Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/susp/` (projeto `susp`; git em `main`, remoto privado `crispinekkovendas-blip/med-susp`) |
+| PDFs prontos | https://susp.vercel.app/pdf/caderno-ped.pdf (`prev`, `cir`, `go`, `cm`) e `caderno-completo.pdf` — links no painel do caderno |
 
 ## Números (2026-10-07)
 
@@ -30,15 +31,13 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | **Total** | **92** | **33** | **55** | **36** | **34** | **250** |
 
 Figuras: 250 (uma por questão). Sobre a matéria: 250 (uma por questão,
-1.800–3.600 caracteres de texto cada). Fichas do caderno (medição de
-2026-09-28, antes da camada Sobre a matéria, no
-site, geometria do papel): com figuras, as 200 são duplas — 400 páginas de
-fichas, nenhuma passando de duas páginas (conteúdo máximo 493 mm); sem
-figuras (opção "Figuras: Não"), 23 normais, 69 apertadas e 108 duplas — 308
-páginas. A folha de respostas desenha 225 bolhas para as 50 de Pediatria
-(25 × 5 + 25 × 4). Com Sobre a matéria ligado (padrão desde 2026-09-29) as
-fichas passam a duas ou três páginas (classe `tripla`); a contagem não foi
-refeita no site.
+1.800–3.600 caracteres de texto cada). Páginas do caderno (PDFs de
+2026-10-07 com as opções padrão — Sobre a matéria depois do comentário,
+figuras, quadriculado — contadas pelo `pdf.py`): Pediatria 171, Preventiva
+171, Cirurgia 178, GO 167, Clínica Médica 167; o completo, 835 páginas
+(93,9 MB). Cada ficha ocupa duas páginas, ou três quando comentário e
+mini-aula deixam menos de 90 mm para as anotações (classe `tripla`). A folha
+de respostas desenha 225 bolhas para as 50 de Pediatria (25 × 5 + 25 × 4).
 
 Ids `ped01–ped50`, `prev01–prev50`, `cir01–cir50`, `go01–go50`, `cm01–cm50`; dentro da área,
 as fontes na ordem de `meta.fontes` (SUS-SP 2026, SUS-SP 2021, UNESP 2026,
@@ -264,8 +263,9 @@ clique, × ou Esc fecham). Filtros: Todas ·
 uma por área · uma por edição com questões (`susp:filtro`). Simulado de 20
 (5 de cada área, sorteadas), relógio com meta de 3 minutos por questão (o
 ritmo da prova: 100 em 5 horas), entrega e projeção contra o corte de 50%.
-Teclado A–E no cartão em foco. Respostas em `susp:respostas`; nada sai do
-navegador. Capa e rodapé contam tudo a partir dos dados.
+Teclado A–E responde o cartão em foco ou, sem foco, o primeiro cartão sem
+resposta que está na tela (um atrás do outro). Respostas em `susp:respostas`;
+nada sai do navegador. Capa e rodapé contam tudo a partir dos dados.
 
 ## Caderno (caderno/)
 
@@ -316,9 +316,13 @@ na geometria do papel).
 `python ferramentas/pdf.py` imprime o caderno com o Chrome sem janela
 (`--headless=new --print-to-pdf`, perfil próprio para não brigar com o Chrome
 aberto, servido por `http.server` local) em `pdf/caderno-<area>.pdf` e
-`pdf/caderno-completo.pdf`, com as opções padrão (Sobre a matéria em página
-própria, figuras, quadriculado), e conta as páginas com PyMuPDF. A pasta `pdf/`
-não vai para o git nem para o ar.
+`pdf/caderno-completo.pdf`, com as opções padrão (Sobre a matéria depois do
+comentário, figuras, quadriculado), e conta as páginas com PyMuPDF. A pasta
+`pdf/` não vai para o git, mas **vai para o ar** (desde 2026-10-07): os PDFs
+ficam em `susp.vercel.app/pdf/caderno-<area>.pdf` e `caderno-completo.pdf`,
+com links no painel do caderno. Por isso, depois de qualquer mudança no
+banco, rode `python ferramentas/pdf.py` **antes** do deploy — senão o site
+publica PDFs velhos (ou nenhum, se a pasta estiver vazia).
 
 ## Verificação — como rodar e o que prova
 
@@ -381,12 +385,18 @@ lidos pelo autor; quando a pergunta é "está certo?", leia a referência citada
   mão para `figuras/`: sem linha em `figuras.json` e `FONTES.md`, o harness
   a recusa — e sem licença livre ela não pode estar no ar.
 - Scripts com barra invertida vão pelo Write tool, nunca por heredoc do Bash.
-- Depois de qualquer mudança: os cinco comandos acima, depois deploy, depois
-  medir no navegador (screenshots estouram o tempo aqui; meça com JS).
+- Depois de qualquer mudança: os cinco comandos acima, depois
+  `python ferramentas/pdf.py` (os PDFs vão para o ar junto), depois deploy,
+  depois medir no navegador (screenshots estouram o tempo aqui; meça com JS).
 
-## Depois do edital 2027 e da prova de dezembro de 2026
+## O edital 2027 e a prova de dezembro de 2026
 
-Atualizar `prova` em `ferramentas/meta.js` quando o edital sair (outubro de
-2026) e conferir se a estrutura de 100 questões, 20 por área, se manteve.
-Depois da prova (dezembro de 2026), o caderno do SUS-SP 2027 entra como uma
-fonte nova, pelo mesmo caminho acima.
+O edital da Seleção 2027 saiu em 01/10/2026 (VUNESP, 1.389 vagas; inscrições
+de 20/10 a 05/11/2026; prova objetiva em 13/12/2026, à tarde; gabarito em
+15/12/2026; recursos em 16 e 17/12/2026; classificação definitiva em
+12/02/2027). A estrutura do acesso direto se manteve — 100 questões de cinco
+alternativas, 20 de cada uma das cinco áreas, 5 horas, habilitado quem faz
+nota 50 (NP = acertos × 100 / total; itens 9.1.1 e 11.1 do edital) — e está
+em `meta.prova`, `meta.estrutura` e `meta.numeros` (`ferramentas/meta.js`), de
+onde a página e o caderno leem os números. Depois da prova, o caderno do
+SUS-SP 2027 entra como uma fonte nova, pelo mesmo caminho acima.

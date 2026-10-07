@@ -34,6 +34,7 @@ body { font: 10.5pt/1.5 var(--serif); -webkit-font-smoothing: antialiased; }
 #painel .cab { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 #painel h1 { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: -.01em; }
 #painel .sub { margin: 2px 0 0; color: var(--ink-3); font-size: 12.5px; }
+#painel .pdfs a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 #painel .acoes { display: flex; gap: 8px; flex-wrap: wrap; }
 .acao { border: 1px solid var(--line); border-radius: 6px; background: #fff; padding: 8px 13px; font: inherit; font-size: 13px; color: var(--ink-2); text-decoration: none; cursor: pointer; }
 .acao:hover { border-color: var(--line-2); color: var(--ink); }
@@ -110,12 +111,15 @@ table.temas td.d { width: 24mm; }
 table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: right; color: var(--ink-2); width: 42%; letter-spacing: .02em; }
 
 /* --- fichas ----------------------------------------------------------------- */
-/* o texto de apoio longo sai em duas colunas, para caber numa página só */
+/* o texto de apoio (sem colunas: qualquer column-count faz o Chrome quebrar a página logo depois do bloco) */
 .texto { margin: 0 0 6mm; padding: 4mm 5mm; border: 1px solid var(--line-2); border-left: 4px solid var(--accent-2); background: #FBFCFD; break-inside: avoid; page-break-inside: avoid;
-  column-count: 2; column-gap: 6mm; column-rule: 1px solid var(--line); font-size: 9.5pt; line-height: 1.4; }
+  font-size: 9.5pt; line-height: 1.4; }
 .texto p { margin: 0 0 1.6mm; }
-.texto .rot { display: block; margin-bottom: 2mm; color: var(--accent); column-span: all; }
+.texto .rot { display: block; margin-bottom: 2mm; color: var(--accent); }
 .texto .fonte { font-size: 8.5pt; color: var(--ink-3); }
+/* o texto de apoio dentro da ficha (logo abaixo do cabeçalho) e a remissão nas fichas seguintes */
+.questao > .texto { margin: 3mm 5mm 1mm; }
+.questao > .texto-ref { margin: 3mm 5mm 0; font-size: 9pt; color: var(--ink-3); font-style: italic; }
 /* UMA FICHA = UMA PÁGINA. A ficha tem a altura útil da folha A4 (297 − 14 −
    16 de margens − 6 do rodapé = 261 mm) e é uma coluna flexível: o que o
    comentário não usar, as linhas de anotação ocupam. Assim nunca sobra
@@ -262,7 +266,6 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
      some para não ocupar uma página quase vazia antes da primeira ficha */
   .questao { margin: 0; break-after: page; page-break-after: always; }
   .questoes > h2 { display: none; }
-  .texto { break-after: page; page-break-after: always; margin: 0; }
   h2 { break-after: avoid; page-break-after: avoid; }
   a { color: inherit; text-decoration: none; }
   .rodape-impresso { display: block; position: fixed; bottom: 0; left: 0; right: 0; text-align: center; font-family: var(--sans); font-size: 7.5pt; color: var(--ink-3); }

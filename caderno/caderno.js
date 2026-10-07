@@ -20,6 +20,7 @@
   const NOME_AREA = Object.fromEntries(AREAS.map(a => [a.id, a.nome]));
   const FONTES = Object.fromEntries(B.meta.fontes.map(f => [f.id, f]));
   const EDICOES = B.meta.fontes.filter(f => Q.some(q => q.fonte === f.id));
+  const NUM = B.meta.numeros || { questoes: 100, porArea: 20, alternativas: 5, horas: 5, corte: 50 };
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
@@ -67,7 +68,9 @@
     const n = escolhidas().length;
     return h("section", { id: "painel", "aria-label": "Opções do caderno" }, h("div", { class: "miolo" },
       h("div", { class: "cab" },
-        h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, figura, referências, Simplificando, Sobre a matéria e pauta para anotar`)),
+        h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, figura, referências, Simplificando, Sobre a matéria e pauta para anotar`),
+          /* os PDFs prontos (ferramentas/pdf.py, opções padrão) ficam em /pdf/ */
+          h("p", { class: "sub pdfs" }, "PDF pronto, com as opções padrão: ", AREAS.map((a, i) => [i ? " · " : "", h("a", { href: `../pdf/caderno-${a.id}.pdf` }, a.nome)]), " · ", h("a", { href: "../pdf/caderno-completo.pdf" }, "Completo"))),
         h("div", { class: "acoes" },
           h("a", { class: "acao", href: "../" }, "← Banco na tela"),
           h("button", { class: "acao primaria", type: "button", onclick: () => window.print() }, "Imprimir / salvar em PDF"))),
@@ -153,11 +156,12 @@
      e a pauta no fim — que corre por quantas páginas precisar, sem espaço em
      branco no meio. Em "página própria", a mini-aula sai numa segunda ficha
      com a pauta. */
-  function ficha(q, numero) {
+  function ficha(q, numero, apoio) {
     const letra = LETRAS[q.correta];
     const propria = op.materia === "pagina" && !!q.materia;
     const a = h("article", { class: "questao " + q.area, "data-id": q.id },
       cabecalho(q, numero, rotulo(q)),
+      apoio,
       h("p", { class: "enunciado", html: q.enunciado }),
       h("ol", { class: "alts" }, q.alternativas.map((a, i) => h("li", { class: i === q.correta ? "certa" : "" },
         h("span", { class: "bolha", "aria-hidden": "true" }), h("span", { class: "letra" }, LETRAS[i]), h("span", { class: "txt", html: a })))),
@@ -184,12 +188,18 @@
     lista.forEach((q, i) => {
       const numero = i + 1;
       if (q.area !== area) { area = q.area; itens.push(h("h3", { class: "divisor " + area }, NOME_AREA[area])); }
-      /* texto de apoio: uma vez só para a sequência de questões que o compartilham */
-      if (q.texto && (i === 0 || lista[i - 1].texto !== q.texto)) {
-        let fim = i; while (fim + 1 < lista.length && lista[fim + 1].texto === q.texto) fim++;
-        itens.push(h("div", { class: "texto" }, h("p", { class: "rot" }, fim > i ? `Texto para as fichas ${dois(numero)} a ${dois(fim + 1)}` : `Texto para a ficha ${dois(numero)}`), h("div", { html: q.texto })));
+      /* texto de apoio: dentro da primeira ficha da sequência que o
+         compartilha (um bloco solto entre fichas ganhava uma página só para
+         ele); as fichas seguintes trazem só a remissão */
+      let apoio = null;
+      if (q.texto) {
+        let ini = i; while (ini > 0 && lista[ini - 1].texto === q.texto) ini--;
+        if (ini === i) {
+          let fim = i; while (fim + 1 < lista.length && lista[fim + 1].texto === q.texto) fim++;
+          apoio = h("div", { class: "texto" }, h("p", { class: "rot" }, fim > i ? `Texto para as fichas ${dois(numero)} a ${dois(fim + 1)}` : `Texto para a ficha ${dois(numero)}`), h("div", { html: q.texto }));
+        } else apoio = h("p", { class: "texto-ref" }, `Texto de apoio: o mesmo da ficha ${dois(ini + 1)}.`);
       }
-      itens.push(...ficha(q, numero));
+      itens.push(...ficha(q, numero, apoio));
     });
     return h("section", { class: "pagina questoes" }, h("h2", null, h("span", { class: "sec" }, "Fichas"), "Questões comentadas"), itens);
   }
@@ -208,7 +218,7 @@
       h("dl", { class: "fatos" },
         h("div", null, h("dt", null, "Acertos"), h("dd", null, h("span", { class: "linha curta" }), ` / ${lista.length}`)),
         AREAS.map(a => h("div", null, h("dt", null, a.nome), h("dd", null, h("span", { class: "linha curta" }), ` / ${lista.filter(q => q.area === a.id).length}`)))),
-      h("p", { class: "sub" }, "Na prova real, 50% da nota habilita. Mantendo a sua taxa nas 100 questões, você ficaria com ", h("span", { class: "linha curta" }), " pontos."),
+      h("p", { class: "sub" }, `Na prova real, ${NUM.corte}% da nota habilita. Mantendo a sua taxa nas ${NUM.questoes} questões, você ficaria com `, h("span", { class: "linha curta" }), " pontos."),
       h("h3", null, "Temas para revisar (os que marquei “revisar”)"),
       linhas(8),
       h("h3", null, "O que eu não sabia, com as minhas palavras"),
