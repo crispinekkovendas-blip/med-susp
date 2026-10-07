@@ -142,3 +142,17 @@ UNESP 2026: 21 Trabalho de parto pré-termo tardio · 23 Primeira consulta · 24
 Einstein 2026: 47 Amenorreia primária com puberdade completa · 50 Síndrome antifosfolípide na gestação · 51 Restrição do crescimento fetal · 53 Bradicardia fetal no expulsivo com cabeça baixa · 54 Ectópica com metotrexato · 57 Enxaqueca com aura · 58 Morcelamento protegido na histerectomia.
 
 Einstein 2025: 48 Diabetes pré-gestacional · 49 Pré-eclâmpsia grave com 35 semanas · 53 Aloimunização Rh · 54 Sífilis na gestação · 55 Sangramento do primeiro trimestre · 56 Câncer de mama HER2 positivo · 59 DIP sem abscesso.
+
+## Clínica Médica (2026-10-07): 50 = 16 SUS-SP 2026 + 9 SUS-SP 2021 + 10 UNESP 2026 + 8 Einstein 2026 + 7 Einstein 2025
+
+Regra: a mesma das outras áreas, feita de uma vez — o bloco de Clínica Médica do SUS-SP 2026 inteiro (1–20), menos a anulada (4), as que dependem de figura (6 e 20, eletrocardiogramas) e a 8 (a extração do caderno colou o aviso "Arquivo pessoal; imagem usada com autorização" à última alternativa); o resto vem do SUS-SP 2021 (bloco 21–40, fora a anulada 27 e as 21, 22 e 30, que dependem de eletrocardiograma ou radiografia), da UNESP 2026 (bloco 41–60, fora 41 e 52, eletrocardiogramas), do Einstein 2026 (1–15) e do Einstein 2025 (1–15, fora a anulada 11), escolhidas para cobrir temas diferentes entre si. Ids `cm01–cm50` na ordem das fontes. Uma linha por questão: número · tema.
+
+SUS-SP 2026: 1 Reversão da varfarina no sangramento grave · 2 Agonista do GLP-1 no diabético de alto risco · 3 DPOC exacerbador, LABA e LAMA · 5 Espondiloartrite axial e HLA-B27 · 7 Hiponatremia hipervolêmica da insuficiência cardíaca · 9 Lesão renal aguda no cirrótico, albumina antes da terlipressina · 10 PEEP e queda do débito cardíaco · 11 Hiperaldosteronismo primário · 12 Cetoacidose diabética · 13 Intoxicação por nitroprussiato · 14 Guillain-Barré com insuficiência respiratória · 15 Fibrose pulmonar idiopática · 16 Cardiomiopatia hipertrófica obstrutiva · 17 Sobrecarga circulatória transfusional · 18 Reconstituição imune leve no HIV · 19 Ressincronização cardíaca.
+
+SUS-SP 2021: 25 Esclerose múltipla · 31 Estatina pelo LDL muito alto · 33 Peritonite bacteriana espontânea · 34 Hipotireoidismo primário · 35 Sorologia da hepatite B curada · 36 Nefrite intersticial por anti-inflamatório · 37 Profilaxia do tétano · 38 Hipocalemia com alcalose · 39 Cefaleia em salvas.
+
+UNESP 2026: 42 Crise de asma leve · 44 Intubação no choque séptico · 45 Doença de Graves · 46 Neutropenia febril · 48 Osteoporose com fratura e estenose de esôfago · 53 Estado hiperglicêmico hiperosmolar · 54 Quarto pilar da insuficiência cardíaca · 55 Lesão renal aguda e acidose mista na sepse · 56 Fragilidade de Fried · 59 Pneumonia pós-influenza por S. aureus.
+
+Einstein 2026: 1 Asma só com salbutamol · 2 Artropatias por cristais · 6 Hipertensão no diabético com albuminúria · 7 Mobitz I e Mobitz II · 8 Suspeita de embolia pulmonar · 10 Pielonefrite não complicada · 11 Diabetes insípido central pós-cirurgia hipofisária · 12 Inibidor de SGLT2 no perioperatório.
+
+Einstein 2025: 1 Agonistas do GLP-1 · 3 Fibrilação atrial estável no asmático · 6 Infarto com supra de ST e angioplastia · 7 Hipertensão resistente · 9 Pneumonia de provável aspiração · 12 Transformação hemorrágica após trombólise · 13 Fibrilação atrial instável, cardioversão.

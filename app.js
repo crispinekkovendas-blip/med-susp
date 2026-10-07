@@ -284,7 +284,7 @@
         h("div", null, h("b", null, "5"), h("span", null, "alternativas (A–E)")),
         h("div", null, h("b", null, "5h"), h("span", null, "de duração"))),
       h("p", { class: "aviso", html:
-        `<b>De onde vêm as questões.</b> Dos cadernos oficiais publicados depois de cada prova, sem retoque no texto. A etiqueta <b>${EDICOES.length ? EDICOES[0].rotulo : "SUS-SP 2026"} · Questão NN</b> diz a prova e o número que a questão tinha nela; o gabarito é o oficial depois dos recursos, e as questões anuladas pela banca ficaram de fora. O comentário abre com o veredito e fecha dizendo o que a banca testa; <b>Simplificando</b> conta a mesma coisa em frases curtas; <b>Sobre a matéria</b> é a página de livro-texto do assunto — objetivos, termos-chave, o essencial, ponto clínico, resumo e perguntas para conferir. A prova de acesso direto tem também Clínica Médica, que este banco não cobre.` }));
+        `<b>De onde vêm as questões.</b> Dos cadernos oficiais publicados depois de cada prova, sem retoque no texto. A etiqueta <b>${EDICOES.length ? EDICOES[0].rotulo : "SUS-SP 2026"} · Questão NN</b> diz a prova e o número que a questão tinha nela; o gabarito é o oficial depois dos recursos, e as questões anuladas pela banca ficaram de fora. O comentário abre com o veredito e fecha dizendo o que a banca testa; <b>Simplificando</b> conta a mesma coisa em frases curtas; <b>Sobre a matéria</b> é a página de livro-texto do assunto — objetivos, termos-chave, o essencial, ponto clínico, resumo e perguntas para conferir.` }));
   }
 
   /* --- modo simulado -------------------------------------------------------- */

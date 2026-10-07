@@ -15,6 +15,7 @@ module.exports = {
     { id: "prev", nome: "Medicina Preventiva e Social", curto: "Prev" },
     { id: "cir",  nome: "Cirurgia",                     curto: "Cir"  },
     { id: "go",   nome: "Ginecologia e Obstetrícia",    curto: "GO"   },
+    { id: "cm",   nome: "Clínica Médica",               curto: "CM"   },
   ],
   fontes: [
     { id: "susp2026", edicao: 2026, rotulo: "SUS-SP 2026",

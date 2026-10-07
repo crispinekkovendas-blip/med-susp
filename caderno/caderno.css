@@ -15,6 +15,7 @@
   --prev: #123A5E; --prev-bg: #EAF1F8;
   --cir: #8A3A1B;  --cir-bg: #F9EBE4;
   --go: #7A2E5F;   --go-bg: #F7E9F1;
+  --cm: #7A5A12;   --cm-bg: #F8F1DF;
   --ok: #1A6B4B; --ok-bg: #E8F4EE;
   --simples: #6B3D8F; --simples-bg: #F4EEF9;
   --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
@@ -68,6 +69,7 @@ h3 { font-family: var(--sans); font-size: 11pt; font-weight: 600; margin: 7mm 0 
 .tag.prev { background: var(--prev-bg); color: var(--prev); }
 .tag.cir { background: var(--cir-bg); color: var(--cir); }
 .tag.go { background: var(--go-bg); color: var(--go); }
+.tag.cm { background: var(--cm-bg); color: var(--cm); }
 
 /* capa */
 .capa { border-top: 6mm solid var(--accent); }
@@ -138,8 +140,9 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 .questao.prev .num { background: var(--prev); }
 .questao.cir .num { background: var(--cir); }
 .questao.go .num { background: var(--go); }
+.questao.cm .num { background: var(--cm); }
 .divisor { margin: 0 0 4mm; padding: 1.5mm 0; font-family: var(--sans); font-size: 10pt; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); border-bottom: 2px solid var(--accent); break-after: avoid; page-break-after: avoid; }
-.divisor.ped { border-color: var(--ped); } .divisor.prev { border-color: var(--prev); } .divisor.cir { border-color: var(--cir); } .divisor.go { border-color: var(--go); }
+.divisor.ped { border-color: var(--ped); } .divisor.prev { border-color: var(--prev); } .divisor.cir { border-color: var(--cir); } .divisor.go { border-color: var(--go); } .divisor.cm { border-color: var(--cm); }
 .questao .tema { color: var(--ink-2); }
 .questao .origem { margin-left: auto; border: 1px solid var(--line-2); border-radius: 2px; padding: .5mm 2mm; font-size: 8pt; background: #fff; color: var(--ink-3); }
 .questao .origem { border-color: var(--accent-2); color: var(--accent); font-weight: 600; }

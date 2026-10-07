@@ -14,7 +14,7 @@ import os, subprocess, sys, time, socket, urllib.request
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHROME = os.environ.get("CHROME", r"C:\Program Files\Google\Chrome\Application\chrome.exe")
-AREAS = ["ped", "prev", "cir", "go"]
+AREAS = ["ped", "prev", "cir", "go", "cm"]
 PORTA = 8765
 PERFIL = os.path.join(os.environ.get("TEMP", RAIZ), "susp-pdf-chrome")
 

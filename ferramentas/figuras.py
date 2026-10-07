@@ -235,6 +235,57 @@ CONSULTAS = {
   "go48": ["early pregnancy ultrasound gestational sac", "threatened abortion ultrasound"],
   "go49": ["trastuzumab vial", "HER2 immunohistochemistry"],
   "go50": ["pelvic inflammatory disease ultrasound", "ceftriaxone vial"],
+  # Clínica Médica — SUS-SP 2026 (1–19), SUS-SP 2021, UNESP 2026, Einstein 2026, Einstein 2025 (2026-10-07)
+  "cm01": ["prothrombin complex concentrate vial", "warfarin tablets", "hematemesis endoscopy"],
+  "cm02": ["liraglutide pen", "GLP-1 injection pen", "Victoza pen"],
+  "cm03": ["dry powder inhaler Ellipta", "COPD inhaler patient", "Anoro Ellipta"],
+  "cm04": ["ankylosing spondylitis radiograph bamboo spine", "sacroiliitis radiograph", "ankylosing spondylitis x-ray"],
+  "cm05": ["heart failure chest radiograph pulmonary congestion", "chest X-ray cardiomegaly", "jugular venous distension"],
+  "cm06": ["human albumin infusion bottle", "ascites abdomen cirrhosis", "albumin 20% bottle"],
+  "cm07": ["mechanical ventilator ICU", "intensive care ventilator screen", "ventilator patient ICU"],
+  "cm08": ["adrenal adenoma CT", "adrenal gland CT scan", "Conn syndrome adrenal"],
+  "cm09": ["insulin infusion pump ICU", "arterial blood gas syringe", "blood gas analyzer"],
+  "cm10": ["sodium nitroprusside vial", "hydroxocobalamin Cyanokit", "infusion pump ICU"],
+  "cm11": ["Guillain-Barré patient ventilator", "intubated patient ICU", "bedside spirometry"],
+  "cm12": ["idiopathic pulmonary fibrosis CT honeycombing", "usual interstitial pneumonia CT", "pulmonary fibrosis HRCT"],
+  "cm13": ["hypertrophic cardiomyopathy echocardiogram", "hypertrophic cardiomyopathy ultrasound", "echocardiography septal hypertrophy"],
+  "cm14": ["blood transfusion bag", "red blood cell transfusion", "packed red blood cells unit"],
+  "cm15": ["herpes labialis", "cold sore lip", "antiretroviral tablets"],
+  "cm16": ["cardiac resynchronization therapy chest radiograph", "biventricular pacemaker x-ray", "pacemaker chest x-ray"],
+  "cm17": ["multiple sclerosis MRI brain", "multiple sclerosis FLAIR lesions", "MRI demyelinating plaques"],
+  "cm18": ["atorvastatin tablets", "statin tablets", "atherosclerosis plaque artery"],
+  "cm19": ["paracentesis ascites", "ascitic fluid paracentesis", "abdominal paracentesis"],
+  "cm20": ["levothyroxine tablets", "thyroid gland ultrasound", "hypothyroidism thyroid ultrasound"],
+  "cm21": ["hepatitis B serology test", "hepatitis B virus electron micrograph", "HBsAg rapid test"],
+  "cm22": ["white blood cell cast urine microscopy", "urine sediment microscopy leukocyte cast", "kidney biopsy interstitial nephritis"],
+  "cm23": ["tetanus vaccine vial", "dirty wound leg laceration", "wound irrigation emergency"],
+  "cm24": ["furosemide tablets", "hypokalemia ECG U wave", "potassium chloride infusion"],
+  "cm25": ["oxygen non-rebreather mask", "high flow oxygen mask patient", "cluster headache"],
+  "cm26": ["metered dose inhaler spacer", "salbutamol inhaler spacer adult", "asthma inhaler spacer"],
+  "cm27": ["rapid sequence intubation laryngoscope", "endotracheal intubation emergency", "video laryngoscope"],
+  "cm28": ["Graves disease exophthalmos", "Graves ophthalmopathy", "goiter Graves disease"],
+  "cm29": ["blood culture bottles", "chemotherapy infusion", "blood culture collection"],
+  "cm30": ["zoledronic acid infusion", "hip fracture radiograph femoral neck", "osteoporosis hip fracture x-ray"],
+  "cm31": ["intravenous fluids saline bag", "glucometer high reading", "dehydration elderly patient IV fluids"],
+  "cm32": ["dapagliflozin tablets", "empagliflozin tablets", "SGLT2 inhibitor tablet"],
+  "cm33": ["acute tubular necrosis histology", "muddy brown casts urine", "renal tubular epithelial cells urine"],
+  "cm34": ["elderly man walking frail", "gait speed test elderly", "frail elderly walker"],
+  "cm35": ["necrotizing pneumonia chest radiograph cavitation", "Staphylococcus aureus pneumonia x-ray", "lung cavitation radiograph"],
+  "cm36": ["budesonide formoterol inhaler", "Symbicort turbuhaler", "turbuhaler inhaler"],
+  "cm37": ["gout tophus", "monosodium urate crystals polarized microscopy", "podagra"],
+  "cm38": ["ambulatory blood pressure monitor", "blood pressure measurement ambulatory monitor", "sphygmomanometer measurement"],
+  "cm39": ["Wenckebach ECG", "second degree AV block ECG", "Mobitz I electrocardiogram"],
+  "cm40": ["pulmonary embolism CT angiography", "CT pulmonary angiogram embolus", "saddle pulmonary embolism CT"],
+  "cm41": ["urine dipstick nitrite", "urinalysis dipstick", "ceftriaxone vial injection"],
+  "cm42": ["desmopressin nasal spray", "pituitary adenoma MRI", "transsphenoidal surgery"],
+  "cm43": ["dapagliflozin Forxiga tablets", "ketone blood meter", "operating room anesthesia"],
+  "cm44": ["semaglutide pen Ozempic", "GLP-1 agonist pen injection", "Ozempic pen"],
+  "cm45": ["verapamil tablets", "atrial fibrillation ECG", "ECG atrial fibrillation rhythm strip"],
+  "cm46": ["coronary angiography LAD stenosis", "coronary angioplasty stent angiogram", "percutaneous coronary intervention"],
+  "cm47": ["polysomnography sleep apnea", "sleep apnea CPAP patient", "renal artery stenosis angiography"],
+  "cm48": ["aspiration pneumonia chest radiograph", "pneumonia chest x-ray consolidation right lower lobe", "lobar pneumonia radiograph"],
+  "cm49": ["hemorrhagic transformation stroke CT", "intracerebral hemorrhage CT", "cerebral infarction CT hemorrhage"],
+  "cm50": ["defibrillator synchronized cardioversion", "cardioversion paddles", "defibrillator pads patient"],
 }
 
 MIN_LADO = 400
@@ -466,6 +517,24 @@ CONSULTAS10 = {
   "ped28": ["child with Down syndrome playing", "Down syndrome kid smiling", "criança síndrome de Down"],
 }
 
+# Clínica Médica, segunda rodada: as sem candidata e as de primeira escolha ruim (2026-10-07)
+CONSULTAS11 = {
+  "cm02": ["Victoza liraglutide", "liraglutide injection", "Saxenda pen", "GLP-1 receptor agonist pen"],
+  "cm06": ["albumin infusion", "human albumin bottle", "cirrhosis ascites patient", "Albumin solution vial"],
+  "cm18": ["atorvastatin tablet blister", "Lipitor tablets", "statin pills", "coronary atherosclerosis histology"],
+  "cm23": ["tetanus toxoid vaccine", "Tdap vaccine vial", "laceration wound leg", "vaccination syringe arm"],
+  "cm27": ["laryngoscope intubation", "endotracheal tube intubation mannequin", "Macintosh laryngoscope", "intubation emergency department"],
+  "cm30": ["femoral neck fracture x-ray", "hip fracture radiograph", "zoledronic acid", "osteoporosis vertebral fracture radiograph"],
+  "cm31": ["intravenous drip bag", "IV infusion saline hospital", "glucose meter hyperglycemia", "blood glucose meter"],
+  "cm34": ["elderly man cane walking", "old man walking frame", "frailty elderly", "geriatric patient walker"],
+  "cm35": ["cavitary pneumonia chest x-ray", "lung abscess radiograph", "pneumonia cavitation CT", "Staphylococcus aureus pneumonia"],
+  "cm47": ["CPAP machine mask", "obstructive sleep apnea CPAP", "polysomnography patient", "blood pressure cuff clinic"],
+}
+
+CONSULTAS12 = {
+  "cm30": ["intertrochanteric fracture radiograph", "femoral neck fracture radiograph", "Schenkelhalsfraktur Röntgen", "hip fracture elderly x-ray", "Garden fracture radiograph"],
+}
+
 
 def candidatos2(tabela=None):
     c = json.load(open(CANDIDATOS, encoding="utf-8"))
@@ -574,6 +643,10 @@ if __name__ == "__main__":
         candidatos2(CONSULTAS9)
     elif modo == "candidatos10":
         candidatos2(CONSULTAS10)
+    elif modo == "candidatos11":
+        candidatos2(CONSULTAS11)
+    elif modo == "candidatos12":
+        candidatos2(CONSULTAS12)
     elif modo == "escolher":
         escolher()
     elif modo == "baixar":

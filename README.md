@@ -1,8 +1,9 @@
 # Banco SUS-SP — VUNESP
 
 Banco de questões comentadas de **Pediatria, Medicina Preventiva e Social,
-Cirurgia e Ginecologia e Obstetrícia** para a Seleção Pública para Residência
-Médica do SUS-SP (banca VUNESP), acesso direto. **200 questões**, todas reais,
+Cirurgia, Ginecologia e Obstetrícia e Clínica Médica** para a Seleção Pública
+para Residência Médica do SUS-SP (banca VUNESP), acesso direto. **250
+questões**, todas reais,
 de cinco provas da VUNESP — SUS-SP 2026 e 2021 (cinco alternativas), UNESP
 Botucatu 2026, Einstein 2026 e Einstein 2025 (quatro alternativas, como a
 banca as fez) —, extraídas dos cadernos oficiais, com gabarito oficial,
@@ -17,7 +18,7 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Caderno para imprimir | https://susp.vercel.app/caderno/ |
 | Deploy | `npx vercel deploy --prod --yes` a partir de `med/susp/` (projeto `susp`; repositório git, branch `implementacao` → `main`) |
 
-## Números (2026-09-28)
+## Números (2026-10-07)
 
 | Área | SUS-SP 2026 | SUS-SP 2021 | UNESP 2026 | Einstein 2026 | Einstein 2025 | Total |
 |---|---|---|---|---|---|---|
@@ -25,9 +26,10 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Medicina Preventiva e Social | 19 | 6 | 12 | 6 | 7 | 50 |
 | Cirurgia | 17 | 8 | 11 | 7 | 7 | 50 |
 | Ginecologia e Obstetrícia | 20 | 5 | 11 | 7 | 7 | 50 |
-| **Total** | **76** | **24** | **45** | **28** | **27** | **200** |
+| Clínica Médica | 16 | 9 | 10 | 8 | 7 | 50 |
+| **Total** | **92** | **33** | **55** | **36** | **34** | **250** |
 
-Figuras: 200 (uma por questão). Sobre a matéria: 200 (uma por questão,
+Figuras: 250 (uma por questão). Sobre a matéria: 250 (uma por questão,
 1.800–3.600 caracteres de texto cada). Fichas do caderno (medição de
 2026-09-28, antes da camada Sobre a matéria, no
 site, geometria do papel): com figuras, as 200 são duplas — 400 páginas de
@@ -38,14 +40,18 @@ páginas. A folha de respostas desenha 225 bolhas para as 50 de Pediatria
 fichas passam a duas ou três páginas (classe `tripla`); a contagem não foi
 refeita no site.
 
-Ids `ped01–ped50`, `prev01–prev50`, `cir01–cir50`, `go01–go50`; dentro da área,
+Ids `ped01–ped50`, `prev01–prev50`, `cir01–cir50`, `go01–go50`, `cm01–cm50`; dentro da área,
 as fontes na ordem de `meta.fontes` (SUS-SP 2026, SUS-SP 2021, UNESP 2026,
 Einstein 2026, Einstein 2025), cada grupo pelo número da questão na prova —
 os 25 primeiros ids de cada área são o banco original do SUS-SP, os 25
-seguintes a rodada das outras provas. Do SUS-SP 2026 ficaram de fora as
-anuladas (4, 21, 23 e 36 — a 4 é de Clínica Médica) e a 91 (depende de um
-gráfico). Do SUS-SP 2021 entraram 24, escolhidas para cobrir temas que o
-bloco de 2026 não tocou. Das outras três provas entraram 25 por área (cerca
+seguintes a rodada das outras provas (Clínica Médica, acrescentada em
+2026-10-07, segue a mesma ordem: cm01–cm25 do SUS-SP 2026 e 2021, cm26–cm50
+das outras três provas). Do SUS-SP 2026 ficaram de fora as
+anuladas (4, 21, 23 e 36), a 91 (depende de um gráfico) e, em Clínica
+Médica, a 6 e a 20 (eletrocardiogramas) e a 8 (a extração do caderno colou
+um aviso de imagem à última alternativa). Do SUS-SP 2021 entraram 33 (24
+nas quatro áreas originais e 9 em Clínica Médica), escolhidas para cobrir
+temas que o bloco de 2026 não tocou. Das outras três provas entraram 25 por área (cerca
 de 6 a 12 por prova), escolhidas para cobrir o que os 100 primeiros não
 cobriam, fora as anuladas e as que dependem de figura; a lista e o motivo de
 cada escolha estão em `ferramentas/selecao.md`.
@@ -111,7 +117,7 @@ docs/superpowers/     spec e plano — fora do ar
 - `testes.py` — 19 testes das ferramentas: `python ferramentas/testes.py`.
 - `conferir_readme.js` — a tabela acima contra `banco.js`.
 - `pdf.py` — os PDFs do caderno pelo Chrome sem janela (ver "PDF").
-- `selecao.md` — as 200 escolhas e o motivo de cada uma.
+- `selecao.md` — as 250 escolhas e o motivo de cada uma.
 
 ## De onde vêm as questões — e por que só estas
 
