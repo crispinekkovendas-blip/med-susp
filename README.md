@@ -2,8 +2,8 @@
 
 Banco de questões comentadas de **Pediatria, Medicina Preventiva e Social,
 Cirurgia, Ginecologia e Obstetrícia e Clínica Médica** para a Seleção Pública
-para Residência Médica do SUS-SP (banca VUNESP), acesso direto. **250
-questões**, todas reais,
+para Residência Médica do SUS-SP (banca VUNESP), acesso direto.
+**250 questões**, todas reais,
 de cinco provas da VUNESP — SUS-SP 2026 e 2021 (cinco alternativas), UNESP
 Botucatu 2026, Einstein 2026 e Einstein 2025 (quatro alternativas, como a
 banca as fez) —, extraídas dos cadernos oficiais, com gabarito oficial,
