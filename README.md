@@ -34,8 +34,8 @@ Figuras: 250 (uma por questão). Sobre a matéria: 250 (uma por questão,
 1.800–3.600 caracteres de texto cada). Páginas do caderno (PDFs de
 2026-10-07 com as opções padrão — Sobre a matéria depois do comentário,
 figuras, quadriculado — contadas pelo `pdf.py`): Pediatria 171, Preventiva
-171, Cirurgia 178, GO 167, Clínica Médica 167; o completo, 835 páginas
-(93,9 MB). Cada ficha ocupa duas páginas, ou três quando comentário e
+171, Cirurgia 177, GO 167, Clínica Médica 167; o completo, 834 páginas
+(94 MB). Cada ficha ocupa duas páginas, ou três quando comentário e
 mini-aula deixam menos de 90 mm para as anotações (classe `tripla`). A folha
 de respostas desenha 225 bolhas para as 50 de Pediatria (25 × 5 + 25 × 4).
 
