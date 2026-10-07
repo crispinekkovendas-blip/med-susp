@@ -16,7 +16,7 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 |---|---|
 | Banco na tela | https://susp.vercel.app/ |
 | Caderno para imprimir | https://susp.vercel.app/caderno/ |
-| Deploy | `npx vercel deploy --prod --yes` a partir de `med/susp/` (projeto `susp`; repositório git, branch `implementacao` → `main`) |
+| Deploy | `npx vercel deploy --prod --yes` a partir de `med/susp/` (projeto `susp`; repositório git local, trabalho em `main`) |
 
 ## Números (2026-10-07)
 
