@@ -24,7 +24,7 @@
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
-  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "junto", figuras: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, nome: "Genaro Tuco Zarate" };
+  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "junto", figuras: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, nome: "" };   /* sem nome: o aluno escreve o seu na capa */
   /* no papel não há clique: as respostas do "Verifique o que aprendeu" saem à vista */
   const materiaImpressa = m => m.replace(/<details><summary>Resposta<\/summary>([\s\S]*?)<\/details>/g, '<span class="resp"><em>Resposta:</em> $1</span>');
   const ler = () => { try { const s = JSON.parse(localStorage.getItem(CH) || "{}"); const o = Object.assign({}, PADRAO); for (const k in PADRAO) if (k in s) o[k] = s[k]; return o; } catch (e) { return Object.assign({}, PADRAO); } };
@@ -49,7 +49,7 @@
       else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
       else el.setAttribute(k, v === true ? "" : v);
     }
-    for (const f of filhos.flat()) if (f != null && f !== false) el.append(f.nodeType ? f : document.createTextNode(String(f)));
+    for (const f of filhos.flat(Infinity)) if (f != null && f !== false) el.append(f.nodeType ? f : document.createTextNode(String(f)));
     return el;
   };
   const dois = n => String(n).padStart(2, "0");

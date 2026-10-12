@@ -300,8 +300,9 @@ raramente cabe numa página em corpo 9,5 pt; a opção "Letra grande" aumenta
 enunciado, alternativas, comentário e Simplificando, e aumenta o número de
 duplas.
 
-Antes das fichas: capa (com o **nome do estudante**, também no rodapé de toda
-página), instruções, mapa de temas por área; texto compartilhado sai uma vez
+Antes das fichas: capa (com uma linha para o **nome do estudante** — vazia por
+padrão, para o aluno escrever o seu; digitado no painel, sai na capa e no rodapé
+de toda página), instruções, mapa de temas por área; texto compartilhado sai uma vez
 por sequência. Depois: gabarito resumido e "Meu resultado" (opcionais);
 folha de respostas opcional. Opções em `susp:caderno`: área, edição,
 Simplificando, Sobre a matéria (página própria / na ficha / não), figuras,

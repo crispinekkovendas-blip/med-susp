@@ -472,6 +472,12 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     const todasFichas = todos(app, ".questao");
     const qs = todasFichas.filter(f => !f.className.includes("materia-pagina")), paginasM = todasFichas.filter(f => f.className.includes("materia-pagina"));
     exige(qs.length === Q.length, `o caderno padrão montou ${qs.length} fichas, esperava ${Q.length}`);
+    /* o painel: a linha "PDF pronto" traz um link por área, com o nome da área, e o
+       Completo — nada de URL crua nem vírgula (filhos aninhados em h() pedem flat(Infinity)) */
+    const pdfs = app.querySelector(".pdfs");
+    const linksPdf = pdfs ? todos(pdfs, "a") : [];
+    exige(!!pdfs && linksPdf.length === AREAS.length + 1 && AREAS.every((a, i) => linksPdf[i].textContent === a.nome && linksPdf[i].attrs.href === `../pdf/caderno-${a.id}.pdf`) && linksPdf[AREAS.length].textContent === "Completo", 'a linha "PDF pronto" do painel não traz um link com o nome de cada área mais o Completo');
+    exige(!!pdfs && !/\.pdf|http|object/.test(pdfs.textContent), 'a linha "PDF pronto" do painel vaza texto cru (URL ou objeto): filhos aninhados sem flat(Infinity)');
     const seqAreas = qs.map(f => IDS_AREA.indexOf((Q.find(x => x.id === f.attrs["data-id"]) || {}).area));
     exige(seqAreas.every((v, i) => v >= 0 && (i === 0 || v >= seqAreas[i - 1])), "as fichas não estão agrupadas por área na ordem de meta.areas");
     exige(todos(app, ".alts").flatMap(a => todos(a, ".bolha")).length === Q.reduce((s, q) => s + q.alternativas.length, 0), "as fichas não têm uma bolha por alternativa");
@@ -517,8 +523,8 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(linhasMapa.every((tr, i) => (tr.querySelector(".tag") || {}).textContent === AREAS.find(a => a.id === Q[i].area).nome), "o mapa de temas não lista cada questão sob a sua área, na ordem do banco");
     exige(todos(app, ".capa").length === 1 && todos(app, ".mapa").length === 1 && todos(app, ".resultado").length === 1, "faltam capa, mapa de temas ou quadro de resultado");
     const nomeCapa = (app.querySelector(".capa").querySelector(".nome") || {}).textContent || "";
-    exige(nomeCapa === "Genaro Tuco Zarate", `a capa não traz o nome do estudante ("${nomeCapa}")`);
-    exige(((app.querySelector(".rodape-impresso") || {}).textContent || "").startsWith("Genaro Tuco Zarate · "), "o rodapé impresso não começa com o nome do estudante");
+    exige(nomeCapa === "", `por padrão a capa não traz nome nenhum — o aluno escreve o seu ("${nomeCapa}")`);
+    exige(((app.querySelector(".rodape-impresso") || {}).textContent || "").startsWith("Caderno SUS-SP · "), "sem nome, o rodapé impresso precisa começar em \"Caderno SUS-SP · \" (sem o separador solto)");
     /* uma área, sem Simplificando, em branco, com folha, sem resumo */
     const a0 = AREAS[0];
     app = montar({ area: a0.id, simples: false, materia: false, figuras: false, pauta: "nenhuma", folha: true, resumo: false });
