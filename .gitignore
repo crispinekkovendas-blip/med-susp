@@ -5,3 +5,5 @@ __pycache__
 
 .vercel
 pdf
+# rascunho da ferramenta de vídeos (nomes dos canais vistos na descoberta)
+ferramentas/videos/_canais-vistos.json

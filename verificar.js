@@ -33,6 +33,9 @@ const ESPERADO = { ped: 50, prev: 50, cir: 50, go: 50, cm: 50 };
 /* "Sobre a matéria": opcional enquanto as 200 estão sendo escritas; vira
    obrigatória (true) quando todas existirem */
 const EXIGE_MATERIA = true;
+/* vídeos: as escolhas podem estar incompletas enquanto a camada é preenchida
+   (área a área); vira obrigatório (true) quando as 250 questões têm os dois vídeos */
+const EXIGE_VIDEOS = false;
 
 /* --- carrega o banco ---------------------------------------------------- */
 const src = fs.readFileSync(path.join(AQUI, "banco.js"), "utf8");
@@ -232,6 +235,80 @@ for (const q of Q) {
   exige(!fontesMd.split("\n").some(l => l.startsWith("| ") && /CC BY-NC|CC BY-ND|-NC\b|-ND\b/.test(l)), "figuras/FONTES.md registra uma licença NC ou ND");
 }
 
+/* --- vídeos: videos.json, um por questão, canal da lista, url canônica --- */
+{
+  const pV = path.join(AQUI, "videos.json");
+  exige(fs.existsSync(pV), "falta videos.json (python ferramentas/videos.py gerar)");
+  let V = {};
+  try { V = JSON.parse(fs.readFileSync(pV, "utf8")); } catch (e) { erro("videos.json não é JSON válido"); }
+  const canais = JSON.parse(fs.readFileSync(path.join(AQUI, "ferramentas", "videos", "canais.json"), "utf8"));
+  const escolhas = JSON.parse(fs.readFileSync(path.join(AQUI, "ferramentas", "videos", "escolhas.json"), "utf8"));
+  const idsV = Object.keys(V);
+  exige(idsV.length === Q.length && Q.every(q => V[q.id]), `videos.json tem ${idsV.length} ids, esperava um por questão (${Q.length})`);
+  exige(idsV.every(id => Q.some(q => q.id === id)), "videos.json tem id que não é questão nenhuma");
+  const URL_YT = /^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}$/;
+  const faltam = { q: 0, m: 0 };
+  for (const q of Q) {
+    const v = V[q.id]; if (!v) continue;
+    exige(v.fonte === q.fonte && v.numero === q.numero && v.tema === q.tema && v.rotulo === FONTES[q.fonte].rotulo, `${q.id}: videos.json não bate com a questão (fonte, número, tema, rótulo)`);
+    exige(typeof v.busca === "string" && v.busca.length >= 8 && v.busca.length <= 80, `${q.id}: busca fora de 8–80 caracteres`);
+    for (const k of ["q", "m"]) {
+      const p = v[k];
+      if (p == null) { faltam[k]++; if (EXIGE_VIDEOS) erro(`${q.id}: sem vídeo ${k === "q" ? "da questão" : "da matéria"}`); continue; }
+      exige(URL_YT.test(p.url), `${q.id}: url do vídeo ${k} não é https://www.youtube.com/watch?v=<11 caracteres> (${p.url})`);
+      exige(!!p.titulo && !!p.canal, `${q.id}: vídeo ${k} sem título ou canal`);
+      const forcado = !!(escolhas[q.id] && escolhas[q.id].forcado && escolhas[q.id].forcado[k]);
+      exige(forcado || canais.some(c => c.id === p.canalId), `${q.id}: o canal do vídeo ${k} (${p.canal}) não está em canais.json`);
+      exige(p.duracao >= 240 && p.duracao <= 5400, `${q.id}: vídeo ${k} fora de 4–90 minutos (${p.duracao} s)`);
+    }
+  }
+  console.log(`vídeos: ${Q.length - faltam.q} da questão e ${Q.length - faltam.m} da matéria escolhidos; faltam ${faltam.q} e ${faltam.m}`);
+}
+
+/* --- links curtos: v/destino.js redireciona, v/index.html é a página --- */
+{
+  const pD = path.join(AQUI, "v", "destino.js"), pP = path.join(AQUI, "v", "index.html");
+  exige(fs.existsSync(pD) && fs.existsSync(pP), "faltam v/destino.js ou v/index.html");
+  try {
+    const { destino } = require(pD);
+    const V = { ped07: { fonte: "susp2026", numero: 7, tema: "Hérnia", rotulo: "SUS-SP 2026", busca: "hérnia inguinal — anatomia \"x\"",
+      q: { url: "https://www.youtube.com/watch?v=aaaaaaaaaaa", titulo: "t", canal: "c", canalId: "UC1", duracao: 600 }, m: null } };
+    exige(JSON.stringify(destino("ped07", "q", V)) === JSON.stringify({ url: "https://www.youtube.com/watch?v=aaaaaaaaaaa" }), "destino(): não devolve a url do vídeo da questão");
+    exige(destino("ped07", "m", V).fallback === "sem-video", "destino(): sem vídeo da matéria deveria cair em sem-video");
+    const mais = destino("ped07", "mais", V).url || "";
+    exige(mais === "https://www.youtube.com/results?search_query=" + encodeURIComponent(V.ped07.busca) && !mais.includes(" ") && !mais.includes("\""), "destino(): a busca não está codificada para a URL do YouTube");
+    exige(destino("zz99", "q", V).fallback === "sem-id" && !destino("zz99", "q", V).url, "destino(): um id desconhecido precisa cair em sem-id, nunca numa url");
+    exige(destino("PED07", "q", V).url === V.ped07.q.url, "destino(): o id precisa aceitar maiúsculas (scanner)");
+    exige(destino("ped07", "x", V).fallback === "escolher" && destino("ped07", undefined, V).fallback === "escolher", "destino(): sem qual (ou qual desconhecido) é a página com os três botões");
+    exige(destino("ped07", "q", null).fallback === "sem-id", "destino(): sem videos.json carregado precisa cair em sem-id, não estourar");
+    const pick = { ...V, ped07: { ...V.ped07, q: { ...V.ped07.q, url: "https://youtu.be/aaaaaaaaaaa" } } };
+    exige(destino("ped07", "q", pick).fallback === "sem-video", "destino(): uma url fora da forma canônica não pode ser destino");
+  } catch (e) { erro(`v/destino.js estourou: ${e.message}`); }
+  const pagina = fs.existsSync(pP) ? fs.readFileSync(pP, "utf8") : "";
+  for (const t of ['src="/v/destino.js"', 'fetch("/videos.json"', 'id="botao-mais"', 'id="botao-site"', 'id="botao-inicio"', 'lang="pt-BR"', "Vídeo da questão", "Vídeo da matéria", "Mais vídeos do tema", "Abrir a questão no site", "Banco SUS-SP"])
+    exige(pagina.includes(t), `v/index.html não traz ${t}`);
+  exige(!/youtube\.com\/embed|ytimg\.com|AMRIGS/.test(pagina), "v/index.html não pode carregar nada do YouTube nem falar do banco irmão");
+}
+
+/* --- a página de revisão dos vídeos (para o cliente) ----------------------- */
+{
+  const pR = path.join(AQUI, "videos", "revisao.js"), pH = path.join(AQUI, "videos", "index.html");
+  exige(fs.existsSync(pR) && fs.existsSync(pH), "faltam videos/revisao.js ou videos/index.html");
+  try {
+    const { htmlRevisao } = require(pR);
+    const V = JSON.parse(fs.readFileSync(path.join(AQUI, "videos.json"), "utf8"));
+    const html = htmlRevisao(V);
+    exige(Q.every(q => html.includes(`data-id="${q.id}"`)), "a revisão não lista todas as questões");
+    exige((html.match(/class="pick vazio"/g) || []).length === Object.values(V).reduce((s, v) => s + (v.q ? 0 : 1) + (v.m ? 0 : 1), 0), "a revisão não marca cada escolha ausente como vazia");
+    const V2 = { [Q[0].id]: Object.assign({}, V[Q[0].id], { q: { url: "https://www.youtube.com/watch?v=aaaaaaaaaaa", titulo: "Título <x>", canal: "Canal & Cia", canalId: "UC1", duracao: 662 }, m: null }) };
+    const h2 = htmlRevisao(V2);
+    exige(h2.includes("https://i.ytimg.com/vi/aaaaaaaaaaa/mqdefault.jpg") && h2.includes("Título &lt;x&gt;") && h2.includes("Canal &amp; Cia") && h2.includes("11:02") && h2.includes("1 vídeos da questão · 0 da matéria") && h2.includes(FONTES[Q[0].fonte].rotulo), "a revisão não mostra miniatura, título (escapado), canal, duração mm:ss, o rótulo da prova e a contagem");
+    exige(html.includes('class="contagem"') && html.includes(`href="/v/${Q[0].id}/mais"`), "a revisão precisa da contagem e do link Mais vídeos de cada questão");
+    const pagina = fs.readFileSync(pH, "utf8");
+    exige(pagina.includes('src="/videos/revisao.js"') && pagina.includes('fetch("/videos.json"') && pagina.includes('lang="pt-BR"') && !pagina.includes("AMRIGS"), "videos/index.html não carrega revisao.js e videos.json (ou fala do banco irmão)");
+  } catch (e) { erro(`videos/revisao.js estourou: ${e.message}`); }
+}
+
 /* --- bytes de controle nos arquivos ------------------------------------- */
 for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/caderno.js", "caderno/caderno.css", "caderno/index.html"]) {
   n++;
@@ -251,6 +328,8 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   const proibido = regras.filter(r => (r.sel.includes(".questao") || r.sel.includes(".comentario")) && /overflow:\s*hidden|break-inside:\s*avoid|page-break-inside:\s*avoid/.test(r.corpo));
   exige(!proibido.length, "caderno.css: .questao e .comentario não podem ter overflow: hidden nem break-inside: avoid (a ficha longa precisa correr para a página seguinte)");
   exige(/--pagina:\s*256mm/.test(css), "caderno.css: --pagina deve ser 256mm");
+  exige(/\.videos \.codigo svg\s*\{[^}]*width:\s*18mm/.test(css), "caderno.css precisa dimensionar o QR code em 18 mm (.videos .codigo svg)");
+  exige(/@page\s*\{[^}]*@bottom-right\s*\{[^}]*counter\(page\)[^}]*counter\(pages\)/.test(css), "caderno.css: @page precisa da caixa @bottom-right com \"Página X de Y\" (counter(page) e counter(pages))");
   /* revisão final: a pauta não conta como conteúdo, a medida é feita na
      geometria da folha e refeita antes de imprimir; Letra grande chega à
      ficha; no celular os filtros quebram linha em vez de sumir */
@@ -329,7 +408,9 @@ function domDeMentira() {
   const window = {
     document, localStorage: { getItem: k => armazem[k] == null ? null : armazem[k], setItem: (k, v) => { armazem[k] = String(v); }, removeItem: k => { delete armazem[k]; } },
     scrollTo() {}, confirm: () => true, setTimeout: f => { f(); return 1; }, setInterval: () => 1, clearInterval() {},
-    Date, Math, JSON, Object, Array, Number, String, Boolean, RegExp, console,
+    location: { hash: "", pathname: "/", search: "" }, listeners: {},
+    addEventListener(k, f) { (window.listeners[k] = window.listeners[k] || []).push(f); },
+    Date, Math, JSON, Object, Array, Number, String, Boolean, RegExp, console, URLSearchParams,
   };
   window.window = window;
   return { window, document, app };
@@ -436,6 +517,27 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     const bFonte = todos(app, ".seg").flatMap(s => todos(s, "button")).find(b => b.textContent.startsWith(f0.rotulo));
     if (bFonte) (bFonte.listeners.click || []).forEach(fn => fn());
     exige(bFonte && todos(app, ".q").length === Q.filter(q => q.fonte === f0.id).length, `o filtro "${f0.rotulo}" mostrou ${todos(app, ".q").length} cartões`);
+    /* os três links de vídeo (links curtos do site) fecham o painel Comentário */
+    {
+      const c0 = todos(app, ".q")[0], pc0 = c0 && todos(c0, ".comentario").find(e => !e.className.includes("simples") && !e.className.includes("materia"));
+      const baseV = `https://${B.meta.site}/v/${Q[0].id}/`;
+      exige(pc0 && ["q", "m", "mais"].every(k => pc0.innerHTML.includes(`class="video" href="${baseV}${k}" target="_blank" rel="noopener"`)) && pc0.innerHTML.includes('class="videos"'), "o painel Comentário não traz os três links de vídeo (a.video com os links curtos /v/<id>/q|m|mais)");
+      exige(pc0 && pc0.innerHTML.indexOf('class="videos"') > pc0.innerHTML.indexOf('class="fonte"'), "os links de vídeo precisam vir depois da linha de fonte");
+    }
+    /* link direto #<id>: abre com todas as questões, marca e rola até o cartão */
+    {
+      const alvo = Q[Math.min(7, Q.length - 1)];
+      const { window: w2, app: app2 } = domDeMentira();
+      w2.location.hash = "#" + alvo.id.toUpperCase();
+      w2.localStorage.setItem("susp:filtro", JSON.stringify(AREAS[AREAS.length - 1].id));
+      const c2 = contexto(w2);
+      vm.runInContext(src, c2, { filename: "banco.js" });
+      vm.runInContext(fs.readFileSync(path.join(AQUI, "app.js"), "utf8"), c2, { filename: "app.js" });
+      const cartao = todos(app2, ".q").find(x => x.attrs["data-id"] === alvo.id);
+      exige(todos(app2, ".q").length === Q.length, "com #<id> na URL a página precisa mostrar todas as questões (o filtro guardado não pode esconder o alvo)");
+      exige(!!cartao && cartao.className.split(/\s+/).includes("alvo"), `com #${alvo.id} na URL o cartão ${alvo.id} não ganhou a classe alvo`);
+      exige(w2.localStorage.getItem("susp:filtro") === JSON.stringify("todas"), "o link direto não voltou o filtro guardado para todas");
+    }
     /* capa e rodapé contam a partir dos dados */
     const lead = app.querySelector(".lead");
     exige(lead && lead.innerHTML.includes(`${Q.length} questões`), "a capa não conta as questões a partir dos dados");
@@ -463,6 +565,7 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     if (opcoes) window.localStorage.setItem("susp:caderno", JSON.stringify(opcoes));
     const c = contexto(window);
     vm.runInContext(src, c, { filename: "banco.js" });
+    vm.runInContext(fs.readFileSync(path.join(AQUI, "caderno", "qrcode.js"), "utf8"), c, { filename: "qrcode.js" });
     vm.runInContext(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8"), c, { filename: "caderno.js" });
     return app;
   };
@@ -476,8 +579,9 @@ const todos = (el, sel) => el.querySelectorAll(sel);
        Completo — nada de URL crua nem vírgula (filhos aninhados em h() pedem flat(Infinity)) */
     const pdfs = app.querySelector(".pdfs");
     const linksPdf = pdfs ? todos(pdfs, "a") : [];
-    exige(!!pdfs && linksPdf.length === AREAS.length + 1 && AREAS.every((a, i) => linksPdf[i].textContent === a.nome && linksPdf[i].attrs.href === `../pdf/caderno-${a.id}.pdf`) && linksPdf[AREAS.length].textContent === "Completo", 'a linha "PDF pronto" do painel não traz um link com o nome de cada área mais o Completo');
+    exige(!!pdfs && linksPdf.length === AREAS.length && AREAS.every((a, i) => linksPdf[i].textContent === a.nome && linksPdf[i].attrs.href === `../pdf/caderno-${a.id}.pdf`) && !/Completo|completo/.test(pdfs.textContent), 'a linha "PDF pronto" do painel não traz um link com o nome de cada área mais o Completo');
     exige(!!pdfs && !/\.pdf|http|object/.test(pdfs.textContent), 'a linha "PDF pronto" do painel vaza texto cru (URL ou objeto): filhos aninhados sem flat(Infinity)');
+    exige(!!todos(app, "a").find(a => a.attrs.href === "../videos/" && a.textContent.includes("revisão")), "o painel do caderno não tem o link para a página de revisão dos vídeos");
     const seqAreas = qs.map(f => IDS_AREA.indexOf((Q.find(x => x.id === f.attrs["data-id"]) || {}).area));
     exige(seqAreas.every((v, i) => v >= 0 && (i === 0 || v >= seqAreas[i - 1])), "as fichas não estão agrupadas por área na ordem de meta.areas");
     exige(todos(app, ".alts").flatMap(a => todos(a, ".bolha")).length === Q.reduce((s, q) => s + q.alternativas.length, 0), "as fichas não têm uma bolha por alternativa");
@@ -514,12 +618,27 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     const fontes = qs.map(f => (f.querySelector(".fonte") || {}).textContent || "");
     const fonteOk = (t, i) => { const d = Q.find(x => x.id === qs[i].attrs["data-id"]); return t === `Questão ${dois(d.numero)} · ${FONTES[d.fonte].rotulo}.`; };
     exige(fontes.every(fonteOk), `a linha de fonte da ficha não é "Questão NN · ROTULO." ("${fontes.find((t, i) => !fonteOk(t, i))}")`);
+    /* a faixa dos vídeos: três QR codes por ficha, na ordem q · m · mais, cada um
+       com a url curta do site, um SVG e a legenda; nunca na página própria da mini-aula */
+    const BASE = `https://${B.meta.site}/v/`;
+    const LEGS = ["Vídeo da questão", "Vídeo da matéria", "Mais vídeos do tema"];
+    const qrOk = f => {
+      const d = Q.find(x => x.id === f.attrs["data-id"]); const c = f.querySelector(".comentario"); const faixa = c && c.querySelector(".videos");
+      const qrs = faixa ? todos(faixa, ".qr") : [];
+      return qrs.length === 3 && ["q", "m", "mais"].every((k, i) => qrs[i].attrs.href === BASE + d.id + "/" + k && qrs[i].attrs["data-qual"] === k
+        && String((qrs[i].querySelector(".codigo") || {}).innerHTML || "").startsWith("<svg") && (qrs[i].querySelector(".leg") || {}).textContent === LEGS[i])
+        && posicao(c, "videos") > posicao(c, "fonte");
+    };
+    exige(qs.every(qrOk), "alguma ficha sem os três QR codes (a.qr com href https://<site>/v/<id>/q|m|mais, SVG e legenda) depois da linha de fonte — ou um QR code com href errado");
+    exige(fs.existsSync(path.join(AQUI, "caderno", "qrcode.js")) && fs.readFileSync(path.join(AQUI, "caderno", "qrcode.js"), "utf8").includes("Kazuhiko Arase") && fs.readFileSync(path.join(AQUI, "caderno", "index.html"), "utf8").includes('src="qrcode.js"'), "caderno/qrcode.js (MIT, Kazuhiko Arase) precisa existir com o cabeçalho e ser carregado antes de caderno.js");
     exige(todos(app, ".folha").length === 0, "a folha de respostas só entra quando pedida");
     const chave = todos(app, ".chave").flatMap(t => todos(t, ".l"));
     exige(chave.length === Q.length && chave.every(td => { const q = Q.find(x => x.id === td.attrs["data-id"]); return q && td.attrs["data-letra"] === LETRAS[q.correta]; }), "o gabarito impresso não bate com as letras do banco");
     const mapa = app.querySelector(".mapa");
     const linhasMapa = mapa ? todos(mapa, "tr") : [];
     exige(linhasMapa.length === Q.length, `o mapa de temas tem ${linhasMapa.length} linhas, esperava ${Q.length} (uma por questão)`);
+    exige(linhasMapa.every((tr, i) => tr.attrs["data-id"] === Q[i].id && !!tr.querySelector(".pag")), "o mapa de temas é o índice: cada linha precisa do data-id da questão e da célula .pag (a página da ficha, preenchida pela medida)");
+    exige(todos(app, ".chave").flatMap(t => todos(t, "tr")).every(tr => tr.attrs["data-id"] && !!tr.querySelector(".pag")), "o gabarito resumido precisa da coluna da página (.pag) em cada linha, por id");
     exige(linhasMapa.every((tr, i) => (tr.querySelector(".tag") || {}).textContent === AREAS.find(a => a.id === Q[i].area).nome), "o mapa de temas não lista cada questão sob a sua área, na ordem do banco");
     exige(todos(app, ".capa").length === 1 && todos(app, ".mapa").length === 1 && todos(app, ".resultado").length === 1, "faltam capa, mapa de temas ou quadro de resultado");
     const nomeCapa = (app.querySelector(".capa").querySelector(".nome") || {}).textContent || "";
@@ -527,12 +646,13 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(((app.querySelector(".rodape-impresso") || {}).textContent || "").startsWith("Caderno SUS-SP · "), "sem nome, o rodapé impresso precisa começar em \"Caderno SUS-SP · \" (sem o separador solto)");
     /* uma área, sem Simplificando, em branco, com folha, sem resumo */
     const a0 = AREAS[0];
-    app = montar({ area: a0.id, simples: false, materia: false, figuras: false, pauta: "nenhuma", folha: true, resumo: false });
+    app = montar({ area: a0.id, simples: false, materia: false, figuras: false, pauta: "nenhuma", folha: true, resumo: false, qr: false });
     const qs2 = todos(app, ".questao");
     exige(qs2.length === Q.filter(q => q.area === a0.id).length, `com a área ${a0.id}, o caderno montou ${qs2.length} fichas`);
     exige(todos(app, ".simples").length === 0, "Simplificando desligado ainda aparece");
     exige(todos(app, ".materia").length === 0, "Sobre a matéria desligado ainda aparece");
     exige(todos(app, ".figura").length === 0, "a opção Figuras desligada ainda imprime figuras");
+    exige(todos(app, ".qr").length === 0, "a opção QR codes desligada ainda imprime a faixa");
     exige(todos(app, ".notas").length === qs2.length && todos(app, ".notas").every(x => x.className.includes("nenhuma")), "a opção de anotações em branco não chegou às fichas");
     const bolhasEsperadas = Q.filter(q => q.area === a0.id).reduce((s, q) => s + q.alternativas.length, 0);
     exige(todos(app, ".folha").flatMap(f => todos(f, ".bolha")).length === bolhasEsperadas, `a folha de respostas não tem uma bolha por alternativa de cada questão (${todos(app, ".folha").flatMap(f => todos(f, ".bolha")).length}, esperava ${bolhasEsperadas})`);
@@ -544,8 +664,30 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(qsP.length === Q.length && paginasP.length === Q.filter(q => q.materia).length, `em página própria, o caderno montou ${qsP.length} fichas e ${paginasP.length} páginas Sobre a matéria, esperava ${Q.length} e ${Q.filter(q => q.materia).length}`);
     const paginaMOk = f => { const d = Q.find(x => x.id === f.attrs["data-id"]); const m = f.querySelector(".materia"); const n = f.querySelector(".notas"); return !!d && !!m && todos(m, "div")[0].innerHTML === impressa(d.materia) && todos(f, ".notas").length === 1 && n.className.includes("quadriculado") && !!n.querySelector(".termos") && !!f.querySelector(".num") && (f.querySelector(".tag") || {}).textContent === AREAS.find(a => a.id === d.area).nome; };
     exige(paginasP.every(paginaMOk), "alguma página Sobre a matéria não traz o número, a tag da área, a mini-aula com as respostas à vista e a pauta");
+    exige(qsP.every(f => todos(f, ".qr").length === 3), "em página própria, a ficha da questão perdeu os QR codes");
+    exige(paginasP.every(f => todos(f, ".qr").length === 0), "a página própria da mini-aula não pode repetir os QR codes");
     exige(qsP.every(f => !f.querySelector(".materia") && todos(f, ".notas").length === 0), "com Sobre a matéria em página própria, a ficha da questão não pode trazer a mini-aula nem a pauta (a pauta é uma só, na página da mini-aula)");
     exige(fichasP.every((f, i) => !f.className.includes("materia-pagina") || (i > 0 && fichasP[i - 1].attrs["data-id"] === f.attrs["data-id"] && !fichasP[i - 1].className.includes("materia-pagina"))), "a página Sobre a matéria precisa vir logo depois da ficha da sua questão");
+    app = montar({ letra: "grande" });
+    exige(todos(app, ".qr").length === 3 * Q.length, "com letra grande, a faixa dos QR codes mudou de contagem");
+    /* o índice exato: pdf.py imprime, lê em que página cada ficha começou e
+       imprime de novo passando as páginas pela URL (?paginas=6,10,13,…), na
+       ordem das fichas; as células .pag do mapa e do gabarito recebem esses
+       números em vez da estimativa */
+    {
+      const { window: w3, app: app3 } = domDeMentira();
+      const n3 = Q.filter(q => q.area === a0.id).length;
+      const lista3 = Array.from({ length: n3 }, (_, i) => 5 + 3 * i);
+      w3.location.search = `?area=${a0.id}&paginas=${lista3.join(",")}`;
+      const c3 = contexto(w3);
+      vm.runInContext(src, c3, { filename: "banco.js" });
+      vm.runInContext(fs.readFileSync(path.join(AQUI, "caderno", "qrcode.js"), "utf8"), c3, { filename: "qrcode.js" });
+      vm.runInContext(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8"), c3, { filename: "caderno.js" });
+      const pags = todos(app3.querySelector(".mapa") || app3, "tr").map(tr => (tr.querySelector(".pag") || {}).textContent);
+      exige(pags.length === n3 && pags.every((p, i) => p === String(lista3[i])), `com ?paginas= na URL o mapa de temas não mostra essas páginas, na ordem (${pags.slice(0, 4)})`);
+      const pagsG = todos(app3, ".chave").flatMap(t => todos(t, "tr")).map(tr => (tr.querySelector(".pag") || {}).textContent);
+      exige(pagsG.length === n3 && pagsG.every((p, i) => p === String(lista3[i])), "com ?paginas= na URL o gabarito resumido não mostra as mesmas páginas");
+    }
     /* uma edição, outro nome */
     const f0 = B.meta.fontes.find(f => Q.some(q => q.fonte === f.id));
     app = montar({ edicao: f0.id, nome: "Maria Silva" });
@@ -556,8 +698,9 @@ const todos = (el, sel) => el.querySelectorAll(sel);
 
 /* --- relatório ------------------------------------------------------------- */
 const porArea = AREAS.map(a => `${a.curto} ${Q.filter(q => q.area === a.id).length}`).join(" · ");
+let comVideos = 0; try { comVideos = Object.values(JSON.parse(fs.readFileSync(path.join(AQUI, "videos.json"), "utf8"))).filter(v => v.q && v.m).length; } catch (e) { /* sem videos.json: já apontado acima */ }
 const porFonte = B.meta.fontes.map(f => `${f.rotulo} ${Q.filter(q => q.fonte === f.id).length}`).join(" · ");
-console.log(`\n${falhas.length ? "✗" : "✓"} banco SUS-SP — ${Q.length} questões (${porArea}; ${porFonte}) · ${Q.filter(q => q.figura).length} figuras · ${Q.filter(q => q.materia).length} com Sobre a matéria · ${n} conferências`);
+console.log(`\n${falhas.length ? "✗" : "✓"} banco SUS-SP — ${Q.length} questões (${porArea}; ${porFonte}) · ${Q.filter(q => q.figura).length} figuras · ${Q.filter(q => q.materia).length} com Sobre a matéria · ${comVideos} com os dois vídeos · ${n} conferências`);
 for (const f of falhas) console.log("   ! " + f);
 console.log(falhas.length ? `\n${falhas.length} problema(s).` : "\ntudo certo.");
 process.exit(falhas.length ? 1 : 0);

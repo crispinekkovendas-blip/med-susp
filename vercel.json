@@ -1,0 +1,11 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "main": false
+    }
+  },
+  "rewrites": [
+    { "source": "/v/:id/:qual", "destination": "/v/" },
+    { "source": "/v/:id", "destination": "/v/" }
+  ]
+}

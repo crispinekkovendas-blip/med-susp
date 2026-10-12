@@ -238,6 +238,209 @@ def test_extracao_unesp2026_e_einstein():
     assert por[15]["area"] == "cm" and por[16]["area"] == "cir" and por[31]["area"] == "ped" and por[46]["area"] == "go" and por[61]["area"] == "prev"
     assert not any(re.search(r"(Cirurgia Geral|pediatria|gINECOLOGIA E oBSTETRÍCIA|MEDICINA DA FAMÍLIA E SAÚDE COLETIVA)$", a, re.I) for q in por.values() for a in q["alternativas"]), "título de bloco colado numa alternativa"
 
+@teste
+def test_vercel_json_desliga_o_deploy_automatico_do_git():
+    # a Vercel pode ligar o repositório ao projeto; um build a partir do git não teria pdf/
+    cfg = json.load(open(os.path.join(AQUI, "..", "vercel.json"), encoding="utf-8"))
+    assert cfg.get("git", {}).get("deploymentEnabled", {}).get("main") is False, "vercel.json não desliga o deploy automático de main"
+
+@teste
+def test_vercel_json_reescreve_os_links_curtos():
+    # /v/<id>/<qual> e /v/<id> caem na página v/ (que lê o caminho e redireciona)
+    cfg = json.load(open(os.path.join(AQUI, "..", "vercel.json"), encoding="utf-8"))
+    rotas = {(r.get("source"), r.get("destination")) for r in cfg.get("rewrites", [])}
+    assert ("/v/:id/:qual", "/v/") in rotas and ("/v/:id", "/v/") in rotas, rotas
+
+# --- vídeos: questoes_json.js e videos.py gerar ----------------------------------
+def roda_node(*args):
+    r = subprocess.run(["node"] + list(args), capture_output=True, text=True, encoding="utf-8", cwd=os.path.join(AQUI, ".."))
+    return r.returncode, (r.stdout or "") + (r.stderr or "")
+
+@teste
+def test_questoes_json_lista_uma_linha_por_questao():
+    cod, saida = roda_node("ferramentas/questoes_json.js")
+    assert cod == 0, saida[-300:]
+    qs = json.loads(saida)
+    assert len(qs) == 250 and qs[0]["id"] == "ped01" and qs[-1]["id"] == "cm50"
+    assert all(set(q) == {"id", "area", "fonte", "numero", "tema", "termo", "rotulo"} for q in qs)
+    assert qs[0]["rotulo"] == "SUS-SP 2026" and all(q["rotulo"] for q in qs)
+    # termo = primeiro <dt> da mini-aula, sem tags
+    assert all(q["termo"] and "<" not in q["termo"] for q in qs), [q["id"] for q in qs if not q["termo"]][:5]
+
+@teste
+def test_videos_consultas():
+    import videos
+    q = {"id": "cm01", "tema": "Cefaleia — critérios de migrânea", "termo": "Migrânea sem aura"}
+    # a cabeça do tema (antes do travessão ou do parêntese) é o que o YouTube entende
+    assert videos.cabeca("Cefaleia — critérios de migrânea") == "Cefaleia"
+    assert videos.cabeca("Hérnia inguinal (anatomia) — canal") == "Hérnia inguinal"
+    assert videos.consulta_q(q) == "Cefaleia residência médica"
+    assert videos.consulta_m(q) == "Cefaleia aula"
+    assert videos.video_id("https://www.youtube.com/watch?v=7LUXFoe0vNk") == "7LUXFoe0vNk"
+    assert videos.video_id("https://youtu.be/7LUXFoe0vNk") is None
+
+@teste
+def test_videos_gerar_vazio_cobre_todas_as_questoes():
+    import videos
+    qs = videos.questoes()
+    esc = {q["id"]: {"q": None, "m": None, "busca": q["tema"]} for q in qs}
+    saida = videos.gerar(escolhas=esc, candidatos={}, canais=[], qs=qs, gravar=False)
+    assert set(saida) == {q["id"] for q in qs}
+    v = saida["ped01"]
+    assert v["q"] is None and v["m"] is None and v["busca"] == qs[0]["tema"] and v["fonte"] == qs[0]["fonte"] and v["numero"] == qs[0]["numero"] and v["tema"] == qs[0]["tema"] and v["rotulo"] == qs[0]["rotulo"]
+
+@teste
+def test_videos_gerar_recusa_id_e_url_errados():
+    import videos
+    qs = videos.questoes()
+    esc = {q["id"]: {"q": None, "m": None, "busca": q["tema"]} for q in qs}
+    esc["zz99"] = {"q": None, "m": None, "busca": "x" * 10}
+    try: videos.gerar(escolhas=esc, candidatos={}, canais=[], qs=qs, gravar=False); assert False, "aceitou id que não é questão"
+    except ValueError as e: assert "zz99" in str(e)
+    del esc["zz99"]
+    cand = {"cm01": {"q": [{"url": "https://youtu.be/7LUXFoe0vNk", "videoId": "7LUXFoe0vNk", "titulo": "t", "canal": "c", "canalId": "UC1", "duracao": 600, "views": 1, "data": None}], "m": []}}
+    esc["cm01"]["q"] = "https://youtu.be/7LUXFoe0vNk"
+    try: videos.gerar(escolhas=esc, candidatos=cand, canais=[{"id": "UC1", "nome": "c"}], qs=qs, gravar=False); assert False, "aceitou url fora da forma canônica"
+    except ValueError as e: assert "cm01" in str(e)
+
+@teste
+def test_videos_gerar_copia_metadados_e_exige_canal():
+    import videos
+    qs = videos.questoes()
+    esc = {q["id"]: {"q": None, "m": None, "busca": q["tema"]} for q in qs}
+    url = "https://www.youtube.com/watch?v=7LUXFoe0vNk"
+    cand = {"cm01": {"q": [{"url": url, "videoId": "7LUXFoe0vNk", "titulo": "Anatomia", "canal": "Canal X", "canalId": "UC1", "duracao": 662, "views": 32404, "data": None}], "m": []}}
+    esc["cm01"]["q"] = url
+    try: videos.gerar(escolhas=esc, candidatos=cand, canais=[], qs=qs, gravar=False); assert False, "aceitou canal fora da lista"
+    except ValueError as e: assert "canal" in str(e)
+    saida = videos.gerar(escolhas=esc, candidatos=cand, canais=[{"id": "UC1", "nome": "Canal X"}], qs=qs, gravar=False)
+    assert saida["cm01"]["q"] == {"url": url, "titulo": "Anatomia", "canal": "Canal X", "canalId": "UC1", "duracao": 662}
+    # forçado passa sem canal na lista
+    esc["cm01"]["forcado"] = {"q": True}
+    assert videos.gerar(escolhas=esc, candidatos=cand, canais=[], qs=qs, gravar=False)["cm01"]["q"]["url"] == url
+
+@teste
+def test_videos_filtrar_lista_branca_duracao_e_ordem():
+    import videos
+    am = json.load(open(os.path.join(AQUI, "videos", "amostra-busca.json"), encoding="utf-8"))["entries"]
+    lista = videos.filtrar(am, {"UCPwesuPLFsTGosBpPqb8-Hw", "UCymJdnj_lQjDDrTqv3BYhxw", "UCdHMuOHKICxcHwecxN8P-AA"})
+    # UFES fica de fora (205 s < 4 min); Facilitando e Medcof entram, na ordem da busca
+    assert [c["videoId"] for c in lista] == ["7LUXFoe0vNk", "fi7c6ggd5Ks"], lista
+    # a ordem da busca (relevância) vale mais que as visualizações
+    pouco = {"id": "aaaaaaaaaaa", "title": "a", "channel": "c", "channel_id": "UC1", "duration": 600, "view_count": 1}
+    muito = {"id": "bbbbbbbbbbb", "title": "b", "channel": "c", "channel_id": "UC1", "duration": 600, "view_count": 100000}
+    assert [c["videoId"] for c in videos.filtrar([pouco, muito], {"UC1"})] == ["aaaaaaaaaaa", "bbbbbbbbbbb"]
+    c = lista[0]
+    assert c["url"] == "https://www.youtube.com/watch?v=7LUXFoe0vNk" and c["canalId"] == "UCPwesuPLFsTGosBpPqb8-Hw" and c["duracao"] == 662 and c["views"] == 32404 and c["data"] is None
+    assert videos.filtrar(am, set()) == []
+
+@teste
+def test_videos_canais_tabela():
+    import videos
+    am = json.load(open(os.path.join(AQUI, "videos", "amostra-busca.json"), encoding="utf-8"))["entries"]
+    tabela = videos.tabela_canais([am, am[:2]])     # dois temas: os dois primeiros canais aparecem nos dois
+    assert all(set(l) >= {"id", "nome", "hits", "mediana_s"} for l in tabela)
+    assert tabela[0]["hits"] == 2 and tabela[1]["hits"] == 2 and tabela[2]["hits"] == 1
+    assert {l["id"] for l in tabela[:2]} == {"UCPwesuPLFsTGosBpPqb8-Hw", "UCymJdnj_lQjDDrTqv3BYhxw"}
+    assert next(l for l in tabela if l["id"] == "UCPwesuPLFsTGosBpPqb8-Hw")["mediana_s"] == 662
+
+@teste
+def test_videos_trocar_exige_canal_da_lista_salvo_forcado():
+    import videos
+    esc = {"cm01": {"q": None, "m": None, "busca": "x" * 10}}
+    cands = {}
+    info = {"id": "7LUXFoe0vNk", "title": "T", "channel": "C", "channel_id": "UCfora", "duration": 600, "view_count": 5, "upload_date": "20240102"}
+    url = "https://www.youtube.com/watch?v=7LUXFoe0vNk"
+    try: videos.trocar("cm01", "q", url, escolhas=esc, candidatos=cands, canais=[], extrair=lambda u: info, gravar=False); assert False, "aceitou canal fora da lista"
+    except ValueError as e: assert "canal" in str(e)
+    videos.trocar("cm01", "q", url, forcar=True, escolhas=esc, candidatos=cands, canais=[], extrair=lambda u: info, gravar=False)
+    assert esc["cm01"]["q"] == url and esc["cm01"]["forcado"] == {"q": True}
+    assert cands["cm01"]["q"][0]["data"] == "2024-01-02" and cands["cm01"]["q"][0]["canalId"] == "UCfora"
+    videos.trocar("cm01", "q", "-", escolhas=esc, candidatos=cands, canais=[], extrair=None, gravar=False)
+    assert esc["cm01"]["q"] is None and "forcado" not in esc["cm01"]
+
+@teste
+def test_videos_conferir_marca_os_que_sumiram():
+    import videos
+    V = {"cm01": {"q": {"url": "https://www.youtube.com/watch?v=aaaaaaaaaaa"}, "m": {"url": "https://www.youtube.com/watch?v=bbbbbbbbbbb"}},
+         "cm02": {"q": {"url": "https://www.youtube.com/watch?v=ccccccccccc"}, "m": None}}
+    V["cm03"] = {"q": {"url": "https://www.youtube.com/watch?v=ddddddddddd"}, "m": None}
+    def abrir(url):
+        if "aaaaaaaaaaa" in url: return 200
+        if "ccccccccccc" in url or "ddddddddddd" in url: raise videos.HTTPErro(401)   # o oEmbed não distingue privado de incorporação desligada
+        raise videos.HTTPErro(404)
+    def extrair(url):
+        if "ddddddddddd" in url: raise RuntimeError("Private video")
+        return {"id": url[-11:]}
+    r = videos.conferir(videos_json=V, abrir=abrir, extrair=extrair)
+    assert r == [("cm01", "m", "https://www.youtube.com/watch?v=bbbbbbbbbbb", 404), ("cm03", "q", "https://www.youtube.com/watch?v=ddddddddddd", "privado")], r
+
+@teste
+def test_videos_ytdlp_pede_titulos_em_portugues():
+    import videos
+    o = videos.OPCOES_YTDLP
+    assert o["http_headers"]["Accept-Language"].startswith("pt-BR") and o["extractor_args"]["youtube"]["lang"] == ["pt"]
+
+@teste
+def test_videos_escolher_nao_repete_o_mesmo_video():
+    import videos
+    mesmo = {"url": "https://www.youtube.com/watch?v=aaaaaaaaaaa", "videoId": "aaaaaaaaaaa", "titulo": "a", "canal": "c", "canalId": "UC1", "duracao": 600, "views": 1, "data": None}
+    outro = {"url": "https://www.youtube.com/watch?v=bbbbbbbbbbb", "videoId": "bbbbbbbbbbb", "titulo": "b", "canal": "c", "canalId": "UC1", "duracao": 600, "views": 1, "data": None}
+    cands = {"cm01": {"q": [mesmo], "m": [mesmo, outro]}, "cm02": {"q": [mesmo], "m": [mesmo]}}
+    esc = {}
+    qs = [{"id": "cm01", "area": "cm", "tema": "T1"}, {"id": "cm02", "area": "cm", "tema": "T2"}]
+    sem = videos.escolher("cm", candidatos=cands, escolhas=esc, qs=qs, gravar=False)
+    assert esc["cm01"]["q"] == mesmo["url"] and esc["cm01"]["m"] == outro["url"]
+    assert esc["cm02"]["q"] == mesmo["url"] and esc["cm02"]["m"] == mesmo["url"] and sem == []
+
+@teste
+def test_videos_escolher_nao_restaura_o_que_foi_apagado():
+    import videos
+    a = {"url": "https://www.youtube.com/watch?v=aaaaaaaaaaa", "videoId": "aaaaaaaaaaa", "titulo": "a", "canal": "c", "canalId": "UC1", "duracao": 600, "views": 1, "data": None}
+    b = {"url": "https://www.youtube.com/watch?v=bbbbbbbbbbb", "videoId": "bbbbbbbbbbb", "titulo": "b", "canal": "c", "canalId": "UC1", "duracao": 600, "views": 1, "data": None}
+    cands = {"cm01": {"q": [a, b], "m": [a]}}
+    qs = [{"id": "cm01", "area": "cm", "tema": "T1"}]
+    esc = {"cm01": {"q": a["url"], "m": a["url"], "busca": "T1"}}
+    # apagar com trocar registra o veto…
+    videos.trocar("cm01", "q", "-", escolhas=esc, candidatos=cands, canais=[], extrair=None, gravar=False)
+    assert esc["cm01"]["q"] is None and esc["cm01"]["vetado"] == {"q": [a["url"]]}
+    # …e escolher não mexe numa questão que já tem entrada
+    videos.escolher("cm", candidatos=cands, escolhas=esc, qs=qs, gravar=False)
+    assert esc["cm01"]["q"] is None
+    # com --preencher enche o que está vazio, pulando o vetado (e o vídeo da matéria)
+    videos.escolher("cm", candidatos=cands, escolhas=esc, qs=qs, gravar=False, preencher=True)
+    assert esc["cm01"]["q"] == b["url"]
+    # apagar de novo veta o b também; sem candidata restante, fica vazio mesmo com --preencher
+    videos.trocar("cm01", "q", "-", escolhas=esc, candidatos=cands, canais=[], extrair=None, gravar=False)
+    assert esc["cm01"]["vetado"]["q"] == [a["url"], b["url"]]
+    sem = videos.escolher("cm", candidatos=cands, escolhas=esc, qs=qs, gravar=False, preencher=True)
+    assert esc["cm01"]["q"] is None and sem == ["cm01/q"]
+
+@teste
+def test_videos_buscar_extra_poe_as_candidatas_na_frente():
+    import videos
+    velha = {"url": "https://www.youtube.com/watch?v=aaaaaaaaaaa", "videoId": "aaaaaaaaaaa", "titulo": "a", "canal": "c", "canalId": "UC1", "duracao": 600, "views": 1, "data": None}
+    cands = {"cm08": {"q": [velha], "m": []}}
+    nova = {"id": "bbbbbbbbbbb", "title": "b", "channel": "c", "channel_id": "UC1", "duration": 900, "view_count": 2}
+    fora = {"id": "ccccccccccc", "title": "x", "channel": "y", "channel_id": "UCfora", "duration": 900, "view_count": 2}
+    n = videos.buscar_extra("cm08", "q", "esclerose sistêmica residência médica", candidatos=cands, canais=[{"id": "UC1", "nome": "c"}], buscar=lambda c: [nova, fora, dict(nova)], gravar=False)
+    assert n == 1 and [c["videoId"] for c in cands["cm08"]["q"]] == ["bbbbbbbbbbb", "aaaaaaaaaaa"]
+
+@teste
+def test_videos_buscar_retoma_de_onde_parou():
+    import videos
+    # uma busca interrompida (memória, rede) recomeça só pelo que falta; --tudo refaz
+    feito = {"url": "https://www.youtube.com/watch?v=aaaaaaaaaaa", "videoId": "aaaaaaaaaaa", "titulo": "a", "canal": "c", "canalId": "UC1", "duracao": 600, "views": 1, "data": None}
+    cands = {"cm01": {"q": [feito], "m": []}}
+    qs = [{"id": "cm01", "area": "cm", "tema": "T1", "termo": None}, {"id": "cm02", "area": "cm", "tema": "T2", "termo": None}]
+    chamadas = []
+    def busca(c): chamadas.append(c); return []
+    videos.buscar("cm", buscar=busca, candidatos=cands, canais=[{"id": "UC1", "nome": "c"}], qs=qs, gravar=False, pausa=0)
+    assert chamadas == ["T2 residência médica", "T2 aula"], chamadas   # cm01 já estava feito (q com lista, m vazio mas feito)
+    chamadas.clear()
+    videos.buscar("cm", buscar=busca, candidatos=cands, canais=[{"id": "UC1", "nome": "c"}], qs=qs, gravar=False, pausa=0, tudo=True)
+    assert len(chamadas) == 4
+
 if __name__ == "__main__":
     for f in testes:
         try:

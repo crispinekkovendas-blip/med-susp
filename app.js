@@ -121,6 +121,11 @@
      livro-texto do assunto (objetivos, termos-chave, o essencial, ponto
      clínico, resumo, verifique o que aprendeu). A aba escolhida fica
      guardada; um cartão sem a terceira aba abre no Comentário. */
+  /* os links curtos dos vídeos (os mesmos dos QR codes do caderno): quem
+     redireciona é a página /v/, lendo videos.json — trocar um vídeo não
+     mexe no banco.js */
+  const videosHtml = q => `<p class="videos"><span class="rot">Vídeos</span> ` + [["q", "Vídeo da questão"], ["m", "Vídeo da matéria"], ["mais", "Mais vídeos do tema"]]
+    .map(([k, rot]) => `<a class="video" href="https://${B.meta.site}/v/${q.id}/${k}" target="_blank" rel="noopener">${rot}</a>`).join(" ") + `</p>`;
   let abaAtiva = "comentario";
   try { const g = localStorage.getItem(CH_ABA); if (g === "simples" || g === "materia") abaAtiva = g; } catch (e) { /* sem armazenamento */ }
   function explicacao(q) {
@@ -128,7 +133,7 @@
     const fonte = `<p class="fonte">Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo} · banca ${B.meta.banca}.</p>`;
     const figura = q.figura ? figuraHtml(q.figura) : "";
     const paineis = {
-      comentario: h("div", { class: "comentario", role: "tabpanel", id: `pc-${q.id}`, "aria-labelledby": `ac-${q.id}`, html: q.comentario + figura + referencias + fonte,
+      comentario: h("div", { class: "comentario", role: "tabpanel", id: `pc-${q.id}`, "aria-labelledby": `ac-${q.id}`, html: q.comentario + figura + referencias + fonte + videosHtml(q),
         onclick: e => { if (q.figura && e && e.target && e.target.tagName === "IMG") ampliar(q.figura); } }),
       simples: h("div", { class: "comentario simples", role: "tabpanel", id: `ps-${q.id}`, "aria-labelledby": `as-${q.id}`, html: q.simples || "" }),
     };
@@ -387,5 +392,23 @@
       h("p", null, "Tudo o que você marca fica só neste navegador. Nada é enviado a lugar nenhum."));
   }
 
+  /* --- link direto: /#<id> abre o cartão daquela questão ---------------------
+     É o destino do botão "Abrir a questão no site" da página v/ (links curtos
+     dos QR codes). O filtro volta para "todas", para o alvo estar na lista. */
+  function irParaAlvo() {
+    const m = /^#([a-z]+\d{2})$/i.exec(String((window.location && window.location.hash) || ""));
+    const alvo = m && porId[m[1].toLowerCase()];
+    if (!alvo) return false;
+    if (estado.simulado) return false;                 /* no simulado o link não interrompe a prova */
+    if (estado.filtro !== "todas") { estado.filtro = "todas"; gravar(CH_FILTRO, "todas"); render(); }
+    const el = document.getElementById("q-" + alvo.id);
+    if (!el) return false;
+    document.querySelectorAll(".alvo").forEach(x => { x.className = String(x.className).replace(/\balvo\b/, "").trim(); });
+    el.className = String(el.className).replace(/\balvo\b/, "").trim() + " alvo";
+    if (el.scrollIntoView) el.scrollIntoView({ block: "start" });
+    return true;
+  }
   render();
+  irParaAlvo();
+  if (typeof window.addEventListener === "function") window.addEventListener("hashchange", irParaAlvo);
 })();

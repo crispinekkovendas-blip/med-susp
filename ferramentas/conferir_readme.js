@@ -23,6 +23,12 @@ const total = B.meta.fontes.map(f => Q.filter(q => q.fonte === f.id).length).con
 const lidoTotal = linha("Total");
 if (!lidoTotal || lidoTotal.join() !== total.join()) erros.push(`Total: README diz ${lidoTotal ? lidoTotal.join(" / ") : "nada"}, banco tem ${total.join(" / ")}`);
 if (!readme.includes(`${Q.length} questões`)) erros.push(`o README não diz "${Q.length} questões" em lugar nenhum`);
+/* a frase dos vídeos: quantas escolhas existem e de quantos canais (videos.json e canais.json) */
+const V = JSON.parse(fs.readFileSync(path.join(RAIZ, "videos.json"), "utf8"));
+const nQ = Object.values(V).filter(v => v.q).length, nM = Object.values(V).filter(v => v.m).length;
+const canais = JSON.parse(fs.readFileSync(path.join(RAIZ, "ferramentas", "videos", "canais.json"), "utf8")).length;
+const fraseV = `**${nQ} vídeos da questão** e **${nM} da matéria** escolhidos, de ${canais} canais`;
+if (!readme.includes(fraseV)) erros.push(`o README não diz "${fraseV}"`);
 for (const e of erros) console.log("   ! " + e);
 console.log(erros.length ? `${erros.length} diferença(s) entre README e banco.` : "README bate com o banco.");
 process.exit(erros.length ? 1 : 0);

@@ -108,7 +108,10 @@ table.chave td.l { font-weight: 600; width: 9mm; color: var(--accent); }
 table.temas { border-collapse: collapse; width: 100%; font-size: 9.5pt; }
 table.temas td { border-bottom: 1px solid var(--line); padding: 1.3mm 2mm; vertical-align: top; }
 table.temas td.d { width: 24mm; }
-table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: right; color: var(--ink-2); width: 42%; letter-spacing: .02em; }
+table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: right; color: var(--ink-2); width: 36%; letter-spacing: .02em; }
+/* a página da ficha (o índice): preenchida depois da medida; fica vazia na tela sem medida */
+table.temas td.pag { font-family: var(--mono); font-size: 8.5pt; text-align: right; color: var(--ink-3); width: 12mm; white-space: nowrap; }
+table.chave td.pag { font-weight: 400; color: var(--ink-3); width: 10mm; font-size: 8pt; }
 
 /* --- fichas ----------------------------------------------------------------- */
 /* o texto de apoio (sem colunas: qualquer column-count faz o Chrome quebrar a página logo depois do bloco) */
@@ -204,6 +207,12 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 .materia-pagina .materia h4 { font-size: 8pt; margin: 3mm 0 1.2mm; }
 .letra-grande .materia-pagina .materia { font-size: 11pt; }
 .comentario .fonte { margin: 3mm 0 0; font-family: var(--sans); font-size: 8pt; color: var(--ink-3); }
+/* a faixa dos vídeos: três QR codes de 18 mm com legenda, depois da fonte */
+.comentario .videos { display: flex; gap: 7mm; margin: 3mm 0 0; padding-top: 2.5mm; border-top: 1px dashed var(--line-2); }
+.videos .qr { display: flex; flex-direction: column; align-items: center; gap: 1.2mm; width: 24mm; color: var(--ink-2); text-decoration: none; }
+.videos .codigo { display: block; width: 18mm; height: 18mm; }
+.videos .codigo svg { width: 18mm; height: 18mm; display: block; }
+.videos .leg { font-family: var(--sans); font-size: 7pt; line-height: 1.2; text-align: center; }
 .comentario .referencias { margin: 2.5mm 0 0; font-family: var(--sans); font-size: 8pt; line-height: 1.4; color: var(--ink-2); }
 .comentario .referencias .rot { margin-right: 1.5mm; }
 /* autoavaliação e anotações */
@@ -250,14 +259,19 @@ table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: ri
 }
 
 /* --- impressão ---------------------------------------------------------------- */
-@page { size: A4 portrait; margin: 14mm 14mm 16mm; }
+/* a numeração sai na margem inferior, por CSS, em toda página: "Página X de Y" */
+@page { size: A4 portrait; margin: 14mm 14mm 16mm; @bottom-right { content: "Página " counter(page) " de " counter(pages); font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; color: #7A8391; } }
 @media print {
   html, body { background: #fff; }
   #painel { display: none !important; }
   #documento { padding: 0; }
   .pagina { width: auto; max-width: none; margin: 0; padding: 0; box-shadow: none; break-before: page; page-break-before: always; }
   .pagina.capa { break-before: auto; page-break-before: auto; border-top-width: 5mm; padding-top: 6mm; }
-  .texto, .questao header, .comentario .gab, .auto, .alts li, .simples, .figura, .materia .ponto { break-inside: avoid; page-break-inside: avoid; }
+  /* a capa cabe numa página: sem isso a nota do rodapé da capa caía sozinha na página 2 */
+  .capa .lema { margin-bottom: 6mm; }
+  .capa .instrucoes { margin-top: 5mm; padding: 4mm 6mm; }
+  .capa .nota { margin-top: 4mm; }
+  .texto, .questao header, .comentario .gab, .auto, .alts li, .simples, .figura, .materia .ponto, .videos { break-inside: avoid; page-break-inside: avoid; }
   /* a pauta pode correr para a página seguinte (nada fica em branco); só o
      quadro dos termos não se parte, e os rótulos não ficam órfãos */
   .notas .termos { break-inside: avoid; page-break-inside: avoid; }

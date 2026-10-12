@@ -1,0 +1,2252 @@
+{
+ "ped01": {
+  "fonte": "susp2026",
+  "numero": 41,
+  "tema": "Avaliação nutricional — índice estatura-para-idade",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Avaliação nutricional — índice estatura-para-idade"
+ },
+ "ped02": {
+  "fonte": "susp2026",
+  "numero": 42,
+  "tema": "Molusco contagioso — diagnóstico clínico e conduta expectante",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Molusco contagioso — diagnóstico clínico e conduta expectante"
+ },
+ "ped03": {
+  "fonte": "susp2026",
+  "numero": 43,
+  "tema": "Toxoplasmose na gestação — investigação do recém-nascido",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Toxoplasmose na gestação — investigação do recém-nascido"
+ },
+ "ped04": {
+  "fonte": "susp2026",
+  "numero": 44,
+  "tema": "Crise epiléptica na urgência — midazolam nasal e conduta na alta",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Crise epiléptica na urgência — midazolam nasal e conduta na alta"
+ },
+ "ped05": {
+  "fonte": "susp2026",
+  "numero": 45,
+  "tema": "Escorpionismo grave — risco cardíaco e exames de seguimento",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Escorpionismo grave — risco cardíaco e exames de seguimento"
+ },
+ "ped06": {
+  "fonte": "susp2026",
+  "numero": 46,
+  "tema": "Síncope ao esforço — estenose aórtica e o que não prescrever",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síncope ao esforço — estenose aórtica e o que não prescrever"
+ },
+ "ped07": {
+  "fonte": "susp2026",
+  "numero": 47,
+  "tema": "Sintomas urinários na pré-escolar — vulvovaginite versus ITU",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Sintomas urinários na pré-escolar — vulvovaginite versus ITU"
+ },
+ "ped08": {
+  "fonte": "susp2026",
+  "numero": 48,
+  "tema": "Contato de tuberculose — infecção latente e esquema de isoniazida",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Contato de tuberculose — infecção latente e esquema de isoniazida"
+ },
+ "ped09": {
+  "fonte": "susp2026",
+  "numero": 49,
+  "tema": "Calendário do PNI — vacinas dos 6 meses",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Calendário do PNI — vacinas dos 6 meses"
+ },
+ "ped10": {
+  "fonte": "susp2026",
+  "numero": 50,
+  "tema": "Síndrome da pele escaldada estafilocócica — diagnóstico diferencial",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome da pele escaldada estafilocócica — diagnóstico diferencial"
+ },
+ "ped11": {
+  "fonte": "susp2026",
+  "numero": 51,
+  "tema": "Transtorno de ansiedade na criança — medo, evitação e sono",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Transtorno de ansiedade na criança — medo, evitação e sono"
+ },
+ "ped12": {
+  "fonte": "susp2026",
+  "numero": 52,
+  "tema": "Desconforto respiratório neonatal — taquipneia transitória",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Desconforto respiratório neonatal — taquipneia transitória"
+ },
+ "ped13": {
+  "fonte": "susp2026",
+  "numero": 53,
+  "tema": "Doença falciforme — sequestro esplênico agudo",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Doença falciforme — sequestro esplênico agudo"
+ },
+ "ped14": {
+  "fonte": "susp2026",
+  "numero": 54,
+  "tema": "Otite média aguda supurada — otorreia não é falha terapêutica",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Otite média aguda supurada — otorreia não é falha terapêutica"
+ },
+ "ped15": {
+  "fonte": "susp2026",
+  "numero": 55,
+  "tema": "Cetoacidose diabética na criança — volume antes da insulina",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Cetoacidose diabética na criança — volume antes da insulina"
+ },
+ "ped16": {
+  "fonte": "susp2026",
+  "numero": 56,
+  "tema": "Lacrimejamento no lactente — obstrução congênita do ducto nasolacrimal",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Lacrimejamento no lactente — obstrução congênita do ducto nasolacrimal"
+ },
+ "ped17": {
+  "fonte": "susp2026",
+  "numero": 57,
+  "tema": "Febre com hepatomegalia dolorosa — abscesso hepático amebiano",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Febre com hepatomegalia dolorosa — abscesso hepático amebiano"
+ },
+ "ped18": {
+  "fonte": "susp2026",
+  "numero": 58,
+  "tema": "Diarreia sanguinolenta — síndrome hemolítico-urêmica",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Diarreia sanguinolenta — síndrome hemolítico-urêmica"
+ },
+ "ped19": {
+  "fonte": "susp2026",
+  "numero": 59,
+  "tema": "Distonia aguda por antiemético — metoclopramida",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Distonia aguda por antiemético — metoclopramida"
+ },
+ "ped20": {
+  "fonte": "susp2026",
+  "numero": 60,
+  "tema": "Trauma cranioencefálico moderado na criança — tomografia após o ABC",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Trauma cranioencefálico moderado na criança — tomografia após o ABC"
+ },
+ "ped21": {
+  "fonte": "susp2021",
+  "numero": 85,
+  "tema": "Crescimento no primeiro semestre — peso, comprimento e PC",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Crescimento no primeiro semestre — peso, comprimento e PC"
+ },
+ "ped22": {
+  "fonte": "susp2021",
+  "numero": 87,
+  "tema": "Desenvolvimento aos 10 meses — marcos normais e engatinhar",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Desenvolvimento aos 10 meses — marcos normais e engatinhar"
+ },
+ "ped23": {
+  "fonte": "susp2021",
+  "numero": 89,
+  "tema": "Coqueluche no lactente — diagnóstico clínico e macrolídeo",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Coqueluche no lactente — diagnóstico clínico e macrolídeo"
+ },
+ "ped24": {
+  "fonte": "susp2021",
+  "numero": 96,
+  "tema": "Meningite viral — o líquor que diferencia",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Meningite viral — o líquor que diferencia"
+ },
+ "ped25": {
+  "fonte": "susp2021",
+  "numero": 100,
+  "tema": "Filho de mãe diabética — hipoglicemia nas primeiras horas",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Filho de mãe diabética — hipoglicemia nas primeiras horas"
+ },
+ "ped26": {
+  "fonte": "unesp2026",
+  "numero": 3,
+  "tema": "Reanimação neonatal — VPP com ar ambiente antes da massagem",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Reanimação neonatal — VPP com ar ambiente antes da massagem"
+ },
+ "ped27": {
+  "fonte": "unesp2026",
+  "numero": 4,
+  "tema": "Clampeamento tardio do cordão — quando e por quê",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Clampeamento tardio do cordão — quando e por quê"
+ },
+ "ped28": {
+  "fonte": "unesp2026",
+  "numero": 5,
+  "tema": "Síndrome de Down na adolescência — o que orientar e o que pedir",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome de Down na adolescência — o que orientar e o que pedir"
+ },
+ "ped29": {
+  "fonte": "unesp2026",
+  "numero": 7,
+  "tema": "Síndrome metabólica na criança — critérios e conduta",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome metabólica na criança — critérios e conduta"
+ },
+ "ped30": {
+  "fonte": "unesp2026",
+  "numero": 9,
+  "tema": "PCR na criança asmática — AESP, adrenalina e causas reversíveis",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "PCR na criança asmática — AESP, adrenalina e causas reversíveis"
+ },
+ "ped31": {
+  "fonte": "unesp2026",
+  "numero": 12,
+  "tema": "Doença celíaca — o que tem e o que não tem glúten",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Doença celíaca — o que tem e o que não tem glúten"
+ },
+ "ped32": {
+  "fonte": "unesp2026",
+  "numero": 13,
+  "tema": "Corpo estranho ingerido — quem, quando e qual imagem",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Corpo estranho ingerido — quem, quando e qual imagem"
+ },
+ "ped33": {
+  "fonte": "unesp2026",
+  "numero": 14,
+  "tema": "Alergia à proteína do leite de vaca no bebê em aleitamento exclusivo",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Alergia à proteína do leite de vaca no bebê em aleitamento exclusivo"
+ },
+ "ped34": {
+  "fonte": "unesp2026",
+  "numero": 15,
+  "tema": "Quando investigar malformação do trato urinário no lactente",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Quando investigar malformação do trato urinário no lactente"
+ },
+ "ped35": {
+  "fonte": "unesp2026",
+  "numero": 18,
+  "tema": "Cefaleia, vômitos e ataxia na criança — tumor de fossa posterior",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Cefaleia, vômitos e ataxia na criança — tumor de fossa posterior"
+ },
+ "ped36": {
+  "fonte": "unesp2026",
+  "numero": 19,
+  "tema": "Febre reumática — critérios de Jones e o nódulo de Aschoff",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Febre reumática — critérios de Jones e o nódulo de Aschoff"
+ },
+ "ped37": {
+  "fonte": "einstein2026",
+  "numero": 31,
+  "tema": "Síndrome torácica aguda — quando transfundir",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome torácica aguda — quando transfundir"
+ },
+ "ped38": {
+  "fonte": "einstein2026",
+  "numero": 33,
+  "tema": "Sibilância recorrente no lactente — corticoide inalatório pelo GINA",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Sibilância recorrente no lactente — corticoide inalatório pelo GINA"
+ },
+ "ped39": {
+  "fonte": "einstein2026",
+  "numero": 34,
+  "tema": "Introdução alimentar no lactente de alto risco para alergia",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Introdução alimentar no lactente de alto risco para alergia"
+ },
+ "ped40": {
+  "fonte": "einstein2026",
+  "numero": 37,
+  "tema": "Hepatite A na criança — surto escolar e tratamento de suporte",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hepatite A na criança — surto escolar e tratamento de suporte"
+ },
+ "ped41": {
+  "fonte": "einstein2026",
+  "numero": 38,
+  "tema": "Doença de Kawasaki de alto risco — imunoglobulina mais corticoide",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Doença de Kawasaki de alto risco — imunoglobulina mais corticoide"
+ },
+ "ped42": {
+  "fonte": "einstein2026",
+  "numero": 42,
+  "tema": "Síndrome de Turner — o que acompanha a baixa estatura",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome de Turner — o que acompanha a baixa estatura"
+ },
+ "ped43": {
+  "fonte": "einstein2026",
+  "numero": 43,
+  "tema": "Criptorquidia — o que dizer à família",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Criptorquidia — o que dizer à família"
+ },
+ "ped44": {
+  "fonte": "einstein2026",
+  "numero": 44,
+  "tema": "Engasgo do lactente consciente com tosse — não fazer manobras",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Engasgo do lactente consciente com tosse — não fazer manobras"
+ },
+ "ped45": {
+  "fonte": "einstein2025",
+  "numero": 32,
+  "tema": "Glomerulonefrite pós-estreptocócica — anti-DNase B e o manejo do edema",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Glomerulonefrite pós-estreptocócica — anti-DNase B e o manejo do edema"
+ },
+ "ped46": {
+  "fonte": "einstein2025",
+  "numero": 33,
+  "tema": "Desidratação na diarreia — plano B: reidratação oral na unidade",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Desidratação na diarreia — plano B: reidratação oral na unidade"
+ },
+ "ped47": {
+  "fonte": "einstein2025",
+  "numero": 36,
+  "tema": "Anafilaxia ao ovo no lactente — as orientações de alta",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Anafilaxia ao ovo no lactente — as orientações de alta"
+ },
+ "ped48": {
+  "fonte": "einstein2025",
+  "numero": 38,
+  "tema": "Puberdade masculina — Tanner II aos 12 anos é normal",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Puberdade masculina — Tanner II aos 12 anos é normal"
+ },
+ "ped49": {
+  "fonte": "einstein2025",
+  "numero": 40,
+  "tema": "PFAPA — febre periódica e a dose única de corticoide",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "PFAPA — febre periódica e a dose única de corticoide"
+ },
+ "ped50": {
+  "fonte": "einstein2025",
+  "numero": 41,
+  "tema": "Claudicação no pré-escolar — sinovite transitória do quadril",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Claudicação no pré-escolar — sinovite transitória do quadril"
+ },
+ "prev01": {
+  "fonte": "susp2026",
+  "numero": 81,
+  "tema": "Atenção Primária — apoio matricial e eMulti",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Atenção Primária — apoio matricial e eMulti"
+ },
+ "prev02": {
+  "fonte": "susp2026",
+  "numero": 82,
+  "tema": "Rastreamento no homem de 65 a 75 anos — aneurisma de aorta abdominal",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Rastreamento no homem de 65 a 75 anos — aneurisma de aorta abdominal"
+ },
+ "prev03": {
+  "fonte": "susp2026",
+  "numero": 83,
+  "tema": "Investigação de surto — confirmar surto e diagnóstico antes de agir",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Investigação de surto — confirmar surto e diagnóstico antes de agir"
+ },
+ "prev04": {
+  "fonte": "susp2026",
+  "numero": 84,
+  "tema": "Exposição à varicela na gestação — sorologia antes da imunoglobulina",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Exposição à varicela na gestação — sorologia antes da imunoglobulina"
+ },
+ "prev05": {
+  "fonte": "susp2026",
+  "numero": 85,
+  "tema": "Estudo caso-controle retrospectivo — viés de confusão",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Estudo caso-controle retrospectivo — viés de confusão"
+ },
+ "prev06": {
+  "fonte": "susp2026",
+  "numero": 86,
+  "tema": "Diabetes gestacional — jejum de 92 a 125 já diagnostica",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Diabetes gestacional — jejum de 92 a 125 já diagnostica"
+ },
+ "prev07": {
+  "fonte": "susp2026",
+  "numero": 87,
+  "tema": "Critérios de Bradford Hill — temporalidade como único indispensável",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Critérios de Bradford Hill — temporalidade como único indispensável"
+ },
+ "prev08": {
+  "fonte": "susp2026",
+  "numero": 88,
+  "tema": "Pré-diabetes — risco cardiovascular e neuropatia",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pré-diabetes — risco cardiovascular e neuropatia"
+ },
+ "prev09": {
+  "fonte": "susp2026",
+  "numero": 89,
+  "tema": "Escolha do teste estatístico — dois grupos independentes",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Escolha do teste estatístico — dois grupos independentes"
+ },
+ "prev10": {
+  "fonte": "susp2026",
+  "numero": 90,
+  "tema": "Aterosclerose subclínica — placa carotídea define alto risco",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Aterosclerose subclínica — placa carotídea define alto risco"
+ },
+ "prev11": {
+  "fonte": "susp2026",
+  "numero": 92,
+  "tema": "Níveis de prevenção — prevenção quaternária no burnout",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Níveis de prevenção — prevenção quaternária no burnout"
+ },
+ "prev12": {
+  "fonte": "susp2026",
+  "numero": 93,
+  "tema": "Saúde da pessoa trans — rastreamento conforme o órgão presente",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Saúde da pessoa trans — rastreamento conforme o órgão presente"
+ },
+ "prev13": {
+  "fonte": "susp2026",
+  "numero": 94,
+  "tema": "Idoso com queda — exercício multicomponente como conduta principal",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Idoso com queda — exercício multicomponente como conduta principal"
+ },
+ "prev14": {
+  "fonte": "susp2026",
+  "numero": 95,
+  "tema": "Pré-hipertensão e fatores de risco — estratificar o risco global",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pré-hipertensão e fatores de risco — estratificar o risco global"
+ },
+ "prev15": {
+  "fonte": "susp2026",
+  "numero": 96,
+  "tema": "Obesidade — exercício estruturado como próxima intervenção",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Obesidade — exercício estruturado como próxima intervenção"
+ },
+ "prev16": {
+  "fonte": "susp2026",
+  "numero": 97,
+  "tema": "Intoxicação por organofosforados — colinesterase e antídotos",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Intoxicação por organofosforados — colinesterase e antídotos"
+ },
+ "prev17": {
+  "fonte": "susp2026",
+  "numero": 98,
+  "tema": "DPOC com dispneia persistente — reabilitação pulmonar",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "DPOC com dispneia persistente — reabilitação pulmonar"
+ },
+ "prev18": {
+  "fonte": "susp2026",
+  "numero": 99,
+  "tema": "Hepatite A — profilaxia pós-exposição com vacina",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hepatite A — profilaxia pós-exposição com vacina"
+ },
+ "prev19": {
+  "fonte": "susp2026",
+  "numero": 100,
+  "tema": "Sistemas de informação do SUS — o que cada um responde",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Sistemas de informação do SUS — o que cada um responde"
+ },
+ "prev20": {
+  "fonte": "susp2021",
+  "numero": 10,
+  "tema": "Acidente de trabalho grave — notificação ao SINAN sem vínculo",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Acidente de trabalho grave — notificação ao SINAN sem vínculo"
+ },
+ "prev21": {
+  "fonte": "susp2021",
+  "numero": 11,
+  "tema": "Suspeita de violência contra idoso — notificação obrigatória",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Suspeita de violência contra idoso — notificação obrigatória"
+ },
+ "prev22": {
+  "fonte": "susp2021",
+  "numero": 13,
+  "tema": "Acolhimento em saúde mental na APS — escuta, não triagem",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Acolhimento em saúde mental na APS — escuta, não triagem"
+ },
+ "prev23": {
+  "fonte": "susp2021",
+  "numero": 15,
+  "tema": "PNAISM — gênero como construção social",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "PNAISM — gênero como construção social"
+ },
+ "prev24": {
+  "fonte": "susp2021",
+  "numero": 18,
+  "tema": "Conselhos de saúde — caráter deliberativo e composição paritária",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Conselhos de saúde — caráter deliberativo e composição paritária"
+ },
+ "prev25": {
+  "fonte": "susp2021",
+  "numero": 19,
+  "tema": "Prevalência, incidência e letalidade — a relação com a duração",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Prevalência, incidência e letalidade — a relação com a duração"
+ },
+ "prev26": {
+  "fonte": "unesp2026",
+  "numero": 81,
+  "tema": "Políticas de saúde de 1974 a 1979 — a criação do Inamps",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Políticas de saúde de 1974 a 1979 — a criação do Inamps"
+ },
+ "prev27": {
+  "fonte": "unesp2026",
+  "numero": 82,
+  "tema": "De onde vem a frase — Lei 8.080, o dever do Estado",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "De onde vem a frase — Lei 8.080, o dever do Estado"
+ },
+ "prev28": {
+  "fonte": "unesp2026",
+  "numero": 84,
+  "tema": "Equipe de Saúde da Família — composição mínima e adicional",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Equipe de Saúde da Família — composição mínima e adicional"
+ },
+ "prev29": {
+  "fonte": "unesp2026",
+  "numero": 86,
+  "tema": "Declaração de óbito — a quem não se entrega o formulário",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Declaração de óbito — a quem não se entrega o formulário"
+ },
+ "prev30": {
+  "fonte": "unesp2026",
+  "numero": 89,
+  "tema": "Infectividade, patogenicidade, virulência — as propriedades do agente",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Infectividade, patogenicidade, virulência — as propriedades do agente"
+ },
+ "prev31": {
+  "fonte": "unesp2026",
+  "numero": 91,
+  "tema": "Expostos e não expostos seguidos no tempo — estudo de coorte",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Expostos e não expostos seguidos no tempo — estudo de coorte"
+ },
+ "prev32": {
+  "fonte": "unesp2026",
+  "numero": 92,
+  "tema": "Quando adiar uma vacina — e quando não",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Quando adiar uma vacina — e quando não"
+ },
+ "prev33": {
+  "fonte": "unesp2026",
+  "numero": 93,
+  "tema": "Recém-nascido contato de mãe bacilífera — rifampicina antes da BCG",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Recém-nascido contato de mãe bacilífera — rifampicina antes da BCG"
+ },
+ "prev34": {
+  "fonte": "unesp2026",
+  "numero": 94,
+  "tema": "Redes de Atenção à Saúde e linhas de cuidado",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Redes de Atenção à Saúde e linhas de cuidado"
+ },
+ "prev35": {
+  "fonte": "unesp2026",
+  "numero": 96,
+  "tema": "Violência contra a mulher — determinantes sociais e ação intersetorial",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Violência contra a mulher — determinantes sociais e ação intersetorial"
+ },
+ "prev36": {
+  "fonte": "unesp2026",
+  "numero": 97,
+  "tema": "Letalidade — óbitos pela doença dividido pelos casos da doença",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Letalidade — óbitos pela doença dividido pelos casos da doença"
+ },
+ "prev37": {
+  "fonte": "unesp2026",
+  "numero": 100,
+  "tema": "Caso-controle com registros eletrônicos — menos viés de memória",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Caso-controle com registros eletrônicos — menos viés de memória"
+ },
+ "prev38": {
+  "fonte": "einstein2026",
+  "numero": 61,
+  "tema": "Delirium na idosa — anticolinérgicos, constipação e reorientação",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Delirium na idosa — anticolinérgicos, constipação e reorientação"
+ },
+ "prev39": {
+  "fonte": "einstein2026",
+  "numero": 66,
+  "tema": "Adolescente que quer parar de fumar — avaliar a dependência e o grupo",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Adolescente que quer parar de fumar — avaliar a dependência e o grupo"
+ },
+ "prev40": {
+  "fonte": "einstein2026",
+  "numero": 69,
+  "tema": "Fibromialgia na idosa — o plano multiprofissional vem antes do remédio",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Fibromialgia na idosa — o plano multiprofissional vem antes do remédio"
+ },
+ "prev41": {
+  "fonte": "einstein2026",
+  "numero": 70,
+  "tema": "Contato de bacilífero com PT de 5 mm — tratar a infecção latente",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Contato de bacilífero com PT de 5 mm — tratar a infecção latente"
+ },
+ "prev42": {
+  "fonte": "einstein2026",
+  "numero": 71,
+  "tema": "Obesidade com insegurança alimentar — prioridade intersetorial",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Obesidade com insegurança alimentar — prioridade intersetorial"
+ },
+ "prev43": {
+  "fonte": "einstein2026",
+  "numero": 75,
+  "tema": "Teleinterconsulta — responsabilidade solidária dos dois médicos",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Teleinterconsulta — responsabilidade solidária dos dois médicos"
+ },
+ "prev44": {
+  "fonte": "einstein2025",
+  "numero": 61,
+  "tema": "Dengue com sinal de alarme — grupo C, hidratação venosa já",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Dengue com sinal de alarme — grupo C, hidratação venosa já"
+ },
+ "prev45": {
+  "fonte": "einstein2025",
+  "numero": 62,
+  "tema": "Gestante em situação de rua — cadastro, assistência social e rede",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Gestante em situação de rua — cadastro, assistência social e rede"
+ },
+ "prev46": {
+  "fonte": "einstein2025",
+  "numero": 63,
+  "tema": "Violência patrimonial — nomear, orientar direitos, planejar junto",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Violência patrimonial — nomear, orientar direitos, planejar junto"
+ },
+ "prev47": {
+  "fonte": "einstein2025",
+  "numero": 66,
+  "tema": "PrEP no adolescente — a partir de 15 anos e 35 kg",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "PrEP no adolescente — a partir de 15 anos e 35 kg"
+ },
+ "prev48": {
+  "fonte": "einstein2025",
+  "numero": 68,
+  "tema": "Abstinência alcoólica leve no CAPS — diazepam, tiamina e retorno breve",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Abstinência alcoólica leve no CAPS — diazepam, tiamina e retorno breve"
+ },
+ "prev49": {
+  "fonte": "einstein2025",
+  "numero": 69,
+  "tema": "Ensaio clínico bem conduzido — grupos parecidos no ponto de partida",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Ensaio clínico bem conduzido — grupos parecidos no ponto de partida"
+ },
+ "prev50": {
+  "fonte": "einstein2025",
+  "numero": 70,
+  "tema": "Meta-análise — cada estudo pesa conforme a sua precisão",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Meta-análise — cada estudo pesa conforme a sua precisão"
+ },
+ "cir01": {
+  "fonte": "susp2026",
+  "numero": 22,
+  "tema": "Insuficiência adrenal aguda no perioperatório",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Insuficiência adrenal aguda no perioperatório"
+ },
+ "cir02": {
+  "fonte": "susp2026",
+  "numero": 24,
+  "tema": "Hemorragia digestiva alta — Forrest IIa e terapia endoscópica dual",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hemorragia digestiva alta — Forrest IIa e terapia endoscópica dual"
+ },
+ "cir03": {
+  "fonte": "susp2026",
+  "numero": 25,
+  "tema": "Úlcera péptica sangrante — quando indicar cirurgia",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Úlcera péptica sangrante — quando indicar cirurgia"
+ },
+ "cir04": {
+  "fonte": "susp2026",
+  "numero": 26,
+  "tema": "Síndrome de Mallory-Weiss — evolução autolimitada",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome de Mallory-Weiss — evolução autolimitada"
+ },
+ "cir05": {
+  "fonte": "susp2026",
+  "numero": 27,
+  "tema": "Obstrução após bypass gástrico — hérnia interna, cirurgia precoce",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Obstrução após bypass gástrico — hérnia interna, cirurgia precoce"
+ },
+ "cir06": {
+  "fonte": "susp2026",
+  "numero": 28,
+  "tema": "Gastroparesia diabética — fisiopatologia autonômica",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Gastroparesia diabética — fisiopatologia autonômica"
+ },
+ "cir07": {
+  "fonte": "susp2026",
+  "numero": 29,
+  "tema": "Profilaxia de úlcera de estresse na UTI — fatores de risco",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Profilaxia de úlcera de estresse na UTI — fatores de risco"
+ },
+ "cir08": {
+  "fonte": "susp2026",
+  "numero": 30,
+  "tema": "Alteração do hábito intestinal no idoso — câncer de retossigmoide",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Alteração do hábito intestinal no idoso — câncer de retossigmoide"
+ },
+ "cir09": {
+  "fonte": "susp2026",
+  "numero": 31,
+  "tema": "Doença hemorroidária grau II — ligadura elástica",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Doença hemorroidária grau II — ligadura elástica"
+ },
+ "cir10": {
+  "fonte": "susp2026",
+  "numero": 32,
+  "tema": "Doença pilonidal — diagnóstico diferencial da região sacrococcígea",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Doença pilonidal — diagnóstico diferencial da região sacrococcígea"
+ },
+ "cir11": {
+  "fonte": "susp2026",
+  "numero": 33,
+  "tema": "Condiloma anal extenso — tratamento e rastreio de IST",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Condiloma anal extenso — tratamento e rastreio de IST"
+ },
+ "cir12": {
+  "fonte": "susp2026",
+  "numero": 34,
+  "tema": "Anatomia da veia porta — formação e ramos",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Anatomia da veia porta — formação e ramos"
+ },
+ "cir13": {
+  "fonte": "susp2026",
+  "numero": 35,
+  "tema": "Hemorragia varicosa maciça — balão de Sengstaken-Blakemore",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hemorragia varicosa maciça — balão de Sengstaken-Blakemore"
+ },
+ "cir14": {
+  "fonte": "susp2026",
+  "numero": 37,
+  "tema": "Pancreatite crônica — insuficiência exócrina e endócrina",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pancreatite crônica — insuficiência exócrina e endócrina"
+ },
+ "cir15": {
+  "fonte": "susp2026",
+  "numero": 38,
+  "tema": "Derrame pleural — critérios de Light e encarceramento pulmonar",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Derrame pleural — critérios de Light e encarceramento pulmonar"
+ },
+ "cir16": {
+  "fonte": "susp2026",
+  "numero": 39,
+  "tema": "Pneumotórax hipertensivo no trauma — descompressão imediata",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pneumotórax hipertensivo no trauma — descompressão imediata"
+ },
+ "cir17": {
+  "fonte": "susp2026",
+  "numero": 40,
+  "tema": "Via aérea no trauma com suspeita de lesão cervical — jaw-thrust",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Via aérea no trauma com suspeita de lesão cervical — jaw-thrust"
+ },
+ "cir18": {
+  "fonte": "susp2021",
+  "numero": 61,
+  "tema": "Apendicite complicada com base isquêmica — sutura de Parker-Kerr",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Apendicite complicada com base isquêmica — sutura de Parker-Kerr"
+ },
+ "cir19": {
+  "fonte": "susp2021",
+  "numero": 62,
+  "tema": "Hérnia inguinal — técnicas com e sem tensão",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Hérnia inguinal — técnicas com e sem tensão"
+ },
+ "cir20": {
+  "fonte": "susp2021",
+  "numero": 69,
+  "tema": "Trauma abdominal fechado estável com FAST positivo — tomografia",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Trauma abdominal fechado estável com FAST positivo — tomografia"
+ },
+ "cir21": {
+  "fonte": "susp2021",
+  "numero": 70,
+  "tema": "Hematoma retroperitoneal traumático — zonas e exploração",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Hematoma retroperitoneal traumático — zonas e exploração"
+ },
+ "cir22": {
+  "fonte": "susp2021",
+  "numero": 71,
+  "tema": "Videolaparoscopia — contraindicação pela doença cardiopulmonar grave",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Videolaparoscopia — contraindicação pela doença cardiopulmonar grave"
+ },
+ "cir23": {
+  "fonte": "susp2021",
+  "numero": 74,
+  "tema": "Trauma de pâncreas — classificação da AAST pelo ducto",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Trauma de pâncreas — classificação da AAST pelo ducto"
+ },
+ "cir24": {
+  "fonte": "susp2021",
+  "numero": 78,
+  "tema": "Câncer de reto distal T3N1 — neoadjuvância antes da cirurgia",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Câncer de reto distal T3N1 — neoadjuvância antes da cirurgia"
+ },
+ "cir25": {
+  "fonte": "susp2021",
+  "numero": 79,
+  "tema": "Doença diverticular — fatores de risco de perfuração",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Doença diverticular — fatores de risco de perfuração"
+ },
+ "cir26": {
+  "fonte": "unesp2026",
+  "numero": 61,
+  "tema": "Trauma arterial do joelho — o enxerto é a safena do outro lado",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Trauma arterial do joelho — o enxerto é a safena do outro lado"
+ },
+ "cir27": {
+  "fonte": "unesp2026",
+  "numero": 62,
+  "tema": "Isquemia e reperfusão — radicais livres, leucócitos, membranas",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Isquemia e reperfusão — radicais livres, leucócitos, membranas"
+ },
+ "cir28": {
+  "fonte": "unesp2026",
+  "numero": 63,
+  "tema": "HPB com sintomas moderados — começar pelo alfabloqueador",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "HPB com sintomas moderados — começar pelo alfabloqueador"
+ },
+ "cir29": {
+  "fonte": "unesp2026",
+  "numero": 64,
+  "tema": "Cálculo ureteral de 5 mm — terapia expulsiva",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Cálculo ureteral de 5 mm — terapia expulsiva"
+ },
+ "cir30": {
+  "fonte": "unesp2026",
+  "numero": 65,
+  "tema": "Sangue no meato após trauma perineal — uretrografia antes da sonda",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Sangue no meato após trauma perineal — uretrografia antes da sonda"
+ },
+ "cir31": {
+  "fonte": "unesp2026",
+  "numero": 66,
+  "tema": "Nódulo de tireoide — somar os pontos do ACR TI-RADS",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Nódulo de tireoide — somar os pontos do ACR TI-RADS"
+ },
+ "cir32": {
+  "fonte": "unesp2026",
+  "numero": 67,
+  "tema": "Carcinoma de amígdala em jovem não fumante — HPV",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Carcinoma de amígdala em jovem não fumante — HPV"
+ },
+ "cir33": {
+  "fonte": "unesp2026",
+  "numero": 69,
+  "tema": "Complicações mecânicas do infarto que vão para a cirurgia",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Complicações mecânicas do infarto que vão para a cirurgia"
+ },
+ "cir34": {
+  "fonte": "unesp2026",
+  "numero": 76,
+  "tema": "Necrose, crepitação e toxemia no períneo — gangrena de Fournier",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Necrose, crepitação e toxemia no períneo — gangrena de Fournier"
+ },
+ "cir35": {
+  "fonte": "unesp2026",
+  "numero": 78,
+  "tema": "Hematoquezia volumosa na idosa — doença diverticular",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hematoquezia volumosa na idosa — doença diverticular"
+ },
+ "cir36": {
+  "fonte": "unesp2026",
+  "numero": 80,
+  "tema": "Ferimento torácico aspirativo — o curativo de três pontas do ATLS",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Ferimento torácico aspirativo — o curativo de três pontas do ATLS"
+ },
+ "cir37": {
+  "fonte": "einstein2026",
+  "numero": 16,
+  "tema": "Diverticulite aguda — tomografia antes de tratar",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Diverticulite aguda — tomografia antes de tratar"
+ },
+ "cir38": {
+  "fonte": "einstein2026",
+  "numero": 19,
+  "tema": "Disfagia progressiva com emagrecimento — endoscopia primeiro",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Disfagia progressiva com emagrecimento — endoscopia primeiro"
+ },
+ "cir39": {
+  "fonte": "einstein2026",
+  "numero": 22,
+  "tema": "Ferida infectada com necrose — desbridar e antibiótico venoso",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Ferida infectada com necrose — desbridar e antibiótico venoso"
+ },
+ "cir40": {
+  "fonte": "einstein2026",
+  "numero": 23,
+  "tema": "Profilaxia antibiótica cirúrgica — até uma hora antes da incisão",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Profilaxia antibiótica cirúrgica — até uma hora antes da incisão"
+ },
+ "cir41": {
+  "fonte": "einstein2026",
+  "numero": 24,
+  "tema": "FAST positivo em choque compensado — cristaloide e o cirurgião",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "FAST positivo em choque compensado — cristaloide e o cirurgião"
+ },
+ "cir42": {
+  "fonte": "einstein2026",
+  "numero": 25,
+  "tema": "Queimadura de face em ambiente fechado — intubar cedo",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Queimadura de face em ambiente fechado — intubar cedo"
+ },
+ "cir43": {
+  "fonte": "einstein2026",
+  "numero": 28,
+  "tema": "Tumor de pâncreas ressecável, paciente inoperável — paliar a bile",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Tumor de pâncreas ressecável, paciente inoperável — paliar a bile"
+ },
+ "cir44": {
+  "fonte": "einstein2025",
+  "numero": 16,
+  "tema": "Pancreatite aguda grave — jejum, ringer lactato e analgesia",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Pancreatite aguda grave — jejum, ringer lactato e analgesia"
+ },
+ "cir45": {
+  "fonte": "einstein2025",
+  "numero": 21,
+  "tema": "Pneumotórax hipertensivo no trauma — descomprimir antes de tudo",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Pneumotórax hipertensivo no trauma — descomprimir antes de tudo"
+ },
+ "cir46": {
+  "fonte": "einstein2025",
+  "numero": 22,
+  "tema": "TCE que piora para Glasgow 8 — intubar e transferir, sem atrasar",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "TCE que piora para Glasgow 8 — intubar e transferir, sem atrasar"
+ },
+ "cir47": {
+  "fonte": "einstein2025",
+  "numero": 25,
+  "tema": "Cálculo biliar na criança — pensar em hemólise crônica",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Cálculo biliar na criança — pensar em hemólise crônica"
+ },
+ "cir48": {
+  "fonte": "einstein2025",
+  "numero": 27,
+  "tema": "Lesão subepitelial gástrica — a biópsia comum não alcança",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Lesão subepitelial gástrica — a biópsia comum não alcança"
+ },
+ "cir49": {
+  "fonte": "einstein2025",
+  "numero": 28,
+  "tema": "Rastreamento do câncer colorretal — a colonoscopia diagnostica e trata",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Rastreamento do câncer colorretal — a colonoscopia diagnostica e trata"
+ },
+ "cir50": {
+  "fonte": "einstein2025",
+  "numero": 29,
+  "tema": "Insuficiência venosa crônica — CEAP C3 e o tratamento cirúrgico",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Insuficiência venosa crônica — CEAP C3 e o tratamento cirúrgico"
+ },
+ "go01": {
+  "fonte": "susp2026",
+  "numero": 61,
+  "tema": "Doença trofoblástica gestacional — mola completa",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Doença trofoblástica gestacional — mola completa"
+ },
+ "go02": {
+  "fonte": "susp2026",
+  "numero": 62,
+  "tema": "Vacinação na gestação — o que pode, o que espera o puerpério",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Vacinação na gestação — o que pode, o que espera o puerpério"
+ },
+ "go03": {
+  "fonte": "susp2026",
+  "numero": 63,
+  "tema": "Ultrassom morfológico de primeiro trimestre — o que se avalia",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Ultrassom morfológico de primeiro trimestre — o que se avalia"
+ },
+ "go04": {
+  "fonte": "susp2026",
+  "numero": 64,
+  "tema": "Prevenção do parto pré-termo — colo curto e cerclagem",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Prevenção do parto pré-termo — colo curto e cerclagem"
+ },
+ "go05": {
+  "fonte": "susp2026",
+  "numero": 65,
+  "tema": "Hemorragia pós-parto — atonia e a primeira medida",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hemorragia pós-parto — atonia e a primeira medida"
+ },
+ "go06": {
+  "fonte": "susp2026",
+  "numero": 66,
+  "tema": "Abdome agudo no primeiro trimestre — prenhez ectópica rota",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Abdome agudo no primeiro trimestre — prenhez ectópica rota"
+ },
+ "go07": {
+  "fonte": "susp2026",
+  "numero": 67,
+  "tema": "Diabetes gestacional — diagnóstico na primeira consulta",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Diabetes gestacional — diagnóstico na primeira consulta"
+ },
+ "go08": {
+  "fonte": "susp2026",
+  "numero": 68,
+  "tema": "Gestação gemelar — corionicidade no primeiro trimestre",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Gestação gemelar — corionicidade no primeiro trimestre"
+ },
+ "go09": {
+  "fonte": "susp2026",
+  "numero": 69,
+  "tema": "Ultrassonografia precoce — cronologia dos sinais da gestação",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Ultrassonografia precoce — cronologia dos sinais da gestação"
+ },
+ "go10": {
+  "fonte": "susp2026",
+  "numero": 70,
+  "tema": "Pré-eclâmpsia — critérios diagnósticos atuais",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pré-eclâmpsia — critérios diagnósticos atuais"
+ },
+ "go11": {
+  "fonte": "susp2026",
+  "numero": 71,
+  "tema": "Sangramento do terceiro trimestre — placenta prévia",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento do terceiro trimestre — placenta prévia"
+ },
+ "go12": {
+  "fonte": "susp2026",
+  "numero": 72,
+  "tema": "Puberdade precoce central — tratamento com análogo de GnRH",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Puberdade precoce central — tratamento com análogo de GnRH"
+ },
+ "go13": {
+  "fonte": "susp2026",
+  "numero": 73,
+  "tema": "Endometriose — diagnóstico e tratamento clínico",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Endometriose — diagnóstico e tratamento clínico"
+ },
+ "go14": {
+  "fonte": "susp2026",
+  "numero": 74,
+  "tema": "Rastreamento do câncer do colo do útero — diretriz de 2025",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Rastreamento do câncer do colo do útero — diretriz de 2025"
+ },
+ "go15": {
+  "fonte": "susp2026",
+  "numero": 75,
+  "tema": "Vacina contra HPV no PNI — quem recebe e como",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Vacina contra HPV no PNI — quem recebe e como"
+ },
+ "go16": {
+  "fonte": "susp2026",
+  "numero": 76,
+  "tema": "Climatério — terapia hormonal na mulher obesa com útero",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Climatério — terapia hormonal na mulher obesa com útero"
+ },
+ "go17": {
+  "fonte": "susp2026",
+  "numero": 77,
+  "tema": "Anticoncepção no puerpério — métodos só de progestagênio",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Anticoncepção no puerpério — métodos só de progestagênio"
+ },
+ "go18": {
+  "fonte": "susp2026",
+  "numero": 78,
+  "tema": "Puberdade normal — telarca aos 8 anos e leucorreia fisiológica",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Puberdade normal — telarca aos 8 anos e leucorreia fisiológica"
+ },
+ "go19": {
+  "fonte": "susp2026",
+  "numero": 79,
+  "tema": "Densitometria óssea — o que é o T-score",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Densitometria óssea — o que é o T-score"
+ },
+ "go20": {
+  "fonte": "susp2026",
+  "numero": 80,
+  "tema": "Mamografia — calcificações em pipoca são benignas",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Mamografia — calcificações em pipoca são benignas"
+ },
+ "go21": {
+  "fonte": "susp2021",
+  "numero": 43,
+  "tema": "Sangramento pós-menopausa — biópsia endometrial ambulatorial",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento pós-menopausa — biópsia endometrial ambulatorial"
+ },
+ "go22": {
+  "fonte": "susp2021",
+  "numero": 44,
+  "tema": "NIC 1 na biópsia — conduta expectante",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "NIC 1 na biópsia — conduta expectante"
+ },
+ "go23": {
+  "fonte": "susp2021",
+  "numero": 52,
+  "tema": "Dopplerfluxometria do ducto venoso — o que ela representa",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Dopplerfluxometria do ducto venoso — o que ela representa"
+ },
+ "go24": {
+  "fonte": "susp2021",
+  "numero": 55,
+  "tema": "Parto taquitócico — não acelerar, proteger canal e recém-nascido",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Parto taquitócico — não acelerar, proteger canal e recém-nascido"
+ },
+ "go25": {
+  "fonte": "susp2021",
+  "numero": 59,
+  "tema": "HIV na gestação — via de parto pela carga viral",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "HIV na gestação — via de parto pela carga viral"
+ },
+ "go26": {
+  "fonte": "unesp2026",
+  "numero": 21,
+  "tema": "Trabalho de parto pré-termo tardio — o que fazer e o que não fazer",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Trabalho de parto pré-termo tardio — o que fazer e o que não fazer"
+ },
+ "go27": {
+  "fonte": "unesp2026",
+  "numero": 23,
+  "tema": "Primeira consulta — glicemia de 94 já é DMG; TSH de 6 se trata",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Primeira consulta — glicemia de 94 já é DMG; TSH de 6 se trata"
+ },
+ "go28": {
+  "fonte": "unesp2026",
+  "numero": 24,
+  "tema": "Prevenção da pré-eclâmpsia — AAS, cálcio e exercício",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Prevenção da pré-eclâmpsia — AAS, cálcio e exercício"
+ },
+ "go29": {
+  "fonte": "unesp2026",
+  "numero": 26,
+  "tema": "Hemorragia pós-parto — acessos, cristaloide, ocitocina e tranexâmico",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hemorragia pós-parto — acessos, cristaloide, ocitocina e tranexâmico"
+ },
+ "go30": {
+  "fonte": "unesp2026",
+  "numero": 27,
+  "tema": "Variedade de posição — occípito-esquerda-posterior e a rotação de 135°",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Variedade de posição — occípito-esquerda-posterior e a rotação de 135°"
+ },
+ "go31": {
+  "fonte": "unesp2026",
+  "numero": 28,
+  "tema": "Endometrite pós-cesárea — polimicrobiana, clindamicina com gentamicina",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Endometrite pós-cesárea — polimicrobiana, clindamicina com gentamicina"
+ },
+ "go32": {
+  "fonte": "unesp2026",
+  "numero": 33,
+  "tema": "Dismenorreia com DIU de cobre — manter o DIU e usar AINE",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Dismenorreia com DIU de cobre — manter o DIU e usar AINE"
+ },
+ "go33": {
+  "fonte": "unesp2026",
+  "numero": 35,
+  "tema": "Risco hereditário de câncer de mama — quem vai para o teste genético",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Risco hereditário de câncer de mama — quem vai para o teste genético"
+ },
+ "go34": {
+  "fonte": "unesp2026",
+  "numero": 36,
+  "tema": "Prolapso genital — estadiar pelo POP-Q",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Prolapso genital — estadiar pelo POP-Q"
+ },
+ "go35": {
+  "fonte": "unesp2026",
+  "numero": 37,
+  "tema": "Após cirurgia conservadora da mama, a radioterapia é obrigatória",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Após cirurgia conservadora da mama, a radioterapia é obrigatória"
+ },
+ "go36": {
+  "fonte": "unesp2026",
+  "numero": 39,
+  "tema": "Osteoporose densitométrica — tratar, não só suplementar",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Osteoporose densitométrica — tratar, não só suplementar"
+ },
+ "go37": {
+  "fonte": "einstein2026",
+  "numero": 47,
+  "tema": "Amenorreia primária com puberdade completa — ultrassom primeiro",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Amenorreia primária com puberdade completa — ultrassom primeiro"
+ },
+ "go38": {
+  "fonte": "einstein2026",
+  "numero": 50,
+  "tema": "Síndrome antifosfolípide na gestação — AAS, heparina e a HIT",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome antifosfolípide na gestação — AAS, heparina e a HIT"
+ },
+ "go39": {
+  "fonte": "einstein2026",
+  "numero": 51,
+  "tema": "Restrição do crescimento fetal — centralização no Doppler",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Restrição do crescimento fetal — centralização no Doppler"
+ },
+ "go40": {
+  "fonte": "einstein2026",
+  "numero": 53,
+  "tema": "Bradicardia fetal no expulsivo com cabeça baixa — fórcipe ou vácuo",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Bradicardia fetal no expulsivo com cabeça baixa — fórcipe ou vácuo"
+ },
+ "go41": {
+  "fonte": "einstein2026",
+  "numero": 54,
+  "tema": "Ectópica com metotrexato — a queda menor que 15% pede segunda dose",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Ectópica com metotrexato — a queda menor que 15% pede segunda dose"
+ },
+ "go42": {
+  "fonte": "einstein2026",
+  "numero": 57,
+  "tema": "Enxaqueca com aura — nada de estrogênio; DIU de levonorgestrel",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Enxaqueca com aura — nada de estrogênio; DIU de levonorgestrel"
+ },
+ "go43": {
+  "fonte": "einstein2026",
+  "numero": 58,
+  "tema": "Morcelamento protegido na histerectomia — o medo é o sarcoma oculto",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Morcelamento protegido na histerectomia — o medo é o sarcoma oculto"
+ },
+ "go44": {
+  "fonte": "einstein2025",
+  "numero": 48,
+  "tema": "Diabetes pré-gestacional — regressão caudal e cardiopatia fetal",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Diabetes pré-gestacional — regressão caudal e cardiopatia fetal"
+ },
+ "go45": {
+  "fonte": "einstein2025",
+  "numero": 49,
+  "tema": "Pré-eclâmpsia grave com 35 semanas — hidralazina, sulfato e indução",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Pré-eclâmpsia grave com 35 semanas — hidralazina, sulfato e indução"
+ },
+ "go46": {
+  "fonte": "einstein2025",
+  "numero": 53,
+  "tema": "Aloimunização Rh — identificar e titular o anticorpo",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Aloimunização Rh — identificar e titular o anticorpo"
+ },
+ "go47": {
+  "fonte": "einstein2025",
+  "numero": 54,
+  "tema": "Sífilis na gestação — dose pelo estágio e critério de retratamento",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Sífilis na gestação — dose pelo estágio e critério de retratamento"
+ },
+ "go48": {
+  "fonte": "einstein2025",
+  "numero": 55,
+  "tema": "Sangramento do primeiro trimestre — ameaça de aborto e seus vizinhos",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento do primeiro trimestre — ameaça de aborto e seus vizinhos"
+ },
+ "go49": {
+  "fonte": "einstein2025",
+  "numero": 56,
+  "tema": "Câncer de mama HER2 positivo — conservadora, quimio, anti-HER2 e RT",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Câncer de mama HER2 positivo — conservadora, quimio, anti-HER2 e RT"
+ },
+ "go50": {
+  "fonte": "einstein2025",
+  "numero": 59,
+  "tema": "DIP sem abscesso — antibiótico oral e reavaliação em 3 dias",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "DIP sem abscesso — antibiótico oral e reavaliação em 3 dias"
+ },
+ "cm01": {
+  "fonte": "susp2026",
+  "numero": 1,
+  "tema": "Reversão da varfarina — sangramento grave com INR alto",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Reversão da varfarina — sangramento grave com INR alto"
+ },
+ "cm02": {
+  "fonte": "susp2026",
+  "numero": 2,
+  "tema": "Diabetes tipo 2 com alto risco cardiovascular — agonista do GLP-1",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Diabetes tipo 2 com alto risco cardiovascular — agonista do GLP-1"
+ },
+ "cm03": {
+  "fonte": "susp2026",
+  "numero": 3,
+  "tema": "DPOC exacerbador — broncodilatação dupla LABA e LAMA",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "DPOC exacerbador — broncodilatação dupla LABA e LAMA"
+ },
+ "cm04": {
+  "fonte": "susp2026",
+  "numero": 5,
+  "tema": "Espondiloartrite axial — dor lombar inflamatória e HLA-B27",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Espondiloartrite axial — dor lombar inflamatória e HLA-B27"
+ },
+ "cm05": {
+  "fonte": "susp2026",
+  "numero": 7,
+  "tema": "Hiponatremia hipervolêmica — insuficiência cardíaca descompensada",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hiponatremia hipervolêmica — insuficiência cardíaca descompensada"
+ },
+ "cm06": {
+  "fonte": "susp2026",
+  "numero": 9,
+  "tema": "Lesão renal aguda no cirrótico — albumina antes da terlipressina",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Lesão renal aguda no cirrótico — albumina antes da terlipressina"
+ },
+ "cm07": {
+  "fonte": "susp2026",
+  "numero": 10,
+  "tema": "PEEP e hemodinâmica — queda do débito cardíaco",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "PEEP e hemodinâmica — queda do débito cardíaco"
+ },
+ "cm08": {
+  "fonte": "susp2026",
+  "numero": 11,
+  "tema": "Hipertensão secundária — hiperaldosteronismo primário",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hipertensão secundária — hiperaldosteronismo primário"
+ },
+ "cm09": {
+  "fonte": "susp2026",
+  "numero": 12,
+  "tema": "Cetoacidose diabética no adulto — soro, insulina e potássio",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Cetoacidose diabética no adulto — soro, insulina e potássio"
+ },
+ "cm10": {
+  "fonte": "susp2026",
+  "numero": 13,
+  "tema": "Intoxicação por nitroprussiato — cianeto e acidose láctica",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Intoxicação por nitroprussiato — cianeto e acidose láctica"
+ },
+ "cm11": {
+  "fonte": "susp2026",
+  "numero": 14,
+  "tema": "Guillain-Barré — insuficiência respiratória hipercápnica",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Guillain-Barré — insuficiência respiratória hipercápnica"
+ },
+ "cm12": {
+  "fonte": "susp2026",
+  "numero": 15,
+  "tema": "Fibrose pulmonar idiopática — antifibrótico, não corticoide",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Fibrose pulmonar idiopática — antifibrótico, não corticoide"
+ },
+ "cm13": {
+  "fonte": "susp2026",
+  "numero": 16,
+  "tema": "Cardiomiopatia hipertrófica obstrutiva — betabloqueador",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Cardiomiopatia hipertrófica obstrutiva — betabloqueador"
+ },
+ "cm14": {
+  "fonte": "susp2026",
+  "numero": 17,
+  "tema": "Reações transfusionais — sobrecarga circulatória (TACO)",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Reações transfusionais — sobrecarga circulatória (TACO)"
+ },
+ "cm15": {
+  "fonte": "susp2026",
+  "numero": 18,
+  "tema": "HIV — reconstituição imune leve: manter a terapia antirretroviral",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "HIV — reconstituição imune leve: manter a terapia antirretroviral"
+ },
+ "cm16": {
+  "fonte": "susp2026",
+  "numero": 19,
+  "tema": "Insuficiência cardíaca refratária com BRE — ressincronização",
+  "rotulo": "SUS-SP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Insuficiência cardíaca refratária com BRE — ressincronização"
+ },
+ "cm17": {
+  "fonte": "susp2021",
+  "numero": 25,
+  "tema": "Esclerose múltipla — surtos separados no tempo e no espaço",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Esclerose múltipla — surtos separados no tempo e no espaço"
+ },
+ "cm18": {
+  "fonte": "susp2021",
+  "numero": 31,
+  "tema": "Prevenção cardiovascular — estatina pelo LDL muito alto",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Prevenção cardiovascular — estatina pelo LDL muito alto"
+ },
+ "cm19": {
+  "fonte": "susp2021",
+  "numero": 33,
+  "tema": "Peritonite bacteriana espontânea — PMN acima de 250 e ceftriaxona",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Peritonite bacteriana espontânea — PMN acima de 250 e ceftriaxona"
+ },
+ "cm20": {
+  "fonte": "susp2021",
+  "numero": 34,
+  "tema": "Hipotireoidismo primário — TSH alto, T4 livre baixo, levotiroxina",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Hipotireoidismo primário — TSH alto, T4 livre baixo, levotiroxina"
+ },
+ "cm21": {
+  "fonte": "susp2021",
+  "numero": 35,
+  "tema": "Sorologia da hepatite B — o perfil da infecção curada",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Sorologia da hepatite B — o perfil da infecção curada"
+ },
+ "cm22": {
+  "fonte": "susp2021",
+  "numero": 36,
+  "tema": "Nefrite intersticial aguda por anti-inflamatório",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Nefrite intersticial aguda por anti-inflamatório"
+ },
+ "cm23": {
+  "fonte": "susp2021",
+  "numero": 37,
+  "tema": "Profilaxia do tétano — ferida suja e esquema vacinal completo",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Profilaxia do tétano — ferida suja e esquema vacinal completo"
+ },
+ "cm24": {
+  "fonte": "susp2021",
+  "numero": 38,
+  "tema": "Hipocalemia com alcalose — perda renal por diurético e aldosterona",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Hipocalemia com alcalose — perda renal por diurético e aldosterona"
+ },
+ "cm25": {
+  "fonte": "susp2021",
+  "numero": 39,
+  "tema": "Cefaleia em salvas — oxigênio a alto fluxo na crise",
+  "rotulo": "SUS-SP 2021",
+  "q": null,
+  "m": null,
+  "busca": "Cefaleia em salvas — oxigênio a alto fluxo na crise"
+ },
+ "cm26": {
+  "fonte": "unesp2026",
+  "numero": 42,
+  "tema": "Crise de asma leve — broncodilatador, corticoide oral e gatilhos",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Crise de asma leve — broncodilatador, corticoide oral e gatilhos"
+ },
+ "cm27": {
+  "fonte": "unesp2026",
+  "numero": 44,
+  "tema": "Intubação no choque séptico — etomidato e rocurônio",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Intubação no choque séptico — etomidato e rocurônio"
+ },
+ "cm28": {
+  "fonte": "unesp2026",
+  "numero": 45,
+  "tema": "Doença de Graves — bócio difuso com sopro e oftalmopatia",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Doença de Graves — bócio difuso com sopro e oftalmopatia"
+ },
+ "cm29": {
+  "fonte": "unesp2026",
+  "numero": 46,
+  "tema": "Neutropenia febril — culturas e antibiótico empírico na primeira hora",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Neutropenia febril — culturas e antibiótico empírico na primeira hora"
+ },
+ "cm30": {
+  "fonte": "unesp2026",
+  "numero": 48,
+  "tema": "Osteoporose com fratura e estenose de esôfago — ácido zoledrônico",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Osteoporose com fratura e estenose de esôfago — ácido zoledrônico"
+ },
+ "cm31": {
+  "fonte": "unesp2026",
+  "numero": 53,
+  "tema": "Estado hiperglicêmico hiperosmolar — desidratação e trombose",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Estado hiperglicêmico hiperosmolar — desidratação e trombose"
+ },
+ "cm32": {
+  "fonte": "unesp2026",
+  "numero": 54,
+  "tema": "Insuficiência cardíaca de fração reduzida — o quarto pilar (iSGLT2)",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Insuficiência cardíaca de fração reduzida — o quarto pilar (iSGLT2)"
+ },
+ "cm33": {
+  "fonte": "unesp2026",
+  "numero": 55,
+  "tema": "Lesão renal aguda na sepse — necrose tubular e acidose mista",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Lesão renal aguda na sepse — necrose tubular e acidose mista"
+ },
+ "cm34": {
+  "fonte": "unesp2026",
+  "numero": 56,
+  "tema": "Síndrome da fragilidade — os critérios de Fried",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome da fragilidade — os critérios de Fried"
+ },
+ "cm35": {
+  "fonte": "unesp2026",
+  "numero": 59,
+  "tema": "Pneumonia pós-influenza por Staphylococcus aureus — cobrir MRSA",
+  "rotulo": "UNESP 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pneumonia pós-influenza por Staphylococcus aureus — cobrir MRSA"
+ },
+ "cm36": {
+  "fonte": "einstein2026",
+  "numero": 1,
+  "tema": "Asma só com salbutamol — corticoide inalatório com formoterol",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Asma só com salbutamol — corticoide inalatório com formoterol"
+ },
+ "cm37": {
+  "fonte": "einstein2026",
+  "numero": 2,
+  "tema": "Artropatias por cristais — a gota exige o cristal para o diagnóstico",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Artropatias por cristais — a gota exige o cristal para o diagnóstico"
+ },
+ "cm38": {
+  "fonte": "einstein2026",
+  "numero": 6,
+  "tema": "Hipertensão no diabético com albuminúria — IECA e bloqueador de cálcio",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hipertensão no diabético com albuminúria — IECA e bloqueador de cálcio"
+ },
+ "cm39": {
+  "fonte": "einstein2026",
+  "numero": 7,
+  "tema": "Bloqueio atrioventricular de 2º grau — Mobitz I e Mobitz II no ECG",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Bloqueio atrioventricular de 2º grau — Mobitz I e Mobitz II no ECG"
+ },
+ "cm40": {
+  "fonte": "einstein2026",
+  "numero": 8,
+  "tema": "Suspeita de embolia pulmonar — a probabilidade pré-teste decide",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Suspeita de embolia pulmonar — a probabilidade pré-teste decide"
+ },
+ "cm41": {
+  "fonte": "einstein2026",
+  "numero": 10,
+  "tema": "Pielonefrite não complicada — ceftriaxona e alta com ciprofloxacino",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pielonefrite não complicada — ceftriaxona e alta com ciprofloxacino"
+ },
+ "cm42": {
+  "fonte": "einstein2026",
+  "numero": 11,
+  "tema": "Diabetes insípido central pós-cirurgia hipofisária — desmopressina",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Diabetes insípido central pós-cirurgia hipofisária — desmopressina"
+ },
+ "cm43": {
+  "fonte": "einstein2026",
+  "numero": 12,
+  "tema": "Inibidor de SGLT2 no perioperatório — suspender 3 dias antes",
+  "rotulo": "Einstein 2026",
+  "q": null,
+  "m": null,
+  "busca": "Inibidor de SGLT2 no perioperatório — suspender 3 dias antes"
+ },
+ "cm44": {
+  "fonte": "einstein2025",
+  "numero": 1,
+  "tema": "Agonistas do GLP-1 no diabético com aterosclerose — o que esperar",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Agonistas do GLP-1 no diabético com aterosclerose — o que esperar"
+ },
+ "cm45": {
+  "fonte": "einstein2025",
+  "numero": 3,
+  "tema": "Fibrilação atrial estável no asmático — frequência com verapamil",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Fibrilação atrial estável no asmático — frequência com verapamil"
+ },
+ "cm46": {
+  "fonte": "einstein2025",
+  "numero": 6,
+  "tema": "Infarto com supra de ST — angioplastia primária na lesão culpada",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Infarto com supra de ST — angioplastia primária na lesão culpada"
+ },
+ "cm47": {
+  "fonte": "einstein2025",
+  "numero": 7,
+  "tema": "Hipertensão resistente — investigar causa secundária e somar clonidina",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Hipertensão resistente — investigar causa secundária e somar clonidina"
+ },
+ "cm48": {
+  "fonte": "einstein2025",
+  "numero": 9,
+  "tema": "Pneumonia de provável aspiração — internar, cobrir e investigar",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Pneumonia de provável aspiração — internar, cobrir e investigar"
+ },
+ "cm49": {
+  "fonte": "einstein2025",
+  "numero": 12,
+  "tema": "Piora após trombólise no AVC — transformação hemorrágica",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Piora após trombólise no AVC — transformação hemorrágica"
+ },
+ "cm50": {
+  "fonte": "einstein2025",
+  "numero": 13,
+  "tema": "Fibrilação atrial instável — cardioversão elétrica sincronizada",
+  "rotulo": "Einstein 2025",
+  "q": null,
+  "m": null,
+  "busca": "Fibrilação atrial instável — cardioversão elétrica sincronizada"
+ }
+}

@@ -16,8 +16,9 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 |---|---|
 | Banco na tela | https://susp.vercel.app/ |
 | Caderno para imprimir | https://susp.vercel.app/caderno/ |
+| Vídeos — página de revisão (para o cliente) | https://susp.vercel.app/videos/ (os links curtos dos QR codes: `/v/<id>/q`, `/m`, `/mais`) |
 | Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/susp/` (projeto `susp`; git em `main`, remoto privado `crispinekkovendas-blip/med-susp`) |
-| PDFs prontos | https://susp.vercel.app/pdf/caderno-ped.pdf (`prev`, `cir`, `go`, `cm`) e `caderno-completo.pdf` — links no painel do caderno |
+| PDFs prontos | https://susp.vercel.app/pdf/caderno-ped.pdf (`prev`, `cir`, `go`, `cm` também): uma apostila por área, paginada, com o índice dizendo a página de cada ficha — links no painel do caderno |
 
 ## Números (2026-10-07)
 
@@ -61,9 +62,13 @@ cada escolha estão em `ferramentas/selecao.md`.
 index.html            casca: fontes do Google + app.css + banco.js + app.js
 banco.js              window.BANCO = { meta, questoes } — GERADO por ferramentas/montar.js
 app.js  app.css       a página na tela (áreas e edições lidas de meta)
-caderno/              o banco em papel (index.html, caderno.js, caderno.css)
+caderno/              o banco em papel (index.html, caderno.js, caderno.css; qrcode.js = qrcode-generator 1.4.4, MIT, Kazuhiko Arase)
 figuras/              <id>.jpg, uma por questão (≤ 1400 px, ≤ 600 KB) + FONTES.md (proveniência);
                       candidatos.json, escolhas.json e figuras.json ficam fora do ar
+videos.json           os vídeos de cada questão (q, m, busca) — GERADO por ferramentas/videos.py gerar
+v/                    os links curtos /v/<id>/<q|m|mais>: destino.js (função pura) + index.html (redireciona ou mostra os botões)
+videos/               a página de revisão dos vídeos, para o cliente (revisao.js + index.html)
+vercel.json           reescreve /v/<id>/<qual> para a página v/ e desliga o deploy automático do GitHub (o deploy é pela CLI, com os PDFs)
 verificar.js          o harness — não vai para o ar (.vercelignore)
 controles.js          os 85 controles negativos do harness — idem
 ferramentas/          fora do ar: metadados, extração, montagem, figuras, testes, seleção, cadernos
@@ -116,6 +121,10 @@ docs/superpowers/     spec e plano — fora do ar
 - `testes.py` — 19 testes das ferramentas: `python ferramentas/testes.py`.
 - `conferir_readme.js` — a tabela acima contra `banco.js`.
 - `pdf.py` — os PDFs do caderno pelo Chrome sem janela (ver "PDF").
+- `videos.py` + `questoes_json.js` + `videos/` — a escolha dos vídeos do
+  YouTube (lista branca `canais.json`, `candidatos.json`, `escolhas.json`,
+  `amostra-busca.json` para os testes) e o `gerar`, que escreve `videos.json`.
+  Ver "Vídeos (QR codes)".
 - `selecao.md` — as 250 escolhas e o motivo de cada uma.
 
 ## De onde vêm as questões — e por que só estas
@@ -249,6 +258,57 @@ de posição), go35 (radioterapia em geral) e go42 (um DIU de cobre, porque o
 de levonorgestrel só existe em desenho no Commons — a legenda diz isso). O
 restante mostra o próprio achado da questão.
 
+## Vídeos (QR codes)
+
+Cada ficha impressa traz, depois da linha de fonte, **três QR codes**, e cada
+cartão na tela os mesmos três links no fim do Comentário: **Vídeo da
+questão**, **Vídeo da matéria** e **Mais vídeos do tema**. Nenhum deles
+aponta para o YouTube: o código leva a um **link curto do site** —
+`https://susp.vercel.app/v/<id>/q`, `/m` ou `/mais` — e é a página `v/`
+que redireciona lendo `videos.json` (`v/destino.js` é a função pura, testada
+no harness). Trocar um vídeo é uma edição em `videos.json` (pela ferramenta)
+e um deploy: o papel não envelhece. Sem escolha ainda, ou com id
+desconhecido, a página mostra os botões: a busca no YouTube pelo tema, a
+questão no site (`/#<id>` abre o cartão) e o início.
+
+Os vídeos não são nossos: são vídeos públicos de canais de ensino médico, **um
+por questão e um por matéria** (até 500 escolhas), escolhidos só entre os
+canais da **lista branca** (`ferramentas/videos/canais.json`, aprovada pelo
+usuário) e revisados pelo cliente na **página de revisão** (`/videos/`, com
+miniatura, título, canal e duração de cada escolha; é a única página que
+carrega algo do YouTube). Claude escolhe por título, canal, duração e
+visualizações; **não assiste ao vídeo** — a revisão do cliente é o controle
+de qualidade.
+
+Hoje: **0 vídeos da questão** e **0 da matéria** escolhidos, de 26 canais
+(`conferir_readme.js` confere esta frase) — a lista branca é a mesma aprovada
+para o banco AMRIGS, do mesmo cliente. As áreas entram uma a uma; enquanto a
+camada é preenchida, `EXIGE_VIDEOS = false` no harness; ao completar, `true` —
+uma escolha ausente vira erro.
+
+**A ferramenta**, `ferramentas/videos.py` (yt-dlp, sem chave de API, com
+pausa entre buscas, cabeçalho `Accept-Language: pt-BR` e `youtube:lang=pt`
+para os títulos não chegarem traduzidos), na ordem: `canais` (25 buscas de
+amostra → tabela de canais; `canais --aprovar UC…,UC…` grava a lista) →
+`buscar <area>` (duas buscas de 30 resultados por questão: a cabeça do tema
+— o que vem antes do travessão — + "residência médica", e a mesma cabeça +
+"aula"; só canais da lista, 4 a 90 min, na ordem de relevância do YouTube
+→ `candidatos.json`) →
+`escolher <area>` (a primeira candidata, só para as questões ainda sem
+entrada → `escolhas.json`; `--preencher` enche os lugares vazios, pulando as
+urls vetadas) → `gerar` (→ `videos.json`) → revisão → `buscar-extra <id>
+<q|m> "<consulta>"` (uma busca a mais, escrita à mão, para quem ficou sem
+candidata) e `trocar <id> <q|m> <url>` (`-` apaga e veta a url; `--forcar`
+aceita canal fora da lista, só com a palavra do cliente, e fica marcado em
+`escolhas.json`) → `conferir` (oEmbed do YouTube e, nos 401, o yt-dlp, para
+separar vídeo privado de incorporação desligada; rode antes de reimprimir).
+`buscar` grava depois de cada busca e recomeça de onde parou (`--tudo`
+refaz). Os JSON de `ferramentas/videos/` não se editam à mão.
+
+Os QR codes são desenhados na hora por `caderno/qrcode.js` —
+`qrcode-generator` 1.4.4 de Kazuhiko Arase, MIT, vendorizado sem alteração —
+em SVG de 18 mm, nível M. A opção "QR codes dos vídeos: Não" tira a faixa.
+
 ## A página na tela (app.js)
 
 Cartões com as alternativas da prova (cinco ou quatro); responder corrige na hora e abre a explicação
@@ -302,7 +362,12 @@ duplas.
 
 Antes das fichas: capa (com uma linha para o **nome do estudante** — vazia por
 padrão, para o aluno escrever o seu; digitado no painel, sai na capa e no rodapé
-de toda página), instruções, mapa de temas por área; texto compartilhado sai uma vez
+de toda página), instruções, **mapa de temas por área, que é o
+índice**: cada linha traz o número da ficha e a **página** em que ela está
+(no navegador, uma estimativa a partir da medida das fichas; nos PDFs
+publicados, o número exato, ver "PDF"). Toda página sai numerada no rodapé
+("Página X de Y", caixa `@bottom-right` do `@page`). Cada ficha traz, depois da
+linha de fonte, os três QR codes dos vídeos (ver "Vídeos (QR codes)"). Instruções, mapa de temas por área; texto compartilhado sai uma vez
 por sequência. Depois: gabarito resumido e "Meu resultado" (opcionais);
 folha de respostas opcional. Opções em `susp:caderno`: área, edição,
 Simplificando, Sobre a matéria (página própria / na ficha / não), figuras,
@@ -316,22 +381,35 @@ na geometria do papel).
 
 `python ferramentas/pdf.py` imprime o caderno com o Chrome sem janela
 (`--headless=new --print-to-pdf`, perfil próprio para não brigar com o Chrome
-aberto, servido por `http.server` local) em `pdf/caderno-<area>.pdf` e
-`pdf/caderno-completo.pdf`, com as opções padrão (Sobre a matéria depois do
-comentário, figuras, quadriculado), e conta as páginas com PyMuPDF. A pasta
-`pdf/` não vai para o git, mas **vai para o ar** (desde 2026-10-07): os PDFs
-ficam em `susp.vercel.app/pdf/caderno-<area>.pdf` e `caderno-completo.pdf`,
-com links no painel do caderno. Por isso, depois de qualquer mudança no
-banco, rode `python ferramentas/pdf.py` **antes** do deploy — senão o site
-publica PDFs velhos (ou nenhum, se a pasta estiver vazia).
+aberto, servido por `http.server` local) em `pdf/caderno-<area>.pdf` — **uma
+apostila por área, não há PDF completo** —, com as opções padrão (Sobre a
+matéria depois do comentário, figuras, QR codes, quadriculado, sem nome).
+Cada área é impressa **duas vezes**: a primeira para ler, com o PyMuPDF, em
+que página cada ficha começou (a etiqueta "PROVA ANO · Questão NN" só sai no
+cabeçalho da ficha); a segunda com essas páginas na URL
+(`caderno/?area=ped&paginas=6,10,…`), que o caderno escreve no índice no lugar
+da estimativa. Depois confere o PDF: a capa cabe numa página, o rodapé
+"Página 1 de N" bate com o total e o índice bate com as fichas — sai 1 se
+algo não bater. Em 2026-10-12, com os QR codes e o índice paginado: PDFPAGES. A pasta `pdf/` não vai para o git,
+mas **vai para o ar**: os PDFs ficam em
+`susp.vercel.app/pdf/caderno-<area>.pdf`, com links no painel do caderno.
+Por isso, depois de qualquer mudança no banco, rode `python
+ferramentas/pdf.py` **antes** do deploy — senão o site publica PDFs velhos
+(ou nenhum). Pelo mesmo motivo, `vercel.json` desliga o deploy automático do
+GitHub (`git.deploymentEnabled` com `main` em `false`): se um dia a Vercel for
+ligada ao repositório, um build disparado por um push não teria a pasta `pdf/`. Nunca
+rode `controles.js` nem `testes.py` enquanto o `pdf.py` imprime: os controles
+plantam falhas nos arquivos que o servidor está servindo, e um teste
+reescreve `banco.js`. Uma impressão leva ~5 min por área; com pouca memória
+na máquina, rode uma área por vez (`pdf.py ped`).
 
 ## Verificação — como rodar e o que prova
 
 ```
 node ferramentas/montar.js       # reescreve banco.js a partir das entradas
 node verificar.js                # ~28.500 conferências; sai 1 se algo falhar
-node controles.js                # planta 85 falhas, uma por vez, e exige que cada uma seja mordida
-python ferramentas/testes.py     # 19 testes das ferramentas (extração, gabarito, normalização)
+node controles.js                # planta uma falha por vez e exige que cada uma seja mordida (~13 min; `node controles.js <trecho>` ou `1-50` roda só uma parte)
+python ferramentas/testes.py     # os testes das ferramentas (extração, gabarito, normalização, vídeos, vercel.json)
 node ferramentas/conferir_readme.js
 ```
 
@@ -340,7 +418,9 @@ gabarito e regras de conteúdo, e depois **monta `app.js` e `caderno.js` num
 DOM de mentira**: conta cartões, responde, confere abas, referências,
 etiquetas, filtros por área e por edição, o sorteio do simulado; no caderno,
 três configurações — fichas completas, mapa de temas, gabarito resumido,
-nome na capa e no rodapé. Também confere que o CSS do caderno não impede a
+nome na capa e no rodapé, os três QR codes com os links curtos certos em toda
+ficha, `videos.json`, `v/destino.js`, a página `v/`, a página de revisão e o
+link direto `/#<id>`. Também confere que o CSS do caderno não impede a
 ficha de correr para a segunda página. Das figuras, prova o que está em "O
 modelo de uma questão" (arquivo real, tamanho lido do cabeçalho, licença
 livre, FONTES.md) e, no DOM de mentira, que o painel Comentário traz a figura
@@ -353,7 +433,7 @@ cartão sem ela abre no Comentário), o bloco na ficha com as respostas à
 vista e a opção que o desliga, e o CSS da ficha `tripla`.
 
 `controles.js` é a prova de que o harness não é cego: cada controle altera
-**um** arquivo (`banco.js`, `app.js`, `caderno/caderno.js` ou
+**um** arquivo (`banco.js`, `app.js`, `caderno/caderno.js`, `videos.json`, `v/destino.js` ou
 `caderno/caderno.css`), roda o harness, exige a mensagem certa e restaura.
 
 O harness prova coerência e fidelidade, **não verdade médica**. Ele pegou,

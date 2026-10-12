@@ -12,7 +12,7 @@
    Não vai para o deploy (.vercelignore). */
 const fs = require("fs"), path = require("path"), cp = require("child_process");
 const DIR = __dirname;
-const ARQS = ["banco.js", "app.js", "app.css", "caderno/caderno.js", "caderno/caderno.css"];
+const ARQS = ["banco.js", "app.js", "app.css", "caderno/caderno.js", "caderno/caderno.css", "videos.json", "v/destino.js"];
 const originais = Object.fromEntries(ARQS.map(a => [a, fs.readFileSync(path.join(DIR, a), "utf8")]));
 
 function roda() {
@@ -220,11 +220,49 @@ const controles = [
     txt: o => planta(o, 'f.classList.add("tripla")', 'f.classList.add("dupla")'), cita: /classe tripla/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: a ficha tripla deixa de ocupar três páginas",
     txt: o => planta(o, "calc(3 * var(--pagina))", "calc(2 * var(--pagina))"), cita: /\.questao\.tripla/ },
+  /* --- vídeos: videos.json, um por questão, canal da lista, url canônica --- */
+  { arquivo: "videos.json", nome: `vídeos: ${PED} sumiu de videos.json`,
+    txt: o => { const V = JSON.parse(o); delete V[PED]; return JSON.stringify(V, null, 1); }, cita: /videos\.json tem \d+ ids, esperava um por questão/ },
+  { arquivo: "videos.json", nome: `vídeos: ${PED} com url fora da forma canônica`,
+    txt: o => { const V = JSON.parse(o); V[PED].q = { url: "https://youtu.be/aaaaaaaaaaa", titulo: "x", canal: "y", canalId: "UCx", duracao: 600 }; return JSON.stringify(V, null, 1); }, cita: /url do vídeo q não é https:\/\/www\.youtube\.com\/watch/ },
+  { arquivo: "videos.json", nome: `vídeos: ${PED} com canal fora da lista`,
+    txt: o => { const V = JSON.parse(o); V[PED].m = { url: "https://www.youtube.com/watch?v=aaaaaaaaaaa", titulo: "x", canal: "Canal Y", canalId: "UCnaolistado", duracao: 600 }; return JSON.stringify(V, null, 1); }, cita: /não está em canais\.json/ },
+  { arquivo: "videos.json", nome: `vídeos: ${PED} com busca de 3 letras`,
+    txt: o => { const V = JSON.parse(o); V[PED].busca = "abc"; return JSON.stringify(V, null, 1); }, cita: /busca fora de 8–80/ },
+  /* --- links curtos: destino() ---------------------------------------------- */
+  { arquivo: "v/destino.js", nome: "destino: id desconhecido mandado para o YouTube",
+    txt: o => planta(o, 'if (!v) return { fallback: "sem-id" };', 'if (!v) return { url: "https://www.youtube.com/" };'), cita: /destino\(\): um id desconhecido/ },
+  { arquivo: "v/destino.js", nome: "destino: busca sem codificar",
+    txt: o => planta(o, "encodeURIComponent(termo)", "termo"), cita: /destino\(\): a busca não está codificada/ },
+  /* --- caderno: a faixa dos três QR codes e o índice ------------------------ */
+  { arquivo: "caderno/caderno.js", nome: "caderno: faixa dos QR codes removida",
+    txt: o => planta(o, "op.qr ? videos(q) : null", "null"), cita: /ficha sem os três QR codes/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: QR code com a url sem o id",
+    txt: o => planta(o, 'BASE_V + q.id + "/" + k', 'BASE_V + k'), cita: /QR code .* href/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: a página própria da mini-aula repete os QR codes",
+    txt: o => planta(o, 'cabecalho(q, numero, "Sobre a matéria"), materiaBloco(q), notas())', 'cabecalho(q, numero, "Sobre a matéria"), materiaBloco(q), videos(q), notas())'), cita: /página própria da mini-aula não pode repetir os QR codes/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: o mapa de temas perde a coluna da página",
+    txt: o => planta(o, 'h("td", { class: "nums" }, dois(i + 1)), h("td", { class: "pag" }, ""))', 'h("td", { class: "nums" }, dois(i + 1)))'), cita: /mapa de temas é o índice/ },
+  { arquivo: "caderno/caderno.js", nome: "caderno: as páginas da URL (?paginas=) não chegam ao índice",
+    txt: o => planta(o, "preencherIndice(PAGINAS_URL)", "preencherIndice([])"), cita: /com \?paginas= na URL o mapa de temas/ },
+  { arquivo: "caderno/caderno.css", nome: "caderno.css: @page sem o contador de páginas",
+    txt: o => planta(o, 'counter(page) " de " counter(pages)', 'counter(page)'), cita: /counter\(pages\)/ },
+  /* --- página: os três links de vídeo no painel Comentário ----------------- */
+  { arquivo: "app.js", nome: "app: cartão sem os três links de vídeo",
+    txt: o => planta(o, "+ fonte + videosHtml(q)", "+ fonte"), cita: /três links de vídeo/ },
 ];
 
+/* `node controles.js <trecho>` roda só os controles cujo nome contém o trecho;
+   `node controles.js 1-50` roda a faixa (1-based, inclusiva). Cada controle
+   roda o harness inteiro (~8 s com os QR codes do caderno): a lista completa
+   leva ~14 min, e em duas faixas cabe em sessões de 10 min. */
+const SO = process.argv[2] || "";
+const faixa = /^(\d+)-(\d+)$/.exec(SO);
+const escolhidos = faixa ? controles.slice(Number(faixa[1]) - 1, Number(faixa[2])) : controles.filter(c => c.nome.includes(SO));
+if (!escolhidos.length) { console.log("nenhum controle com " + JSON.stringify(SO)); process.exit(1); }
 let falhos = 0;
 try {
-  for (const c of controles) {
+  for (const c of escolhidos) {
     const arq = c.arquivo || "banco.js";
     let txt;
     try { txt = c.txt(originais[arq]); } catch (e) { console.log(`✗ CONTROLE INVÁLIDO (${e.message.slice(0, 90)}): ${c.nome}`); falhos++; continue; }
@@ -241,5 +279,5 @@ try {
   for (const a of ARQS) fs.writeFileSync(path.join(DIR, a), originais[a], "utf8");
 }
 const r = roda();
-console.log(`\nrestaurado: ${r.ok ? "verde" : "VERMELHO (!!)"} · ${controles.length - falhos}/${controles.length} controles morderam`);
+console.log(`\nrestaurado: ${r.ok ? "verde" : "VERMELHO (!!)"} · ${escolhidos.length - falhos}/${escolhidos.length} controles morderam${SO ? ` (filtro ${JSON.stringify(SO)}, de ${controles.length})` : ""}`);
 process.exit(falhos || !r.ok ? 1 : 0);

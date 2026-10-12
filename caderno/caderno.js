@@ -24,7 +24,7 @@
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
-  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "junto", figuras: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, nome: "" };   /* sem nome: o aluno escreve o seu na capa */
+  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "junto", figuras: true, qr: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, nome: "" };   /* sem nome: o aluno escreve o seu na capa */
   /* no papel não há clique: as respostas do "Verifique o que aprendeu" saem à vista */
   const materiaImpressa = m => m.replace(/<details><summary>Resposta<\/summary>([\s\S]*?)<\/details>/g, '<span class="resp"><em>Resposta:</em> $1</span>');
   const ler = () => { try { const s = JSON.parse(localStorage.getItem(CH) || "{}"); const o = Object.assign({}, PADRAO); for (const k in PADRAO) if (k in s) o[k] = s[k]; return o; } catch (e) { return Object.assign({}, PADRAO); } };
@@ -33,6 +33,10 @@
      PDFs são gerados (ferramentas/pdf.py) */
   const daUrl = o => { try { const p = new URLSearchParams(window.location.search); for (const k in PADRAO) if (p.has(k)) { const v = p.get(k); o[k] = v === "true" ? true : v === "false" ? false : v; } } catch (e) { /* sem URL */ } return o; };
   const normalizar = o => { if (o.materia === true) o.materia = "junto"; return o; };
+  /* o índice exato, pela URL: pdf.py imprime, lê em que página cada ficha
+     começou e imprime de novo com ?paginas=6,10,13,… (na ordem das fichas);
+     sem isso, o índice traz a estimativa medida no navegador */
+  const PAGINAS_URL = (() => { try { return (new URLSearchParams(window.location.search).get("paginas") || "").split(",").filter(Boolean).map(Number); } catch (e) { return []; } })();
   const gravar = () => { try { localStorage.setItem(CH, JSON.stringify(op)); } catch (e) { /* sem armazenamento */ } };
   let op = normalizar(daUrl(ler()));
   if (op.area !== "todas" && !NOME_AREA[op.area]) op.area = "todas";
@@ -68,11 +72,12 @@
     const n = escolhidas().length;
     return h("section", { id: "painel", "aria-label": "Opções do caderno" }, h("div", { class: "miolo" },
       h("div", { class: "cab" },
-        h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, figura, referências, Simplificando, Sobre a matéria e pauta para anotar`),
+        h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, figura, referências, Simplificando, Sobre a matéria, QR codes dos vídeos e pauta para anotar`),
           /* os PDFs prontos (ferramentas/pdf.py, opções padrão) ficam em /pdf/ */
-          h("p", { class: "sub pdfs" }, "PDF pronto, com as opções padrão: ", AREAS.map((a, i) => [i ? " · " : "", h("a", { href: `../pdf/caderno-${a.id}.pdf` }, a.nome)]), " · ", h("a", { href: "../pdf/caderno-completo.pdf" }, "Completo"))),
+          h("p", { class: "sub pdfs" }, "PDF pronto, com as opções padrão (um por área, com o índice paginado): ", AREAS.map((a, i) => [i ? " · " : "", h("a", { href: `../pdf/caderno-${a.id}.pdf` }, a.nome)]))),
         h("div", { class: "acoes" },
           h("a", { class: "acao", href: "../" }, "← Banco na tela"),
+          h("a", { class: "acao", href: "../videos/", title: "Para o cliente: cada questão com os dois vídeos escolhidos, para vetar ou trocar" }, "Vídeos: página de revisão"),
           h("button", { class: "acao primaria", type: "button", onclick: () => window.print() }, "Imprimir / salvar em PDF"))),
       h("div", { class: "opcoes" },
         h("div", { class: "opcao" }, h("label", { class: "rot", for: "nome" }, "Nome do estudante"),
@@ -84,6 +89,7 @@
         opcao("materia", "Sobre a matéria", [["junto", "Depois do comentário"], ["pagina", "Em página própria"], [false, "Não"]]),
         /* com figura toda ficha vira duas páginas; sem, 4 em 10 cabem numa */
         opcao("figuras", "Figuras", [[true, "Incluir"], [false, "Não"]]),
+        opcao("qr", "QR codes dos vídeos", [[true, "Sim"], [false, "Não"]]),
         opcao("pauta", "Anotações", [["quadriculado", "Quadriculado"], ["linhas", "Pauta"], ["nenhuma", "Em branco"]]),
         opcao("letra", "Letra", [["normal", "Normal"], ["grande", "Grande"]]),
         opcao("folha", "Folha de respostas", [[false, "Não"], [true, "Sim"]]),
@@ -131,10 +137,10 @@
     return h("section", { class: "pagina mapa" },
       h("h2", null, h("span", { class: "sec" }, "Mapa"), "Mapa de temas"),
       h("p", { class: "sub" }, "Cada tema e a ficha que o cobra, por área. Depois de corrigir, circule os temas em que errou — é a sua lista de revisão."),
-      h("table", { class: "temas" }, h("tbody", null, lista.map((q, i) => h("tr", null,
+      h("table", { class: "temas" }, h("tbody", null, lista.map((q, i) => h("tr", { "data-id": q.id },
         h("td", { class: "d" }, h("span", { class: "tag " + q.area }, NOME_AREA[q.area])),
         h("td", null, q.tema),
-        h("td", { class: "nums" }, dois(i + 1)))))));
+        h("td", { class: "nums" }, dois(i + 1)), h("td", { class: "pag" }, ""))))));
   }
 
   /* --- a ficha de uma questão ------------------------------------------------- */
@@ -150,6 +156,18 @@
     h("span", { class: "tag " + q.area }, NOME_AREA[q.area]),
     h("span", { class: "tema" }, q.tema),
     h("span", { class: "origem" }, origem));
+  /* --- a faixa dos vídeos: três QR codes com os links curtos do site --------
+     q = vídeo da questão, m = vídeo da matéria, mais = busca no YouTube pelo
+     tema. A url é só o id: quem redireciona é a página /v/ (videos.json), por
+     isso o papel não envelhece quando um vídeo é trocado. O SVG vem de
+     qrcode.js (Kazuhiko Arase, MIT), nível M, 18 mm no CSS. */
+  const BASE_V = `https://${B.meta.site}/v/`;
+  const QRS = [["q", "Vídeo da questão"], ["m", "Vídeo da matéria"], ["mais", "Mais vídeos do tema"]];
+  const qrSVG = texto => { const c = qrcode(0, "M"); c.addData(texto); c.make(); return c.createSvgTag({ cellSize: 2, margin: 0, scalable: true }); };
+  const videos = q => h("div", { class: "videos" }, QRS.map(([k, rot]) => {
+    const url = BASE_V + q.id + "/" + k;
+    return h("a", { class: "qr", href: url, "data-qual": k }, h("span", { class: "codigo", html: qrSVG(url) }), h("span", { class: "leg" }, rot));
+  }));
   /* Devolve uma ou duas fichas. No modo padrão ("Sobre a matéria depois do
      comentário") a questão é uma ficha contínua — enunciado, alternativas,
      comentário, figura, referências, Simplificando, mini-aula, autoavaliação
@@ -174,7 +192,8 @@
         h("p", { class: "referencias", html: `<span class="rot">Referências</span> ${q.referencias.join(" · ")}` }),
         op.simples && q.simples ? h("div", { class: "simples" }, h("p", { class: "rot" }, "Simplificando"), h("div", { html: q.simples })) : null,
         op.materia === "junto" && q.materia ? materiaBloco(q) : null,
-        h("p", { class: "fonte" }, `Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo}.`)),
+        h("p", { class: "fonte" }, `Questão ${dois(q.numero)} · ${FONTES[q.fonte].rotulo}.`),
+        op.qr ? videos(q) : null),
       h("div", { class: "auto" },
         h("span", { class: "rot" }, "Eu"),
         ["acertei", "errei", "chutei", "revisar"].map(t => h("span", { class: "caixa" }, h("span", { class: "quadrado" }), t))),
@@ -210,7 +229,7 @@
     return h("section", { class: "pagina gabarito" },
       h("h2", null, h("span", { class: "sec" }, "Resumo"), "Gabarito"),
       h("p", { class: "sub" }, "As letras de todas as fichas, para conferir de uma vez."),
-      h("div", { class: "colunas" }, colunas.map(col => h("table", { class: "grade chave" }, h("tbody", null, col.map(([n, l, id]) => h("tr", null, h("td", { class: "n" }, dois(n)), h("td", { class: "l", "data-id": id, "data-letra": l }, l))))))));
+      h("div", { class: "colunas" }, colunas.map(col => h("table", { class: "grade chave" }, h("tbody", null, col.map(([n, l, id]) => h("tr", { "data-id": id }, h("td", { class: "n" }, dois(n)), h("td", { class: "l", "data-id": id, "data-letra": l }, l), h("td", { class: "pag" }, ""))))))));
   }
   function resultado(lista) {
     return h("section", { class: "pagina resultado" },
@@ -270,10 +289,31 @@
       if (conteudo > 2 * pagina - folga) f.classList.add("tripla");
       else if (conteudo > pagina - folga) f.classList.add("dupla");
     });
+    /* o índice: a página de cada ficha = capa + folha + mapa (medidos na
+       mesma geometria) + as fichas anteriores, cada uma com 1, 2 ou 3
+       páginas; no modo página própria a mini-aula também conta */
+    const paginasDe = sel => { const el = document.querySelector(sel); return el ? Math.max(1, Math.ceil((el.getBoundingClientRect().height - 1) / pagina)) : 0; };
+    let pag = paginasDe(".pagina.capa") + paginasDe(".pagina.folha") + paginasDe(".pagina.mapa");
+    const paginaDe = {};
+    fichas.forEach(f => {
+      const id = f.getAttribute("data-id");
+      if (!f.classList.contains("materia-pagina") && !(id in paginaDe)) paginaDe[id] = pag + 1;
+      pag += f.classList.contains("tripla") ? 3 : f.classList.contains("dupla") ? 2 : 1;
+    });
     document.body.classList.remove("medindo");
+    if (!PAGINAS_URL.length) preencherIndice(Object.values(paginaDe));
+  }
+  /* escreve as páginas nas células .pag do mapa e do gabarito, na ordem das fichas */
+  function preencherIndice(paginas) {
+    const ids = escolhidas().map(q => q.id);
+    const porId = {};
+    ids.forEach((id, i) => { porId[id] = paginas[i]; });
+    /* seletor simples de propósito: o DOM de mentira do harness só entende classe, id ou tag */
+    document.querySelectorAll(".pag").forEach(td => { const p = porId[td.parentNode && td.parentNode.getAttribute("data-id")]; td.textContent = p ? String(p) : ""; });
   }
   function render() {
     raiz.innerHTML = ""; raiz.setAttribute("aria-busy", "false"); raiz.append(painel(), documento());
+    if (PAGINAS_URL.length) preencherIndice(PAGINAS_URL);
     if (typeof requestAnimationFrame === "function") requestAnimationFrame(medirFichas);
   }
   render();

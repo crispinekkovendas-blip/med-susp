@@ -78,6 +78,13 @@ main { max-width: 960px; margin: 0 auto; padding: 22px 16px 0; }
 .seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
 .seg button .n { font-family: var(--mono); font-size: 11px; opacity: .75; }
 .seg button[aria-pressed="true"] .n { opacity: .85; }
+/* os três links de vídeo no fim do painel Comentário */
+.comentario .videos { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.comentario .videos .rot { margin-right: 2px; }
+.comentario .video { border: 1px solid var(--line); border-radius: var(--r); padding: 5px 10px; font-size: 13px; color: var(--ink-2); text-decoration: none; background: #fff; }
+.comentario .video:hover { border-color: var(--line-2); color: var(--ink); }
+/* o cartão aberto por link direto (/#<id>, vindo da página v/) */
+.q.alvo { outline: 2px solid var(--accent-2); outline-offset: 3px; }
 .acao { border: 1px solid var(--line); border-radius: var(--r); background: #fff; padding: 8px 13px; font-size: 13px; color: var(--ink-2); }
 .acao:hover { border-color: var(--line-2); color: var(--ink); }
 .acao.primaria { background: var(--accent-2); border-color: var(--accent-2); color: #fff; font-weight: 500; }
