@@ -390,7 +390,11 @@ cabeçalho da ficha); a segunda com essas páginas na URL
 (`caderno/?area=ped&paginas=6,10,…`), que o caderno escreve no índice no lugar
 da estimativa. Depois confere o PDF: a capa cabe numa página, o rodapé
 "Página 1 de N" bate com o total e o índice bate com as fichas — sai 1 se
-algo não bater. Em 2026-10-12, com os QR codes e o índice paginado: PDFPAGES. A pasta `pdf/` não vai para o git,
+algo não bater. Em 2026-10-12, com os QR codes e o índice paginado: `caderno-ped.pdf` 170 páginas (20 MB),
+`caderno-prev.pdf` 172 páginas (21 MB),
+`caderno-cir.pdf` 176 páginas (20 MB),
+`caderno-go.pdf` 166 páginas (19 MB),
+`caderno-cm.pdf` 166 páginas (19 MB). A pasta `pdf/` não vai para o git,
 mas **vai para o ar**: os PDFs ficam em
 `susp.vercel.app/pdf/caderno-<area>.pdf`, com links no painel do caderno.
 Por isso, depois de qualquer mudança no banco, rode `python

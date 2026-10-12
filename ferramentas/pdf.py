@@ -27,7 +27,10 @@ CHROME = os.environ.get("CHROME", r"C:\Program Files\Google\Chrome\Application\c
 AREAS = ["ped", "prev", "cir", "go", "cm"]
 # só as áreas que já estão em meta.areas são impressas: as outras dariam um caderno vazio
 PORTA = 8765
-PERFIL = os.path.join(os.environ.get("TEMP", RAIZ), "susp-pdf-chrome")
+# perfil novo a cada corrida: o cache do Chrome guardava o caderno velho de
+# 127.0.0.1:8765 (o http.server não manda cabeçalho de cache) e a página saía vazia
+import tempfile
+PERFIL = tempfile.mkdtemp(prefix="susp-pdf-chrome-")
 
 def servidor():
     p = subprocess.Popen([sys.executable, "-m", "http.server", str(PORTA), "--bind", "127.0.0.1"], cwd=RAIZ,
