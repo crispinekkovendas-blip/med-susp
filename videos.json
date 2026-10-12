@@ -1804,8 +1804,20 @@
   "numero": 1,
   "tema": "Reversão da varfarina — sangramento grave com INR alto",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=Q9afO0FTEio",
+   "titulo": "VARFARINA X DOACs, o que você precisa saber?",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 361
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=52kmfbAd1H8",
+   "titulo": "Como Manejar Intoxicação por Varfarina - TdC em Bolus",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 897
+  },
   "busca": "Reversão da varfarina — sangramento grave com INR alto"
  },
  "cm02": {
@@ -1813,8 +1825,20 @@
   "numero": 2,
   "tema": "Diabetes tipo 2 com alto risco cardiovascular — agonista do GLP-1",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=D4FVsO1DM8g",
+   "titulo": "Atualização: Nova Diretriz da Sociedade Brasileira de Diabetes",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 1785
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=WIk4YDfKK2I",
+   "titulo": "321 Controle de hipertensão e diabetes na Atenção Primária - Relato de Experiência",
+   "canal": "SBMFC",
+   "canalId": "UC8TmoR48GtsvQh3GRhHT-0Q",
+   "duracao": 247
+  },
   "busca": "Diabetes tipo 2 com alto risco cardiovascular — agonista do GLP-1"
  },
  "cm03": {
@@ -1822,8 +1846,20 @@
   "numero": 3,
   "tema": "DPOC exacerbador — broncodilatação dupla LABA e LAMA",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=LoZ1sb_fqcs",
+   "titulo": "Aula Resumo ENAMED - DPOC",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2921
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=sbP3n9Nv0RI",
+   "titulo": "DPOC: Atualização GOLD 2023/24 — Grupo E, exacerbações e tratamento",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 683
+  },
   "busca": "DPOC exacerbador — broncodilatação dupla LABA e LAMA"
  },
  "cm04": {
@@ -1831,8 +1867,20 @@
   "numero": 5,
   "tema": "Espondiloartrite axial — dor lombar inflamatória e HLA-B27",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=CCTX0dH8KfQ",
+   "titulo": "Aula Resumo ENAMED  - Espondiloartrites",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3211
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=MgdS2q7Cy9w",
+   "titulo": "Espondiloartrites (reumatologia) com o Dr. Henrique Dalmolin",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1944
+  },
   "busca": "Espondiloartrite axial — dor lombar inflamatória e HLA-B27"
  },
  "cm05": {
@@ -1840,8 +1888,20 @@
   "numero": 7,
   "tema": "Hiponatremia hipervolêmica — insuficiência cardíaca descompensada",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=BMljL81EvGU",
+   "titulo": "Investigação de HIPONATREMIA",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 1201
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=NKJFSfDV9VQ",
+   "titulo": "ENTENDA A HIPONATREMIA ASSIM",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 894
+  },
   "busca": "Hiponatremia hipervolêmica — insuficiência cardíaca descompensada"
  },
  "cm06": {
@@ -1849,8 +1909,20 @@
   "numero": 9,
   "tema": "Lesão renal aguda no cirrótico — albumina antes da terlipressina",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=GdyimJ4Z4tM",
+   "titulo": "Lesão Renal Aguda no Paciente com Cirrose - Episódio 182",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 3500
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=KTaS3K3KYQg",
+   "titulo": "Lesão Renal Aguda no Paciente Internado - Episódio 38",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 2952
+  },
   "busca": "Lesão renal aguda no cirrótico — albumina antes da terlipressina"
  },
  "cm07": {
@@ -1858,8 +1930,20 @@
   "numero": 10,
   "tema": "PEEP e hemodinâmica — queda do débito cardíaco",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
+   "titulo": "Ventilação Mecânica para iniciantes - Semana Especial Projeto +MED",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3356
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
+   "titulo": "Ventilação Mecânica para iniciantes - Semana Especial Projeto +MED",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3355
+  },
   "busca": "PEEP e hemodinâmica — queda do débito cardíaco"
  },
  "cm08": {
@@ -1867,8 +1951,20 @@
   "numero": 11,
   "tema": "Hipertensão secundária — hiperaldosteronismo primário",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=tOUABAniPPA",
+   "titulo": "Aula Resumo ENAMED - Hipertensão Arterial Secundária e Crise Hipertensiva com prof. Paulo Dalto",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2361
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=qIx9Dls61Mo",
+   "titulo": "Cardiologia: Hipertensão Renovascular",
+   "canal": "Jaleko Acadêmicos",
+   "canalId": "UCoGDzJkGOb2YfM-VQ9rJyMg",
+   "duracao": 334
+  },
   "busca": "Hipertensão secundária — hiperaldosteronismo primário"
  },
  "cm09": {
@@ -1876,8 +1972,20 @@
   "numero": 12,
   "tema": "Cetoacidose diabética no adulto — soro, insulina e potássio",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=nMv0fs7285M",
+   "titulo": "CETOACIDOSE DIABÉTICA - MANEJO 2025 NA EMERGÊNCIA",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 955
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=mtXXLItmPiI",
+   "titulo": "O melhor tratamento para Cetoacidose Diabética (CAD) na emergência",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 3353
+  },
   "busca": "Cetoacidose diabética no adulto — soro, insulina e potássio"
  },
  "cm10": {
@@ -1885,8 +1993,20 @@
   "numero": 13,
   "tema": "Intoxicação por nitroprussiato — cianeto e acidose láctica",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=a2kkKRFD6iw",
+   "titulo": "Intoxicação exógena - os 3 passos fundamentais na conduta (bônus: coma alcoólico)",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1220
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=hk3XdqeEFwE",
+   "titulo": "EMERGÊNCIA HIPERTENSIVA sem Nitroprussiato ou Nitroglicerina, O QUE FAZER?",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 282
+  },
   "busca": "Intoxicação por nitroprussiato — cianeto e acidose láctica"
  },
  "cm11": {
@@ -1894,8 +2014,20 @@
   "numero": 14,
   "tema": "Guillain-Barré — insuficiência respiratória hipercápnica",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=NxGliHgDTuU",
+   "titulo": "Síndrome de Guillain-Barré: Saiba tudo sobre. Com Dr. Leonardo Bernardes",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2558
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Og3Y5kgmdJw",
+   "titulo": "Episódio 352 - Síndrome de Guillain-Barré",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 3360
+  },
   "busca": "Guillain-Barré — insuficiência respiratória hipercápnica"
  },
  "cm12": {
@@ -1903,8 +2035,20 @@
   "numero": 15,
   "tema": "Fibrose pulmonar idiopática — antifibrótico, não corticoide",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=jrbfMKuRKMA",
+   "titulo": "Pneumopatia Intersticial (PIU x PINE) | Radiologia na Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 458
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=pxQXGXRhJb8",
+   "titulo": "R+ Prime Class Clínica Médica: Pneumopatias Intersticiais",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2636
+  },
   "busca": "Fibrose pulmonar idiopática — antifibrótico, não corticoide"
  },
  "cm13": {
@@ -1912,8 +2056,20 @@
   "numero": 16,
   "tema": "Cardiomiopatia hipertrófica obstrutiva — betabloqueador",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=k8alZCJBvvU",
+   "titulo": "[CARDIOLOGIA] Miocardiopatia Hipertrófica",
+   "canal": "videoaulasuff",
+   "canalId": "UCGwAgbhQ_GImSAF7G2QrRUQ",
+   "duracao": 688
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=VcqEuvvuNlM",
+   "titulo": "Do Passado ao Presente: Tratando a Cardiomiopatia Hipertrófica",
+   "canal": "Afya Cardiopapers",
+   "canalId": "UClNIx-dih_PN9C_noVw4zWA",
+   "duracao": 3965
+  },
   "busca": "Cardiomiopatia hipertrófica obstrutiva — betabloqueador"
  },
  "cm14": {
@@ -1921,8 +2077,20 @@
   "numero": 17,
   "tema": "Reações transfusionais — sobrecarga circulatória (TACO)",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=fY5Fs164mLA",
+   "titulo": "Reações Transfusionais - abordagem prática",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 640
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=_ifMnkynXJE",
+   "titulo": "Hematologia: Hemoterapia - Reações Transfusionais",
+   "canal": "Jaleko Acadêmicos",
+   "canalId": "UCoGDzJkGOb2YfM-VQ9rJyMg",
+   "duracao": 525
+  },
   "busca": "Reações transfusionais — sobrecarga circulatória (TACO)"
  },
  "cm15": {
@@ -1930,8 +2098,20 @@
   "numero": 18,
   "tema": "HIV — reconstituição imune leve: manter a terapia antirretroviral",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=iDdGDfOmiFI",
+   "titulo": "R+ Prime Class Clínica Médica: HIV",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3310
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=DEbvkur_f9A",
+   "titulo": "Entenda como é Feito o Diagnóstico e o Tratamento do HIV. Com Dra. Jackie Palazzo",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 3137
+  },
   "busca": "HIV — reconstituição imune leve: manter a terapia antirretroviral"
  },
  "cm16": {
@@ -1939,8 +2119,20 @@
   "numero": 19,
   "tema": "Insuficiência cardíaca refratária com BRE — ressincronização",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=HGboQu0ssbc",
+   "titulo": "INSUFICIÊNCIA CARDÍACA - O RACIOCÍNIO CLÍNICO QUE NÃO PODE FALTAR",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 2872
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=7TxkoaK12Is",
+   "titulo": "Nova definição de INSUFICIÊNCIA CARDÍACA - Fofoca Científica #26",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 1004
+  },
   "busca": "Insuficiência cardíaca refratária com BRE — ressincronização"
  },
  "cm17": {
@@ -1948,8 +2140,20 @@
   "numero": 25,
   "tema": "Esclerose múltipla — surtos separados no tempo e no espaço",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=xF2Ofjasd2Y",
+   "titulo": "Doenças Desmielinizantes e Encefalites Autoimunes | Super Revisão de Neurologia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 1858
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=TH724UiCOT4",
+   "titulo": "Esclerose Múltipla: O Que você precisa saber sobre os Sintomas e Tratamentos. Com Dr. Leonardo B...",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2696
+  },
   "busca": "Esclerose múltipla — surtos separados no tempo e no espaço"
  },
  "cm18": {
@@ -1957,8 +2161,20 @@
   "numero": 31,
   "tema": "Prevenção cardiovascular — estatina pelo LDL muito alto",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=AM7sk7YO3MY",
+   "titulo": "Atualização: Nova Diretriz Brasileira de Dislipidemia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2119
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Wabx7vCzalA",
+   "titulo": "Cuidando do Coração: abordando a dislipidemia como fator de risco cardiovascular na atenção primária",
+   "canal": "CONASEMS",
+   "canalId": "UCKy854A2wVaBkZO9kAt1w_g",
+   "duracao": 3274
+  },
   "busca": "Prevenção cardiovascular — estatina pelo LDL muito alto"
  },
  "cm19": {
@@ -1966,8 +2182,20 @@
   "numero": 33,
   "tema": "Peritonite bacteriana espontânea — PMN acima de 250 e ceftriaxona",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
+   "titulo": "Tudo o que você precisa saber sobre Ascite e Peritonite Bacteriana Espontânea. Com Dr. Rafael Ba...",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2953
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
+   "titulo": "Tudo o que você precisa saber sobre Ascite e Peritonite Bacteriana Espontânea. Com Dr. Rafael Ba...",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2953
+  },
   "busca": "Peritonite bacteriana espontânea — PMN acima de 250 e ceftriaxona"
  },
  "cm20": {
@@ -1975,8 +2203,20 @@
   "numero": 34,
   "tema": "Hipotireoidismo primário — TSH alto, T4 livre baixo, levotiroxina",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=j0SmmyluGJ4",
+   "titulo": "Hipotireoidismo | Revisando Endocrinologia com o Estratégia MED",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2586
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=SDKi3O8hcV4",
+   "titulo": "Hipotireoidismo feat Dra Nathalie Santana - Episódio 78",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 3534
+  },
   "busca": "Hipotireoidismo primário — TSH alto, T4 livre baixo, levotiroxina"
  },
  "cm21": {
@@ -1984,8 +2224,20 @@
   "numero": 35,
   "tema": "Sorologia da hepatite B — o perfil da infecção curada",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=e4WIYSXNca4",
+   "titulo": "Dicas para associar e interpretar hepatite B nas provas de R1",
+   "canal": "Medcel",
+   "canalId": "UCql8E_HPJKa2mc0Zvd50GMA",
+   "duracao": 476
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=rU8W0kRAK1o",
+   "titulo": "Aula Resumo ENAMED - Hepatites Virais - com prof. Elio Castro",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2626
+  },
   "busca": "Sorologia da hepatite B — o perfil da infecção curada"
  },
  "cm22": {
@@ -1993,8 +2245,20 @@
   "numero": 36,
   "tema": "Nefrite intersticial aguda por anti-inflamatório",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=hS3QtpXV87o",
+   "titulo": "Nefrite Intersticial Aguda: o remédio que você prescreve todo dia pode DESTRUIR o rim — cai na prova",
+   "canal": "Medkobe Residência Médica e Revalida",
+   "canalId": "UC4xsQ01Hj4qzngFBM1BUcBQ",
+   "duracao": 422
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=7v4Kl72UomQ",
+   "titulo": "Como Escolher o Melhor Corticoide Para o Seu Paciente",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 781
+  },
   "busca": "Nefrite intersticial aguda por anti-inflamatório"
  },
  "cm23": {
@@ -2002,8 +2266,20 @@
   "numero": 37,
   "tema": "Profilaxia do tétano — ferida suja e esquema vacinal completo",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=d3gCXdQ8Axc",
+   "titulo": "Mordedura, raiva e tétano - Estudo Acompanhado Revalida 2025.2 com João Victor Fernandes",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3631
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=ZYLGODIR-r0",
+   "titulo": "ATUALIZAÇÃO: Protocolo de Profilaxia Pós Exposição à Raiva - Pediatria",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 383
+  },
   "busca": "Profilaxia do tétano — ferida suja e esquema vacinal completo"
  },
  "cm24": {
@@ -2011,8 +2287,20 @@
   "numero": 38,
   "tema": "Hipocalemia com alcalose — perda renal por diurético e aldosterona",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=6YcwUVA-_Xk",
+   "titulo": "Residência Médica R+ Pediatria: DISTÚRBIOS ÁCIDO-BÁSICOS",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1721
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=JMxWtbENkfU",
+   "titulo": "Distúrbios do Potássio | Super Revisão de Nefrologia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 1850
+  },
   "busca": "Hipocalemia com alcalose — perda renal por diurético e aldosterona"
  },
  "cm25": {
@@ -2020,8 +2308,20 @@
   "numero": 39,
   "tema": "Cefaleia em salvas — oxigênio a alto fluxo na crise",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=2WB1k-ziWKo",
+   "titulo": "Cefaleias | Super Revisão de Neurologia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2444
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=AdO5fI4ayB0",
+   "titulo": "Como Atender Cefaleia Em 3 Passos",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 867
+  },
   "busca": "Cefaleia em salvas — oxigênio a alto fluxo na crise"
  },
  "cm26": {
@@ -2029,8 +2329,20 @@
   "numero": 42,
   "tema": "Crise de asma leve — broncodilatador, corticoide oral e gatilhos",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=iv6-wtmUbHQ",
+   "titulo": "Asma - Aula do Curso Intensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 4671
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=hZo6phuD1Ng",
+   "titulo": "ASMA - Atualização 2026 com o passo a passo do atendimento",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1471
+  },
   "busca": "Crise de asma leve — broncodilatador, corticoide oral e gatilhos"
  },
  "cm27": {
@@ -2038,8 +2350,20 @@
   "numero": 44,
   "tema": "Intubação no choque séptico — etomidato e rocurônio",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=6IdiilOQBsQ",
+   "titulo": "Tudo o que você precisa saber sobre sepse - Aula de Infectologia | Curso Pré-Internato",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 4855
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=jWkiZtSwFoM",
+   "titulo": "3 Condutas Que Não Podem Faltar Em Casos de Sepse",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 747
+  },
   "busca": "Intubação no choque séptico — etomidato e rocurônio"
  },
  "cm28": {
@@ -2047,8 +2371,20 @@
   "numero": 45,
   "tema": "Doença de Graves — bócio difuso com sopro e oftalmopatia",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=SLM1m77wEyc",
+   "titulo": "DOENÇA DE GRAVES (CAUSAS, SINTOMAS, DIAGNÓSTICO E TRATAMENTO) - ENDOCRINOLOGIA",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 1118
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=eHd9JjH9nuc",
+   "titulo": "DOENÇA DE GRAVES - CAUSAS, SINTOMAS, DIAGNÓSTICO E TRATAMENTO (HIPERTIREOIDISMO) - ENDOCRINOLOGIA",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 692
+  },
   "busca": "Doença de Graves — bócio difuso com sopro e oftalmopatia"
  },
  "cm29": {
@@ -2056,8 +2392,20 @@
   "numero": 46,
   "tema": "Neutropenia febril — culturas e antibiótico empírico na primeira hora",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=ku7D_0uFxwQ",
+   "titulo": "Neutropenia Febril: saiba tudo! - Aula de Infectologia para Residência Médica e Revalida",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 487
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=BmSsGiWjLeY",
+   "titulo": "Infectologia do Dia a Dia: Neutropenia febril - Prof Thelma Flosi",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3771
+  },
   "busca": "Neutropenia febril — culturas e antibiótico empírico na primeira hora"
  },
  "cm30": {
@@ -2065,8 +2413,20 @@
   "numero": 48,
   "tema": "Osteoporose com fratura e estenose de esôfago — ácido zoledrônico",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=-GZ1_ExHV1w",
+   "titulo": "Saiba tudo sobre: Osteoporose. Com Dr. Henrique Dalmolin",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1095
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=QoaSnqHxgGE",
+   "titulo": "Atualização: Novo Manejo da Osteoporose",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3301
+  },
   "busca": "Osteoporose com fratura e estenose de esôfago — ácido zoledrônico"
  },
  "cm31": {
@@ -2074,8 +2434,20 @@
   "numero": 53,
   "tema": "Estado hiperglicêmico hiperosmolar — desidratação e trombose",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=CvjR0BR6ToM",
+   "titulo": "Complicações agudas do DM: CAD e EHH com o Dr. Francisco Falleiros - Resumão MedCof EP. 12",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1976
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=CtD3UFcpAzg",
+   "titulo": "Entenda as Emergências Hiperglicêmicas. Com Dr. Yago Padovan",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2563
+  },
   "busca": "Estado hiperglicêmico hiperosmolar — desidratação e trombose"
  },
  "cm32": {
@@ -2083,8 +2455,20 @@
   "numero": 54,
   "tema": "Insuficiência cardíaca de fração reduzida — o quarto pilar (iSGLT2)",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=yIpXxwin64Q",
+   "titulo": "Insuficiência Cardíaca: Classificação, Diagnóstico e Fisiopatologia | Super Revisão de Cardiologia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 1962
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=-tjEiWfRims",
+   "titulo": "Tratamento da Insuficiência Cardíaca - Aula do Curso Intensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3335
+  },
   "busca": "Insuficiência cardíaca de fração reduzida — o quarto pilar (iSGLT2)"
  },
  "cm33": {
@@ -2092,8 +2476,20 @@
   "numero": 55,
   "tema": "Lesão renal aguda na sepse — necrose tubular e acidose mista",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=l1E4KLGBhxM",
+   "titulo": "Como conduzir Lesão Renal Aguda no PA",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1526
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=k9zOJkjotJw",
+   "titulo": "Lesão Renal Aguda (LRA) | Super Revisão de Nefrologia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2575
+  },
   "busca": "Lesão renal aguda na sepse — necrose tubular e acidose mista"
  },
  "cm34": {
@@ -2101,8 +2497,20 @@
   "numero": 56,
   "tema": "Síndrome da fragilidade — os critérios de Fried",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=gAMEX_s7Tkk",
+   "titulo": "Fragilidade do Idoso: Como Tratar e Prevenir? Com Dra. Priscila Abiko",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2813
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=NChuwhzlQeQ",
+   "titulo": "Síndrome da Fragilidade",
+   "canal": "MEDsimple",
+   "canalId": "UCpqbddUkr4j7oqrcpTrgorw",
+   "duracao": 1208
+  },
   "busca": "Síndrome da fragilidade — os critérios de Fried"
  },
  "cm35": {
@@ -2110,8 +2518,20 @@
   "numero": 59,
   "tema": "Pneumonia pós-influenza por Staphylococcus aureus — cobrir MRSA",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=O1XTAURjyu8",
+   "titulo": "PNEUMONIA ADQUIRIDA: MANEJO INICIAL E ESCOLHA DO ATB",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1614
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=O1XTAURjyu8",
+   "titulo": "PNEUMONIA ADQUIRIDA: MANEJO INICIAL E ESCOLHA DO ATB",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1614
+  },
   "busca": "Pneumonia pós-influenza por Staphylococcus aureus — cobrir MRSA"
  },
  "cm36": {
@@ -2119,8 +2539,20 @@
   "numero": 1,
   "tema": "Asma só com salbutamol — corticoide inalatório com formoterol",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=UxKoEI-YG8Y",
+   "titulo": "Sequência de medicações de alívio na EXACERBAÇÃO DE ASMA GINA 2022",
+   "canal": "Pediatria Urgente",
+   "canalId": "UCkSVaur4vSgvr68ed9Vx_XA",
+   "duracao": 376
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=EH9rLTnuppk",
+   "titulo": "Protocolo GINA 2025: Salbutamol, Ipratrópio e MgSO₄",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1386
+  },
   "busca": "Asma só com salbutamol — corticoide inalatório com formoterol"
  },
  "cm37": {
@@ -2128,8 +2560,20 @@
   "numero": 2,
   "tema": "Artropatias por cristais — a gota exige o cristal para o diagnóstico",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=a5CjLlTVfHk",
+   "titulo": "Artrites Microcristalinas - Podcast Estratégia MED - Aula de Reumatologia para Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2538
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=-UubIKtOh_U",
+   "titulo": "Artropatias - Aula de Reumatologia do Revalida Exclusive",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2125
+  },
   "busca": "Artropatias por cristais — a gota exige o cristal para o diagnóstico"
  },
  "cm38": {
@@ -2137,8 +2581,20 @@
   "numero": 6,
   "tema": "Hipertensão no diabético com albuminúria — IECA e bloqueador de cálcio",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=aIOXXlVb7mw",
+   "titulo": "Aula Resumo ENAMED  - Doença Renal Crônica - com profª. Fernanda Badiani",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2450
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=bg1EgkF71q0",
+   "titulo": "Doença Renal Crônica em 6 minutos!",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 389
+  },
   "busca": "Hipertensão no diabético com albuminúria — IECA e bloqueador de cálcio"
  },
  "cm39": {
@@ -2146,8 +2602,20 @@
   "numero": 7,
   "tema": "Bloqueio atrioventricular de 2º grau — Mobitz I e Mobitz II no ECG",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=n2Q4gnsqKto",
+   "titulo": "Dica rápida de Eletrocardiograma sobre Bradiarritmias | Estratégia Eletro",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 677
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Wzhs8g6HhVE",
+   "titulo": "Taqui e bradiarritmias - Eletrocardiograma",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 5195
+  },
   "busca": "Bloqueio atrioventricular de 2º grau — Mobitz I e Mobitz II no ECG"
  },
  "cm40": {
@@ -2155,8 +2623,20 @@
   "numero": 8,
   "tema": "Suspeita de embolia pulmonar — a probabilidade pré-teste decide",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=jgVArzIk0Fc",
+   "titulo": "Atualização: Nova Diretriz de Tromboembolismo Pulmonar",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3632
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=WzTUK6LaDxM",
+   "titulo": "TEP em 3 passos: quando suspeitar, escore de Wells/PERC e dímero D",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 653
+  },
   "busca": "Suspeita de embolia pulmonar — a probabilidade pré-teste decide"
  },
  "cm41": {
@@ -2164,8 +2644,20 @@
   "numero": 10,
   "tema": "Pielonefrite não complicada — ceftriaxona e alta com ciprofloxacino",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=Vtyyb8hY7b4",
+   "titulo": "Infecção do Trato Urinário (ITU) | Super Revisão de Nefrologia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2213
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=hrYC6NnWIK4",
+   "titulo": "O MELHOR TRATAMENTO PARA ITUS COMPLICADAS E NÃO COMPLICADAS",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 3530
+  },
   "busca": "Pielonefrite não complicada — ceftriaxona e alta com ciprofloxacino"
  },
  "cm42": {
@@ -2173,8 +2665,20 @@
   "numero": 11,
   "tema": "Diabetes insípido central pós-cirurgia hipofisária — desmopressina",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=gnbaL76-5x8",
+   "titulo": "DIABETES INSIPIDUS (CAUSA, FISIOPATOLOGIA, DIAGNÓSTICO E TRATAMENTO) - ENDOCRINOLOGIA",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 1116
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=gnbaL76-5x8",
+   "titulo": "DIABETES INSIPIDUS (CAUSA, FISIOPATOLOGIA, DIAGNÓSTICO E TRATAMENTO) - ENDOCRINOLOGIA",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 1116
+  },
   "busca": "Diabetes insípido central pós-cirurgia hipofisária — desmopressina"
  },
  "cm43": {
@@ -2182,8 +2686,20 @@
   "numero": 12,
   "tema": "Inibidor de SGLT2 no perioperatório — suspender 3 dias antes",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=BPAGC1moNuU",
+   "titulo": "EPISÓDIO 313: Inibidores de SGLT2 - 6 Clinicagens",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 1948
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=BPAGC1moNuU",
+   "titulo": "EPISÓDIO 313: Inibidores de SGLT2 - 6 Clinicagens",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 1948
+  },
   "busca": "Inibidor de SGLT2 no perioperatório — suspender 3 dias antes"
  },
  "cm44": {
@@ -2191,8 +2707,20 @@
   "numero": 1,
   "tema": "Agonistas do GLP-1 no diabético com aterosclerose — o que esperar",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=YvfivJWyPBI",
+   "titulo": "Análogos de GLP1 no tratamento do DM2",
+   "canal": "Afya Endocrinopapers",
+   "canalId": "UC4x8k_IwQlsXcC8lQP0Z0zg",
+   "duracao": 2935
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=YKD2lFK8cS4",
+   "titulo": "GLP-1, Semaglutida (OZEMPIC), efeitos adversos e emagrecimento | Farmacologia Fácil | Prof. José",
+   "canal": "Farmacologia Fácil",
+   "canalId": "UCjV8SlXFtX9rG3QGtF_2YTA",
+   "duracao": 2314
+  },
   "busca": "Agonistas do GLP-1 no diabético com aterosclerose — o que esperar"
  },
  "cm45": {
@@ -2200,8 +2728,20 @@
   "numero": 3,
   "tema": "Fibrilação atrial estável no asmático — frequência com verapamil",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=XHYrjfknKes",
+   "titulo": "Fibrilação Atrial - Conduta Prática e Segura Para o Dia a Dia",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 579
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=DSBJ9ohNG1U",
+   "titulo": "Nova Diretriz de Fibrilação Atrial: Mudou Tudo na Emergência?",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1266
+  },
   "busca": "Fibrilação atrial estável no asmático — frequência com verapamil"
  },
  "cm46": {
@@ -2209,8 +2749,20 @@
   "numero": 6,
   "tema": "Infarto com supra de ST — angioplastia primária na lesão culpada",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=0m1qtsumgw0",
+   "titulo": "Infarto Agudo do Miocárdio com Supra do Segmento ST (IAMCSST) | Revisando Cardiologia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2002
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=0Y6PrewBFVM",
+   "titulo": "Infarto com supra do segmento ST - Resumo em 8 minutos",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 490
+  },
   "busca": "Infarto com supra de ST — angioplastia primária na lesão culpada"
  },
  "cm47": {
@@ -2218,8 +2770,20 @@
   "numero": 7,
   "tema": "Hipertensão resistente — investigar causa secundária e somar clonidina",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=66Qj_A12Pso",
+   "titulo": "Aula Resumo ENAMED -  Hipertensão Arterial Sistêmica - com prof. Bruno Ferraz",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3416
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=tOUABAniPPA",
+   "titulo": "Aula Resumo ENAMED - Hipertensão Arterial Secundária e Crise Hipertensiva com prof. Paulo Dalto",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2361
+  },
   "busca": "Hipertensão resistente — investigar causa secundária e somar clonidina"
  },
  "cm48": {
@@ -2227,8 +2791,20 @@
   "numero": 9,
   "tema": "Pneumonia de provável aspiração — internar, cobrir e investigar",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=NEyKt_RIAvw",
+   "titulo": "Infectologia do Dia a Dia: Pneumonia - Prof Thelma Flosi",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3950
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=zKYrBNm5sEo",
+   "titulo": "Pneumonia em 4 Passos: do Diagnóstico ao Tratamento",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 3308
+  },
   "busca": "Pneumonia de provável aspiração — internar, cobrir e investigar"
  },
  "cm49": {
@@ -2236,8 +2812,20 @@
   "numero": 12,
   "tema": "Piora após trombólise no AVC — transformação hemorrágica",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=qLJlVgbcnNQ",
+   "titulo": "AVC: As condutas que não podem faltar",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 3718
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=8sNd7q-G5G4",
+   "titulo": "AVC: O QUE VOCÊ PRECISA SABER PARA TRAMBOLISAR?",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 357
+  },
   "busca": "Piora após trombólise no AVC — transformação hemorrágica"
  },
  "cm50": {
@@ -2245,8 +2833,20 @@
   "numero": 13,
   "tema": "Fibrilação atrial instável — cardioversão elétrica sincronizada",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=XHYrjfknKes",
+   "titulo": "Fibrilação Atrial - Conduta Prática e Segura Para o Dia a Dia",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 579
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=DSBJ9ohNG1U",
+   "titulo": "Nova Diretriz de Fibrilação Atrial: Mudou Tudo na Emergência?",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1266
+  },
   "busca": "Fibrilação atrial instável — cardioversão elétrica sincronizada"
  }
 }

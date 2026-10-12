@@ -280,7 +280,7 @@ carrega algo do YouTube). Claude escolhe por título, canal, duração e
 visualizações; **não assiste ao vídeo** — a revisão do cliente é o controle
 de qualidade.
 
-Hoje: **0 vídeos da questão** e **0 da matéria** escolhidos, de 26 canais
+Hoje: **50 vídeos da questão** e **50 da matéria** escolhidos, de 26 canais
 (`conferir_readme.js` confere esta frase) — a lista branca é a mesma aprovada
 para o banco AMRIGS, do mesmo cliente. As áreas entram uma a uma; enquanto a
 camada é preenchida, `EXIGE_VIDEOS = false` no harness; ao completar, `true` —

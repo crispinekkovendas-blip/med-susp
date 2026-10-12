@@ -122,7 +122,108 @@
   ]
  },
  "cm03": {
-  "q": [],
+  "q": [
+   {
+    "url": "https://www.youtube.com/watch?v=LoZ1sb_fqcs",
+    "videoId": "LoZ1sb_fqcs",
+    "titulo": "Aula Resumo ENAMED - DPOC",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 2921,
+    "views": 21443,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=V8kJAbccJ28",
+    "videoId": "V8kJAbccJ28",
+    "titulo": "Exacerbação de DPOC: protocolo farmacológico 2025",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 791,
+    "views": 24786,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=jIUzzMfoung",
+    "videoId": "jIUzzMfoung",
+    "titulo": "Manejo do Paciente com DPOC no pronto atendimento - Dicas Essenciais",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 561,
+    "views": 17658,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=OpKmcAR5Qd0",
+    "videoId": "OpKmcAR5Qd0",
+    "titulo": "Questões Comentadas de Asma e DPOC para Residência Médica",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 5385,
+    "views": 7815,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=IZyZvZk4PB0",
+    "videoId": "IZyZvZk4PB0",
+    "titulo": "Doença Pulmonar Obstrutiva Crônica (DPOC) | Revisando Pneumologia com o Estratégia MED",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 1979,
+    "views": 65573,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=79w7l-UxhJQ",
+    "videoId": "79w7l-UxhJQ",
+    "titulo": "DPOC - Atualização Importante 2023",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 1268,
+    "views": 60517,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=9cmDASMsunQ",
+    "videoId": "9cmDASMsunQ",
+    "titulo": "Aula Resumo DPOC - Pneumologia para Residência Médica e Revalida",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3235,
+    "views": 27334,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=rTH6vK_R990",
+    "videoId": "rTH6vK_R990",
+    "titulo": "Questões Comentadas de DPOC do SUS-BA Residência Médica",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3481,
+    "views": 1682,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=pr00H3rEZFY",
+    "videoId": "pr00H3rEZFY",
+    "titulo": "Como fazer manejo do paciente com DPOC no Pronto Atendimento - Simulação e Feedback",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 601,
+    "views": 21254,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=jzj6NZTVXKw",
+    "videoId": "jzj6NZTVXKw",
+    "titulo": "Aula Resumo ENAMED / ENARE  -  DPOC",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3501,
+    "views": 7124,
+    "data": null
+   }
+  ],
   "m": [
    {
     "url": "https://www.youtube.com/watch?v=sbP3n9Nv0RI",
@@ -405,8 +506,30 @@
   ]
  },
  "cm07": {
-  "q": [],
-  "m": []
+  "q": [
+   {
+    "url": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
+    "videoId": "DOkFJJvXVvM",
+    "titulo": "Ventilação Mecânica para iniciantes - Semana Especial Projeto +MED",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3356,
+    "views": 16102,
+    "data": null
+   }
+  ],
+  "m": [
+   {
+    "url": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
+    "videoId": "DOkFJJvXVvM",
+    "titulo": "Ventilação Mecânica para iniciantes - Semana Especial Projeto +MED",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3355,
+    "views": 16099,
+    "data": "2023-01-13"
+   }
+  ]
  },
  "cm08": {
   "q": [
@@ -755,6 +878,106 @@
   ],
   "m": [
    {
+    "url": "https://www.youtube.com/watch?v=hk3XdqeEFwE",
+    "videoId": "hk3XdqeEFwE",
+    "titulo": "EMERGÊNCIA HIPERTENSIVA sem Nitroprussiato ou Nitroglicerina, O QUE FAZER?",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 282,
+    "views": 9017,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Vbra58pdw7A",
+    "videoId": "Vbra58pdw7A",
+    "titulo": "Crise hipertensiva: como prescrever nitroprussiato de sódio",
+    "canal": "Pediatria Urgente",
+    "canalId": "UCkSVaur4vSgvr68ed9Vx_XA",
+    "duracao": 310,
+    "views": 997,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=rLUhm7i2qu4",
+    "videoId": "rLUhm7i2qu4",
+    "titulo": "Crise Hipertensiva 2025: emergência, elevação sem LOA e pseudocrise",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 1114,
+    "views": 38063,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=NIYGvlfclfc",
+    "videoId": "NIYGvlfclfc",
+    "titulo": "EMERGÊNCIA HIPERTENSIVA: DIAGNÓSTICO RÁPIDO E CONDUTA SEGURA",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 4101,
+    "views": 34830,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=eQ7pPIlXIJY",
+    "videoId": "eQ7pPIlXIJY",
+    "titulo": "Cardiologia: Emergências Hipertensivas",
+    "canal": "Jaleko Acadêmicos",
+    "canalId": "UCoGDzJkGOb2YfM-VQ9rJyMg",
+    "duracao": 502,
+    "views": 6831,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8C_QV2u70pc",
+    "videoId": "8C_QV2u70pc",
+    "titulo": "Medicamentos De Escolha Para Emergência Hipertensiva",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 811,
+    "views": 9913,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=VbG_JNdJAVQ",
+    "videoId": "VbG_JNdJAVQ",
+    "titulo": "EMERGÊNCIA HIPERTENSIVA - DIAGNÓSTICO RÁPIDO E CONDUTA SEGURA",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 3919,
+    "views": 25717,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=scxqJwaWSbo",
+    "videoId": "scxqJwaWSbo",
+    "titulo": "3 Melhores Medicações Para Urgências Hipertensivas",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 410,
+    "views": 12689,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=RL4yzX8rSPc",
+    "videoId": "RL4yzX8rSPc",
+    "titulo": "Como manejar Crises Hipertensivas com segurança?",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 911,
+    "views": 24520,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=rmp5zbliiRs",
+    "videoId": "rmp5zbliiRs",
+    "titulo": "Cardiologia - Hipertensão e Emergências Hipertensivas",
+    "canal": "Grupo Medcof",
+    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+    "duracao": 4950,
+    "views": 2413,
+    "data": null
+   },
+   {
     "url": "https://www.youtube.com/watch?v=X4UgRTgQAW4",
     "videoId": "X4UgRTgQAW4",
     "titulo": "LIVE 54 - Intoxicação exógena na criança: manejo na emergência",
@@ -909,8 +1132,30 @@
   ]
  },
  "cm13": {
-  "q": [],
-  "m": []
+  "q": [
+   {
+    "url": "https://www.youtube.com/watch?v=k8alZCJBvvU",
+    "videoId": "k8alZCJBvvU",
+    "titulo": "[CARDIOLOGIA] Miocardiopatia Hipertrófica",
+    "canal": "videoaulasuff",
+    "canalId": "UCGwAgbhQ_GImSAF7G2QrRUQ",
+    "duracao": 688,
+    "views": 19405,
+    "data": "2013-05-18"
+   }
+  ],
+  "m": [
+   {
+    "url": "https://www.youtube.com/watch?v=VcqEuvvuNlM",
+    "videoId": "VcqEuvvuNlM",
+    "titulo": "Do Passado ao Presente: Tratando a Cardiomiopatia Hipertrófica",
+    "canal": "Afya Cardiopapers",
+    "canalId": "UClNIx-dih_PN9C_noVw4zWA",
+    "duracao": 3965,
+    "views": 14435,
+    "data": "2023-11-06"
+   }
+  ]
  },
  "cm14": {
   "q": [
@@ -1369,6 +1614,26 @@
  "cm18": {
   "q": [
    {
+    "url": "https://www.youtube.com/watch?v=AM7sk7YO3MY",
+    "videoId": "AM7sk7YO3MY",
+    "titulo": "Atualização: Nova Diretriz Brasileira de Dislipidemia",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 2119,
+    "views": 33614,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Wabx7vCzalA",
+    "videoId": "Wabx7vCzalA",
+    "titulo": "Cuidando do Coração: abordando a dislipidemia como fator de risco cardiovascular na atenção primária",
+    "canal": "CONASEMS",
+    "canalId": "UCKy854A2wVaBkZO9kAt1w_g",
+    "duracao": 3274,
+    "views": 1773,
+    "data": null
+   },
+   {
     "url": "https://www.youtube.com/watch?v=yIpXxwin64Q",
     "videoId": "yIpXxwin64Q",
     "titulo": "Insuficiência Cardíaca: Classificação, Diagnóstico e Fisiopatologia | Super Revisão de Cardiologia",
@@ -1376,16 +1641,6 @@
     "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
     "duracao": 1962,
     "views": 179724,
-    "data": null
-   },
-   {
-    "url": "https://www.youtube.com/watch?v=AM7sk7YO3MY",
-    "videoId": "AM7sk7YO3MY",
-    "titulo": "Atualização: Nova Diretriz Brasileira de Dislipidemia",
-    "canal": "Estratégia MED",
-    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-    "duracao": 2119,
-    "views": 33602,
     "data": null
    },
    {
@@ -1407,7 +1662,9 @@
     "duracao": 3781,
     "views": 16438,
     "data": null
-   },
+   }
+  ],
+  "m": [
    {
     "url": "https://www.youtube.com/watch?v=Wabx7vCzalA",
     "videoId": "Wabx7vCzalA",
@@ -1417,12 +1674,32 @@
     "duracao": 3274,
     "views": 1773,
     "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=AM7sk7YO3MY",
+    "videoId": "AM7sk7YO3MY",
+    "titulo": "Atualização: Nova Diretriz Brasileira de Dislipidemia",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 2119,
+    "views": 33614,
+    "data": null
    }
-  ],
-  "m": []
+  ]
  },
  "cm19": {
-  "q": [],
+  "q": [
+   {
+    "url": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
+    "videoId": "YbIDVh6R7b0",
+    "titulo": "Tudo o que você precisa saber sobre Ascite e Peritonite Bacteriana Espontânea. Com Dr. Rafael Ba...",
+    "canal": "Grupo Medcof",
+    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+    "duracao": 2953,
+    "views": 6787,
+    "data": "2024-07-04"
+   }
+  ],
   "m": [
    {
     "url": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
@@ -1884,6 +2161,76 @@
    }
   ],
   "m": [
+   {
+    "url": "https://www.youtube.com/watch?v=JMxWtbENkfU",
+    "videoId": "JMxWtbENkfU",
+    "titulo": "Distúrbios do Potássio | Super Revisão de Nefrologia",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 1850,
+    "views": 56677,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=b_ienloqgfs",
+    "videoId": "b_ienloqgfs",
+    "titulo": "Hipocalemia - Como repor o potássio?",
+    "canal": "Ta de Clinicagem",
+    "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+    "duracao": 389,
+    "views": 22689,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=DfAfWAEK6SM",
+    "videoId": "DfAfWAEK6SM",
+    "titulo": "Como Fazer Reposição De Potássio Com Segurança",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 763,
+    "views": 55158,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=3Poa255AMZ8",
+    "videoId": "3Poa255AMZ8",
+    "titulo": "Clínico - Hipocalemia: Episódio 125",
+    "canal": "Ta de Clinicagem",
+    "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+    "duracao": 2177,
+    "views": 2752,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=YON4ifRMsLA",
+    "videoId": "YON4ifRMsLA",
+    "titulo": "Entenda os Distúrbios do Cálcio. Com Dr. Felipe Carvalho",
+    "canal": "Grupo Medcof",
+    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+    "duracao": 1546,
+    "views": 7574,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=ud-1O0S2iHA",
+    "videoId": "ud-1O0S2iHA",
+    "titulo": "Hipocalemia: causas, quadro clínico e como repor o potássio",
+    "canal": "Pediatria Urgente",
+    "canalId": "UCkSVaur4vSgvr68ed9Vx_XA",
+    "duracao": 759,
+    "views": 4200,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=i0Sc2AYAgGE",
+    "videoId": "i0Sc2AYAgGE",
+    "titulo": "Hipocalcemia: Causas, Sintomas e Tratamentos. Com Dra. Mariana Ramos",
+    "canal": "Grupo Medcof",
+    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+    "duracao": 1493,
+    "views": 1932,
+    "data": null
+   },
    {
     "url": "https://www.youtube.com/watch?v=2qUvh67OEKQ",
     "videoId": "2qUvh67OEKQ",
@@ -2539,6 +2886,86 @@
  "cm30": {
   "q": [
    {
+    "url": "https://www.youtube.com/watch?v=-GZ1_ExHV1w",
+    "videoId": "-GZ1_ExHV1w",
+    "titulo": "Saiba tudo sobre: Osteoporose. Com Dr. Henrique Dalmolin",
+    "canal": "Grupo Medcof",
+    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+    "duracao": 1095,
+    "views": 6392,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=QoaSnqHxgGE",
+    "videoId": "QoaSnqHxgGE",
+    "titulo": "Atualização: Novo Manejo da Osteoporose",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3301,
+    "views": 9771,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Yjs8jjzv5g8",
+    "videoId": "Yjs8jjzv5g8",
+    "titulo": "Osteoporose - Aula de Ginecologia e Obstetrícia do Prime Class R+ GO",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3096,
+    "views": 5738,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=CJi8iPywjfE",
+    "videoId": "CJi8iPywjfE",
+    "titulo": "Osteoporose: conheça o FRAX Brasil 2.0",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 690,
+    "views": 1116,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=zYte_8Cjz-o",
+    "videoId": "zYte_8Cjz-o",
+    "titulo": "Aula Resumo ENAMED - Metabolismo Ósseo e Mineral - Osteoporose e Doença Óssea de Paget  - Prof. Ênio",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 1851,
+    "views": 2478,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8zCVpBoEUl8",
+    "videoId": "8zCVpBoEUl8",
+    "titulo": "Tratamento farmacológico da Osteoporose",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 1109,
+    "views": 33106,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=L3ZyAa9a7Bk",
+    "videoId": "L3ZyAa9a7Bk",
+    "titulo": "OSTEOPOROSE - Domine OSTEOPOROSE: Rastreio, T-Score e Tratamento Sem Enrolação | PortoMedBR",
+    "canal": "PORTO MED BRASIL",
+    "canalId": "UCPyHrJ_Q5h_yTNuy505NTfw",
+    "duracao": 780,
+    "views": 25,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Qxfqu11w57Y",
+    "videoId": "Qxfqu11w57Y",
+    "titulo": "Tema de Estudo - Osteoporose",
+    "canal": "MEDsimple",
+    "canalId": "UCpqbddUkr4j7oqrcpTrgorw",
+    "duracao": 4098,
+    "views": 3211,
+    "data": null
+   },
+   {
     "url": "https://www.youtube.com/watch?v=-N9mUzyZA-o",
     "videoId": "-N9mUzyZA-o",
     "titulo": "Revisão - Urologia: Trauma de Uretra - Residência Médica",
@@ -2550,6 +2977,76 @@
    }
   ],
   "m": [
+   {
+    "url": "https://www.youtube.com/watch?v=-GZ1_ExHV1w",
+    "videoId": "-GZ1_ExHV1w",
+    "titulo": "Saiba tudo sobre: Osteoporose. Com Dr. Henrique Dalmolin",
+    "canal": "Grupo Medcof",
+    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+    "duracao": 1095,
+    "views": 6392,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=QoaSnqHxgGE",
+    "videoId": "QoaSnqHxgGE",
+    "titulo": "Atualização: Novo Manejo da Osteoporose",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3301,
+    "views": 9771,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Yjs8jjzv5g8",
+    "videoId": "Yjs8jjzv5g8",
+    "titulo": "Osteoporose - Aula de Ginecologia e Obstetrícia do Prime Class R+ GO",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3096,
+    "views": 5738,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=PEHvv-uhOcY",
+    "videoId": "PEHvv-uhOcY",
+    "titulo": "OSTEOPOROSE - O QUE É, CAUSAS, SINTOMAS, DIAGNÓSTICO E TRATAMENTO - ORTOPEDIA",
+    "canal": "Facilitando a Medicina",
+    "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+    "duracao": 1323,
+    "views": 25643,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8zCVpBoEUl8",
+    "videoId": "8zCVpBoEUl8",
+    "titulo": "Tratamento farmacológico da Osteoporose",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 1109,
+    "views": 33106,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=zYte_8Cjz-o",
+    "videoId": "zYte_8Cjz-o",
+    "titulo": "Aula Resumo ENAMED - Metabolismo Ósseo e Mineral - Osteoporose e Doença Óssea de Paget  - Prof. Ênio",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 1851,
+    "views": 2478,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=uqcO_e-mM4k",
+    "videoId": "uqcO_e-mM4k",
+    "titulo": "OSTEOPOROSE - O QUE É, CAUSAS E SINTOMAS - TUDO SOBRE OSTEOPOROSE - ORTOPEDIA",
+    "canal": "Facilitando a Medicina",
+    "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+    "duracao": 612,
+    "views": 2237,
+    "data": null
+   },
    {
     "url": "https://www.youtube.com/watch?v=GaUn4w_BP3A",
     "videoId": "GaUn4w_BP3A",
@@ -2897,8 +3394,90 @@
   ]
  },
  "cm35": {
-  "q": [],
-  "m": []
+  "q": [
+   {
+    "url": "https://www.youtube.com/watch?v=O1XTAURjyu8",
+    "videoId": "O1XTAURjyu8",
+    "titulo": "PNEUMONIA ADQUIRIDA: MANEJO INICIAL E ESCOLHA DO ATB",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 1614,
+    "views": 16126,
+    "data": "2025-05-20"
+   }
+  ],
+  "m": [
+   {
+    "url": "https://www.youtube.com/watch?v=O1XTAURjyu8",
+    "videoId": "O1XTAURjyu8",
+    "titulo": "PNEUMONIA ADQUIRIDA: MANEJO INICIAL E ESCOLHA DO ATB",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 1614,
+    "views": 16127,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=HEbW144A79U",
+    "videoId": "HEbW144A79U",
+    "titulo": "Tratamento da Pneumonia 2025/2026: Antibióticos, Doses e Nova Diretriz ATS",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 956,
+    "views": 29370,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=exQr4ny8lkg",
+    "videoId": "exQr4ny8lkg",
+    "titulo": "TUDO O QUE VOCÊ PRECISA SABER SOBRE PNEUMONIA ADQUIRIDA NA COMUNIDADE(PAC) l HIGHLIGHTS E QUESTÕES",
+    "canal": "MEDsimple",
+    "canalId": "UCpqbddUkr4j7oqrcpTrgorw",
+    "duracao": 1004,
+    "views": 6210,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=9srBfPG_v_k",
+    "videoId": "9srBfPG_v_k",
+    "titulo": "MÓDULO PNEUMOLOGIA - Pneumonia Adquirida na Comunidade (PAC)",
+    "canal": "MEDsimple",
+    "canalId": "UCpqbddUkr4j7oqrcpTrgorw",
+    "duracao": 627,
+    "views": 1013,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=NEyKt_RIAvw",
+    "videoId": "NEyKt_RIAvw",
+    "titulo": "Infectologia do Dia a Dia: Pneumonia - Prof Thelma Flosi",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3950,
+    "views": 9292,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=_Zd5lOW-2x4",
+    "videoId": "_Zd5lOW-2x4",
+    "titulo": "Pneumonia em 4 passos: do diagnóstico ao tratamento",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 3628,
+    "views": 90423,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=gIUMG2OgEJo",
+    "videoId": "gIUMG2OgEJo",
+    "titulo": "Pneumonia na Infância - Resumo de Pediatria - Aula Ao Vivo",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3043,
+    "views": 33715,
+    "data": null
+   }
+  ]
  },
  "cm36": {
   "q": [
@@ -3221,7 +3800,38 @@
     "data": null
    }
   ],
-  "m": []
+  "m": [
+   {
+    "url": "https://www.youtube.com/watch?v=n2Q4gnsqKto",
+    "videoId": "n2Q4gnsqKto",
+    "titulo": "Dica rápida de Eletrocardiograma sobre Bradiarritmias | Estratégia Eletro",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 677,
+    "views": 27582,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Wzhs8g6HhVE",
+    "videoId": "Wzhs8g6HhVE",
+    "titulo": "Taqui e bradiarritmias - Eletrocardiograma",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 5195,
+    "views": 133295,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=6mNjb8LXOYk",
+    "videoId": "6mNjb8LXOYk",
+    "titulo": "Como Reconhecer e Diagnosticar Bloqueios de Ramo - Eletrocardiograma - Cardiologia",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 3319,
+    "views": 47498,
+    "data": null
+   }
+  ]
  },
  "cm40": {
   "q": [
@@ -3516,6 +4126,16 @@
   ],
   "m": [
    {
+    "url": "https://www.youtube.com/watch?v=BPAGC1moNuU",
+    "videoId": "BPAGC1moNuU",
+    "titulo": "EPISÓDIO 313: Inibidores de SGLT2 - 6 Clinicagens",
+    "canal": "Ta de Clinicagem",
+    "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+    "duracao": 1948,
+    "views": 1503,
+    "data": null
+   },
+   {
     "url": "https://www.youtube.com/watch?v=Ieha1l1V7R8",
     "videoId": "Ieha1l1V7R8",
     "titulo": "Adornos e medicações que podem suspender sua cirurgia: o guia prático",
@@ -3528,8 +4148,30 @@
   ]
  },
  "cm44": {
-  "q": [],
-  "m": []
+  "q": [
+   {
+    "url": "https://www.youtube.com/watch?v=YvfivJWyPBI",
+    "videoId": "YvfivJWyPBI",
+    "titulo": "Análogos de GLP1 no tratamento do DM2",
+    "canal": "Afya Endocrinopapers",
+    "canalId": "UC4x8k_IwQlsXcC8lQP0Z0zg",
+    "duracao": 2935,
+    "views": 1361,
+    "data": "2023-06-18"
+   }
+  ],
+  "m": [
+   {
+    "url": "https://www.youtube.com/watch?v=YKD2lFK8cS4",
+    "videoId": "YKD2lFK8cS4",
+    "titulo": "GLP-1, Semaglutida (OZEMPIC), efeitos adversos e emagrecimento | Farmacologia Fácil | Prof. José",
+    "canal": "Farmacologia Fácil",
+    "canalId": "UCjV8SlXFtX9rG3QGtF_2YTA",
+    "duracao": 2314,
+    "views": 22914,
+    "data": "2022-12-08"
+   }
+  ]
  },
  "cm45": {
   "q": [
@@ -4219,6 +4861,116 @@
    }
   ],
   "m": [
+   {
+    "url": "https://www.youtube.com/watch?v=8sNd7q-G5G4",
+    "videoId": "8sNd7q-G5G4",
+    "titulo": "AVC: O QUE VOCÊ PRECISA SABER PARA TRAMBOLISAR?",
+    "canal": "Ta de Clinicagem",
+    "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+    "duracao": 357,
+    "views": 11560,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=qLJlVgbcnNQ",
+    "videoId": "qLJlVgbcnNQ",
+    "titulo": "AVC: As condutas que não podem faltar",
+    "canal": "Médico na Prática",
+    "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+    "duracao": 3718,
+    "views": 93143,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=j6mxdhZU8sw",
+    "videoId": "j6mxdhZU8sw",
+    "titulo": "Trombólise no AVCi (Acidente vascular cerebral isquêmico) - Série Trombólise - Episódio 3",
+    "canal": "Ta de Clinicagem",
+    "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+    "duracao": 3386,
+    "views": 12301,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=L1r89zAxJ9c",
+    "videoId": "L1r89zAxJ9c",
+    "titulo": "AVC Isquêmico - Revisando com Estratégia MED - Aula de Neurologia para Residência Médica e Revalida",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 2191,
+    "views": 73383,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=jazp9W1wrRs",
+    "videoId": "jazp9W1wrRs",
+    "titulo": "Atualização: Novo Guideline e Tratamento do AVC Isquêmico - Guideline AHA/ASA 2026",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 835,
+    "views": 33222,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=lB9xOOEUyiE",
+    "videoId": "lB9xOOEUyiE",
+    "titulo": "Acidente Vascular Encefálico Isquêmico: Fisiopatologia",
+    "canal": "Jaleko Acadêmicos",
+    "canalId": "UCoGDzJkGOb2YfM-VQ9rJyMg",
+    "duracao": 559,
+    "views": 41196,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=g_8Cj46XLgk",
+    "videoId": "g_8Cj46XLgk",
+    "titulo": "Atualização: Novo Guideline e Tratamento do AVC Isquêmico -Guideline AHA/ASA 2026",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 1561,
+    "views": 28832,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=cUqfL5MW-u0",
+    "videoId": "cUqfL5MW-u0",
+    "titulo": "Manejo do AVC Isquêmico - Episódio 63",
+    "canal": "Ta de Clinicagem",
+    "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+    "duracao": 3306,
+    "views": 7098,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=rOUXCl4GD-g",
+    "videoId": "rOUXCl4GD-g",
+    "titulo": "Acidentes Vasculares Cerebrais (AVC) | Super Revisão de Neurologia",
+    "canal": "Estratégia MED",
+    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+    "duracao": 2625,
+    "views": 94695,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=au_LhrNRKSQ",
+    "videoId": "au_LhrNRKSQ",
+    "titulo": "Tudo o que você precisa saber sobre AVC isquêmico. Com Dr. Leonardo Bernardes",
+    "canal": "Grupo Medcof",
+    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+    "duracao": 4571,
+    "views": 7016,
+    "data": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=VtnVY7nL8Kk",
+    "videoId": "VtnVY7nL8Kk",
+    "titulo": "AVC — Acidente Vascular Cerebral | Fisiopatologia, Diagnóstico e Tratamento",
+    "canal": "João Victor MED - Aulas e conteúdos sobre medicina",
+    "canalId": "UCVp4jhw5g1YRozassUW-E8A",
+    "duracao": 4196,
+    "views": 4037,
+    "data": null
+   },
    {
     "url": "https://www.youtube.com/watch?v=eJdFOUnhP0g",
     "videoId": "eJdFOUnhP0g",

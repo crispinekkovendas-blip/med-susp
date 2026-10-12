@@ -1,1 +1,296 @@
-{}
+{
+ "cm01": {
+  "q": "https://www.youtube.com/watch?v=Q9afO0FTEio",
+  "m": "https://www.youtube.com/watch?v=52kmfbAd1H8",
+  "busca": "Reversão da varfarina — sangramento grave com INR alto"
+ },
+ "cm02": {
+  "q": "https://www.youtube.com/watch?v=D4FVsO1DM8g",
+  "m": "https://www.youtube.com/watch?v=WIk4YDfKK2I",
+  "busca": "Diabetes tipo 2 com alto risco cardiovascular — agonista do GLP-1"
+ },
+ "cm03": {
+  "q": "https://www.youtube.com/watch?v=LoZ1sb_fqcs",
+  "m": "https://www.youtube.com/watch?v=sbP3n9Nv0RI",
+  "busca": "DPOC exacerbador — broncodilatação dupla LABA e LAMA"
+ },
+ "cm04": {
+  "q": "https://www.youtube.com/watch?v=CCTX0dH8KfQ",
+  "m": "https://www.youtube.com/watch?v=MgdS2q7Cy9w",
+  "busca": "Espondiloartrite axial — dor lombar inflamatória e HLA-B27"
+ },
+ "cm05": {
+  "q": "https://www.youtube.com/watch?v=BMljL81EvGU",
+  "m": "https://www.youtube.com/watch?v=NKJFSfDV9VQ",
+  "busca": "Hiponatremia hipervolêmica — insuficiência cardíaca descompensada"
+ },
+ "cm06": {
+  "q": "https://www.youtube.com/watch?v=GdyimJ4Z4tM",
+  "m": "https://www.youtube.com/watch?v=KTaS3K3KYQg",
+  "busca": "Lesão renal aguda no cirrótico — albumina antes da terlipressina"
+ },
+ "cm07": {
+  "q": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
+  "m": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
+  "busca": "PEEP e hemodinâmica — queda do débito cardíaco"
+ },
+ "cm08": {
+  "q": "https://www.youtube.com/watch?v=tOUABAniPPA",
+  "m": "https://www.youtube.com/watch?v=qIx9Dls61Mo",
+  "busca": "Hipertensão secundária — hiperaldosteronismo primário"
+ },
+ "cm09": {
+  "q": "https://www.youtube.com/watch?v=nMv0fs7285M",
+  "m": "https://www.youtube.com/watch?v=mtXXLItmPiI",
+  "busca": "Cetoacidose diabética no adulto — soro, insulina e potássio"
+ },
+ "cm10": {
+  "q": "https://www.youtube.com/watch?v=a2kkKRFD6iw",
+  "m": "https://www.youtube.com/watch?v=hk3XdqeEFwE",
+  "busca": "Intoxicação por nitroprussiato — cianeto e acidose láctica",
+  "vetado": {
+   "q": [
+    "https://www.youtube.com/watch?v=oyzKbrcJ4gQ"
+   ],
+   "m": [
+    "https://www.youtube.com/watch?v=X4UgRTgQAW4"
+   ]
+  }
+ },
+ "cm11": {
+  "q": "https://www.youtube.com/watch?v=NxGliHgDTuU",
+  "m": "https://www.youtube.com/watch?v=Og3Y5kgmdJw",
+  "busca": "Guillain-Barré — insuficiência respiratória hipercápnica"
+ },
+ "cm12": {
+  "q": "https://www.youtube.com/watch?v=jrbfMKuRKMA",
+  "m": "https://www.youtube.com/watch?v=pxQXGXRhJb8",
+  "busca": "Fibrose pulmonar idiopática — antifibrótico, não corticoide"
+ },
+ "cm13": {
+  "q": "https://www.youtube.com/watch?v=k8alZCJBvvU",
+  "m": "https://www.youtube.com/watch?v=VcqEuvvuNlM",
+  "busca": "Cardiomiopatia hipertrófica obstrutiva — betabloqueador",
+  "forcado": {
+   "q": true,
+   "m": true
+  }
+ },
+ "cm14": {
+  "q": "https://www.youtube.com/watch?v=fY5Fs164mLA",
+  "m": "https://www.youtube.com/watch?v=_ifMnkynXJE",
+  "busca": "Reações transfusionais — sobrecarga circulatória (TACO)"
+ },
+ "cm15": {
+  "q": "https://www.youtube.com/watch?v=iDdGDfOmiFI",
+  "m": "https://www.youtube.com/watch?v=DEbvkur_f9A",
+  "busca": "HIV — reconstituição imune leve: manter a terapia antirretroviral"
+ },
+ "cm16": {
+  "q": "https://www.youtube.com/watch?v=HGboQu0ssbc",
+  "m": "https://www.youtube.com/watch?v=7TxkoaK12Is",
+  "busca": "Insuficiência cardíaca refratária com BRE — ressincronização"
+ },
+ "cm17": {
+  "q": "https://www.youtube.com/watch?v=xF2Ofjasd2Y",
+  "m": "https://www.youtube.com/watch?v=TH724UiCOT4",
+  "busca": "Esclerose múltipla — surtos separados no tempo e no espaço"
+ },
+ "cm18": {
+  "q": "https://www.youtube.com/watch?v=AM7sk7YO3MY",
+  "m": "https://www.youtube.com/watch?v=Wabx7vCzalA",
+  "busca": "Prevenção cardiovascular — estatina pelo LDL muito alto",
+  "vetado": {
+   "q": [
+    "https://www.youtube.com/watch?v=yIpXxwin64Q"
+   ]
+  }
+ },
+ "cm19": {
+  "q": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
+  "m": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
+  "busca": "Peritonite bacteriana espontânea — PMN acima de 250 e ceftriaxona"
+ },
+ "cm20": {
+  "q": "https://www.youtube.com/watch?v=j0SmmyluGJ4",
+  "m": "https://www.youtube.com/watch?v=SDKi3O8hcV4",
+  "busca": "Hipotireoidismo primário — TSH alto, T4 livre baixo, levotiroxina"
+ },
+ "cm21": {
+  "q": "https://www.youtube.com/watch?v=e4WIYSXNca4",
+  "m": "https://www.youtube.com/watch?v=rU8W0kRAK1o",
+  "busca": "Sorologia da hepatite B — o perfil da infecção curada"
+ },
+ "cm22": {
+  "q": "https://www.youtube.com/watch?v=hS3QtpXV87o",
+  "m": "https://www.youtube.com/watch?v=7v4Kl72UomQ",
+  "busca": "Nefrite intersticial aguda por anti-inflamatório"
+ },
+ "cm23": {
+  "q": "https://www.youtube.com/watch?v=d3gCXdQ8Axc",
+  "m": "https://www.youtube.com/watch?v=ZYLGODIR-r0",
+  "busca": "Profilaxia do tétano — ferida suja e esquema vacinal completo"
+ },
+ "cm24": {
+  "q": "https://www.youtube.com/watch?v=6YcwUVA-_Xk",
+  "m": "https://www.youtube.com/watch?v=JMxWtbENkfU",
+  "busca": "Hipocalemia com alcalose — perda renal por diurético e aldosterona",
+  "vetado": {
+   "m": [
+    "https://www.youtube.com/watch?v=2qUvh67OEKQ"
+   ]
+  }
+ },
+ "cm25": {
+  "q": "https://www.youtube.com/watch?v=2WB1k-ziWKo",
+  "m": "https://www.youtube.com/watch?v=AdO5fI4ayB0",
+  "busca": "Cefaleia em salvas — oxigênio a alto fluxo na crise"
+ },
+ "cm26": {
+  "q": "https://www.youtube.com/watch?v=iv6-wtmUbHQ",
+  "m": "https://www.youtube.com/watch?v=hZo6phuD1Ng",
+  "busca": "Crise de asma leve — broncodilatador, corticoide oral e gatilhos"
+ },
+ "cm27": {
+  "q": "https://www.youtube.com/watch?v=6IdiilOQBsQ",
+  "m": "https://www.youtube.com/watch?v=jWkiZtSwFoM",
+  "busca": "Intubação no choque séptico — etomidato e rocurônio"
+ },
+ "cm28": {
+  "q": "https://www.youtube.com/watch?v=SLM1m77wEyc",
+  "m": "https://www.youtube.com/watch?v=eHd9JjH9nuc",
+  "busca": "Doença de Graves — bócio difuso com sopro e oftalmopatia"
+ },
+ "cm29": {
+  "q": "https://www.youtube.com/watch?v=ku7D_0uFxwQ",
+  "m": "https://www.youtube.com/watch?v=BmSsGiWjLeY",
+  "busca": "Neutropenia febril — culturas e antibiótico empírico na primeira hora"
+ },
+ "cm30": {
+  "q": "https://www.youtube.com/watch?v=-GZ1_ExHV1w",
+  "m": "https://www.youtube.com/watch?v=QoaSnqHxgGE",
+  "busca": "Osteoporose com fratura e estenose de esôfago — ácido zoledrônico",
+  "vetado": {
+   "q": [
+    "https://www.youtube.com/watch?v=-N9mUzyZA-o"
+   ],
+   "m": [
+    "https://www.youtube.com/watch?v=GaUn4w_BP3A"
+   ]
+  }
+ },
+ "cm31": {
+  "q": "https://www.youtube.com/watch?v=CvjR0BR6ToM",
+  "m": "https://www.youtube.com/watch?v=CtD3UFcpAzg",
+  "busca": "Estado hiperglicêmico hiperosmolar — desidratação e trombose"
+ },
+ "cm32": {
+  "q": "https://www.youtube.com/watch?v=yIpXxwin64Q",
+  "m": "https://www.youtube.com/watch?v=-tjEiWfRims",
+  "busca": "Insuficiência cardíaca de fração reduzida — o quarto pilar (iSGLT2)"
+ },
+ "cm33": {
+  "q": "https://www.youtube.com/watch?v=l1E4KLGBhxM",
+  "m": "https://www.youtube.com/watch?v=k9zOJkjotJw",
+  "busca": "Lesão renal aguda na sepse — necrose tubular e acidose mista"
+ },
+ "cm34": {
+  "q": "https://www.youtube.com/watch?v=gAMEX_s7Tkk",
+  "m": "https://www.youtube.com/watch?v=NChuwhzlQeQ",
+  "busca": "Síndrome da fragilidade — os critérios de Fried"
+ },
+ "cm35": {
+  "q": "https://www.youtube.com/watch?v=O1XTAURjyu8",
+  "m": "https://www.youtube.com/watch?v=O1XTAURjyu8",
+  "busca": "Pneumonia pós-influenza por Staphylococcus aureus — cobrir MRSA"
+ },
+ "cm36": {
+  "q": "https://www.youtube.com/watch?v=UxKoEI-YG8Y",
+  "m": "https://www.youtube.com/watch?v=EH9rLTnuppk",
+  "busca": "Asma só com salbutamol — corticoide inalatório com formoterol"
+ },
+ "cm37": {
+  "q": "https://www.youtube.com/watch?v=a5CjLlTVfHk",
+  "m": "https://www.youtube.com/watch?v=-UubIKtOh_U",
+  "busca": "Artropatias por cristais — a gota exige o cristal para o diagnóstico"
+ },
+ "cm38": {
+  "q": "https://www.youtube.com/watch?v=aIOXXlVb7mw",
+  "m": "https://www.youtube.com/watch?v=bg1EgkF71q0",
+  "busca": "Hipertensão no diabético com albuminúria — IECA e bloqueador de cálcio"
+ },
+ "cm39": {
+  "q": "https://www.youtube.com/watch?v=n2Q4gnsqKto",
+  "m": "https://www.youtube.com/watch?v=Wzhs8g6HhVE",
+  "busca": "Bloqueio atrioventricular de 2º grau — Mobitz I e Mobitz II no ECG"
+ },
+ "cm40": {
+  "q": "https://www.youtube.com/watch?v=jgVArzIk0Fc",
+  "m": "https://www.youtube.com/watch?v=WzTUK6LaDxM",
+  "busca": "Suspeita de embolia pulmonar — a probabilidade pré-teste decide"
+ },
+ "cm41": {
+  "q": "https://www.youtube.com/watch?v=Vtyyb8hY7b4",
+  "m": "https://www.youtube.com/watch?v=hrYC6NnWIK4",
+  "busca": "Pielonefrite não complicada — ceftriaxona e alta com ciprofloxacino"
+ },
+ "cm42": {
+  "q": "https://www.youtube.com/watch?v=gnbaL76-5x8",
+  "m": "https://www.youtube.com/watch?v=gnbaL76-5x8",
+  "busca": "Diabetes insípido central pós-cirurgia hipofisária — desmopressina"
+ },
+ "cm43": {
+  "q": "https://www.youtube.com/watch?v=BPAGC1moNuU",
+  "m": "https://www.youtube.com/watch?v=BPAGC1moNuU",
+  "busca": "Inibidor de SGLT2 no perioperatório — suspender 3 dias antes",
+  "vetado": {
+   "m": [
+    "https://www.youtube.com/watch?v=Ieha1l1V7R8"
+   ]
+  }
+ },
+ "cm44": {
+  "q": "https://www.youtube.com/watch?v=YvfivJWyPBI",
+  "m": "https://www.youtube.com/watch?v=YKD2lFK8cS4",
+  "busca": "Agonistas do GLP-1 no diabético com aterosclerose — o que esperar",
+  "forcado": {
+   "q": true,
+   "m": true
+  }
+ },
+ "cm45": {
+  "q": "https://www.youtube.com/watch?v=XHYrjfknKes",
+  "m": "https://www.youtube.com/watch?v=DSBJ9ohNG1U",
+  "busca": "Fibrilação atrial estável no asmático — frequência com verapamil"
+ },
+ "cm46": {
+  "q": "https://www.youtube.com/watch?v=0m1qtsumgw0",
+  "m": "https://www.youtube.com/watch?v=0Y6PrewBFVM",
+  "busca": "Infarto com supra de ST — angioplastia primária na lesão culpada"
+ },
+ "cm47": {
+  "q": "https://www.youtube.com/watch?v=66Qj_A12Pso",
+  "m": "https://www.youtube.com/watch?v=tOUABAniPPA",
+  "busca": "Hipertensão resistente — investigar causa secundária e somar clonidina"
+ },
+ "cm48": {
+  "q": "https://www.youtube.com/watch?v=NEyKt_RIAvw",
+  "m": "https://www.youtube.com/watch?v=zKYrBNm5sEo",
+  "busca": "Pneumonia de provável aspiração — internar, cobrir e investigar"
+ },
+ "cm49": {
+  "q": "https://www.youtube.com/watch?v=qLJlVgbcnNQ",
+  "m": "https://www.youtube.com/watch?v=8sNd7q-G5G4",
+  "busca": "Piora após trombólise no AVC — transformação hemorrágica",
+  "vetado": {
+   "m": [
+    "https://www.youtube.com/watch?v=eJdFOUnhP0g"
+   ]
+  }
+ },
+ "cm50": {
+  "q": "https://www.youtube.com/watch?v=XHYrjfknKes",
+  "m": "https://www.youtube.com/watch?v=DSBJ9ohNG1U",
+  "busca": "Fibrilação atrial instável — cardioversão elétrica sincronizada"
+ }
+}
