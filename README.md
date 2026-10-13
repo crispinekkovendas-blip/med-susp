@@ -70,7 +70,7 @@ v/                    os links curtos /v/<id>/<q|m|mais>: destino.js (função p
 videos/               a página de revisão dos vídeos, para o cliente (revisao.js + index.html)
 vercel.json           reescreve /v/<id>/<qual> para a página v/ e desliga o deploy automático do GitHub (o deploy é pela CLI, com os PDFs)
 verificar.js          o harness — não vai para o ar (.vercelignore)
-controles.js          os 85 controles negativos do harness — idem
+controles.js          os controles negativos do harness — idem
 ferramentas/          fora do ar: metadados, extração, montagem, figuras, testes, seleção, cadernos
 docs/superpowers/     spec e plano — fora do ar
 ```
@@ -315,7 +315,10 @@ refaz). Os JSON de `ferramentas/videos/` não se editam à mão.
 
 Os QR codes são desenhados na hora por `caderno/qrcode.js` —
 `qrcode-generator` 1.4.4 de Kazuhiko Arase, MIT, vendorizado sem alteração —
-em SVG de 18 mm, nível M. A opção "QR codes dos vídeos: Não" tira a faixa.
+em SVG de **28 mm, nível H** (recupera até 30 % dos módulos) e com a zona de
+silêncio de 4 módulos dentro do próprio SVG, sobre fundo branco com um fio:
+feitos para sobreviver a uma impressão ruim (desde 2026-10-12; antes 18 mm,
+nível M). A opção "QR codes dos vídeos: Não" tira a faixa.
 
 ## A página na tela (app.js)
 
@@ -336,6 +339,12 @@ resposta que está na tela (um atrás do outro). Respostas em `susp:respostas`;
 nada sai do navegador. Capa e rodapé contam tudo a partir dos dados.
 
 ## Caderno (caderno/)
+
+**Impresso, o caderno é preto e branco** (decisão do usuário, 2026-10-12): os
+tokens de cor de `caderno/caderno.css` (`--accent`, os das áreas, `--ok`,
+`--simples`) são preto e cinzas, e o harness exige isso; as cores por área
+ficam só no site. A capa tem um bloco preto com o título, a área e o selo de
+Iyar (o signo de Touro num anel), por pedido do usuário.
 
 Uma ficha por questão: etiqueta de origem, tema, enunciado, alternativas com
 bolha, gabarito em destaque, comentário, figura (no máximo 52 mm de altura,

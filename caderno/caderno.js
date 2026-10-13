@@ -102,9 +102,12 @@
   const areasDe = lista => { const ns = AREAS.filter(a => lista.some(q => q.area === a.id)).map(a => a.nome); return ns.length > 1 ? ns.slice(0, -1).join(", ") + " e " + ns[ns.length - 1] : (ns[0] || ""); };
   function capa(lista) {
     return h("section", { class: "pagina capa" },
-      h("div", { class: "faixa" }, h("span", null, B.meta.banca), h("span", null, B.meta.orgao)),
-      h("h1", null, "Caderno de questões ", h("em", null, "comentadas")),
-      h("p", { class: "area-capa" }, areasDe(lista)),
+      h("div", { class: "topo" },
+        h("div", { class: "faixa" }, h("span", null, B.meta.banca), h("span", null, B.meta.orgao)),
+        h("h1", null, "Caderno de questões ", h("em", null, "comentadas")),
+        h("p", { class: "area-capa" }, areasDe(lista)),
+        /* o selo de Iyar (Touro), por pedido do usuário */
+        h("div", { class: "selo", "aria-hidden": "true" }, h("span", { class: "signo" }, "\u2649"), h("span", { class: "mes" }, "Iyar"))),
       h("p", { class: "lema" }, `Questões reais das provas de acesso direto da banca ${B.meta.banca} (${EDICOES.filter(f => lista.some(q => q.fonte === f.id)).map(f => f.rotulo).join(", ")}), para a ${B.meta.concurso}. Prova: ${B.meta.prova}.`),
       h("dl", { class: "fatos" },
         h("div", null, h("dt", null, "Questões"), h("dd", null, String(lista.length))),
@@ -168,7 +171,8 @@
      qrcode.js (Kazuhiko Arase, MIT), nível M, 18 mm no CSS. */
   const BASE_V = `https://${B.meta.site}/v/`;
   const QRS = [["q", "Vídeo da questão"], ["m", "Vídeo da matéria"], ["mais", "Mais vídeos do tema"], ["flash", "Flashcards"], ["mapa", "Mapa mental"]];
-  const qrSVG = texto => { const c = qrcode(0, "M"); c.addData(texto); c.make(); return c.createSvgTag({ cellSize: 2, margin: 0, scalable: true }); };
+  const qrSVG = texto => { /* nível H (recupera 30 % dos módulos) e margem de 4 módulos — a zona de silêncio que a norma pede — para impressão ruim */
+    const c = qrcode(0, "H"); c.addData(texto); c.make(); return c.createSvgTag({ cellSize: 2, margin: 4, scalable: true }); };
   const videos = q => h("div", { class: "videos" }, QRS.map(([k, rot]) => {
     const url = BASE_V + q.id + "/" + k;
     return h("a", { class: "qr", href: url, "data-qual": k }, h("span", { class: "codigo", html: qrSVG(url) }), h("span", { class: "leg" }, rot));
@@ -262,7 +266,7 @@
     if (typeof document.head !== "undefined" && document.head && document.head.appendChild) {
       const velho = document.getElementById("cabecalho-corrido-css"); if (velho) velho.remove();
       const st = document.createElement("style"); st.id = "cabecalho-corrido-css";
-      st.textContent = `@page { @top-left { content: ${JSON.stringify(corrido)}; font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #0F4C5C; } }`;
+      st.textContent = `@page { @top-left { content: ${JSON.stringify(corrido)}; font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #000; } }`;
       document.head.appendChild(st);
     }
     return h("main", { id: "documento", class: "letra-" + op.letra }, h("span", { class: "cabecalho-corrido", hidden: true }, corrido), partes,
