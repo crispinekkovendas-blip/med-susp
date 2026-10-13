@@ -19,6 +19,9 @@
   --cm: #000;   --cm-bg: #EFEFEF;
   --ok: #000; --ok-bg: #EAEAEA;
   --simples: #000; --simples-bg: #F3F3F3;
+  /* papelaria (2026-10-12): a única cor do caderno impresso é a do estudo — marca-texto e post-its */
+  --marca: #FFF176; --marca-2: #C5E1A5; --postit: #FFF59D; --postit-2: #BBDEFB;
+  --mao: "Segoe Print", "Segoe UI", system-ui, sans-serif;
   --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
@@ -183,7 +186,8 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
 .texto-comentario p { margin: 0 0 1.8mm; }
 .texto-comentario p:first-child { font-size: 10pt; }
 .texto-comentario p:last-child { margin-bottom: 0; }
-.texto-comentario strong { font-weight: 600; color: var(--ink); }
+/* os destaques do comentário saem como passados a marca-texto amarelo (clone: a marca continua na quebra de linha) */
+.texto-comentario strong { font-weight: 600; color: var(--ink); background: var(--marca); padding: 0 .5mm; border-radius: .6mm; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .texto-comentario em { font-style: italic; }
 /* a figura do comentário: altura limitada para não comer a ficha (a medida
    das fichas já a inclui); legenda e crédito em letra miúda */
@@ -195,11 +199,13 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
 .figura figcaption { margin-top: 1.2mm; font-family: var(--sans); font-size: 8pt; line-height: 1.4; color: var(--ink-2); }
 .figura .credito { color: var(--ink-3); }
 .letra-grande .figura figcaption { font-size: 9pt; }
-.simples { margin: 3mm 0 0; padding: 2.5mm 4mm; background: var(--simples-bg); border-left: 3px solid var(--simples); border-radius: 2px; font-size: 9pt; line-height: 1.45; }
-.simples .rot { color: var(--simples); display: block; margin-bottom: 1.5mm; }
+/* o Simplificando é um post-it amarelo grande, colado um pouco torto, com a fita em cima */
+.simples { position: relative; margin: 6mm 2mm 4mm; padding: 6mm 6mm 5mm; background: linear-gradient(180deg, #FFFBB8 0%, var(--postit) 55%, #FFEE58 100%); border: 0; border-radius: 1px; box-shadow: 2px 3px 5px rgba(0,0,0,.22); transform: rotate(-.6deg); font-family: var(--mao); font-size: 10pt; line-height: 1.45; }
+.simples::before { content: ""; position: absolute; top: -3mm; left: 50%; width: 28mm; height: 6mm; margin-left: -14mm; background: rgba(255,255,255,.55); border: 1px solid rgba(0,0,0,.08); transform: rotate(-1.5deg); }
+.simples .rot { color: #6D4C41; display: block; margin-bottom: 2mm; font-family: var(--mao); font-size: 10pt; letter-spacing: .06em; }
 .simples p { margin: 0 0 1.5mm; }
 .simples p:last-child { margin-bottom: 0; }
-.simples em { font-style: normal; background: #fff; padding: 0 1mm; border-radius: 1px; box-shadow: inset 0 0 0 1px #BBB; }
+.simples em { font-style: normal; background: rgba(255,255,255,.7); padding: 0 1mm; border-radius: 1px; box-shadow: inset 0 0 0 1px rgba(0,0,0,.15); }
 /* "Sobre a matéria": a página de livro-texto na ficha; as respostas do
    "Verifique" saem à vista (.resp) */
 .materia { margin: 3mm 0 0; padding: 3mm 0 0; border-top: 1px solid var(--line-2); font-size: 9.5pt; line-height: 1.5; }
@@ -209,9 +215,12 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
 .materia ul, .materia ol { margin: 0 0 1mm; padding-left: 5mm; }
 .materia li { margin: 0 0 .6mm; }
 .materia dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: .6mm 3mm; }
-.materia dt { font-weight: 600; }
+/* na matéria, marca-texto verde nos termos e nos destaques */
+.materia dt { font-weight: 600; background: var(--marca-2); padding: 0 .6mm; border-radius: .6mm; align-self: start; }
+.materia strong { background: var(--marca-2); padding: 0 .5mm; border-radius: .6mm; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .materia dd { margin: 0; }
-.materia .ponto { margin: 2mm 0; padding: 1.5mm 3mm; border-left: 2.5px solid var(--accent); background: var(--accent-bg); }
+/* o Ponto clínico é um post-it azul, colado para o outro lado */
+.materia .ponto { margin: 4mm 1mm 4mm; padding: 4mm 5mm 3.5mm; border-left: 0; background: linear-gradient(180deg, #DDEEFC 0%, var(--postit-2) 100%); box-shadow: 2px 3px 5px rgba(0,0,0,.2); transform: rotate(.4deg); font-family: var(--mao); font-size: 9.5pt; }
 .materia .ponto h4 { margin-top: 0; }
 .materia .resp { display: block; font-size: 8.5pt; color: var(--ink-2); }
 .letra-grande .materia { font-size: 10.5pt; }

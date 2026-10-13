@@ -332,6 +332,8 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   exige(/\.videos \.codigo svg\s*\{[^}]*width:\s*28mm/.test(css), "caderno.css precisa dimensionar o QR code em 28 mm (.videos .codigo svg)");
   exige(/qrcode\(0, "H"\)[^\n]*margin: 4/.test(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8")), "caderno.js: o QR code precisa do nível H de correção e da margem de 4 módulos (impressão ruim)");
   exige(!/--accent:\s*#(?!000\b|[0-9A-Fa-f]*$)/.test(css) && /--accent:\s*#000;/.test(css) && /--ped:\s*#000;/.test(css) && /--ok:\s*#000;/.test(css), "caderno.css: o caderno impresso é preto e branco (tokens --accent, --ped, --ok em #000)");
+  exige(/\.texto-comentario strong\s*\{[^}]*background:\s*var\(--marca\)/.test(css) && /\.materia dt\s*\{[^}]*var\(--marca-2\)/.test(css), "caderno.css: os destaques do comentário e os termos da matéria saem a marca-texto (--marca, --marca-2)");
+  exige(/\.simples\s*\{[^}]*var\(--postit\)[^}]*box-shadow/.test(css) && /\.materia \.ponto\s*\{[^}]*var\(--postit-2\)/.test(css), "caderno.css: o Simplificando é um post-it amarelo e o Ponto clínico um post-it azul (--postit, --postit-2)");
   exige(/@page\s*\{[\s\S]*?@bottom-right\s*\{[^}]*counter\(page\)[^}]*counter\(pages\)/.test(css), "caderno.css: @page precisa da caixa @bottom-right com \"Página X de Y\" (counter(page) e counter(pages))");
   exige(/@top-right\s*\{[^}]*content:/.test(css) && /@bottom-left\s*\{[^}]*content:/.test(css), "caderno.css: @page precisa das caixas @top-right (caderno · banca) e @bottom-left (site) — o cabeçalho e o rodapé corridos");
   /* revisão final: a pauta não conta como conteúdo, a medida é feita na

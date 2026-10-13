@@ -343,7 +343,12 @@ nada sai do navegador. Capa e rodapé contam tudo a partir dos dados.
 **Impresso, o caderno é preto e branco** (decisão do usuário, 2026-10-12): os
 tokens de cor de `caderno/caderno.css` (`--accent`, os das áreas, `--ok`,
 `--simples`) são preto e cinzas, e o harness exige isso; as cores por área
-ficam só no site. A capa tem um bloco preto com o título, a área e o selo de
+ficam só no site. A única cor impressa é a do estudo (**papelaria**, também
+a pedido): os `<strong>` do comentário saem a **marca-texto amarelo**, os
+termos e destaques da matéria a **marca-texto verde**, o Simplificando é um
+**post-it amarelo** grande (torto, com fita, letra Segoe Print) e o Ponto
+clínico um **post-it azul** — tokens `--marca`, `--marca-2`, `--postit`,
+`--postit-2`, exigidos pelo harness. A capa tem um bloco preto com o título, a área e o selo de
 Iyar (o signo de Touro num anel), por pedido do usuário.
 
 Uma ficha por questão: etiqueta de origem, tema, enunciado, alternativas com
