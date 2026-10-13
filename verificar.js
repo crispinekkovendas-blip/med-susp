@@ -281,6 +281,7 @@ for (const q of Q) {
     exige(destino("PED07", "q", V).url === V.ped07.q.url, "destino(): o id precisa aceitar maiúsculas (scanner)");
     exige(destino("ped07", "x", V).fallback === "escolher" && destino("ped07", undefined, V).fallback === "escolher", "destino(): sem qual (ou qual desconhecido) é a página com os três botões");
     exige(destino("ped07", "q", null).fallback === "sem-id", "destino(): sem videos.json carregado precisa cair em sem-id, não estourar");
+    exige(destino("ped07", "flash", V).url === "/#ped07" && destino("ped07", "mapa", V).url === "/#ped07" && destino("ped07", "flash", null).url === "/#ped07", "destino(): flash e mapa abrem a questão no site (/#id) enquanto as ferramentas não existem, mesmo sem videos.json");
     const pick = { ...V, ped07: { ...V.ped07, q: { ...V.ped07.q, url: "https://youtu.be/aaaaaaaaaaa" } } };
     exige(destino("ped07", "q", pick).fallback === "sem-video", "destino(): uma url fora da forma canônica não pode ser destino");
   } catch (e) { erro(`v/destino.js estourou: ${e.message}`); }
@@ -329,7 +330,8 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   exige(!proibido.length, "caderno.css: .questao e .comentario não podem ter overflow: hidden nem break-inside: avoid (a ficha longa precisa correr para a página seguinte)");
   exige(/--pagina:\s*256mm/.test(css), "caderno.css: --pagina deve ser 256mm");
   exige(/\.videos \.codigo svg\s*\{[^}]*width:\s*18mm/.test(css), "caderno.css precisa dimensionar o QR code em 18 mm (.videos .codigo svg)");
-  exige(/@page\s*\{[^}]*@bottom-right\s*\{[^}]*counter\(page\)[^}]*counter\(pages\)/.test(css), "caderno.css: @page precisa da caixa @bottom-right com \"Página X de Y\" (counter(page) e counter(pages))");
+  exige(/@page\s*\{[\s\S]*?@bottom-right\s*\{[^}]*counter\(page\)[^}]*counter\(pages\)/.test(css), "caderno.css: @page precisa da caixa @bottom-right com \"Página X de Y\" (counter(page) e counter(pages))");
+  exige(/@top-right\s*\{[^}]*content:/.test(css) && /@bottom-left\s*\{[^}]*content:/.test(css), "caderno.css: @page precisa das caixas @top-right (caderno · banca) e @bottom-left (site) — o cabeçalho e o rodapé corridos");
   /* revisão final: a pauta não conta como conteúdo, a medida é feita na
      geometria da folha e refeita antes de imprimir; Letra grande chega à
      ficha; no celular os filtros quebram linha em vez de sumir */
@@ -621,29 +623,40 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     /* a faixa dos vídeos: três QR codes por ficha, na ordem q · m · mais, cada um
        com a url curta do site, um SVG e a legenda; nunca na página própria da mini-aula */
     const BASE = `https://${B.meta.site}/v/`;
-    const LEGS = ["Vídeo da questão", "Vídeo da matéria", "Mais vídeos do tema"];
+    const LEGS = ["Vídeo da questão", "Vídeo da matéria", "Mais vídeos do tema", "Flashcards", "Mapa mental"];
     const qrOk = f => {
       const d = Q.find(x => x.id === f.attrs["data-id"]); const c = f.querySelector(".comentario"); const faixa = c && c.querySelector(".videos");
       const qrs = faixa ? todos(faixa, ".qr") : [];
-      return qrs.length === 3 && ["q", "m", "mais"].every((k, i) => qrs[i].attrs.href === BASE + d.id + "/" + k && qrs[i].attrs["data-qual"] === k
+      return qrs.length === 5 && ["q", "m", "mais", "flash", "mapa"].every((k, i) => qrs[i].attrs.href === BASE + d.id + "/" + k && qrs[i].attrs["data-qual"] === k
         && String((qrs[i].querySelector(".codigo") || {}).innerHTML || "").startsWith("<svg") && (qrs[i].querySelector(".leg") || {}).textContent === LEGS[i])
         && posicao(c, "videos") > posicao(c, "fonte");
     };
-    exige(qs.every(qrOk), "alguma ficha sem os três QR codes (a.qr com href https://<site>/v/<id>/q|m|mais, SVG e legenda) depois da linha de fonte — ou um QR code com href errado");
+    exige(qs.every(qrOk), "alguma ficha sem os cinco QR codes (a.qr com href https://<site>/v/<id>/q|m|mais, SVG e legenda) depois da linha de fonte — ou um QR code com href errado");
     exige(fs.existsSync(path.join(AQUI, "caderno", "qrcode.js")) && fs.readFileSync(path.join(AQUI, "caderno", "qrcode.js"), "utf8").includes("Kazuhiko Arase") && fs.readFileSync(path.join(AQUI, "caderno", "index.html"), "utf8").includes('src="qrcode.js"'), "caderno/qrcode.js (MIT, Kazuhiko Arase) precisa existir com o cabeçalho e ser carregado antes de caderno.js");
     exige(todos(app, ".folha").length === 0, "a folha de respostas só entra quando pedida");
     const chave = todos(app, ".chave").flatMap(t => todos(t, ".l"));
     exige(chave.length === Q.length && chave.every(td => { const q = Q.find(x => x.id === td.attrs["data-id"]); return q && td.attrs["data-letra"] === LETRAS[q.correta]; }), "o gabarito impresso não bate com as letras do banco");
     const mapa = app.querySelector(".mapa");
-    const linhasMapa = mapa ? todos(mapa, "tr") : [];
-    exige(linhasMapa.length === Q.length, `o mapa de temas tem ${linhasMapa.length} linhas, esperava ${Q.length} (uma por questão)`);
+    const linhasMapa = mapa ? todos(mapa, "tr").filter(tr => tr.attrs["data-id"]) : [];
+    exige(linhasMapa.length === Q.length, `o índice tem ${linhasMapa.length} linhas de questão, esperava ${Q.length} (uma por questão)`);
+    exige(linhasMapa.every((tr, i) => (tr.querySelector(".q") || {}).textContent === `Questão ${dois(i + 1)}`), "cada linha do índice precisa começar por \"Questão NN\" (o número da ficha dentro do título da linha)");
+    exige(!!mapa && (mapa.querySelector("h2") || {}).textContent.includes("Índice de questões") && todos(mapa, "th").map(t => t.textContent).join("|") === "Questão|Tema|Página", "o índice precisa do título \"Índice de questões\" e do cabeçalho Questão · Tema · Página");
+    exige(todos(app, ".chave").every(t => todos(t, "th").map(x => x.textContent).join("|") === "Questão|Letra|Página"), "o gabarito resumido precisa do cabeçalho Questão · Letra · Página");
     exige(linhasMapa.every((tr, i) => tr.attrs["data-id"] === Q[i].id && !!tr.querySelector(".pag")), "o mapa de temas é o índice: cada linha precisa do data-id da questão e da célula .pag (a página da ficha, preenchida pela medida)");
-    exige(todos(app, ".chave").flatMap(t => todos(t, "tr")).every(tr => tr.attrs["data-id"] && !!tr.querySelector(".pag")), "o gabarito resumido precisa da coluna da página (.pag) em cada linha, por id");
-    exige(linhasMapa.every((tr, i) => (tr.querySelector(".tag") || {}).textContent === AREAS.find(a => a.id === Q[i].area).nome), "o mapa de temas não lista cada questão sob a sua área, na ordem do banco");
+    exige(todos(app, ".chave").flatMap(t => todos(t, "tbody")).flatMap(t => todos(t, "tr")).every(tr => tr.attrs["data-id"] && !!tr.querySelector(".pag")), "o gabarito resumido precisa da coluna da página (.pag) em cada linha, por id");
+    /* com mais de uma área, uma linha de grupo com a tag da área abre cada bloco, na ordem do banco */
+    { let areaAtual = null, ok = true, k = 0;
+      for (const tr of todos(mapa || app, "tr")) {
+        if (tr.className === "grupo") { areaAtual = (tr.querySelector(".tag") || {}).textContent; continue; }
+        if (!tr.attrs["data-id"]) continue;
+        if (areaAtual !== AREAS.find(a => a.id === Q[k].area).nome) ok = false;
+        k++;
+      }
+      exige(ok && k === Q.length, "o índice precisa abrir cada bloco de área com uma linha de grupo (tr.grupo com a tag da área), na ordem do banco"); }
     exige(todos(app, ".capa").length === 1 && todos(app, ".mapa").length === 1 && todos(app, ".resultado").length === 1, "faltam capa, mapa de temas ou quadro de resultado");
     const nomeCapa = (app.querySelector(".capa").querySelector(".nome") || {}).textContent || "";
     exige(nomeCapa === "", `por padrão a capa não traz nome nenhum — o aluno escreve o seu ("${nomeCapa}")`);
-    exige(((app.querySelector(".rodape-impresso") || {}).textContent || "").startsWith("Caderno SUS-SP · "), "sem nome, o rodapé impresso precisa começar em \"Caderno SUS-SP · \" (sem o separador solto)");
+    exige(!app.querySelector(".rodape-impresso"), "sem nome do aluno não pode haver rodapé central (caderno, banca, site e página já saem nas caixas de margem)");
     /* uma área, sem Simplificando, em branco, com folha, sem resumo */
     const a0 = AREAS[0];
     app = montar({ area: a0.id, simples: false, materia: false, figuras: false, pauta: "nenhuma", folha: true, resumo: false, qr: false });
@@ -664,12 +677,12 @@ const todos = (el, sel) => el.querySelectorAll(sel);
     exige(qsP.length === Q.length && paginasP.length === Q.filter(q => q.materia).length, `em página própria, o caderno montou ${qsP.length} fichas e ${paginasP.length} páginas Sobre a matéria, esperava ${Q.length} e ${Q.filter(q => q.materia).length}`);
     const paginaMOk = f => { const d = Q.find(x => x.id === f.attrs["data-id"]); const m = f.querySelector(".materia"); const n = f.querySelector(".notas"); return !!d && !!m && todos(m, "div")[0].innerHTML === impressa(d.materia) && todos(f, ".notas").length === 1 && n.className.includes("quadriculado") && !!n.querySelector(".termos") && !!f.querySelector(".num") && (f.querySelector(".tag") || {}).textContent === AREAS.find(a => a.id === d.area).nome; };
     exige(paginasP.every(paginaMOk), "alguma página Sobre a matéria não traz o número, a tag da área, a mini-aula com as respostas à vista e a pauta");
-    exige(qsP.every(f => todos(f, ".qr").length === 3), "em página própria, a ficha da questão perdeu os QR codes");
+    exige(qsP.every(f => todos(f, ".qr").length === 5), "em página própria, a ficha da questão perdeu os QR codes");
     exige(paginasP.every(f => todos(f, ".qr").length === 0), "a página própria da mini-aula não pode repetir os QR codes");
     exige(qsP.every(f => !f.querySelector(".materia") && todos(f, ".notas").length === 0), "com Sobre a matéria em página própria, a ficha da questão não pode trazer a mini-aula nem a pauta (a pauta é uma só, na página da mini-aula)");
     exige(fichasP.every((f, i) => !f.className.includes("materia-pagina") || (i > 0 && fichasP[i - 1].attrs["data-id"] === f.attrs["data-id"] && !fichasP[i - 1].className.includes("materia-pagina"))), "a página Sobre a matéria precisa vir logo depois da ficha da sua questão");
     app = montar({ letra: "grande" });
-    exige(todos(app, ".qr").length === 3 * Q.length, "com letra grande, a faixa dos QR codes mudou de contagem");
+    exige(todos(app, ".qr").length === 5 * Q.length, "com letra grande, a faixa dos QR codes mudou de contagem");
     /* o índice exato: pdf.py imprime, lê em que página cada ficha começou e
        imprime de novo passando as páginas pela URL (?paginas=6,10,13,…), na
        ordem das fichas; as células .pag do mapa e do gabarito recebem esses
@@ -683,16 +696,20 @@ const todos = (el, sel) => el.querySelectorAll(sel);
       vm.runInContext(src, c3, { filename: "banco.js" });
       vm.runInContext(fs.readFileSync(path.join(AQUI, "caderno", "qrcode.js"), "utf8"), c3, { filename: "qrcode.js" });
       vm.runInContext(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8"), c3, { filename: "caderno.js" });
-      const pags = todos(app3.querySelector(".mapa") || app3, "tr").map(tr => (tr.querySelector(".pag") || {}).textContent);
-      exige(pags.length === n3 && pags.every((p, i) => p === String(lista3[i])), `com ?paginas= na URL o mapa de temas não mostra essas páginas, na ordem (${pags.slice(0, 4)})`);
-      const pagsG = todos(app3, ".chave").flatMap(t => todos(t, "tr")).map(tr => (tr.querySelector(".pag") || {}).textContent);
-      exige(pagsG.length === n3 && pagsG.every((p, i) => p === String(lista3[i])), "com ?paginas= na URL o gabarito resumido não mostra as mesmas páginas");
+      const pags = todos(app3.querySelector(".mapa") || app3, "tr").filter(tr => tr.attrs["data-id"]).map(tr => (tr.querySelector(".pag") || {}).textContent);
+      /* a capa de uma área diz a área e conta por edição; o cabeçalho corrido leva a área */
+      const capa3 = app3.querySelector(".capa");
+      exige(!!capa3 && (capa3.querySelector(".area-capa") || {}).textContent === AREAS[0].nome && todos(capa3, ".fatos").length === 1 && todos(capa3.querySelector(".fatos"), "dt").map(d => d.textContent).join("|") === ["Questões"].concat(B.meta.fontes.filter(f => Q.some(q => q.fonte === f.id && q.area === a0.id)).map(f => f.rotulo)).join("|"), "a capa de uma área precisa do nome da área (.area-capa) e dos fatos Questões + uma edição por coluna");
+      exige(((app3.querySelector(".cabecalho-corrido") || {}).textContent || "") === AREAS[0].nome, "o cabeçalho corrido (.cabecalho-corrido) precisa levar o nome da área para o @top-left da página");
+      exige(pags.length === n3 && pags.every((p, i) => p === `página ${lista3[i]}`), `com ?paginas= na URL o mapa de temas não mostra essas páginas como \"página N\", na ordem (${pags.slice(0, 4)})`);
+      const pagsG = todos(app3, ".chave").flatMap(t => todos(t, "tbody")).flatMap(t => todos(t, "tr")).map(tr => (tr.querySelector(".pag") || {}).textContent);
+      exige(pagsG.length === n3 && pagsG.every((p, i) => p === `página ${lista3[i]}`), "com ?paginas= na URL o gabarito resumido não mostra as mesmas páginas");
     }
     /* uma edição, outro nome */
     const f0 = B.meta.fontes.find(f => Q.some(q => q.fonte === f.id));
     app = montar({ edicao: f0.id, nome: "Maria Silva" });
     exige(todos(app, ".questao").filter(f => !f.className.includes("materia-pagina")).length === Q.filter(q => q.fonte === f0.id).length, "o filtro de edição do caderno não funciona");
-    exige(app.querySelector(".capa").querySelector(".nome").textContent === "Maria Silva" && app.querySelector(".rodape-impresso").textContent.startsWith("Maria Silva · "), "trocar o nome não chega à capa e ao rodapé");
+    exige(app.querySelector(".capa").querySelector(".nome").textContent === "Maria Silva" && app.querySelector(".rodape-impresso").textContent === "Maria Silva", "trocar o nome não chega à capa e ao rodapé");
   } catch (e) { erro(`caderno.js estourou no DOM de mentira: ${e.message}`); }
 }
 

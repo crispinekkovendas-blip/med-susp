@@ -61,8 +61,8 @@ def indice_do_mapa(caminho, quantas):
     doc = fitz.open(caminho); n = doc.page_count; idx = []
     for i in range(1, n):
         texto = doc[i].get_text()
-        if "Mapa de temas" not in texto and not idx: continue
-        if idx and "Questão" in texto: break    # acabou o mapa (que pode ter mais de uma página): começaram as fichas
+        if "Índice de questões" not in texto and not idx: continue
+        if idx and "Referências" in texto: break    # acabou o índice (que pode ter mais de uma página): começaram as fichas
         r = doc[i].rect
         palavras = sorted([w for w in doc[i].get_text("words") if w[0] > r.width * 0.86 and w[3] < r.height - 36 and w[4].isdigit()], key=lambda w: (round(w[1]), w[0]))
         idx += [int(w[4]) for w in palavras]
@@ -75,7 +75,7 @@ def conferir_pdf(caminho, etiquetas):
     doc = fitz.open(caminho); n = doc.page_count; problemas = []
     if not doc[0].search_for("Página 1 de %d" % n): problemas.append("rodapé: a página 1 não diz 'Página 1 de %d'" % n)
     # a capa cabe numa página: a página 2 já é o mapa de temas (ou a folha de respostas)
-    if n > 1 and not (doc[1].search_for("Mapa de temas") or doc[1].search_for("Folha de respostas")): problemas.append("capa: a página 2 não começa o mapa de temas (a capa transbordou)")
+    if n > 1 and not (doc[1].search_for("Índice de questões") or doc[1].search_for("Folha de respostas")): problemas.append("capa: a página 2 não começa o índice (a capa transbordou)")
     ini = inicios(caminho, etiquetas)
     for et, p in zip(etiquetas, ini):
         if p is None: problemas.append("ficha '%s' não encontrada" % et)

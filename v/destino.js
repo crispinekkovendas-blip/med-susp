@@ -7,6 +7,8 @@
   function destino(id, qual, videos) {
     const chave = String(id || "").toLowerCase();
     const v = videos && typeof videos === "object" ? videos[chave] : null;
+    /* flashcards e mapa mental: enquanto não existem, o código abre a questão no site */
+    if (qual === "flash" || qual === "mapa") return { url: "/#" + chave };
     if (!v) return { fallback: "sem-id" };
     const termo = v.busca || v.tema || "";
     if (qual === "mais") return { url: "https://www.youtube.com/results?search_query=" + encodeURIComponent(termo) };

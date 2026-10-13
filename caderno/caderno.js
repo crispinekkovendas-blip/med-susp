@@ -98,14 +98,17 @@
   }
 
   /* --- folhas ----------------------------------------------------------------- */
+  /* as áreas de uma lista, por nome: "Clínica Médica" numa apostila de área, a lista nas de várias */
+  const areasDe = lista => { const ns = AREAS.filter(a => lista.some(q => q.area === a.id)).map(a => a.nome); return ns.length > 1 ? ns.slice(0, -1).join(", ") + " e " + ns[ns.length - 1] : (ns[0] || ""); };
   function capa(lista) {
     return h("section", { class: "pagina capa" },
       h("div", { class: "faixa" }, h("span", null, B.meta.banca), h("span", null, B.meta.orgao)),
       h("h1", null, "Caderno de questões ", h("em", null, "comentadas")),
-      h("p", { class: "lema" }, `${AREAS.map(a => a.nome).join(", ")} — questões reais das provas de acesso direto da banca ${B.meta.banca} (${EDICOES.map(f => f.rotulo).join(", ")}), para a ${B.meta.concurso}. Prova: ${B.meta.prova}.`),
+      h("p", { class: "area-capa" }, areasDe(lista)),
+      h("p", { class: "lema" }, `Questões reais das provas de acesso direto da banca ${B.meta.banca} (${EDICOES.filter(f => lista.some(q => q.fonte === f.id)).map(f => f.rotulo).join(", ")}), para a ${B.meta.concurso}. Prova: ${B.meta.prova}.`),
       h("dl", { class: "fatos" },
         h("div", null, h("dt", null, "Questões"), h("dd", null, String(lista.length))),
-        AREAS.map(a => h("div", null, h("dt", null, a.nome), h("dd", null, String(lista.filter(q => q.area === a.id).length))))),
+        EDICOES.filter(f => lista.some(q => q.fonte === f.id)).map(f => h("div", null, h("dt", null, f.rotulo), h("dd", null, String(lista.filter(q => q.fonte === f.id).length))))),
       h("div", { class: "campos" },
         h("p", null, h("span", { class: "rot" }, "Nome"), h("span", { class: "linha nome" }, op.nome || "")),
         h("p", null, h("span", { class: "rot" }, "Início"), h("span", { class: "linha curta" }), h("span", { class: "rot" }, "Fim"), h("span", { class: "linha curta" }))),
@@ -134,13 +137,15 @@
 
   /* uma linha por questão, agrupadas por área na ordem de meta.areas */
   function mapaDeTemas(lista) {
+    const linhas = []; let area = null;
+    lista.forEach((q, i) => {
+      if (q.area !== area && AREAS.filter(a => lista.some(x => x.area === a.id)).length > 1) { area = q.area; linhas.push(h("tr", { class: "grupo" }, h("td", { colspan: "3" }, h("span", { class: "tag " + q.area }, NOME_AREA[q.area])))); }
+      linhas.push(h("tr", { "data-id": q.id }, h("td", { class: "q" }, `Questão ${dois(i + 1)}`), h("td", { class: "tema" }, q.tema), h("td", { class: "pag" }, "")));
+    });
     return h("section", { class: "pagina mapa" },
-      h("h2", null, h("span", { class: "sec" }, "Mapa"), "Mapa de temas"),
-      h("p", { class: "sub" }, "Cada tema e a ficha que o cobra, por área. Depois de corrigir, circule os temas em que errou — é a sua lista de revisão."),
-      h("table", { class: "temas" }, h("tbody", null, lista.map((q, i) => h("tr", { "data-id": q.id },
-        h("td", { class: "d" }, h("span", { class: "tag " + q.area }, NOME_AREA[q.area])),
-        h("td", null, q.tema),
-        h("td", { class: "nums" }, dois(i + 1)), h("td", { class: "pag" }, ""))))));
+      h("h2", null, h("span", { class: "sec" }, "Índice"), "Índice de questões"),
+      h("p", { class: "sub" }, "Cada questão, o tema que ela cobra e a página em que está. Depois de corrigir, circule as que errou — é a sua lista de revisão."),
+      h("table", { class: "temas" }, h("thead", null, h("tr", null, h("th", null, "Questão"), h("th", null, "Tema"), h("th", { class: "pag" }, "Página"))), h("tbody", null, linhas)));
   }
 
   /* --- a ficha de uma questão ------------------------------------------------- */
@@ -162,7 +167,7 @@
      isso o papel não envelhece quando um vídeo é trocado. O SVG vem de
      qrcode.js (Kazuhiko Arase, MIT), nível M, 18 mm no CSS. */
   const BASE_V = `https://${B.meta.site}/v/`;
-  const QRS = [["q", "Vídeo da questão"], ["m", "Vídeo da matéria"], ["mais", "Mais vídeos do tema"]];
+  const QRS = [["q", "Vídeo da questão"], ["m", "Vídeo da matéria"], ["mais", "Mais vídeos do tema"], ["flash", "Flashcards"], ["mapa", "Mapa mental"]];
   const qrSVG = texto => { const c = qrcode(0, "M"); c.addData(texto); c.make(); return c.createSvgTag({ cellSize: 2, margin: 0, scalable: true }); };
   const videos = q => h("div", { class: "videos" }, QRS.map(([k, rot]) => {
     const url = BASE_V + q.id + "/" + k;
@@ -229,7 +234,7 @@
     return h("section", { class: "pagina gabarito" },
       h("h2", null, h("span", { class: "sec" }, "Resumo"), "Gabarito"),
       h("p", { class: "sub" }, "As letras de todas as fichas, para conferir de uma vez."),
-      h("div", { class: "colunas" }, colunas.map(col => h("table", { class: "grade chave" }, h("tbody", null, col.map(([n, l, id]) => h("tr", { "data-id": id }, h("td", { class: "n" }, dois(n)), h("td", { class: "l", "data-id": id, "data-letra": l }, l), h("td", { class: "pag" }, ""))))))));
+      h("div", { class: "colunas" }, colunas.map(col => h("table", { class: "grade chave" }, h("thead", null, h("tr", null, h("th", null, "Questão"), h("th", null, "Letra"), h("th", null, "Página"))), h("tbody", null, col.map(([n, l, id]) => h("tr", { "data-id": id }, h("td", { class: "n" }, dois(n)), h("td", { class: "l", "data-id": id, "data-letra": l }, l), h("td", { class: "pag" }, ""))))))));
   }
   function resultado(lista) {
     return h("section", { class: "pagina resultado" },
@@ -251,8 +256,18 @@
     partes.push(mapaDeTemas(lista), questoes(lista));
     if (op.resumo) partes.push(gabarito(lista));
     partes.push(resultado(lista));
-    return h("main", { id: "documento", class: "letra-" + op.letra }, partes,
-      h("div", { class: "rodape-impresso", "aria-hidden": "true" }, `${op.nome ? op.nome + " · " : ""}Caderno SUS-SP · ${B.meta.banca} · ${B.meta.site}`));
+    /* o cabeçalho corrido de toda página impressa (@top-left) leva a área da
+       apostila: o CSS não lê o DOM, então o caderno escreve a regra @page na hora */
+    const corrido = areasDe(lista) || "Caderno SUS-SP";
+    if (typeof document.head !== "undefined" && document.head && document.head.appendChild) {
+      const velho = document.getElementById("cabecalho-corrido-css"); if (velho) velho.remove();
+      const st = document.createElement("style"); st.id = "cabecalho-corrido-css";
+      st.textContent = `@page { @top-left { content: ${JSON.stringify(corrido)}; font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #0F4C5C; } }`;
+      document.head.appendChild(st);
+    }
+    return h("main", { id: "documento", class: "letra-" + op.letra }, h("span", { class: "cabecalho-corrido", hidden: true }, corrido), partes,
+      /* o rodapé central só leva o nome do aluno: caderno, banca, site e página já saem nas caixas de margem do @page */
+      op.nome ? h("div", { class: "rodape-impresso", "aria-hidden": "true" }, op.nome) : null);
   }
 
   const raiz = document.getElementById("app");
@@ -309,7 +324,7 @@
     const porId = {};
     ids.forEach((id, i) => { porId[id] = paginas[i]; });
     /* seletor simples de propósito: o DOM de mentira do harness só entende classe, id ou tag */
-    document.querySelectorAll(".pag").forEach(td => { const p = porId[td.parentNode && td.parentNode.getAttribute("data-id")]; td.textContent = p ? String(p) : ""; });
+    document.querySelectorAll(".pag").forEach(td => { if (td.tagName === "TH") return; const p = porId[td.parentNode && td.parentNode.getAttribute("data-id")]; td.textContent = p ? "página " + p : ""; });
   }
   function render() {
     raiz.innerHTML = ""; raiz.setAttribute("aria-busy", "false"); raiz.append(painel(), documento());

@@ -260,16 +260,24 @@ restante mostra o próprio achado da questão.
 
 ## Vídeos (QR codes)
 
-Cada ficha impressa traz, depois da linha de fonte, **três QR codes**, e cada
-cartão na tela os mesmos três links no fim do Comentário: **Vídeo da
-questão**, **Vídeo da matéria** e **Mais vídeos do tema**. Nenhum deles
-aponta para o YouTube: o código leva a um **link curto do site** —
-`https://susp.vercel.app/v/<id>/q`, `/m` ou `/mais` — e é a página `v/`
-que redireciona lendo `videos.json` (`v/destino.js` é a função pura, testada
-no harness). Trocar um vídeo é uma edição em `videos.json` (pela ferramenta)
-e um deploy: o papel não envelhece. Sem escolha ainda, ou com id
-desconhecido, a página mostra os botões: a busca no YouTube pelo tema, a
-questão no site (`/#<id>` abre o cartão) e o início.
+Cada ficha impressa traz, depois da linha de fonte, **cinco QR codes** — **Vídeo da
+questão**, **Vídeo da matéria**, **Mais vídeos do tema**, **Flashcards** e
+**Mapa mental** — e cada cartão na tela os três links de vídeo no fim do
+Comentário (os dois últimos códigos abrem o próprio cartão, não faz sentido
+repeti-los nele). Nenhum deles aponta para o YouTube: o código leva a um
+**link curto do site** — `https://susp.vercel.app/v/<id>/q`, `/m`, `/mais`,
+`/flash` ou `/mapa` — e é a página `v/` que redireciona lendo `videos.json`
+(`v/destino.js` é a função pura, testada no harness). Trocar um vídeo é uma
+edição em `videos.json` (pela ferramenta) e um deploy: o papel não envelhece.
+Sem escolha ainda, ou com id desconhecido, a página mostra os botões: a busca
+no YouTube pelo tema, a questão no site (`/#<id>` abre o cartão) e o início.
+
+Os dois últimos códigos (desde 2026-10-12) ainda não têm a ferramenta por trás:
+`/flash` e `/mapa` abrem **a própria questão no site** (`/#<id>`), mesmo sem
+entrada em `videos.json`. Quando houver uma página de flashcards e, para GO,
+o quadro do mapa mental correspondente, basta mudar `v/destino.js` e fazer
+deploy: os QR codes impressos continuam os mesmos. O papel não diz "em breve":
+quem avisa os alunos é o usuário.
 
 Os vídeos não são nossos: são vídeos públicos de canais de ensino médico, **um
 por questão e um por matéria** (até 500 escolhas), escolhidos só entre os
@@ -360,15 +368,18 @@ raramente cabe numa página em corpo 9,5 pt; a opção "Letra grande" aumenta
 enunciado, alternativas, comentário e Simplificando, e aumenta o número de
 duplas.
 
-Antes das fichas: capa (com uma linha para o **nome do estudante** — vazia por
-padrão, para o aluno escrever o seu; digitado no painel, sai na capa e no rodapé
-de toda página), instruções, **mapa de temas por área, que é o
-índice**: cada linha traz o número da ficha e a **página** em que ela está
-(no navegador, uma estimativa a partir da medida das fichas; nos PDFs
-publicados, o número exato, ver "PDF"). Toda página sai numerada no rodapé
-("Página X de Y", caixa `@bottom-right` do `@page`). Cada ficha traz, depois da
-linha de fonte, os três QR codes dos vídeos (ver "Vídeos (QR codes)"). Instruções, mapa de temas por área; texto compartilhado sai uma vez
-por sequência. Depois: gabarito resumido e "Meu resultado" (opcionais);
+Antes das fichas: capa (diz a **área** da apostila e os números da edição, e
+traz uma linha para o **nome do estudante** — vazia por padrão, para o aluno
+escrever o seu; digitado no painel, sai na capa e no rodapé central de toda
+página), instruções e o **índice de questões**, uma tabela com cabeçalho
+(Questão · Tema · Página) em que cada linha traz "Questão NN", o tema e
+"página N" (no navegador, uma estimativa a partir da medida das fichas; nos
+PDFs publicados, o número exato, ver "PDF"). Toda página impressa sai com as
+caixas de margem do `@page`: a área no canto superior esquerdo (injetada pelo
+`caderno.js` num `<style>` próprio), "Caderno SUS-SP · VUNESP" no superior
+direito, o site no inferior esquerdo e "Página X de Y" no inferior direito.
+Cada ficha traz, depois da linha de fonte, os cinco QR codes (ver "Vídeos (QR
+codes)"). Texto compartilhado sai uma vez por sequência. Depois: gabarito resumido e "Meu resultado" (opcionais);
 folha de respostas opcional. Opções em `susp:caderno`: área, edição,
 Simplificando, Sobre a matéria (página própria / na ficha / não), figuras,
 anotações (quadriculado / pauta / em branco), letra, folha, resumo, nome; as mesmas opções valem pela URL
@@ -421,9 +432,11 @@ node ferramentas/conferir_readme.js
 gabarito e regras de conteúdo, e depois **monta `app.js` e `caderno.js` num
 DOM de mentira**: conta cartões, responde, confere abas, referências,
 etiquetas, filtros por área e por edição, o sorteio do simulado; no caderno,
-três configurações — fichas completas, mapa de temas, gabarito resumido,
-nome na capa e no rodapé, os três QR codes com os links curtos certos em toda
-ficha, `videos.json`, `v/destino.js`, a página `v/`, a página de revisão e o
+três configurações — fichas completas, índice de questões ("Questão NN",
+cabeçalho da tabela, "página N" quando as páginas vêm pela URL), capa com a
+área, caixas de margem do `@page`, gabarito resumido, nome na capa e no rodapé
+central (que sem nome não existe), os cinco QR codes com os links curtos
+certos em toda ficha, `videos.json`, `v/destino.js`, a página `v/`, a página de revisão e o
 link direto `/#<id>`. Também confere que o CSS do caderno não impede a
 ficha de correr para a segunda página. Das figuras, prova o que está em "O
 modelo de uma questão" (arquivo real, tamanho lido do cabeçalho, licença

@@ -77,6 +77,8 @@ h3 { font-family: var(--sans); font-size: 11pt; font-weight: 600; margin: 7mm 0 
 .capa .faixa { display: flex; justify-content: space-between; font-family: var(--sans); font-size: 8.5pt; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 12mm; }
 .capa h1 { font-family: var(--sans); font-size: 30pt; font-weight: 600; line-height: 1.05; letter-spacing: -.025em; margin: 0 0 4mm; color: var(--ink); }
 .capa h1 em { font-style: normal; color: var(--accent-2); }
+.capa .area-capa { font-family: var(--sans); font-size: 15pt; font-weight: 600; letter-spacing: .02em; color: var(--accent); margin: 0 0 5mm; padding: 2mm 0 2mm 4mm; border-left: 4px solid var(--accent-2); }
+.cabecalho-corrido { display: none; }
 .capa .lema { font-size: 12pt; color: var(--ink-2); margin: 0 0 9mm; max-width: 62ch; }
 .fatos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin: 0 0 9mm; }
 .fatos div { padding: 3mm 4mm; border: 1px solid var(--line); border-top: 3px solid var(--accent-2); border-radius: 2px; background: #fff; }
@@ -106,12 +108,15 @@ table.chave td.l { font-weight: 600; width: 9mm; color: var(--accent); }
 
 /* mapa de temas */
 table.temas { border-collapse: collapse; width: 100%; font-size: 9.5pt; }
-table.temas td { border-bottom: 1px solid var(--line); padding: 1.3mm 2mm; vertical-align: top; }
-table.temas td.d { width: 24mm; }
-table.temas td.nums { font-family: var(--mono); font-size: 8.5pt; text-align: right; color: var(--ink-2); width: 36%; letter-spacing: .02em; }
-/* a página da ficha (o índice): preenchida depois da medida; fica vazia na tela sem medida */
-table.temas td.pag { font-family: var(--mono); font-size: 8.5pt; text-align: right; color: var(--ink-3); width: 12mm; white-space: nowrap; }
-table.chave td.pag { font-weight: 400; color: var(--ink-3); width: 10mm; font-size: 8pt; }
+table.temas th { font-family: var(--sans); font-size: 8pt; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); text-align: left; padding: 1.5mm 2mm; border-bottom: 2px solid var(--accent); }
+table.temas th.pag { text-align: right; }
+table.temas td { border-bottom: 1px solid var(--line); padding: 1.4mm 2mm; vertical-align: top; }
+table.temas tbody tr:nth-child(even) td { background: #F6F8FA; }
+table.temas td.q { font-family: var(--sans); font-weight: 600; color: var(--ink); width: 24mm; white-space: nowrap; }
+table.temas tr.grupo td { background: var(--accent-bg); padding: 2mm; border-bottom: 0; }
+/* a página da ficha (o índice): "página N", preenchida depois da medida; fica vazia na tela sem medida */
+table.temas td.pag { font-family: var(--sans); font-size: 8.5pt; text-align: right; color: var(--ink-2); width: 22mm; white-space: nowrap; }
+table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-size: 8pt; font-family: var(--sans); white-space: nowrap; }
 
 /* --- fichas ----------------------------------------------------------------- */
 /* o texto de apoio (sem colunas: qualquer column-count faz o Chrome quebrar a página logo depois do bloco) */
@@ -208,8 +213,8 @@ table.chave td.pag { font-weight: 400; color: var(--ink-3); width: 10mm; font-si
 .letra-grande .materia-pagina .materia { font-size: 11pt; }
 .comentario .fonte { margin: 3mm 0 0; font-family: var(--sans); font-size: 8pt; color: var(--ink-3); }
 /* a faixa dos vídeos: três QR codes de 18 mm com legenda, depois da fonte */
-.comentario .videos { display: flex; gap: 7mm; margin: 3mm 0 0; padding-top: 2.5mm; border-top: 1px dashed var(--line-2); }
-.videos .qr { display: flex; flex-direction: column; align-items: center; gap: 1.2mm; width: 24mm; color: var(--ink-2); text-decoration: none; }
+.comentario .videos { display: flex; gap: 5mm; margin: 3mm 0 0; padding-top: 2.5mm; border-top: 1px dashed var(--line-2); }
+.videos .qr { display: flex; flex-direction: column; align-items: center; gap: 1.2mm; width: 26mm; color: var(--ink-2); text-decoration: none; }
 .videos .codigo { display: block; width: 18mm; height: 18mm; }
 .videos .codigo svg { width: 18mm; height: 18mm; display: block; }
 .videos .leg { font-family: var(--sans); font-size: 7pt; line-height: 1.2; text-align: center; }
@@ -260,7 +265,12 @@ table.chave td.pag { font-weight: 400; color: var(--ink-3); width: 10mm; font-si
 
 /* --- impressão ---------------------------------------------------------------- */
 /* a numeração sai na margem inferior, por CSS, em toda página: "Página X de Y" */
-@page { size: A4 portrait; margin: 14mm 14mm 16mm; @bottom-right { content: "Página " counter(page) " de " counter(pages); font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; color: #7A8391; } }
+@page {
+  size: A4 portrait; margin: 16mm 14mm 16mm;
+  @top-right { content: "Caderno SUS-SP · VUNESP"; font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; letter-spacing: .08em; text-transform: uppercase; color: #7A8391; }
+  @bottom-left { content: "susp.vercel.app"; font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; color: #7A8391; }
+  @bottom-right { content: "Página " counter(page) " de " counter(pages); font-family: "Segoe UI", system-ui, sans-serif; font-size: 7.5pt; color: #7A8391; }
+}
 @media print {
   html, body { background: #fff; }
   #painel { display: none !important; }
@@ -283,5 +293,5 @@ table.chave td.pag { font-weight: 400; color: var(--ink-3); width: 10mm; font-si
   h2 { break-after: avoid; page-break-after: avoid; }
   a { color: inherit; text-decoration: none; }
   .rodape-impresso { display: block; position: fixed; bottom: 0; left: 0; right: 0; text-align: center; font-family: var(--sans); font-size: 7.5pt; color: var(--ink-3); }
-  body { padding-bottom: 5mm; }
+  body { padding-bottom: 8mm; }
 }
