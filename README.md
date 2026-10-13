@@ -62,7 +62,8 @@ cada escolha estão em `ferramentas/selecao.md`.
 index.html            casca: fontes do Google + app.css + banco.js + app.js
 banco.js              window.BANCO = { meta, questoes } — GERADO por ferramentas/montar.js
 app.js  app.css       a página na tela (áreas e edições lidas de meta)
-caderno/              o banco em papel (index.html, caderno.js, caderno.css; qrcode.js = qrcode-generator 1.4.4, MIT, Kazuhiko Arase)
+caderno/              o banco em papel (index.html, caderno.js, caderno.css; qrcode.js = qrcode-generator 1.4.4, MIT, Kazuhiko Arase;
+                      fontes/ = OpenDyslexic, SIL OFL 1.1, com a OFL.txt — a letra dos post-its)
 figuras/              <id>.jpg, uma por questão (≤ 1400 px, ≤ 600 KB) + FONTES.md (proveniência);
                       candidatos.json, escolhas.json e figuras.json ficam fora do ar
 videos.json           os vídeos de cada questão (q, m, busca) — GERADO por ferramentas/videos.py gerar
@@ -118,7 +119,7 @@ docs/superpowers/     spec e plano — fora do ar
 - `serializar.js` — a escrita de `banco.js` (chaves sem aspas, ordem fixa).
 - `normalizar.js` / `normalizar.py` — a mesma normalização de texto nas duas
   linguagens (`testes.py` confere a paridade).
-- `testes.py` — 19 testes das ferramentas: `python ferramentas/testes.py`.
+- `testes.py` — os testes das ferramentas: `python ferramentas/testes.py`.
 - `conferir_readme.js` — a tabela acima contra `banco.js`.
 - `pdf.py` — os PDFs do caderno pelo Chrome sem janela (ver "PDF").
 - `videos.py` + `questoes_json.js` + `videos/` — a escolha dos vídeos do
@@ -439,7 +440,7 @@ na máquina, rode uma área por vez (`pdf.py ped`).
 
 ```
 node ferramentas/montar.js       # reescreve banco.js a partir das entradas
-node verificar.js                # ~28.500 conferências; sai 1 se algo falhar
+node verificar.js                # as conferências; sai 1 se algo falhar
 node controles.js                # planta uma falha por vez e exige que cada uma seja mordida (~13 min; `node controles.js <trecho>` ou `1-50` roda só uma parte)
 python ferramentas/testes.py     # os testes das ferramentas (extração, gabarito, normalização, vídeos, vercel.json)
 node ferramentas/conferir_readme.js
