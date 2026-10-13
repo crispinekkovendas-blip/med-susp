@@ -21,11 +21,18 @@
   --simples: #000; --simples-bg: #F3F3F3;
   /* papelaria (2026-10-12): a única cor do caderno impresso é a do estudo — marca-texto e post-its */
   --marca: #FFF176; --marca-2: #C5E1A5; --postit: #FFF59D; --postit-2: #BBDEFB;
-  --tinta: #1B2A6B; /* a tinta azul de caneta dos post-its: letra normal, cor de tinta */
+  --tinta: #1B2A6B; /* a tinta azul de caneta dos post-its */
+  --dislexia: "OpenDyslexic", "Segoe UI", system-ui, sans-serif; /* a letra de apoio à dislexia dos post-its */
   --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
+/* OpenDyslexic (Abbie Gonzalez, SIL Open Font License 1.1 — fontes/OFL.txt), vendorizada: as formas de peso embaixo
+   e as letras bem distintas são o apoio à dislexia que o usuário pediu para os post-its */
+@font-face { font-family: "OpenDyslexic"; src: url("fontes/OpenDyslexic-Regular.otf") format("opentype"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "OpenDyslexic"; src: url("fontes/OpenDyslexic-Bold.otf") format("opentype"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "OpenDyslexic"; src: url("fontes/OpenDyslexic-Italic.otf") format("opentype"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "OpenDyslexic"; src: url("fontes/OpenDyslexic-BoldItalic.otf") format("opentype"); font-weight: 700; font-style: italic; }
 * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 html, body { margin: 0; background: var(--bg-2); color: var(--ink); }
 body { font: 10.5pt/1.5 var(--serif); -webkit-font-smoothing: antialiased; }
@@ -200,7 +207,7 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
 .figura .credito { color: var(--ink-3); }
 .letra-grande .figura figcaption { font-size: 9pt; }
 /* o Simplificando é um post-it amarelo grande, colado um pouco torto, com a fita em cima */
-.simples { position: relative; margin: 6mm 2mm 4mm; padding: 6mm 6mm 5mm; background: linear-gradient(180deg, #FFFBB8 0%, var(--postit) 55%, #FFEE58 100%); border: 0; border-radius: 1px; box-shadow: 2px 3px 5px rgba(0,0,0,.22); transform: rotate(-.4deg); font-family: var(--serif); font-size: 9.5pt; line-height: 1.5; color: var(--tinta); }
+.simples { position: relative; margin: 6mm 2mm 4mm; padding: 6mm 6mm 5mm; background: linear-gradient(180deg, #FFFBB8 0%, var(--postit) 55%, #FFEE58 100%); border: 0; border-radius: 1px; box-shadow: 2px 3px 5px rgba(0,0,0,.22); transform: rotate(-.4deg); font-family: var(--dislexia); font-size: 8.5pt; line-height: 1.6; letter-spacing: .01em; color: var(--tinta); }
 .simples::before { content: ""; position: absolute; top: -3mm; left: 50%; width: 28mm; height: 6mm; margin-left: -14mm; background: rgba(255,255,255,.55); border: 1px solid rgba(0,0,0,.08); transform: rotate(-1.5deg); }
 .simples .rot { color: var(--tinta); display: block; margin-bottom: 2mm; }
 .simples p { margin: 0 0 1.5mm; }
@@ -220,7 +227,7 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
 .materia strong { background: var(--marca-2); padding: 0 .5mm; border-radius: .6mm; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .materia dd { margin: 0; }
 /* o Ponto clínico é um post-it azul, colado para o outro lado */
-.materia .ponto { margin: 4mm 1mm 4mm; padding: 4mm 5mm 3.5mm; border-left: 0; background: linear-gradient(180deg, #DDEEFC 0%, var(--postit-2) 100%); box-shadow: 2px 3px 5px rgba(0,0,0,.2); transform: rotate(.3deg); font-family: var(--serif); font-size: 9.5pt; color: var(--tinta); }
+.materia .ponto { margin: 4mm 1mm 4mm; padding: 4mm 5mm 3.5mm; border-left: 0; background: linear-gradient(180deg, #DDEEFC 0%, var(--postit-2) 100%); box-shadow: 2px 3px 5px rgba(0,0,0,.2); transform: rotate(.3deg); font-family: var(--dislexia); font-size: 8.5pt; line-height: 1.6; letter-spacing: .01em; color: var(--tinta); }
 .materia .ponto h4 { color: var(--tinta); }
 .materia .ponto h4 { margin-top: 0; }
 .materia .resp { display: block; font-size: 8.5pt; color: var(--ink-2); }

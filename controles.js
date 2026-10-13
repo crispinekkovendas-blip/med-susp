@@ -245,6 +245,8 @@ const controles = [
     txt: o => planta(o, ".videos .codigo svg { width: 28mm; height: 28mm; display: block; }", ".videos .codigo svg { width: 18mm; height: 18mm; display: block; }"), cita: /28 mm/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: marca-texto apagado do comentário",
     txt: o => planta(o, "color: var(--ink); background: var(--marca);", "color: var(--ink);"), cita: /marca-texto/ },
+  { arquivo: "caderno/caderno.css", nome: "caderno.css: post-it sem a letra de apoio à dislexia",
+    txt: o => planta(o, "rotate(-.4deg); font-family: var(--dislexia);", "rotate(-.4deg); font-family: var(--serif);"), cita: /OpenDyslexic/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: Simplificando deixa de ser post-it",
     txt: o => planta(o, "var(--postit) 55%", "#F3F3F3 55%"), cita: /post-it/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: volta a cor na tinta",

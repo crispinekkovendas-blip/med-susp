@@ -346,8 +346,10 @@ tokens de cor de `caderno/caderno.css` (`--accent`, os das áreas, `--ok`,
 ficam só no site. A única cor impressa é a do estudo (**papelaria**, também
 a pedido): os `<strong>` do comentário saem a **marca-texto amarelo**, os
 termos e destaques da matéria a **marca-texto verde**, o Simplificando é um
-**post-it amarelo** grande (torto, com fita, letra normal em tinta azul de
-caneta, `--tinta`) e o Ponto
+**post-it amarelo** grande (torto, com fita, em tinta azul de caneta,
+`--tinta`, e na **OpenDyslexic** — letra de apoio à dislexia, de Abbie
+Gonzalez, SIL Open Font License 1.1, vendorizada em `caderno/fontes/` com a
+licença; token `--dislexia`) e o Ponto
 clínico um **post-it azul** — tokens `--marca`, `--marca-2`, `--postit`,
 `--postit-2`, exigidos pelo harness. A capa tem um bloco preto com o título, a área e o selo de
 Iyar (o signo de Touro num anel), por pedido do usuário.
