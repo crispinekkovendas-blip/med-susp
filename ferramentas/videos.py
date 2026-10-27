@@ -8,6 +8,7 @@ questão (q), um sobre a matéria (m) e uma busca por mais vídeos do tema.
   python ferramentas/videos.py escolher <area>           # 1ª candidata por questão e tipo → videos/escolhas.json (só questões novas; --preencher enche os vazios)
   python ferramentas/videos.py buscar-extra <id> <q|m> "<consulta>"   # busca a mais, à mão, para quem ficou sem candidata
   python ferramentas/videos.py trocar <id> <q|m> <url>   # troca (ou "-" para apagar) uma escolha; --forcar aceita canal fora da lista
+  python ferramentas/videos.py comentadas <mapa.json> [--forcar]   # a correção da prova como vídeo da questão: {id: url[&t=…s]}
   python ferramentas/videos.py conferir                  # pergunta ao oEmbed do YouTube se cada vídeo escolhido ainda está público
   python ferramentas/videos.py gerar                     # escreve videos.json (o que o site lê)
 
@@ -28,7 +29,8 @@ CANAIS = os.path.join(PASTA, "canais.json")
 CANDIDATOS = os.path.join(PASTA, "candidatos.json")
 ESCOLHAS = os.path.join(PASTA, "escolhas.json")
 SAIDA = os.path.join(RAIZ, "videos.json")
-URL_RE = re.compile(r"^https://www\.youtube\.com/watch\?v=([A-Za-z0-9_-]{11})$")
+# a correção da prova pode apontar para o minuto da questão (&t=…s): a única forma a mais
+URL_RE = re.compile(r"^https://www\.youtube\.com/watch\?v=([A-Za-z0-9_-]{11})(&t=\d+s)?$")
 MIN_S, MAX_S = 240, 5400   # 4 a 90 minutos
 
 def ler_json(p, padrao):
@@ -92,6 +94,7 @@ def gerar(escolhas=None, candidatos=None, canais=None, qs=None, gravar=True):
             forcado = (e.get("forcado") or {}).get(qual)
             if c["canalId"] not in ids_canais and not forcado: raise ValueError("%s: o canal %s do vídeo %s não está em canais.json" % (q["id"], c["canal"], qual))
             v[qual] = {"url": url, "titulo": c["titulo"], "canal": c["canal"], "canalId": c["canalId"], "duracao": int(c["duracao"])}
+            if (e.get("comentada") or {}).get(qual): v[qual]["comentada"] = True   # a correção da prova, não um vídeo do tema
         v["busca"] = e.get("busca") or q["tema"]
         saida[q["id"]] = v
     if gravar:
@@ -238,6 +241,37 @@ def _tira_forcado(e, qual):
         e["forcado"].pop(qual, None)
         if not e["forcado"]: e.pop("forcado")
 
+def _candidato_de(url, extrair, memo):
+    """metadados de uma url (sem o &t=…), extraídos uma vez por vídeo"""
+    base = "https://www.youtube.com/watch?v=" + video_id(url)
+    if base not in memo: memo[base] = candidato((extrair or extrair_bruto)(base))
+    c = dict(memo[base]); c["url"] = url
+    return c
+
+def comentadas(mapa, forcar=False, escolhas=None, candidatos=None, canais=None, extrair=None, gravar=True):
+    """a correção da prova (questão comentada) como vídeo da questão (q) de cada id
+    do mapa {id: url}; a url pode trazer o minuto (&t=…s). Cada vídeo é extraído
+    uma vez; a escolha anterior fica nas candidatas. Marca comentada e, se o
+    canal está fora da lista, exige --forcar (e marca forcado)."""
+    esc = ler_json(ESCOLHAS, {}) if escolhas is None else escolhas
+    cands = ler_json(CANDIDATOS, {}) if candidatos is None else candidatos
+    lista = ler_json(CANAIS, []) if canais is None else canais
+    ids_canais = {x["id"] for x in lista}; memo = {}; n = 0
+    for qid, url in mapa.items():
+        if not video_id(url): raise ValueError("%s: url fora da forma canônica: %s" % (qid, url))
+        c = _candidato_de(url, extrair, memo)
+        if c["canalId"] not in ids_canais and not forcar: raise ValueError("%s: o canal %s não está em canais.json (use --forcar só com a palavra do cliente)" % (qid, c["canal"]))
+        e = esc.setdefault(qid, {"q": None, "m": None, "busca": ""})
+        cands.setdefault(qid, {})["q"] = [c] + [x for x in cands.get(qid, {}).get("q", []) if x["url"] != url]
+        e["q"] = url; e.setdefault("comentada", {})["q"] = True
+        if c["canalId"] not in ids_canais: e.setdefault("forcado", {})["q"] = True
+        else: _tira_forcado(e, "q")
+        n += 1
+    if gravar:
+        gravar_json(ESCOLHAS, esc); gravar_json(CANDIDATOS, cands)
+        print("%d questões com a correção da prova como vídeo da questão (%d vídeos distintos)" % (n, len(memo)))
+    return n
+
 def trocar(qid, qual, url, forcar=False, escolhas=None, candidatos=None, canais=None, extrair=None, gravar=True):
     esc = ler_json(ESCOLHAS, {}) if escolhas is None else escolhas
     cands = ler_json(CANDIDATOS, {}) if candidatos is None else candidatos
@@ -247,9 +281,11 @@ def trocar(qid, qual, url, forcar=False, escolhas=None, candidatos=None, canais=
         # apagar veta a url: escolher --preencher não a traz de volta
         if e.get(qual): e.setdefault("vetado", {}).setdefault(qual, []).append(e[qual])
         e[qual] = None; _tira_forcado(e, qual)
+        if "comentada" in e: e["comentada"].pop(qual, None); (not e["comentada"]) and e.pop("comentada")
     else:
         if not video_id(url): raise ValueError("url fora da forma canônica: " + url)
-        c = candidato((extrair or extrair_bruto)(url))
+        c = _candidato_de(url, extrair, {})
+        if "comentada" in e: e["comentada"].pop(qual, None); (not e["comentada"]) and e.pop("comentada")
         if c["canalId"] not in {x["id"] for x in lista} and not forcar: raise ValueError("o canal %s não está em canais.json (use --forcar só com a palavra do cliente)" % c["canal"])
         cands.setdefault(qid, {"q": [], "m": []})[qual] = [c] + [x for x in cands.get(qid, {}).get(qual, []) if x["url"] != url]
         e[qual] = url
@@ -294,6 +330,8 @@ if __name__ == "__main__":
     elif modo == "escolher" and len(sys.argv) > 2: escolher(sys.argv[2], preencher="--preencher" in sys.argv)
     elif modo == "buscar-extra" and len(sys.argv) >= 5: buscar_extra(sys.argv[2], sys.argv[3], sys.argv[4])
     elif modo == "trocar" and len(sys.argv) >= 5: trocar(sys.argv[2], sys.argv[3], sys.argv[4], forcar="--forcar" in sys.argv)
+    elif modo == "comentadas" and len(sys.argv) >= 3:
+        m = json.load(open(sys.argv[2], encoding="utf-8")); comentadas(m.get("mapa", m), forcar="--forcar" in sys.argv)
     elif modo == "conferir": conferir()
     elif modo == "gerar": gerar()
     else: print(__doc__)

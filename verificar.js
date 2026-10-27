@@ -246,7 +246,8 @@ for (const q of Q) {
   const idsV = Object.keys(V);
   exige(idsV.length === Q.length && Q.every(q => V[q.id]), `videos.json tem ${idsV.length} ids, esperava um por questão (${Q.length})`);
   exige(idsV.every(id => Q.some(q => q.id === id)), "videos.json tem id que não é questão nenhuma");
-  const URL_YT = /^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}$/;
+  /* a correção da prova pode apontar para o minuto da questão: &t=…s é a única forma a mais */
+  const URL_YT = /^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}(&t=\d+s)?$/;
   const faltam = { q: 0, m: 0 };
   for (const q of Q) {
     const v = V[q.id]; if (!v) continue;
@@ -259,7 +260,8 @@ for (const q of Q) {
       exige(!!p.titulo && !!p.canal, `${q.id}: vídeo ${k} sem título ou canal`);
       const forcado = !!(escolhas[q.id] && escolhas[q.id].forcado && escolhas[q.id].forcado[k]);
       exige(forcado || canais.some(c => c.id === p.canalId), `${q.id}: o canal do vídeo ${k} (${p.canal}) não está em canais.json`);
-      exige(p.duracao >= 240 && p.duracao <= 5400, `${q.id}: vídeo ${k} fora de 4–90 minutos (${p.duracao} s)`);
+      /* a correção da prova (questão comentada) dura horas por natureza: só o mínimo vale para ela */
+      exige(p.duracao >= 240 && (p.comentada === true || p.duracao <= 5400), `${q.id}: vídeo ${k} fora de 4–90 minutos (${p.duracao} s)`);
     }
   }
   console.log(`vídeos: ${Q.length - faltam.q} da questão e ${Q.length - faltam.m} da matéria escolhidos; faltam ${faltam.q} e ${faltam.m}`);
@@ -284,6 +286,8 @@ for (const q of Q) {
     exige(destino("ped07", "flash", V).url === "/#ped07" && destino("ped07", "mapa", V).url === "/#ped07" && destino("ped07", "flash", null).url === "/#ped07", "destino(): flash e mapa abrem a questão no site (/#id) enquanto as ferramentas não existem, mesmo sem videos.json");
     const pick = { ...V, ped07: { ...V.ped07, q: { ...V.ped07.q, url: "https://youtu.be/aaaaaaaaaaa" } } };
     exige(destino("ped07", "q", pick).fallback === "sem-video", "destino(): uma url fora da forma canônica não pode ser destino");
+    const comT = { ...V, ped07: { ...V.ped07, q: { ...V.ped07.q, url: "https://www.youtube.com/watch?v=aaaaaaaaaaa&t=18679s" } } };
+    exige(destino("ped07", "q", comT).url === "https://www.youtube.com/watch?v=aaaaaaaaaaa&t=18679s", "destino(): a url com o minuto da questão (&t=…s) é destino válido");
   } catch (e) { erro(`v/destino.js estourou: ${e.message}`); }
   const pagina = fs.existsSync(pP) ? fs.readFileSync(pP, "utf8") : "";
   for (const t of ['src="/v/destino.js"', 'fetch("/videos.json"', 'id="botao-mais"', 'id="botao-site"', 'id="botao-inicio"', 'lang="pt-BR"', "Vídeo da questão", "Vídeo da matéria", "Mais vídeos do tema", "Abrir a questão no site", "Banco SUS-SP"])
@@ -303,6 +307,8 @@ for (const q of Q) {
     exige((html.match(/class="pick vazio"/g) || []).length === Object.values(V).reduce((s, v) => s + (v.q ? 0 : 1) + (v.m ? 0 : 1), 0), "a revisão não marca cada escolha ausente como vazia");
     const V2 = { [Q[0].id]: Object.assign({}, V[Q[0].id], { q: { url: "https://www.youtube.com/watch?v=aaaaaaaaaaa", titulo: "Título <x>", canal: "Canal & Cia", canalId: "UC1", duracao: 662 }, m: null }) };
     const h2 = htmlRevisao(V2);
+    const V3 = { [Q[0].id]: Object.assign({}, V[Q[0].id], { q: { url: "https://www.youtube.com/watch?v=aaaaaaaaaaa&t=120s", titulo: "Correção", canal: "Medcof", canalId: "UCc", duracao: 5000, comentada: true }, m: null }) };
+    exige(htmlRevisao(V3).includes("questão comentada") && htmlRevisao(V3).includes("https://i.ytimg.com/vi/aaaaaaaaaaa/mqdefault.jpg"), "a revisão precisa marcar a escolha que é a correção da prova (questão comentada) e achar a miniatura mesmo com &t= na url");
     exige(h2.includes("https://i.ytimg.com/vi/aaaaaaaaaaa/mqdefault.jpg") && h2.includes("Título &lt;x&gt;") && h2.includes("Canal &amp; Cia") && h2.includes("11:02") && h2.includes("1 vídeos da questão · 0 da matéria") && h2.includes(FONTES[Q[0].fonte].rotulo), "a revisão não mostra miniatura, título (escapado), canal, duração mm:ss, o rótulo da prova e a contagem");
     exige(html.includes('class="contagem"') && html.includes(`href="/v/${Q[0].id}/mais"`), "a revisão precisa da contagem e do link Mais vídeos de cada questão");
     const pagina = fs.readFileSync(pH, "utf8");
@@ -351,20 +357,21 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
   for (let i = acss.indexOf("{", ini); i < acss.length; i++) { if (acss[i] === "{") prof++; else if (acss[i] === "}") { prof--; if (!prof) { fim = i; break; } } }
   const estreitas = ini >= 0 && fim > ini ? acss.slice(ini, fim) : "";
   exige(/\.seg\s*\{[^}]*flex-wrap:\s*wrap/.test(estreitas), "app.css: nas telas estreitas .seg precisa de flex-wrap: wrap (os filtros de GO e das edições ficam cortados no celular)");
-  exige(/\.questao\.dupla\s*\{\s*min-height:\s*calc\(2 \* var\(--pagina\)\)/.test(css), "caderno.css: a ficha longa (.questao.dupla) precisa ocupar duas páginas inteiras");
-  exige(/classList\.add\("dupla"\)/.test(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8")), "caderno.js: não marca a ficha longa com a classe dupla");
+  /* fluxo corrido: a ficha tem a altura do conteúdo, a seguinte começa logo depois, nada fica em branco */
+  exige(!/\.questao\s*\{[^}]*min-height/.test(css) && !/\.questao\.(dupla|tripla)/.test(css), "caderno.css: fluxo corrido — a ficha não pode ter min-height nem as classes dupla/tripla (uma ficha curta deixaria o resto da página em branco)");
+  exige(!/classList\.add\("(dupla|tripla)"\)/.test(fs.readFileSync(path.join(AQUI, "caderno", "caderno.js"), "utf8")), "caderno.js: não pode marcar fichas como dupla/tripla (fluxo corrido)");
+  exige(/\.questao\s*\{[^}]*margin:\s*0 0 6mm;[^}]*break-after:\s*auto/.test(css), "caderno.css: no impresso a ficha seguinte começa logo depois da anterior (.questao { margin: 0 0 6mm; break-after: auto } no @media print)");
+  exige(/\.questao > header\s*\{[^}]*break-after:\s*avoid/.test(css), "caderno.css: o cabeçalho da ficha não pode ficar órfão no fim da página (.questao > header { break-after: avoid })");
   /* figuras: altura limitada na ficha, medida refeita quando as imagens
      carregam, e a versão ampliada da página cobre a tela */
   exige(/\.figura img\s*\{[^}]*max-height:\s*\d+mm/.test(css), "caderno.css: a figura da ficha precisa de max-height em mm (uma foto alta comeria a página)");
   exige(/"load"/.test(cjs), "caderno.js: a medida das fichas precisa ser refeita depois que as imagens carregam (evento load)");
   exige(/\.ampliar\s*\{[^}]*position:\s*fixed/.test(acss), "app.css: falta .ampliar { position: fixed … } (a figura ampliada precisa cobrir a tela)");
   /* Sobre a matéria: ficha de três páginas, caixa do Ponto clínico nos dois CSS */
-  exige(/\.questao\.tripla\s*\{\s*min-height:\s*calc\(3 \* var\(--pagina\)\)/.test(css), "caderno.css: a ficha muito longa (.questao.tripla) precisa ocupar três páginas inteiras");
-  exige(/notas \? 90 \* mm : 0/.test(cjs), "caderno.js: a ficha com pauta precisa garantir 90 mm de pauta — 40 mm de termos-chave e 50 mm de anotações, um quinto da página (senão a pauta ganha a página seguinte)");
+  exige(/\.notas \.linhas\s*\{[^}]*min-height:\s*50mm/.test(css), "caderno.css: a pauta de anotações (.notas .linhas) precisa de 50 mm fixos (no fluxo corrido ela não cresce até o fim da página)");;
   exige(/\.notas \.termos\s*\{[^}]*height:\s*40mm/.test(css), "caderno.css: o quadro dos termos-chave (.notas .termos) precisa de 40 mm fixos");
   exige(/pauta: "quadriculado"/.test(cjs), "caderno.js: a pauta padrão precisa ser a quadriculada");
   exige(/\.notas\.quadriculado \.linhas[^{]*\{[^}]*background-size:\s*5mm 5mm/.test(css), "caderno.css: a pauta quadriculada (.notas.quadriculado .linhas) precisa do quadriculado de 5 mm");
-  exige(/classList\.add\("tripla"\)/.test(cjs), "caderno.js: não marca a ficha muito longa com a classe tripla");
   exige(/\.materia \.ponto\s*\{/.test(css) && /\.comentario\.materia \.ponto\s*\{/.test(acss), "falta o estilo da caixa Ponto clínico (.materia .ponto no caderno.css, .comentario.materia .ponto no app.css)");
 }
 

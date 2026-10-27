@@ -275,11 +275,12 @@
   }
 
   const raiz = document.getElementById("app");
-  /* Ficha que não cabe numa página: passa a ocupar DUAS páginas inteiras
-     (classe "dupla") — ou TRÊS ("tripla"), com Sobre a matéria e figura —,
-     e a pauta de anotações cresce até o fim da última —
-     sem isso, o resto da segunda folha sairia em branco. Só no navegador:
-     precisa de medida real (o DOM de mentira do harness não mede). */
+  /* Fluxo corrido: a ficha tem a altura do conteúdo e a seguinte começa logo
+     depois. A medida só serve ao índice no navegador — uma estimativa pela
+     posição de cada ficha dentro da seção, na geometria da folha impressa
+     (classe "medindo" no body); nos PDFs publicados o pdf.py lê as páginas
+     reais e as passa pela URL (?paginas=). Só no navegador: o DOM de
+     mentira do harness não mede. */
   function medirFichas() {
     const fichas = document.querySelectorAll(".questao");
     if (!fichas.length || typeof fichas[0].getBoundingClientRect !== "function") return;
@@ -289,35 +290,15 @@
     const pagina = regua.getBoundingClientRect().height;
     regua.remove();
     if (!pagina) return;
-    /* A pauta não é conteúdo: ela cresce ou encolhe para encher a página.
-       Mede-se o que sobra (enunciado, alternativas, comentário, mini-aula)
-       na geometria da folha impressa (classe "medindo" no body). A ficha
-       com pauta precisa de 90 mm para ela — 40 mm de termos-chave e ao
-       menos 50 mm de anotações, um quinto da página: se cabe numa página
-       deixando isso, é uma página normal; senão, são duas páginas inteiras
-       ("dupla") — ou três ("tripla") — com a pauta preenchendo o fim. A
-       ficha sem pauta (a da questão, no modo página própria) só cresce
-       quando o conteúdo passa da página inteira. */
-    const mm = pagina / 256;
     document.body.classList.add("medindo");
-    fichas.forEach(f => {
-      f.classList.remove("tripla", "dupla");
-      const notas = f.querySelector(".notas");
-      const conteudo = f.getBoundingClientRect().height - (notas ? notas.getBoundingClientRect().height : 0);
-      const folga = notas ? 90 * mm : 0;
-      if (conteudo > 2 * pagina - folga) f.classList.add("tripla");
-      else if (conteudo > pagina - folga) f.classList.add("dupla");
-    });
-    /* o índice: a página de cada ficha = capa + folha + mapa (medidos na
-       mesma geometria) + as fichas anteriores, cada uma com 1, 2 ou 3
-       páginas; no modo página própria a mini-aula também conta */
     const paginasDe = sel => { const el = document.querySelector(sel); return el ? Math.max(1, Math.ceil((el.getBoundingClientRect().height - 1) / pagina)) : 0; };
-    let pag = paginasDe(".pagina.capa") + paginasDe(".pagina.folha") + paginasDe(".pagina.mapa");
+    const antes = paginasDe(".pagina.capa") + paginasDe(".pagina.folha") + paginasDe(".pagina.mapa");
+    const secao = document.querySelector(".questoes") || fichas[0].parentNode;
+    const topo = secao.getBoundingClientRect().top;
     const paginaDe = {};
     fichas.forEach(f => {
       const id = f.getAttribute("data-id");
-      if (!f.classList.contains("materia-pagina") && !(id in paginaDe)) paginaDe[id] = pag + 1;
-      pag += f.classList.contains("tripla") ? 3 : f.classList.contains("dupla") ? 2 : 1;
+      if (!f.classList.contains("materia-pagina") && !(id in paginaDe)) paginaDe[id] = antes + Math.floor((f.getBoundingClientRect().top - topo) / pagina) + 1;
     });
     document.body.classList.remove("medindo");
     if (!PAGINAS_URL.length) preencherIndice(Object.values(paginaDe));

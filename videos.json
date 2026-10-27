@@ -4,8 +4,21 @@
   "numero": 41,
   "tema": "Avaliação nutricional — índice estatura-para-idade",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=DbLyJptztQs",
+   "titulo": "AULA AVALIAÇÃO NUTRICIONAL: Conceitos, ferramentas de triagem e avaliação nutricional.",
+   "canal": "Nutri Concursada ",
+   "canalId": "UCOkjoF8LFe7zUzwY4_sU40w",
+   "duracao": 3280
+  },
   "busca": "Avaliação nutricional — índice estatura-para-idade"
  },
  "ped02": {
@@ -13,8 +26,21 @@
   "numero": 42,
   "tema": "Molusco contagioso — diagnóstico clínico e conduta expectante",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=2equiT_OHeI",
+   "titulo": "MOLUSCO CONTAGIOSO - O QUE É, SINTOMAS, DIAGNÓSTICO E TRATAMENTO - COMO TRATAR MOLUSCO CONTAGIOSO",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 436
+  },
   "busca": "Molusco contagioso — diagnóstico clínico e conduta expectante"
  },
  "ped03": {
@@ -22,8 +48,21 @@
   "numero": 43,
   "tema": "Toxoplasmose na gestação — investigação do recém-nascido",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14283s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Bdekd9eSQv4",
+   "titulo": "Toxoplasmose na Gestação com Dra. Graciella Calsolari | Revalida Fácil",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1785
+  },
   "busca": "Toxoplasmose na gestação — investigação do recém-nascido"
  },
  "ped04": {
@@ -31,8 +70,21 @@
   "numero": 44,
   "tema": "Crise epiléptica na urgência — midazolam nasal e conduta na alta",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14464s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=yH3FU71Y2o0",
+   "titulo": "Saiba como TRATAR CRISE CONVULSIVA no PRONTO ATENDIMENTO",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 796
+  },
   "busca": "Crise epiléptica na urgência — midazolam nasal e conduta na alta"
  },
  "ped05": {
@@ -40,8 +92,21 @@
   "numero": 45,
   "tema": "Escorpionismo grave — risco cardíaco e exames de seguimento",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14632s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Jvdu1N0inXM",
+   "titulo": "ACIDENTE OFÍDICO E INFECÇÕES CUTÂNEAS - CASOS CLÍNICOS",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 4010
+  },
   "busca": "Escorpionismo grave — risco cardíaco e exames de seguimento"
  },
  "ped06": {
@@ -49,8 +114,21 @@
   "numero": 46,
   "tema": "Síncope ao esforço — estenose aórtica e o que não prescrever",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=12131s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=a7srTFjPhRE",
+   "titulo": "Abordagem inicial da Síncope!",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 1436
+  },
   "busca": "Síncope ao esforço — estenose aórtica e o que não prescrever"
  },
  "ped07": {
@@ -58,8 +136,21 @@
   "numero": 47,
   "tema": "Sintomas urinários na pré-escolar — vulvovaginite versus ITU",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=SWTJDaVLkEo",
+   "titulo": "Síndrome Nefrótica em PEDIATRIA",
+   "canal": "MEDsimple",
+   "canalId": "UCpqbddUkr4j7oqrcpTrgorw",
+   "duracao": 1170
+  },
   "busca": "Sintomas urinários na pré-escolar — vulvovaginite versus ITU"
  },
  "ped08": {
@@ -67,8 +158,21 @@
   "numero": 48,
   "tema": "Contato de tuberculose — infecção latente e esquema de isoniazida",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14758s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=MIqWfw4BLOY",
+   "titulo": "MYCOBACTERIUM TUBERCULOSIS - MICROBIOLOGIA MÉDICA - AULA 7",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 590
+  },
   "busca": "Contato de tuberculose — infecção latente e esquema de isoniazida"
  },
  "ped09": {
@@ -76,8 +180,21 @@
   "numero": 49,
   "tema": "Calendário do PNI — vacinas dos 6 meses",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14966s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=0a5eY-u_dMg",
+   "titulo": "Guia de Vacinação para Enfermagem: Tudo sobre o Calendário do PNI 🩺📊",
+   "canal": "ENFrente Enfermagem Continuada",
+   "canalId": "UCD9kk0EUEtflrRl6TV0lDyA",
+   "duracao": 726
+  },
   "busca": "Calendário do PNI — vacinas dos 6 meses"
  },
  "ped10": {
@@ -85,8 +202,21 @@
   "numero": 50,
   "tema": "Síndrome da pele escaldada estafilocócica — diagnóstico diferencial",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=J1kCpYUdlS8",
+   "titulo": "STAPHYLOCOCCUS - MICROBIOLOGIA (BACTÉRIAS PATOGÊNICAS) - AUREUS E EPIDERMIDIS",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 832
+  },
   "busca": "Síndrome da pele escaldada estafilocócica — diagnóstico diferencial"
  },
  "ped11": {
@@ -94,8 +224,21 @@
   "numero": 51,
   "tema": "Transtorno de ansiedade na criança — medo, evitação e sono",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=MT-9C64uSbk",
+   "titulo": "SINTOMAS e TRATAMENTO do Transtorno da ANSIEDADE GENERALIZADA",
+   "canal": "Neurologia e Psiquiatria",
+   "canalId": "UCPSF_i4TthY5-7XMnLjh2jQ",
+   "duracao": 462
+  },
   "busca": "Transtorno de ansiedade na criança — medo, evitação e sono"
  },
  "ped12": {
@@ -103,8 +246,21 @@
   "numero": 52,
   "tema": "Desconforto respiratório neonatal — taquipneia transitória",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15054s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=zw3uE5q0LhU",
+   "titulo": "Aula Resumo ENAMED / ENARE  - Distúrbios Respiratórios do Período Neonatal",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3465
+  },
   "busca": "Desconforto respiratório neonatal — taquipneia transitória"
  },
  "ped13": {
@@ -112,8 +268,21 @@
   "numero": 53,
   "tema": "Doença falciforme — sequestro esplênico agudo",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=13371s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=vlidl79yuSk",
+   "titulo": "ANEMIA FALCIFORME (ANEMIA HEREDITÁRIA) - HEMATOLOGIA",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 986
+  },
   "busca": "Doença falciforme — sequestro esplênico agudo"
  },
  "ped14": {
@@ -121,8 +290,21 @@
   "numero": 54,
   "tema": "Otite média aguda supurada — otorreia não é falha terapêutica",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=ixGEJ0qoPRQ",
+   "titulo": "Como diferenciar uma OTITE EXTERNA de uma otite média aguda supurada",
+   "canal": "Pediatria Urgente",
+   "canalId": "UCkSVaur4vSgvr68ed9Vx_XA",
+   "duracao": 341
+  },
   "busca": "Otite média aguda supurada — otorreia não é falha terapêutica"
  },
  "ped15": {
@@ -130,8 +312,21 @@
   "numero": 55,
   "tema": "Cetoacidose diabética na criança — volume antes da insulina",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15282s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=6rHd9ZhTwRM",
+   "titulo": "AULA DE NATAL - PEDIATRIA URGENTE - Cetoacidose Diabética em emergência.",
+   "canal": "Pediatria Urgente",
+   "canalId": "UCkSVaur4vSgvr68ed9Vx_XA",
+   "duracao": 1334
+  },
   "busca": "Cetoacidose diabética na criança — volume antes da insulina"
  },
  "ped16": {
@@ -139,8 +334,21 @@
   "numero": 56,
   "tema": "Lacrimejamento no lactente — obstrução congênita do ducto nasolacrimal",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15464s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Mez91HQQ4uk",
+   "titulo": "Epífora y lagrimeo SMO 2022",
+   "canal": "mkiiwii714",
+   "canalId": "UCZEZEfMtm9-y0O8Dk40XvGg",
+   "duracao": 3930
+  },
   "busca": "Lacrimejamento no lactente — obstrução congênita do ducto nasolacrimal"
  },
  "ped17": {
@@ -148,8 +356,21 @@
   "numero": 57,
   "tema": "Febre com hepatomegalia dolorosa — abscesso hepático amebiano",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15663s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=0bQ4d-707oU",
+   "titulo": "AMEBÍASE - Entamoeba histolytica - Parasitologia Humana - Ensino Superior  Vídeo Aula - Luix Bio",
+   "canal": "Luix Nascimento Biologia",
+   "canalId": "UC6FjMLjx7lJk1YPso3EpSOg",
+   "duracao": 2577
+  },
   "busca": "Febre com hepatomegalia dolorosa — abscesso hepático amebiano"
  },
  "ped18": {
@@ -157,8 +378,21 @@
   "numero": 58,
   "tema": "Diarreia sanguinolenta — síndrome hemolítico-urêmica",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15827s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=3l5pkQUEvRo",
+   "titulo": "Diarreia Aguda em 3 Passos",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1044
+  },
   "busca": "Diarreia sanguinolenta — síndrome hemolítico-urêmica"
  },
  "ped19": {
@@ -166,8 +400,21 @@
   "numero": 59,
   "tema": "Distonia aguda por antiemético — metoclopramida",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=8xTQ_i6Ic0c",
+   "titulo": "EPS for NCLEX: Acute Dystonia, Akathisia, Pseudoparkinsonism & Tardive Dyskinesia Explained",
+   "canal": "GoodNurse",
+   "canalId": "UCpFKIh3nTIbAdJl1TMoKUsw",
+   "duracao": 476
+  },
   "busca": "Distonia aguda por antiemético — metoclopramida"
  },
  "ped20": {
@@ -175,8 +422,21 @@
   "numero": 60,
   "tema": "Trauma cranioencefálico moderado na criança — tomografia após o ABC",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=8DUKq_Dw5bA",
+   "titulo": "O que são 'Gliose' e 'Microangiopatia' em Ressonâncias de Crânio? Explicação Completa!",
+   "canal": "Neurologia e Psiquiatria",
+   "canalId": "UCPSF_i4TthY5-7XMnLjh2jQ",
+   "duracao": 318
+  },
   "busca": "Trauma cranioencefálico moderado na criança — tomografia após o ABC"
  },
  "ped21": {
@@ -184,8 +444,21 @@
   "numero": 85,
   "tema": "Crescimento no primeiro semestre — peso, comprimento e PC",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=2539s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=W5rGZr91cLc",
+   "titulo": "Meu primeiro semestre em Engenharia Química: matérias, notas e aprendizados",
+   "canal": "Thaistudos",
+   "canalId": "UCE-XpQ31Y04v_vDw8sw-QzA",
+   "duracao": 954
+  },
   "busca": "Crescimento no primeiro semestre — peso, comprimento e PC"
  },
  "ped22": {
@@ -193,8 +466,21 @@
   "numero": 87,
   "tema": "Desenvolvimento aos 10 meses — marcos normais e engatinhar",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=EzutW35C8jI",
+   "titulo": "10º MÊS DO BEBÊ | Desenvolvimento do Bebê de 9 Meses | Engatinhar, Alimentação, Sono e muito mais",
+   "canal": "Almanaque dos Pais",
+   "canalId": "UCy7oVBYY0FGXeeJpy6ITXxQ",
+   "duracao": 1627
+  },
   "busca": "Desenvolvimento aos 10 meses — marcos normais e engatinhar"
  },
  "ped23": {
@@ -202,8 +488,21 @@
   "numero": 89,
   "tema": "Coqueluche no lactente — diagnóstico clínico e macrolídeo",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=3296s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=cHjZsUf1AS0",
+   "titulo": "Resumo de Bronquiolite - Aula de Pediatria para Residência Médica e Revalida",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2211
+  },
   "busca": "Coqueluche no lactente — diagnóstico clínico e macrolídeo"
  },
  "ped24": {
@@ -211,8 +510,21 @@
   "numero": 96,
   "tema": "Meningite viral — o líquor que diferencia",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15044s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=G6FRwZ2Wbi8",
+   "titulo": "Meningite: Definição, tipos, sintomas, diagnóstico e tratamento | Kenhub",
+   "canal": "Kenhub - Aprenda Anatomia Humana",
+   "canalId": "UCmvBnAe7DNiZq2n7VOH9hzQ",
+   "duracao": 755
+  },
   "busca": "Meningite viral — o líquor que diferencia"
  },
  "ped25": {
@@ -220,8 +532,21 @@
   "numero": 100,
   "tema": "Filho de mãe diabética — hipoglicemia nas primeiras horas",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=2267s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=X8kkmf4Axa4",
+   "titulo": "Aula Resumo ENAMED - Diabetes Mellitus na Gestação",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2586
+  },
   "busca": "Filho de mãe diabética — hipoglicemia nas primeiras horas"
  },
  "ped26": {
@@ -229,8 +554,21 @@
   "numero": 3,
   "tema": "Reanimação neonatal — VPP com ar ambiente antes da massagem",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5846s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=dmcacgu8Q0w",
+   "titulo": "Aula Resumo ENAMED - Reanimação Neonatal  | Helena Schetinger Ávila",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2545
+  },
   "busca": "Reanimação neonatal — VPP com ar ambiente antes da massagem"
  },
  "ped27": {
@@ -238,8 +576,21 @@
   "numero": 4,
   "tema": "Clampeamento tardio do cordão — quando e por quê",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=6030s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=q1BQYxM-xxQ",
+   "titulo": "ATUALIZAÇÃO: Clampeamento do Cordão Umbilical em Recém Nascidos Exposto ao HIV Materno - Pediatria",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 327
+  },
   "busca": "Clampeamento tardio do cordão — quando e por quê"
  },
  "ped28": {
@@ -247,8 +598,21 @@
   "numero": 5,
   "tema": "Síndrome de Down na adolescência — o que orientar e o que pedir",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=6286s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=IssUTDq1ni4",
+   "titulo": "Síndrome de Down: Causas, características, diagnóstico e manejo | Kenhub",
+   "canal": "Kenhub - Aprenda Anatomia Humana",
+   "canalId": "UCmvBnAe7DNiZq2n7VOH9hzQ",
+   "duracao": 1081
+  },
   "busca": "Síndrome de Down na adolescência — o que orientar e o que pedir"
  },
  "ped29": {
@@ -256,8 +620,21 @@
   "numero": 7,
   "tema": "Síndrome metabólica na criança — critérios e conduta",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=VYlBx4lsjH8",
+   "titulo": "Resumo de Obesidade na infância e adolescência - Aula de Pediatria para Residência Médica e Revalida",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3154
+  },
   "busca": "Síndrome metabólica na criança — critérios e conduta"
  },
  "ped30": {
@@ -265,8 +642,21 @@
   "numero": 9,
   "tema": "PCR na criança asmática — AESP, adrenalina e causas reversíveis",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=7528s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=SemyQO-JucY",
+   "titulo": "LIVE 10 - Manejo completo na ASMA AGUDA GRAVE",
+   "canal": "Pediatria Urgente",
+   "canalId": "UCkSVaur4vSgvr68ed9Vx_XA",
+   "duracao": 4597
+  },
   "busca": "PCR na criança asmática — AESP, adrenalina e causas reversíveis"
  },
  "ped31": {
@@ -274,8 +664,21 @@
   "numero": 12,
   "tema": "Doença celíaca — o que tem e o que não tem glúten",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=8352s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=GJfP9aECpPI",
+   "titulo": "DOENÇA CELÍACA - FISIOPATOLOGIA (COMO OCORRE A DOENÇA CELÍACA) - GASTROENTEROLOGIA",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 1096
+  },
   "busca": "Doença celíaca — o que tem e o que não tem glúten"
  },
  "ped32": {
@@ -283,8 +686,21 @@
   "numero": 13,
   "tema": "Corpo estranho ingerido — quem, quando e qual imagem",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=JRmxYys3jUY",
+   "titulo": "Corpo Estranho | Radiologia na Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 359
+  },
   "busca": "Corpo estranho ingerido — quem, quando e qual imagem"
  },
  "ped33": {
@@ -292,8 +708,21 @@
   "numero": 14,
   "tema": "Alergia à proteína do leite de vaca no bebê em aleitamento exclusivo",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=BBIR91rlT3I",
+   "titulo": "Aleitamento materno: como é o formato das questões da prova R1 de SP?",
+   "canal": "Medcel",
+   "canalId": "UCql8E_HPJKa2mc0Zvd50GMA",
+   "duracao": 1355
+  },
   "busca": "Alergia à proteína do leite de vaca no bebê em aleitamento exclusivo"
  },
  "ped34": {
@@ -301,7 +730,14 @@
   "numero": 15,
   "tema": "Quando investigar malformação do trato urinário no lactente",
   "rotulo": "UNESP 2026",
-  "q": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
   "m": null,
   "busca": "Quando investigar malformação do trato urinário no lactente"
  },
@@ -310,8 +746,21 @@
   "numero": 18,
   "tema": "Cefaleia, vômitos e ataxia na criança — tumor de fossa posterior",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=10076s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=qcwmZB12XW0",
+   "titulo": "Signs of Increased Intracranial Pressure (ICP) in Children | Pediatric Nursing Explained",
+   "canal": "NurseNextStation",
+   "canalId": "UCBM_Q3_idv3yfXP-cO71PNA",
+   "duracao": 331
+  },
   "busca": "Cefaleia, vômitos e ataxia na criança — tumor de fossa posterior"
  },
  "ped36": {
@@ -319,8 +768,21 @@
   "numero": 19,
   "tema": "Febre reumática — critérios de Jones e o nódulo de Aschoff",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=10211s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=uTwDRmD__pk",
+   "titulo": "Aula Resumo ENAMED / ENARE – Febre Reumática",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 4567
+  },
   "busca": "Febre reumática — critérios de Jones e o nódulo de Aschoff"
  },
  "ped37": {
@@ -328,8 +790,21 @@
   "numero": 31,
   "tema": "Síndrome torácica aguda — quando transfundir",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=5195s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=ZDef91ANiTA",
+   "titulo": "Dor torácica na Emergência - Protocolo atualizado em 3 passos",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 3899
+  },
   "busca": "Síndrome torácica aguda — quando transfundir"
  },
  "ped38": {
@@ -337,8 +812,21 @@
   "numero": 33,
   "tema": "Sibilância recorrente no lactente — corticoide inalatório pelo GINA",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=5698s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=zsA0JMBQt24",
+   "titulo": "Doenças Respiratórias do Lactente - Aula de Pediatria do Curso Revalida Exclusive",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3163
+  },
   "busca": "Sibilância recorrente no lactente — corticoide inalatório pelo GINA"
  },
  "ped39": {
@@ -346,8 +834,21 @@
   "numero": 34,
   "tema": "Introdução alimentar no lactente de alto risco para alergia",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=6001s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=jH3U6b-k904",
+   "titulo": "4 CONSELHOS para você LIDAR com a INTRODUÇÃO ALIMENTAR do seu BEBÊ (sem surtar!) | Dra Jannuzzi",
+   "canal": "Dra Jannuzzi",
+   "canalId": "UCt9rrWTIg0yIxXgR9W_cybA",
+   "duracao": 411
+  },
   "busca": "Introdução alimentar no lactente de alto risco para alergia"
  },
  "ped40": {
@@ -355,8 +856,21 @@
   "numero": 37,
   "tema": "Hepatite A na criança — surto escolar e tratamento de suporte",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=FnT6fvVUvW0",
+   "titulo": "Hepatites Virais - Aula de Clínica Médica do Reta Final Revalida",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2321
+  },
   "busca": "Hepatite A na criança — surto escolar e tratamento de suporte"
  },
  "ped41": {
@@ -364,8 +878,21 @@
   "numero": 38,
   "tema": "Doença de Kawasaki de alto risco — imunoglobulina mais corticoide",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=g1_NrP-m4BE",
+   "titulo": "Curso GO Descomplicada - Pré- Natal de risco habitual - Prof. Carlos Martins",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2496
+  },
   "busca": "Doença de Kawasaki de alto risco — imunoglobulina mais corticoide"
  },
  "ped42": {
@@ -373,8 +900,21 @@
   "numero": 42,
   "tema": "Síndrome de Turner — o que acompanha a baixa estatura",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=nLj4ECDfmLg",
+   "titulo": "SÍNDROME DE TURNER - BIOLOGIA CELULAR E MOLECULAR - AULA 20",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 672
+  },
   "busca": "Síndrome de Turner — o que acompanha a baixa estatura"
  },
  "ped43": {
@@ -382,8 +922,21 @@
   "numero": 43,
   "tema": "Criptorquidia — o que dizer à família",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=8743s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=4UI7Bdz9KJk",
+   "titulo": "Testes de Triagem Neonatal: Criptorquidia",
+   "canal": "MEDsimple",
+   "canalId": "UCpqbddUkr4j7oqrcpTrgorw",
+   "duracao": 909
+  },
   "busca": "Criptorquidia — o que dizer à família"
  },
  "ped44": {
@@ -391,8 +944,21 @@
   "numero": 44,
   "tema": "Engasgo do lactente consciente com tosse — não fazer manobras",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=6SxKUelzoKU",
+   "titulo": "Desengasgo em Lactentes (Bebês): Passo a Passo da Técnica Atualizada",
+   "canal": "Instituto Brasileiro de APH - IBRAPH",
+   "canalId": "UCCemBdUPlM-4da0ssfiPxyw",
+   "duracao": 439
+  },
   "busca": "Engasgo do lactente consciente com tosse — não fazer manobras"
  },
  "ped45": {
@@ -400,8 +966,21 @@
   "numero": 32,
   "tema": "Glomerulonefrite pós-estreptocócica — anti-DNase B e o manejo do edema",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=444s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=fMHdLcnJvHM",
+   "titulo": "Pediatria - Síndrome Nefrítica",
+   "canal": "Jaleko Acadêmicos",
+   "canalId": "UCoGDzJkGOb2YfM-VQ9rJyMg",
+   "duracao": 561
+  },
   "busca": "Glomerulonefrite pós-estreptocócica — anti-DNase B e o manejo do edema"
  },
  "ped46": {
@@ -409,8 +988,21 @@
   "numero": 33,
   "tema": "Desidratação na diarreia — plano B: reidratação oral na unidade",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=10463s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=MjZ21TBZpvI",
+   "titulo": "Atualização - Manejo da diarreia em crianças - Pediatria",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 648
+  },
   "busca": "Desidratação na diarreia — plano B: reidratação oral na unidade"
  },
  "ped47": {
@@ -418,8 +1010,21 @@
   "numero": 36,
   "tema": "Anafilaxia ao ovo no lactente — as orientações de alta",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=VuYiP3-pbRk",
+   "titulo": "Aula Resumo - Alergia Alimentar",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2795
+  },
   "busca": "Anafilaxia ao ovo no lactente — as orientações de alta"
  },
  "ped48": {
@@ -427,8 +1032,21 @@
   "numero": 38,
   "tema": "Puberdade masculina — Tanner II aos 12 anos é normal",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=E9Fpdz9L3y0",
+   "titulo": "Puberdade Precoce | Revisando com o Estratégia MED",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2125
+  },
   "busca": "Puberdade masculina — Tanner II aos 12 anos é normal"
  },
  "ped49": {
@@ -436,8 +1054,21 @@
   "numero": 40,
   "tema": "PFAPA — febre periódica e a dose única de corticoide",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=11204s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=1NylVcyc7ic",
+   "titulo": "Febre na Pediatria - Aula do Curso Extensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 4681
+  },
   "busca": "PFAPA — febre periódica e a dose única de corticoide"
  },
  "ped50": {
@@ -445,8 +1076,21 @@
   "numero": 41,
   "tema": "Claudicação no pré-escolar — sinovite transitória do quadril",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Bi9119eNSzs",
+   "titulo": "Doença Arterial Periférica - Revisando com Estratégia MED - Aula de Cirurgia para Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2350
+  },
   "busca": "Claudicação no pré-escolar — sinovite transitória do quadril"
  },
  "prev01": {
@@ -454,8 +1098,21 @@
   "numero": 81,
   "tema": "Atenção Primária — apoio matricial e eMulti",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=cQTYrmvWD6E",
+   "titulo": "Aula Resumo ENAMED / ENARE  - Atenção Primária a Saúde no Brasil",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3711
+  },
   "busca": "Atenção Primária — apoio matricial e eMulti"
  },
  "prev02": {
@@ -463,8 +1120,21 @@
   "numero": 82,
   "tema": "Rastreamento no homem de 65 a 75 anos — aneurisma de aorta abdominal",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=16660s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=CV3-VDmNAE0",
+   "titulo": "Advertencia: 6 Pruebas Médicas que NUNCA Debes Hacer Después de los 60 Años",
+   "canal": "DR HANA Español",
+   "canalId": "UCr7Bj-qUPZJPV3y-OLPOpkg",
+   "duracao": 1188
+  },
   "busca": "Rastreamento no homem de 65 a 75 anos — aneurisma de aorta abdominal"
  },
  "prev03": {
@@ -472,7 +1142,14 @@
   "numero": 83,
   "tema": "Investigação de surto — confirmar surto e diagnóstico antes de agir",
   "rotulo": "SUS-SP 2026",
-  "q": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17063s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
   "m": null,
   "busca": "Investigação de surto — confirmar surto e diagnóstico antes de agir"
  },
@@ -481,8 +1158,21 @@
   "numero": 84,
   "tema": "Exposição à varicela na gestação — sorologia antes da imunoglobulina",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17446s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=IN8hzVvpHaE",
+   "titulo": "Varicela na Gestação",
+   "canal": "Luzana Mackevicius Bernardes",
+   "canalId": "UCDDtNdUUGUsyVJ7lV3ljvVg",
+   "duracao": 1227
+  },
   "busca": "Exposição à varicela na gestação — sorologia antes da imunoglobulina"
  },
  "prev05": {
@@ -490,8 +1180,21 @@
   "numero": 85,
   "tema": "Estudo caso-controle retrospectivo — viés de confusão",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17707s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=-68rwBO_-VE",
+   "titulo": "ESTUDOS EPIDEMIOLÓGICOS: COORTE E CASO CONTROLE l HARDWORK MEDICINA",
+   "canal": "Hardwork Medicina",
+   "canalId": "UCKNS4XequE-8k7IedWDwndQ",
+   "duracao": 479
+  },
   "busca": "Estudo caso-controle retrospectivo — viés de confusão"
  },
  "prev06": {
@@ -499,8 +1202,21 @@
   "numero": 86,
   "tema": "Diabetes gestacional — jejum de 92 a 125 já diagnostica",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17969s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=X8kkmf4Axa4",
+   "titulo": "Aula Resumo ENAMED - Diabetes Mellitus na Gestação",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2586
+  },
   "busca": "Diabetes gestacional — jejum de 92 a 125 já diagnostica"
  },
  "prev07": {
@@ -508,8 +1224,21 @@
   "numero": 87,
   "tema": "Critérios de Bradford Hill — temporalidade como único indispensável",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=18317s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=9G40-36n_sQ",
+   "titulo": "Critérios de Bradford Hill. Como ser um médico melhor?",
+   "canal": "MedicineMe",
+   "canalId": "UC-eeEnc5lwbVQYW9DCJ1KEg",
+   "duracao": 940
+  },
   "busca": "Critérios de Bradford Hill — temporalidade como único indispensável"
  },
  "prev08": {
@@ -517,8 +1246,21 @@
   "numero": 88,
   "tema": "Pré-diabetes — risco cardiovascular e neuropatia",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=18665s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=VEVFP58Lptg",
+   "titulo": "Diabetes Gestacional - Aula de Obstetrícia do Curso Intensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3888
+  },
   "busca": "Pré-diabetes — risco cardiovascular e neuropatia"
  },
  "prev09": {
@@ -526,8 +1268,21 @@
   "numero": 89,
   "tema": "Escolha do teste estatístico — dois grupos independentes",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=bOW00mTUbOY",
+   "titulo": "ESCOLHA DOS TESTE ESTATÍSTICO: Faz diferença ter 1, 2 ou 3 grupos?",
+   "canal": "Canal Pesquise",
+   "canalId": "UC641tc-t7Sh2Xt8ZehW7nSg",
+   "duracao": 301
+  },
   "busca": "Escolha do teste estatístico — dois grupos independentes"
  },
  "prev10": {
@@ -535,8 +1290,21 @@
   "numero": 90,
   "tema": "Aterosclerose subclínica — placa carotídea define alto risco",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=O1Heyj7_3Ys",
+   "titulo": "Seu paciente \"não tem nada\"? Aterosclerose subclínica, obesidade e as novidades do Congresso Europeu",
+   "canal": "CardioEasy Saúde por Dr. Pedro Schwartzmann",
+   "canalId": "UCwg8XKvyKnmAdNWeTp0oyvA",
+   "duracao": 392
+  },
   "busca": "Aterosclerose subclínica — placa carotídea define alto risco"
  },
  "prev11": {
@@ -544,8 +1312,21 @@
   "numero": 92,
   "tema": "Níveis de prevenção — prevenção quaternária no burnout",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20022s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=PqBdYTRIWOs",
+   "titulo": "Saiba sobre os 3 Níveis de Prevenção. Com Dr. Tio Carlão",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2303
+  },
   "busca": "Níveis de prevenção — prevenção quaternária no burnout"
  },
  "prev12": {
@@ -553,8 +1334,21 @@
   "numero": 93,
   "tema": "Saúde da pessoa trans — rastreamento conforme o órgão presente",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20357s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Jh1Tp-CXRqU",
+   "titulo": "Cuidado em Saúde das pessoas trans na Atenção Primária à Saúde",
+   "canal": "SBMFC",
+   "canalId": "UC8TmoR48GtsvQh3GRhHT-0Q",
+   "duracao": 2032
+  },
   "busca": "Saúde da pessoa trans — rastreamento conforme o órgão presente"
  },
  "prev13": {
@@ -562,8 +1356,21 @@
   "numero": 94,
   "tema": "Idoso com queda — exercício multicomponente como conduta principal",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20692s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=3Z1eFPimEhA",
+   "titulo": "Episódio 338 - Queda no Idoso: Da Prevenção ao Tratamento",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 2595
+  },
   "busca": "Idoso com queda — exercício multicomponente como conduta principal"
  },
  "prev14": {
@@ -571,8 +1378,21 @@
   "numero": 95,
   "tema": "Pré-hipertensão e fatores de risco — estratificar o risco global",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=21179s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Qr1WW_hmfsk",
+   "titulo": "Síndromes Hipertensivas na Gestação - Aula de Obstetrícia Curso Intensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3168
+  },
   "busca": "Pré-hipertensão e fatores de risco — estratificar o risco global"
  },
  "prev15": {
@@ -580,8 +1400,21 @@
   "numero": 96,
   "tema": "Obesidade — exercício estruturado como próxima intervenção",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=VYlBx4lsjH8",
+   "titulo": "Resumo de Obesidade na infância e adolescência - Aula de Pediatria para Residência Médica e Revalida",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3154
+  },
   "busca": "Obesidade — exercício estruturado como próxima intervenção"
  },
  "prev16": {
@@ -589,8 +1422,21 @@
   "numero": 97,
   "tema": "Intoxicação por organofosforados — colinesterase e antídotos",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=c4EDquU5nVA",
+   "titulo": "COMO CONDUZIR INTOXICAÇÕES EXÓGENAS DO JEITO CERTO",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 342
+  },
   "busca": "Intoxicação por organofosforados — colinesterase e antídotos"
  },
  "prev17": {
@@ -598,8 +1444,21 @@
   "numero": 98,
   "tema": "DPOC com dispneia persistente — reabilitação pulmonar",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=nIr3b1JSUQ0",
+   "titulo": "DPOC com tosse e dispneia leve, melhor conduta na emergência",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1431
+  },
   "busca": "DPOC com dispneia persistente — reabilitação pulmonar"
  },
  "prev18": {
@@ -607,8 +1466,21 @@
   "numero": 99,
   "tema": "Hepatite A — profilaxia pós-exposição com vacina",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=rU8W0kRAK1o",
+   "titulo": "Aula Resumo ENAMED - Hepatites Virais - com prof. Elio Castro",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2626
+  },
   "busca": "Hepatite A — profilaxia pós-exposição com vacina"
  },
  "prev19": {
@@ -616,8 +1488,21 @@
   "numero": 100,
   "tema": "Sistemas de informação do SUS — o que cada um responde",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=23208s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=x-pgsec5lzA",
+   "titulo": "Sistemas de Informação em Saúde (SIS): Guia Completo e Prático! 📊✅",
+   "canal": "ENFrente Enfermagem Continuada",
+   "canalId": "UCD9kk0EUEtflrRl6TV0lDyA",
+   "duracao": 1177
+  },
   "busca": "Sistemas de informação do SUS — o que cada um responde"
  },
  "prev20": {
@@ -625,8 +1510,21 @@
   "numero": 10,
   "tema": "Acidente de trabalho grave — notificação ao SINAN sem vínculo",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=18142s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=G6mveb5iYKM",
+   "titulo": "O que é TRAUMATISMO craniano? Entenda o que acontece após um acidente!",
+   "canal": "Neurologia e Psiquiatria",
+   "canalId": "UCPSF_i4TthY5-7XMnLjh2jQ",
+   "duracao": 445
+  },
   "busca": "Acidente de trabalho grave — notificação ao SINAN sem vínculo"
  },
  "prev21": {
@@ -634,8 +1532,21 @@
   "numero": 11,
   "tema": "Suspeita de violência contra idoso — notificação obrigatória",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=18649s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=-Rp-vkhZ1ww",
+   "titulo": "MULHER SUSPEITA DE MATAR UM IDOSO DE 74 ANOS é PRESA EM MONTES CLAROS",
+   "canal": "REDEMAISHD",
+   "canalId": "UCaPqH0GDCZnKlFSB910V5OQ",
+   "duracao": 271
+  },
   "busca": "Suspeita de violência contra idoso — notificação obrigatória"
  },
  "prev22": {
@@ -643,8 +1554,21 @@
   "numero": 13,
   "tema": "Acolhimento em saúde mental na APS — escuta, não triagem",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=22064s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=guzHjbv1sIU",
+   "titulo": "Guia de Acolhimento à Crise em Saúde mental na RAPS. | Estação SUS - EP 113.",
+   "canal": "CONASEMS",
+   "canalId": "UCKy854A2wVaBkZO9kAt1w_g",
+   "duracao": 2292
+  },
   "busca": "Acolhimento em saúde mental na APS — escuta, não triagem"
  },
  "prev23": {
@@ -652,8 +1576,21 @@
   "numero": 15,
   "tema": "PNAISM — gênero como construção social",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=iYEAY2SSMkk",
+   "titulo": "Política Nacional de Saúde da Mulher (PNAISM): Aula completa e atualizada 2026 👩‍⚕️📚",
+   "canal": "ENFrente Enfermagem Continuada",
+   "canalId": "UCD9kk0EUEtflrRl6TV0lDyA",
+   "duracao": 2236
+  },
   "busca": "PNAISM — gênero como construção social"
  },
  "prev24": {
@@ -661,8 +1598,21 @@
   "numero": 18,
   "tema": "Conselhos de saúde — caráter deliberativo e composição paritária",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=wtgl_tdMO3M",
+   "titulo": "Conselhos de Saúde - Aula de Legislação do SUS para Concursos",
+   "canal": "Legislação do SUS para Concursos - Geda Valentim",
+   "canalId": "UCflIQ7zFYM8ueer0y2U0qdA",
+   "duracao": 2295
+  },
   "busca": "Conselhos de saúde — caráter deliberativo e composição paritária"
  },
  "prev25": {
@@ -670,8 +1620,21 @@
   "numero": 19,
   "tema": "Prevalência, incidência e letalidade — a relação com a duração",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=20586s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=QTjmKQr4zy4",
+   "titulo": "Indicadores de Saúde: morbidade (incidência e prevalência), mortalidade e letalidade",
+   "canal": "AprovaVetSUS",
+   "canalId": "UCsLuqqrC8KREeOMvgctoLMg",
+   "duracao": 1030
+  },
   "busca": "Prevalência, incidência e letalidade — a relação com a duração"
  },
  "prev26": {
@@ -679,8 +1642,21 @@
   "numero": 81,
   "tema": "Políticas de saúde de 1974 a 1979 — a criação do Inamps",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=PKp0eZugepk",
+   "titulo": "Governo Geisel (1974-1979) e o Governo Figueiredo (1979-1985).",
+   "canal": "Marcos Pereira",
+   "canalId": "UCOluQk7yneYHNK8ql8U8Nlw",
+   "duracao": 560
+  },
   "busca": "Políticas de saúde de 1974 a 1979 — a criação do Inamps"
  },
  "prev27": {
@@ -688,7 +1664,14 @@
   "numero": 82,
   "tema": "De onde vem a frase — Lei 8.080, o dever do Estado",
   "rotulo": "UNESP 2026",
-  "q": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
   "m": null,
   "busca": "De onde vem a frase — Lei 8.080, o dever do Estado"
  },
@@ -697,8 +1680,21 @@
   "numero": 84,
   "tema": "Equipe de Saúde da Família — composição mínima e adicional",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=WNqgtaZMyBs",
+   "titulo": "Equipe de Saúde da Família: Composição Mínima e Regras (Aula Completa) 🏥🎯",
+   "canal": "ENFrente Enfermagem Continuada",
+   "canalId": "UCD9kk0EUEtflrRl6TV0lDyA",
+   "duracao": 1454
+  },
   "busca": "Equipe de Saúde da Família — composição mínima e adicional"
  },
  "prev29": {
@@ -706,8 +1702,21 @@
   "numero": 86,
   "tema": "Declaração de óbito — a quem não se entrega o formulário",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=NFoODE6NREM",
+   "titulo": "Questões Comentadas de Declaração de Óbito - Aula de Medicina Preventiva para Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2386
+  },
   "busca": "Declaração de óbito — a quem não se entrega o formulário"
  },
  "prev30": {
@@ -715,8 +1724,21 @@
   "numero": 89,
   "tema": "Infectividade, patogenicidade, virulência — as propriedades do agente",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=5FvHiO0jl4E",
+   "titulo": "PATOGENICIDADE BACTERIANA - MICROBIOLOGIA MÉDICA 2",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 592
+  },
   "busca": "Infectividade, patogenicidade, virulência — as propriedades do agente"
  },
  "prev31": {
@@ -724,8 +1746,21 @@
   "numero": 91,
   "tema": "Expostos e não expostos seguidos no tempo — estudo de coorte",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=n4-7tCnN-3E",
+   "titulo": "As mudanças bruscas no tempo e a saúde dos que estão mais expostos: as pessoas em situação de rua 🎙",
+   "canal": "TVT News",
+   "canalId": "UCaMV8Q0HjPui6jq3lWEVLbQ",
+   "duracao": 350
+  },
   "busca": "Expostos e não expostos seguidos no tempo — estudo de coorte"
  },
  "prev32": {
@@ -733,8 +1768,21 @@
   "numero": 92,
   "tema": "Quando adiar uma vacina — e quando não",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=RgdynwY4zag",
+   "titulo": "Quando adiar uma vacina",
+   "canal": "Kirky Dejane",
+   "canalId": "UCuRYL2ji-7VofwxEloh3aWA",
+   "duracao": 986
+  },
   "busca": "Quando adiar uma vacina — e quando não"
  },
  "prev33": {
@@ -742,7 +1790,14 @@
   "numero": 93,
   "tema": "Recém-nascido contato de mãe bacilífera — rifampicina antes da BCG",
   "rotulo": "UNESP 2026",
-  "q": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
   "m": null,
   "busca": "Recém-nascido contato de mãe bacilífera — rifampicina antes da BCG"
  },
@@ -751,8 +1806,21 @@
   "numero": 94,
   "tema": "Redes de Atenção à Saúde e linhas de cuidado",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=oC-Qkmf5bdw",
+   "titulo": "Redes de Atenção à Saúde (RAS): Guia Definitivo e Atualizado! 🚀",
+   "canal": "ENFrente Enfermagem Continuada",
+   "canalId": "UCD9kk0EUEtflrRl6TV0lDyA",
+   "duracao": 1026
+  },
   "busca": "Redes de Atenção à Saúde e linhas de cuidado"
  },
  "prev35": {
@@ -760,8 +1828,21 @@
   "numero": 96,
   "tema": "Violência contra a mulher — determinantes sociais e ação intersetorial",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=5iP0fLAFa8o",
+   "titulo": "Tipos de violência contra a mulher - Lei Maria da Penha: Serviço Social para Concursos",
+   "canal": "Serviço Social para Concursos com Shellen",
+   "canalId": "UCjXgKMbEz7BBU95Dk1bNCDw",
+   "duracao": 1184
+  },
   "busca": "Violência contra a mulher — determinantes sociais e ação intersetorial"
  },
  "prev36": {
@@ -769,8 +1850,21 @@
   "numero": 97,
   "tema": "Letalidade — óbitos pela doença dividido pelos casos da doença",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=HQOdbwA_u4Y",
+   "titulo": "Indicadores de Mortalidade (Medidas de Saúde Coletiva Parte 2) - Curso Extensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 4555
+  },
   "busca": "Letalidade — óbitos pela doença dividido pelos casos da doença"
  },
  "prev37": {
@@ -778,8 +1872,21 @@
   "numero": 100,
   "tema": "Caso-controle com registros eletrônicos — menos viés de memória",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=PDCLrzAs_jg",
+   "titulo": "Caso prático de controle de tensão nos sistemas elétricos",
+   "canal": "Elétrica sem Limites",
+   "canalId": "UC7WA2AbIA7Fr2rs1ICS_7cg",
+   "duracao": 335
+  },
   "busca": "Caso-controle com registros eletrônicos — menos viés de memória"
  },
  "prev38": {
@@ -787,8 +1894,21 @@
   "numero": 61,
   "tema": "Delirium na idosa — anticolinérgicos, constipação e reorientação",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=cbm4VCvhcOA",
+   "titulo": "DELIRIUM NO IDOSO — Diagnóstico Diferencial, Fisiopatologia e Manejo Clínico",
+   "canal": "João Victor MED - Aulas e conteúdos sobre medicina",
+   "canalId": "UCVp4jhw5g1YRozassUW-E8A",
+   "duracao": 1385
+  },
   "busca": "Delirium na idosa — anticolinérgicos, constipação e reorientação"
  },
  "prev39": {
@@ -796,8 +1916,21 @@
   "numero": 66,
   "tema": "Adolescente que quer parar de fumar — avaliar a dependência e o grupo",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=RskRB5xiH7M",
+   "titulo": "PARAR DE FUMAR - Dr. Felipe Batistela (Psiquiatra Doutorando em Naturopatia)",
+   "canal": "PodPeople - Ana Beatriz Barbosa",
+   "canalId": "UC5VvsTwsyKWMZSQtt1MPCEw",
+   "duracao": 241
+  },
   "busca": "Adolescente que quer parar de fumar — avaliar a dependência e o grupo"
  },
  "prev40": {
@@ -805,8 +1938,21 @@
   "numero": 69,
   "tema": "Fibromialgia na idosa — o plano multiprofissional vem antes do remédio",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=12709s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=sFnHeOJ43Bk",
+   "titulo": "Fibromialgia em Idosos: O Que é Essa Doença? O Que a Cuidadora Precisa Saber?",
+   "canal": "Erlaine Rezende",
+   "canalId": "UCb4z4N8aIr2ZsrJ_U8jBHrQ",
+   "duracao": 1962
+  },
   "busca": "Fibromialgia na idosa — o plano multiprofissional vem antes do remédio"
  },
  "prev41": {
@@ -814,7 +1960,14 @@
   "numero": 70,
   "tema": "Contato de bacilífero com PT de 5 mm — tratar a infecção latente",
   "rotulo": "Einstein 2026",
-  "q": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=13155s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
   "m": null,
   "busca": "Contato de bacilífero com PT de 5 mm — tratar a infecção latente"
  },
@@ -823,8 +1976,21 @@
   "numero": 71,
   "tema": "Obesidade com insegurança alimentar — prioridade intersetorial",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=13639s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Rg_j5L69Qws",
+   "titulo": "OBESIDADE, DESNUTRIÇÃO E INSEGURANÇA ALIMENTAR: O Retrato Nutricional de Porto Alegre ",
+   "canal": "Thaiane Soares",
+   "canalId": "UCzQ_hWkYOCKG_DZTW9d7u0g",
+   "duracao": 250
+  },
   "busca": "Obesidade com insegurança alimentar — prioridade intersetorial"
  },
  "prev43": {
@@ -832,8 +1998,21 @@
   "numero": 75,
   "tema": "Teleinterconsulta — responsabilidade solidária dos dois médicos",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=14946s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=LPSvkUmNDes",
+   "titulo": "ATUALIZAÇÃO: Telessaude no Âmbito do SUS - Medicina Preventiva",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 1573
+  },
   "busca": "Teleinterconsulta — responsabilidade solidária dos dois médicos"
  },
  "prev44": {
@@ -841,8 +2020,21 @@
   "numero": 61,
   "tema": "Dengue com sinal de alarme — grupo C, hidratação venosa já",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3055s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=oRP1W1UJv7k",
+   "titulo": "Dengue com sinais de alarme e dengue grave: como fazer o diagnóstico?",
+   "canal": "Pediatria Urgente",
+   "canalId": "UCkSVaur4vSgvr68ed9Vx_XA",
+   "duracao": 370
+  },
   "busca": "Dengue com sinal de alarme — grupo C, hidratação venosa já"
  },
  "prev45": {
@@ -850,8 +2042,21 @@
   "numero": 62,
   "tema": "Gestante em situação de rua — cadastro, assistência social e rede",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3237s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=D4b-Z3kDeHk",
+   "titulo": "Relato de experiência: Sensibilização de profissionais de saúde para o cuidado a gestante de rua",
+   "canal": "TV UFBA",
+   "canalId": "UCWZaC30pP5Jap7MBxKaUTIQ",
+   "duracao": 277
+  },
   "busca": "Gestante em situação de rua — cadastro, assistência social e rede"
  },
  "prev46": {
@@ -859,8 +2064,21 @@
   "numero": 63,
   "tema": "Violência patrimonial — nomear, orientar direitos, planejar junto",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3412s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=HNmLErdS3DE",
+   "titulo": "O que é VIOLÊNCIA PATRIMONIAL? - VEDA 19",
+   "canal": "Sabrina Donatti",
+   "canalId": "UCkOgnmI3x3E1LvDawyd4MnQ",
+   "duracao": 255
+  },
   "busca": "Violência patrimonial — nomear, orientar direitos, planejar junto"
  },
  "prev47": {
@@ -868,8 +2086,21 @@
   "numero": 66,
   "tema": "PrEP no adolescente — a partir de 15 anos e 35 kg",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=10230s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=kwGTluEL47c",
+   "titulo": "15 - PrEP para Adolescentes",
+   "canal": "Sociedade Paulista de Infectologia",
+   "canalId": "UCnY7jimSIzfmEitUE7dzULw",
+   "duracao": 1152
+  },
   "busca": "PrEP no adolescente — a partir de 15 anos e 35 kg"
  },
  "prev48": {
@@ -877,8 +2108,21 @@
   "numero": 68,
   "tema": "Abstinência alcoólica leve no CAPS — diazepam, tiamina e retorno breve",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=394s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=INFdjiTC-c4",
+   "titulo": "Como Superar a Abstinência Alcoólica ao Parar de Beber",
+   "canal": "Psicólogo Nilton Campos",
+   "canalId": "UC6d31Y8B2k-66g_i-nlCTag",
+   "duracao": 511
+  },
   "busca": "Abstinência alcoólica leve no CAPS — diazepam, tiamina e retorno breve"
  },
  "prev49": {
@@ -886,8 +2130,21 @@
   "numero": 69,
   "tema": "Ensaio clínico bem conduzido — grupos parecidos no ponto de partida",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=5437s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=pjx121Mjs_w",
+   "titulo": "Ensaio Clínico Randomizado |Liga Acadêmica de Saúde Mental e Psiquiatria (LASMP-UFTM)",
+   "canal": "LASMP UFTM",
+   "canalId": "UChp8OeVUODZWHhjhyjEiN1Q",
+   "duracao": 1281
+  },
   "busca": "Ensaio clínico bem conduzido — grupos parecidos no ponto de partida"
  },
  "prev50": {
@@ -895,8 +2152,21 @@
   "numero": 70,
   "tema": "Meta-análise — cada estudo pesa conforme a sua precisão",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=5626s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=QjJvfHaSGLA",
+   "titulo": "Metanálise e revisões sistemáticas com o Dr. Anderson Barnabe - Resumão MedCof EP. 16",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 3126
+  },
   "busca": "Meta-análise — cada estudo pesa conforme a sua precisão"
  },
  "cir01": {
@@ -904,8 +2174,21 @@
   "numero": 22,
   "tema": "Insuficiência adrenal aguda no perioperatório",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=oiDFBBihfCw",
+   "titulo": "Insuficiencia Adrenal - Fisiopatología, Clínica, Diagnóstico, Tratamiento y Crisis Adrenal",
+   "canal": "Tutorías Medicina Interna",
+   "canalId": "UCCGcDXaTo6970DZn9mwUXhw",
+   "duracao": 2538
+  },
   "busca": "Insuficiência adrenal aguda no perioperatório"
  },
  "cir02": {
@@ -913,8 +2196,21 @@
   "numero": 24,
   "tema": "Hemorragia digestiva alta — Forrest IIa e terapia endoscópica dual",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=CiIiLQ--4cY",
+   "titulo": "Hemorragia Digestiva Alta: Conduta no Plantão e Quando Fazer Ácido Tranexâmico",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 821
+  },
   "busca": "Hemorragia digestiva alta — Forrest IIa e terapia endoscópica dual"
  },
  "cir03": {
@@ -922,8 +2218,21 @@
   "numero": 25,
   "tema": "Úlcera péptica sangrante — quando indicar cirurgia",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2070s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=JFBS3qVzBuY",
+   "titulo": "COMO ATENDER HDA VARICOSA NO PA",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 551
+  },
   "busca": "Úlcera péptica sangrante — quando indicar cirurgia"
  },
  "cir04": {
@@ -931,8 +2240,21 @@
   "numero": 26,
   "tema": "Síndrome de Mallory-Weiss — evolução autolimitada",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2573s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Uel9YBlYAfo",
+   "titulo": "Gastroenterologia-HDA - Sindrome de Mallory Weiss e Lesão de Dieulafoy",
+   "canal": "Gustavo",
+   "canalId": "UCuxkgccfgE3cbO3917qn67g",
+   "duracao": 523
+  },
   "busca": "Síndrome de Mallory-Weiss — evolução autolimitada"
  },
  "cir05": {
@@ -940,8 +2262,21 @@
   "numero": 27,
   "tema": "Obstrução após bypass gástrico — hérnia interna, cirurgia precoce",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2788s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=EQ_9IyZeBoA",
+   "titulo": "Bowel obstruction after gastric bypass - Victor Sai | Mesenteric Internal Hernia",
+   "canal": "Abdominal Radiology Case Conference",
+   "canalId": "UCFLQeiXlOSpCSz-gzqo_VRw",
+   "duracao": 243
+  },
   "busca": "Obstrução após bypass gástrico — hérnia interna, cirurgia precoce"
  },
  "cir06": {
@@ -949,8 +2284,21 @@
   "numero": 28,
   "tema": "Gastroparesia diabética — fisiopatologia autonômica",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3418s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Bg9UYHAqVYA",
+   "titulo": "Gastroparesia diabética - qual a importância atual dessa complicação",
+   "canal": "Dra. Suzana Vieira - Endocrinologista",
+   "canalId": "UCV_gVvQb7opKZoKomSp3RKA",
+   "duracao": 282
+  },
   "busca": "Gastroparesia diabética — fisiopatologia autonômica"
  },
  "cir07": {
@@ -958,8 +2306,21 @@
   "numero": 29,
   "tema": "Profilaxia de úlcera de estresse na UTI — fatores de risco",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3765s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=GxBxVrewzx0",
+   "titulo": "Quem precisa de Profilaxia de úlcera de estresse? - TdC bolus",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 840
+  },
   "busca": "Profilaxia de úlcera de estresse na UTI — fatores de risco"
  },
  "cir08": {
@@ -967,8 +2328,21 @@
   "numero": 30,
   "tema": "Alteração do hábito intestinal no idoso — câncer de retossigmoide",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3963s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=ai6MSTmv8qE",
+   "titulo": "6 Hábitos para Prevenir o Câncer de Intestino | 37% Poderiam ser Evitados",
+   "canal": "Dr. Eduardo Usuy Jr. (drusuygastro)",
+   "canalId": "UCyht62EkW7qAX01-VHGPDFQ",
+   "duracao": 356
+  },
   "busca": "Alteração do hábito intestinal no idoso — câncer de retossigmoide"
  },
  "cir09": {
@@ -976,8 +2350,21 @@
   "numero": 31,
   "tema": "Doença hemorroidária grau II — ligadura elástica",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=4436s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=wuYsaacjQBU",
+   "titulo": "Entenda as causas e como tratar a doença hemorroidária",
+   "canal": "Band Jornalismo",
+   "canalId": "UCoa-D_VfMkFrCYodrOC9-mA",
+   "duracao": 1319
+  },
   "busca": "Doença hemorroidária grau II — ligadura elástica"
  },
  "cir10": {
@@ -985,8 +2372,21 @@
   "numero": 32,
   "tema": "Doença pilonidal — diagnóstico diferencial da região sacrococcígea",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=4727s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=wKETtKxlq5c",
+   "titulo": "O que causa um cisto pilonidal?",
+   "canal": "Dr. Marcelo Werneck",
+   "canalId": "UCgVq4fDCyVHxI3XplC7Z4mg",
+   "duracao": 588
+  },
   "busca": "Doença pilonidal — diagnóstico diferencial da região sacrococcígea"
  },
  "cir11": {
@@ -994,8 +2394,21 @@
   "numero": 33,
   "tema": "Condiloma anal extenso — tratamento e rastreio de IST",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5181s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=EbcFa59fO1c",
+   "titulo": "O que é condiloma?",
+   "canal": "Renata Massafera",
+   "canalId": "UCwMN0H_-bxpOjjqXAZC6TEw",
+   "duracao": 469
+  },
   "busca": "Condiloma anal extenso — tratamento e rastreio de IST"
  },
  "cir12": {
@@ -1003,8 +2416,21 @@
   "numero": 34,
   "tema": "Anatomia da veia porta — formação e ramos",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5339s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=CZOIMKZ2WMI",
+   "titulo": "Anatomia da veia porta, colédoco, tronco celíaco, veias hepáticas e segmentação hepática",
+   "canal": "ULTRASSONOGRAFIA & ARTE",
+   "canalId": "UCBRhI4fYWgwQipMR8XBB_Pg",
+   "duracao": 2421
+  },
   "busca": "Anatomia da veia porta — formação e ramos"
  },
  "cir13": {
@@ -1012,8 +2438,21 @@
   "numero": 35,
   "tema": "Hemorragia varicosa maciça — balão de Sengstaken-Blakemore",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5498s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=tW46vMDdcQw",
+   "titulo": "TdC 354: Hemorragia Digestiva Alta Varicosa",
+   "canal": "Ta de Clinicagem",
+   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
+   "duracao": 1160
+  },
   "busca": "Hemorragia varicosa maciça — balão de Sengstaken-Blakemore"
  },
  "cir14": {
@@ -1021,8 +2460,21 @@
   "numero": 37,
   "tema": "Pancreatite crônica — insuficiência exócrina e endócrina",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=JJmfkblvm7o",
+   "titulo": "Pancreatite Crônica: O Que Você Precisa Saber. Com Dr. Rafael Bandeira",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1365
+  },
   "busca": "Pancreatite crônica — insuficiência exócrina e endócrina"
  },
  "cir15": {
@@ -1030,8 +2482,21 @@
   "numero": 38,
   "tema": "Derrame pleural — critérios de Light e encarceramento pulmonar",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6199s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=XlWSQd2vmKM",
+   "titulo": "Aula Resumo ENAMED - Derrame Pleural",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3211
+  },
   "busca": "Derrame pleural — critérios de Light e encarceramento pulmonar"
  },
  "cir16": {
@@ -1039,8 +2504,21 @@
   "numero": 39,
   "tema": "Pneumotórax hipertensivo no trauma — descompressão imediata",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6585s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=4aaxb8N1cH0",
+   "titulo": "Pneumotórax hipertensivo na emergência | punção e dreno passo a passo",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 841
+  },
   "busca": "Pneumotórax hipertensivo no trauma — descompressão imediata"
  },
  "cir17": {
@@ -1048,8 +2526,21 @@
   "numero": 40,
   "tema": "Via aérea no trauma com suspeita de lesão cervical — jaw-thrust",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6797s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=0X4hbHiJ6CU",
+   "titulo": "How to Intubate a Trauma Patient with Suspected Cervical Spine Injury? Video GlideScope MILS Bougie",
+   "canal": "Nikolay Yusupov",
+   "canalId": "UCbjPcdPjbb4wRrQz_vGlWSg",
+   "duracao": 427
+  },
   "busca": "Via aérea no trauma com suspeita de lesão cervical — jaw-thrust"
  },
  "cir18": {
@@ -1057,8 +2548,21 @@
   "numero": 61,
   "tema": "Apendicite complicada com base isquêmica — sutura de Parker-Kerr",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15394s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=SPvy1NKFem0",
+   "titulo": "APENDICITE - DIAGNÓSTICO E TRATAMENTO: TEMAS QUENTES",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2721
+  },
   "busca": "Apendicite complicada com base isquêmica — sutura de Parker-Kerr"
  },
  "cir19": {
@@ -1066,8 +2570,21 @@
   "numero": 62,
   "tema": "Hérnia inguinal — técnicas com e sem tensão",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15701s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=fi7c6ggd5Ks",
+   "titulo": "Anatomia da parede abdominal e hérnia inguinal com o Dr. Henrique Lunardelli",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2116
+  },
   "busca": "Hérnia inguinal — técnicas com e sem tensão"
  },
  "cir20": {
@@ -1075,8 +2592,21 @@
   "numero": 69,
   "tema": "Trauma abdominal fechado estável com FAST positivo — tomografia",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15867s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=_adz56x3di4",
+   "titulo": "Aula 6 - FAST e E-FAST com o Dr. Henrique Lunardelli",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1857
+  },
   "busca": "Trauma abdominal fechado estável com FAST positivo — tomografia"
  },
  "cir21": {
@@ -1084,8 +2614,21 @@
   "numero": 70,
   "tema": "Hematoma retroperitoneal traumático — zonas e exploração",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=16024s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=69j2-sZwZOM",
+   "titulo": "Hematoma Retroperitoneal | Aula",
+   "canal": "Gabriel Sandrin",
+   "canalId": "UCimsPs38u1PvEDR9raCcLtg",
+   "duracao": 294
+  },
   "busca": "Hematoma retroperitoneal traumático — zonas e exploração"
  },
  "cir22": {
@@ -1093,8 +2636,21 @@
   "numero": 71,
   "tema": "Videolaparoscopia — contraindicação pela doença cardiopulmonar grave",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=OD3ByJKQzdE",
+   "titulo": "Instrumentação em Videolaparoscopia - Parte I",
+   "canal": "GUILHERME FONSECA",
+   "canalId": "UCNn_XW3Vy5qY0cHZNLKwSWw",
+   "duracao": 1425
+  },
   "busca": "Videolaparoscopia — contraindicação pela doença cardiopulmonar grave"
  },
  "cir23": {
@@ -1102,8 +2658,21 @@
   "numero": 74,
   "tema": "Trauma de pâncreas — classificação da AAST pelo ducto",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=16609s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=zkOi6wCPt98",
+   "titulo": "Trauma de pâncreas e rim: 40 dias entre drenagens e reoperação",
+   "canal": "Cirurgiando Geral ",
+   "canalId": "UCA7MfqfiYBcqTo_Lesh1HDw",
+   "duracao": 3464
+  },
   "busca": "Trauma de pâncreas — classificação da AAST pelo ducto"
  },
  "cir24": {
@@ -1111,7 +2680,14 @@
   "numero": 78,
   "tema": "Câncer de reto distal T3N1 — neoadjuvância antes da cirurgia",
   "rotulo": "SUS-SP 2021",
-  "q": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
   "m": null,
   "busca": "Câncer de reto distal T3N1 — neoadjuvância antes da cirurgia"
  },
@@ -1120,8 +2696,21 @@
   "numero": 79,
   "tema": "Doença diverticular — fatores de risco de perfuração",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=dPdLY4ew19I",
+   "titulo": "Intensivo Residência Médica - Diverticulite Aguda - com profª. Renatha Paiva",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2395
+  },
   "busca": "Doença diverticular — fatores de risco de perfuração"
  },
  "cir26": {
@@ -1129,8 +2718,21 @@
   "numero": 61,
   "tema": "Trauma arterial do joelho — o enxerto é a safena do outro lado",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=32FI6YfcPe8",
+   "titulo": "Água no Joelho: As Principais CAUSAS e TRATAMENTOS para o Derrame Articular [Aula Completa]",
+   "canal": "Dr. Oliver Ulson",
+   "canalId": "UC-pXRYT75LUJ7jzvRCHPARQ",
+   "duracao": 797
+  },
   "busca": "Trauma arterial do joelho — o enxerto é a safena do outro lado"
  },
  "cir27": {
@@ -1138,8 +2740,21 @@
   "numero": 62,
   "tema": "Isquemia e reperfusão — radicais livres, leucócitos, membranas",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=yD6RwX0zzew",
+   "titulo": "Isquemia e Reperfusão",
+   "canal": "Lina Zingali",
+   "canalId": "UCJFGs5Fswgbnxew6up__0Cg",
+   "duracao": 600
+  },
   "busca": "Isquemia e reperfusão — radicais livres, leucócitos, membranas"
  },
  "cir28": {
@@ -1147,8 +2762,21 @@
   "numero": 63,
   "tema": "HPB com sintomas moderados — começar pelo alfabloqueador",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=1188s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=z8iv4gylxcM",
+   "titulo": "Hiperplasia Prostática Benigna: Causas, Sintomas e Tratamentos.",
+   "canal": "Doses de Saúde",
+   "canalId": "UCFQaKjkU5jXRt5XSWKsyODA",
+   "duracao": 292
+  },
   "busca": "HPB com sintomas moderados — começar pelo alfabloqueador"
  },
  "cir29": {
@@ -1156,8 +2784,21 @@
   "numero": 64,
   "tema": "Cálculo ureteral de 5 mm — terapia expulsiva",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=1425s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=jJ1GMWzw5gA",
+   "titulo": "Essa Medicação Ajuda a Expelir Cálculo Renal!",
+   "canal": "Dr. Tiago Guirro - Urologia e Saúde",
+   "canalId": "UCQGztfVPuif4M8HVaMwM3HQ",
+   "duracao": 294
+  },
   "busca": "Cálculo ureteral de 5 mm — terapia expulsiva"
  },
  "cir30": {
@@ -1165,8 +2806,21 @@
   "numero": 65,
   "tema": "Sangue no meato após trauma perineal — uretrografia antes da sonda",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Z5_hcaApr2k",
+   "titulo": "Aula: Sonda Uretral após uma cirurgia de Próstata | Cuidados para uma recuperação mais confortável.",
+   "canal": "Dr. Bruno Benigno - Urologista e Oncologista - SP",
+   "canalId": "UCaa9SAzVycyJIN9FEizlCuQ",
+   "duracao": 559
+  },
   "busca": "Sangue no meato após trauma perineal — uretrografia antes da sonda"
  },
  "cir31": {
@@ -1174,8 +2828,21 @@
   "numero": 66,
   "tema": "Nódulo de tireoide — somar os pontos do ACR TI-RADS",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=sOF71Ssvm7Y",
+   "titulo": "Hipertireoidismo | Revisando Endocrinologia com o Estratégia MED",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2515
+  },
   "busca": "Nódulo de tireoide — somar os pontos do ACR TI-RADS"
  },
  "cir32": {
@@ -1183,8 +2850,21 @@
   "numero": 67,
   "tema": "Carcinoma de amígdala em jovem não fumante — HPV",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=MqlUCz3m68I",
+   "titulo": "HPV 16 positivo: o que fazer?",
+   "canal": "Dra Maria Emília Ferreira De Barba",
+   "canalId": "UC8bnbAXbripNIQZYeDrHufQ",
+   "duracao": 249
+  },
   "busca": "Carcinoma de amígdala em jovem não fumante — HPV"
  },
  "cir33": {
@@ -1192,8 +2872,21 @@
   "numero": 69,
   "tema": "Complicações mecânicas do infarto que vão para a cirurgia",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Oa47c2uYP9E",
+   "titulo": "Complicações mecânicas do Infarto agudo do miocárdio | Dr. Lucas França",
+   "canal": "CETRUS - Educação Médica",
+   "canalId": "UCfAufHQxZXgJr_tuPpOpHJQ",
+   "duracao": 686
+  },
   "busca": "Complicações mecânicas do infarto que vão para a cirurgia"
  },
  "cir34": {
@@ -1201,8 +2894,21 @@
   "numero": 76,
   "tema": "Necrose, crepitação e toxemia no períneo — gangrena de Fournier",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=3AKGiPYWzXE",
+   "titulo": "FASCIITE NECROTIZANTE - Dr. Guilherme Alquarone Salzstein",
+   "canal": "Hospital Universitário - USP ",
+   "canalId": "UCnHjIdhovqpHmHZzwjaXhUA",
+   "duracao": 3944
+  },
   "busca": "Necrose, crepitação e toxemia no períneo — gangrena de Fournier"
  },
  "cir35": {
@@ -1210,8 +2916,21 @@
   "numero": 78,
   "tema": "Hematoquezia volumosa na idosa — doença diverticular",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=4275s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=xYcM55k8k2M",
+   "titulo": "Rastreio de câncer colorretal em adulto com hematoquezia Investigação diagnóstica inicial.",
+   "canal": "Alvo Revalida",
+   "canalId": "UCjg_WjHDta6IfM2ZsV4Ev-g",
+   "duracao": 553
+  },
   "busca": "Hematoquezia volumosa na idosa — doença diverticular"
  },
  "cir36": {
@@ -1219,8 +2938,21 @@
   "numero": 80,
   "tema": "Ferimento torácico aspirativo — o curativo de três pontas do ATLS",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Xp5BmnnKIqI",
+   "titulo": "Curativo em ferimento aspirativo de tórax",
+   "canal": "Instrutor Washington Freitas",
+   "canalId": "UCHAv5ijD7EgJt_O-f9idWJQ",
+   "duracao": 336
+  },
   "busca": "Ferimento torácico aspirativo — o curativo de três pontas do ATLS"
  },
  "cir37": {
@@ -1228,8 +2960,21 @@
   "numero": 16,
   "tema": "Diverticulite aguda — tomografia antes de tratar",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=eTCwi14KL2A",
+   "titulo": "Diverticulite Aguda - Aula de Cirurgia do Curso Extensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 4572
+  },
   "busca": "Diverticulite aguda — tomografia antes de tratar"
  },
  "cir38": {
@@ -1237,8 +2982,21 @@
   "numero": 19,
   "tema": "Disfagia progressiva com emagrecimento — endoscopia primeiro",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=uaigLHa-n68",
+   "titulo": "Disfagia (dificuldade para engolir): o que é, como identificar e como tratar?",
+   "canal": "Dra. Larissa Vilela",
+   "canalId": "UCZFBOG9Zkeo0Lv9YiFY5Jyw",
+   "duracao": 519
+  },
   "busca": "Disfagia progressiva com emagrecimento — endoscopia primeiro"
  },
  "cir39": {
@@ -1246,8 +3004,21 @@
   "numero": 22,
   "tema": "Ferida infectada com necrose — desbridar e antibiótico venoso",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2218s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Nqdz4hNh1U0",
+   "titulo": "PADRÕES DE NECROSE TECIDUAL - PATOLOGIA 37",
+   "canal": "Facilitando a Medicina",
+   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
+   "duracao": 926
+  },
   "busca": "Ferida infectada com necrose — desbridar e antibiótico venoso"
  },
  "cir40": {
@@ -1255,8 +3026,21 @@
   "numero": 23,
   "tema": "Profilaxia antibiótica cirúrgica — até uma hora antes da incisão",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2464s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=E4N0FnGI9IY",
+   "titulo": "🎙MANDICAST ODONTOLOGIA #58 –  Profilaxia antibiótica cirúrgica nas clínicas odontológicas.",
+   "canal": "Faculdade São Leopoldo Mandic",
+   "canalId": "UClx774EbaBecptaAvw00n0A",
+   "duracao": 1114
+  },
   "busca": "Profilaxia antibiótica cirúrgica — até uma hora antes da incisão"
  },
  "cir41": {
@@ -1264,8 +3048,21 @@
   "numero": 24,
   "tema": "FAST positivo em choque compensado — cristaloide e o cirurgião",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2643s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=H20xUkSqj4A",
+   "titulo": "Choque hemorrágico: conduta inicial e transfusão maciça",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 985
+  },
   "busca": "FAST positivo em choque compensado — cristaloide e o cirurgião"
  },
  "cir42": {
@@ -1273,8 +3070,21 @@
   "numero": 25,
   "tema": "Queimadura de face em ambiente fechado — intubar cedo",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=3221s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=bIM8H6wPejs",
+   "titulo": "QUEIMADURAS: O QUE FAZER, COMO AVALIAR O GRAU, SINAIS DE ALERTA E DICAS PARA EVITAR",
+   "canal": "DOUTOR AJUDA",
+   "canalId": "UC1Nm7gQCcGvgLyVcGTXp-Ww",
+   "duracao": 649
+  },
   "busca": "Queimadura de face em ambiente fechado — intubar cedo"
  },
  "cir43": {
@@ -1282,8 +3092,21 @@
   "numero": 28,
   "tema": "Tumor de pâncreas ressecável, paciente inoperável — paliar a bile",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=3933s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=iQ2RxV6JCw4",
+   "titulo": "Tumor no Pâncreas - Duodenopancreatectomia",
+   "canal": "Dr. Marcelo Gonçalves",
+   "canalId": "UCHf7yiZxfiSoK6eD4QR3EAg",
+   "duracao": 290
+  },
   "busca": "Tumor de pâncreas ressecável, paciente inoperável — paliar a bile"
  },
  "cir44": {
@@ -1291,8 +3114,21 @@
   "numero": 16,
   "tema": "Pancreatite aguda grave — jejum, ringer lactato e analgesia",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12034s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=qu-8pbkbHOg",
+   "titulo": "Pancreatite aguda na emergência: diagnóstico e conduta",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 1369
+  },
   "busca": "Pancreatite aguda grave — jejum, ringer lactato e analgesia"
  },
  "cir45": {
@@ -1300,8 +3136,21 @@
   "numero": 21,
   "tema": "Pneumotórax hipertensivo no trauma — descomprimir antes de tudo",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=4aaxb8N1cH0",
+   "titulo": "Pneumotórax hipertensivo na emergência | punção e dreno passo a passo",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 841
+  },
   "busca": "Pneumotórax hipertensivo no trauma — descomprimir antes de tudo"
  },
  "cir46": {
@@ -1309,8 +3158,21 @@
   "numero": 22,
   "tema": "TCE que piora para Glasgow 8 — intubar e transferir, sem atrasar",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=13416s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=f1lL9MIxnHA",
+   "titulo": "Escala de coma de glasgow - Semiologia do ZERO",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 398
+  },
   "busca": "TCE que piora para Glasgow 8 — intubar e transferir, sem atrasar"
  },
  "cir47": {
@@ -1318,8 +3180,21 @@
   "numero": 25,
   "tema": "Cálculo biliar na criança — pensar em hemólise crônica",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=wD2QbtBiztE",
+   "titulo": "Pedra na vesícula (cálculos biliares) e colecistectomia",
+   "canal": "Anatomia e etc. com Natalia Reinecke",
+   "canalId": "UCK3sW3_2AqB0NQ9E_vwAeEQ",
+   "duracao": 669
+  },
   "busca": "Cálculo biliar na criança — pensar em hemólise crônica"
  },
  "cir48": {
@@ -1327,8 +3202,21 @@
   "numero": 27,
   "tema": "Lesão subepitelial gástrica — a biópsia comum não alcança",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12410s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=jEFws4axNh0",
+   "titulo": "SEMANA HIIT ENDOSCOPIA Aula 03: Ecoendoscopia",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1514
+  },
   "busca": "Lesão subepitelial gástrica — a biópsia comum não alcança"
  },
  "cir49": {
@@ -1336,8 +3224,21 @@
   "numero": 28,
   "tema": "Rastreamento do câncer colorretal — a colonoscopia diagnostica e trata",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12618s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=xPUt2zfW9i8",
+   "titulo": "Atualização: Novo Rastreamento do Câncer de Cólon",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 1902
+  },
   "busca": "Rastreamento do câncer colorretal — a colonoscopia diagnostica e trata"
  },
  "cir50": {
@@ -1345,8 +3246,21 @@
   "numero": 29,
   "tema": "Insuficiência venosa crônica — CEAP C3 e o tratamento cirúrgico",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=MJ5_ujAErZU",
+   "titulo": "Trombose Venosa Profunda - Revisando com Estratégia MED | Aula de Cirurgia para Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2472
+  },
   "busca": "Insuficiência venosa crônica — CEAP C3 e o tratamento cirúrgico"
  },
  "go01": {
@@ -1354,8 +3268,21 @@
   "numero": 61,
   "tema": "Doença trofoblástica gestacional — mola completa",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7333s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=OgtAaKAT6bo",
+   "titulo": "GO Cast #05 | O que saber sobre a doença trofoblástica gestacional?",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 3795
+  },
   "busca": "Doença trofoblástica gestacional — mola completa"
  },
  "go02": {
@@ -1363,8 +3290,21 @@
   "numero": 62,
   "tema": "Vacinação na gestação — o que pode, o que espera o puerpério",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7458s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=z-q20dj5oQY",
+   "titulo": "Vacinação na gestação - Saúde da Mulher - Aula 22",
+   "canal": "Prof. Carlos Junior",
+   "canalId": "UCZqxBgpqzl82M6pRuiTexSQ",
+   "duracao": 771
+  },
   "busca": "Vacinação na gestação — o que pode, o que espera o puerpério"
  },
  "go03": {
@@ -1372,8 +3312,21 @@
   "numero": 63,
   "tema": "Ultrassom morfológico de primeiro trimestre — o que se avalia",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7673s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=arN7m2I-yew",
+   "titulo": "ULTRASSOM MORFOLÓGICO DO PRIMEIRO TRIMESTRE | MACETES DE MÃE",
+   "canal": "Macetes de Mãe",
+   "canalId": "UCTrx5uG9vJjTLloAH8hE-pg",
+   "duracao": 311
+  },
   "busca": "Ultrassom morfológico de primeiro trimestre — o que se avalia"
  },
  "go04": {
@@ -1381,8 +3334,21 @@
   "numero": 64,
   "tema": "Prevenção do parto pré-termo — colo curto e cerclagem",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7952s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=R8EyEMY_riw",
+   "titulo": "Principais condutas no Parto Prematuro Revisão  - Obstetrícia para Residência Médica na UNIFESP",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 608
+  },
   "busca": "Prevenção do parto pré-termo — colo curto e cerclagem"
  },
  "go05": {
@@ -1390,8 +3356,21 @@
   "numero": 65,
   "tema": "Hemorragia pós-parto — atonia e a primeira medida",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8139s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=O-7AeL-_0z8",
+   "titulo": "Hemorragia Pós-parto - Obstetrícia - Aula Inaugural Turma de Março",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 5102
+  },
   "busca": "Hemorragia pós-parto — atonia e a primeira medida"
  },
  "go06": {
@@ -1399,8 +3378,21 @@
   "numero": 66,
   "tema": "Abdome agudo no primeiro trimestre — prenhez ectópica rota",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8498s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=0t4V7_vOQ14",
+   "titulo": "Abordaje y manejo del abdomen agudo No obstétrico en la paciente gestante",
+   "canal": "Residentes Cirugía General- UPB",
+   "canalId": "UC0hRxKZZjTQ-XSZpyGCo60Q",
+   "duracao": 2026
+  },
   "busca": "Abdome agudo no primeiro trimestre — prenhez ectópica rota"
  },
  "go07": {
@@ -1408,8 +3400,21 @@
   "numero": 67,
   "tema": "Diabetes gestacional — diagnóstico na primeira consulta",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8597s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=X8kkmf4Axa4",
+   "titulo": "Aula Resumo ENAMED - Diabetes Mellitus na Gestação",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2586
+  },
   "busca": "Diabetes gestacional — diagnóstico na primeira consulta"
  },
  "go08": {
@@ -1417,8 +3422,21 @@
   "numero": 68,
   "tema": "Gestação gemelar — corionicidade no primeiro trimestre",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8644s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=74ytO5qL1nE",
+   "titulo": "Gestação Gemelar: o essencial que todo GO precisa dominar #GoCast Ep15",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2604
+  },
   "busca": "Gestação gemelar — corionicidade no primeiro trimestre"
  },
  "go09": {
@@ -1426,8 +3444,21 @@
   "numero": 69,
   "tema": "Ultrassonografia precoce — cronologia dos sinais da gestação",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8965s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=E9Fpdz9L3y0",
+   "titulo": "Puberdade Precoce | Revisando com o Estratégia MED",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2125
+  },
   "busca": "Ultrassonografia precoce — cronologia dos sinais da gestação"
  },
  "go10": {
@@ -1435,8 +3466,21 @@
   "numero": 70,
   "tema": "Pré-eclâmpsia — critérios diagnósticos atuais",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=9286s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=_e3gehtsyHg",
+   "titulo": "Aula Resumo ENAMED - Síndrome Hipertensiva na Gestação",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3996
+  },
   "busca": "Pré-eclâmpsia — critérios diagnósticos atuais"
  },
  "go11": {
@@ -1444,8 +3488,21 @@
   "numero": 71,
   "tema": "Sangramento do terceiro trimestre — placenta prévia",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=DMZPPemtrss",
+   "titulo": "Aula Resumo ENAMED - Sangramento da Primeira Metade",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3544
+  },
   "busca": "Sangramento do terceiro trimestre — placenta prévia"
  },
  "go12": {
@@ -1453,8 +3510,21 @@
   "numero": 72,
   "tema": "Puberdade precoce central — tratamento com análogo de GnRH",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=hPkEAHLZxYk",
+   "titulo": "Atualização: Puberdade Precoce Central (Endocrine Society)",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2525
+  },
   "busca": "Puberdade precoce central — tratamento com análogo de GnRH"
  },
  "go13": {
@@ -1462,8 +3532,21 @@
   "numero": 73,
   "tema": "Endometriose — diagnóstico e tratamento clínico",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=9889s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=WE6TRr09Kx8",
+   "titulo": "Endometriose - Aula de Ginecologia do Curso Intensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 4339
+  },
   "busca": "Endometriose — diagnóstico e tratamento clínico"
  },
  "go14": {
@@ -1471,8 +3554,21 @@
   "numero": 74,
   "tema": "Rastreamento do câncer do colo do útero — diretriz de 2025",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10205s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=n-LUTCaQeaI",
+   "titulo": "Aula Resumo ENAMED - Rastreamento do Câncer de Colo Uterino",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3221
+  },
   "busca": "Rastreamento do câncer do colo do útero — diretriz de 2025"
  },
  "go15": {
@@ -1480,8 +3576,21 @@
   "numero": 75,
   "tema": "Vacina contra HPV no PNI — quem recebe e como",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10489s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=xgaQInTESJo",
+   "titulo": "Vacina contra o HPV. Indicação e cuidados",
+   "canal": "Dra. Daniela Calais",
+   "canalId": "UCz4jB8jW6XXe4GOeZcIegnw",
+   "duracao": 290
+  },
   "busca": "Vacina contra HPV no PNI — quem recebe e como"
  },
  "go16": {
@@ -1489,8 +3598,21 @@
   "numero": 76,
   "tema": "Climatério — terapia hormonal na mulher obesa com útero",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10773s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=8L_CJkxRZWo",
+   "titulo": "Aula Resumo - Climatério - Carlos Eduardo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 1571
+  },
   "busca": "Climatério — terapia hormonal na mulher obesa com útero"
  },
  "go17": {
@@ -1498,8 +3620,21 @@
   "numero": 77,
   "tema": "Anticoncepção no puerpério — métodos só de progestagênio",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7684s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=vzMDg146BLI",
+   "titulo": "Residência Médica - GO: CONTRACEPÇÃO NO PUERPÉRIO",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 1665
+  },
   "busca": "Anticoncepção no puerpério — métodos só de progestagênio"
  },
  "go18": {
@@ -1507,8 +3642,21 @@
   "numero": 78,
   "tema": "Puberdade normal — telarca aos 8 anos e leucorreia fisiológica",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11253s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=9X4kYBAvx4o",
+   "titulo": "Puericultura: Tudo sobre Puberdade Precoce e Tardia. Com Dra. Mariana Solla",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 2070
+  },
   "busca": "Puberdade normal — telarca aos 8 anos e leucorreia fisiológica"
  },
  "go19": {
@@ -1516,8 +3664,21 @@
   "numero": 79,
   "tema": "Densitometria óssea — o que é o T-score",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11380s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=EdxG-3s53_E",
+   "titulo": "Live de Revisão – Densitometria Óssea | Prova Anual CBR 2025",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 3314
+  },
   "busca": "Densitometria óssea — o que é o T-score"
  },
  "go20": {
@@ -1525,8 +3686,21 @@
   "numero": 80,
   "tema": "Mamografia — calcificações em pipoca são benignas",
   "rotulo": "SUS-SP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11560s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=N-GvSFFQCVA",
+   "titulo": "Mamografia do Zero: Como avaliar e interpretar adequadamente o exame?",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3407
+  },
   "busca": "Mamografia — calcificações em pipoca são benignas"
  },
  "go21": {
@@ -1534,8 +3708,21 @@
   "numero": 43,
   "tema": "Sangramento pós-menopausa — biópsia endometrial ambulatorial",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=biS1tEeIY-4",
+   "titulo": "GINECOLOGIA - Revalida INEP 2021 | Conduta para Hiperplasia Endometrial e Sangramento Pós menopausa",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 321
+  },
   "busca": "Sangramento pós-menopausa — biópsia endometrial ambulatorial"
  },
  "go22": {
@@ -1543,8 +3730,21 @@
   "numero": 44,
   "tema": "NIC 1 na biópsia — conduta expectante",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=12783s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=VbO3I2E3V38",
+   "titulo": "BIÓPSIA COLO DO ÚTERO - NIC 1 - NEOPLASIA INTRAEPITELIAL CERVICAL",
+   "canal": "Bianca",
+   "canalId": "UCPmhx3AK6rrSNN6MoX6pkWw",
+   "duracao": 374
+  },
   "busca": "NIC 1 na biópsia — conduta expectante"
  },
  "go23": {
@@ -1552,8 +3752,21 @@
   "numero": 52,
   "tema": "Dopplerfluxometria do ducto venoso — o que ela representa",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=nKlRNWEzyrI",
+   "titulo": "Gabriel 08-03-2012 - Ultrassom Dopplerfluxometria",
+   "canal": "Rafael Lima",
+   "canalId": "UCJR7TOThExeZDxhH3fG55EA",
+   "duracao": 1428
+  },
   "busca": "Dopplerfluxometria do ducto venoso — o que ela representa"
  },
  "go24": {
@@ -1561,8 +3774,21 @@
   "numero": 55,
   "tema": "Parto taquitócico — não acelerar, proteger canal e recém-nascido",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=-HPb_yiy24w",
+   "titulo": "Partograma | Revisando Obstetrícia com o Estratégia MED",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 1847
+  },
   "busca": "Parto taquitócico — não acelerar, proteger canal e recém-nascido"
  },
  "go25": {
@@ -1570,8 +3796,21 @@
   "numero": 59,
   "tema": "HIV na gestação — via de parto pela carga viral",
   "rotulo": "SUS-SP 2021",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=12042s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=JHsXZtCIZ8U",
+   "titulo": "Resumo Infecções na Gestação - Café com Obstetrícia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2579
+  },
   "busca": "HIV na gestação — via de parto pela carga viral"
  },
  "go26": {
@@ -1579,8 +3818,21 @@
   "numero": 21,
   "tema": "Trabalho de parto pré-termo tardio — o que fazer e o que não fazer",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11123s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=w_WBaAm2JOQ",
+   "titulo": "TUDO sobre Prematuridade - Parto pre termo e bebê prematuro",
+   "canal": "Médico da Mulher",
+   "canalId": "UCCD9frJk2THTDtMq8snifOQ",
+   "duracao": 1001
+  },
   "busca": "Trabalho de parto pré-termo tardio — o que fazer e o que não fazer"
  },
  "go27": {
@@ -1588,8 +3840,21 @@
   "numero": 23,
   "tema": "Primeira consulta — glicemia de 94 já é DMG; TSH de 6 se trata",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11482s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=nhW-rvK2_84",
+   "titulo": "Aula 01 – Introdução Primeira Consulta",
+   "canal": "Academia da Odontologia | Odontopediatria Online",
+   "canalId": "UCVQdYEfj2iSVZR9NZiJvpcQ",
+   "duracao": 481
+  },
   "busca": "Primeira consulta — glicemia de 94 já é DMG; TSH de 6 se trata"
  },
  "go28": {
@@ -1597,8 +3862,21 @@
   "numero": 24,
   "tema": "Prevenção da pré-eclâmpsia — AAS, cálcio e exercício",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11040s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Qr1WW_hmfsk",
+   "titulo": "Síndromes Hipertensivas na Gestação - Aula de Obstetrícia Curso Intensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3168
+  },
   "busca": "Prevenção da pré-eclâmpsia — AAS, cálcio e exercício"
  },
  "go29": {
@@ -1606,8 +3884,21 @@
   "numero": 26,
   "tema": "Hemorragia pós-parto — acessos, cristaloide, ocitocina e tranexâmico",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=12102s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=O-7AeL-_0z8",
+   "titulo": "Hemorragia Pós-parto - Obstetrícia - Aula Inaugural Turma de Março",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 5102
+  },
   "busca": "Hemorragia pós-parto — acessos, cristaloide, ocitocina e tranexâmico"
  },
  "go30": {
@@ -1615,8 +3906,21 @@
   "numero": 27,
   "tema": "Variedade de posição — occípito-esquerda-posterior e a rotação de 135°",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=12372s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=5c3Pp-b7uwc",
+   "titulo": "INTRODUÇÃO À ANATOMIA: Posição anatômica e termos de relação",
+   "canal": "Anatomia e etc. com Natalia Reinecke",
+   "canalId": "UCK3sW3_2AqB0NQ9E_vwAeEQ",
+   "duracao": 999
+  },
   "busca": "Variedade de posição — occípito-esquerda-posterior e a rotação de 135°"
  },
  "go31": {
@@ -1624,8 +3928,21 @@
   "numero": 28,
   "tema": "Endometrite pós-cesárea — polimicrobiana, clindamicina com gentamicina",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11606s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=UoRhwsHclSA",
+   "titulo": "Endometrite - O que você precisa saber",
+   "canal": "Dra Rogeria Coelho - Viva Fértil",
+   "canalId": "UCPC-IsLxcGgxbzZt2ajjsDQ",
+   "duracao": 413
+  },
   "busca": "Endometrite pós-cesárea — polimicrobiana, clindamicina com gentamicina"
  },
  "go32": {
@@ -1633,8 +3950,21 @@
   "numero": 33,
   "tema": "Dismenorreia com DIU de cobre — manter o DIU e usar AINE",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13611s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=E3KrFMy5pbk",
+   "titulo": "Como funciona o DIU de cobre - Dra. Angela Labanca",
+   "canal": "Dra. Angela Labanca",
+   "canalId": "UChqly7x_sDb7pJBcSr-XYMg",
+   "duracao": 282
+  },
   "busca": "Dismenorreia com DIU de cobre — manter o DIU e usar AINE"
  },
  "go33": {
@@ -1642,8 +3972,21 @@
   "numero": 35,
   "tema": "Risco hereditário de câncer de mama — quem vai para o teste genético",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13792s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=_qhWuyjfugo",
+   "titulo": "CÂNCER DE MAMA HEREDITÁRIO - LIVE",
+   "canal": "Dr. Douglas Gomes",
+   "canalId": "UCYry_0VCgtIciG04z24xIsw",
+   "duracao": 3885
+  },
   "busca": "Risco hereditário de câncer de mama — quem vai para o teste genético"
  },
  "go34": {
@@ -1651,8 +3994,21 @@
   "numero": 36,
   "tema": "Prolapso genital — estadiar pelo POP-Q",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13984s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=GLo9Ww-vW20",
+   "titulo": "Prolapsos Genitais e PQP-Q da forma mais fácil possível - Aula de Ginecologia - Curso Pré-Internato",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2007
+  },
   "busca": "Prolapso genital — estadiar pelo POP-Q"
  },
  "go35": {
@@ -1660,8 +4016,21 @@
   "numero": 37,
   "tema": "Após cirurgia conservadora da mama, a radioterapia é obrigatória",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14147s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=T3xa8DvA0bw",
+   "titulo": "Posso mexer o braço após a cirurgia do câncer de mama?",
+   "canal": "Dr. Douglas Gomes",
+   "canalId": "UCYry_0VCgtIciG04z24xIsw",
+   "duracao": 445
+  },
   "busca": "Após cirurgia conservadora da mama, a radioterapia é obrigatória"
  },
  "go36": {
@@ -1669,8 +4038,21 @@
   "numero": 39,
   "tema": "Osteoporose densitométrica — tratar, não só suplementar",
   "rotulo": "UNESP 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14396s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=namFIIB1qBo",
+   "titulo": "OSTEOPOROSE — Do RANKL à Densitometria | Fisiopatologia, Diagnóstico e Tratamento",
+   "canal": "João Victor MED - Aulas e conteúdos sobre medicina",
+   "canalId": "UCVp4jhw5g1YRozassUW-E8A",
+   "duracao": 2228
+  },
   "busca": "Osteoporose densitométrica — tratar, não só suplementar"
  },
  "go37": {
@@ -1678,8 +4060,21 @@
   "numero": 47,
   "tema": "Amenorreia primária com puberdade completa — ultrassom primeiro",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=15762s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=AOvymrhV1RA",
+   "titulo": "Amenorreia - Aula Resumo de Ginecologia do Curso Extensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2169
+  },
   "busca": "Amenorreia primária com puberdade completa — ultrassom primeiro"
  },
  "go38": {
@@ -1687,8 +4082,21 @@
   "numero": 50,
   "tema": "Síndrome antifosfolípide na gestação — AAS, heparina e a HIT",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=16645s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=UsZPQxuAoLI",
+   "titulo": "Trombose e Trombofilias na Gestação - Aula de Obstetrícia do Curso Intensivo R + GO",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2282
+  },
   "busca": "Síndrome antifosfolípide na gestação — AAS, heparina e a HIT"
  },
  "go39": {
@@ -1696,8 +4104,21 @@
   "numero": 51,
   "tema": "Restrição do crescimento fetal — centralização no Doppler",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=16836s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=2liRF4SnH8w",
+   "titulo": "Restrição de Crescimento Fetal - Aula de Ginecologia e Obstetrícia do Prime Class R+ GO",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 4766
+  },
   "busca": "Restrição do crescimento fetal — centralização no Doppler"
  },
  "go40": {
@@ -1705,7 +4126,14 @@
   "numero": 53,
   "tema": "Bradicardia fetal no expulsivo com cabeça baixa — fórcipe ou vácuo",
   "rotulo": "Einstein 2026",
-  "q": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=17333s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
   "m": null,
   "busca": "Bradicardia fetal no expulsivo com cabeça baixa — fórcipe ou vácuo"
  },
@@ -1714,8 +4142,21 @@
   "numero": 54,
   "tema": "Ectópica com metotrexato — a queda menor que 15% pede segunda dose",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=17563s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=J2jQbJcxLrM",
+   "titulo": "Como avaliar o sucesso terapêutico do metotrexato na gestação ectópica?",
+   "canal": "AfyaGO",
+   "canalId": "UCGNla9VZjj4j-hlGjYgkB2g",
+   "duracao": 614
+  },
   "busca": "Ectópica com metotrexato — a queda menor que 15% pede segunda dose"
  },
  "go42": {
@@ -1723,8 +4164,21 @@
   "numero": 57,
   "tema": "Enxaqueca com aura — nada de estrogênio; DIU de levonorgestrel",
   "rotulo": "Einstein 2026",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=18460s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=Gg0FNrby54o",
+   "titulo": "Enxaqueca com aura: o que é, sintomas e como tratar",
+   "canal": "Dr Abner",
+   "canalId": "UCOMBSNIKUyy2Mza_oi4PsVw",
+   "duracao": 309
+  },
   "busca": "Enxaqueca com aura — nada de estrogênio; DIU de levonorgestrel"
  },
  "go43": {
@@ -1732,7 +4186,14 @@
   "numero": 58,
   "tema": "Morcelamento protegido na histerectomia — o medo é o sarcoma oculto",
   "rotulo": "Einstein 2026",
-  "q": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=18626s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
+  },
   "m": null,
   "busca": "Morcelamento protegido na histerectomia — o medo é o sarcoma oculto"
  },
@@ -1741,8 +4202,21 @@
   "numero": 48,
   "tema": "Diabetes pré-gestacional — regressão caudal e cardiopatia fetal",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=8616s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=pvVIqp7qjZg",
+   "titulo": "Diabetes Gestacional - Assistência ao pré-natal - Residência médica",
+   "canal": "Medcel",
+   "canalId": "UCql8E_HPJKa2mc0Zvd50GMA",
+   "duracao": 3395
+  },
   "busca": "Diabetes pré-gestacional — regressão caudal e cardiopatia fetal"
  },
  "go45": {
@@ -1750,8 +4224,21 @@
   "numero": 49,
   "tema": "Pré-eclâmpsia grave com 35 semanas — hidralazina, sulfato e indução",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=8745s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=fzzGBjlvWhM",
+   "titulo": "Tive minha filha com 35 semanas e fui para a UTI | Vlog do parto + pré-eclâmpsia grave #gravidez ",
+   "canal": "    Renata por Aí",
+   "canalId": "UCQ5imOcijuUtr5ft0IenVvA",
+   "duracao": 441
+  },
   "busca": "Pré-eclâmpsia grave com 35 semanas — hidralazina, sulfato e indução"
  },
  "go46": {
@@ -1759,8 +4246,21 @@
   "numero": 53,
   "tema": "Aloimunização Rh — identificar e titular o anticorpo",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1572s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=svlhLU7VoQA",
+   "titulo": "Infecções Congênitas - Aula de Obstetrícia do Curso Intensivo Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3112
+  },
   "busca": "Aloimunização Rh — identificar e titular o anticorpo"
  },
  "go47": {
@@ -1768,8 +4268,21 @@
   "numero": 54,
   "tema": "Sífilis na gestação — dose pelo estágio e critério de retratamento",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1750s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=sofIy6-Q53A",
+   "titulo": "Resumo de Sífilis na Gestação - Café com Obstetrícia",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 2202
+  },
   "busca": "Sífilis na gestação — dose pelo estágio e critério de retratamento"
  },
  "go48": {
@@ -1777,8 +4290,21 @@
   "numero": 55,
   "tema": "Sangramento do primeiro trimestre — ameaça de aborto e seus vizinhos",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1969s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=DMZPPemtrss",
+   "titulo": "Aula Resumo ENAMED - Sangramento da Primeira Metade",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 3544
+  },
   "busca": "Sangramento do primeiro trimestre — ameaça de aborto e seus vizinhos"
  },
  "go49": {
@@ -1786,8 +4312,21 @@
   "numero": 56,
   "tema": "Câncer de mama HER2 positivo — conservadora, quimio, anti-HER2 e RT",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=2376s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=NQ6vGgMm5EQ",
+   "titulo": "Câncer de mama HER2 positivo tem cura?",
+   "canal": "Dra. Vivian Coski | Mundo da Oncologia",
+   "canalId": "UCBWTsvXMZd-xd8kfO3h3zsQ",
+   "duracao": 1457
+  },
   "busca": "Câncer de mama HER2 positivo — conservadora, quimio, anti-HER2 e RT"
  },
  "go50": {
@@ -1795,8 +4334,21 @@
   "numero": 59,
   "tema": "DIP sem abscesso — antibiótico oral e reavaliação em 3 dias",
   "rotulo": "Einstein 2025",
-  "q": null,
-  "m": null,
+  "q": {
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=2870s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
+  },
+  "m": {
+   "url": "https://www.youtube.com/watch?v=rpUaNcmjp5Y",
+   "titulo": "DIP (Doença Inflamatória Pélvica): tratamento prático atualizado",
+   "canal": "Médico na Prática",
+   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
+   "duracao": 440
+  },
   "busca": "DIP sem abscesso — antibiótico oral e reavaliação em 3 dias"
  },
  "cm01": {
@@ -1805,11 +4357,12 @@
   "tema": "Reversão da varfarina — sangramento grave com INR alto",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=Q9afO0FTEio",
-   "titulo": "VARFARINA X DOACs, o que você precisa saber?",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 361
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=566s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=52kmfbAd1H8",
@@ -1826,11 +4379,12 @@
   "tema": "Diabetes tipo 2 com alto risco cardiovascular — agonista do GLP-1",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=D4FVsO1DM8g",
-   "titulo": "Atualização: Nova Diretriz da Sociedade Brasileira de Diabetes",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 1785
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24441s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=WIk4YDfKK2I",
@@ -1847,11 +4401,12 @@
   "tema": "DPOC exacerbador — broncodilatação dupla LABA e LAMA",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=LoZ1sb_fqcs",
-   "titulo": "Aula Resumo ENAMED - DPOC",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2921
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24122s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=sbP3n9Nv0RI",
@@ -1868,11 +4423,12 @@
   "tema": "Espondiloartrite axial — dor lombar inflamatória e HLA-B27",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=CCTX0dH8KfQ",
-   "titulo": "Aula Resumo ENAMED  - Espondiloartrites",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 3211
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24936s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=MgdS2q7Cy9w",
@@ -1889,11 +4445,12 @@
   "tema": "Hiponatremia hipervolêmica — insuficiência cardíaca descompensada",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=BMljL81EvGU",
-   "titulo": "Investigação de HIPONATREMIA",
-   "canal": "Ta de Clinicagem",
-   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
-   "duracao": 1201
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25328s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=NKJFSfDV9VQ",
@@ -1910,11 +4467,12 @@
   "tema": "Lesão renal aguda no cirrótico — albumina antes da terlipressina",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=GdyimJ4Z4tM",
-   "titulo": "Lesão Renal Aguda no Paciente com Cirrose - Episódio 182",
-   "canal": "Ta de Clinicagem",
-   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
-   "duracao": 3500
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=KTaS3K3KYQg",
@@ -1931,11 +4489,12 @@
   "tema": "PEEP e hemodinâmica — queda do débito cardíaco",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
-   "titulo": "Ventilação Mecânica para iniciantes - Semana Especial Projeto +MED",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 3356
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=28460s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
@@ -1952,11 +4511,12 @@
   "tema": "Hipertensão secundária — hiperaldosteronismo primário",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=tOUABAniPPA",
-   "titulo": "Aula Resumo ENAMED - Hipertensão Arterial Secundária e Crise Hipertensiva com prof. Paulo Dalto",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2361
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=28762s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=qIx9Dls61Mo",
@@ -1973,11 +4533,12 @@
   "tema": "Cetoacidose diabética no adulto — soro, insulina e potássio",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=nMv0fs7285M",
-   "titulo": "CETOACIDOSE DIABÉTICA - MANEJO 2025 NA EMERGÊNCIA",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 955
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=29065s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=mtXXLItmPiI",
@@ -1994,11 +4555,12 @@
   "tema": "Intoxicação por nitroprussiato — cianeto e acidose láctica",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=a2kkKRFD6iw",
-   "titulo": "Intoxicação exógena - os 3 passos fundamentais na conduta (bônus: coma alcoólico)",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 1220
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=hk3XdqeEFwE",
@@ -2015,11 +4577,12 @@
   "tema": "Guillain-Barré — insuficiência respiratória hipercápnica",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=NxGliHgDTuU",
-   "titulo": "Síndrome de Guillain-Barré: Saiba tudo sobre. Com Dr. Leonardo Bernardes",
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25583s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
    "canal": "Grupo Medcof",
    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
-   "duracao": 2558
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=Og3Y5kgmdJw",
@@ -2036,11 +4599,12 @@
   "tema": "Fibrose pulmonar idiopática — antifibrótico, não corticoide",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=jrbfMKuRKMA",
-   "titulo": "Pneumopatia Intersticial (PIU x PINE) | Radiologia na Residência Médica",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 458
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24293s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=pxQXGXRhJb8",
@@ -2057,11 +4621,12 @@
   "tema": "Cardiomiopatia hipertrófica obstrutiva — betabloqueador",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=k8alZCJBvvU",
-   "titulo": "[CARDIOLOGIA] Miocardiopatia Hipertrófica",
-   "canal": "videoaulasuff",
-   "canalId": "UCGwAgbhQ_GImSAF7G2QrRUQ",
-   "duracao": 688
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25807s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=VcqEuvvuNlM",
@@ -2078,11 +4643,12 @@
   "tema": "Reações transfusionais — sobrecarga circulatória (TACO)",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=fY5Fs164mLA",
-   "titulo": "Reações Transfusionais - abordagem prática",
-   "canal": "Ta de Clinicagem",
-   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
-   "duracao": 640
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=26219s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=_ifMnkynXJE",
@@ -2099,11 +4665,12 @@
   "tema": "HIV — reconstituição imune leve: manter a terapia antirretroviral",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=iDdGDfOmiFI",
-   "titulo": "R+ Prime Class Clínica Médica: HIV",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 3310
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=23876s",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=DEbvkur_f9A",
@@ -2120,11 +4687,12 @@
   "tema": "Insuficiência cardíaca refratária com BRE — ressincronização",
   "rotulo": "SUS-SP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=HGboQu0ssbc",
-   "titulo": "INSUFICIÊNCIA CARDÍACA - O RACIOCÍNIO CLÍNICO QUE NÃO PODE FALTAR",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 2872
+   "url": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+   "titulo": "GABARITO SUS-SP R1 Acesso Direto | Residência Médica 2026 – Correção da Prova SUS-SP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 29920,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=7TxkoaK12Is",
@@ -2141,11 +4709,12 @@
   "tema": "Esclerose múltipla — surtos separados no tempo e no espaço",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=xF2Ofjasd2Y",
-   "titulo": "Doenças Desmielinizantes e Encefalites Autoimunes | Super Revisão de Neurologia",
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=8041s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
    "canal": "Estratégia MED",
    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 1858
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=TH724UiCOT4",
@@ -2162,11 +4731,12 @@
   "tema": "Prevenção cardiovascular — estatina pelo LDL muito alto",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=AM7sk7YO3MY",
-   "titulo": "Atualização: Nova Diretriz Brasileira de Dislipidemia",
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
    "canal": "Estratégia MED",
    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2119
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=Wabx7vCzalA",
@@ -2183,11 +4753,12 @@
   "tema": "Peritonite bacteriana espontânea — PMN acima de 250 e ceftriaxona",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
-   "titulo": "Tudo o que você precisa saber sobre Ascite e Peritonite Bacteriana Espontânea. Com Dr. Rafael Ba...",
-   "canal": "Grupo Medcof",
-   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
-   "duracao": 2953
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=7443s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
@@ -2204,11 +4775,12 @@
   "tema": "Hipotireoidismo primário — TSH alto, T4 livre baixo, levotiroxina",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=j0SmmyluGJ4",
-   "titulo": "Hipotireoidismo | Revisando Endocrinologia com o Estratégia MED",
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=4068s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
    "canal": "Estratégia MED",
    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2586
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=SDKi3O8hcV4",
@@ -2225,11 +4797,12 @@
   "tema": "Sorologia da hepatite B — o perfil da infecção curada",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=e4WIYSXNca4",
-   "titulo": "Dicas para associar e interpretar hepatite B nas provas de R1",
-   "canal": "Medcel",
-   "canalId": "UCql8E_HPJKa2mc0Zvd50GMA",
-   "duracao": 476
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=7583s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=rU8W0kRAK1o",
@@ -2246,11 +4819,12 @@
   "tema": "Nefrite intersticial aguda por anti-inflamatório",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=hS3QtpXV87o",
-   "titulo": "Nefrite Intersticial Aguda: o remédio que você prescreve todo dia pode DESTRUIR o rim — cai na prova",
-   "canal": "Medkobe Residência Médica e Revalida",
-   "canalId": "UC4xsQ01Hj4qzngFBM1BUcBQ",
-   "duracao": 422
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=7v4Kl72UomQ",
@@ -2267,11 +4841,12 @@
   "tema": "Profilaxia do tétano — ferida suja e esquema vacinal completo",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=d3gCXdQ8Axc",
-   "titulo": "Mordedura, raiva e tétano - Estudo Acompanhado Revalida 2025.2 com João Victor Fernandes",
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=14806s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
    "canal": "Estratégia MED",
    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 3631
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=ZYLGODIR-r0",
@@ -2288,11 +4863,12 @@
   "tema": "Hipocalemia com alcalose — perda renal por diurético e aldosterona",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=6YcwUVA-_Xk",
-   "titulo": "Residência Médica R+ Pediatria: DISTÚRBIOS ÁCIDO-BÁSICOS",
-   "canal": "Grupo Medcof",
-   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
-   "duracao": 1721
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=6821s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=JMxWtbENkfU",
@@ -2309,11 +4885,12 @@
   "tema": "Cefaleia em salvas — oxigênio a alto fluxo na crise",
   "rotulo": "SUS-SP 2021",
   "q": {
-   "url": "https://www.youtube.com/watch?v=2WB1k-ziWKo",
-   "titulo": "Cefaleias | Super Revisão de Neurologia",
+   "url": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=8272s",
+   "titulo": "Gabarito SUS SP 2021 - Correção de Prova AO VIVO - Residência Médica",
    "canal": "Estratégia MED",
    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2444
+   "duracao": 22140,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=AdO5fI4ayB0",
@@ -2330,11 +4907,12 @@
   "tema": "Crise de asma leve — broncodilatador, corticoide oral e gatilhos",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=iv6-wtmUbHQ",
-   "titulo": "Asma - Aula do Curso Intensivo Residência Médica",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 4671
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=18161s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=hZo6phuD1Ng",
@@ -2351,11 +4929,12 @@
   "tema": "Intubação no choque séptico — etomidato e rocurônio",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=6IdiilOQBsQ",
-   "titulo": "Tudo o que você precisa saber sobre sepse - Aula de Infectologia | Curso Pré-Internato",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 4855
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=18774s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=jWkiZtSwFoM",
@@ -2372,11 +4951,12 @@
   "tema": "Doença de Graves — bócio difuso com sopro e oftalmopatia",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=SLM1m77wEyc",
-   "titulo": "DOENÇA DE GRAVES (CAUSAS, SINTOMAS, DIAGNÓSTICO E TRATAMENTO) - ENDOCRINOLOGIA",
-   "canal": "Facilitando a Medicina",
-   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
-   "duracao": 1118
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=19057s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=eHd9JjH9nuc",
@@ -2393,11 +4973,12 @@
   "tema": "Neutropenia febril — culturas e antibiótico empírico na primeira hora",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=ku7D_0uFxwQ",
-   "titulo": "Neutropenia Febril: saiba tudo! - Aula de Infectologia para Residência Médica e Revalida",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 487
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=19291s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=BmSsGiWjLeY",
@@ -2414,11 +4995,12 @@
   "tema": "Osteoporose com fratura e estenose de esôfago — ácido zoledrônico",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=-GZ1_ExHV1w",
-   "titulo": "Saiba tudo sobre: Osteoporose. Com Dr. Henrique Dalmolin",
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=17880s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
    "canal": "Grupo Medcof",
    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
-   "duracao": 1095
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=QoaSnqHxgGE",
@@ -2435,11 +5017,12 @@
   "tema": "Estado hiperglicêmico hiperosmolar — desidratação e trombose",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=CvjR0BR6ToM",
-   "titulo": "Complicações agudas do DM: CAD e EHH com o Dr. Francisco Falleiros - Resumão MedCof EP. 12",
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=21603s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
    "canal": "Grupo Medcof",
    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
-   "duracao": 1976
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=CtD3UFcpAzg",
@@ -2456,11 +5039,12 @@
   "tema": "Insuficiência cardíaca de fração reduzida — o quarto pilar (iSGLT2)",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=yIpXxwin64Q",
-   "titulo": "Insuficiência Cardíaca: Classificação, Diagnóstico e Fisiopatologia | Super Revisão de Cardiologia",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 1962
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=21834s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=-tjEiWfRims",
@@ -2477,11 +5061,12 @@
   "tema": "Lesão renal aguda na sepse — necrose tubular e acidose mista",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=l1E4KLGBhxM",
-   "titulo": "Como conduzir Lesão Renal Aguda no PA",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 1526
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=22033s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=k9zOJkjotJw",
@@ -2498,11 +5083,12 @@
   "tema": "Síndrome da fragilidade — os critérios de Fried",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=gAMEX_s7Tkk",
-   "titulo": "Fragilidade do Idoso: Como Tratar e Prevenir? Com Dra. Priscila Abiko",
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=17880s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
    "canal": "Grupo Medcof",
    "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
-   "duracao": 2813
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=NChuwhzlQeQ",
@@ -2519,11 +5105,12 @@
   "tema": "Pneumonia pós-influenza por Staphylococcus aureus — cobrir MRSA",
   "rotulo": "UNESP 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=O1XTAURjyu8",
-   "titulo": "PNEUMONIA ADQUIRIDA: MANEJO INICIAL E ESCOLHA DO ATB",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 1614
+   "url": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=23052s",
+   "titulo": "GABARITO UNESP Acesso Direto | Residência Médica 2026 – Correção da Prova UNESP Acesso Direto",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 23630,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=O1XTAURjyu8",
@@ -2540,11 +5127,12 @@
   "tema": "Asma só com salbutamol — corticoide inalatório com formoterol",
   "rotulo": "Einstein 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=UxKoEI-YG8Y",
-   "titulo": "Sequência de medicações de alívio na EXACERBAÇÃO DE ASMA GINA 2022",
-   "canal": "Pediatria Urgente",
-   "canalId": "UCkSVaur4vSgvr68ed9Vx_XA",
-   "duracao": 376
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=7662s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=EH9rLTnuppk",
@@ -2561,11 +5149,12 @@
   "tema": "Artropatias por cristais — a gota exige o cristal para o diagnóstico",
   "rotulo": "Einstein 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=a5CjLlTVfHk",
-   "titulo": "Artrites Microcristalinas - Podcast Estratégia MED - Aula de Reumatologia para Residência Médica",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2538
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=-UubIKtOh_U",
@@ -2582,11 +5171,12 @@
   "tema": "Hipertensão no diabético com albuminúria — IECA e bloqueador de cálcio",
   "rotulo": "Einstein 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=aIOXXlVb7mw",
-   "titulo": "Aula Resumo ENAMED  - Doença Renal Crônica - com profª. Fernanda Badiani",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2450
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=20520s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=bg1EgkF71q0",
@@ -2603,11 +5193,12 @@
   "tema": "Bloqueio atrioventricular de 2º grau — Mobitz I e Mobitz II no ECG",
   "rotulo": "Einstein 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=n2Q4gnsqKto",
-   "titulo": "Dica rápida de Eletrocardiograma sobre Bradiarritmias | Estratégia Eletro",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 677
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=Wzhs8g6HhVE",
@@ -2624,11 +5215,12 @@
   "tema": "Suspeita de embolia pulmonar — a probabilidade pré-teste decide",
   "rotulo": "Einstein 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=jgVArzIk0Fc",
-   "titulo": "Atualização: Nova Diretriz de Tromboembolismo Pulmonar",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 3632
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=WzTUK6LaDxM",
@@ -2645,11 +5237,12 @@
   "tema": "Pielonefrite não complicada — ceftriaxona e alta com ciprofloxacino",
   "rotulo": "Einstein 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=Vtyyb8hY7b4",
-   "titulo": "Infecção do Trato Urinário (ITU) | Super Revisão de Nefrologia",
-   "canal": "Estratégia MED",
-   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2213
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=22083s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=hrYC6NnWIK4",
@@ -2666,11 +5259,12 @@
   "tema": "Diabetes insípido central pós-cirurgia hipofisária — desmopressina",
   "rotulo": "Einstein 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=gnbaL76-5x8",
-   "titulo": "DIABETES INSIPIDUS (CAUSA, FISIOPATOLOGIA, DIAGNÓSTICO E TRATAMENTO) - ENDOCRINOLOGIA",
-   "canal": "Facilitando a Medicina",
-   "canalId": "UCPwesuPLFsTGosBpPqb8-Hw",
-   "duracao": 1116
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=gnbaL76-5x8",
@@ -2687,11 +5281,12 @@
   "tema": "Inibidor de SGLT2 no perioperatório — suspender 3 dias antes",
   "rotulo": "Einstein 2026",
   "q": {
-   "url": "https://www.youtube.com/watch?v=BPAGC1moNuU",
-   "titulo": "EPISÓDIO 313: Inibidores de SGLT2 - 6 Clinicagens",
-   "canal": "Ta de Clinicagem",
-   "canalId": "UCpYjPTAJGM8A3mchjvU2ZOw",
-   "duracao": 1948
+   "url": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=21035s",
+   "titulo": "GABARITO EINSTEIN (HIAE) - R1 Acesso Direto | Residência Médica 2026 - Correção Einstein (HIAE)",
+   "canal": "Grupo Medcof",
+   "canalId": "UCdHMuOHKICxcHwecxN8P-AA",
+   "duracao": 25506,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=BPAGC1moNuU",
@@ -2708,11 +5303,12 @@
   "tema": "Agonistas do GLP-1 no diabético com aterosclerose — o que esperar",
   "rotulo": "Einstein 2025",
   "q": {
-   "url": "https://www.youtube.com/watch?v=YvfivJWyPBI",
-   "titulo": "Análogos de GLP1 no tratamento do DM2",
-   "canal": "Afya Endocrinopapers",
-   "canalId": "UC4x8k_IwQlsXcC8lQP0Z0zg",
-   "duracao": 2935
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1137s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=YKD2lFK8cS4",
@@ -2729,11 +5325,12 @@
   "tema": "Fibrilação atrial estável no asmático — frequência com verapamil",
   "rotulo": "Einstein 2025",
   "q": {
-   "url": "https://www.youtube.com/watch?v=XHYrjfknKes",
-   "titulo": "Fibrilação Atrial - Conduta Prática e Segura Para o Dia a Dia",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 579
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7087s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=DSBJ9ohNG1U",
@@ -2750,11 +5347,12 @@
   "tema": "Infarto com supra de ST — angioplastia primária na lesão culpada",
   "rotulo": "Einstein 2025",
   "q": {
-   "url": "https://www.youtube.com/watch?v=0m1qtsumgw0",
-   "titulo": "Infarto Agudo do Miocárdio com Supra do Segmento ST (IAMCSST) | Revisando Cardiologia",
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7137s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
    "canal": "Estratégia MED",
    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 2002
+   "duracao": 13764,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=0Y6PrewBFVM",
@@ -2771,11 +5369,12 @@
   "tema": "Hipertensão resistente — investigar causa secundária e somar clonidina",
   "rotulo": "Einstein 2025",
   "q": {
-   "url": "https://www.youtube.com/watch?v=66Qj_A12Pso",
-   "titulo": "Aula Resumo ENAMED -  Hipertensão Arterial Sistêmica - com prof. Bruno Ferraz",
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7228s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
    "canal": "Estratégia MED",
    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 3416
+   "duracao": 13764,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=tOUABAniPPA",
@@ -2792,11 +5391,12 @@
   "tema": "Pneumonia de provável aspiração — internar, cobrir e investigar",
   "rotulo": "Einstein 2025",
   "q": {
-   "url": "https://www.youtube.com/watch?v=NEyKt_RIAvw",
-   "titulo": "Infectologia do Dia a Dia: Pneumonia - Prof Thelma Flosi",
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=9662s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
    "canal": "Estratégia MED",
    "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
-   "duracao": 3950
+   "duracao": 13764,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=zKYrBNm5sEo",
@@ -2813,11 +5413,12 @@
   "tema": "Piora após trombólise no AVC — transformação hemorrágica",
   "rotulo": "Einstein 2025",
   "q": {
-   "url": "https://www.youtube.com/watch?v=qLJlVgbcnNQ",
-   "titulo": "AVC: As condutas que não podem faltar",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 3718
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=8sNd7q-G5G4",
@@ -2834,11 +5435,12 @@
   "tema": "Fibrilação atrial instável — cardioversão elétrica sincronizada",
   "rotulo": "Einstein 2025",
   "q": {
-   "url": "https://www.youtube.com/watch?v=XHYrjfknKes",
-   "titulo": "Fibrilação Atrial - Conduta Prática e Segura Para o Dia a Dia",
-   "canal": "Médico na Prática",
-   "canalId": "UCXI3HeNrkqbAy1Bm7CrvEoQ",
-   "duracao": 579
+   "url": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7988s",
+   "titulo": "Gabarito HIAE 2024 / 2025 Residência Médica - Correção de Prova Ao Vivo",
+   "canal": "Estratégia MED",
+   "canalId": "UCyNuIBnEwzsgA05XK1P6Dmw",
+   "duracao": 13764,
+   "comentada": true
   },
   "m": {
    "url": "https://www.youtube.com/watch?v=DSBJ9ohNG1U",

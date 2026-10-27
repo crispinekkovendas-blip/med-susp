@@ -155,12 +155,11 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
 /* 256 mm: 297 − 14 − 16 de margens − 6 do rodapé − 5 de folga para o
    arredondamento do navegador, para nenhuma ficha vazar para a página seguinte */
 :root { --pagina: 256mm; }
+/* fluxo corrido (2026-10-27, a pedido do usuário): a ficha tem a altura do seu conteúdo e a
+   seguinte começa logo depois — nenhuma página fica em branco por causa de uma ficha curta.
+   (--pagina segue servindo à estimativa do índice no navegador.) */
 .questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px;
-  display: flex; flex-direction: column; min-height: var(--pagina); }
-/* ficha longa: duas páginas inteiras (caderno.js mede e marca) */
-.questao.dupla { min-height: calc(2 * var(--pagina)); }
-/* ficha muito longa (Sobre a matéria + figura): três páginas inteiras */
-.questao.tripla { min-height: calc(3 * var(--pagina)); }
+  display: flex; flex-direction: column; }
 /* geometria de medida (caderno.js liga a classe no body só enquanto mede):
    a folha impressa tem 210 mm com 14 mm de margem — texto de 182 mm —,
    seja qual for a largura da tela */
@@ -252,18 +251,17 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
 .auto { display: flex; align-items: center; gap: 5mm; padding: 2.5mm 5mm; border-top: 1px dashed var(--line-2); font-family: var(--sans); font-size: 9pt; color: var(--ink-2); }
 .auto .caixa { display: inline-flex; align-items: center; gap: 1.6mm; }
 .auto .quadrado { display: inline-block; width: 3.6mm; height: 3.6mm; border: 1.2px solid var(--ink); border-radius: 1px; background: #fff; }
-/* O resto da página é do estudante. As duas caixas são o elemento flexível
-   da ficha (flex: 1): crescem até o fim da folha, sem mínimo fixo — é isso
-   que faz cada ficha caber numa página sem sobrar branco. */
-.rascunho, .notas { margin: 0; padding: 2mm 5mm 3mm; border-top: 1px dashed var(--line-2); display: flex; flex-direction: column; flex: 1 1 auto !important; min-height: 24mm; }
+/* O espaço do estudante tem tamanho fixo (no fluxo corrido nada cresce até o fim da folha):
+   40 mm de termos-chave e 50 mm de anotações. */
+.rascunho, .notas { margin: 0; padding: 2mm 5mm 3mm; border-top: 1px dashed var(--line-2); display: flex; flex-direction: column; min-height: 24mm; }
 .rascunho .rot, .notas .rot { display: block; margin-bottom: 1.5mm; }
 /* matemática: quadriculado de 5 mm, bem leve (linhas a 9% de opacidade),
    para a conta ficar por cima sem competir com o fundo */
-.rascunho::after { content: ""; display: block; flex: 1 1 auto; min-height: 16mm; border: 1px solid rgba(16,21,27,.22); border-radius: 2px; background-color: #fff;
+.rascunho::after { content: ""; display: block; min-height: 40mm; border: 1px solid rgba(16,21,27,.22); border-radius: 2px; background-color: #fff;
   background-image: linear-gradient(to right, rgba(16,21,27,.09) 0.25mm, transparent 0.25mm), linear-gradient(to bottom, rgba(16,21,27,.09) 0.25mm, transparent 0.25mm);
   background-size: 5mm 5mm; background-position: 0 0; }
 /* português: pauta, quadriculado ou em branco */
-.notas .linhas { flex: 1 1 auto; min-height: 16mm; }
+.notas .linhas { min-height: 50mm; }
 /* o quadro dos termos-chave: 40 mm fixos, mesmo fundo da pauta; depois dele, "Minhas anotações" */
 .notas .termos { flex: none; height: 40mm; border: 1px solid rgba(16,21,27,.22); border-radius: 2px; }
 .notas .termos + .rot { margin-top: 2.5mm; }
@@ -315,9 +313,10 @@ table.chave td.pag { font-weight: 400; color: var(--ink-2); width: 18mm; font-si
      quadro dos termos não se parte, e os rótulos não ficam órfãos */
   .notas .termos { break-inside: avoid; page-break-inside: avoid; }
   .notas .rot { break-after: avoid; page-break-after: avoid; }
-  /* cada ficha é uma página: sem margem, quebra depois; o título da seção
-     some para não ocupar uma página quase vazia antes da primeira ficha */
-  .questao { margin: 0; break-after: page; page-break-after: always; }
+  /* fluxo corrido: a ficha seguinte começa logo depois da anterior, na mesma página;
+     o cabeçalho da ficha não fica órfão no fim da folha; o título da seção some */
+  .questao { margin: 0 0 6mm; break-after: auto; page-break-after: auto; }
+  .questao > header { break-after: avoid; page-break-after: avoid; }
   .questoes > h2 { display: none; }
   h2 { break-after: avoid; page-break-after: avoid; }
   a { color: inherit; text-decoration: none; }

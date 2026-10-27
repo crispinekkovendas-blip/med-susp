@@ -1,0 +1,948 @@
+{
+ "_nota": "a correção da prova (questão comentada) de cada questão, por edição — levantamento de 2026-10-27 no YouTube: Grupo Medcof (SUS-SP 2026, UNESP 2026 com capítulos por área, Einstein 2026) e Estratégia MED (SUS-SP 2021, Einstein 2025 com capítulos por questão); as datas de publicação decidem a edição (os cursinhos chamam a prova de 14/12/2025 de 'SUS-SP 2026'); todos da lista branca, aplicado por `videos.py comentadas`",
+ "mapa": {
+  "ped01": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "ped02": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "ped03": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14283s",
+  "ped04": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14464s",
+  "ped05": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14632s",
+  "ped06": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=12131s",
+  "ped07": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "ped08": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14758s",
+  "ped09": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14966s",
+  "ped10": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "ped11": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "ped12": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15054s",
+  "ped13": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=13371s",
+  "ped14": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "ped15": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15282s",
+  "ped16": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15464s",
+  "ped17": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15663s",
+  "ped18": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15827s",
+  "ped19": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "ped20": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "ped21": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=2539s",
+  "ped22": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "ped23": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=3296s",
+  "ped24": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15044s",
+  "ped25": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=2267s",
+  "ped26": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5846s",
+  "ped27": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=6030s",
+  "ped28": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=6286s",
+  "ped29": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+  "ped30": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=7528s",
+  "ped31": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=8352s",
+  "ped32": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+  "ped33": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+  "ped34": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+  "ped35": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=10076s",
+  "ped36": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=10211s",
+  "ped37": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=5195s",
+  "ped38": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=5698s",
+  "ped39": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=6001s",
+  "ped40": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "ped41": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "ped42": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "ped43": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=8743s",
+  "ped44": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "ped45": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=444s",
+  "ped46": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=10463s",
+  "ped47": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "ped48": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "ped49": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=11204s",
+  "ped50": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "prev01": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "prev02": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=16660s",
+  "prev03": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17063s",
+  "prev04": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17446s",
+  "prev05": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17707s",
+  "prev06": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17969s",
+  "prev07": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=18317s",
+  "prev08": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=18665s",
+  "prev09": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "prev10": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "prev11": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20022s",
+  "prev12": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20357s",
+  "prev13": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20692s",
+  "prev14": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=21179s",
+  "prev15": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "prev16": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "prev17": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "prev18": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "prev19": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=23208s",
+  "prev20": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=18142s",
+  "prev21": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=18649s",
+  "prev22": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=22064s",
+  "prev23": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "prev24": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "prev25": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=20586s",
+  "prev26": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev27": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev28": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev29": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev30": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev31": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev32": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev33": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev34": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev35": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev36": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev37": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "prev38": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "prev39": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "prev40": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=12709s",
+  "prev41": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=13155s",
+  "prev42": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=13639s",
+  "prev43": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=14946s",
+  "prev44": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3055s",
+  "prev45": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3237s",
+  "prev46": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3412s",
+  "prev47": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=10230s",
+  "prev48": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=394s",
+  "prev49": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=5437s",
+  "prev50": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=5626s",
+  "cir01": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "cir02": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "cir03": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2070s",
+  "cir04": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2573s",
+  "cir05": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2788s",
+  "cir06": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3418s",
+  "cir07": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3765s",
+  "cir08": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3963s",
+  "cir09": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=4436s",
+  "cir10": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=4727s",
+  "cir11": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5181s",
+  "cir12": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5339s",
+  "cir13": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5498s",
+  "cir14": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "cir15": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6199s",
+  "cir16": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6585s",
+  "cir17": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6797s",
+  "cir18": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15394s",
+  "cir19": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15701s",
+  "cir20": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15867s",
+  "cir21": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=16024s",
+  "cir22": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "cir23": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=16609s",
+  "cir24": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "cir25": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "cir26": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "cir27": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "cir28": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=1188s",
+  "cir29": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=1425s",
+  "cir30": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "cir31": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "cir32": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "cir33": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "cir34": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "cir35": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=4275s",
+  "cir36": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "cir37": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "cir38": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "cir39": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2218s",
+  "cir40": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2464s",
+  "cir41": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2643s",
+  "cir42": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=3221s",
+  "cir43": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=3933s",
+  "cir44": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12034s",
+  "cir45": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "cir46": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=13416s",
+  "cir47": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "cir48": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12410s",
+  "cir49": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12618s",
+  "cir50": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "go01": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7333s",
+  "go02": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7458s",
+  "go03": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7673s",
+  "go04": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7952s",
+  "go05": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8139s",
+  "go06": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8498s",
+  "go07": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8597s",
+  "go08": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8644s",
+  "go09": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8965s",
+  "go10": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=9286s",
+  "go11": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "go12": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "go13": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=9889s",
+  "go14": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10205s",
+  "go15": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10489s",
+  "go16": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10773s",
+  "go17": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7684s",
+  "go18": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11253s",
+  "go19": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11380s",
+  "go20": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11560s",
+  "go21": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "go22": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=12783s",
+  "go23": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "go24": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "go25": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=12042s",
+  "go26": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11123s",
+  "go27": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11482s",
+  "go28": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11040s",
+  "go29": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=12102s",
+  "go30": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=12372s",
+  "go31": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11606s",
+  "go32": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13611s",
+  "go33": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13792s",
+  "go34": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13984s",
+  "go35": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14147s",
+  "go36": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14396s",
+  "go37": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=15762s",
+  "go38": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=16645s",
+  "go39": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=16836s",
+  "go40": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=17333s",
+  "go41": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=17563s",
+  "go42": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=18460s",
+  "go43": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=18626s",
+  "go44": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=8616s",
+  "go45": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=8745s",
+  "go46": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1572s",
+  "go47": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1750s",
+  "go48": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1969s",
+  "go49": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=2376s",
+  "go50": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=2870s",
+  "cm01": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=566s",
+  "cm02": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24441s",
+  "cm03": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24122s",
+  "cm04": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24936s",
+  "cm05": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25328s",
+  "cm06": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "cm07": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=28460s",
+  "cm08": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=28762s",
+  "cm09": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=29065s",
+  "cm10": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "cm11": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25583s",
+  "cm12": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24293s",
+  "cm13": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25807s",
+  "cm14": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=26219s",
+  "cm15": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=23876s",
+  "cm16": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "cm17": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=8041s",
+  "cm18": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "cm19": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=7443s",
+  "cm20": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=4068s",
+  "cm21": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=7583s",
+  "cm22": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "cm23": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=14806s",
+  "cm24": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=6821s",
+  "cm25": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=8272s",
+  "cm26": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=18161s",
+  "cm27": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=18774s",
+  "cm28": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=19057s",
+  "cm29": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=19291s",
+  "cm30": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=17880s",
+  "cm31": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=21603s",
+  "cm32": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=21834s",
+  "cm33": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=22033s",
+  "cm34": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=17880s",
+  "cm35": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=23052s",
+  "cm36": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=7662s",
+  "cm37": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "cm38": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=20520s",
+  "cm39": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "cm40": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "cm41": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=22083s",
+  "cm42": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "cm43": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=21035s",
+  "cm44": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1137s",
+  "cm45": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7087s",
+  "cm46": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7137s",
+  "cm47": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7228s",
+  "cm48": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=9662s",
+  "cm49": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "cm50": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7988s"
+ },
+ "tempos": {
+  "DQcqQYHhPls": {
+   "1": {
+    "s": 566,
+    "como": "legenda"
+   },
+   "2": {
+    "s": 24441,
+    "como": "legenda"
+   },
+   "3": {
+    "s": 24122,
+    "como": "legenda"
+   },
+   "5": {
+    "s": 24936,
+    "como": "legenda"
+   },
+   "7": {
+    "s": 25328,
+    "como": "legenda"
+   },
+   "10": {
+    "s": 28460,
+    "como": "legenda"
+   },
+   "11": {
+    "s": 28762,
+    "como": "estimado"
+   },
+   "12": {
+    "s": 29065,
+    "como": "legenda"
+   },
+   "14": {
+    "s": 25583,
+    "como": "legenda"
+   },
+   "15": {
+    "s": 24293,
+    "como": "legenda"
+   },
+   "16": {
+    "s": 25807,
+    "como": "legenda"
+   },
+   "17": {
+    "s": 26219,
+    "como": "legenda"
+   },
+   "18": {
+    "s": 23876,
+    "como": "legenda"
+   },
+   "25": {
+    "s": 2070,
+    "como": "legenda"
+   },
+   "26": {
+    "s": 2573,
+    "como": "legenda"
+   },
+   "27": {
+    "s": 2788,
+    "como": "legenda"
+   },
+   "28": {
+    "s": 3418,
+    "como": "legenda"
+   },
+   "29": {
+    "s": 3765,
+    "como": "legenda"
+   },
+   "30": {
+    "s": 3963,
+    "como": "legenda"
+   },
+   "31": {
+    "s": 4436,
+    "como": "legenda"
+   },
+   "32": {
+    "s": 4727,
+    "como": "legenda"
+   },
+   "33": {
+    "s": 5181,
+    "como": "legenda"
+   },
+   "34": {
+    "s": 5339,
+    "como": "estimado"
+   },
+   "35": {
+    "s": 5498,
+    "como": "legenda"
+   },
+   "38": {
+    "s": 6199,
+    "como": "legenda"
+   },
+   "39": {
+    "s": 6585,
+    "como": "legenda"
+   },
+   "40": {
+    "s": 6797,
+    "como": "legenda"
+   },
+   "43": {
+    "s": 14283,
+    "como": "legenda"
+   },
+   "44": {
+    "s": 14464,
+    "como": "legenda"
+   },
+   "45": {
+    "s": 14632,
+    "como": "legenda"
+   },
+   "46": {
+    "s": 12131,
+    "como": "legenda"
+   },
+   "48": {
+    "s": 14758,
+    "como": "legenda"
+   },
+   "49": {
+    "s": 14966,
+    "como": "legenda"
+   },
+   "52": {
+    "s": 15054,
+    "como": "legenda"
+   },
+   "53": {
+    "s": 13371,
+    "como": "legenda"
+   },
+   "55": {
+    "s": 15282,
+    "como": "legenda"
+   },
+   "56": {
+    "s": 15464,
+    "como": "legenda"
+   },
+   "57": {
+    "s": 15663,
+    "como": "legenda"
+   },
+   "58": {
+    "s": 15827,
+    "como": "legenda"
+   },
+   "61": {
+    "s": 7333,
+    "como": "legenda"
+   },
+   "62": {
+    "s": 7458,
+    "como": "legenda"
+   },
+   "63": {
+    "s": 7673,
+    "como": "legenda"
+   },
+   "64": {
+    "s": 7952,
+    "como": "legenda"
+   },
+   "65": {
+    "s": 8139,
+    "como": "legenda"
+   },
+   "66": {
+    "s": 8498,
+    "como": "legenda"
+   },
+   "67": {
+    "s": 8597,
+    "como": "legenda"
+   },
+   "68": {
+    "s": 8644,
+    "como": "legenda"
+   },
+   "69": {
+    "s": 8965,
+    "como": "estimado"
+   },
+   "70": {
+    "s": 9286,
+    "como": "legenda"
+   },
+   "73": {
+    "s": 9889,
+    "como": "legenda"
+   },
+   "74": {
+    "s": 10205,
+    "como": "legenda"
+   },
+   "75": {
+    "s": 10489,
+    "como": "estimado"
+   },
+   "76": {
+    "s": 10773,
+    "como": "legenda"
+   },
+   "77": {
+    "s": 7684,
+    "como": "legenda"
+   },
+   "78": {
+    "s": 11253,
+    "como": "legenda"
+   },
+   "79": {
+    "s": 11380,
+    "como": "legenda"
+   },
+   "80": {
+    "s": 11560,
+    "como": "legenda"
+   },
+   "82": {
+    "s": 16660,
+    "como": "legenda"
+   },
+   "83": {
+    "s": 17063,
+    "como": "legenda"
+   },
+   "84": {
+    "s": 17446,
+    "como": "legenda"
+   },
+   "85": {
+    "s": 17707,
+    "como": "estimado"
+   },
+   "86": {
+    "s": 17969,
+    "como": "legenda"
+   },
+   "87": {
+    "s": 18317,
+    "como": "estimado"
+   },
+   "88": {
+    "s": 18665,
+    "como": "legenda"
+   },
+   "92": {
+    "s": 20022,
+    "como": "legenda"
+   },
+   "93": {
+    "s": 20357,
+    "como": "estimado"
+   },
+   "94": {
+    "s": 20692,
+    "como": "legenda"
+   },
+   "95": {
+    "s": 21179,
+    "como": "legenda"
+   },
+   "100": {
+    "s": 23208,
+    "como": "legenda"
+   }
+  },
+  "7IjCaWiuIKM": {
+   "10": {
+    "s": 18142,
+    "como": "legenda"
+   },
+   "11": {
+    "s": 18649,
+    "como": "legenda"
+   },
+   "13": {
+    "s": 22064,
+    "como": "legenda"
+   },
+   "19": {
+    "s": 20586,
+    "como": "legenda"
+   },
+   "25": {
+    "s": 8041,
+    "como": "legenda"
+   },
+   "33": {
+    "s": 7443,
+    "como": "legenda"
+   },
+   "34": {
+    "s": 4068,
+    "como": "legenda"
+   },
+   "35": {
+    "s": 7583,
+    "como": "legenda"
+   },
+   "37": {
+    "s": 14806,
+    "como": "legenda"
+   },
+   "38": {
+    "s": 6821,
+    "como": "legenda"
+   },
+   "39": {
+    "s": 8272,
+    "como": "legenda"
+   },
+   "44": {
+    "s": 12783,
+    "como": "legenda"
+   },
+   "59": {
+    "s": 12042,
+    "como": "legenda"
+   },
+   "61": {
+    "s": 15394,
+    "como": "legenda"
+   },
+   "62": {
+    "s": 15701,
+    "como": "legenda"
+   },
+   "69": {
+    "s": 15867,
+    "como": "legenda"
+   },
+   "70": {
+    "s": 16024,
+    "como": "legenda"
+   },
+   "74": {
+    "s": 16609,
+    "como": "legenda"
+   },
+   "85": {
+    "s": 2539,
+    "como": "legenda"
+   },
+   "89": {
+    "s": 3296,
+    "como": "legenda"
+   },
+   "96": {
+    "s": 15044,
+    "como": "legenda"
+   },
+   "100": {
+    "s": 2267,
+    "como": "legenda"
+   }
+  },
+  "VqUmlruLZNg": {
+   "3": {
+    "s": 5846,
+    "como": "legenda"
+   },
+   "4": {
+    "s": 6030,
+    "como": "legenda"
+   },
+   "5": {
+    "s": 6286,
+    "como": "legenda"
+   },
+   "9": {
+    "s": 7528,
+    "como": "legenda"
+   },
+   "12": {
+    "s": 8352,
+    "como": "legenda"
+   },
+   "18": {
+    "s": 10076,
+    "como": "legenda"
+   },
+   "19": {
+    "s": 10211,
+    "como": "legenda"
+   },
+   "21": {
+    "s": 11123,
+    "como": "legenda"
+   },
+   "23": {
+    "s": 11482,
+    "como": "legenda"
+   },
+   "26": {
+    "s": 12102,
+    "como": "legenda"
+   },
+   "27": {
+    "s": 12372,
+    "como": "legenda"
+   },
+   "28": {
+    "s": 11606,
+    "como": "legenda"
+   },
+   "33": {
+    "s": 13611,
+    "como": "legenda"
+   },
+   "35": {
+    "s": 13792,
+    "como": "legenda"
+   },
+   "36": {
+    "s": 13984,
+    "como": "legenda"
+   },
+   "37": {
+    "s": 14147,
+    "como": "legenda"
+   },
+   "39": {
+    "s": 14396,
+    "como": "legenda"
+   },
+   "42": {
+    "s": 18161,
+    "como": "legenda"
+   },
+   "44": {
+    "s": 18774,
+    "como": "legenda"
+   },
+   "45": {
+    "s": 19057,
+    "como": "legenda"
+   },
+   "46": {
+    "s": 19291,
+    "como": "legenda"
+   },
+   "53": {
+    "s": 21603,
+    "como": "legenda"
+   },
+   "54": {
+    "s": 21834,
+    "como": "legenda"
+   },
+   "55": {
+    "s": 22033,
+    "como": "legenda"
+   },
+   "59": {
+    "s": 23052,
+    "como": "legenda"
+   },
+   "63": {
+    "s": 1188,
+    "como": "legenda"
+   },
+   "64": {
+    "s": 1425,
+    "como": "legenda"
+   },
+   "78": {
+    "s": 4275,
+    "como": "legenda"
+   }
+  },
+  "J8xnPmIQ3MA": {
+   "1": {
+    "s": 7662,
+    "como": "legenda"
+   },
+   "6": {
+    "s": 20520,
+    "como": "legenda"
+   },
+   "10": {
+    "s": 22083,
+    "como": "legenda"
+   },
+   "12": {
+    "s": 21035,
+    "como": "legenda"
+   },
+   "22": {
+    "s": 2218,
+    "como": "legenda"
+   },
+   "23": {
+    "s": 2464,
+    "como": "legenda"
+   },
+   "24": {
+    "s": 2643,
+    "como": "legenda"
+   },
+   "25": {
+    "s": 3221,
+    "como": "legenda"
+   },
+   "28": {
+    "s": 3933,
+    "como": "legenda"
+   },
+   "31": {
+    "s": 5195,
+    "como": "legenda"
+   },
+   "33": {
+    "s": 5698,
+    "como": "legenda"
+   },
+   "34": {
+    "s": 6001,
+    "como": "legenda"
+   },
+   "43": {
+    "s": 8743,
+    "como": "legenda"
+   },
+   "47": {
+    "s": 15762,
+    "como": "legenda"
+   },
+   "50": {
+    "s": 16645,
+    "como": "legenda"
+   },
+   "51": {
+    "s": 16836,
+    "como": "legenda"
+   },
+   "53": {
+    "s": 17333,
+    "como": "legenda"
+   },
+   "54": {
+    "s": 17563,
+    "como": "legenda"
+   },
+   "57": {
+    "s": 18460,
+    "como": "legenda"
+   },
+   "58": {
+    "s": 18626,
+    "como": "legenda"
+   },
+   "69": {
+    "s": 12709,
+    "como": "legenda"
+   },
+   "70": {
+    "s": 13155,
+    "como": "legenda"
+   },
+   "71": {
+    "s": 13639,
+    "como": "legenda"
+   },
+   "75": {
+    "s": 14946,
+    "como": "legenda"
+   }
+  },
+  "9z6V7riy0k4": {
+   "1": {
+    "s": 1137,
+    "como": "legenda"
+   },
+   "3": {
+    "s": 7087,
+    "como": "legenda"
+   },
+   "6": {
+    "s": 7137,
+    "como": "legenda"
+   },
+   "7": {
+    "s": 7228,
+    "como": "legenda"
+   },
+   "9": {
+    "s": 9662,
+    "como": "legenda"
+   },
+   "13": {
+    "s": 7988,
+    "como": "legenda"
+   },
+   "16": {
+    "s": 12034,
+    "como": "legenda"
+   },
+   "22": {
+    "s": 13416,
+    "como": "legenda"
+   },
+   "27": {
+    "s": 12410,
+    "como": "legenda"
+   },
+   "28": {
+    "s": 12618,
+    "como": "legenda"
+   },
+   "32": {
+    "s": 444,
+    "como": "legenda"
+   },
+   "33": {
+    "s": 10463,
+    "como": "legenda"
+   },
+   "40": {
+    "s": 11204,
+    "como": "legenda"
+   },
+   "48": {
+    "s": 8616,
+    "como": "legenda"
+   },
+   "49": {
+    "s": 8745,
+    "como": "legenda"
+   },
+   "53": {
+    "s": 1572,
+    "como": "legenda"
+   },
+   "54": {
+    "s": 1750,
+    "como": "legenda"
+   },
+   "55": {
+    "s": 1969,
+    "como": "legenda"
+   },
+   "56": {
+    "s": 2376,
+    "como": "legenda"
+   },
+   "59": {
+    "s": 2870,
+    "como": "legenda"
+   },
+   "61": {
+    "s": 3055,
+    "como": "legenda"
+   },
+   "62": {
+    "s": 3237,
+    "como": "legenda"
+   },
+   "63": {
+    "s": 3412,
+    "como": "legenda"
+   },
+   "66": {
+    "s": 10230,
+    "como": "legenda"
+   },
+   "68": {
+    "s": 394,
+    "como": "legenda"
+   },
+   "69": {
+    "s": 5437,
+    "como": "legenda"
+   },
+   "70": {
+    "s": 5626,
+    "como": "legenda"
+   }
+  }
+ },
+ "_nota_tempos": "minuto de cada questão achado nas legendas automáticas (primeira fala 'questão N', 5 s antes) ou nos capítulos do vídeo, ou estimado no meio das vizinhas quando a correção segue a ordem; sem nada, o link fica no capítulo da área (UNESP) ou no começo do vídeo"
+}

@@ -33,11 +33,11 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 
 Figuras: 250 (uma por questão). Sobre a matéria: 250 (uma por questão,
 1.800–3.600 caracteres de texto cada). Páginas das apostilas (PDFs de
-2026-10-12 com as opções padrão — Sobre a matéria depois do comentário,
+2026-10-27 com as opções padrão — Sobre a matéria depois do comentário,
 figuras, QR codes, quadriculado — contadas e conferidas pelo `pdf.py`):
-Pediatria 170, Preventiva 172, Cirurgia 176, GO 166, Clínica Médica 166; não
-há mais o PDF completo. Cada ficha ocupa duas páginas, ou três quando comentário e
-mini-aula deixam menos de 90 mm para as anotações (classe `tripla`). A folha
+Pediatria 157, Preventiva 166, Cirurgia 164, GO 161, Clínica Médica 165
+(2026-10-27, fluxo corrido, cinco QR codes, marca-texto e post-its); não há
+mais o PDF completo. A folha
 de respostas desenha 225 bolhas para as 50 de Pediatria (25 × 5 + 25 × 4).
 
 Ids `ped01–ped50`, `prev01–prev50`, `cir01–cir50`, `go01–go50`, `cm01–cm50`; dentro da área,
@@ -289,11 +289,38 @@ carrega algo do YouTube). Claude escolhe por título, canal, duração e
 visualizações; **não assiste ao vídeo** — a revisão do cliente é o controle
 de qualidade.
 
-Hoje: **50 vídeos da questão** e **50 da matéria** escolhidos, de 26 canais
+Hoje: **250 vídeos da questão** e **242 da matéria** escolhidos, de 26 canais
 (`conferir_readme.js` confere esta frase) — a lista branca é a mesma aprovada
-para o banco AMRIGS, do mesmo cliente. As áreas entram uma a uma; enquanto a
-camada é preenchida, `EXIGE_VIDEOS = false` no harness; ao completar, `true` —
-uma escolha ausente vira erro.
+para o banco AMRIGS, do mesmo cliente. As cinco áreas estão cobertas
+(2026-10-27): o vídeo da questão é a correção da prova (abaixo); o da matéria
+vem da lista branca quando ela tem o tema, e **82 vieram de canais fora da
+lista** (marcados `forcado` em `escolhas.json` e visíveis na revisão: a busca
+na lista não achou nada para o tema), escolhidos por um script de
+preenchimento (a mesma consulta, 30 resultados, só títulos em português com
+uma palavra do tema). Oito lugares da matéria seguem vazios (ped34, prev03,
+prev27, prev33, prev41, cir24, go40, go43: nada em português no tema, ou
+vídeo fora do ar) e caem na página `v/`; por isso `EXIGE_VIDEOS = false`
+continua no harness.
+
+**O vídeo da questão é a correção da prova** (2026-10-27): para as 250
+questões, o "Vídeo da questão" abre a correção comentada da edição pelos
+cursinhos — SUS-SP 2026: Grupo Medcof (15/12/2025, R1 acesso direto); SUS-SP
+2021: Estratégia MED (12/01/2021, correção ao vivo); UNESP 2026: Grupo Medcof
+(01/12/2025, com capítulos por área, usados quando a legenda não dá o
+minuto); Einstein 2026: Grupo Medcof (04/11/2025); Einstein 2025: Estratégia
+MED (22/10/2024, com capítulos por questão). Todos da lista branca; as datas
+de publicação decidem a edição (os cursinhos chamam a prova de 14/12/2025 de
+"SUS-SP 2026"); os vídeos de R+ e R3 são de outras provas e ficaram de fora.
+O mapa está em `ferramentas/videos/comentadas.json` e entra por `videos.py
+comentadas <mapa>`, marcando `comentada` na escolha (a correção dura horas:
+só o mínimo de 4 min vale para ela). O QR code abre a correção **no minuto da
+questão** sempre que foi possível achá-lo: as legendas automáticas (só o
+texto, pelo yt-dlp) dão a primeira fala "questão N" (5 s antes), os capítulos
+do vídeo dão o minuto quando se chamam "Questão N", e, quando a correção
+segue a ordem, a questão não citada fica no meio das vizinhas — 197 das 250
+com minuto; as outras abrem o capítulo da área ou o começo do vídeo. A tabela
+dos tempos, com a origem de cada um, está em `comentadas.json` (`tempos`).
+Os vídeos não são baixados nem recortados: o link leva ao original.
 
 **A ferramenta**, `ferramentas/videos.py` (yt-dlp, sem chave de API, com
 pausa entre buscas, cabeçalho `Accept-Language: pt-BR` e `youtube:lang=pt`
@@ -365,26 +392,20 @@ comentário, figura, referências, Simplificando, Sobre a matéria, linha de
 fonte, autoavaliação e, no fim, o **espaço de anotações — um só por
 questão, quadriculado de 5 mm por padrão**: primeiro um quadro de 40 mm para
 o estudante escrever os **termos-chave** (copiar da mini-aula já vale como
-anotação), depois "Minhas anotações" preenchendo o resto. A ficha corre por
-quantas páginas precisar, sem espaço em branco no meio; se no fim sobrarem
-menos de 90 mm para a pauta (40 de termos e 50 de anotações), ela ganha a
-página seguinte. "Em página própria" separa a mini-aula numa página com a
-pauta; "Não" a tira.
-**Cada ficha ocupa uma, duas ou três páginas A4 inteiras**: a ficha tem
-`min-height: 256mm`, e `caderno.js` mede o <em>conteúdo</em> de cada uma
-(tudo menos a pauta) na geometria da folha impressa (classe `medindo` no
-body: 210 mm com texto de 182 mm, seja qual for a tela), e refaz a medida
-antes de imprimir. Se o conteúdo cabe numa página deixando 90 mm ou mais para a pauta, é uma
-página normal; senão é `dupla` e ocupa exatamente duas páginas, com a pauta
-preenchendo a segunda; se nem em duas cabe deixando 90 mm, é `tripla`. A
-ficha sem pauta (a da questão, no modo página própria) só cresce quando o
-conteúdo passa da página inteira. A medida é refeita no `load` (as
-figuras chegam depois do primeiro render) e antes de imprimir. Com as
-questões atuais e as figuras (medição de 2026-09-28): ver os números em
-"Números". O comentário completo com os distratores mais a figura
-raramente cabe numa página em corpo 9,5 pt; a opção "Letra grande" aumenta
-enunciado, alternativas, comentário e Simplificando, e aumenta o número de
-duplas.
+anotação), depois "Minhas anotações" de 50 mm. "Em página própria" separa a mini-aula numa página com a pauta;
+"Não" a tira.
+**Fluxo corrido** (2026-10-27, a pedido do usuário: "zero espaço em branco"):
+a ficha tem a altura do seu conteúdo e a seguinte começa logo depois, na
+mesma página — nenhuma página fica em branco por causa de uma ficha curta.
+No impresso, `.questao { break-after: auto }`, o cabeçalho da ficha não fica
+órfão no fim da folha (`break-after: avoid`), e os blocos que não se partem
+(figura, post-its, faixa dos QR codes, quadro dos termos) são os únicos que
+ainda podem deixar um resto de página. O espaço do estudante é fixo: 40 mm de
+termos-chave e 50 mm de anotações. Não existem mais as classes `dupla` e
+`tripla`; `caderno.js` só estima, pela posição de cada ficha, a página que o
+índice mostra no navegador (nos PDFs publicados o `pdf.py` lê as páginas
+reais e as passa pela URL, ver "PDF"). A opção "Letra grande" aumenta
+enunciado, alternativas, comentário e Simplificando.
 
 Antes das fichas: capa (diz a **área** da apostila e os números da edição, e
 traz uma linha para o **nome do estudante** — vazia por padrão, para o aluno
@@ -403,8 +424,8 @@ Simplificando, Sobre a matéria (página própria / na ficha / não), figuras,
 anotações (quadriculado / pauta / em branco), letra, folha, resumo, nome; as mesmas opções valem pela URL
 (`caderno/?area=ped&materia=junto`), sem gravar. Cores impressas de verdade
 (`print-color-adjust: exact`). Para conferir, meça `.questao` no navegador:
-as normais dão 256 mm, as duplas 512 mm e as triplas 768 mm (a medida é feita
-na geometria do papel).
+ela tem a altura do conteúdo (fluxo corrido; a medida da estimativa do
+índice é feita na geometria do papel).
 
 ### PDF
 
@@ -465,7 +486,8 @@ legenda e a fonte. De Sobre a matéria, prova a forma de cada mini-aula
 (partes na ordem, contagens, tamanho, nada do item) e, no DOM de mentira, a
 terceira aba (mostra, guarda em `susp:aba`, o próximo cartão abre nela e um
 cartão sem ela abre no Comentário), o bloco na ficha com as respostas à
-vista e a opção que o desliga, e o CSS da ficha `tripla`.
+vista e a opção que o desliga, e o CSS do fluxo corrido (sem `min-height`,
+sem `dupla`/`tripla`, cabeçalho que não fica órfão).
 
 `controles.js` é a prova de que o harness não é cego: cada controle altera
 **um** arquivo (`banco.js`, `app.js`, `caderno/caderno.js`, `videos.json`, `v/destino.js` ou

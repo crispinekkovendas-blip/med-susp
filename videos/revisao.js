@@ -4,10 +4,11 @@
    única página do site que carrega algo de lá. */
 (function (raiz) {
   const escapa = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const idDe = url => (/v=([A-Za-z0-9_-]{11})/.exec(url) || [])[1] || "";
   const mmss = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
   const ROT = { q: "Vídeo da questão", m: "Vídeo da matéria" };
   const pick = (k, p) => p
-    ? `<div class="pick" data-qual="${k}"><a href="${escapa(p.url)}" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/${escapa(p.url.slice(-11))}/mqdefault.jpg" width="320" height="180" alt="" loading="lazy"></a><p class="rot">${ROT[k]}</p><p class="tit"><a href="${escapa(p.url)}" target="_blank" rel="noopener">${escapa(p.titulo)}</a></p><p class="meta">${escapa(p.canal)} · ${mmss(p.duracao)}</p></div>`
+    ? `<div class="pick${p.comentada ? " comentada" : ""}" data-qual="${k}"><a href="${escapa(p.url)}" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/${escapa(idDe(p.url))}/mqdefault.jpg" width="320" height="180" alt="" loading="lazy"></a><p class="rot">${ROT[k]}${p.comentada ? " · questão comentada (correção da prova)" : ""}</p><p class="tit"><a href="${escapa(p.url)}" target="_blank" rel="noopener">${escapa(p.titulo)}</a></p><p class="meta">${escapa(p.canal)} · ${mmss(p.duracao)}</p></div>`
     : `<div class="pick vazio" data-qual="${k}"><p class="rot">${ROT[k]}</p><p>sem vídeo</p></div>`;
   function htmlRevisao(videos) {
     const ids = Object.keys(videos || {});

@@ -1,51 +1,78 @@
 {
  "cm01": {
-  "q": "https://www.youtube.com/watch?v=Q9afO0FTEio",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=566s",
   "m": "https://www.youtube.com/watch?v=52kmfbAd1H8",
-  "busca": "Reversão da varfarina — sangramento grave com INR alto"
+  "busca": "Reversão da varfarina — sangramento grave com INR alto",
+  "comentada": {
+   "q": true
+  }
  },
  "cm02": {
-  "q": "https://www.youtube.com/watch?v=D4FVsO1DM8g",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24441s",
   "m": "https://www.youtube.com/watch?v=WIk4YDfKK2I",
-  "busca": "Diabetes tipo 2 com alto risco cardiovascular — agonista do GLP-1"
+  "busca": "Diabetes tipo 2 com alto risco cardiovascular — agonista do GLP-1",
+  "comentada": {
+   "q": true
+  }
  },
  "cm03": {
-  "q": "https://www.youtube.com/watch?v=LoZ1sb_fqcs",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24122s",
   "m": "https://www.youtube.com/watch?v=sbP3n9Nv0RI",
-  "busca": "DPOC exacerbador — broncodilatação dupla LABA e LAMA"
+  "busca": "DPOC exacerbador — broncodilatação dupla LABA e LAMA",
+  "comentada": {
+   "q": true
+  }
  },
  "cm04": {
-  "q": "https://www.youtube.com/watch?v=CCTX0dH8KfQ",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24936s",
   "m": "https://www.youtube.com/watch?v=MgdS2q7Cy9w",
-  "busca": "Espondiloartrite axial — dor lombar inflamatória e HLA-B27"
+  "busca": "Espondiloartrite axial — dor lombar inflamatória e HLA-B27",
+  "comentada": {
+   "q": true
+  }
  },
  "cm05": {
-  "q": "https://www.youtube.com/watch?v=BMljL81EvGU",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25328s",
   "m": "https://www.youtube.com/watch?v=NKJFSfDV9VQ",
-  "busca": "Hiponatremia hipervolêmica — insuficiência cardíaca descompensada"
+  "busca": "Hiponatremia hipervolêmica — insuficiência cardíaca descompensada",
+  "comentada": {
+   "q": true
+  }
  },
  "cm06": {
-  "q": "https://www.youtube.com/watch?v=GdyimJ4Z4tM",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
   "m": "https://www.youtube.com/watch?v=KTaS3K3KYQg",
-  "busca": "Lesão renal aguda no cirrótico — albumina antes da terlipressina"
+  "busca": "Lesão renal aguda no cirrótico — albumina antes da terlipressina",
+  "comentada": {
+   "q": true
+  }
  },
  "cm07": {
-  "q": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=28460s",
   "m": "https://www.youtube.com/watch?v=DOkFJJvXVvM",
-  "busca": "PEEP e hemodinâmica — queda do débito cardíaco"
+  "busca": "PEEP e hemodinâmica — queda do débito cardíaco",
+  "comentada": {
+   "q": true
+  }
  },
  "cm08": {
-  "q": "https://www.youtube.com/watch?v=tOUABAniPPA",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=28762s",
   "m": "https://www.youtube.com/watch?v=qIx9Dls61Mo",
-  "busca": "Hipertensão secundária — hiperaldosteronismo primário"
+  "busca": "Hipertensão secundária — hiperaldosteronismo primário",
+  "comentada": {
+   "q": true
+  }
  },
  "cm09": {
-  "q": "https://www.youtube.com/watch?v=nMv0fs7285M",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=29065s",
   "m": "https://www.youtube.com/watch?v=mtXXLItmPiI",
-  "busca": "Cetoacidose diabética no adulto — soro, insulina e potássio"
+  "busca": "Cetoacidose diabética no adulto — soro, insulina e potássio",
+  "comentada": {
+   "q": true
+  }
  },
  "cm10": {
-  "q": "https://www.youtube.com/watch?v=a2kkKRFD6iw",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
   "m": "https://www.youtube.com/watch?v=hk3XdqeEFwE",
   "busca": "Intoxicação por nitroprussiato — cianeto e acidose láctica",
   "vetado": {
@@ -55,119 +82,178 @@
    "m": [
     "https://www.youtube.com/watch?v=X4UgRTgQAW4"
    ]
+  },
+  "comentada": {
+   "q": true
   }
  },
  "cm11": {
-  "q": "https://www.youtube.com/watch?v=NxGliHgDTuU",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25583s",
   "m": "https://www.youtube.com/watch?v=Og3Y5kgmdJw",
-  "busca": "Guillain-Barré — insuficiência respiratória hipercápnica"
+  "busca": "Guillain-Barré — insuficiência respiratória hipercápnica",
+  "comentada": {
+   "q": true
+  }
  },
  "cm12": {
-  "q": "https://www.youtube.com/watch?v=jrbfMKuRKMA",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=24293s",
   "m": "https://www.youtube.com/watch?v=pxQXGXRhJb8",
-  "busca": "Fibrose pulmonar idiopática — antifibrótico, não corticoide"
+  "busca": "Fibrose pulmonar idiopática — antifibrótico, não corticoide",
+  "comentada": {
+   "q": true
+  }
  },
  "cm13": {
-  "q": "https://www.youtube.com/watch?v=k8alZCJBvvU",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=25807s",
   "m": "https://www.youtube.com/watch?v=VcqEuvvuNlM",
   "busca": "Cardiomiopatia hipertrófica obstrutiva — betabloqueador",
   "forcado": {
-   "q": true,
    "m": true
+  },
+  "comentada": {
+   "q": true
   }
  },
  "cm14": {
-  "q": "https://www.youtube.com/watch?v=fY5Fs164mLA",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=26219s",
   "m": "https://www.youtube.com/watch?v=_ifMnkynXJE",
-  "busca": "Reações transfusionais — sobrecarga circulatória (TACO)"
+  "busca": "Reações transfusionais — sobrecarga circulatória (TACO)",
+  "comentada": {
+   "q": true
+  }
  },
  "cm15": {
-  "q": "https://www.youtube.com/watch?v=iDdGDfOmiFI",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=23876s",
   "m": "https://www.youtube.com/watch?v=DEbvkur_f9A",
-  "busca": "HIV — reconstituição imune leve: manter a terapia antirretroviral"
+  "busca": "HIV — reconstituição imune leve: manter a terapia antirretroviral",
+  "comentada": {
+   "q": true
+  }
  },
  "cm16": {
-  "q": "https://www.youtube.com/watch?v=HGboQu0ssbc",
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
   "m": "https://www.youtube.com/watch?v=7TxkoaK12Is",
-  "busca": "Insuficiência cardíaca refratária com BRE — ressincronização"
+  "busca": "Insuficiência cardíaca refratária com BRE — ressincronização",
+  "comentada": {
+   "q": true
+  }
  },
  "cm17": {
-  "q": "https://www.youtube.com/watch?v=xF2Ofjasd2Y",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=8041s",
   "m": "https://www.youtube.com/watch?v=TH724UiCOT4",
-  "busca": "Esclerose múltipla — surtos separados no tempo e no espaço"
+  "busca": "Esclerose múltipla — surtos separados no tempo e no espaço",
+  "comentada": {
+   "q": true
+  }
  },
  "cm18": {
-  "q": "https://www.youtube.com/watch?v=AM7sk7YO3MY",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
   "m": "https://www.youtube.com/watch?v=Wabx7vCzalA",
   "busca": "Prevenção cardiovascular — estatina pelo LDL muito alto",
   "vetado": {
    "q": [
     "https://www.youtube.com/watch?v=yIpXxwin64Q"
    ]
+  },
+  "comentada": {
+   "q": true
   }
  },
  "cm19": {
-  "q": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=7443s",
   "m": "https://www.youtube.com/watch?v=YbIDVh6R7b0",
-  "busca": "Peritonite bacteriana espontânea — PMN acima de 250 e ceftriaxona"
+  "busca": "Peritonite bacteriana espontânea — PMN acima de 250 e ceftriaxona",
+  "comentada": {
+   "q": true
+  }
  },
  "cm20": {
-  "q": "https://www.youtube.com/watch?v=j0SmmyluGJ4",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=4068s",
   "m": "https://www.youtube.com/watch?v=SDKi3O8hcV4",
-  "busca": "Hipotireoidismo primário — TSH alto, T4 livre baixo, levotiroxina"
+  "busca": "Hipotireoidismo primário — TSH alto, T4 livre baixo, levotiroxina",
+  "comentada": {
+   "q": true
+  }
  },
  "cm21": {
-  "q": "https://www.youtube.com/watch?v=e4WIYSXNca4",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=7583s",
   "m": "https://www.youtube.com/watch?v=rU8W0kRAK1o",
-  "busca": "Sorologia da hepatite B — o perfil da infecção curada"
+  "busca": "Sorologia da hepatite B — o perfil da infecção curada",
+  "comentada": {
+   "q": true
+  }
  },
  "cm22": {
-  "q": "https://www.youtube.com/watch?v=hS3QtpXV87o",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
   "m": "https://www.youtube.com/watch?v=7v4Kl72UomQ",
-  "busca": "Nefrite intersticial aguda por anti-inflamatório"
+  "busca": "Nefrite intersticial aguda por anti-inflamatório",
+  "comentada": {
+   "q": true
+  }
  },
  "cm23": {
-  "q": "https://www.youtube.com/watch?v=d3gCXdQ8Axc",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=14806s",
   "m": "https://www.youtube.com/watch?v=ZYLGODIR-r0",
-  "busca": "Profilaxia do tétano — ferida suja e esquema vacinal completo"
+  "busca": "Profilaxia do tétano — ferida suja e esquema vacinal completo",
+  "comentada": {
+   "q": true
+  }
  },
  "cm24": {
-  "q": "https://www.youtube.com/watch?v=6YcwUVA-_Xk",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=6821s",
   "m": "https://www.youtube.com/watch?v=JMxWtbENkfU",
   "busca": "Hipocalemia com alcalose — perda renal por diurético e aldosterona",
   "vetado": {
    "m": [
     "https://www.youtube.com/watch?v=2qUvh67OEKQ"
    ]
+  },
+  "comentada": {
+   "q": true
   }
  },
  "cm25": {
-  "q": "https://www.youtube.com/watch?v=2WB1k-ziWKo",
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=8272s",
   "m": "https://www.youtube.com/watch?v=AdO5fI4ayB0",
-  "busca": "Cefaleia em salvas — oxigênio a alto fluxo na crise"
+  "busca": "Cefaleia em salvas — oxigênio a alto fluxo na crise",
+  "comentada": {
+   "q": true
+  }
  },
  "cm26": {
-  "q": "https://www.youtube.com/watch?v=iv6-wtmUbHQ",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=18161s",
   "m": "https://www.youtube.com/watch?v=hZo6phuD1Ng",
-  "busca": "Crise de asma leve — broncodilatador, corticoide oral e gatilhos"
+  "busca": "Crise de asma leve — broncodilatador, corticoide oral e gatilhos",
+  "comentada": {
+   "q": true
+  }
  },
  "cm27": {
-  "q": "https://www.youtube.com/watch?v=6IdiilOQBsQ",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=18774s",
   "m": "https://www.youtube.com/watch?v=jWkiZtSwFoM",
-  "busca": "Intubação no choque séptico — etomidato e rocurônio"
+  "busca": "Intubação no choque séptico — etomidato e rocurônio",
+  "comentada": {
+   "q": true
+  }
  },
  "cm28": {
-  "q": "https://www.youtube.com/watch?v=SLM1m77wEyc",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=19057s",
   "m": "https://www.youtube.com/watch?v=eHd9JjH9nuc",
-  "busca": "Doença de Graves — bócio difuso com sopro e oftalmopatia"
+  "busca": "Doença de Graves — bócio difuso com sopro e oftalmopatia",
+  "comentada": {
+   "q": true
+  }
  },
  "cm29": {
-  "q": "https://www.youtube.com/watch?v=ku7D_0uFxwQ",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=19291s",
   "m": "https://www.youtube.com/watch?v=BmSsGiWjLeY",
-  "busca": "Neutropenia febril — culturas e antibiótico empírico na primeira hora"
+  "busca": "Neutropenia febril — culturas e antibiótico empírico na primeira hora",
+  "comentada": {
+   "q": true
+  }
  },
  "cm30": {
-  "q": "https://www.youtube.com/watch?v=-GZ1_ExHV1w",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=17880s",
   "m": "https://www.youtube.com/watch?v=QoaSnqHxgGE",
   "busca": "Osteoporose com fratura e estenose de esôfago — ácido zoledrônico",
   "vetado": {
@@ -177,120 +263,2022 @@
    "m": [
     "https://www.youtube.com/watch?v=GaUn4w_BP3A"
    ]
+  },
+  "comentada": {
+   "q": true
   }
  },
  "cm31": {
-  "q": "https://www.youtube.com/watch?v=CvjR0BR6ToM",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=21603s",
   "m": "https://www.youtube.com/watch?v=CtD3UFcpAzg",
-  "busca": "Estado hiperglicêmico hiperosmolar — desidratação e trombose"
+  "busca": "Estado hiperglicêmico hiperosmolar — desidratação e trombose",
+  "comentada": {
+   "q": true
+  }
  },
  "cm32": {
-  "q": "https://www.youtube.com/watch?v=yIpXxwin64Q",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=21834s",
   "m": "https://www.youtube.com/watch?v=-tjEiWfRims",
-  "busca": "Insuficiência cardíaca de fração reduzida — o quarto pilar (iSGLT2)"
+  "busca": "Insuficiência cardíaca de fração reduzida — o quarto pilar (iSGLT2)",
+  "comentada": {
+   "q": true
+  }
  },
  "cm33": {
-  "q": "https://www.youtube.com/watch?v=l1E4KLGBhxM",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=22033s",
   "m": "https://www.youtube.com/watch?v=k9zOJkjotJw",
-  "busca": "Lesão renal aguda na sepse — necrose tubular e acidose mista"
+  "busca": "Lesão renal aguda na sepse — necrose tubular e acidose mista",
+  "comentada": {
+   "q": true
+  }
  },
  "cm34": {
-  "q": "https://www.youtube.com/watch?v=gAMEX_s7Tkk",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=17880s",
   "m": "https://www.youtube.com/watch?v=NChuwhzlQeQ",
-  "busca": "Síndrome da fragilidade — os critérios de Fried"
+  "busca": "Síndrome da fragilidade — os critérios de Fried",
+  "comentada": {
+   "q": true
+  }
  },
  "cm35": {
-  "q": "https://www.youtube.com/watch?v=O1XTAURjyu8",
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=23052s",
   "m": "https://www.youtube.com/watch?v=O1XTAURjyu8",
-  "busca": "Pneumonia pós-influenza por Staphylococcus aureus — cobrir MRSA"
+  "busca": "Pneumonia pós-influenza por Staphylococcus aureus — cobrir MRSA",
+  "comentada": {
+   "q": true
+  }
  },
  "cm36": {
-  "q": "https://www.youtube.com/watch?v=UxKoEI-YG8Y",
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=7662s",
   "m": "https://www.youtube.com/watch?v=EH9rLTnuppk",
-  "busca": "Asma só com salbutamol — corticoide inalatório com formoterol"
+  "busca": "Asma só com salbutamol — corticoide inalatório com formoterol",
+  "comentada": {
+   "q": true
+  }
  },
  "cm37": {
-  "q": "https://www.youtube.com/watch?v=a5CjLlTVfHk",
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
   "m": "https://www.youtube.com/watch?v=-UubIKtOh_U",
-  "busca": "Artropatias por cristais — a gota exige o cristal para o diagnóstico"
+  "busca": "Artropatias por cristais — a gota exige o cristal para o diagnóstico",
+  "comentada": {
+   "q": true
+  }
  },
  "cm38": {
-  "q": "https://www.youtube.com/watch?v=aIOXXlVb7mw",
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=20520s",
   "m": "https://www.youtube.com/watch?v=bg1EgkF71q0",
-  "busca": "Hipertensão no diabético com albuminúria — IECA e bloqueador de cálcio"
+  "busca": "Hipertensão no diabético com albuminúria — IECA e bloqueador de cálcio",
+  "comentada": {
+   "q": true
+  }
  },
  "cm39": {
-  "q": "https://www.youtube.com/watch?v=n2Q4gnsqKto",
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
   "m": "https://www.youtube.com/watch?v=Wzhs8g6HhVE",
-  "busca": "Bloqueio atrioventricular de 2º grau — Mobitz I e Mobitz II no ECG"
+  "busca": "Bloqueio atrioventricular de 2º grau — Mobitz I e Mobitz II no ECG",
+  "comentada": {
+   "q": true
+  }
  },
  "cm40": {
-  "q": "https://www.youtube.com/watch?v=jgVArzIk0Fc",
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
   "m": "https://www.youtube.com/watch?v=WzTUK6LaDxM",
-  "busca": "Suspeita de embolia pulmonar — a probabilidade pré-teste decide"
+  "busca": "Suspeita de embolia pulmonar — a probabilidade pré-teste decide",
+  "comentada": {
+   "q": true
+  }
  },
  "cm41": {
-  "q": "https://www.youtube.com/watch?v=Vtyyb8hY7b4",
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=22083s",
   "m": "https://www.youtube.com/watch?v=hrYC6NnWIK4",
-  "busca": "Pielonefrite não complicada — ceftriaxona e alta com ciprofloxacino"
+  "busca": "Pielonefrite não complicada — ceftriaxona e alta com ciprofloxacino",
+  "comentada": {
+   "q": true
+  }
  },
  "cm42": {
-  "q": "https://www.youtube.com/watch?v=gnbaL76-5x8",
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
   "m": "https://www.youtube.com/watch?v=gnbaL76-5x8",
-  "busca": "Diabetes insípido central pós-cirurgia hipofisária — desmopressina"
+  "busca": "Diabetes insípido central pós-cirurgia hipofisária — desmopressina",
+  "comentada": {
+   "q": true
+  }
  },
  "cm43": {
-  "q": "https://www.youtube.com/watch?v=BPAGC1moNuU",
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=21035s",
   "m": "https://www.youtube.com/watch?v=BPAGC1moNuU",
   "busca": "Inibidor de SGLT2 no perioperatório — suspender 3 dias antes",
   "vetado": {
    "m": [
     "https://www.youtube.com/watch?v=Ieha1l1V7R8"
    ]
+  },
+  "comentada": {
+   "q": true
   }
  },
  "cm44": {
-  "q": "https://www.youtube.com/watch?v=YvfivJWyPBI",
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1137s",
   "m": "https://www.youtube.com/watch?v=YKD2lFK8cS4",
   "busca": "Agonistas do GLP-1 no diabético com aterosclerose — o que esperar",
   "forcado": {
-   "q": true,
    "m": true
+  },
+  "comentada": {
+   "q": true
   }
  },
  "cm45": {
-  "q": "https://www.youtube.com/watch?v=XHYrjfknKes",
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7087s",
   "m": "https://www.youtube.com/watch?v=DSBJ9ohNG1U",
-  "busca": "Fibrilação atrial estável no asmático — frequência com verapamil"
+  "busca": "Fibrilação atrial estável no asmático — frequência com verapamil",
+  "comentada": {
+   "q": true
+  }
  },
  "cm46": {
-  "q": "https://www.youtube.com/watch?v=0m1qtsumgw0",
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7137s",
   "m": "https://www.youtube.com/watch?v=0Y6PrewBFVM",
-  "busca": "Infarto com supra de ST — angioplastia primária na lesão culpada"
+  "busca": "Infarto com supra de ST — angioplastia primária na lesão culpada",
+  "comentada": {
+   "q": true
+  }
  },
  "cm47": {
-  "q": "https://www.youtube.com/watch?v=66Qj_A12Pso",
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7228s",
   "m": "https://www.youtube.com/watch?v=tOUABAniPPA",
-  "busca": "Hipertensão resistente — investigar causa secundária e somar clonidina"
+  "busca": "Hipertensão resistente — investigar causa secundária e somar clonidina",
+  "comentada": {
+   "q": true
+  }
  },
  "cm48": {
-  "q": "https://www.youtube.com/watch?v=NEyKt_RIAvw",
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=9662s",
   "m": "https://www.youtube.com/watch?v=zKYrBNm5sEo",
-  "busca": "Pneumonia de provável aspiração — internar, cobrir e investigar"
+  "busca": "Pneumonia de provável aspiração — internar, cobrir e investigar",
+  "comentada": {
+   "q": true
+  }
  },
  "cm49": {
-  "q": "https://www.youtube.com/watch?v=qLJlVgbcnNQ",
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4",
   "m": "https://www.youtube.com/watch?v=8sNd7q-G5G4",
   "busca": "Piora após trombólise no AVC — transformação hemorrágica",
   "vetado": {
    "m": [
     "https://www.youtube.com/watch?v=eJdFOUnhP0g"
    ]
+  },
+  "comentada": {
+   "q": true
   }
  },
  "cm50": {
-  "q": "https://www.youtube.com/watch?v=XHYrjfknKes",
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=7988s",
   "m": "https://www.youtube.com/watch?v=DSBJ9ohNG1U",
-  "busca": "Fibrilação atrial instável — cardioversão elétrica sincronizada"
+  "busca": "Fibrilação atrial instável — cardioversão elétrica sincronizada",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped01": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=DbLyJptztQs",
+  "busca": "Avaliação nutricional — índice estatura-para-idade",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped02": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=2equiT_OHeI",
+  "busca": "Molusco contagioso — diagnóstico clínico e conduta expectante",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped03": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14283s",
+  "m": "https://www.youtube.com/watch?v=Bdekd9eSQv4",
+  "busca": "Toxoplasmose na gestação — investigação do recém-nascido",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped04": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14464s",
+  "m": "https://www.youtube.com/watch?v=yH3FU71Y2o0",
+  "busca": "Crise epiléptica na urgência — midazolam nasal e conduta na alta",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped05": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14632s",
+  "m": "https://www.youtube.com/watch?v=Jvdu1N0inXM",
+  "busca": "Escorpionismo grave — risco cardíaco e exames de seguimento",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped06": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=12131s",
+  "m": "https://www.youtube.com/watch?v=a7srTFjPhRE",
+  "busca": "Síncope ao esforço — estenose aórtica e o que não prescrever",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped07": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=SWTJDaVLkEo",
+  "busca": "Sintomas urinários na pré-escolar — vulvovaginite versus ITU",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped08": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14758s",
+  "m": "https://www.youtube.com/watch?v=MIqWfw4BLOY",
+  "busca": "Contato de tuberculose — infecção latente e esquema de isoniazida",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped09": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=14966s",
+  "m": "https://www.youtube.com/watch?v=0a5eY-u_dMg",
+  "busca": "Calendário do PNI — vacinas dos 6 meses",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped10": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=J1kCpYUdlS8",
+  "busca": "Síndrome da pele escaldada estafilocócica — diagnóstico diferencial",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped11": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=MT-9C64uSbk",
+  "busca": "Transtorno de ansiedade na criança — medo, evitação e sono",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped12": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15054s",
+  "m": "https://www.youtube.com/watch?v=zw3uE5q0LhU",
+  "busca": "Desconforto respiratório neonatal — taquipneia transitória",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped13": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=13371s",
+  "m": "https://www.youtube.com/watch?v=vlidl79yuSk",
+  "busca": "Doença falciforme — sequestro esplênico agudo",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped14": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=ixGEJ0qoPRQ",
+  "busca": "Otite média aguda supurada — otorreia não é falha terapêutica",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped15": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15282s",
+  "m": "https://www.youtube.com/watch?v=6rHd9ZhTwRM",
+  "busca": "Cetoacidose diabética na criança — volume antes da insulina",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped16": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15464s",
+  "m": "https://www.youtube.com/watch?v=Mez91HQQ4uk",
+  "busca": "Lacrimejamento no lactente — obstrução congênita do ducto nasolacrimal",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped17": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15663s",
+  "m": "https://www.youtube.com/watch?v=0bQ4d-707oU",
+  "busca": "Febre com hepatomegalia dolorosa — abscesso hepático amebiano",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped18": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=15827s",
+  "m": "https://www.youtube.com/watch?v=3l5pkQUEvRo",
+  "busca": "Diarreia sanguinolenta — síndrome hemolítico-urêmica",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped19": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=8xTQ_i6Ic0c",
+  "busca": "Distonia aguda por antiemético — metoclopramida",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped20": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=8DUKq_Dw5bA",
+  "busca": "Trauma cranioencefálico moderado na criança — tomografia após o ABC",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped21": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=2539s",
+  "m": "https://www.youtube.com/watch?v=W5rGZr91cLc",
+  "busca": "Crescimento no primeiro semestre — peso, comprimento e PC",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped22": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": "https://www.youtube.com/watch?v=EzutW35C8jI",
+  "busca": "Desenvolvimento aos 10 meses — marcos normais e engatinhar",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped23": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=3296s",
+  "m": "https://www.youtube.com/watch?v=cHjZsUf1AS0",
+  "busca": "Coqueluche no lactente — diagnóstico clínico e macrolídeo",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped24": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15044s",
+  "m": "https://www.youtube.com/watch?v=G6FRwZ2Wbi8",
+  "busca": "Meningite viral — o líquor que diferencia",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped25": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=2267s",
+  "m": "https://www.youtube.com/watch?v=X8kkmf4Axa4",
+  "busca": "Filho de mãe diabética — hipoglicemia nas primeiras horas",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped26": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5846s",
+  "m": "https://www.youtube.com/watch?v=dmcacgu8Q0w",
+  "busca": "Reanimação neonatal — VPP com ar ambiente antes da massagem",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped27": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=6030s",
+  "m": "https://www.youtube.com/watch?v=q1BQYxM-xxQ",
+  "busca": "Clampeamento tardio do cordão — quando e por quê",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped28": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=6286s",
+  "m": "https://www.youtube.com/watch?v=IssUTDq1ni4",
+  "busca": "Síndrome de Down na adolescência — o que orientar e o que pedir",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped29": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+  "m": "https://www.youtube.com/watch?v=VYlBx4lsjH8",
+  "busca": "Síndrome metabólica na criança — critérios e conduta",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped30": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=7528s",
+  "m": "https://www.youtube.com/watch?v=SemyQO-JucY",
+  "busca": "PCR na criança asmática — AESP, adrenalina e causas reversíveis",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped31": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=8352s",
+  "m": "https://www.youtube.com/watch?v=GJfP9aECpPI",
+  "busca": "Doença celíaca — o que tem e o que não tem glúten",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped32": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+  "m": "https://www.youtube.com/watch?v=JRmxYys3jUY",
+  "busca": "Corpo estranho ingerido — quem, quando e qual imagem",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped33": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+  "m": "https://www.youtube.com/watch?v=BBIR91rlT3I",
+  "busca": "Alergia à proteína do leite de vaca no bebê em aleitamento exclusivo",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped34": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=5100s",
+  "m": null,
+  "busca": "Quando investigar malformação do trato urinário no lactente",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped35": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=10076s",
+  "m": "https://www.youtube.com/watch?v=qcwmZB12XW0",
+  "busca": "Cefaleia, vômitos e ataxia na criança — tumor de fossa posterior",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped36": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=10211s",
+  "m": "https://www.youtube.com/watch?v=uTwDRmD__pk",
+  "busca": "Febre reumática — critérios de Jones e o nódulo de Aschoff",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped37": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=5195s",
+  "m": "https://www.youtube.com/watch?v=ZDef91ANiTA",
+  "busca": "Síndrome torácica aguda — quando transfundir",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped38": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=5698s",
+  "m": "https://www.youtube.com/watch?v=zsA0JMBQt24",
+  "busca": "Sibilância recorrente no lactente — corticoide inalatório pelo GINA",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped39": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=6001s",
+  "m": "https://www.youtube.com/watch?v=jH3U6b-k904",
+  "busca": "Introdução alimentar no lactente de alto risco para alergia",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped40": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "m": "https://www.youtube.com/watch?v=FnT6fvVUvW0",
+  "busca": "Hepatite A na criança — surto escolar e tratamento de suporte",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped41": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "m": "https://www.youtube.com/watch?v=g1_NrP-m4BE",
+  "busca": "Doença de Kawasaki de alto risco — imunoglobulina mais corticoide",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped42": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "m": "https://www.youtube.com/watch?v=nLj4ECDfmLg",
+  "busca": "Síndrome de Turner — o que acompanha a baixa estatura",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped43": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=8743s",
+  "m": "https://www.youtube.com/watch?v=4UI7Bdz9KJk",
+  "busca": "Criptorquidia — o que dizer à família",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped44": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "m": "https://www.youtube.com/watch?v=6SxKUelzoKU",
+  "busca": "Engasgo do lactente consciente com tosse — não fazer manobras",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped45": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=444s",
+  "m": "https://www.youtube.com/watch?v=fMHdLcnJvHM",
+  "busca": "Glomerulonefrite pós-estreptocócica — anti-DNase B e o manejo do edema",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped46": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=10463s",
+  "m": "https://www.youtube.com/watch?v=MjZ21TBZpvI",
+  "busca": "Desidratação na diarreia — plano B: reidratação oral na unidade",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped47": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "m": "https://www.youtube.com/watch?v=VuYiP3-pbRk",
+  "busca": "Anafilaxia ao ovo no lactente — as orientações de alta",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped48": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "m": "https://www.youtube.com/watch?v=E9Fpdz9L3y0",
+  "busca": "Puberdade masculina — Tanner II aos 12 anos é normal",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped49": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=11204s",
+  "m": "https://www.youtube.com/watch?v=1NylVcyc7ic",
+  "busca": "PFAPA — febre periódica e a dose única de corticoide",
+  "comentada": {
+   "q": true
+  }
+ },
+ "ped50": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "m": "https://www.youtube.com/watch?v=Bi9119eNSzs",
+  "busca": "Claudicação no pré-escolar — sinovite transitória do quadril",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev01": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=cQTYrmvWD6E",
+  "busca": "Atenção Primária — apoio matricial e eMulti",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev02": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=16660s",
+  "m": "https://www.youtube.com/watch?v=CV3-VDmNAE0",
+  "busca": "Rastreamento no homem de 65 a 75 anos — aneurisma de aorta abdominal",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev03": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17063s",
+  "m": null,
+  "busca": "Investigação de surto — confirmar surto e diagnóstico antes de agir",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev04": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17446s",
+  "m": "https://www.youtube.com/watch?v=IN8hzVvpHaE",
+  "busca": "Exposição à varicela na gestação — sorologia antes da imunoglobulina",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev05": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17707s",
+  "m": "https://www.youtube.com/watch?v=-68rwBO_-VE",
+  "busca": "Estudo caso-controle retrospectivo — viés de confusão",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev06": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=17969s",
+  "m": "https://www.youtube.com/watch?v=X8kkmf4Axa4",
+  "busca": "Diabetes gestacional — jejum de 92 a 125 já diagnostica",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev07": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=18317s",
+  "m": "https://www.youtube.com/watch?v=9G40-36n_sQ",
+  "busca": "Critérios de Bradford Hill — temporalidade como único indispensável",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev08": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=18665s",
+  "m": "https://www.youtube.com/watch?v=VEVFP58Lptg",
+  "busca": "Pré-diabetes — risco cardiovascular e neuropatia",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev09": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=bOW00mTUbOY",
+  "busca": "Escolha do teste estatístico — dois grupos independentes",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev10": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=O1Heyj7_3Ys",
+  "busca": "Aterosclerose subclínica — placa carotídea define alto risco",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev11": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20022s",
+  "m": "https://www.youtube.com/watch?v=PqBdYTRIWOs",
+  "busca": "Níveis de prevenção — prevenção quaternária no burnout",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev12": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20357s",
+  "m": "https://www.youtube.com/watch?v=Jh1Tp-CXRqU",
+  "busca": "Saúde da pessoa trans — rastreamento conforme o órgão presente",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev13": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=20692s",
+  "m": "https://www.youtube.com/watch?v=3Z1eFPimEhA",
+  "busca": "Idoso com queda — exercício multicomponente como conduta principal",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev14": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=21179s",
+  "m": "https://www.youtube.com/watch?v=Qr1WW_hmfsk",
+  "busca": "Pré-hipertensão e fatores de risco — estratificar o risco global",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev15": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=VYlBx4lsjH8",
+  "busca": "Obesidade — exercício estruturado como próxima intervenção",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev16": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=c4EDquU5nVA",
+  "busca": "Intoxicação por organofosforados — colinesterase e antídotos",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev17": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=nIr3b1JSUQ0",
+  "busca": "DPOC com dispneia persistente — reabilitação pulmonar",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev18": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=rU8W0kRAK1o",
+  "busca": "Hepatite A — profilaxia pós-exposição com vacina",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev19": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=23208s",
+  "m": "https://www.youtube.com/watch?v=x-pgsec5lzA",
+  "busca": "Sistemas de informação do SUS — o que cada um responde",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev20": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=18142s",
+  "m": "https://www.youtube.com/watch?v=G6mveb5iYKM",
+  "busca": "Acidente de trabalho grave — notificação ao SINAN sem vínculo",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev21": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=18649s",
+  "m": "https://www.youtube.com/watch?v=-Rp-vkhZ1ww",
+  "busca": "Suspeita de violência contra idoso — notificação obrigatória",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev22": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=22064s",
+  "m": "https://www.youtube.com/watch?v=guzHjbv1sIU",
+  "busca": "Acolhimento em saúde mental na APS — escuta, não triagem",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev23": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": "https://www.youtube.com/watch?v=iYEAY2SSMkk",
+  "busca": "PNAISM — gênero como construção social",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev24": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": "https://www.youtube.com/watch?v=wtgl_tdMO3M",
+  "busca": "Conselhos de saúde — caráter deliberativo e composição paritária",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev25": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=20586s",
+  "m": "https://www.youtube.com/watch?v=QTjmKQr4zy4",
+  "busca": "Prevalência, incidência e letalidade — a relação com a duração",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev26": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=PKp0eZugepk",
+  "busca": "Políticas de saúde de 1974 a 1979 — a criação do Inamps",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev27": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": null,
+  "busca": "De onde vem a frase — Lei 8.080, o dever do Estado",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev28": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=WNqgtaZMyBs",
+  "busca": "Equipe de Saúde da Família — composição mínima e adicional",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev29": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=NFoODE6NREM",
+  "busca": "Declaração de óbito — a quem não se entrega o formulário",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev30": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=5FvHiO0jl4E",
+  "busca": "Infectividade, patogenicidade, virulência — as propriedades do agente",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev31": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=n4-7tCnN-3E",
+  "busca": "Expostos e não expostos seguidos no tempo — estudo de coorte",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev32": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=RgdynwY4zag",
+  "busca": "Quando adiar uma vacina — e quando não",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev33": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": null,
+  "busca": "Recém-nascido contato de mãe bacilífera — rifampicina antes da BCG",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev34": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=oC-Qkmf5bdw",
+  "busca": "Redes de Atenção à Saúde e linhas de cuidado",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev35": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=5iP0fLAFa8o",
+  "busca": "Violência contra a mulher — determinantes sociais e ação intersetorial",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev36": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=HQOdbwA_u4Y",
+  "busca": "Letalidade — óbitos pela doença dividido pelos casos da doença",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev37": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14700s",
+  "m": "https://www.youtube.com/watch?v=PDCLrzAs_jg",
+  "busca": "Caso-controle com registros eletrônicos — menos viés de memória",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev38": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "m": "https://www.youtube.com/watch?v=cbm4VCvhcOA",
+  "busca": "Delirium na idosa — anticolinérgicos, constipação e reorientação",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev39": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "m": "https://www.youtube.com/watch?v=RskRB5xiH7M",
+  "busca": "Adolescente que quer parar de fumar — avaliar a dependência e o grupo",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev40": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=12709s",
+  "m": "https://www.youtube.com/watch?v=sFnHeOJ43Bk",
+  "busca": "Fibromialgia na idosa — o plano multiprofissional vem antes do remédio",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev41": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=13155s",
+  "m": null,
+  "busca": "Contato de bacilífero com PT de 5 mm — tratar a infecção latente",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev42": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=13639s",
+  "m": "https://www.youtube.com/watch?v=Rg_j5L69Qws",
+  "busca": "Obesidade com insegurança alimentar — prioridade intersetorial",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev43": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=14946s",
+  "m": "https://www.youtube.com/watch?v=LPSvkUmNDes",
+  "busca": "Teleinterconsulta — responsabilidade solidária dos dois médicos",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev44": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3055s",
+  "m": "https://www.youtube.com/watch?v=oRP1W1UJv7k",
+  "busca": "Dengue com sinal de alarme — grupo C, hidratação venosa já",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev45": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3237s",
+  "m": "https://www.youtube.com/watch?v=D4b-Z3kDeHk",
+  "busca": "Gestante em situação de rua — cadastro, assistência social e rede",
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev46": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=3412s",
+  "m": "https://www.youtube.com/watch?v=HNmLErdS3DE",
+  "busca": "Violência patrimonial — nomear, orientar direitos, planejar junto",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev47": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=10230s",
+  "m": "https://www.youtube.com/watch?v=kwGTluEL47c",
+  "busca": "PrEP no adolescente — a partir de 15 anos e 35 kg",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev48": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=394s",
+  "m": "https://www.youtube.com/watch?v=INFdjiTC-c4",
+  "busca": "Abstinência alcoólica leve no CAPS — diazepam, tiamina e retorno breve",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev49": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=5437s",
+  "m": "https://www.youtube.com/watch?v=pjx121Mjs_w",
+  "busca": "Ensaio clínico bem conduzido — grupos parecidos no ponto de partida",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "prev50": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=5626s",
+  "m": "https://www.youtube.com/watch?v=QjJvfHaSGLA",
+  "busca": "Meta-análise — cada estudo pesa conforme a sua precisão",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir01": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=oiDFBBihfCw",
+  "busca": "Insuficiência adrenal aguda no perioperatório",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir02": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=CiIiLQ--4cY",
+  "busca": "Hemorragia digestiva alta — Forrest IIa e terapia endoscópica dual",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir03": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2070s",
+  "m": "https://www.youtube.com/watch?v=JFBS3qVzBuY",
+  "busca": "Úlcera péptica sangrante — quando indicar cirurgia",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir04": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2573s",
+  "m": "https://www.youtube.com/watch?v=Uel9YBlYAfo",
+  "busca": "Síndrome de Mallory-Weiss — evolução autolimitada",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir05": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=2788s",
+  "m": "https://www.youtube.com/watch?v=EQ_9IyZeBoA",
+  "busca": "Obstrução após bypass gástrico — hérnia interna, cirurgia precoce",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir06": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3418s",
+  "m": "https://www.youtube.com/watch?v=Bg9UYHAqVYA",
+  "busca": "Gastroparesia diabética — fisiopatologia autonômica",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir07": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3765s",
+  "m": "https://www.youtube.com/watch?v=GxBxVrewzx0",
+  "busca": "Profilaxia de úlcera de estresse na UTI — fatores de risco",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir08": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=3963s",
+  "m": "https://www.youtube.com/watch?v=ai6MSTmv8qE",
+  "busca": "Alteração do hábito intestinal no idoso — câncer de retossigmoide",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir09": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=4436s",
+  "m": "https://www.youtube.com/watch?v=wuYsaacjQBU",
+  "busca": "Doença hemorroidária grau II — ligadura elástica",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir10": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=4727s",
+  "m": "https://www.youtube.com/watch?v=wKETtKxlq5c",
+  "busca": "Doença pilonidal — diagnóstico diferencial da região sacrococcígea",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir11": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5181s",
+  "m": "https://www.youtube.com/watch?v=EbcFa59fO1c",
+  "busca": "Condiloma anal extenso — tratamento e rastreio de IST",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir12": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5339s",
+  "m": "https://www.youtube.com/watch?v=CZOIMKZ2WMI",
+  "busca": "Anatomia da veia porta — formação e ramos",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir13": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=5498s",
+  "m": "https://www.youtube.com/watch?v=tW46vMDdcQw",
+  "busca": "Hemorragia varicosa maciça — balão de Sengstaken-Blakemore",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir14": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=JJmfkblvm7o",
+  "busca": "Pancreatite crônica — insuficiência exócrina e endócrina",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir15": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6199s",
+  "m": "https://www.youtube.com/watch?v=XlWSQd2vmKM",
+  "busca": "Derrame pleural — critérios de Light e encarceramento pulmonar",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir16": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6585s",
+  "m": "https://www.youtube.com/watch?v=4aaxb8N1cH0",
+  "busca": "Pneumotórax hipertensivo no trauma — descompressão imediata",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir17": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=6797s",
+  "m": "https://www.youtube.com/watch?v=0X4hbHiJ6CU",
+  "busca": "Via aérea no trauma com suspeita de lesão cervical — jaw-thrust",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir18": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15394s",
+  "m": "https://www.youtube.com/watch?v=SPvy1NKFem0",
+  "busca": "Apendicite complicada com base isquêmica — sutura de Parker-Kerr",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir19": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15701s",
+  "m": "https://www.youtube.com/watch?v=fi7c6ggd5Ks",
+  "busca": "Hérnia inguinal — técnicas com e sem tensão",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir20": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=15867s",
+  "m": "https://www.youtube.com/watch?v=_adz56x3di4",
+  "busca": "Trauma abdominal fechado estável com FAST positivo — tomografia",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir21": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=16024s",
+  "m": "https://www.youtube.com/watch?v=69j2-sZwZOM",
+  "busca": "Hematoma retroperitoneal traumático — zonas e exploração",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir22": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": "https://www.youtube.com/watch?v=OD3ByJKQzdE",
+  "busca": "Videolaparoscopia — contraindicação pela doença cardiopulmonar grave",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir23": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=16609s",
+  "m": "https://www.youtube.com/watch?v=zkOi6wCPt98",
+  "busca": "Trauma de pâncreas — classificação da AAST pelo ducto",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir24": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": null,
+  "busca": "Câncer de reto distal T3N1 — neoadjuvância antes da cirurgia",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir25": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": "https://www.youtube.com/watch?v=dPdLY4ew19I",
+  "busca": "Doença diverticular — fatores de risco de perfuração",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir26": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "m": "https://www.youtube.com/watch?v=32FI6YfcPe8",
+  "busca": "Trauma arterial do joelho — o enxerto é a safena do outro lado",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir27": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "m": "https://www.youtube.com/watch?v=yD6RwX0zzew",
+  "busca": "Isquemia e reperfusão — radicais livres, leucócitos, membranas",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir28": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=1188s",
+  "m": "https://www.youtube.com/watch?v=z8iv4gylxcM",
+  "busca": "HPB com sintomas moderados — começar pelo alfabloqueador",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir29": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=1425s",
+  "m": "https://www.youtube.com/watch?v=jJ1GMWzw5gA",
+  "busca": "Cálculo ureteral de 5 mm — terapia expulsiva",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir30": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "m": "https://www.youtube.com/watch?v=Z5_hcaApr2k",
+  "busca": "Sangue no meato após trauma perineal — uretrografia antes da sonda",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir31": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "m": "https://www.youtube.com/watch?v=sOF71Ssvm7Y",
+  "busca": "Nódulo de tireoide — somar os pontos do ACR TI-RADS",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir32": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "m": "https://www.youtube.com/watch?v=MqlUCz3m68I",
+  "busca": "Carcinoma de amígdala em jovem não fumante — HPV",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir33": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "m": "https://www.youtube.com/watch?v=Oa47c2uYP9E",
+  "busca": "Complicações mecânicas do infarto que vão para a cirurgia",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir34": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "m": "https://www.youtube.com/watch?v=3AKGiPYWzXE",
+  "busca": "Necrose, crepitação e toxemia no períneo — gangrena de Fournier",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir35": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=4275s",
+  "m": "https://www.youtube.com/watch?v=xYcM55k8k2M",
+  "busca": "Hematoquezia volumosa na idosa — doença diverticular",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir36": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=360s",
+  "m": "https://www.youtube.com/watch?v=Xp5BmnnKIqI",
+  "busca": "Ferimento torácico aspirativo — o curativo de três pontas do ATLS",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir37": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "m": "https://www.youtube.com/watch?v=eTCwi14KL2A",
+  "busca": "Diverticulite aguda — tomografia antes de tratar",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir38": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA",
+  "m": "https://www.youtube.com/watch?v=uaigLHa-n68",
+  "busca": "Disfagia progressiva com emagrecimento — endoscopia primeiro",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir39": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2218s",
+  "m": "https://www.youtube.com/watch?v=Nqdz4hNh1U0",
+  "busca": "Ferida infectada com necrose — desbridar e antibiótico venoso",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir40": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2464s",
+  "m": "https://www.youtube.com/watch?v=E4N0FnGI9IY",
+  "busca": "Profilaxia antibiótica cirúrgica — até uma hora antes da incisão",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir41": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=2643s",
+  "m": "https://www.youtube.com/watch?v=H20xUkSqj4A",
+  "busca": "FAST positivo em choque compensado — cristaloide e o cirurgião",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir42": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=3221s",
+  "m": "https://www.youtube.com/watch?v=bIM8H6wPejs",
+  "busca": "Queimadura de face em ambiente fechado — intubar cedo",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir43": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=3933s",
+  "m": "https://www.youtube.com/watch?v=iQ2RxV6JCw4",
+  "busca": "Tumor de pâncreas ressecável, paciente inoperável — paliar a bile",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir44": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12034s",
+  "m": "https://www.youtube.com/watch?v=qu-8pbkbHOg",
+  "busca": "Pancreatite aguda grave — jejum, ringer lactato e analgesia",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir45": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "m": "https://www.youtube.com/watch?v=4aaxb8N1cH0",
+  "busca": "Pneumotórax hipertensivo no trauma — descomprimir antes de tudo",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir46": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=13416s",
+  "m": "https://www.youtube.com/watch?v=f1lL9MIxnHA",
+  "busca": "TCE que piora para Glasgow 8 — intubar e transferir, sem atrasar",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir47": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "m": "https://www.youtube.com/watch?v=wD2QbtBiztE",
+  "busca": "Cálculo biliar na criança — pensar em hemólise crônica",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir48": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12410s",
+  "m": "https://www.youtube.com/watch?v=jEFws4axNh0",
+  "busca": "Lesão subepitelial gástrica — a biópsia comum não alcança",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir49": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=12618s",
+  "m": "https://www.youtube.com/watch?v=xPUt2zfW9i8",
+  "busca": "Rastreamento do câncer colorretal — a colonoscopia diagnostica e trata",
+  "comentada": {
+   "q": true
+  }
+ },
+ "cir50": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4",
+  "m": "https://www.youtube.com/watch?v=MJ5_ujAErZU",
+  "busca": "Insuficiência venosa crônica — CEAP C3 e o tratamento cirúrgico",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go01": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7333s",
+  "m": "https://www.youtube.com/watch?v=OgtAaKAT6bo",
+  "busca": "Doença trofoblástica gestacional — mola completa",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go02": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7458s",
+  "m": "https://www.youtube.com/watch?v=z-q20dj5oQY",
+  "busca": "Vacinação na gestação — o que pode, o que espera o puerpério",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go03": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7673s",
+  "m": "https://www.youtube.com/watch?v=arN7m2I-yew",
+  "busca": "Ultrassom morfológico de primeiro trimestre — o que se avalia",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go04": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7952s",
+  "m": "https://www.youtube.com/watch?v=R8EyEMY_riw",
+  "busca": "Prevenção do parto pré-termo — colo curto e cerclagem",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go05": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8139s",
+  "m": "https://www.youtube.com/watch?v=O-7AeL-_0z8",
+  "busca": "Hemorragia pós-parto — atonia e a primeira medida",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go06": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8498s",
+  "m": "https://www.youtube.com/watch?v=0t4V7_vOQ14",
+  "busca": "Abdome agudo no primeiro trimestre — prenhez ectópica rota",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go07": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8597s",
+  "m": "https://www.youtube.com/watch?v=X8kkmf4Axa4",
+  "busca": "Diabetes gestacional — diagnóstico na primeira consulta",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go08": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8644s",
+  "m": "https://www.youtube.com/watch?v=74ytO5qL1nE",
+  "busca": "Gestação gemelar — corionicidade no primeiro trimestre",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go09": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=8965s",
+  "m": "https://www.youtube.com/watch?v=E9Fpdz9L3y0",
+  "busca": "Ultrassonografia precoce — cronologia dos sinais da gestação",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go10": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=9286s",
+  "m": "https://www.youtube.com/watch?v=_e3gehtsyHg",
+  "busca": "Pré-eclâmpsia — critérios diagnósticos atuais",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go11": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=DMZPPemtrss",
+  "busca": "Sangramento do terceiro trimestre — placenta prévia",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go12": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls",
+  "m": "https://www.youtube.com/watch?v=hPkEAHLZxYk",
+  "busca": "Puberdade precoce central — tratamento com análogo de GnRH",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go13": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=9889s",
+  "m": "https://www.youtube.com/watch?v=WE6TRr09Kx8",
+  "busca": "Endometriose — diagnóstico e tratamento clínico",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go14": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10205s",
+  "m": "https://www.youtube.com/watch?v=n-LUTCaQeaI",
+  "busca": "Rastreamento do câncer do colo do útero — diretriz de 2025",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go15": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10489s",
+  "m": "https://www.youtube.com/watch?v=xgaQInTESJo",
+  "busca": "Vacina contra HPV no PNI — quem recebe e como",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go16": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=10773s",
+  "m": "https://www.youtube.com/watch?v=8L_CJkxRZWo",
+  "busca": "Climatério — terapia hormonal na mulher obesa com útero",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go17": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=7684s",
+  "m": "https://www.youtube.com/watch?v=vzMDg146BLI",
+  "busca": "Anticoncepção no puerpério — métodos só de progestagênio",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go18": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11253s",
+  "m": "https://www.youtube.com/watch?v=9X4kYBAvx4o",
+  "busca": "Puberdade normal — telarca aos 8 anos e leucorreia fisiológica",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go19": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11380s",
+  "m": "https://www.youtube.com/watch?v=EdxG-3s53_E",
+  "busca": "Densitometria óssea — o que é o T-score",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go20": {
+  "q": "https://www.youtube.com/watch?v=DQcqQYHhPls&t=11560s",
+  "m": "https://www.youtube.com/watch?v=N-GvSFFQCVA",
+  "busca": "Mamografia — calcificações em pipoca são benignas",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go21": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": "https://www.youtube.com/watch?v=biS1tEeIY-4",
+  "busca": "Sangramento pós-menopausa — biópsia endometrial ambulatorial",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go22": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=12783s",
+  "m": "https://www.youtube.com/watch?v=VbO3I2E3V38",
+  "busca": "NIC 1 na biópsia — conduta expectante",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go23": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": "https://www.youtube.com/watch?v=nKlRNWEzyrI",
+  "busca": "Dopplerfluxometria do ducto venoso — o que ela representa",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go24": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM",
+  "m": "https://www.youtube.com/watch?v=-HPb_yiy24w",
+  "busca": "Parto taquitócico — não acelerar, proteger canal e recém-nascido",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go25": {
+  "q": "https://www.youtube.com/watch?v=7IjCaWiuIKM&t=12042s",
+  "m": "https://www.youtube.com/watch?v=JHsXZtCIZ8U",
+  "busca": "HIV na gestação — via de parto pela carga viral",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go26": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11123s",
+  "m": "https://www.youtube.com/watch?v=w_WBaAm2JOQ",
+  "busca": "Trabalho de parto pré-termo tardio — o que fazer e o que não fazer",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go27": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11482s",
+  "m": "https://www.youtube.com/watch?v=nhW-rvK2_84",
+  "busca": "Primeira consulta — glicemia de 94 já é DMG; TSH de 6 se trata",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go28": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11040s",
+  "m": "https://www.youtube.com/watch?v=Qr1WW_hmfsk",
+  "busca": "Prevenção da pré-eclâmpsia — AAS, cálcio e exercício",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go29": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=12102s",
+  "m": "https://www.youtube.com/watch?v=O-7AeL-_0z8",
+  "busca": "Hemorragia pós-parto — acessos, cristaloide, ocitocina e tranexâmico",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go30": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=12372s",
+  "m": "https://www.youtube.com/watch?v=5c3Pp-b7uwc",
+  "busca": "Variedade de posição — occípito-esquerda-posterior e a rotação de 135°",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go31": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=11606s",
+  "m": "https://www.youtube.com/watch?v=UoRhwsHclSA",
+  "busca": "Endometrite pós-cesárea — polimicrobiana, clindamicina com gentamicina",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go32": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13611s",
+  "m": "https://www.youtube.com/watch?v=E3KrFMy5pbk",
+  "busca": "Dismenorreia com DIU de cobre — manter o DIU e usar AINE",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go33": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13792s",
+  "m": "https://www.youtube.com/watch?v=_qhWuyjfugo",
+  "busca": "Risco hereditário de câncer de mama — quem vai para o teste genético",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go34": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=13984s",
+  "m": "https://www.youtube.com/watch?v=GLo9Ww-vW20",
+  "busca": "Prolapso genital — estadiar pelo POP-Q",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go35": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14147s",
+  "m": "https://www.youtube.com/watch?v=T3xa8DvA0bw",
+  "busca": "Após cirurgia conservadora da mama, a radioterapia é obrigatória",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go36": {
+  "q": "https://www.youtube.com/watch?v=VqUmlruLZNg&t=14396s",
+  "m": "https://www.youtube.com/watch?v=namFIIB1qBo",
+  "busca": "Osteoporose densitométrica — tratar, não só suplementar",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go37": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=15762s",
+  "m": "https://www.youtube.com/watch?v=AOvymrhV1RA",
+  "busca": "Amenorreia primária com puberdade completa — ultrassom primeiro",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go38": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=16645s",
+  "m": "https://www.youtube.com/watch?v=UsZPQxuAoLI",
+  "busca": "Síndrome antifosfolípide na gestação — AAS, heparina e a HIT",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go39": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=16836s",
+  "m": "https://www.youtube.com/watch?v=2liRF4SnH8w",
+  "busca": "Restrição do crescimento fetal — centralização no Doppler",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go40": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=17333s",
+  "m": null,
+  "busca": "Bradicardia fetal no expulsivo com cabeça baixa — fórcipe ou vácuo",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go41": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=17563s",
+  "m": "https://www.youtube.com/watch?v=J2jQbJcxLrM",
+  "busca": "Ectópica com metotrexato — a queda menor que 15% pede segunda dose",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go42": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=18460s",
+  "m": "https://www.youtube.com/watch?v=Gg0FNrby54o",
+  "busca": "Enxaqueca com aura — nada de estrogênio; DIU de levonorgestrel",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go43": {
+  "q": "https://www.youtube.com/watch?v=J8xnPmIQ3MA&t=18626s",
+  "m": null,
+  "busca": "Morcelamento protegido na histerectomia — o medo é o sarcoma oculto",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go44": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=8616s",
+  "m": "https://www.youtube.com/watch?v=pvVIqp7qjZg",
+  "busca": "Diabetes pré-gestacional — regressão caudal e cardiopatia fetal",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go45": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=8745s",
+  "m": "https://www.youtube.com/watch?v=fzzGBjlvWhM",
+  "busca": "Pré-eclâmpsia grave com 35 semanas — hidralazina, sulfato e indução",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go46": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1572s",
+  "m": "https://www.youtube.com/watch?v=svlhLU7VoQA",
+  "busca": "Aloimunização Rh — identificar e titular o anticorpo",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go47": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1750s",
+  "m": "https://www.youtube.com/watch?v=sofIy6-Q53A",
+  "busca": "Sífilis na gestação — dose pelo estágio e critério de retratamento",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go48": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=1969s",
+  "m": "https://www.youtube.com/watch?v=DMZPPemtrss",
+  "busca": "Sangramento do primeiro trimestre — ameaça de aborto e seus vizinhos",
+  "comentada": {
+   "q": true
+  }
+ },
+ "go49": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=2376s",
+  "m": "https://www.youtube.com/watch?v=NQ6vGgMm5EQ",
+  "busca": "Câncer de mama HER2 positivo — conservadora, quimio, anti-HER2 e RT",
+  "forcado": {
+   "m": true
+  },
+  "comentada": {
+   "q": true
+  }
+ },
+ "go50": {
+  "q": "https://www.youtube.com/watch?v=9z6V7riy0k4&t=2870s",
+  "m": "https://www.youtube.com/watch?v=rpUaNcmjp5Y",
+  "busca": "DIP sem abscesso — antibiótico oral e reavaliação em 3 dias",
+  "comentada": {
+   "q": true
+  }
  }
 }

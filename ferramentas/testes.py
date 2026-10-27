@@ -268,6 +268,32 @@ def test_questoes_json_lista_uma_linha_por_questao():
     assert all(q["termo"] and "<" not in q["termo"] for q in qs), [q["id"] for q in qs if not q["termo"]][:5]
 
 @teste
+def test_videos_comentadas_aplica_o_mapa_e_marca():
+    import videos
+    # a correção da prova (questão comentada) vira o vídeo da questão de cada id do mapa,
+    # marcada como comentada; o mesmo vídeo é extraído uma vez só; o antigo fica nas candidatas
+    antigo = {"url": "https://www.youtube.com/watch?v=aaaaaaaaaaa", "videoId": "aaaaaaaaaaa", "titulo": "a", "canal": "c", "canalId": "UC1", "duracao": 600, "views": 1, "data": None}
+    cands = {"cm01": {"q": [antigo], "m": []}, "cm02": {"q": [], "m": []}}
+    esc = {"cm01": {"q": antigo["url"], "m": None, "busca": "x" * 10}, "cm02": {"q": None, "m": None, "busca": "y" * 10}}
+    chamadas = []
+    def extrair(url):
+        chamadas.append(url); return {"id": url[32:43], "title": "Correção", "channel": "Ceisc", "channel_id": "UCceisc", "duration": 5000, "view_count": 9, "upload_date": "20251128"}
+    mapa = {"cm01": "https://www.youtube.com/watch?v=bbbbbbbbbbb", "cm02": "https://www.youtube.com/watch?v=bbbbbbbbbbb&t=120s"}
+    n = videos.comentadas(mapa, forcar=True, escolhas=esc, candidatos=cands, canais=[], extrair=extrair, gravar=False)
+    assert n == 2 and chamadas == ["https://www.youtube.com/watch?v=bbbbbbbbbbb"], chamadas
+    assert esc["cm01"]["q"] == mapa["cm01"] and esc["cm02"]["q"] == mapa["cm02"]
+    assert esc["cm01"]["comentada"] == {"q": True} and esc["cm01"]["forcado"] == {"q": True}
+    assert cands["cm01"]["q"][0]["url"] == mapa["cm01"] and cands["cm01"]["q"][1] is antigo
+    assert cands["cm02"]["q"][0]["url"] == mapa["cm02"] and cands["cm02"]["q"][0]["videoId"] == "bbbbbbbbbbb"
+    # gerar copia a marca para videos.json
+    qs = [{"id": "cm01", "area": "cm", "fonte": "f", "numero": 1, "tema": "T"}, {"id": "cm02", "area": "cm", "fonte": "f", "numero": 2, "tema": "T"}]
+    saida = videos.gerar(escolhas=esc, candidatos=cands, canais=[], qs=qs, gravar=False)
+    assert saida["cm01"]["q"]["comentada"] is True and saida["cm02"]["q"]["url"] == mapa["cm02"] and "comentada" not in (saida["cm01"]["m"] or {})
+    # sem --forcar, canal fora da lista é recusado
+    try: videos.comentadas({"cm01": mapa["cm01"]}, escolhas=esc, candidatos=cands, canais=[], extrair=extrair, gravar=False); assert False
+    except ValueError as e: assert "canal" in str(e)
+
+@teste
 def test_videos_consultas():
     import videos
     q = {"id": "cm01", "tema": "Cefaleia — critérios de migrânea", "termo": "Migrânea sem aura"}
@@ -278,6 +304,9 @@ def test_videos_consultas():
     assert videos.consulta_m(q) == "Cefaleia aula"
     assert videos.video_id("https://www.youtube.com/watch?v=7LUXFoe0vNk") == "7LUXFoe0vNk"
     assert videos.video_id("https://youtu.be/7LUXFoe0vNk") is None
+    # a correção da prova pode apontar para o minuto da questão (&t=…s); só essa forma a mais
+    assert videos.video_id("https://www.youtube.com/watch?v=7LUXFoe0vNk&t=18679s") == "7LUXFoe0vNk"
+    assert videos.video_id("https://www.youtube.com/watch?v=7LUXFoe0vNk&t=18679") is None
 
 @teste
 def test_videos_gerar_vazio_cobre_todas_as_questoes():
