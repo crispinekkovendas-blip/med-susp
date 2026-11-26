@@ -97,7 +97,7 @@ for (const f of B.meta.fontes) {
   gabaritoDe[f.id] = {};
   for (const l of fs.readFileSync(pg, "utf8").trim().split(/\r?\n/)) { const [num, x] = l.trim().split(/\s+/); gabaritoDe[f.id][Number(num)] = x; }
   exige(Object.keys(gabaritoDe[f.id]).length >= 50, `fonte ${f.id}: gabarito com menos de 50 linhas`);
-  exige(typeof f.rotulo === "string" && /^[A-Za-z\-]+ 20\d\d$/.test(f.rotulo), `fonte ${f.id}: rotulo deve ser "NOME ANO" ("${f.rotulo}")`);
+  exige(typeof f.rotulo === "string" && /^[A-Za-zÀ-ÿ\-]+ 20\d\d$/.test(f.rotulo), `fonte ${f.id}: rotulo deve ser "NOME ANO" (letras, acentos e hífen) ("${f.rotulo}")`);
   exige(Number.isInteger(f.edicao) && String(f.edicao) === String(f.rotulo).slice(-4), `fonte ${f.id}: edicao não bate com o ano do rotulo`);
   exige(typeof f.txt === "string" && f.txt.length >= 40, `fonte ${f.id}: txt (descrição do documento) curto ou ausente`);
 }
@@ -173,7 +173,7 @@ for (const q of Q) {
     const fg = q.figura;
     exige(fg.src === `figuras/${q.id}.jpg` || fg.src === `figuras/${q.id}.png`, `${q.id}: figura.src deve ser figuras/${q.id}.jpg (é "${fg.src}")`);
     const arq = path.join(AQUI, String(fg.src || ""));
-    const existe = /^figuras\/[a-z]+\d\d\.(jpg|png)$/.test(String(fg.src)) && fs.existsSync(arq);
+    const existe = /^figuras\/[a-z]+\d{2,3}\.(jpg|png)$/.test(String(fg.src)) && fs.existsSync(arq);
     exige(existe, `${q.id}: o arquivo da figura não existe (${fg.src})`);
     if (existe) {
       const dim = dimensoes(fs.readFileSync(arq));
