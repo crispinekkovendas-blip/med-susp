@@ -1093,6 +1093,456 @@
   },
   "busca": "Claudicação no pré-escolar — sinovite transitória do quadril"
  },
+ "ped51": {
+  "fonte": "sirio2026",
+  "numero": 41,
+  "tema": "Marcos dos 12 meses — quando a marcha sem apoio ainda não é atraso",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Marcos dos 12 meses — quando a marcha sem apoio ainda não é atraso"
+ },
+ "ped52": {
+  "fonte": "sirio2026",
+  "numero": 43,
+  "tema": "Bronquiolite leve por VSR — só lavagem nasal e soro, sem remédio",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Bronquiolite leve por VSR — só lavagem nasal e soro, sem remédio"
+ },
+ "ped53": {
+  "fonte": "sirio2026",
+  "numero": 44,
+  "tema": "Pneumonia comunitária na pré-escolar — amoxicilina oral em casa",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pneumonia comunitária na pré-escolar — amoxicilina oral em casa"
+ },
+ "ped54": {
+  "fonte": "sirio2026",
+  "numero": 46,
+  "tema": "Diarreia aguda sem desidratação — zinco por 10 a 14 dias",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Diarreia aguda sem desidratação — zinco por 10 a 14 dias"
+ },
+ "ped55": {
+  "fonte": "sirio2026",
+  "numero": 48,
+  "tema": "Dose zero do sarampo — não substitui as doses de 12 e 15 meses",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Dose zero do sarampo — não substitui as doses de 12 e 15 meses"
+ },
+ "ped56": {
+  "fonte": "sirio2026",
+  "numero": 49,
+  "tema": "ITU febril no lactente em bom estado — cefuroxima oral",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "ITU febril no lactente em bom estado — cefuroxima oral"
+ },
+ "ped57": {
+  "fonte": "sirio2026",
+  "numero": 50,
+  "tema": "Desidratação grave aos 2 anos — Plano C: 30 mL/kg em 30 minutos",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Desidratação grave aos 2 anos — Plano C: 30 mL/kg em 30 minutos"
+ },
+ "ped58": {
+  "fonte": "sirio2026",
+  "numero": 51,
+  "tema": "Escore de Phoenix — choque séptico pela pressão arterial média",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Escore de Phoenix — choque séptico pela pressão arterial média"
+ },
+ "ped59": {
+  "fonte": "sirio2026",
+  "numero": 52,
+  "tema": "Estado de mal epiléptico — benzodiazepínico venoso primeiro",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Estado de mal epiléptico — benzodiazepínico venoso primeiro"
+ },
+ "ped60": {
+  "fonte": "sirio2026",
+  "numero": 53,
+  "tema": "Taquicardia ventricular sem pulso — desfibrilar com 2 J/kg",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Taquicardia ventricular sem pulso — desfibrilar com 2 J/kg"
+ },
+ "ped61": {
+  "fonte": "sirio2026",
+  "numero": 54,
+  "tema": "Pressão arterial na criança — tabela por estatura e HAS estágio 1",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pressão arterial na criança — tabela por estatura e HAS estágio 1"
+ },
+ "ped62": {
+  "fonte": "sirio2026",
+  "numero": 55,
+  "tema": "Escarlatina — exantema em lixa, Pastia, Filatov e teste rápido",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Escarlatina — exantema em lixa, Pastia, Filatov e teste rápido"
+ },
+ "ped63": {
+  "fonte": "sirio2026",
+  "numero": 56,
+  "tema": "Violência sexual na adolescente — profilaxias nas primeiras 72 horas",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Violência sexual na adolescente — profilaxias nas primeiras 72 horas"
+ },
+ "ped64": {
+  "fonte": "sirio2026",
+  "numero": 58,
+  "tema": "Reanimação neonatal — adrenalina pela veia umbilical",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Reanimação neonatal — adrenalina pela veia umbilical"
+ },
+ "ped65": {
+  "fonte": "sirio2026",
+  "numero": 60,
+  "tema": "Sigilo médico na adolescente — autonomia, limites e quando quebrar",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Sigilo médico na adolescente — autonomia, limites e quando quebrar"
+ },
+ "ped66": {
+  "fonte": "sirio2027",
+  "numero": 42,
+  "tema": "Engasgo na criança consciente — golpes dorsais e Heimlich",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Engasgo na criança consciente — golpes dorsais e Heimlich"
+ },
+ "ped67": {
+  "fonte": "sirio2027",
+  "numero": 43,
+  "tema": "Anemia da doença crônica versus ferropriva — ferritina e TIBC",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Anemia da doença crônica versus ferropriva — ferritina e TIBC"
+ },
+ "ped68": {
+  "fonte": "sirio2027",
+  "numero": 44,
+  "tema": "Plano C aos 15 meses — 30 mL/kg em 30 min e 70 mL/kg em 2 h 30",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Plano C aos 15 meses — 30 mL/kg em 30 min e 70 mL/kg em 2 h 30"
+ },
+ "ped69": {
+  "fonte": "sirio2027",
+  "numero": 45,
+  "tema": "TCE leve aos 3 anos — regra PECARN e alta sem tomografia",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "TCE leve aos 3 anos — regra PECARN e alta sem tomografia"
+ },
+ "ped70": {
+  "fonte": "sirio2027",
+  "numero": 46,
+  "tema": "Cateter nasal de alto fluxo na bronquiolite — como funciona e quando",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Cateter nasal de alto fluxo na bronquiolite — como funciona e quando"
+ },
+ "ped71": {
+  "fonte": "sirio2027",
+  "numero": 47,
+  "tema": "Síndrome colinérgica na criança — atropina, depois pralidoxima",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome colinérgica na criança — atropina, depois pralidoxima"
+ },
+ "ped72": {
+  "fonte": "sirio2027",
+  "numero": 48,
+  "tema": "Proteção contra o VSR — vacina da gestante e nirsevimabe para quem",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Proteção contra o VSR — vacina da gestante e nirsevimabe para quem"
+ },
+ "ped73": {
+  "fonte": "sirio2027",
+  "numero": 49,
+  "tema": "Vacina da poliomielite no PNI — só VIP, desde 2024",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Vacina da poliomielite no PNI — só VIP, desde 2024"
+ },
+ "ped74": {
+  "fonte": "sirio2027",
+  "numero": 50,
+  "tema": "Crise febril simples — nada de punção, EEG ou profilaxia",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Crise febril simples — nada de punção, EEG ou profilaxia"
+ },
+ "ped75": {
+  "fonte": "sirio2027",
+  "numero": 52,
+  "tema": "Fissura mamilar — corrigir a pega e manter a amamentação",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Fissura mamilar — corrigir a pega e manter a amamentação"
+ },
+ "ped76": {
+  "fonte": "sirio2027",
+  "numero": 53,
+  "tema": "Crise de asma aos 8 anos — e o que muda na alta pelo GINA",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Crise de asma aos 8 anos — e o que muda na alta pelo GINA"
+ },
+ "ped77": {
+  "fonte": "sirio2027",
+  "numero": 57,
+  "tema": "Transtorno do espectro autista — sinais precoces e diagnóstico clínico",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Transtorno do espectro autista — sinais precoces e diagnóstico clínico"
+ },
+ "ped78": {
+  "fonte": "sirio2027",
+  "numero": 58,
+  "tema": "Incompatibilidade ABO — sinais de encefalopatia e fototerapia",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Incompatibilidade ABO — sinais de encefalopatia e fototerapia"
+ },
+ "ped79": {
+  "fonte": "sirio2027",
+  "numero": 59,
+  "tema": "Transtorno factício imposto a outro — proteger a criança e notificar",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Transtorno factício imposto a outro — proteger a criança e notificar"
+ },
+ "ped80": {
+  "fonte": "sirio2027",
+  "numero": 60,
+  "tema": "Sífilis congênita com neurossífilis — penicilina cristalina e exames",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Sífilis congênita com neurossífilis — penicilina cristalina e exames"
+ },
+ "ped81": {
+  "fonte": "unesp2025",
+  "numero": 3,
+  "tema": "Transporte do prematuro — vaga, consentimento e estabilização antes",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Transporte do prematuro — vaga, consentimento e estabilização antes"
+ },
+ "ped82": {
+  "fonte": "unesp2025",
+  "numero": 4,
+  "tema": "Vitamina K ao nascer — a doença hemorrágica clássica do recém-nascido",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Vitamina K ao nascer — a doença hemorrágica clássica do recém-nascido"
+ },
+ "ped83": {
+  "fonte": "unesp2025",
+  "numero": 5,
+  "tema": "Suplementação de ferro — 1 mg/kg/dia dos 6 aos 24 meses",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Suplementação de ferro — 1 mg/kg/dia dos 6 aos 24 meses"
+ },
+ "ped84": {
+  "fonte": "unesp2025",
+  "numero": 6,
+  "tema": "Teste do pezinho com TSH alterado — confirmar no sangue venoso",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Teste do pezinho com TSH alterado — confirmar no sangue venoso"
+ },
+ "ped85": {
+  "fonte": "unesp2025",
+  "numero": 7,
+  "tema": "Dengue em crianças — menor de 2 anos é grupo B mesmo sem alarme",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Dengue em crianças — menor de 2 anos é grupo B mesmo sem alarme"
+ },
+ "ped86": {
+  "fonte": "unesp2025",
+  "numero": 12,
+  "tema": "Doença renal crônica na criança — a marca da malformação urinária",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Doença renal crônica na criança — a marca da malformação urinária"
+ },
+ "ped87": {
+  "fonte": "unesp2025",
+  "numero": 13,
+  "tema": "Urticária aguda na criança — a causa mais comum é infecção",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Urticária aguda na criança — a causa mais comum é infecção"
+ },
+ "ped88": {
+  "fonte": "unesp2025",
+  "numero": 14,
+  "tema": "Coqueluche em alta — vacinar lactentes, gestantes e profissionais",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Coqueluche em alta — vacinar lactentes, gestantes e profissionais"
+ },
+ "ped89": {
+  "fonte": "unesp2025",
+  "numero": 15,
+  "tema": "Tuberculose pulmonar no lactente — lavado gástrico, TRM-TB e a mãe",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Tuberculose pulmonar no lactente — lavado gástrico, TRM-TB e a mãe"
+ },
+ "ped90": {
+  "fonte": "unesp2025",
+  "numero": 19,
+  "tema": "Sinusite complicada — trombose de seio cavernoso",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Sinusite complicada — trombose de seio cavernoso"
+ },
+ "ped91": {
+  "fonte": "famema2026",
+  "numero": 33,
+  "tema": "Despertares noturnos do lactente — rotina, sem telas e sem remédio",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Despertares noturnos do lactente — rotina, sem telas e sem remédio"
+ },
+ "ped92": {
+  "fonte": "famema2026",
+  "numero": 34,
+  "tema": "Dermatite atópica infectada — hidratação, antibiótico e corticoide",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Dermatite atópica infectada — hidratação, antibiótico e corticoide"
+ },
+ "ped93": {
+  "fonte": "famema2026",
+  "numero": 35,
+  "tema": "Puberdade precoce central — telarca antes dos 8, estirão e idade óssea",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Puberdade precoce central — telarca antes dos 8, estirão e idade óssea"
+ },
+ "ped94": {
+  "fonte": "famema2026",
+  "numero": 37,
+  "tema": "Intoxicação por paracetamol — 200 mg/kg às 4 horas: acetilcisteína",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Intoxicação por paracetamol — 200 mg/kg às 4 horas: acetilcisteína"
+ },
+ "ped95": {
+  "fonte": "famema2026",
+  "numero": 38,
+  "tema": "Choque séptico na criança — expandir com cristaloide antes de tudo",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Choque séptico na criança — expandir com cristaloide antes de tudo"
+ },
+ "ped96": {
+  "fonte": "famema2026",
+  "numero": 42,
+  "tema": "Hiponatremia euvolêmica na pneumonia — SIADH, restrição hídrica",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hiponatremia euvolêmica na pneumonia — SIADH, restrição hídrica"
+ },
+ "ped97": {
+  "fonte": "famema2026",
+  "numero": 43,
+  "tema": "Trombose venosa associada a cateter — anticoagular antes de retirar",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Trombose venosa associada a cateter — anticoagular antes de retirar"
+ },
+ "ped98": {
+  "fonte": "famema2026",
+  "numero": 45,
+  "tema": "Febre no recém-nascido com vesículas — cobrir bactéria e herpes",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Febre no recém-nascido com vesículas — cobrir bactéria e herpes"
+ },
+ "ped99": {
+  "fonte": "famema2026",
+  "numero": 46,
+  "tema": "Icterícia do leite materno — bebê saudável, manter o peito e observar",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Icterícia do leite materno — bebê saudável, manter o peito e observar"
+ },
+ "ped100": {
+  "fonte": "famema2026",
+  "numero": 47,
+  "tema": "Cianose neonatal sem desconforto — cardiopatia e prostaglandina",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Cianose neonatal sem desconforto — cardiopatia e prostaglandina"
+ },
  "prev01": {
   "fonte": "susp2026",
   "numero": 81,

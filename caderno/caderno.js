@@ -24,7 +24,7 @@
   const CH = "susp:caderno";
 
   /* --- opções --------------------------------------------------------------- */
-  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "junto", figuras: true, qr: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, nome: "" };   /* sem nome: o aluno escreve o seu na capa */
+  const PADRAO = { area: "todas", edicao: "todas", simples: true, materia: "junto", figuras: true, qr: true, pauta: "quadriculado", letra: "normal", folha: false, resumo: true, volume: "todos", nome: "" };   /* volume: "todos" | "1" (questões 01–50) | "2" (51–100) */   /* sem nome: o aluno escreve o seu na capa */
   /* no papel não há clique: as respostas do "Verifique o que aprendeu" saem à vista */
   const materiaImpressa = m => m.replace(/<details><summary>Resposta<\/summary>([\s\S]*?)<\/details>/g, '<span class="resp"><em>Resposta:</em> $1</span>');
   const ler = () => { try { const s = JSON.parse(localStorage.getItem(CH) || "{}"); const o = Object.assign({}, PADRAO); for (const k in PADRAO) if (k in s) o[k] = s[k]; return o; } catch (e) { return Object.assign({}, PADRAO); } };
@@ -41,6 +41,10 @@
   let op = normalizar(daUrl(ler()));
   if (op.area !== "todas" && !NOME_AREA[op.area]) op.area = "todas";
   if (op.edicao !== "todas" && !EDICOES.some(f => f.id === op.edicao)) op.edicao = "todas";
+  if (!["todos", "1", "2"].includes(String(op.volume))) op.volume = "todos"; else op.volume = String(op.volume);
+  /* o número da questão dentro da área: ped07 → 7, ped100 → 100; o volume 1 são as 50 primeiras de cada área, o 2 as seguintes */
+  const numeroNaArea = q => Number(String(q.id).replace(/\D/g, ""));
+  const doVolume = q => op.volume === "todos" || (op.volume === "1" ? numeroNaArea(q) <= 50 : numeroNaArea(q) > 50);
 
   /* --- utilidades ------------------------------------------------------------ */
   const h = (tag, attrs, ...filhos) => {
@@ -58,7 +62,7 @@
   };
   const dois = n => String(n).padStart(2, "0");
   const rotulo = q => `${FONTES[q.fonte].rotulo} · Questão ${dois(q.numero)}`;
-  const escolhidas = () => Q.filter(q => (op.area === "todas" || q.area === op.area) && (op.edicao === "todas" || q.fonte === op.edicao));
+  const escolhidas = () => Q.filter(q => (op.area === "todas" || q.area === op.area) && (op.edicao === "todas" || q.fonte === op.edicao) && doVolume(q));
   const linhas = k => h("div", { class: "linhas" }, Array.from({ length: k }, () => h("div", { class: "linha" })));
 
   /* --- painel (só na tela) --------------------------------------------------- */
@@ -74,7 +78,7 @@
       h("div", { class: "cab" },
         h("div", null, h("h1", null, "Caderno para imprimir"), h("p", { class: "sub" }, `${n} fichas · cada questão sai com gabarito, comentário, figura, referências, Simplificando, Sobre a matéria, QR codes dos vídeos e pauta para anotar`),
           /* os PDFs prontos (ferramentas/pdf.py, opções padrão) ficam em /pdf/ */
-          h("p", { class: "sub pdfs" }, "PDF pronto, com as opções padrão (um por área, com o índice paginado): ", AREAS.map((a, i) => [i ? " · " : "", h("a", { href: `../pdf/caderno-${a.id}.pdf` }, a.nome)]))),
+          h("p", { class: "sub pdfs" }, "PDF pronto, com as opções padrão (um por área, com o índice paginado): ", AREAS.flatMap(a => Q.filter(q => q.area === a.id).length > 50 ? [[a.nome, `../pdf/caderno-${a.id}.pdf`], [a.nome + " (vol. 2)", `../pdf/caderno-${a.id}-2.pdf`]] : [[a.nome, `../pdf/caderno-${a.id}.pdf`]]).map(([t, href], i) => [i ? " · " : "", h("a", { href }, t)]))),
         h("div", { class: "acoes" },
           h("a", { class: "acao", href: "../" }, "← Banco na tela"),
           h("a", { class: "acao", href: "../videos/", title: "Para o cliente: cada questão com os dois vídeos escolhidos, para vetar ou trocar" }, "Vídeos: página de revisão"),
@@ -85,6 +89,7 @@
             onchange: e => { op.nome = e.target.value.trim(); gravar(); render(); } })),
         opcao("area", "Área", [["todas", "Todas"]].concat(AREAS.map(a => [a.id, a.nome]))),
         opcao("edicao", "Edição", [["todas", "Todas"]].concat(EDICOES.map(f => [f.id, f.rotulo]))),
+        opcao("volume", "Volume", [["todos", "Todos"], ["1", "Volume 1 (questões 1–50)"], ["2", "Volume 2 (questões 51–100)"]]),
         opcao("simples", "Simplificando", [[true, "Incluir"], [false, "Não"]]),
         opcao("materia", "Sobre a matéria", [["junto", "Depois do comentário"], ["pagina", "Em página própria"], [false, "Não"]]),
         /* com figura toda ficha vira duas páginas; sem, 4 em 10 cabem numa */
@@ -105,7 +110,7 @@
       h("div", { class: "topo" },
         h("div", { class: "faixa" }, h("span", null, B.meta.banca), h("span", null, B.meta.orgao)),
         h("h1", null, "Caderno de questões ", h("em", null, "comentadas")),
-        h("p", { class: "area-capa" }, areasDe(lista)),
+        h("p", { class: "area-capa" }, areasDe(lista) + (op.volume === "todos" ? "" : ` · Volume ${op.volume}`)),
         /* o selo de Iyar (Touro), por pedido do usuário */
         h("div", { class: "selo", "aria-hidden": "true" }, h("span", { class: "signo" }, "\u2649"), h("span", { class: "mes" }, "Iyar"))),
       h("p", { class: "lema" }, `Questões reais das provas de acesso direto da banca ${B.meta.banca} (${EDICOES.filter(f => lista.some(q => q.fonte === f.id)).map(f => f.rotulo).join(", ")}), para a ${B.meta.concurso}. Prova: ${B.meta.prova}.`),

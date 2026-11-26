@@ -1,0 +1,1455 @@
+01.	Paciente do sexo masculino, de 58 anos, tabagista, portador de hipertensão arterial sistêmica, apresenta-se ao pronto 
+atendimento com história de dor torácica opressiva irradiando para braço esquerdo e mandíbula iniciada há 130 minutos, 
+associada a sudorese fria e náuseas. Apresenta como sinais vitais iniciais: PA: 98 x 64 mmHg, FC: 92 bpm, SatO₂: 95% 
+AA. Realizou o eletrocardiograma a seguir:
+Qual é a abordagem terapêutica para esse paciente?
+(Arquivo pessoal; imagem usada com autorização)
+(A)	 Transferir para angioplastia primária, aceitando atraso > 120 min, e iniciar heparina, apenas.
+(B)	 Realizar  trombólise imediata com alteplase, administrar heparina de baixo peso molecular, AAS e clopidogrel e, após 
+estabilização, transferir para angiografia de rotina em 2–24h.
+(C)	 Solicitar curva de marcadores de necrose miocárdica.
+(D)	 Administrar AAS, clopidogrel e anticoagulação subcutânea e observar evolução por 6–12h.
+Leia o caso clínico a seguir para responder às questões 02 
+e 03:
+Paciente jovem de 22 anos, portador de diabetes mellitus 
+tipo 1 há 6 anos, chega ao pronto-socorro com história de 
+náuseas, vômitos e dor abdominal difusa há 12 horas. Refere 
+poliúria nos últimos dias. Ao exame físico: PA: 94 x 60 mmHg; 
+FC: 118 bpm; FR: 32 irpm (respiração de Kussmaul); temperatura axilar: 37,5 °C; com mucosas secas, pulsos periféricos 
+filiformes.
+Apresenta nos exames complementares iniciais: glicemia: 
+468 mg/dL; gasometria arterial com pH: 7,12 e HCO₃⁻: 
+9 mEq/L; sódio: 135 mEq/L; potássio: 3,1 mEq/L e cetonemia: 
+positiva.
+02.	Qual é o diagnóstico associado a esse quadro?
+(A)	 Estado hiperosmolar hiperglicêmico.
+(B)	 Cetoacidose diabética.
+(C)	 Pancreatite aguda.
+(D)	 Sepse abdominal com acidose metabólica láctica.
+03.	Diante desse diagnóstico, qual deve ser a prioridade terapêutica ?
+(A)	 Iniciar insulina regular EV em bolus imediatamente.
+(B)	 Administrar bicarbonato EV.
+(C)	 Fazer  reposição volêmica vigorosa com SF 0,9% e 
+correção do potássio até > 3,3 mEq/L.
+(D)	 Iniciar insulina glargina SC em esquema basal.
+04.	Sobre os diferentes tipos de choque, assinale a alternativa correta.
+(A)	 No choque cardiogênico, a pressão venosa central 
+(PVC) e a pressão de oclusão da artéria pulmonar 
+costumam estar elevadas.
+(B)	 No choque séptico inicial, predominam baixo débito 
+cardíaco e pele fria.
+(C)	 No choque hipovolêmico, a PVC costuma estar 
+aumentada.
+(D)	 No choque obstrutivo por embolia pulmonar, o débito 
+cardíaco aumenta devido à pós-carga baixa.
+05.	Paciente do sexo feminino, de 71 anos, portadora de 
+hipertensão arterial e dislipidemia, em uso irregular das 
+medicações, apresenta início súbito de hemiplegia direita 
+e afasia há 170 min. Chega ao pronto atendimento apresentando no exame físico: PA: 190 x 100 mmHg; FC: 
+92 bpm; FR: 20 irpm; SatO₂: 95%; NIHSS: 14 pontos. 
+Encaminhada para tomografia de crânio, que apresentou 
+a imagem a seguir:
+(Arquivo pessoal; imagem usada com autorização)
+Qual é a conduta imediata?
+(A)	 Reduzir PA para < 140/90 e iniciar AAS e clopidogrel.
+(B)	 Reduzir PA para < 185/110 com anti-hipertensivo EV 
+e realizar trombólise IV com alteplase.
+(C)	 Fazer anticoagulação com heparina não fracionada 
+em bomba e iniciar estatina.
+(D)	 Aguardar 6 horas e repetir TC para confirmar o diagnóstico antes de intervir.
+06.	Paciente de 64 anos, portadora de diabetes mellitus tipo 
+2, hipertensão arterial, hiperuricemia e hipertrigliceridemia, é submetida a colectomia segmentar por neoplasia 
+de cólon há 5 dias. Evolui com febre persistente, dor 
+abdominal progressiva e inapetência na enfermaria. Nas 
+últimas 12 horas, apresentou vômitos biliosos e rebaixamento do nível de consciência sendo transferida para 
+unidade de terapia intensiva.
+Ao exame físico: PA: 78 x 50 mmHg; FC: 124 bpm; 
+FR: 28 irpm; SatO₂: 94% O₂ nasal; temperatura: 38,9 °C; 
+pele fria; tempo de enchimento capilar 5 s; Glasgow: 13; 
+abdome: distendido, doloroso difusamente, sinais de 
+defesa involuntária e descompressão brusca dolorosa. 
+Exames laboratoriais iniciais: lactato: 5,2 mmol/L; leucócitos: 24.000/mm³; plaquetas: 88.000/mm³; creatinina: 
+2,3 mg/dL (VR <1,2); bilirrubina total: 2,1 mg/dL.
+Realizou a tomografia de abdome sem contraste a seguir:
+(Arquivo pessoal; imagem usada com autorização)
+Qual é a medida fundamental, associada à antibioticoterapia e ao suporte hemodinâmico, para o manejo desse 
+caso?
+(A)	 Iniciar hidrocortisona EV e passagem de sonda 
+nasogástrica, devido ao  choque refratário.
+(B)	 Indicar reabordagem cirúrgica urgente para controle 
+de foco (lavagem de cavidade, revisão de anastomose, drenagem de coleções), associada à antibioticoterapia de amplo espectro.
+(C)	 Transfundir concentrado de hemácias e plasma 
+fresco congelado de imediato, visando melhorar a 
+perfusão tecidual e correção da coagulopatia antes 
+de qualquer decisão.
+(D)	 Manter apenas antibioticoterapia de amplo espectro 
+em doses máximas, aguardando estabilização clínica antes de qualquer intervenção invasiva.
+07.	Paciente com síndrome do desconforto respiratório 
+agudo (SDRA) moderada está em ventilação mecânica. 
+Qual estratégia ventilatória é indicada?
+(A)	 Volume corrente de 10 mL/kg de peso atual para 
+garantir ventilação adequada.
+(B)	 FiO₂ fixa em 100% para evitar dessaturação.
+(C)	 Volume corrente de 6 mL/kg de peso predito, 
+platô ≤ 30 cmH₂O, PEEP ajustada.
+(D)	 PEEP mínima possível para reduzir risco de 
+barotrauma.
+08.	Sobre distúrbios eletrolíticos, assinale a correta.
+(A)	 A hiponatremia hipervolêmica é típica de insuficiência cardíaca, cirrose e síndrome nefrótica.
+(B)	 A hipercalemia nunca causa alterações no eletrocardiograma antes de níveis maiores que  8,0 mEq/L.
+(C)	 A hipocalcemia cursa com alargamento de QRS e 
+ondas T apiculadas.
+(D)	 A hipernatremia sempre decorre de perda renal de 
+água.
+09.	Paciente procura a UBS com resultados dos exames a 
+seguir:
+HBsAg positivo, anti-HBc total positivo, IgM negativa
+HBeAg negativo, anti-HBe positivo
+HBV-DNA 18.000 UI/mL
+Diante do quadro, a orientação adequada seria informar 
+ao paciente que se trata de
+(A)	 fase imune tolerante.
+(B)	 hepatite B crônica HBeAg negativa com atividade.
+(C)	 infecção passada com imunidade natural.
+(D)	 resposta vacinal bem-sucedida.
+10.	Paciente do sexo feminino, de 27 anos, apresenta-se 
+ao pronto atendimento com história de cefaleia súbita 
+(thunderclap) há 4 horas associada a rigidez de nuca e 
+mal-estar geral. Realizou uma tomografia de crânio sem 
+contraste com 4,5 horas do início dos sintomas que não 
+apresentaram alterações.
+A indicação da investigação diagnóstica correta seria:
+(A)	 realizar uma angiotomografia de vasos intra e 
+extracranianos.
+(B)	 iniciar o tratamento com AINE endovenosos e 
+reavaliar.
+(C)	 realizar uma angioressonância magnética.
+(D)	 realizar uma punção lombar para pesquisa de hemácias persistentes e xantocromia.
+11.	 Paciente idoso de 76 anos, portador de miocardiopatia 
+dilatada hipertensiva, com fração de ejeção do ventrículo 
+esquerdo reduzida, está em uso de sacubitril/valsartana, 
+empagliflozina, espironolactona e furosemida. Apresenta 
+história no pronto atendimento de vômitos e diarreia 
+há 18h, evoluindo com sonolência e oligúrico. Realizou os exames iniciais que apresentavam as seguintes 
+alterações:
+Creatinina: 2,1 mg/dL (basal 1,0)
+Na⁺ urinário 45: mEq/L; FeNa: 2,1%
+Ureia: 110 mg/dL; FeUreia: 27%
+Densidade urinária: 1.030
+Qual é a hipótese diagnóstica associada?
+(A)	 Necrose tubular aguda com FeNa > 2%.
+(B)	 Azotemia pré-renal com FeUreia < 35%.
+(C)	 Obstrução pós-renal com FeNa elevada.
+(D)	 Azotemia pré-renal com FeNa < 1%.
+12.	Paciente de 58 anos, portador de cirrose alcoólica (Child-Pugh B), apresenta ascite tensa, febre, associadas a 
+dor abdominal difusa e rebaixamento leve. Realizou 
+paracentese diagnóstica que evidenciou líquido amarelo 
+citrino, PMN: 780 células/mm³, proteínas: 1,0 g/dL, cultura pendente.
+A conduta preconizada para esse paciente seria:
+(A)	 ceftriaxona e albumina endovenosos.
+(B)	 ciprofloxacino oral e albumina apenas se a cultura 
+for positiva.
+(C)	 piperacilina-tazobactam e diurético de alça.
+(D)	 aguardar o resultado da cultura do líquido ascítico 
+para definir antibiótico.
+Leia o caso clínico a seguir para responder às questões 13 
+e 14:
+Paciente de 54 anos, com história de dor torácica súbita, 
+evoluindo com perda de consciência em casa. Os familiares 
+iniciaram manobras de reanimação cardiopulmonar. O SAMU 
+chegou após 6 minutos e evidenciou a presença do DEA do 
+ritmo de fibrilação ventricular.
+13.	Durante o atendimento, após o 1o choque e manutenção 
+das compressões torácicas, qual é a conduta adequada?
+(A)	 Administrar atropina EV 1 mg imediatamente.
+(B)	 Realizar trombólise empírica por possível infarto 
+agudo do miocárdico.
+(C)	 Interromper compressões para intubação orotraqueal.
+(D)	 Manter RCP por 2 minutos, sem checar pulso, e 
+administrar adrenalina EV a cada 3–5 minutos.
+14.	Após retorno da circulação espontânea, 12 minutos após 
+PCR, no ambiente hospitalar, o paciente permanece 
+comatoso (Glasgow 6), ventilado e estável hemodinamicamente sob noradrenalina em dose baixa. Qual é a conduta recomendada para neuroproteção?
+(A)	 Iniciar imediatamente o manejo direcionado de temperatura (TTM), mantendo-a entre 32–36 °C por no 
+mínimo 24 horas.
+(B)	 Resfriar o paciente de forma agressiva até < 30 °C 
+por 48 horas, pois temperaturas mais baixas oferecem maior neuroproteção.
+(C)	 Manter normotermia estrita (36–37,5 °C) apenas, 
+evitando hipotermia, pois o benefício está em prevenir a febre.
+(D)	 Utilizar corticoides em altas doses para reduzir 
+edema cerebral em substituição ao controle de 
+temperatura.
+15.	Paciente de 32 anos, trazido pelo suporte avançado do SAMU, é um trabalhador rural que foi encontrado após soterramento parcial em vala de obra, onde permaneceu por cerca de 6 horas até o resgate. Chega à sala de emergência 
+referindo mialgia intensa em coxas e braços, urina escura e fraqueza progressiva. Ao exame físico: PA: 92 × 60 mmHg; 
+FC: 122 bpm; FR: 24 irpm; SatO₂: 95% AA; temperatura: 37,8 ºC; pele fria, enchimento capilar lento; dor difusa em musculatura de membros inferiores, tumefação e rigidez palpável em coxas; sem sopros cardíacos, crepitações ou sinais de 
+congestão. Os exames laboratoriais apresentam: creatinina: 2,0 mg/dL; potássio: 6,3 mEq/L; cálcio total: 7,2 mg/dL; fósforo: 6,0 mg/dL; CK total: 19.400 U/L; DHL: 950 U/L; urina: hematúria 3+/6+, sem hemácias no sedimento.
+O eletrocardiograma é apresentado a seguir:
+Qual é a conduta inicial prioritária?
+(A)	 Furosemida endovenoso em altas doses.
+(Arquivo pessoal; imagem usada com autorização)
+(B)	 Soro fisiológico 0,9% e gluconato de cálcio e insulina/glicose endovenosos.
+(C)	 Bicarbonato de sódio endovenoso 200 mL/h para alcalinizar a urina.
+(D)	 Restrição hídrica até estabilizar os níveis séricos de creatinofosfoquinase.
+16.	Em relação ao escore CURB-65 para estratificação de gravidade na pneumonia adquirida na comunidade (PAC), assinale 
+a alternativa correta.
+(A)	 Cada critério do CURB-65 recebe peso diferente, sendo confusão e hipotensão os de maior pontuação.
+(B)	 Um escore ≥ 2 já indica alto risco, devendo o paciente ser obrigatoriamente admitido em UTI.
+(C)	 O CURB-65 atribui 1 ponto para cada critério (confusão, ureia > 50 mg/dL, FR ≥ 30, PA sistólica < 90 ou diastólica ≤ 60, 
+idade ≥ 65 anos); escores 0–1 sugerem tratamento ambulatorial, 2 sugerem internação hospitalar e ≥ 3 indicam alto 
+risco e possível necessidade de UTI.
+(D)	 O CURB-65 não se aplica a pacientes idosos, pois a idade ≥ 65 anos já configura critério isolado de internação.
+17.	Homem, 24 anos, previamente saudável, refere dor 
+periumbilical há 12 horas que migrou para fossa ilíaca 
+direita, acompanhada de anorexia, náuseas e febre 
+(37,8  °C). À inspeção: dor à palpação e defesa localizada em FID, sinal de Blumberg positivo. Leucócitos 
+18.500/mm³ com desvio à esquerda; PCR levemente 
+elevada.
+Qual a conduta mais adequada nesse cenário?
+(A)	 Internar, analgesia e observar 48 horas antes de 
+decidir cirurgia.
+(B)	 Solicitar TC abdominopélvico com contraste e operar 
+somente se confirmado por imagem.
+(C)	 Realizar apendicectomia laparoscópica sem necessidade de exame de imagem adicional.
+(D)	 Iniciar antibioticoterapia e programar apendicectomia eletiva em 2 – 4 semanas.
+18.	Homem, 28 anos, vítima de acidente de motocicleta x 
+poste, trazido ao PS com dor torácica esquerda e taquicardia (FC: 130 bpm). Ausência de lesões exsanguinantes. À chegada, foi diagnosticado com hemotórax 
+esquerdo e realizada drenagem pleural (toracostomia) 
+com retorno instantâneo de 1.600 mL de sangue no 
+dreno. FAST negativo nos 4 focos abdominais; ausência de trauma pélvico e fraturas de extremidades. Permanece em choque hipovolêmico apesar de reposição 
+inicial adequada.
+A conduta mais indicada nesse momento é
+(A)	 manter drenagem por toracostomia e observação no 
+setor de emergência por 24 horas.
+(B)	 realizar toracotomia de emergência no centro cirúrgico para controle de hemorragia intratorácica.
+(C)	 realizar tomografia computadorizada de tórax antes 
+de qualquer intervenção cirúrgica.
+(D)	 inserir segundo dreno torácico no mesmo hemotórax 
+e aguardar retorno hemodinâmico.
+19.	 Mulher, 72 anos, em uso de anticoagulantes (varfarina) 
+por fibrilação atrial crônica, dá entrada no pronto-socorro 
+após queda de própria altura. Apresenta lucidez inicial, 
+mas se queixa de cefaleia severa e episódio de confusão 
+transitória (orientação parcialmente prejudicada no local). 
+Ao exame: Escala de Coma de Glasgow (ECG): 14 (AO:4; 
+RV:4; RM:6), sem déficit focal evidente. Estável hemodinamicamente; sem outras lesões. 
+De acordo com as atuais diretrizes do ATLS™ (11a edição, 2025), a conduta para investigar possível traumatismo craniano deverá ser:
+(A)	 observar a paciente por 24 horas, tendo em vista a 
+ECG = 14; sem necessidade de exames de imagem 
+complementares.
+(B)	 indicar radiografia simples de crânio para triagem 
+inicial, sem necessidade de tomografia computadorizada (TC) de crânio.
+(C)	 avaliar possível deterioração clínica em 6 horas 
+antes de indicar TC.
+(D)	 indicar TC de crânio, pelo fato de a paciente ser 
+idosa (>65 anos) e apresentar cefaleia e alteração 
+neurológica.
+20.	 Homem, 34 anos, dá entrada na emergência, vítima de 
+ferimento por arma branca (facada) na região lateral do 
+abdome direito. Ao exame físico, está hemodinamicamente estável, sem sinais de peritonite, sem evisceração 
+e exame abdominal normal realizado por equipe cirúrgica 
+experiente. O FAST inicial é negativo para líquido livre.
+Qual a conduta mais apropriada?
+(A)	 Observação por 24 horas com avaliação seriada 
++ TC abdominal e conduta não operatória, se não 
+forem detectadas lesões.
+(B)	 Laparotomia exploradora imediata, pela presença de 
+ferimento penetrante no abdome e alta probabilidade 
+de violação de órgãos intraperitoneais.
+(C)	 Alta do paciente, com retorno em 7 dias para reavaliação e monitoramento.
+(D)	 Lavado peritoneal diagnóstico, para obtenção 
+de dados mais confiáveis de sangue ou fluidos 
+intracavitários.
+21.	Homem, 45 anos, é admitido na sala de emergência, 
+vítima de briga com trauma facial grave: múltiplas fraturas mandibulares, hematoma facial volumoso, sangramento profuso pela boca e obstrução parcial das vias 
+aéreas superiores. Sat. O2: 82% com máscara. Foram 
+realizadas duas tentativas de intubação orotraqueal sem 
+sucesso por visualização impossibilitada (edema e sangue); ventilação com máscara é ineficaz.
+A conduta mais apropriada para garantir via aérea definitiva é
+(A)	 realizar mais tentativas de intubação orotraqueal 
+guiadas por laringoscópio óptico.
+(B)	 tentar intubação nasotraqueal com fio-guia.
+(C)	 realizar cricotireoidostomia cirúrgica de emergência.
+(D)	 inserir dispositivo supraglótico (máscara laríngea) e 
+aguardar melhoras.
+22.	Homem, 42 anos, procura pronto-atendimento por dor 
+abdominal súbita há 30 minutos, inicialmente epigástrica 
+e depois difusa, muito intensa, associada a náuseas. 
+Refere uso frequente de AINEs. Ao exame: FC 124 bpm, 
+PA 112/73 mmHg, Temp. 37,6°C, abdome em tábua, sem 
+ruídos hidroaéreos, sinal de Jobert presente e descompressão brusca positiva.
+A principal hipótese diagnóstica desse paciente é
+(A)	 pancreatite aguda.
+(B)	 obstrução intestinal por tumor de cólon.
+(C)	 apendicite aguda complicada com abscesso.
+(D)	 perfuração de víscera oca por úlcera péptica.
+23.	Homem de 39 anos procurou o serviço médico em duas 
+ocasiões na mesma semana por parada de eliminação de 
+gases e fezes, distensão abdominal importante, náuseas 
+e vômitos biliosos há 4 dias. No segundo atendimento, 
+refere piora da dor nas últimas 12 horas. Ao exame físico, 
+observa-se cicatriz mediana ampla (cirurgia prévia por 
+trauma abdominal). No primeiro atendimento, os ruídos 
+hidroaéreos estavam aumentados, mas agora se encontram diminuídos. A radiografia de abdome em posição 
+supina mostra dilatação importante de alças de intestino 
+delgado e ausência de gás nas porções distais do cólon 
+e reto (imagem demonstrada a seguir).
+( https://www.shutterstock.com/pt/g/Tomatheart)
+Esse quadro aponta para o seguinte diagnóstico:
+(A)	 perfuração de víscera oca.
+(B)	 obstrução intestinal alta.
+(C)	 volvo de sigmoide.
+(D)	 sinal da alça sentinela.
+24.	O projeto Acerto é um programa multimodal de cuidados 
+perioperatórios, pioneiro no território nacional. Cuidados 
+tradicionais são modificados nesse projeto, com base na 
+evidência de estudos randomizados e meta-análises.
+Os 5 principais elementos desse projeto são:
+(A)	 educação e mobilização do paciente no pré-operatório; abreviamento do jejum pré-operatório e realimentação precoce; anestesia multimodal com foco 
+em analgesia e controle de náuseas/vômitos; hidratação e nutrição balanceadas no intra e pós-operatório; mobilização precoce no pós-operatório.
+(B)	 uso de Equipamentos de Proteção Individual (EPIs); 
+adoção de Barreiras Físicas e Contenção como 
+áreas de trabalho isoladas e o descarte seguro de 
+resíduos; implementação de Boas Práticas e Procedimentos Operacionais Padrão (POPs); higienização 
+das mãos; vacinação adequada.
+(C)	 manter ferida operatória limpa e hidratada; dieta 
+equilibrada rica em proteínas e vitaminas; proteção 
+da pele da exposição solar; evitar traumas e seguir 
+as orientações médicas sobre curativos; atividades 
+físicas.
+(D)	 assepsia rigorosa para prevenir infecções; hemostasia para evitar hematomas; adequação do fio e 
+técnica ao tipo de ferida e tecidos envolvidos; aproximação correta das bordas sem gerar tensão excessiva para evitar isquemia; e a eliminação de espaços 
+mortos para prevenir acúmulo de fluidos.
+25.	Durante uma hernioplastia incisional com conteúdo 
+intestinal no saco herniário, a cirurgiã principal, chefe da 
+equipe, solicita um instrumento para apreensão delicada 
+de tecido intestinal, sem causar trauma nem perfuração. 
+A instrumentadora, aluna do internato, oferece uma pinça 
+de Kocher, mas a cirurgiã recusa.
+Qual das seguintes pinças é a mais apropriada para atender a solicitação da cirurgiã?
+(A)	 Pinça de Allis.
+(B)	 Pinça de Rochester.
+(C)	 Pinça de Babcock.
+(D)	 Pinça anatômica com dentes.
+26.	Será realizada uma segmentectomia hepática em um 
+paciente com hepatocarcinoma localizado. O cirurgião 
+principal é canhoto, e sua equipe deve preparar a mesa 
+de instrumentação cirúrgica de forma ergonômica e 
+segura para o procedimento. O instrumentador, destro e 
+acostumado com cirurgiões destros, organiza o material 
+como de rotina.
+Das medidas indicadas a seguir, aquela que representa 
+a adequação correta da montagem da mesa para o cirurgião canhoto, nesse tipo de cirurgia, é:
+(A)	 manter a disposição padrão, com instrumentos 
+especiais voltados para a parte inferior da mesa de 
+instrumentos.
+(B)	 o(s) bisturi(s), tesouras, fios e porta-agulhas devem 
+ser dispostos à esquerda da mesa de instrumentos.
+(C)	 colocar todos os instrumentos simetricamente no 
+centro da mesa para uso indiferente.
+(D)	 dispor os afastadores e pinças especiais à esquerda 
+da mesa de instrumentos, respeitando-se a dominância do cirurgião.
+27.	Mulher de 26 anos dá entrada na emergência referindo 
+dor abdominal súbita de forte intensidade há 40 minutos, acompanhada de sudorese, palidez cutaneomucosa, tontura e mal estar geral. Refere atraso menstrual 
+há cerca de 8 semanas. Sinais vitais: PA: 90/55 mmHg; 
+FC: 132 bpm; FR: 26 mrpm. Exame físico: dor à palpação 
+abdominal difusamente, DB +, toque vaginal com abaulamento dos fundos de saco. Sinal de Proust positivo. Solicitado ultrassom (imagem demonstrada a seguir).
+(Tissiani, J.; Martins, W . P. et al. Experts in Ultrasound Reviews and 
+Perspectives 1(2):100-106 DOI:10.4281/eurp.2009.02.07)
+A conduta a ser realizada com a paciente deverá ser:
+(A)	 solicitar RX abdome, reposição hidroeletrolítica, passar sonda nasogástrica, colher eletrólitos e gasometria e observar a evolução da paciente por 72 horas.
+(B)	 solicitar tomografia computadorizada de abdome, 
+reposição volêmica, internar na UTI e observar por 
+24 horas a evolução da paciente.
+(C)	 indicar cirurgia imediata, pois se trata de ruptura de 
+aneurisma de artéria esplênica, o que ocasionou o 
+quadro de abdome agudo vascular.
+(D)	 medidas iniciais com estabilização hemodinâmica, 
+colher exames (hemograma, coagulograma, tipagem sanguínea, gasometria arterial e βHCG), indicar 
+cirurgia.
+28.	Mulher, 42 anos, queixa-se de fadiga progressiva com 
+diplopia ao final do dia há 6 meses. Exame neurológico 
+sugere fraqueza fatigável; sorologia para anticorpo anti-receptor de acetilcolina é positiva. Radiografia de tórax 
+mostra alargamento do mediastino anterior. A tomografia computadorizada de tórax com contraste mostra uma 
+massa encapsulada no mediastino anterior, sem invasão 
+evidente de estruturas adjacentes (imagem demonstrada a seguir). Não há adenomegalias mediastinais 
+perceptíveis.
+(Townsend Jr., C. M.; Beauchamp, R.D.; B. Evers, M. and Mattox, K.L. 
+Sabiston - Tratado de Cirurgia. 20a Edição, Ed. Elsevier, 2019, pg. 2506)
+Qual a conduta mais adequada para esse caso?
+(A)	 Biópsia percutânea guiada por TC da lesão para 
+definição histológica pré-operatória, seguida de tratamento conforme resultado.
+(B)	 Ressecção cirúrgica completa da lesão, com intenção curativa e regressão dos sintomas.
+(C)	 Radioterapia exclusiva do mediastino, por se tratar 
+de tumor localizado associado à miastenia gravis.
+(D)	 Observação e seguimento seriado por imagem, 
+já que a lesão é bem delimitada e o paciente está 
+hemodinamicamente estável.
+29.	Homem de 48 anos procura o pronto-atendimento com 
+história de dor anal intensa, sangramento vivo durante as 
+evacuações e exteriorização de massas anais há cerca 
+de 2 anos, com piora progressiva nos últimos meses. 
+Refere que as massas não mais reduzem espontaneamente, sendo necessário empurrá-las manualmente 
+após evacuar. Ao exame físico, observam-se três mamilos hemorroidários volumosos, congestos e parcialmente 
+trombosados, localizados nos pontos clássicos (3, 7 e 
+11  horas), além de componente externo importante e 
+prolapso mucoso irreversível. Após estabilização clínica 
+e exclusão de outras causas de sangramento, indica-se 
+tratamento cirúrgico definitivo.
+A equipe opta pela técnica de Milligan–Morgan, que consiste em
+(A)	 ligadura dos pedículos vasculares dos mamilos 
+hemorroidários com 2 a 3 elásticos, associada a 
+laserterapia.
+(B)	 fechamento da ferida cirúrgica em sutura contínua 
+com fio absorvível, a fim de diminuir a dor pós-operatória e melhorar o aspecto estético.
+(C)	 empregar um Doppler que, durante a cirurgia, é inserido no canal anal do paciente para identificar o fluxo 
+vascular; com uma agulha que passa pelo seu interior (sem oferecer risco de lesão de tecidos), o cirurgião sutura a veia em um ponto específico, cessando 
+a causa da doença.
+(D)	 excisão cirúrgica dos mamilos hemorroidários e a 
+sua ligadura vascular; a ferida operatória fica aberta 
+(cicatrização por segunda intenção).
+30.	Mulher de 32 anos, previamente hígida, procura o pronto-atendimento por dor discreta em hipocôndrio direito há 
+dois meses. Nega icterícia, febre ou perda de peso. 
+Relata uso contínuo de anticoncepcionais orais há 12 
+anos. Ao exame físico, não há sinais de hepatomegalia 
+nem estigmas de hepatopatia crônica. Ultrassonografia 
+de abdome mostra uma lesão sólida, bem delimitada, de 
+5,0 cm no lobo direito hepático. A ressonância magnética 
+evidencia lesão hipervascular, sem cicatriz central, e com 
+áreas de hemorragia intralesional. Sorologias para hepatites B e C são negativas, e o alfafetoproteína (AFP) está 
+dentro dos valores de referência.
+Com base nesse caso clínico e nos conhecimentos sobre 
+as neoplasias hepáticas, assinale a alternativa correta.
+(A)	 A hiperplasia nodular focal é o tumor benigno hepático mais comum em mulheres jovens e tem forte 
+relação com o uso de anticoncepcionais orais.
+(B)	 O adenoma hepático é uma neoplasia benigna 
+associada frequentemente ao uso prolongado de 
+anticoncepcionais orais, com risco de hemorragia e 
+transformação maligna.
+(C)	 O carcinoma hepatocelular (hepatocarcinoma) é 
+comum em mulheres jovens sem hepatopatia e apresenta níveis séricos normais de AFP.
+(D)	 O hemangioma hepático, apesar de ser o tumor 
+benigno mais comum do fígado, apresenta risco elevado de transformação maligna, justificando ressecção cirúrgica de rotina.
+31.	Mulher de 59 anos consulta-se com clínico geral por 
+apresentar nódulo tireoidiano incidental em ultrassom de 
+rotina. Está assintomática. No exame cervical, a tireoide 
+está tópica, fibroelástica, de volume habitual. Nota-se, 
+à palpação de lobo esquerdo, a presença de nódulo 
+de consistência endurecida, medindo cerca de 2,5 cm, 
+móvel e indolor. Ultrassonografia de tireoide: presença de 
+nódulo sólido, hipoecoico, com halo incompleto, mais alto 
+do que largo, com vascularização central e microcalcificações de permeio medindo 2,5 x 1,4 cm em 1/3 médio 
+do lobo esquerdo.
+Em relação a esse caso, assinale a alternativa correta.
+(A)	 Trata-se de um carcinoma anaplásico, e a cirurgia 
+deve ser indicada após estadiamento completo.
+(B)	 A paciente apresenta doença de Basedow Graves, 
+cuja abordagem terapêutica é conservadora de início 
+com iodoterapia.
+(C)	 No caso relatado, faz-se necessária a realização de 
+punção aspirativa com agulha fina (PAAF), devido ao 
+volume e características do nódulo.
+(D)	 Pelas características apresentadas, está indicada 
+a tireoidectomia total com esvaziamento linfonodal 
+ipsilateral.
+32.	Homem de 48 anos, previamente hígido, apresenta pirose 
+e regurgitação ácida há cerca de 6 anos, com piora progressiva nos últimos meses, apesar do uso regular de 
+inibidor de bomba de prótons em dose plena. Refere 
+episódios ocasionais de tosse seca e rouquidão matinal, mas nega disfagia ou perda ponderal. A endoscopia 
+digestiva alta evidencia esofagite erosiva grau C de Los 
+Angeles e hérnia hiatal por deslizamento de, aproximadamente, 4 cm. A manometria esofágica mostra pressão 
+reduzida do esfíncter esofágico inferior, com motilidade 
+esofágica preservada.
+Considerando o quadro clínico e a falha do tratamento 
+clínico, indica-se tratamento cirúrgico. Qual é a técnica 
+cirúrgica mais indicada para esse paciente?
+(A)	 Fundoplicatura total de Nissen (360°).
+(B)	 Esofagectomia Ivor Lewis.
+(C)	 Miotomia de Heller.
+(D)	 Fundoplicatura parcial tipo Pinotti.
+33.	Lactente, sexo masculino, 1 ano e 3 meses de idade, está 
+em consulta de puericultura. Mãe traz queixa que ele desperta 4 a 5 vezes por noite e só readormece mamando 
+no seio materno. Durante o dia, permanece em creche 
+em horário integral, onde cuidadores referem que ele faz 
+3 cochilos curtos, de aproximadamente 40 minutos, iniciando e encerrando o sono sem necessidade de ajuda. 
+Em casa, após chegar da creche, a mãe diz que ele fica 
+muito mais agitado, quer andar de um lado para o outro 
+da casa, ela nota que ele fica mais ativo ao anoitecer. 
+Tem dificuldade de oferecer o jantar e o leite noturno, só 
+consegue colocando-o para assistir telas para acalmar. 
+Também usa a estratégia da tela do celular para mantê-lo 
+deitado no seu colo e conseguir fazê-lo dormir. Há noites 
+em que ele dorme antes das 22 h, mas em outras noites 
+passa da meia-noite.
+Ao exame clínico, nenhuma alteração significativa. Crescimento e desenvolvimento compatíveis com a idade. 
+A mãe solicita “alguma medicação para ajudá-lo a dormir”.
+Qual é a conduta adequada?
+(A)	 Orientar que esse padrão de despertares é o mais 
+comum nessa faixa etária, com tendência de resolução espontânea após 24 meses de idade.
+(B)	 Prescrever melatonina para tomar 2 horas antes do 
+horário previsto para início do sono, com desmame 
+após 7 noites seguidas dormindo bem.
+(C)	 Solicitar polissonografia para investigar distúrbio respiratório do sono secundário a provável hipertrofia de 
+adenoides.
+(D)	 Reestruturar a rotina de sono com horário fixo, retirada de telas e estímulo ao adormecer de forma 
+independente.
+34.	Pré-escolar, sexo feminino, 3 anos de idade, apresenta 
+lesões eczematosas pruriginosas desde os 6 meses de 
+vida, que geralmente pioram na época do inverno. Nas 
+últimas duas semanas, surgiram pápulas eritematosas 
+exsudativas com crostas melicéricas em fossas cubitais 
+e poplíteas. Mãe relata prurido intenso, que piora após 
+banho quente.
+Ao exame clínico, apresenta áreas de liquenificação, 
+escoriações e crostas amareladas em membros superiores e inferiores.
+Com base no diagnóstico mais provável, a conduta adequada é
+(A)	 intensificar hidratação da pele e iniciar antibiótico tópico associado a corticoide tópico de baixa 
+potência.
+(B)	 excluir leite e derivados da dieta, iniciar corticoide 
+oral e anti-histamínico oral por 7 dias.
+(C)	 intensificar banhos com sabonete bactericida, iniciar 
+tratamento com tacrolimo ou pimecrolimo tópicos.
+(D)	 usar antifúngico tópico e evitar hidratantes tópicos 
+até regressão completa das lesões.
+35.	Escolar, sexo feminino, 7 anos e 4 meses de idade, previamente hígida, é trazida à consulta de rotina com relato 
+que apresenta desenvolvimento mamário há 5 meses. 
+Não apresenta outras queixas. Faz uso diário de vitamina D, 600 UI/dia, nega uso de qualquer outra medicação, seja sistêmica ou tópica.
+Ao exame clínico, nota-se estágio puberal M2P1. Estatura acima do percentil 97 pelas curvas adequadas da 
+OMS, peso entre percentil 85 e 97. Nota-se que houve 
+ganho de 4 cm de estatura nos últimos 6 meses.
+Realizada radiografia de punho esquerdo para determinação de idade óssea, laudo compatível com 10 anos. 
+Com base nesses achados, o diagnóstico mais provável é
+(A)	 adrenarca precoce isolada. 
+(B)	 puberdade precoce central. 
+(C)	 telarca precoce isolada.
+(D)	 variação da normalidade.
+36.	Adolescente, sexo feminino, 15 anos de idade, veio à 
+Unidade Básica de Saúde (UBS) acompanhada de uma 
+prima para consulta de rotina. Ela entra na consulta sozinha para atendimento. Tem antecedente de asma e faz 
+uso de corticoide inalatório em baixa dose associado 
+a beta-2 de longa ação de forma contínua (formoterol 
+6 mcg + budesonida 200 mcg de 12 em 12 horas). Ela 
+refere preocupação com tosse iniciada há uma semana, 
+sem coriza ou febre. Ao questionar possíveis desencadeantes para a tosse, ela conta que tudo começou após 
+fumar um cigarro de maconha na casa de um amigo há 
+uma semana. Diz que foi uma única vez e que não pretende repetir, justamente por causa dessa tosse. Ela só 
+demonstra preocupação com a reação dos pais se soubessem do evento e pede que essas informações não 
+sejam compartilhadas com eles.
+Do ponto de vista ético, qual deve ser a conduta neste 
+caso?
+(A)	 Quebrar o sigilo e comunicar os pais sobre o uso de 
+drogas, pois essa atitude comprometeu o controle de 
+doença crônica (asma).
+(B)	 Fazer o atendimento médico normalmente e, após 
+liberação do paciente, fazer relatório ao Conselho 
+Tutelar, por se tratar de crime (drogas ilícitas).
+(C)	 Garantir o atendimento e o sigilo, orientando os 
+males dessa prática e prescrevendo medicação pertinente ao tratamento da tosse.
+(D)	 Solicitar a convocação dos pais e aguardar o comparecimento deles antes de prosseguir com o 
+atendimento.
+37.	Pré-escolar, sexo feminino, 3 anos de idade, é encontrada com uma cartela de paracetamol na mão. Pela 
+estimativa dos familiares, ela ingeriu 4 comprimidos de 
+750 mg cada. Chega ao atendimento médico aproximadamente 4 horas após a ingestão. Está assintomática. Ao 
+exame clínico, criança em bom estado geral, consciente 
+e orientada; PA: 96/54 mmHg; FC: 108 bpm; FR: 26 irpm; 
+sem alterações significativas. Peso de 15 kg.
+A conduta mais apropriada é
+(A)	 realizar apenas lavagem gástrica.
+(B)	 administrar lavagem gástrica seguida de carvão 
+ativado.
+(C)	 infusão de acetilcisteína endovenosa.
+(D)	 alta hospitalar com observação domiciliar.
+38.	Pré-escolar, sexo feminino, 2 anos e 6 meses de idade, 
+previamente hígida, chega ao pronto atendimento com 
+quadro de febre de até 39,5 °C, tosse e coriza iniciados há 
+36 horas, com vômitos e hiporresponsividade nas últimas 
+3 horas. Ao exame clínico: regular estado geral; descorada 2+/4+; FC: 170 bpm; PA: 78/44 mmHg; FR: 42 irpm; 
+SpO₂: 90% em ar ambiente; tempo de enchimento capilar: 4 segundos; extremidades frias; pulsos filiformes. 
+Exame pulmonar com presença de tiragem subdiafragmática leve, ausculta com murmúrios vesiculares presentes bilateralmente com sopro tubário em ápice direito. 
+Sem outras alterações relevantes. Administrado oxigênio 
+em máscara não reinalante com aumento da SpO2 para 
+95% e resolução do desconforto respiratório. Após duas 
+tentativas, obtém-se acesso venoso periférico, sendo 
+também colhida hemocultura.
+Entre as condutas listadas a seguir, qual é a primeira a 
+ser realizada?
+(A)	 Iniciar antibiótico endovenoso de amplo espectro 
+(ceftriaxone). 
+(B)	 Iniciar sedação para instalação de dispositivo de 
+ventilação não invasiva (VNI).
+(C)	 Realizar punção torácica de alívio em 2o espaço 
+intercostal (linha hemiclavicular).
+(D)	 Realizar expansão com cristaloide 20 mL/kg endovenosa em 5–10 min.
+39.	Pré-escolar, sexo masculino, 3 anos e 8 meses de idade, 
+previamente hígido, é levado ao pronto-socorro por episódio convulsivo tônico-clônico generalizado iniciado há 
+poucos minutos. A mãe refere febre baixa notada desde 
+hoje pela manhã, associada à sonolência e à recusa alimentar. Não há história familiar de epilepsia.
+Na chegada, encontra-se em atividade convulsiva contínua, escala de coma de Glasgow: 10; SatO₂: 91% em ar 
+ambiente; FC: 142 bpm; PA: 88/52 mmHg; temperatura: 
+38,3 °C; glicemia capilar: 88 mg/dL. É levado à sala de 
+emergência, onde é obtido acesso venoso periférico, iniciada administração de oxigênio por máscara não reinalante e colocada monitorização cardíaca.
+Qual deve ser a conduta imediata?
+(A)	 Administrar antitérmico endovenoso e aguardar 
+resolução da febre para decidir sobre a necessidade 
+da abordagem da crise convulsiva.
+(B)	 Administrar benzodiazepínico de ação rápida por 
+via endovenosa, monitorando permeabilidade da via 
+aérea e controle da ventilação.
+(C)	 Realizar intubação orotraqueal sem necessidade de 
+pré-medicação e só administrar benzodiazepínico 
+após garantir via aérea avançada.
+(D)	 Realizar tomografia de crânio e punção lombar antes 
+de qualquer outra medida, para não ter risco de prejudicar a investigação etiológica.
+40.	Escolar, sexo masculino, 6 anos de idade, com antecedente de asma em uso de beclometasona inalatória continua, 
+deu entrada no pronto-socorro com desconforto respiratório iniciado nas últimas 12 horas. Mãe administrou salbutamol 
+100 mcg, 2 puffs com espaçador a cada 6 horas, sem sinais de melhora. Na triagem, paciente hiporresponsivo, com 
+FC: 52 bpm, SpO2: 78% em ar ambiente. Levado imediatamente à sala de emergência, monitorizado, oferecido oxigênio 
+em máscara não reinalante, evoluiu com inconsciência. Como paciente estava sem pulso palpável, foram iniciadas compressões torácicas de alta qualidade (frequência 100–120/min) associadas à ventilação com bolsa-válvula-máscara na 
+relação de 15 compressões para duas ventilações. Após 2 minutos, a RCP é interrompida para a checagem de ritmo, e o 
+monitor demonstra os seguintes parâmetros:
+ECG bpm
+Lead II
+SpO2%
+_ _
+BP mmHg
+_ _ / _ _
+MAP - _ _
+ 
+Paciente segue sem pulso palpável.
+Qual é a medida imediata nesse contexto?
+(A)	 Administrar adrenalina 0,01 mg/kg IV/IO em bolus seguido de retorno imediato da RCP de alta qualidade.
+(B)	 Manter apenas ventilações com dispositivo bolsa-valva-máscara e administrar sulfato de magnésio 50 a 75 mg/kg IV 
+em 20 minutos.
+(C)	 Infundir atropina 0,1 mg/kg (máx. 1 mg) IV/IO em bolus seguido de retorno imediato da RCP de alta qualidade.
+(D)	 Manter apenas ventilações com dispositivo bolsa-valva-máscara e aplicar desfibrilação de 2 J/kg sob sedação.
+41.	Lactente, sexo feminino, 2 meses de idade, com antecedente de prematuridade de 34 semanas, está internada em enfermaria devido a quadro de bronquiolite, com painel respiratório positivo para vírus sincicial respiratório (VSR). Hoje, após 
+24 horas de internação, a mãe acha que a paciente está mais cansada. Ao exame clínico, paciente está em regular estado 
+geral, letárgica e hipoativa. No exame pulmonar, apresenta sibilos difusos, tiragem subcostal intensa, com balanço de 
+cabeça e gemência expiratória, frequência respiratória de 76 irpm e SatO₂ de 84% em ar ambiente. 
+É instalado cateter nasal de alto fluxo com 2 L/kg e FiO2 de 60%, com aumento da SatO₂ para 89%; contudo, nota-se que 
+a paciente está fazendo pausas respiratórias de 10 a 15 segundos, com queda de saturação.
+Qual é a conduta imediata mais indicada?
+(A)	 Introdução de cafeína via oral para tratamento de apneias da prematuridade.
+(B)	 Inalação com epinefrina e corticoide sistêmico devido a espasmos laríngeos levando a pausas respiratórias.
+(C)	 Antibioticoterapia endovenosa empírica com ceftriaxone para tratamento de apneias secundárias a sepse.
+(D)	 Escalonar suporte ventilatório para ventilação não invasiva ou intubação orotraqueal devido a apneias secundárias a 
+bronquiolite grave.
+42.	Escolar, sexo masculino, 9 anos de idade, está internado 
+em enfermaria por pneumonia lobar direita, em uso de 
+ceftriaxone endovenoso. No 3o dia de internação, já está 
+afebril há 24 horas, mas evolui com letargia, cefaleia e 
+vômitos.
+Ao exame clínico, paciente em regular estado geral, 
+corado, sem sinais de desidratação, mucosas úmidas e pulsos cheios. Sonolento, escala de coma de 
+Glasgow: 14; PA: 90/55 mmHg; FC: 110 bpm; FR 22 irpm; 
+SpO2: 96% em ar ambiente. Ausculta pulmonar com discretos estertores em ápice direito, sem sinais de desconforto respiratório. 
+Inicialmente, é repetida radiografia de tórax, que demonstra resolução parcial da pneumonia. São colhidos exames laboratoriais com Hb: 10,2 g/dL; Ht: 32%; leucócitos: 
+12.540; plaquetas: 320.000; proteína C reativa: 42 mg/L 
+(anterior de 124 mg/L).
+Sódio: 121 mEq/L; potássio: 4,4 mEq/L; ureia: 32 mg/L; 
+creatinina: 0,52 mg/L. 
+Gasometria venosa com pH: 7,41; pCO2: 41 mmHg; 
+bicarbonato: 21 mEq/L.
+Glicemia: 88 mg/dL.
+Sódio urinário: 42 mEq/L (elevado). 
+Qual é a conduta hospitalar mais adequada neste 
+momento?
+(A)	 Restrição hídrica e correção lenta do sódio (elevação 
+máxima de 10 mEq em 24 horas).
+(B)	 Expansão com soro fisiológico (NaCl 0,9%) 20 mL/kg 
+EV em 15 a 20 minutos.
+(C)	 Administração de diurético de alça e soro de manutenção isotônico com oferta hídrica de 100 mL/kg.
+(D)	 Troca de ceftriaxone por cefotaxima e expansão com 
+NaCl 3% 20 mL/kg EV em 1 hora.
+43.	Adolescente, sexo masculino, 13 anos de idade, com 
+diagnóstico de leucemia linfoblástica aguda, em quimioterapia, apresenta dor e edema em braço direito há 24 
+horas, local em que já possui cateter central de inserção 
+periférica (PICC). Nega febre.
+Ao exame clínico, apresenta assimetria de 2 cm no perímetro braquial, leve eritema no trajeto do PICC, com dor 
+discreta à palpação e sem calor local, pulsos periféricos 
+palpáveis. 
+Colhido hemograma, sem alterações significativas (1.750 
+neutrófilos). Proteína C reativa: 0,5 mg/L. Pró-calcitonina: 
+0,1 ng/mL.
+Realizada ultrassonografia Doppler venoso: trombose da 
+veia axilar e subclávia direita.
+Qual é a conduta mais adequada?
+(A)	 Retirar imediatamente o cateter, sem necessidade 
+de iniciar anticoagulação ou antibioticoterapia.
+(B)	 Iniciar anticoagulação com heparina de baixo peso 
+molecular e remover o cateter quando a anticoagulação atingir nível terapêutico.
+(C)	 Manter o cateter com aplicação de trombolítico pelo 
+dispositivo e realizar ultrassonografia de controle em 
+duas semanas.
+(D)	 Iniciar antibioticoterapia empírica com vancomicina, 
+com infusão preferencial do antibiótico pelo cateter.
+44.	Lactente, sexo masculino, 10 meses de idade, previamente hígido, está internado em enfermaria de pediatria 
+devido a quadro de estomatite viral aguda. Ele foi internado devido à baixa aceitação da dieta oral e risco de 
+evoluir com desidratação, sendo instalado um soro de 
+manutenção. Três horas após a instalação do soro, outro 
+plantonista vai avaliar a criança e percebe que a concentração de sódio na solução está três vezes acima da preconizada. O soro é interrompido, é solicitada uma coleta 
+de sódio na urgência, com resultado de 143 mEq/L (dentro da faixa de normalidade), sendo prescrito um novo 
+soro com a concentração certa de sódio. A mãe, que 
+estava acompanhando a criança, acompanhou a coleta 
+de exames e a troca do soro, sem questionar ativamente 
+os motivos desses procedimentos.
+Qual é a conduta adequada neste caso?
+(A)	 Como não houve repercussão clínica desse erro, 
+a equipe de saúde pode informar que a coleta de 
+exames e troca do soro fazem parte dos protocolos 
+habituais da instituição.
+(B)	 Como a mãe não demonstrou interesse nos motivos 
+da coleta de exames e troca do soro, não há necessidade de a equipe abordar esse evento adverso de 
+forma proativa com a família.
+(C)	 É obrigatório que o erro seja registrado em prontuário e informado aos familiares de forma clara e empática, explicando as medidas tomadas com o paciente 
+e as ações visando prevenir recorrências.
+(D)	 É obrigatório registrar o erro no prontuário do 
+paciente, mas não há necessidade de diálogo com 
+a família, pois não se caracterizou como evento 
+adverso.
+45.	Recém-nascida, sexo feminino, 15 dias de vida, deu 
+entrada no pronto-socorro por quadro de recusa alimentar, letargia e febre (38,4 °C) iniciados desde ontem. 
+Trata-se de criança nascida a termo, parto vaginal, sem 
+intercorrências perinatais. Ao exame clínico, criança em 
+regular estado geral; descorada 1+/4+; FC: 176 bpm; 
+FR: 58 irpm; SatO₂: 94% em ar ambiente; perfusão periférica lentificada. Observam-se vesículas eritematosas 
+em região periocular e mucosa oral.
+É prescrita expansão com 10 mL/kg de soro fisiológico e 
+são colhidos exames complementares com os seguintes 
+achados: 
+-  Hemograma: Hb: 13,2 g/dL; Ht: 42%; leucócitos: 
+25.200/mm³ (8% de bastonetes e 68% de neutrófilos); 
+plaquetas: 128.000/mm³. 
+-  AST (TGO): 185 U/L; ALT (TGP): 142 U/L; proteína C 
+reativa: 38 mg/L.
+-  Glicemia: 66 mg/dL; sódio: 137 mEq/L; potássio: 
+4,8 mEq/L.
+-  Radiografia de tórax sem alterações.
+-  Liquor é coletado, e aguarda-se o resultado.
+Qual é a conduta mais adequada neste momento?
+(A)	 Manter internação para observação clínica, sem 
+introdução de nenhum tratamento endovenoso, por 
+provável infecção viral autolimitada.
+(B)	 Iniciar antibioticoterapia empírica com oxacilina e 
+amicacina endovenosos, com eventuais ajustes a 
+depender do resultado do líquor.
+(C)	 Iniciar antibioticoterapia empírica com ampicilina e 
+cefotaxima endovenosos, mantendo tratamento até 
+resultado final das culturas.
+(D)	 Iniciar tratamento empírico com ampicilina, cefotaxima e aciclovir endovenosos, mantendo internação 
+e tratamento até esclarecimento diagnóstico.
+46.	Recém-nascido, sexo masculino, 12 dias de vida, nascido 
+a termo, aleitamento materno exclusivo, está em consulta 
+de rotina. A mãe relata boa sucção e ganho de peso, sem 
+queixas no momento. Mama a cada 3 horas, inclusive 
+na madrugada. Relata diurese clara abundante e evacuações amareladas pastosas de 4 a 5 vezes ao dia. 
+Ao exame clínico, é notada icterícia visível até joelhos, 
+sem outros achados relevantes.
+Colhidos exames laboratoriais, com bilirrubina total: 
+13,8 mg/dL; bilirrubina indireta: 13,2 mg/dL; bilirrubina 
+direta: 0,6 mg/dL; Coombs direto negativo; reticulócitos 
+2,0% (referência: 0,5–3%); TSH 2,5 µUI/mL (referência: 
+0,5–6,0 µUI/mL).
+Peso atual 3.380 g (ao nascer 3.250 g).
+Qual é a conduta mais adequada?
+(A)	 Internar para fototerapia devido à persistência da 
+icterícia.
+(B)	 Solicitar ultrassonografia de abdome para programação cirúrgica.
+(C)	 Manter aleitamento materno exclusivo e acompanhamento clínico.
+(D)	 Suspender o aleitamento por 48 horas e oferecer fórmula infantil.
+47.	Recém-nascido, sexo feminino, 2 dias de vida, foi transferido do alojamento conjunto para a uti neonatal devido 
+a desconforto respiratório iniciado há poucas horas. 
+Trata-se de criança nascida de termo (38 semanas), 
+parto vaginal, Apgar 9/9, sem necessidade de manobras 
+de reanimação.
+Na avaliação atual, apresenta cianose central persistente 
+(SatO₂ 82% em ar ambiente), sem desconforto respiratório. Ausculta cardíaca com sopro sistólico e pulsos normais. Saturação pré-ductal: 83%; pós-ductal: 80%.
+Gasometria arterial: pO₂ 44 mmHg (referência: > 60 mmHg) 
+após 10 min de oferta de oxigênio a 100%.
+Radiografia de tórax: campos bem expandidos, área cardíaca normal.
+Quais são o diagnóstico mais provável e a conduta inicial 
+correspondente?
+(A)	 Cardiopatia congênita cianótica – iniciar infusão de 
+prostaglandina.
+(B)	 Persistência da circulação fetal – iniciar ventilação 
+mecânica imediata.
+(C)	 Síndrome do desconforto respiratório – iniciar CPAP.
+(D)	 Taquipneia transitória – manter O₂ sob cateter nasal.
+48.	Recém-nascido, sexo masculino, idade gestacional de 
+38 semanas, parto vaginal, líquido amniótico claro. Ao 
+nascimento, está hipoativo e não respira espontaneamente. É colocado em berço aquecido, secado e estimulado, sendo mantido padrão. São iniciados ventilação 
+com pressão positiva e oxigênio em ar ambiente, e, após 
+30 segundos, apresenta frequência cardíaca de 80 bpm, 
+SatO₂ pré-ductal 78%. O tórax expande-se adequadamente, e o posicionamento da máscara está adequado.
+Qual é o próximo passo mais adequado segundo as diretrizes de reanimação neonatal da Sociedade Brasileira 
+de Pediatria (SBP)?
+(A)	 Manter ventilação com ar ambiente por mais 30 
+segundos.
+(B)	 Aumentar a fração inspirada de oxigênio para 100% 
+e continuar a ventilação.
+(C)	 Iniciar compressões torácicas em 3:1 imediatamente.
+(D)	 Administrar adrenalina endovenosa e manter a ventilação positiva.
+49.	Mulher de 25 anos chega ao ambulatório com queixa 
+de corrimento claro, em pouca quantidade, sem prurido, 
+com odor fétido, que se acentua durante a relação sexual 
+e na menstruação, há um mês. Fez tratamento com fluconazol via oral sem melhora.
+Assinale a alternativa que apresenta corretamente o 
+agente etiológico mais provável.
+(A)	 Trichomonas vaginalis.
+(B)	 Gardnerella vaginalis.
+(C)	 Chlamydia trachomatis.
+(D)	 Candida albicans.
+50.	Adolescente de 17 anos, menarca aos 16, refere ter apresentado sete menstruações em um ano, com quadro de 
+acne, hirsutismo e queda de cabelo.
+Com base no quadro descrito, assinale a alternativa que 
+apresenta corretamente o diagnóstico mais provável.
+(A)	 Síndrome dos ovários policísticos.
+(B)	 Hiperaldosteronismo primário.
+(C)	 Hipogonadismo hipogonadotrófico.
+(D)	 Normalidade dentro dos dois primeiros anos da 
+menarca.
+51.	Mulher de 37 anos, nuligesta, cor preta, teve menarca aos 
+10 anos e refere ciclos menstruais regulares, porém, nos 
+últimos três anos, com aumento progressivo da duração 
+e da intensidade do fluxo. Está tentando engravidar há 
+quinze meses, sem sucesso. Nega dispareunia. Refere 
+também sensação de peso no baixo ventre.
+Com base no quadro descrito, assinale a alternativa que 
+apresenta corretamente o diagnóstico mais provável.
+(A)	 Adenomiose.
+(B)	 Endometriose.
+(C)	 Miomatose uterina.
+(D)	 Pólipo endometrial.
+52.	Mulher de 47 anos está fazendo reposição estroprogestativa por via transdérmica, com melhora importante 
+dos sintomas climatéricos, porém com quadro de desejo 
+sexual hipoativo. Faz uso de anlodipino para hipertensão 
+arterial crônica.
+Assinale a alternativa que apresenta corretamente a 
+melhor abordagem para atender a essa queixa.
+(A)	 Trocar o anti-hipertensivo por um bloqueador de 
+receptor de angiotensina (BRA).
+(B)	 Mudar a terapia hormonal pela via oral.
+(C)	 Iniciar testosterona transdérmica em gel e manter a 
+reposição estroprogestativa.
+(D)	 Iniciar testosterona transdérmica em gel e suspender 
+a reposição estroprogestativa.
+53.	Adolescente de 16 anos pretende iniciar vida sexual e 
+procura um médico para orientação contraceptiva. Sabe 
+que deverá fazer uso de preservativo, porém não se sente 
+segura somente com ele.
+Com base na história clínica descrita, assinale a alternativa correta sobre os métodos contraceptivos reversíveis 
+de longa duração (LARC).
+(A)	 Associam estrogênios e progestagênios.
+(B)	 Os injetáveis trimestrais são os mais escolhidos.
+(C)	 Não são considerados boas opções para a paciente 
+referida.
+(D)	 Devem ser incentivados entre as adolescentes.
+54.	A moléstia inflamatória pélvica (MIPA) é considerada 
+como um conjunto de processos inflamatórios da região 
+pélvica devido à propagação de microrganismos a partir 
+do colo do útero e da vagina para o endométrio, as tubas, 
+o peritônio e as estruturas adjacentes. Uma de suas complicações é a presença de abscesso tubo-ovariano (ATO).
+Nesse contexto, torna-se obrigatória a abordagem cirúrgica se
+(A)	 o maior diâmetro do ATO for maior que 5,0 cm.
+(B)	 o ATO se romper.
+(C)	 o agente isolado for Chlamydia trachomatis.
+(D)	 não houver resposta à antibioticoterapia por doze 
+horas.
+55.	Um fator de risco para incontinência urinária e prolapso 
+de órgãos pélvicos é
+(A)	 a síndrome de Marfan.
+(B)	 o índice de massa corpórea (IMC) abaixo de 15.
+(C)	 o parto cesáreo.
+(D)	 a cor preta.
+56.	Mulher de 53 anos foi submetida à mamografia acompanhada de ultrassonografia mamária como método de rastreamento. Ao ultrassom, apresentou nódulo de 1,5 cm, 
+em junção dos quadrantes laterais da mama D, com 
+maior eixo perpendicular à pele, limites irregulares, sem 
+reforço acústico posterior. A mamografia revelou calcificação grosseira em região do nódulo e axilas com linfonodos de aspecto habitual.
+Esse achado deve corresponder à classificação BI-RADS 
+          , e a conduta correta é solicitar           .
+Assinale a alternativa que preenche, correta e respectivamente, as lacunas.
+(A)	 1 ... novo exame seguindo a periodicidade de rotina
+(B)	 2 ... novo exame seguindo a periodicidade de rotina
+(C)	 3 ... novo exame em seis meses
+(D)	 4 ... punção dirigida por ultrassom
+57.	Gestante de 29 semanas e 2 dias apresenta, em consulta de pré-natal, ultrassom evidenciando bordo inferior 
+da placenta a 3,2 cm do orifício interno do colo uterino.
+De acordo com a nova classificação de placenta com 
+inserção anômala, trata-se de placenta
+(A)	 de inserção normal.
+(B)	 baixa.
+(C)	 prévia.
+(D)	 marginal.
+58.	Com incidência no nosso país superior a 10% de todas 
+as gestações, a prematuridade se associa a piores desfechos neonatais, elevando sobremaneira o custo assistencial dos recém-nascidos e causando grande angústia 
+em pais e familiares.
+Em relação à prematuridade, é correto afirmar:
+(A)	 tem forte associação com a candidíase vaginal.
+(B)	 os extremos da idade apresentam menor incidência.
+(C)	 história de parto prematuro anterior é um importante 
+fator de risco.
+(D)	 o índice de Bishop é um bom método de rastreamento.
+59.	Multípara de 38 anos, com gestação de 30 semanas e 
+1 dia, refere troca de parceiro na gestação atual, além 
+de ganho de peso (4 kg em uma semana) e elevação da 
+pressão arterial (sendo o maior valor de 145 x 96 mmHg). 
+Nega cefaleia, alterações visuais ou epigastralgia. Refere 
+boa movimentação fetal.
+Considerando que a paciente já foi submetida ao exame 
+clínico e ultrassonográfico, o seguinte exame é considerado de maior valor para complementação diagnóstica:
+(A)	 ácido úrico.
+(B)	 relação proteína/creatinina em amostra isolada de 
+urina.
+(C)	 proteínas totais.
+(D)	 gasometria arterial.
+60.	Assinale a alternativa que apresenta apenas informações 
+corretas sobre o diabetes gestacional.
+(A)	 Se a glicemia de jejum da primeira consulta for maior 
+ou igual a 92 e menor que 126, é estabelecido o 
+diagnóstico de diabetes gestacional.
+(B)	 Se a glicemia de jejum da primeira consulta for maior 
+que 125, é estabelecido o diagnóstico de diabetes 
+gestacional.
+(C)	 Um teste de tolerância à glicose deve ser oferecido 
+a todas as gestantes obesas na primeira consulta de 
+pré-natal.
+(D)	 Gestantes que apresentam glicosúria devem ser 
+submetidas a um teste de tolerância à glicose, independentemente da idade gestacional.
+61.	Trata-se de contraindicação(ões) formal(is) à amamentação:
+(A)	 infecção por hepatite C e HIV.
+(B)	 infecção por hepatite B e HIV.
+(C)	 somente infecção por HIV.
+(D)	 infecção por HIV e uso de antineoplásicos.
+62.	Uma complicação clínica muito frequente na gestação é 
+a infecção do trato urinário.
+Em relação a essa morbidade, assinale a alternativa 
+correta.
+(A)	 Bacteriúria assintomática em gestantes não precisa 
+ser tratada.
+(B)	 Bacteriúria assintomática em gestantes pode evoluir 
+para pielonefrite.
+(C)	 Na gestação, urina 1 com mais de 100 mil leucócitos 
+deve ser tratada com antibioticoterapia endovenosa.
+(D)	 A pielonefrite na gestação é mais comum à esquerda.
+63.	Uma gestante de 32 semanas e 5 dias vai ao PSO 
+referindo quadro de perda de líquido pela vagina há 
+cerca de cinco horas, em moderada quantidade, com 
+odor de água sanitária. Nega sangramento vaginal ou 
+dor. Ao exame clínico: sinais vitais sem alterações e 
+afebril. Ao exame especular: não identificado líquido em 
+vagina. Ausência de perda de líquido à manobra de Valsalva. Teste do forro: negativo.
+Com base nesse contexto, assinale a alternativa que 
+apresenta corretamente o exame de maior sensibilidade 
+e especificidade na exclusão do diagnóstico de rotura 
+prematura de membranas ovulares.
+(A)	 Teste do papel de nitrazina (pH vaginal).
+(B)	 Teste da fibronectina fetal (fFN).
+(C)	 Prova do fenolsulfonftaleína (Fenol).
+(D)	 Identificação 
+da 
+PAMG-1 
+(placental 
+alpha 
+microglobulin-1).
+64.	Primigesta de 9 semanas e 2 dias retorna à consulta de 
+pré-natal para mostrar os primeiros exames, sem queixas, e apresenta TSH de 4,8.
+A conduta correta é
+(A)	 solicitar anti-TPO.
+(B)	 solicitar T4 livre, apenas.
+(C)	 solicitar T4 livre e introduzir levotiroxina 1,0 mcg/kg/dia.
+(D)	 introduzir levotiroxina 2,0 mcg/kg/dia.
+65.	Uma Unidade Básica de Saúde (UBS) é convidada pela 
+comunidade em que está localizada a participar de uma 
+feira organizada por uma associação de mulheres, sem 
+fins lucrativos, na sua maioria trabalhadoras domésticas, 
+de comércio e de logística. O objetivo da feira é promover 
+um encontro entre os moradores, com divulgação de 
+informações sobre direitos sociais em geral, além de 
+compartilhar produtos alimentícios sem agrotóxicos e 
+artesanatos para arrecadar fundos para a associação. 
+A feira é prevista para um sábado a cada 2 meses.
+Assinale a alternativa correta.
+(A)	 Trata-se de uma atividade comunitária que deve ser 
+incentivada, mas como não se trata de uma atividade 
+do setor de saúde, a UBS deve se recusar a participar.
+(B)	 Pode ser considerada parte de promoção da saúde, 
+e a UBS pode participar com atividades de divulgação de informação sobre direitos e ações sanitárias, 
+vacinação, entre outras.
+(C)	 Trata-se de uma atividade festiva, positiva, que auxilia na organização comunitária, mas como ocorre no 
+sábado, a UBS não pode participar.
+(D)	 As equipes das UBS só podem participar de atividades que sejam realizadas dentro dos serviços.
+66.	Assim como campanhas publicitárias de vendas de produtos sofrem influência do tempo em que são concebidas, campanhas envolvendo a saúde coletiva também 
+refletem vários aspectos do processo histórico.
+Leia algumas das mensagens escolhidas pelo Ministério 
+da Saúde para tratar da prevenção de Aids durante 
+alguns anos e assinale a alternativa correta.
+(A)	 Em 1998, a mensagem “Se fosse seringa, você 
+usava?” dirigida a pessoas dependentes de drogas 
+injetáveis é considerada hoje estímulo à drogadição.
+(B)	 Em 2000, a mensagem “Camisinha: a melhor amiga 
+da estrada” é considerada preconceituosa em relação aos caminhoneiros, público preferencial da 
+mensagem.
+(C)	 Em 2019, a mensagem “HIV/Aids. Se a dúvida 
+acaba, a vida continua” era dirigida aos jovens para 
+influenciar a atitude e a percepção da importância 
+da prevenção, teste e tratamento do HIV para evitar 
+a Aids.
+(D)	 Em 2017, a mensagem “Tem camisinha na festa” era 
+dirigida especificamente aos participantes da Parada 
+Gay.
+67.	Assinale a alternativa correta em relação à hipertensão 
+arterial sistêmica (HAS).
+(A)	 Somente os pacientes com HAS crônica têm crises 
+hipertensivas.
+(B)	 A crise hipertensiva é sempre sintomática e por isso 
+fácil de ser diagnosticada pela Atenção Primária da 
+Saúde (APS) ou serviços de emergência.
+(C)	 A crise hipertensiva está associada a infarto do miocárdio, acidente vascular encefálico isquêmico ou 
+hemorrágico e síndromes aórticas.
+(D)	 Apenas medições repetidas da pressão arterial 
+podem descartar a hipertensão do avental branco.
+68.	Uma mulher de 26 anos apresenta um quadro pruriginoso, com ardência e vermelhidão nas pálpebras. Ela 
+não faz uso de cosméticos na face, mas costuma sempre 
+usar esmalte nas unhas. Não apresenta qualquer outra 
+queixa de saúde. O médico desconfia que se trata de 
+uma dermatite de contato por possível hábito de levar as 
+mãos aos olhos.
+Em relação ao caso, assinale a alternativa correta.
+(A)	 Trata-se de um diagnóstico compatível que deve ser 
+notificado no Sistema de Informação de Agravos de 
+Notificação (SINAN), imediatamente.
+(B)	 O esmalte habitualmente não causa dermatite por 
+contato, sendo esse um diagnóstico pouco provável, 
+não devendo haver qualquer tipo de notificação.
+(C)	 Qualquer dermatite é de notificação compulsória no 
+SINAN e assim, mesmo sem a certeza diagnóstica, 
+ela deve ser feita.
+(D)	 Trata-se de um diagnóstico compatível e, no caso, 
+não é de notificação compulsória no SINAN, pois 
+somente as dermatites ocupacionais o são.
+69.	A intoxicação por metanol pela ingestão de bebidas adulteradas causou grande alarde na população brasileira, 
+em especial a do estado de São Paulo. Paralelamente à 
+investigação da fonte dessa contaminação, houve uma 
+grande companha de esclarecimentos à população pelo 
+Ministério da Saúde e pela imprensa.
+Assinale a alternativa correta sobre esse tema.
+(A)	 O uso de etanol injetável como antídoto contra a intoxicação por metanol foi autorizado pela Anvisa, como 
+parte dos procedimentos de enfrentamento ao surto de 
+intoxicações pelo consumo de bebidas adulteradas.
+(B)	 Um procedimento de emergência adotado foi a 
+suspensão de comercialização de cachaça, uísque, 
+vodca, vinho e cerveja.
+(C)	 O diagnóstico de intoxicação por metanol é simples, 
+pois os sintomas são exuberantes: tontura, vômitos, 
+dor abdominal e fraqueza.
+(D)	 O metanol está presente apenas nas bebidas alcoólicas adulteradas, e a intoxicação em quem o ingere 
+ocorre devido à sua transformação em substâncias 
+tóxicas como o formaldeído e propanol.
+70.	Lídia é usuária de uma UBS, tem 65 anos de idade, e 
+faz acompanhamento de diabetes mellitus. Apresenta um 
+abscesso na axila há 3 dias. Jonas, de 38 anos de idade, 
+tem um lipoma na região do dorso e não tem outros problemas de saúde. Leo, de 28 anos de idade, está com 
+cerúmen. Todos apresentam bom estado geral.
+Assinale a alternativa correta.
+(A)	 A drenagem do abscesso, a exerese do lipoma e a 
+retirada do cerúmen podem ser realizadas na UBS, 
+pois se tratam de procedimentos previstos para a 
+Atenção Primária de Saúde.
+(B)	 Embora todos os procedimentos possam ser feitos 
+na UBS, Lídia deve ser encaminhada para um serviço especializado, pois é diabética e idosa.
+(C)	 A exerese de um lipoma, como no caso de Jonas, 
+exige recursos inexistentes em uma UBS e deve ser 
+feita sempre em serviço especializado.
+(D)	 A exerese do lipoma e a lavagem auricular para 
+retirada do cerúmen devem ser feitas em serviços 
+especializados.
+71.	Uma explosão em um restaurante matou duas pessoas 
+que trabalhavam na cozinha, feriu uma pessoa, que fazia 
+uma entrega de alimento, e uma criança de 5 anos que 
+passava na rua com sua mãe.
+Quais desses casos devem ser notificados no SINAN 
+como acidentes de trabalho?
+(A)	 Todos os casos devem ser notificados como acidentes de trabalho no SINAN.
+(B)	 Os casos devem ser notificados como acidentes de 
+trabalho se a explosão for decorrente de negligência 
+dos proprietários.
+(C)	 Todos, com exceção da criança, devem ser notificados como acidentes de trabalho no SINAN.
+(D)	 Com exceção da criança, devem ser notificados os 
+casos em que houver vínculo empregatício formal.
+72.	Assinale a alternativa correta sobre a esperança de vida 
+ao nascer.
+(A)	 Trata-se de um indicador que não depende da qualidade de informações sobre mortalidade.
+(B)	 Trata-se de um indicador que sofre influência da 
+estrutura etária da população.
+(C)	 Expressa o número médio de anos que se esperaria 
+que uma criança de 1 ano vivesse.
+(D)	 O aumento desse indicador sugere melhoria das 
+condições de vida e de saúde da população.
+73.	O impacto das mudanças climáticas pode ir muito além 
+dos danos ao meio ambiente. Diversos estudos já apontaram que ondas de calor e de frio mais intensas, maior 
+nível de poluição atmosférica e eventos climáticos extremos apresentam riscos graves para a saúde humana.
+Assinale a alternativa correta sobre o tema.
+(A)	 A atenção para doenças respiratórias é importante, 
+em particular, nas populações de crianças e idosos.
+(B)	 As mudanças climáticas terão repercussões graves 
+sobre a saúde, independentemente das classes 
+sociais.
+(C)	 O grupo das doenças hepáticas será o que mais 
+crescerá nos próximos anos.
+(D)	 Os estudos científicos mostram, até o momento, que 
+apenas o grupo dos hipertensos será beneficiado 
+com as mudanças climáticas.
+74.	Assinale a alternativa correta sobre a Atenção Primária 
+da Saúde (APS).
+(A)	 As equipes das UBS devem ser multidisciplinares e 
+residirem no território de atuação.
+(B)	 Possibilita o acesso universal e contínuo a serviços 
+de saúde de qualidade e resolutivos, caracterizados 
+como a porta de entrada única do sistema de saúde.
+(C)	 Caracteriza-se por um conjunto de ações de saúde, 
+no âmbito individual e coletivo, que abrangem a promoção e a proteção da saúde, a prevenção de agravos, o diagnóstico, o tratamento, a reabilitação e a 
+manutenção da saúde.
+(D)	 Deve valorizar os diversos saberes e as diversas 
+práticas na perspectiva de uma abordagem integral, 
+desde que estejam validados em estudos e devidamente publicados em literatura científica.
+75.	Fundamentado na Política Nacional de Humanização (PNH), o trabalho transdisciplinar, que envolve um 
+conhecimento orientado por um sentido comum e que 
+atravessa as várias práticas profissionais, é um potente 
+meio de modificação dessas práticas centradas nas 
+doenças e em procedimentos e tarefas que não abordam 
+o ser humano de modo integral, no sentido de vê-lo como 
+um todo e não somente dividido em partes. O Prontuário 
+Transdisciplinar na saúde estimula e fortalece o trabalho 
+em equipe.
+Assinale a alternativa que apresenta corretamente um 
+objetivo do Prontuário referido.
+(A)	 Estimular a transdisciplinaridade para seguir as 
+diretrizes da PNH, em detrimento da qualidade da 
+assistência.
+(B)	 Melhorar a comunicação e a integração entre os 
+vários profissionais que assistem os usuários, estimulando a transdisciplinaridade.
+(C)	 Facilitar o acesso a informações aos membros da 
+equipe sobre os usuários que, individualmente, 
+devem permitir que seus dados sejam incluídos no 
+protocolo referido.
+(D)	 Otimizar etapas do processo de cuidado proporcionando possibilidade de aumentar o número de usuários assistidos.
+76.	Periodicamente, há grandes eventos que fazem parte do 
+calendário de algumas cidades, sejam referentes a negócios de determinados ramos econômicos ou a megaespetáculos, cuja organização exige variadas operações para 
+a recepção de públicos numerosos, com o máximo de 
+segurança possível. Porém, nesse processo de trabalho 
+que envolve trabalho em altura, carregamento de material, movimentação de cargas e grandes estruturas, em 
+contextos de premência de prazos exíguos com equipes 
+temporárias e reduzidas, a segurança dos trabalhadores, 
+frequentemente, é negligenciada e não é rara a ocorrência de acidentes de diferentes níveis de gravidade.
+Assinale a alternativa correta sobre essas questões 
+levantadas.
+(A)	 As ações de vigilância e fiscalização das condições de 
+trabalho descritas no enunciado devem focar nas atividades que exigem força física, deixando em segundo 
+plano as questões de organização do trabalho.
+(B)	 O serviço de atendimento deve realizar a notificação 
+no SINAN se o acidente de trabalho envolver trabalhador formal, se for grave e demandar afastamento 
+superior a 15 dias.
+(C)	 A participação da Saúde nas ações intersetoriais 
+visando à segurança dos trabalhadores faz parte da 
+identificação das atividades produtivas da população 
+trabalhadora e das situações de risco à saúde dos 
+trabalhadores no território.
+(D)	 O papel mais importante da Saúde nesse processo 
+descrito é o da atenção aos acidentados, que devem 
+ser assistidos pelo SUS, segundo suas necessidades clínicas, e prestação de informações sobre direitos previdenciários.
+77.	O SUS traz como um dos seus pontos principais a democratização e a descentralização do poder para os municípios. Para que isso pudesse acontecer, os conselhos 
+tripartites foram implementados – com a participação de 
+trabalhadores da saúde, gestores e usuários das três 
+instâncias de governo (federal, estadual e municipal) – e 
+paritários – com os representantes em pé de igualdade. 
+Foi a partir dessa forma de organização que se tornaram 
+efetivos os Conselhos Nacional, Estaduais, Municipais 
+e as Conferências de Saúde, permitindo, então, que a 
+participação e o controle popular pudessem crescer cada 
+vez mais. A despeito dessa estrutura, favorecendo a 
+participação conjunta na construção do cuidado, há problemas importantes a serem vencidos para que se torne 
+realidade.
+Assinale a alternativa que apresenta um desses problemas a ser vencido.
+(A)	 A disputa entre trabalhadores da saúde e usuários 
+no envolvimento da gestão participativa.
+(B)	 O modo de organização do processo de trabalho a 
+partir do saber das profissões e das categorias e não 
+pelos objetivos comuns.
+(C)	 A inclusão de representantes do poder legislativo 
+como membros dos conselhos de saúde.
+(D)	 A alta escolaridade de alguns representantes de segmentos sociais.
+78.	Uma garota de 16 anos de idade sai da escola por volta 
+das 22 horas e toma o caminho de sua casa. Volta a pé. 
+Repentinamente, se vê defronte de um homem que a 
+coloca sob a mira de um revólver, obrigando-a a entregar-lhe o celular. Depois desse episódio, com muito medo, 
+ela corre para casa e demora para dormir, ainda sob o 
+efeito do que havia passado. No dia seguinte, segue sua 
+rotina de trabalho durante o dia e de escola à noite. Após 
+12 dias, acorda no meio da noite, assustada com a sensação de que estava passando novamente pela mesma 
+situação do assalto. Passa a sonhar repetidamente, 
+acordando assustada com a mesma sensação que tivera 
+durante o assalto. Como dorme mal, durante o dia, sente 
+sono e cansaço. Procura a UBS perto de sua casa, cuja 
+equipe faz uma hipótese diagnóstica e a encaminha a 
+uma psicóloga para avaliação.
+Assinale a alternativa correta.
+(A)	 Trata-se de transtorno de estresse pós-traumático, e 
+a paciente deveria ter sido orientada a esperar uma 
+semana, pois se trata de um agravo transitório.
+(B)	 O quadro é sugestivo de transtorno do pânico, 
+e ela deve iniciar imediatamente um tratamento 
+psicoterápico.
+(C)	 O quadro é sugestivo de reagudização de ansiedade, 
+e a paciente deve iniciar tratamento medicamentoso 
+imediatamente.
+(D)	 O quadro é sugestivo de transtorno de estresse 
+pós-traumático, e a equipe fez o encaminhamento 
+correto.
+79.	Em uma cidade, no passado, havia uma empresa química na qual muitas pessoas trabalhara. Um grupo de 
+pesquisadores de um hospital de referência para casos 
+oncológicos resolve estudar a associação entre câncer 
+de fígado e a exposição a uma substância Y, que fazia 
+parte do processo produtivo dessa empresa. A equipe 
+tem verba bastante restrita.
+Com base nessas informações, assinale a alternativa 
+correta.
+(A)	 Um estudo caso-controle permitiria atingir o objetivo 
+dos pesquisadores.
+(B)	 O único estudo possível é o de coorte nesse caso.
+(C)	 O ideal seria a realização de um estudo ecológico.
+(D)	 O cálculo de coeficiente de mortalidade pelo câncer 
+de fígado na população seria uma opção para atingir 
+o objetivo dos pesquisadores.
+80.	Assinale a alternativa que apresenta a conduta correta de 
+uma pessoa que encontra um macaco morto.
+(A)	 É importante que a pessoa tente verificar se o 
+macaco teve morte em decorrência de um evento 
+traumático, como, por exemplo, um atropelamento.
+(B)	 Uma conduta correta é informar imediatamente às 
+autoridades de saúde do município, pois se trata de 
+uma epizootia.
+(C)	 A conduta correta é levar o macaco até a UBS mais 
+próxima.
+(D)	 Se for uma região onde há febre amarela, deve-se 
+enterrar imediatamente o animal antes que seu corpo 
+se deteriore.
+81.	 Em um adulto com alterações cognitivas, como desorientação, déficit de atenção e comprometimento da memória, 
+o diagnóstico diferencial entre demência e deficiência intelectual deve ser estabelecido. 
+Considerando esse contexto, assinale a alternativa que 
+apresenta a principal diferença entre esses dois quadros.
+(A)	 Ambas as condições são transtornos do neurodesenvolvimento que afetam pessoas idosas acima de 
+55 anos.
+(B)	 A deficiência intelectual é progressiva, enquanto a 
+demência apresenta curso estável.
+(C)	 A demência é uma condição presente desde o nascimento, enquanto a deficiência intelectual surge após 
+a idade adulta.
+(D)	 A demência envolve a perda de habilidades previamente adquiridas, enquanto a deficiência intelectual 
+caracteriza-se por limitações no desenvolvimento 
+desde a infância.
+82.	Assinale a alternativa que indica corretamente os sinais 
+e sintomas clínicos que podem ser observados para respaldar, durante a avaliação emergencial de um caso, 
+a hipótese de suspeita de intoxicação ou overdose por 
+cocaína.
+(A)	 Bradicardia e hipotensão arterial.
+(B)	 Midríase ou irritabilidade.
+(C)	 Mutismo e estereotipias dos membros superiores.
+(D)	 Tremores grosseiros com roda denteada e alucinações visuais com pequenos animais.
+83.	Um menino de 4 anos, previamente saudável, apresenta 
+febre alta (39,5 ºC), há 2 dias, acompanhada de tosse e 
+prostração. Foi hospitalizado com diagnóstico de pneumonia bacteriana e iniciou o tratamento com antibiótico 
+intravenoso. No segundo dia de internação, começou 
+a ficar agitado, gritando e falando de forma desconexa, 
+muito assustado, pois “via monstros no quarto” e apresentava dificuldade para manter atenção. Passou bastante inquieto a noite toda, por vezes, chutando a mãe 
+que cuidava dele. Foram descartadas causas neurológicas com tomografia e exames laboratoriais. 
+Em termos de diagnóstico psiquiátrico, as alterações 
+comportamentais desse quadro clínico podem ser descritas como um caso de
+(A)	 delirium.
+(B)	 psicose infantil.
+(C)	 transtorno do espectro autista.
+(D)	 transtorno opositor desafiador.
+84.	Durante a avaliação pré-operatória de uma cirurgia para 
+correção do desvio de septo nasal, um paciente de 29 
+anos, previamente hígido, revelou estar em uso do medicamento naltrexona há seis semanas. Trata-se de um 
+antagonista de receptores de opioide, utilizado no controle de abuso de álcool. Está programada a aplicação de 
+anestesia geral para o procedimento. 
+Nesse contexto, qual a recomendação clínica adequada?
+(A)	 Aumentar a dose de naltrexona para potencializar os 
+efeitos de analgesia durante a cirurgia.
+(B)	 Manter o uso de naltrexona, com recomendação de 
+abstinência total de álcool.
+(C)	 Substituir o naltrexona por um outro antagonista de 
+opioides, como a naloxona.
+(D)	 Suspender o uso de naltrexona, por 3 ou mais dias, 
+antes do procedimento e proibir o consumo de álcool.
+85.	Diversas condições médicas tais como cardiopatias, 
+enxaquecas e quadros reumáticos apresentam comorbidade com transtornos depressivos. 
+Assinale a classe de medicamentos indicada como primeira linha no tratamento da depressão maior unipolar.
+(A)	 Antipsicóticos atípicos.
+(B)	 Benzodiazepínicos.
+(C)	 Estabilizadores de humor.
+(D)	 Inibidores seletivos da recaptação de serotonina.
+86.	Qual característica distingue a depressão puerperal dos 
+quadros depressivos fora do período de pós-parto?
+(A)	 Baixa serotonina sérica em amostra sanguínea da 
+artéria placentária.
+(B)	 Alucinações auditivas envolvendo choro persistente 
+do bebê.
+(C)	 Comprometimento da relação mãe-bebê, com sentimento de incapacidade e medo de prejudicar ou 
+agredir o bebê.
+(D)	 Histórico familiar e pessoal de depressão e tentativa 
+de suicídio.
+87.	Assinale a alternativa que inclui os transtornos psiquiátricos prevalentes nos Centros de Atenção Primária, os 
+chamados “transtornos mentais comuns”.
+(A)	 Ansiedade, depressão e somatização.
+(B)	 Transtorno bipolar e esquizofrenia.
+(C)	 Transtorno de personalidade e transtorno de sintomas neurológicos funcionais.
+(D)	 Transtorno de déficit de atenção e hiperatividade e 
+transtorno obsessivo-compulsivo.
+88.	Uma estudante de Nutrição, de 23 anos, procurou consulta com médico clínico devido a episódios recorrentes 
+de sangramento intestinal baixo. A paciente apresentava peso de 55 kg e altura de 1,60 m (índice de massa 
+corpórea de 21 kg/m²), com hemoglobina de 6,9 g/dL e 
+hematócrito de 20%. O médico prescreveu uma bolsa 
+de concentrado de hemácias de 250 mL, por via intravenosa, para corrigir o grave quadro anêmico. Durante as 
+interações, a paciente relatou que costuma tomar vários 
+laxantes como a simeticona, pelo menos três vezes ao 
+dia, por medo de ganhar peso. De fato, o uso frequente 
+dessa substância provocou alterações significativas no 
+hábito intestinal, com aumento da frequência evacuatória e episódios de sangramento. Ela costuma armazenar várias caixas de simeticona em seu quarto, sentindo 
+vergonha de que os familiares descubram. Em relação 
+aos hábitos alimentares, relata episódios de comer rapidamente grande quantidade de alimento, 2 vezes por 
+semana, alternados com períodos de jejum total, prática 
+de atividade física intensa e uso de laxantes como forma 
+de compensação pelo possível ganho de peso. 
+Com base no exposto, qual transtorno alimentar melhor 
+descreve esse quadro clínico?
+(A)	 Anorexia nervosa.
+(B)	 Bulimia nervosa.
+(C)	 Transtorno de compulsão alimentar.
+(D)	 Transtorno de evitação/restrição da ingestão de 
+alimentos.
+89.	Uma senhora de 79 anos, recentemente viúva e vivendo 
+isolada dos vizinhos e filhos, trouxe o tema da morte 
+durante uma consulta no posto de saúde. Ela diz que não 
+vê mais sentido em continuar viva, nada lhe satisfaz e 
+tem vontade de chorar durante a maior parte do dia. Já 
+está em tratamento para depressão, há 5 meses, mas 
+ainda sem resposta satisfatória. Ela também relata que 
+não consegue tirar da cabeça a ideia de tomar veneno ou 
+se enforcar em casa, acreditando que isso seria um alívio 
+para seu sofrimento. 
+Considerando a organização dos serviços na comunidade, qual seria a conduta apropriada para esse caso?
+(A)	 Encaminhar para uma internação hospitalar imediatamente.
+(B)	 Dispensar a paciente e enviar um agente comunitário 
+para acompanhar as suas atividades no dia a dia.
+(C)	 Pedir para a paciente continuar o tratamento com o 
+seu médico especialista em data oportuna de retorno.
+(D)	 Transferir a paciente para um serviço de emergência 
+psiquiátrica para avaliação de uma possível internação.
+90.	Qual das seguintes estratégias comunitárias mostra eficácia na prevenção primária do suicídio?
+(A)	 Aumento da fiscalização policial em áreas públicas 
+e proibição da venda de bebidas alcoólicas na comunidade.
+(B)	 Controle de posse de armas de fogo e venda de psicotrópicos e venenos organofosforados.
+(C)	 Distribuição gratuita de medicamentos antidepressivos na comunidade.
+(D)	 Isolamento das pessoas com história de tentativa de 
+suicídio para a segurança da comunidade.
+91.	Considerando-se sedação e analgesia de procedimentos 
+não eletivos, assinale a alternativa correta.
+(A)	 Midazolam tem efeito cardiodepressor importante.
+(B)	 Tempo de início de ação do etomidato é, em geral, 
+de 2 a 5 minutos.
+(C)	 Tempo de ação médio da cetamina é de 30 a 
+60 minutos.
+(D)	 A ocorrência de quadro de hipotensão arterial é 
+frequente quando do uso de fentanil.
+92.	A correta correlação entre causa de diarreia e manifestação clínica está contida na seguinte alternativa:
+(A)	 por Clostridium difficile, pode ocorrer em até seis 
+meses pós-uso de antibióticos.
+(B)	 por Norovírus, tem, em geral, de 3 a 5 dias de período 
+de incubação.
+(C)	 por S. aureus, ocorre por ação direta da bactéria.
+(D)	 por Shigella sp, deve ser tratada preferencialmente, 
+com metronidazol.
+93.	Considerando-se o diagnóstico da morte encefálica, 
+podemos afirmar corretamente que o reflexo
+(A)	 córneo-palpebral refere-se ao mesencéfalo (II aferente/III eferente).
+(B)	 oculomotor refere-se à ponte (V aferente/VII eferente).
+(C)	 óculo-cefálico refere-se ao mesencéfalo e à ponte 
+(VIII aferente/III, IV, VI eferente).
+(D)	 óculo-vestibular refere-se ao bulbo (IX aferente/X eferente).
+94.	KDIGO (The Kidney Disease Improving Global 
+Outcomes) considera o seguinte parâmetro:
+(A)	 relação ureia/creatinina > 40.
+(B)	 redução do débito urinário < 1 mL/kg/hora por um 
+período maior que 6 horas.
+(C)	 elevação absoluta da creatinina ≥ 0,3 mg/dL dentro 
+de 48 horas.
+(D)	 FENa < 1%.
+95.	Considerando-se os quadros de hiperglicemia, assinale a 
+alternativa correta.
+(A)	 A bomba de infusão de insulina pode ser desligada 
+no momento em que o valor do aníon gap esteja 
+≤ 11.
+(B)	 Insulinoterapia pode ser iniciada uma vez que o valor 
+do potássio esteja entre 3.3 e 3.1 mEq/L.
+(C)	 Estado hiperosmolar representa menos do que 1% 
+das internações por diabetes melito.
+(D)	 Cetoacidose diabética é definida por: glicemia 
+> 250 mg/dL, pH > 7.3 e cetonemia positiva.
+96.	Paciente de 64 anos apresenta, há 6 hora, quadro de 
+hemianopsia homônima e hemi-hipoestesia, ambas 
+contralaterais.
+Em face do exposto, a imagem tomográfica deve evidenciar acometimento de território da artéria cerebral
+(A)	 média direita.
+(B)	 média esquerda.
+(C)	 anterior.
+(D)	 posterior.
+97.	Paciente de 42 anos apresenta quadro de meningite. 
+Assim sendo, assinale a alternativa correta.
+(A)	 Todos os contactantes adultos próximos devem 
+receber, profilaticamente, rifampicina 600 mg, 
+12/12 horas, por 2 dias.
+(B)	 Em caso de meningite viral, o isolamento do paciente 
+deverá ser mantido por 24/48 horas.
+(C)	 Em caso de o agente causador ser Neisseria 
+meningitidis, o melhor tratamento será feito com 
+ceftrixone e vancomicina, e o uso de corticoide é 
+seguro e benéfico.
+(D)	 Em caso de o agente causador ser Streptococcus 
+pneumoniae, o melhor tratamento será feito com 
+ceftriaxone, e o uso de corticoide é seguro e benéfico.
+98.	Com relação à capnografia com forma de onda durante 
+as manobras de RCP, é correto afirmar que valores inferiores a
+(A)	 10 mmHg indicam a realização de compressões 
+torácicas adequadas.
+(B)	 20 mmHg se correlacionam a sinais de obstrução de 
+via aérea.
+(C)	 10 mmHg se correlacionam a prognósticos menos 
+favoráveis.
+(D)	 15 mmHg indicam provável quadro de tamponamento cardíaco.
+99.	A sepse deve ter seu tratamento iniciado precocemente, 
+uma vez que contribui na diminuição da mortalidade. 
+Várias escalas são utilizadas para triagem de risco no 
+departamento de emergência. Assim, é correto afirmar 
+que
+(A)	 SIRS ≥ 2 apresenta baixa especificidade e alta sensibilidade para o diagnóstico da sepse.
+(B)	 qSOFA ≥ 2 apresenta baixa sensibilidade, mas alta 
+especificidade para o diagnóstico da sepse, por 
+isso, seu uso deve ser evitado no departamento de 
+emergência.
+(C)	 SOFA apresenta a melhor relação sensibilidade/
+especificidade para o diagnóstico da sepse.
+(D)	 NEWS ≥ 4 apresenta a pior acurácia para o diagnóstico da sepse.
+100.	 Paciente de 18 anos tem quadro de febre há 3 dias associado a cefaleia, prostração, mialgia e dor retro-orbitária. 
+A prova do laço é positiva, não há repercussão hemodinâmica ou qualquer outro sinal de alerta.
+Pode-se afirmar, corretamente, que esse paciente é 
+classificado no grupo
+(A)	 A, com orientação de hidratação, analgesia e acompanhamento ambulatorial.
+(B)	 B, com orientação de hidratação, analgesia e 
+observação na unidade até o resultado de exames 
+complementares.
+(C)	 C, com orientação de hidratação, analgesia e internação em leito de enfermaria por período mínimo 
+de 48 horas.
+(D)	 D, com orientação de hidratação, analgesia e internação em leito de UTI.
+Os rascunhos não serão considerados na correção.
+RASCUNHO
+Os rascunhos não serão considerados na correção.
+RASCUNHO

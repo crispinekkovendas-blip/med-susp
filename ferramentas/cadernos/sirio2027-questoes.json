@@ -1,0 +1,1302 @@
+[
+ {
+  "numero": 1,
+  "enunciado": "Homem de 45 anos com diabetes tipo 2 comparece em consulta de retorno. Relata sentir-se bem e nega quaisquer sintomas. Ele toma regularmente metformina (2 g/dia) e ramipril (10 mg/dia). Ao exame físico: pressão arterial:122 x 78 mmHg; frequência cardíaca: 78 bpm; peso: 76 kg; altura: 182 cm. Exames séricos atuais: ureia: 58,9 mg/dL; creatinina: 1,92 mg/dL (taxa de filtração glomerular estimada:41 mL/min/1,73 m2); hemoglobina glicada (HbA1c): 6,7%. Relação albumina/creatinina urinária: 1.361 mg/g (normal: < 22). Para esse paciente, a conduta de escolha é associar:",
+  "alternativas": [
+   "empagliflozina.",
+   "liraglutida.",
+   "repaglinida.",
+   "rosiglitazona.",
+   "sitagliptina."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 2,
+  "enunciado": "Homem de 67 anos de idade apresenta quadro progressivo de 5 dias consistindo de sudorese, náuseas, vômitos e fraqueza muscular. Não há febre, tosse, diarreia ou sintomas urinários. Há duas semanas, ele teve erisipela no membro inferior direito e tomou durante 7 dias cefalexina, dipirona e nimesulida. O antecedente também é relevante para diabetes tipo 2, hipertensão arterial e doença renal crônica (creatinina do mês anterior: 1,9 mg/dL). As medicações de uso contínuo são: enalapril, anlodipino, aspirina em baixa dose, atorvastatina, dapaglifozina e insulinas glargina e asparte. Ao exame físico: frequência cardíaca: 76 bpm; pressão arterial: 102 × 55 mmHg; pulmonar: crepitações inspiratórias em 1/3 inferior bilateralmente; extremidades inferiores com edema simétrico 2+/4, sem sinais infecciosos. Glicemia capilar: 312 mg/dL. O paciente está monitorado, dois acessos venosos foram canulados, e amostras de sangue foram enviadas ao laboratório. O ECG realizado apresenta-se a seguir: Constitui a próxima medida de maior relevância:",
+  "alternativas": [
+   "amiodarona intravenosa.",
+   "cardioversão elétrica sincronizada com 100 joules.",
+   "aspirina, clopidogrel, heparina e tenecteplase.",
+   "angioplastia coronariana percutânea primária (CATE).",
+   "gluconato de cálcio a 10% intravenoso. (Arquivo pessoal; imagem usada com autorização)"
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 3,
+  "enunciado": "Homem de 68 anos, com cirrose pelo vírus da hepatite C crônica (Child-Pugh B), é admitido no departamento de emergência com história de declínio cognitivo progressivo, letargia e distensão abdominal dolorosa há dois dias. Não há hematêmese, melena, constipação ou uso de novos medicamentos. Glicemia capilar normal. Ao exame físico: sonolento; desorientado no tempo e no espaço; asterixe bilateral (flapping); pressão arterial: 112 x 64 mmHg; frequência cardíaca: 104 bpm; frequência respiratória: 24 irpm; temperatura: 37,6 oC; abdome globoso; sinal da macicez móvel positivo; leve dor à palpação difusa, sem sinais de peritonite. Escore NEWS: 6 pontos. Com base nas diretrizes 2026 de sepse (Surviving Sepsis Campaign), é correto afirmar:",
+  "alternativas": [
+   "a classificação diagnóstica estruturada define a condição como sepse definitiva devido à concomitância de disfunção orgânica aguda e febre aferida.",
+   "a estratégia de ressuscitação volêmica deve objetivar a normalização rápida dos níveis de lactato como meta terapêutica principal nas primeiras horas.",
+   "a conduta inicial preconiza a realização de propedêutica rápida para avaliar causas infecciosas e não infecciosas antes de instituir antimicrobianos.",
+   "o cenário clínico impõe a administração de terapia antimicrobiana na primeira hora de atendimento por se tratar de sepse provável estabelecida.",
+   "o manejo inicial exige a infusão imediata de volume cristaloide na dose de trinta mililitros por quilo, dentro do intervalo de uma hora."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 4,
+  "enunciado": "Mulher de 68 anos de idade evolui com com quadro de dispneia de início agudo, ortopneia e tosse com expectoração de aspecto espumoso e róseo. Ao exame físico: a paciente encontra-se agitada, sudorética, cianótica e com uso evidente de musculatura acessória; frequência respiratória: 36 irpm; SatO2 em ar ambiente: 85%; pressão arterial: 232 x 131 mmHg em ambos os membros superiores; frequência cardíaca: 118 bpm; ausculta pulmonar: estertores crepitantes difusos até os ápices bilateralmente; cardíaco: ritmo de galope pela presença de terceira bulha (B3). Eletrocardiograma: taquicardia sinusal e sinais de sobrecarga ventricular esquerda, sem sinais de isquemia. Considerando a principal hipótese diagnóstica, é correto afirmar:",
+  "alternativas": [
+   "a hidralazina apresenta benefício na atual circunstância, considerando sua ação vasodilatadora que diminui o trabalho cardíaco, sem aumentar a frequência cardíaca de maneira indesejada durante a estabilização hemodinâmica inicial dessa paciente.",
+   "o manejo inicial para essa paciente estabelece como meta terapêutica prioritária a redução da pressão arterial sistólica para níveis inferiores a 140 mmHg, logo na primeira hora, visando aliviar a sobrecarga ventricular esquerda aguda.",
+   "o nitroprussiato deve ser evitado nessa situação específica, visto que seu mecanismo de ação resulta na redução acentuada da pós-carga e piora do fluxo coronariano, podendo agravar a isquemia miocárdica.",
+   "o tratamento nessa situação preconiza o uso de labetalol, que age promovendo bloqueio simpático e redução do inotropismo cardíaco, fatores primordiais para o alívio da congestão pulmonar e melhora da saturação sistêmica periférica.",
+   "o suporte ventilatório não invasivo, por meio de pressão positiva contínua nas vias aéreas, representa uma medida adjuvante valiosa capaz de auxiliar principalmente na redução da isquemia subendocárdica e no infarto do miocárdio."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 5,
+  "enunciado": "Homem de 64 anos de idade com histórico médico de hipertensão, hiperlipidemia, doença vascular periférica, diabetes tipo 2 e doença renal crônica com diálise iniciada há 3 semanas apresenta secreção purulenta proveniente de um cateter implantado na veia jugular interna direita. Ele apresenta febre há dois dias; a pressão arterial é de 95 × 40 mmHg; a contagem de leucócitos no sangue é de 24.000/mm3. O Gram da secreção purulenta do cateter mostra bastões Gram negativos e ausência de bactérias Gram positivas; amostras são enviadas para culturas. Culturas anteriores, realizadas no momento de sua amputação, há 2 meses, revelaram Enterobacteriaceae beta-lactamase de espectro estendido (ESBL). Nesse paciente, a antibioticoterapia inicial recomendada é",
+  "alternativas": [
+   "ampicilina/sulbactam.",
+   "cefepima.",
+   "ceftriaxona/oxacilina.",
+   "meropenem.",
+   "piperacilina/tazobactam."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 6,
+  "enunciado": "Mulher de 68 anos é admitida no departamento de emergência com quadro de febre alta, tosse produtiva e dispneia progressiva nos últimos três dias. O antecedente é relevante para miastenia grave, em acompanhamento ambulatorial irregular. Na sala de emergência, a paciente apresenta-se torporosa, com respiração paradoxal e uso franco de musculatura acessória; pressão arterial: 75 x 40 mmHg; frequência cardíaca: 132 bpm; frequência respiratória: 38 irpm; temperatura: 39,4 oC; SatO2 em ar ambiente: 82%; ausculta pulmonar: estertores crepitantes bilaterais grosseiros. Lactato arterial beira-leito é de 5,8 mmol/L (normal: até 2,0). A intubação orotraqueal é indicada. Nessa circunstância, é correto afirmar:",
+  "alternativas": [
+   "a cetamina constitui uma opção viável para a terapia de indução nesse cenário clínico de sepse, devendo ser empregada na dosagem de um miligrama por quilograma, pois apresenta perfil cardiovascular superior e menor incidência de colapso circulatório comparada ao propofol.",
+   "a succinilcolina possui indicação restrita nessa paciente devido à patologia neuromuscular de base, visto que a despolarização da placa motora miastênica promove liberação maciça de potássio intracelular, culminando em arritmias ventriculares refratárias e quadro de parada cardíaca letal quase imediata.",
+   "o etomidato apresenta restrição clínica nesse quadro de choque séptico, pois a inibição enzimática irreversível da 11-beta-hidroxilase induz uma crise adrenal aguda e eleva as taxas de mortalidade de curto prazo nas unidades de terapia intensiva segundo estudos recentes.",
+   "o midazolam administrado em doses habituais de indução atua como a melhor alternativa medicamentosa para o controle hemodinâmico, preservando o débito cardíaco por meio da liberação simpática secundária e protegendo os órgãos nobres contra os efeitos deletérios da hipóxia tecidual.",
+   "o rocurônio deve ser prescrito em doses maiores (dois miligramas por quilograma) para garantir o bloqueio neuromuscular efetivo, uma vez que a terapia contínua com inibidores da colinesterase gera competição acentuada e reduz a eficácia dos agentes não despolarizantes."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 7,
+  "enunciado": "Homem de 28 anos procura a unidade de saúde para consulta ambulatorial. Ele é assintomático. Não há disfagia, rouquidão, dispneia, perda de peso, antecedente de irradiação cervical na infância ou histórico familiar de doenças tireoidianas. Durante a consulta, embora o exame físico cervical não revele alterações, ele traz exames feitos por conta própria. Os hormônios tireoidianos são normais e a ultrassonografia demonstra os seguintes achados: – \u0007Lobo direito: presença de um nódulo de 2,5 cm, isoecoico, com margens bem definidas, cuja arquitetura é caracterizada por múltiplas áreas microcísticas agregadas, ocupando mais de 50% do volume total da lesão (aspecto espongiforme). Ausência de calcificações ou fluxo central ao Doppler. – \u0007Lobo esquerdo: presença de um nódulo sólido de 1,2 cm, acentuadamente hipoecoico (mais escuro que a musculatura pré-tireoidiana), com margens irregulares, diâmetro anteroposterior maior que o transversal (formato mais alto que largo) e focos ecogênicos puntiformes (microcalcificações). Com relação ao caso descrito, é correto afirmar:",
+  "alternativas": [
+   "a abordagem diagnóstica inicial para o nódulo sólido suspeito deve consistir em uma biópsia por agulha grossa (core biopsy), por fornecer melhor avaliação da arquitetura tecidual em comparação à punção por agulha fina tradicional.",
+   "a combinação de formato mais alto que largo e focos ecogênicos puntiformes no nódulo menor confere um elevado risco estimado de malignidade, justificando a necessidade de avaliação citológica direcionada para essa alteração estrutural específica.",
+   "ambos os nódulos apresentam critérios volumétricos suficientes para avaliação citológica, necessitando de punção aspirativa para estabelecer um diagnóstico tecidual definitivo antes de um possível planejamento cirúrgico.",
+   "o paciente demanda uma cintilografia com radioiodo para determinar o status funcional do nódulo sólido de 1,2 cm, dado que essa modalidade de imagem representa o método mais acurado para selecionar lesões para análise citológica.",
+   "o tamanho absoluto do nódulo de 2,5 cm no lobo direito representa a indicação principal para a realização da punção, enquanto o nódulo menor de 1,2 cm possui dimensões insuficientes para a investigação citológica imediata."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 8,
+  "enunciado": "Homem de 31 anos procura o serviço de emergência com história de 5 dias de febre alta, calafrios, mialgia intensa com predomínio na região lombar, cefaleia e dor abdominal difusa. Há doze horas, evolui com o aparecimento de tosse seca e dispneia rapidamente progressiva. Ele não tem comorbidades e não há tabagismo, etilismo ou uso de medicamentos. Ele é engenheiro agrônomo, atuante no manejo e na limpeza de silos de armazenamento de grãos no interior do estado de São Paulo. Ao exame físico: apresenta-se taquipneico, hipotenso e hipoxêmico, necessitando de intubação orotraqueal. Os exames séricos iniciais mostram: leucocitose importante com desvio à esquerda, com presença de linfócitos reativos (imunoblastos) correspondendo a 13% da série linfoide; plaquetas: 38.000/mm3; hematócrito: 53%; ureia: 78 mg/dL; creatinina: 1,9 mg/dL; desidrogenase lática: 920 U/L; albumina sérica: 2,3 g/dL. A radiografia de tórax evidencia infiltrado interstício-alveolar bilateral difuso simétrico com área cardíaca normal. Considerando a principal hipótese diagnóstica, assinale a alternativa correta.",
+  "alternativas": [
+   "A febre amarela grave manifesta-se como diagnóstico diferencial respiratório, visto que o vírus amarílico causa lesão alveolar difusa primária por citotoxicidade nos pneumócitos, demandando reposição de complexo protrombínico e infusão de corticoides por via parenteral.",
+   "A febre maculosa brasileira configura-se como diagnóstico diferencial que cursa com infiltrado intersticial simétrico precoce e edema pulmonar não cardiogênico no terceiro dia, sendo tratada com doxiciclina como primeira escolha terapêutica.",
+   "A insuficiência renal aguda observada nessa apresentação grave da doença decorre de necrose tubular aguda oligúrica hipercalêmica severa precoce, mimetizando a nefropatia por bactérias gram-negativas, com necessidade de hemodiálise precoce.",
+   "O extravasamento capilar difuso decorre de alterações funcionais endoteliais induzidas por citocinas e integrinas, o que justifica a hemoconcentração e a hipoalbuminemia, respaldando a instituição precoce de suporte inotrópico, em detrimento de grandes expansões volêmicas.",
+   "O emprego de imunoglobulina humana intravenosa inespecífica padrão em doses imunomoduladoras funciona como terapia de escolha para neutralizar a carga microbiológica circulante e reverter a plaquetopenia decorrente da ativação endotelial microvascular sistêmica."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 9,
+  "enunciado": "Homem de 42 anos é atendido na Unidade Básica de Saúde com o relato que, nos últimos seis meses, vem sentindo episódios progressivos de formigamento e dormência espraiadas na borda lateral do antebraço e no 5o dedo da mão direita, sem o surgimento de manchas na pele. Ele é trabalhador da construção civil e não tem comorbidades. A sua esposa foi tratada de hanseníase multibacilar há dois anos. Ao exame dermatoneurológico: não são visualizadas lesões cutâneas maculares, pápulas ou infiltrações em nenhuma região do corpo; a palpação do nervo ulnar direito revela espessamento focal e discreta hipersensibilidade dolorosa local; o teste de sensibilidade tátil com estesiômetro (monofilamentos) demonstra perda da sensibilidade protetora na região hipotenar e no quinto dedo da mão direita (o paciente não percebe o toque do monofilamento de 2 g); a força muscular para a abdução do quinto dedo e para a extensão do punho encontra-se totalmente preservada. A baciloscopia direta por raspado intradérmico nos lóbulos auriculares e cotovelos é realizada, resultando em índice baciloscópico igual a zero. É correto afirmar, com relação a esse paciente:",
+  "alternativas": [
+   "a aplicação do teste rápido imunocromatográfico para detecção de anticorpos IgG contra o antígeno PGL-1 possui indicação aprovada no Sistema Único de Saúde para a investigação de contatos na Atenção Primária.",
+   "a avaliação da sensibilidade cutânea na suspeita de hanseníase estabelece uma ordem cronológica de perda funcional em que a sensibilidade tátil é comprometida inicialmente, seguida pela perda das sensibilidades térmica e dolorosa.",
+   "o caso atende aos critérios para a definição clínica de hanseníase devido à presença de espessamento de nervo periférico associado a alterações sensitivas, mesmo diante de um resultado de baciloscopia negativo.",
+   "o Sistema Único de Saúde preconiza a realização do teste molecular qualitativo de qPCR em amostras obtidas por raspado intradérmico para a triagem inicial de contatos no âmbito da atenção primária.",
+   "o teste de lepromina com leitura da reação tardia de Mitsuda aos 21 dias é indicado para confirmar a presença de infecção ativa pelo Mycobacterium leprae no paciente, correlacionando-se de forma direta com o nível de exposição ambiental ao bacilo."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 10,
+  "enunciado": "Homem de 52 anos assintomático é atendido em consulta de rotina. Nega fadiga, dor abdominal, icterícia ou sangramento. Ele tem diabetes mellitus tipo 2, hipertensão arterial e dislipidemia, em tratamento com losartana, metformina, gliclazida e atorvastatina. Não há uso de álcool, medicações hepatotóxicas ou fitoterápicos. Ao exame físico: sinais vitais normais; peso: 102 kg; altura: 168 cm; circunferência abdominal: 112 cm; abdome: normal; extremidades sem edema; o restante não é contributivo. Exames séricos atuais: hemoglobina glicada (HbA1c): 7,8%; hemograma completo normal; AST (TGO): 40 U/L; ALT (TGP): 64 U/L; fosfatase alcalina: 85 U/L; GGT: 52 U/L; bilirrubinas totais: 0,8 mg/dL; albumina: 4,2 g/dL; coagulograma normal. Sorologias virais negativas. Escore FIB-4 do paciente: 1,62 (risco intermediário). Assinale a alternativa correta quanto a esse paciente.",
+  "alternativas": [
+   "A tomografia abdominal com fase venosa de contraste constitui o exame recomendado a esse paciente, para o diagnóstico de esteatose metabólica e quantificação de fibrose, aumentando a acurácia dos marcadores séricos na definição da conduta clínica perante a síndrome metabólica documentada.",
+   "O algoritmo diagnóstico baseado no escore FIB-4 incorpora a dosagem sérica da gama-GT e da fosfatase alcalina, fornecendo uma estimativa precisa da atividade necroinflamatória aguda no parênquima hepático e da permeabilidade do sistema biliar periférico.",
+   "O cálculo de estratificação de risco hepático adotado pelas diretrizes incorpora os níveis de albumina plasmática e o tempo de protrombina para compor o resultado final, traduzindo fielmente a capacidade de síntese proteica celular e a sua respectiva sobrevida sistêmica.",
+   "O exame de ultrassonografia convencional em modo B possui alta sensibilidade para quantificar a rigidez do parênquima e diagnosticar fibrose em graus iniciais, sendo o método definitivo para substituir elastografias complexas em pacientes com acúmulo de tecido adiposo visceral.",
+   "Os métodos elastográficos para avaliação da rigidez hepática fornecem dados estruturais valiosos desse paciente com FIB-4 intermediário, permitindo confirmar a ausência de fibrose significativa ou sustentar a necessidade de uma avaliação anatomopatológica por biópsia tecidual confirmatória."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 11,
+  "enunciado": "Homem de 48 anos de idade é atendido em consulta de retorno. Ele tem antecedente de obesidade central, hipertensão arterial, dislipidemia e diabetes mellitus tipo 2, em uso de enalapril (40 mg/dia), anlodipino (10 mg/dia), metformina (2g/ dia), dapaglifozina (10 mg/dia) e rosuvastatina (40 mg/dia). Nega etilismo, tabagismo ou uso de drogas. O histórico familiar de 1o grau é positivo para diabetes, infarto do miocárdio, cirrose hepática sem causa aparente e câncer de cólon. Os exames séricos atuais revelam hemograma completo normal, ferritina de 750 ng/mL (normal: até 300) e saturação de transferrina de 37% (valor de referência: < 45%). A ressonância magnética hepática estima a concentração de ferro hepático em 1,1 mg/g de peso seco, indicando ausência de deposição tecidual excessiva. Considerando a principal hipótese diagnóstica, é correto afirmar:",
+  "alternativas": [
+   "a elevação da ferritina no paciente atua como um reagente de fase aguda secundário ao quadro inflamatório crônico da síndrome metabólica, enquanto a saturação de transferrina inferior a 45% aponta confiavelmente para a inexistência de acúmulo excessivo de ferro no organismo.",
+   "a realização do sequenciamento genético fornece dados valiosos sobre a suscetibilidade a desenvolver acúmulo de ferro no futuro, facilitando o aconselhamento adequado do paciente e a programação de um acompanhamento focado em eventuais alterações dos estoques corporais com o envelhecimento.",
+   "a associação de diabetes e hipertensão determina que a ferritina elevada seja uma consequência direta de intensa deposição de ferro no tecido hepático, tornando o teste genético uma ferramenta de menor relevância na abordagem diagnóstica de pacientes obesos.",
+   "a biópsia do fígado torna-se a etapa importante na presente investigação clínica para quantificar o ferro tecidual com exatidão e determinar o defeito genético causador da elevação da ferritina observada nos exames bioquímicos do sangue do paciente atendido no ambulatório.",
+   "o paciente precisa ser orientado a aderir a uma dieta com restrição de ferro, cortando o consumo de carnes vermelhas e de vitamina C, dado que a modificação dos hábitos alimentares figura como a principal medida profilática estrutural para normalizar a ferritina no sangue."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 12,
+  "enunciado": "Mulher de 61 anos, com asma brônquica, apresenta tosse progressiva com expectoração de tampões mucosos (plugs) acastanhados e dispneia intermitente, apesar da terapia regular com inalação de corticosteroide e agonista β2 de longa ação. A paciente relata febre baixa, apesar de estar afebril no momento. Ausculta pulmonar: sibilância bilateral e roncos ocasionais. A espirometria revela (% do previsto): VEF1: 45%; CVF: 81%; VEF1/CVF: 56%. Valores após inalação de broncodilatador (% do previsto): VEF1: 55%; CVF: 81%; VEF1/ CVF: 58%. A concentração de óxido nítrico exalado é de 56 ppb (normal: < 25). Exames séricos: leucograma: 8.800/mm3 (64% de neutrófilos; 6% de eosinófilos; 12% de linfócitos); proteína C reativa: 2,3 mg/dL (normal: < 1,0). A radiografia e tomografia realizadas são apresentadas a seguir: (Arquivo pessoal; imagem usada com autorização) (Arquivo pessoal; imagem usada com autorização) Considerando o exposto e a principal hipótese diagnóstica, a conduta adequada é",
+  "alternativas": [
+   "iniciar omalizumabe.",
+   "indicar uma biópsia transbrônquica.",
+   "pedir uma broncoscopia com lavado broncoalveolar.",
+   "prescrever ceftriaxona e claritromicina.",
+   "solicitar exames adicionais de sangue e escarro."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 13,
+  "enunciado": "Homem de 68 anos é admitido na unidade de terapia intensiva com quadro de pneumonia adquirida na comunidade grave que evolui para síndrome do desconforto respiratório agudo (ARDS). Ele está intubado, em ventilação mecânica no modo pressão controlada (PCV), com as seguintes configurações do ventilador e parâmetros do paciente: pressão inspiratória: 15 cmH2O; PEEP: 10 cmH2O; pressão de pico: 25 cmH2O; frequência respiratória: 24 irpm; tempo inspiratório: 1,0 segundo; fração inspirada de oxigênio: 70%; volume corrente exalado: 380 mL (~5,5 mL/kg do peso ideal). A gasometria arterial após 1 hora (estável hemodinamicamente): pH: 7,31; PCO2: 50 mmHg; PO2: 58 mmHg; SatO2: 88%. Apesar da sedação e do bloqueio neuromuscular adequados, a oxigenação do paciente permanece crítica, com risco de hipoxemia tecidual grave e falência de órgãos induzida por hipóxia. Em relação à ventilação mecânica e a abordagens para melhorar a oxigenação do paciente, é correto afirmar:",
+  "alternativas": [
+   "a ventilação de resgate com Heliox (mistura hélio-oxigênio) é indicada para esse paciente com pneumonia alveolar extensa, pois a densidade reduzida do gás aumenta a difusão por meio das secreções exsudativas nas zonas não dependentes dos pulmões.",
+   "o conceito de “PEEP intrínseco” ou “auto-PEEP” não se aplica ou gera risco no modo PCV com prolongamento do tempo inspiratório, uma vez que a pressão no circuito expiratório é passivamente controlada pela válvula exalatória.",
+   "o uso de um padrão de fluxo decrescente (desacelerado), inerente ao modo PCV, é mal tolerado e piora a troca gasosa na ARDS, devendo-se migrar o modo do ventilador para um que forneça padrão de fluxo quadrado constante.",
+   "uma estratégia primária no modo PVC para aumentar a oxigenação é o prolongamento do tempo inspiratório, o que aumenta a pressão média de vias aéreas e recruta alvéolos lentamente preenchíveis, desde que se monitore o risco de auto-PEEP.",
+   "no modo PCV, se a complacência pulmonar do paciente cair abruptamente, o ventilador compensará automaticamente com um aumento da pressão inspiratória de pico, mantendo o volume corrente fixo e garantindo a ventilação alveolar adequada."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 14,
+  "enunciado": "Homem de 68 anos é atendido em consulta para avaliação pré-operatória de uma colectomia eletiva por adenocarcinoma de cólon localizado, sem metástases. Ele tem histórico de hipertensão arterial, diabetes mellitus tipo 2 e cardiopatia isquêmica estável, em uso regular de lisinopril (10 mg/dia), metformina (2 g/dia), metoprolol (100 mg/dia), aspirina (100 mg/dia) e atorvastatina (40 mg/dia). O exame físico é normal, sem sinais de insuficiência cardíaca ou sopros. A capacidade funcional é adequada (caminha 3 km diariamente). Assinale a alternativa correta, onsiderando as diretrizes atuais de avaliação pré-operatória.",
+  "alternativas": [
+   "A aspirina deve ser suspensa 48 horas antes do procedimento cirúrgico, independentemente da indicação clínica, para mitigar o risco de hemorragia perioperatória grave.",
+   "A radiografia de tórax é um exame de rotina necessário para estabelecer um padrão de referência pulmonar em todos os pacientes tabagistas acima de 40 anos, independentemente de sintomas.",
+   "A avaliação funcional por meio do Duke Activity Status Index (DASI) é preferível à estimativa subjetiva do clínico para determinar a capacidade funcional e estratificar o risco cardiovascular pré-operatório.",
+   "O betabloqueador (metoprolol) deve ser suspenso em até 24 horas antes da cirurgia, para prevenir hipotensão ou bradicardia no intraoperatório.",
+   "O uso de inibidores da bomba de prótons deve ser iniciado preventivamente em todo paciente que utiliza aspirina para evitar hemorragia digestiva no período perioperatório."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 15,
+  "enunciado": "Homem de 45 anos queixa-se de obstrução nasal bilateral persistente, diminuição significativa do olfato e sensação de peso facial leve, com duração contínua de oito meses. O paciente relata rinorreia espessa e mucoide, mas nega febre, dor facial severa, dor dentária, epistaxe ou eliminação de secreção francamente purulenta recente. O histórico médico é positivo para asma brônquica leve e rinite intermitente. Ao exame físico: sinais vitais estáveis; a rinoscopia anterior evidencia massas pálidas, translúcidas e bilaterais ocupando os meatos médios, acompanhadas de secreção mucoide clara; oroscopia: não apresenta gotejamento pós-nasal purulento; o exame neurológico e a inspeção periorbitária estão inalterados. Nesse cenário clínico, é correto afirmar:",
+  "alternativas": [
+   "a conduta inicial adequada inclui a lavagem nasal diária de alto volume com solução salina associada à administração contínua de corticosteroides tópicos na mucosa nasal.",
+   "a realização de tomografia computadorizada dos seios da face é indicada antes da terapia clínica para avaliar complicações agudas subjacentes.",
+   "a administração de anti-histamínicos orais de segunda geração atua como a base do tratamento para promover a regressão do tecido polipoide e restaurar o olfato.",
+   "um agente biológico inibidor de interleucina deve ser a primeira medida instituída, antes de tentar outras modalidades terapêuticas farmacológicas locais habituais.",
+   "o tratamento com amoxicilina/clavulanato por 10 dias é recomendado para erradicar patógenos bacterianos ocultos que mantêm o edema da mucosa nasal."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 16,
+  "enunciado": "Homem de 48 anos, pedreiro, relata febre diária, astenia, sudorese noturna e perda ponderal não intencional de 8 kg nas últimas 5 semanas. Refere, ainda, mialgia intensa e poliartralgia de pequenas e grandes articulações, com dificuldade para exercer sua profissão. Não há internações prévias, uso de drogas ilícitas ou comorbidades conhecidas. Ele passou por 3 avaliações ambulatoriais anteriores, recebendo cursos curtos de analgésicos e antibióticos para supostas infecções respiratórias, sem melhora clínica. Ao exame físico: emagrecido, hipocorado (2+/4+); temperatura: 38,4 oC; pressão arterial: 110 x 60 mmHg; frequência cardíaca: 104 bpm; SatO2 em ar ambiente normal; cardíaco: ritmo regular, bulhas normofonéticas, com presença de sopro diastólico aspirativo (grau 3/6) audível no foco aórtico; baço palpável a 3 cm do rebordo costal esquerdo, indolor; presença de pequenos nódulos subcutâneos eritematosos e dolorosos nas polpas dos dedos das mãos; hemorragias subungueais lineares em três quirodáctilos; fundo de olho: lesões retinianas exsudativas com palidez central e halo hemorrágico. Exames séricos: hemoglobina 9,8 g/dL (normocítica e normocrômica), leucócitos 11.500/mm3 (sem desvio à esquerda); proteína C Reativa: 92 mg/L (normal: até 10); fator reumatoide positivo em altos títulos; anticorpo antinuclear (FAN): reagente 1:80, padrão pontilhado fino. Urinálise: hematúria dismórfica e proteinúria subnefrótica. Três amostras de sangue periférico incubadas em meios aeróbios e anaeróbios padrão por 5 dias sem crescimento bacteriano até o momento. É correto afirmar, considerando a principal hipótese diagnóstica:",
+  "alternativas": [
+   "a febre Q, causada pela bactéria Coxiella burnetii, manifesta-se tipicamente como infecção de cultura negativa cursando com depleção da formação de imunocomplexos circulantes, dificultando a sua detecção clínica.",
+   "as lesões retinianas exsudativas com centro pálido consistem em vasculites retinianas imunomediadas que reforçam a suspeita de infecção intravascular no diagnóstico diferencial das síndromes febris.",
+   "agentes etiológicos fastidiosos do grupo HACEK manifestam a síndrome de febre de origem indeterminada acompanhada de manifestações vasculares intensas, poupando a estrutura valvar de danos estruturais anatômicos significativos.",
+   "os nódulos eritematosos e dolorosos nas polpas digitais, denominados lesões de Janeway, representam microabscessos decorrentes da embolização séptica direta de fragmentos da vegetação valvar para a circulação arterial periférica.",
+   "os fenômenos imunológicos descritos no paciente resultam da hipersensibilidade mediada por imunoglobulina E contra componentes da parede celular bacteriana, deflagrando uma cascata inflamatória alérgica sistêmica prolongada e lesiva."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 17,
+  "enunciado": "Homem de 62 anos, com diagnóstico de diabetes mellitus tipo 2 e obesidade grau II (IMC: 37 kg/m2), comparece ao ambulatório para consulta de seguimento. Ela faz uso regular de metformina, gliclazida e losartana. Há cinco meses, iniciou tratamento com tirzepatida, alcançando atualmente a dose de 10 mg semanais, conseguindo uma perda ponderal de 15 kg nesse período, acompanhada por uma queda da hemoglobina glicada (HbA1C) de 9,2% para 6,5%. Na consulta de hoje, menciona a ocorrência de tremores e sudorese profusa nos períodos que antecedem as refeições principais. Relata, adicionalmente, o surgimento recente de dor abdominal em cólica no hipocôndrio direito, associada a náuseas, particularmente após a ingestão de alimentos gordurosos. Menciona que possui uma artroplastia total do joelho direito agendada em algumas semanas. Por fim, queixa-se de uma súbita piora na acuidade visual do olho esquerdo e confessa que suspendeu a injeção de tirzepatida por conta própria nas últimas três semanas devido a uma viagem, desejando retomar a dose de 10 mg imediatamente. Considerando o caso clínico descrito, é correto afirmar:",
+  "alternativas": [
+   "a elevação assintomática das enzimas pancreáticas lipase e amilase durante os exames de rotina exige a suspensão do tratamento para evitar a progressão para a pancreatite grave.",
+   "a neuropatia óptica isquêmica anterior não arterítica representa uma complicação oftalmológica reversível com a suspensão do fármaco, cursando com recuperação integral da acuidade visual após a descontinuação temporária da injeção.",
+   "a ocorrência de reações no local da injeção cutânea indica o desenvolvimento de anticorpos neutralizantes de alta titulação, acarretando a perda progressiva da resposta glicêmica e a falência do tratamento.",
+   "a piora do quadro visual pode estar diretamente relacionada à rápida redução dos níveis glicêmicos induzida pela medicação, recomendando-se rastreio retiniano regular durante os primeiros meses de tratamento farmacológico.",
+   "em caso de falha na administração de três doses consecutivas do medicamento semanal, a retomada do tratamento deve ocorrer com a manutenção da dose máxima previamente tolerada para preservar eficácia."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 18,
+  "enunciado": "Homem de 26 anos, previamente hígido, procura atendimento médico relatando aumento indolor de volume cervical à esquerda de forma progressiva há dois meses. Ele refere também fadiga limitante, sudorese noturna profusa que o obriga a trocar as roupas de cama, e perda ponderal não intencional de 8 kg (cerca de 11% do seu peso corporal) nos últimos quatro meses. Nega dor local após a ingestão de bebidas alcoólicas e bem como lesões cutâneas. Ao exame físico: hipocorado (+/4+); anictérico; palpa-se um conglomerado linfonodal supraclavicular e cervical à esquerda, de consistência fibroelástica, fixo, indolor, medindo 4,5 cm no maior eixo; o baço é palpável a 3 cm do rebordo costal esquerdo, indolor à palpação. Exames séricos: hemoglobina: 10,8 g/dL (VCM: 77 fL); leucócitos: 11.500/mm3 (com eosinofilia leve); plaquetas: 410.000/mm3; desidrogenase lática: 450 U/L (normal: < 240 U/L); VHS: 85 mm/h; sorologias (HIV, VHB, VHC): não reagentes. Tomografia por emissão de pósitrons (PET-CT): hipercaptação anômala (FDG-ávida) nos linfonodos cervicais esquerdos, cadeias mediastinais anteriores e difusamente no parênquima esplênico. Considerando a principal hipótese diagnóstica, assinale a alternativa correta.",
+  "alternativas": [
+   "A aspiração por agulha fina representa o procedimento inicial padrão para a subtipagem definitiva de linfomas agressivos, substituindo a excisão cirúrgica devido ao seu alto rendimento diagnóstico e menores taxas de complicações.",
+   "A análise histopatológica possivelmente revelará uma minoria de células malignas de Reed-Sternberg cercadas por um rico e pleomórfico infiltrado inflamatório, quando o diagnóstico é linfoma de Hodgkin clássico.",
+   "O linfoma de células do manto é diagnosticado diretamente através da eletroforese de proteínas séricas, pois produz um grande pico de imunoglobulina monoclonal que mitiga a necessidade de biópsias teciduais ou avaliações por citometria.",
+   "O subtipo histológico esclerose nodular do linfoma de Hodgkin demonstra a maior taxa de associação com o vírus Epstein-Barr, sendo impulsionado patogeneticamente por essa infecção viral na vasta maioria das apresentações em adultos jovens.",
+   "Os sintomas B constitucionais são caracterizados pela presença de prurido generalizado, fadiga debilitante e uma redução de peso corporal inexplicada de aproximadamente cinco por cento nos três meses precedentes ao diagnóstico."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 19,
+  "enunciado": "Homem de 19 anos dá entrada no departamento de emergência após ser encontrado inconsciente em seu quarto. Familiares encontraram frascos vazios de uma medicação de uso contínuo pertencente à sua mãe ao lado do paciente. Ao exame físico: pressão arterial: 85 x 50 mmHg; frequência cardíaca: 55 bpm; frequência respiratória: 8 irpm; temperatura central: 34,2 oC; SatO2 em ar ambiente: 88%; escala de Glasgow: 8 (ocular: 2; verbal: 2; motora: 4); pupilas isocóricas e reflexo fotomotor preservado, porém lentificadas; presença de bolhas subepidérmicas tensas e estéreis localizadas nas regiões de pressão (calcanhares e joelhos); restante do tegumento sem alterações, sem sudorese excessiva ou rubor. Gasometria arterial (em ar ambiente): pH: 7,24; PCO2: 62 mmHg; PO2: 65 mmHg; bicarbonato: 25 mEq/L. Exames séricos: ureia: 35 mg/dL; creatinina: 0,8 mg/dL; sódio: 140 mEq/L; potássio: 4,0 mEq/L; glicemia capilar: 98 mg/dL. Níveis plasmáticos de acetaminofeno e salicilato indetectáveis. Eletrocardiograma: bradicardia sinusal, sem alargamento do complexo QRS ou prolongamento do intervalo QTc. Considerando a etiologia mais provável para intoxicação aguda desse paciente, é correto afirmar:",
+  "alternativas": [
+   "a acidificação urinária necessita ser estabelecida nas primeiras horas de atendimento, visto que o medicamento causador do coma se comporta como uma base fraca, o que garantirá sua rápida excreção pelos néfrons de maneira otimizada.",
+   "a fisiopatologia da hipotensão e bradicardia decorre do bloqueio direto dos receptores colinérgicos no sistema nervoso central e periférico, desenhando o diagnóstico de uma manifestação anticolinérgica passível de tratamento com infusão de fisostigmina.",
+   "a administração de múltiplas doses de carvão ativado aumenta expressivamente a depuração sistêmica deste fármaco nesse caso de toxicidade grave, constituindo uma abordagem terapêutica valiosa, desde que a via aérea do paciente esteja protegida.",
+   "o painel toxicológico urinário qualitativo determina o diagnóstico da substância depressora e possui alta correlação com a gravidade do quadro, devendo atuar como o principal exame balizador para guiar as dosagens dos antídotos em ambiente hospitalar.",
+   "flumazenil e naloxona são indicados como terapia específica para a classe de medicamento possivelmente responsável por esse coma, podendo reverter o rebaixamento do nível de consciência e evitar a intubação orotraqueal nesse cenário."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 20,
+  "enunciado": "Mulher de 26 anos, com diagnóstico de lúpus eritematoso sistêmico, é avaliada em consulta de acompanhamento devido ao surgimento de fadiga acentuada, artrite simétrica em mãos, novas lesões cutâneas eritemato-escamosas fotossensíveis e edema progressivo em membros inferiores. O painel laboratorial atual revela proteinúria significativa, hematúria dismórfica, queda acentuada nos níveis séricos de frações do complemento (C3 e C4), além de um perfil de autoanticorpos fortemente reagente contendo anti-dsDNA, anti-nucleossoma, anti-Sm, anti-U1RNP, anti-Ro, anti-célula endotelial e anti-C1q. Considerando os dados descritos, é correto afirmar:",
+  "alternativas": [
+   "a positividade para o anticorpo anti-Sm correlaciona-se com uma forma branda de acometimento inflamatório articular e cutâneo, atuando como um fator protetor celular contra o desenvolvimento de lesões cicatriciais de lúpus discoide.",
+   "a presença de anticorpos anti-célula endotelial atua estabilizando as junções intercelulares do leito vascular periférico, reduzindo a permeabilidade capilar e o extravasamento de fluidos que causam o edema de extremidades.",
+   "o anticorpo anti-dsDNA de isotipo IgM possui maior afinidade pelas estruturas da membrana basal glomerular do que o isotipo IgG, sendo o principal responsável pela lesão tecidual proliferativa na nefrite lúpica.",
+   "os anticorpos anti-dsDNA apresentam flutuações associadas com o surgimento de lesões cutâneas localizadas, mostrando baixa capacidade de predição para crises de atividade inflamatória na vasculatura de órgãos abdominais ou renais.",
+   "os níveis séricos de anticorpos anti-C1q apresentam relevância clínica no monitoramento de crises renais, associando-se frequentemente ao desenvolvimento e à gravidade da nefrite lúpica proliferativa ativa."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 21,
+  "enunciado": "Uma jovem de 24 anos foi vítima de ferimento por arma de fogo, sendo socorrida por populares. Ao dar entrada no pronto atendimento apresentava sinais de instabilidade, sendo conduzida reanimação volêmica devido ao choque hemorrágico. Em tais pacientes, o desenvolvimento de acidose, hipotermia e coagulopatia é conhecida como a tríade letal. Assinale a alternativa que melhor explica a fisiopatologia desse ciclo.",
+  "alternativas": [
+   "A acidose é decorrente da alcalose respiratória compensatória devido à hiperventilação por dor e ao estresse psíquico observado em pacientes vítimas de trauma. A hipotermia, por sua vez, surge por vasodilatação periférica induzida por anestésicos durante o período de reanimação, sem relação direta com a produção de adenosina trifosfato (ATP).",
+   "Uma perfusão tecidual inadequada resulta na produção de lactato e consequente acidose metabólica. No choque, há redução da produção de ATP, prejudicando a manutenção da temperatura corporal que promove, junto com a acidose, redução da eficiência enzimática com piora da coagulação e perpetuação do sangramento.",
+   "A coagulopatia é fruto de um alto consumo de fatores de coagulação desencadeados pelos eventos hemorrágicos e ocorre independentemente da temperatura corporal. A acidose é majoritariamente metabólica pela ação da reabsorção de íons pelos rins em resposta à hipovolemia.",
+   "A hipotermia, na maioria das situações comuns, é gerada primariamente pela isquemia tecidual relativa em resposta às catecolaminas. Há pouca influência da infusão de fluidos ou exposição ambiental, bem como de hemoderivados refrigerados.",
+   "O método ideal para interromper o ciclo da tríade letal é corrigir a acidose metabólica através da reposição de bicarbonato. O efeito da hipotermia é transitório sobre a cascata de coagulação e geralmente revertido após restabelecimento do pH sanguíneo através dessa medida."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 22,
+  "enunciado": "Uma jovem de 25 anos foi submetida à mamoplastia redutora com colocação de prótese mamária. Retorna ao ambulatório devido à queixa e dificuldade de cicatrização, sendo evidenciada deiscência parcial de parte da ferida operatória. Qual dos fatores a seguir deve ser suspeitado como possível causa da inibição da cicatrização da ferida operatória?",
+  "alternativas": [
+   "Hipertensão arterial sistêmica.",
+   "Uso de analgésicos no pós-operatório.",
+   "Infecção.",
+   "Mobilização precoce dos membros superiores no pós-operatório.",
+   "Deficiência de vitamina B6."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 23,
+  "enunciado": "Um paciente de 48 anos será submetido à colangiopancreatografia endoscópica retrógrada (CPRE) devido a quadro de colangite aguda. A ultrassonografia abdominal revelou dilatação moderada das vias biliares extra-hepáticas e colelitíase com presença de barro biliar. Foi observado cálculo impactado no colédoco distal. Qual dos fatores são associados a maior risco de falha da CPRE nesse caso?",
+  "alternativas": [
+   "Colelitíase associada.",
+   "Vias biliares dilatadas.",
+   "Presença de barro biliar.",
+   "Colangite aguda.",
+   "Cálculo impactado."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 24,
+  "enunciado": "Um homem de 48 anos apresenta queixas de dor lombar recorrente associada à hematúria microscópica. Um exame recente de tomografia demonstra um cálculo renal sintomático de 2,6 cm localizado no sistema coletor renal. Qual é a conduta mais adequada para esse caso?",
+  "alternativas": [
+   "Nefrolitotomia percutânea, por permitir acesso renal direto, fragmentação intracorpórea e extração de cálculos volumosos.",
+   "Litotripsia por ondas de choque, por ser o método preferencial para cálculos renais maiores que 2 cm.",
+   "Tratamento clínico exclusivo com analgesia e hidratação, pois cálculos renais sintomáticos volumosos apresentam elevada taxa de eliminação espontânea.",
+   "Cirurgia aberta, pois ainda é a abordagem-padrão para cálculos intrarrenais complexos.",
+   "Ureteroscopia rígida exclusiva, pois permite acesso completo ao sistema coletor renal independentemente da localização do cálculo."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 25,
+  "enunciado": "Uma gestante de 34 semanas é levada ao pronto-socorro, após acidente automobilístico, imobilizada em decúbito dorsal sobre prancha rígida e com colar cervical. Apresenta queda da pressão arterial, sem evidência imediata de sangramento externo importante ou grandes lesões. O cirurgião sugere reposicionamento da paciente, sendo evidenciada melhora parcial dos níveis pressóricos. Em relação às alterações cardiovasculares da gestação avançada e manobra proposta pelo cirurgião durante o atendimento, assinale a alternativa correta.",
+  "alternativas": [
+   "A posição em decúbito dorsal deve ser mantida durante toda a avaliação, pois maximiza o retorno venoso dos membros inferiores.",
+   "A hipotensão em decúbito dorsal ocorre principalmente por compressão da aorta abdominal, com aumento compensatório da pré-carga cardíaca.",
+   "No terceiro trimestre, o débito cardíaco aumenta. A manutenção do colar cervical durante o atendimento pode intensificar a resposta simpática compensatória, protegendo a gestante contra hipotensão.",
+   "Gestantes apresentam hipovolemia relativa devido às alterações fisiológicas da gravidez. O decúbito lateral alivia a pressão sobre o sistema pielocalicial e melhora a perfusão renal.",
+   "No terceiro trimestre, a paciente deve ser posicionada em decúbito lateral esquerdo para reduzir a compressão da veia cava inferior, melhorar o retorno venoso e evitar hipotensão supina."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 26,
+  "enunciado": "Um homem de 28 anos apresenta um ferimento por arma branca na região precordial. Ao exame, encontra-se pálido, FC: 128 bm e PA: 90 x 40 mmHg com turgência jugular discreta e bulhas cardíacas hipofonéticas. A radiografia de tórax sugere hemotórax à esquerda. É realizado FAST, porém a avaliação do pericárdio é inconclusiva. Qual a conduta mais adequada para a investigação de possível lesão cardíaca?",
+  "alternativas": [
+   "Realizar tomografia computadorizada de tórax com contraste antes de qualquer intervenção cirúrgica.",
+   "Indicar janela pericárdica subxifoide para avaliação direta da presença de sangue no pericárdio.",
+   "Proceder imediatamente à drenagem torácica isolada, pois o hemotórax exclui tamponamento cardíaco.",
+   "Realizar pericardiocentese diagnóstica como método definitivo de exclusão de lesão cardíaca.",
+   "Observar clinicamente, pois a tríade de Beck completa é obrigatória para suspeita de tamponamento cardíaco."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 27,
+  "enunciado": "Homem, 27 anos, vítima de ferimento por arma branca em hipocôndrio direito, apresenta-se na emergência, pálido e confuso. Sinais vitais = PA: 82 × 48 mmHg; FC: 132 bpm; FR: 24 mrpm; extremidades frias, tempo de enchimento capilar lento. FAST positivo em espaço hepatorrenal (Morrison). Sem sinais de TCE. Já recebeu 1 litro de solução cristaloide no pré-hospitalar. Indicado controle cirúrgico imediato. Qual estratégia de ressuscitação pré-controle cirúrgico do sangramento é mais adequada?",
+  "alternativas": [
+   "Metas de PAS 110 –120 mmHg, com 2 litros de cristaloide aquecido em bolus rápidos.",
+   "Hipotensão permissiva, visando PAS 80–90 mmHg até hemostasia, minimizando cristaloide e iniciando transfusão balanceada (1:1:1).",
+   "Infusão precoce de vasopressor (norepinefrina) para restaurar PAM ≥ 65 mmHg antes da laparotomia.",
+   "Administração rotineira de bicarbonato para lactato > 4 mmol/L no atendimento inicial.",
+   "Reposição exclusiva de concentrado de hemácias até Hb > 10 g/dL, adicionando plasma apenas se INR > 2,0."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 28,
+  "enunciado": "Um homem de 70 anos procura atendimento médico ambulatorial devido à abaulamento na região inguinal direita há cerca de 03 anos. Relata que a tumoração permanece fixa, sem redução espontânea ou à tentativa de redução manual. Refere desconforto local, mas nega náuseas, vômitos ou alterações recentes do hábito intestinal. Ao exame, exibe protusão volumosa na região inguinocrural à direita. A palpação abdominal é indolor, e os ruídos hidroaéreos são audíveis, inclusive na região inguinal. O médico refere não ser possível a palpação digital do anel inguinal devido ao volume da região. Qual a conduta mais adequada para o caso?",
+  "alternativas": [
+   "Encaminhamento ao pronto atendimento para avaliação cirúrgica de urgência por tratar-se de emergência médica.",
+   "Instituir tratamento não operatório com uso de cintas elásticas e analgesia.",
+   "Complementação diagnóstica com angiotomografia para avaliação da viabilidade do pedículo vascular herniado.",
+   "Avaliação pré-operatória e de risco cirúrgico para programação de herniorrafia eletiva.",
+   "Manobras vigorosas de redução manual e encaminhamento ao pronto atendimento para avaliação se não houver sucesso."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 29,
+  "enunciado": "Um homem de 35 anos é admitido após traumatismo cranioencefálico grave. A tomografia de crânio evidencia hematoma intracraniano associado a edema cerebral. Durante a monitorização, observa-se elevação progressiva da pressão intracraniana. Assinale a alternativa correta.",
+  "alternativas": [
+   "O aumento do volume intracraniano é compensado principalmente pelo aumento do volume de líquido cefalorraquidiano, mantendo a pressão intracraniana estável inicialmente.",
+   "O crânio adulto comporta expansão progressiva de sangue, edema e líquido cefalorraquidiano com repercussão mínima sobre a pressão intracraniana.",
+   "O aumento de volume intracraniano por sangue extravascular ou edema pode ser inicialmente compensado, mas, após o esgotamento desses mecanismos, ocorre elevação exponencial da pressão intracraniana.",
+   "A pressão de perfusão cerebral aumenta proporcionalmente à elevação da pressão intracraniana, para reduzir de forma compensatória o risco de isquemia cerebral.",
+   "A risco de herniação cerebral tem relação indireta com o aumento do volume e da pressão intracranianas."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 30,
+  "enunciado": "Um homem de 28 anos procura o pronto-socorro com dor torácica súbita à direita e dispneia. A radiografia de tórax evidencia pneumotórax espontâneo pequeno, sem sinais de instabilidade hemodinâmica. Após algumas horas de observação, novo exame demonstra aumento do pneumotórax e piora da dispneia. Qual é a conduta mais adequada?",
+  "alternativas": [
+   "Alta hospitalar e retorno precoce em 24 horas para novo controle radiológico.",
+   "Drenagem pleural com cateter fino.",
+   "Observação clínica e controle radiológico em 12 horas.",
+   "Videotoracoscopia imediata.",
+   "Anticoagulação plena."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 31,
+  "enunciado": "Homem de 62 anos previamente hígido submetido à gastrectomia distal com reconstrução a Billroth II queixa-se de episódios recorrentes de dor epigástrica tipo cólica e distensão abdominal associada. Refere que os sintomas melhoram após vômitos, que geralmente são biliosos, volumosos e em jato. Associa-se queixa e cansaço e fezes mal-cheirosas e que boiam na água. Exames laboratoriais: hemoglobina: 8,9 g/dL, VCM: 116 fL, HCM: 36 pg, RDW: 18%. Esfregaço de sangue periférico revela macrócitos ovalados e neutrófilos hipersegmentados. Qual é o diagnóstico mais provável?",
+  "alternativas": [
+   "Síndrome de dumping precoce.",
+   "Úlcera marginal anastomótica com perda sanguínea intermitente.",
+   "Síndrome da alça eferente.",
+   "Gastroparesia pós-operatória.",
+   "Síndrome da alça aferente."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 32,
+  "enunciado": "Homem de 20 anos, passageiro contido no veículo, sofreu colisão auto x auto de baixa energia; deu entrada na emergência transportado pelo SAMU, sob protocolo (colar cervical, prancha e head-block, cobertor térmico e cintos de contenção), consciente, sem dor cervical, sem déficits neurológicos; ausência de intoxicação exógena e sem outras lesões dolorosas. Exame físico completo normal. Qual conduta deve ser adotada no que se refere à restrição dos movimentos da coluna cervical e à necessidade de estudo radiológico desta?",
+  "alternativas": [
+   "Manter colar e solicitar radiografias simples da coluna cervical em 3 incidências na sala de emergência.",
+   "Retirar o colar apenas se a ressonância nuclear magnética da coluna cervical for normal.",
+   "Manter colar cervical e solicitar TC de coluna cervical para o paciente, na avaliação primária.",
+   "Retirar o colar com base em critérios clínicos (sem dor, sem déficit, sem intoxicação, sem lesões distratoras) e não solicitar exames de imagem.",
+   "Realizar tomografia computadorizada da coluna cervical antes de indicar remoção do colar cervical."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 33,
+  "enunciado": "Paciente de 68 anos, obeso (IMC: 34 kg/m2), diabético tipo II, internado há 48 horas após colecistectomia laparoscópica, convertida para aberta por inflamação severa. Na 2a semana pós-operatória, apresenta febre de 39 ºC, FC: 115 bpm, PA: 95 × 58 mmHg, FR: 24 irpm e lactato sérico 3,2 mmol/L (valor de referência: 1,0 a 1,5 mmol/L). Os exames laboratoriais mostram leucócitos 18.000/mm3 e cultura de líquido biliar colhida no intraoperatório pendente. Exames de imagem negativos para coleções intracavitárias. O cirurgião indica controle clínico. Qual é a conduta inicial mais adequada diante da suspeita de sepse pós-operatória?",
+  "alternativas": [
+   "Iniciar antibioterapia empírica de amplo espectro após coleta de hemoculturas, manter reposição volêmica e monitorar lactato.",
+   "Aguardar resultado da cultura do líquido biliar e iniciar antibiótico dirigido, somente se positivo.",
+   "Iniciar somente expansão volêmica rápida; adiar antibiótico até estabilização hemodinâmica.",
+   "Suspender uso de qualquer antimicrobiano prévio e repetir exames laboratoriais em 12 horas antes de decidir sobre o melhor tratamento.",
+   "Transferir imediatamente para UTI, sem iniciar tratamento antimicrobiano, até avaliação por infectologista."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 34,
+  "enunciado": "Paciente do sexo masculino, 45 anos, vítima de esfaqueamento em região abdominal foi admitido em pronto-atendimento em sua cidade de origem sendo realizada reposição volêmica agressiva (aproximadamente, 3.000 mL) com solução cristaloide (soro fisiológico 0,9%). A gasometria arterial revelou pH 7,29, pCO232 mmHg, pO2 de 92mmHg e HCO3- de 15 mEq/L com base excess (BE) de 10 mEq/L. Qual o principal mecanismo responsável pela acidose metabólica observada nesse paciente?",
+  "alternativas": [
+   "Hipercloremia com redução da reabsorção de bicarbonato e acidose metabólica hiperclorêmica.",
+   "Aumento da reabsorção de renal de bicarbonato.",
+   "Diminuição da pressão oncótica do plasma induzindo estado de anasarca e edema pulmonar.",
+   "Inibição renal da excreção de íons hidrogênio induzido pela hipernatremia.",
+   "Hemodiluição severa levando a hipoxemia relativa com consequente ocorrência de acidose."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 35,
+  "enunciado": "Mulher de 45 anos está sendo submetida à colecistectomia laparoscópica. A equipe cirúrgica encontra dificuldade para a definição da anatomia da via biliar. Os exames pré-operatórios evidenciam enzimas hepáticas alteradas e colédoco discretamente dilatado. Qual a conduta mais adequada?",
+  "alternativas": [
+   "Converter para cirurgia aberta devido à suspeita elevada de coledocolitíase e necessidade de exploração da via biliar.",
+   "Realizar colangiografia endoscópica retrógrada (CPRE) ainda no intraoperatório para auxílio na definição da anatomia da via biliar e confirmação de coledocolitíase.",
+   "Proceder com interrupção do procedimento e reabordagem por equipe especializada.",
+   "Realizar colangiografia intraoperatória devido ao alto risco de coledocolitíase associada com CPRE se presença de cálculos.",
+   "Manter acesso laparoscópico, evitando colangiografia intraoperatória pelo risco de aumento da pressão da árvore biliar e evolução para colangite."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 36,
+  "enunciado": "Um jovem de 14 anos é encaminhado ao pronto atendimento com queixa de náuseas e intensa dor escrotal súbita de forte intensidade com início há 4 horas. Ao exame físico, apresenta elevação do testículo esquerdo que se encontra edemaciado e extremamente doloroso à palpação. Qual a conduta mais adequada?",
+  "alternativas": [
+   "Antibioticoterapia oral, antieméticos e reavaliação em 48 horas.",
+   "Ultrassonografia testicular com doppler.",
+   "Escrototomia exploradora de urgência com orquidopexia bilateral.",
+   "Tomografia computadorizada com contraste endovenoso.",
+   "Escrototomia exploradora com orquiectomia unilateral após melhora do quadro álgico."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 37,
+  "enunciado": "Qual dos seguintes parâmetros é considerado recomendação formal de intervenção no aneurisma aórtico assintomático?",
+  "alternativas": [
+   "Aneurisma da aorta ascendente ou raiz aórtica com diâmetro ≥ 50 mm, independentemente de fatores de risco.",
+   "Aneurisma do arco aórtico com diâmetro ≥ 50 mm em pacientes assintomáticos.",
+   "Aneurisma da aorta abdominal com diâmetro ≥ 55 mm.",
+   "Aneurisma da aorta descendente com diâmetro ≥ 50 mm para indicação de reparo aberto.",
+   "Aneurisma da raiz aórtica com diâmetro ≥ 45 mm em todos os pacientes, mesmo sem indicação concomitante de intervenção na valva aórtica."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 38,
+  "enunciado": "Um homem de 29 anos é levado a um grande hospital de referência em trauma após ferimento por arma branca. Dá entrada em parada cardiorrespiratória, apresentando ritmo de parada do tipo AESP (atividade elétrica sem pulso). Ao exame, apresenta perfuração em hemitórax esquerdo com mínimo sangramento, pupilas reativas e pulso carotídeo débil e intermitente. Qual a conduta mais adequada?",
+  "alternativas": [
+   "Toracotomia de reanimação na sala de emergência.",
+   "Toracoscopia esquerda e transfusão maciça.",
+   "Encaminhamento ao centro cirúrgico para reparo definitivo.",
+   "Encerramento das medidas de reanimação com declaração de óbito na admissão.",
+   "Drenagem torácica em selo d’água à esquerda."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 39,
+  "enunciado": "Um homem de 72 anos, vítima de atropelamento, foi submetido a múltiplas cirurgias nos últimos dias incluindo craniectomia descompressiva devido à hematoma subdural agudo, bem como fixação do anel pélvico devido à fratura em livro aberto. No segundo dia de pós-operatório, evolui com edema importante no membro inferior esquerdo. A ultrassonografia com doppler venoso à beira leito confirmou extensa trombose venosa profunda iliofemoral à esquerda. Qual é a conduta mais adequada em relação à prevenção de embolia pulmonar?",
+  "alternativas": [
+   "Indicar filtro de veia cava.",
+   "Iniciar anticoagulação plena imediatamente com heparina não fracionada.",
+   "Iniciar uso de meia de compressão pneumática.",
+   "Trombólise sistêmica com alteplase.",
+   "Aguardar resolução espontânea da trombose."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 40,
+  "enunciado": "Um homem de 36 anos, vítima de trauma abdominal fechado após queda de altura, foi submetido à laparotomia para controle de sangramento intra-abdominal. Encontra-se em unidade intensiva, grave, sedado e intubado. Nas horas seguintes à intervenção cirúrgica, evolui com distensão abdominal importante, necessidade de aumento progressivo dos parâmetros da ventilação mecânica, hipotensão persistente, apesar de reanimação volêmica, oligúria e acidose metabólica progressiva com retenção importante de CO2. Quais são o diagnóstico mais provável e a conduta mais adequada?",
+  "alternativas": [
+   "Íleo paralítico pós-operatório; manter observação clínica, analgesia e aguardar retorno do trânsito intestinal.",
+   "Síndrome compartimental abdominal; indicar descompressão abdominal.",
+   "Choque séptico primário; iniciar antibioticoterapia de amplo espectro e evitar reabordagem cirúrgica nesse momento.",
+   "Hipovolemia residual isolada; intensificar reposição volêmica e de hemoderivados.",
+   "Hipertensão intra-abdominal sem síndrome compartimental; manter tratamento conservador."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 41,
+  "enunciado": "Menino de 8 anos, assintomático, é levado à consulta de puericultura. Durante o exame físico, a aferição da pressão arterial com manguito adequado mostra PA: 118 × 78 mmHg. A criança está no percentil 75 de estatura para a idade. De acordo com a tabela correta de referência dos valores de pressão arterial em Pediatria, o percentil 90 da pressão sistólica para essa altura e idade é 116 mmHg e para pressão diastólica é 77 mmHg. O percentil 95 para a pressão sistólica é 120 mmHg e para a diastólica é 81 mmHg. Como se classifica esse valor de pressão arterial, caso ele se repita em aferições posteriores?",
+  "alternativas": [
+   "Pressão arterial normal.",
+   "Pressão arterial elevada.",
+   "Hipertensão arterial estágio 1.",
+   "Hipertensão arterial estágio 2.",
+   "Crise hipertensiva."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 42,
+  "enunciado": "Durante seu intervalo de almoço, em um restaurante, um médico percebe que uma criança de cerca de 3 anos começa subitamente a não conseguir emitir sons, fica com cianose perioral e leva as mãos ao pescoço. A mãe relata que ela estava comendo um pedaço de salsicha. A criança está consciente, mas não tosse, não chora e não respira. Qual a manobra correta e imediata a ser realizada de acordo com as recomendações atuais do suporte básico de vida?",
+  "alternativas": [
+   "Realizar 5 golpes interescapulares com a criança de bruços sobre o antebraço, seguidas de 5 compressões torácicas anteriores, alternando as manobras até a desobstrução.",
+   "Posicionar-se atrás da criança, fechar o punho, posicioná-lo na região epigástrica (entre o umbigo e o apêndice xifoide) e realizar compressões abdominais rápidas (manobra de Heimlich), repetindo até a desobstrução, mesmo se houver perda de consciência.",
+   "Posicionar-se atrás da criança, realizar 5 golpes dorsais seguidos de compressões abdominais rápidas, repetindo até a desobstrução ou perda de consciência.",
+   "Iniciar imediatamente a RCP completa (30 compressões torácicas por 2 ventilações), sem verificar a via aérea, pois a criança está em parada respiratória e a prioridade é a oxigenação.",
+   "Realizar varredura digital cega na cavidade oral para localizar e remover o corpo estranho, seguida de ventilação de resgate."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 43,
+  "enunciado": "Pré-escolar de 4 anos, sexo feminino, em acompanhamento por artrite idiopática juvenil (AIJ) em atividade. A mãe notou palidez progressiva nos últimos 2 meses. Os exames laboratoriais mostram os dados a seguir: Hemoglobina: 9,4 g/dL (referência 11,0 – 14,0) VCM: 71 fL (referência 74 – 88) RDW: 14,1% (referência < 14,5%) Ferritina: 45 ng/mL Ferro sérico: 48 μg/dL (referência 50 – 150) CTLF (TIBC): 275 μg/dL (referência 300 – 400) PCR: 52 mg/L Plaquetas: 480.000/mm3 (referência 150.000 – 450.000) De acordo com a fisiopatologia das anemias microcíticas, embora a anemia por deficiência de ferro possa coexistir com a anemia por doença crônica, assinale a alternativa que representa uma interpretação correta dos achados laboratoriais e a interpretação diagnóstica para essa criança.",
+  "alternativas": [
+   "Anemia ferropriva – o RDW normal é o marcador mais específico para diferenciar ferropriva de doença crônica, independentemente dos valores de ferritina e CTLF.",
+   "Anemia de doença crônica – a ferritina de 45 ng/mL está acima do ponto de corte ajustado para deficiência de ferro na presença de inflamação (< 30 ng/mL para < 5 anos com PCR elevada), e a CTLF. está reduzida.",
+   "Anemia ferropriva associada a anemia de doença crônica – a ferritina normal (45 ng/mL) descarta o diagnóstico isolado de doença crônica, e o RDW dentro dos limites de normalidade confirma o componente ferroprivo.",
+   "Anemia de doença crônica – a plaquetose (> 450.000/mm3) é um marcador obrigatório para o diagnóstico, e sua ausência afastaria essa hipótese.",
+   "Anemia ferropriva – a ferritina de 45 ng/mL está abaixo do ponto de corte populacional tradicional de 50 ng/mL, confirmando depleção de estoques independentemente dos níveis de PCR."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 44,
+  "enunciado": "Criança de 15 meses, 10 kg, chega ao pronto-socorro com diarreia aquosa há 3 dias, com cerca de 8 episódios/dia, e vômitos frequentes há 12 horas. Não consegue ingerir líquidos por via oral. Ao exame: prostrada, sonolenta, olhos fundos, prega cutânea desaparece lentamente, mucosas secas. A fontanela anterior já está fechada. Pulso radial presente, enchimento capilar de 4 a 5 segundos. O médico diagnostica desidratação grave sem sinais de choque e indica hidratação venosa, conforme o Plano C. De acordo com as recomendações atuais do Ministério da Saúde / OMS / SBP, qual a conduta correta?",
+  "alternativas": [
+   "30 mL/kg (300 mL) de ringer-lactato em 30 minutos, seguido de 70 mL/kg (700 mL) do mesmo soro em 2 horas e 30 minutos, com reavaliação clínica frequente.",
+   "30 mL/kg (300 mL) de SF 0,9% em 1 hora, seguido de 70 mL/kg (700 mL) em 5 horas, com reavaliação clínica a cada 30 – 60 minutos.",
+   "50 mL/kg (500 mL) de ringer-lactato em 1 hora, seguido de 50 mL/kg (500 mL) em 3 horas.",
+   "100 mL/kg (1.000 mL) de SG 5% + SF 0,9% (1:1) em infusão contínua por 6 horas, sem fase de expansão inicial.",
+   "20 mL/kg (200 mL) de SF 0,9% em 20 minutos (repetir até 3 vezes se necessário), seguido de 40 mL/kg (400 mL) em 4 horas."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 45,
+  "enunciado": "Criança de 3 anos, 15 kg, previamente hígida, dá entrada no pronto-socorro após queda da própria altura há 1 hora, batendo a cabeça no chão de cerâmica da cozinha de sua casa. Não perdeu a consciência. No momento está chorosa, mas consolável pela mãe. Ao exame: Glasgow 15, pupilas isocóricas e fotorreagentes, sem sinais de fratura de base de crânio, sem hematomas ou lacerações significativas no couro cabeludo. Nega cefaleia, nega vômitos. O exame neurológico é normal. A mãe está apreensiva, mas tranquila com a conduta do médico. De acordo com a regra de predição clínica PECARN para TCE leve em crianças ≥ 2 anos, qual a conduta mais adequada?",
+  "alternativas": [
+   "Realizar TC de crânio imediata, pois toda criança com TCE leve e queda de altura deve ser submetida a neuroimagem para excluir lesão intracraniana clinicamente importante.",
+   "Indicar observação clínica por 4 a 6 horas e realizar TC de crânio apenas se surgirem vômitos repetitivos, rebaixamento do nível de consciência ou cefaleia intensa.",
+   "Liberar a criança para casa sem necessidade de observação nem TC de crânio, orientando sinais de alarme e retorno imediato se houver rebaixamento do nível de consciência, vômitos ou convulsão.",
+   "Solicitar radiografia de crânio (incidências AP e Perfil) para avaliar fratura linear; se presente, indicar TC de crânio.",
+   "Realizar TC de crânio obrigatória, pois crianças entre 2 e 5 anos apresentam maior risco de lesão cerebral oculta pós-TCE leve, independentemente dos achados clínicos."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 46,
+  "enunciado": "Lactente de 4 meses, sexo masculino, previamente hígido, nascido a termo, dá entrada no pronto-socorro com desconforto respiratório progressivo há 2 dias. Apresenta: FR: 68 irpm, saturação de O2: 89% em ar ambiente, tiragem subcostal e intercostal moderada, batimento de asa do nariz e gemência. À ausculta: sibilos difusos e crepitações bilaterais. Após lavagem nasal com SF 0,9% e aspiração de vias aéreas superiores não houve melhora. A radiografia de tórax mostra hiperinsuflação pulmonar bilateral sem consolidações. O paciente é colocado em cateter nasal de alto fluxo (CNAF) a 2 L/kg/min, com fração inspirada de O2 (FiO2) a 40%. Sobre a fisiologia e a aplicação do CNAF na bronquiolite viral aguda em lactentes, assinale a alternativa correta.",
+  "alternativas": [
+   "O CNAF promove melhora da oxigenação por fornecer oxigênio suplementar em alta concentração (FiO2 elevada), sem efeito significativo sobre o trabalho respiratório ou a ventilação alveolar; a oferta do ar não aquecido, porém umidificado, reduz os potenciais danos às vias aéreas.",
+   "O fluxo de 2 L/kg/min está acima do recomendado para lactentes com bronquiolite, pois o limite máximo seguro é de 1,5 L/kg/min, para evitar barotrauma pulmonar e síndrome de extravasamento aéreo.",
+   "Os principais mecanismos de ação do CNAF incluem: geração de pressão positiva contínua nas vias aéreas (efeito CPAP-like), redução do espaço morto nasofaríngeo pelo alto fluxo de gás e melhora da condução da via aérea com redução do trabalho respiratório.",
+   "O CNAF gera efeito CPAP-like cuja pressão é determinada pelo fluxo ofertado (L/kg/min), de modo que fluxos ≥ 3 L/kg/min produzem pressões expiratórias equivalentes às do CPAP nasal convencional (≥ 10 cmH2O), independentemente do tamanho da cânula nasal ou do escape pela boca aberta.",
+   "O CNAF atualmente está indicado como primeira linha para todos os lactentes com bronquiolite que apresentem saturação ≤ 90%, substituindo o uso de oxigênio por cateter nasal convencional (baixo fluxo) e a ventilação não invasiva com CPAP/BiPAP."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 47,
+  "enunciado": "Pré-escolar de 3 anos, 15 kg, previamente hígido, é trazido ao pronto-socorro 40 minutos após ingestão acidental de quantidade desconhecida de um líquido armazenado em garrafa pet. A mãe encontrou a criança com a garrafa na mão e vômito esbranquiçado no chão. Durante o transporte, apresentou sialorreia intensa, miose puntiforme, fasciculações musculares e vômitos repetidos. Ao exame na chegada: FC: 60 bpm, FR: 28 irpm, SpO2: 89%, ausculta pulmonar com sibilos difusos e creptações difusas (roncos/bolhas), rebaixamento do nível de consciência (Glasgow 9). A criança não para de lacrimejar e apresenta secreção abundante visível na orofaringe. Qual o diagnóstico mais provável, o tratamento prioritário imediato e o antídoto indicado, respectivamente?",
+  "alternativas": [
+   "Intoxicação por anticolinérgico (anti-histamínico) — lavagem gástrica com carvão ativado — flumazenil EV.",
+   "Intoxicação por organofosforado ou carbamato — atropina EV (0,05 mg/kg) como primeira medida para controle das secreções, seguida de pralidoxima (25–50 mg/kg) EV para organofosforados.",
+   "Intoxicação por opiáceo — naloxona EV — naltrexona VO.",
+   "Intoxicação colinérgica— lavagem gástrica com carvão ativado antes de qualquer medicação — diazepam EV para controle de fasciculações.",
+   "Intoxicação por cáustico — endoscopia digestiva alta imediata — corticosteroide EV."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 48,
+  "enunciado": "Gestante com 34 semanas, previamente hígida, comparece para consulta pediátrica pré-natal. Ela relata que leu sobre a vacina contra o VSR (vírus sincicial respiratório) e pergunta se pode tomá-la na gestação. Também pergunta se, após o nascimento, seu filho precisará de alguma profilaxia adicional contra o VSR. Sobre as estratégias combinadas de imunização contra o VSR atualmente adotadas no Brasil, assinale a alternativa correta.",
+  "alternativas": [
+   "A vacina contra o VSR está disponível para gestantes a partir da 32a semana de idade gestacional, e sua administração é restrita aos meses de maior circulação do VSR (fevereiro a agosto). A criança, se exposta ao VSR após o nascimento, deverá receber nirsevimabe em dose única, independentemente da vacinação materna.",
+   "A vacina está recomendada para gestantes a partir da 28a semana de idade gestacional, em qualquer época do ano. A criança, se nascida a termo e saudável, geralmente não necessita de nirsevimabe, pois a proteção oferecida pela vacina materna é suficiente. Exceções incluem a prematuridade.",
+   "A vacina contra o VSR na gestação está contraindicada antes das 36 semanas, e a criança deverá receber obrigatoriamente uma dose de nirsevimabe ao nascimento, independentemente da vacinação materna, para garantir proteção completa na primeira temporada de VSR.",
+   "A profilaxia contra o VSR no Brasil atualmente se baseia exclusivamente no palivizumabe para todos os lactentes, com 5 doses mensais durante a sazonalidade, tanto para prematuros quanto para crianças a termo saudáveis.",
+   "O nirsevimabe está indicado para todas as crianças até 24 meses de idade, independentemente de prematuridade ou comorbidades, em dose única anual. A vacina materna contra o VSR está disponível apenas no sistema privado e não é recomendada pelo PNI."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 49,
+  "enunciado": "Lactente de 2 meses, nascido a termo, sem intercorrências no parto, é levado à UBS para a primeira consulta de puericultura. A mãe apresenta a caderneta de vacinação, que mostra BCG e Hepatite B já realizadas na maternidade. De acordo com o Calendário Nacional de Vacinação do PNI (Ministério da Saúde), qual vacina contra a poliomielite deve ser administrada nessa consulta?",
+  "alternativas": [
+   "Vacina Oral contra a Poliomielite (VOP), com reforço aos 6 meses.",
+   "Vacina Inativada contra a Poliomielite (VIP), por via intramuscular, como primeira dose do esquema básico.",
+   "Vacina Oral contra a Poliomielite (VOP) e Vacina Inativada (VIP) simultaneamente, na mesma consulta.",
+   "Nenhuma vacina contra a poliomielite está indicada aos 2 meses; o esquema tem início aos 4 meses.",
+   "Vacina Oral contra a Poliomielite (VOP), em dose única aos 2 meses."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 50,
+  "enunciado": "Lactente de 1 ano e 2 meses, previamente hígido, é levado ao pronto-socorro por crise convulsiva. A mãe relata que a criança apresentou febre (temperatura axilar de 38,8 ºC) medida após a crise. A convulsão foi tônico-clônica generalizada, com duração aproximada de 3 minutos, e cessou espontaneamente. Ao chegar ao PS, a criança está sonolenta, porém reativa, sem sinais focais ao exame neurológico. A mãe nega crises anteriores e nega antecedentes de epilepsia. A criança não apresenta sinais de irritação meníngea. Assinale a alternativa que melhor descreve a classificação e a conduta inicial mais adequada para esse caso.",
+  "alternativas": [
+   "Trata-se de crise convulsiva febril atípica (complexa), pois a criança tem menos de 18 meses e a febre foi identificada apenas após a crise. Deve-se realizar punção lombar para excluir meningite.",
+   "Trata-se de crise convulsiva febril típica (simples), com boa evolução. Deve-se investigar e tratar o foco infeccioso, orientar a família sobre a natureza benigna do quadro e o manejo de novas crises, além de prescrever antitérmicos; nenhum exame é necessário para a investigação de epilepsia.",
+   "Trata-se de epilepsia desencadeada por febre, pois a crise foi generalizada e a febre não foi identificada antes do início da convulsão. Está indicado iniciar anticonvulsivante profilático (fenobarbital ou valproato) para evitar recorrência.",
+   "Trata-se de crise convulsiva febril atípica (complexa) por ser uma crise generalizada em criança acima de 12 meses. Deve-se realizar tomografia de crânio de urgência para descartar lesão estrutural.",
+   "Trata-se de crise convulsiva febril típica (simples), mas está indicada punção lombar obrigatória em crianças com menos de 24 meses e primeira crise febril, mesmo sem sinais meníngeos."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 51,
+  "enunciado": "Escolar de 8 anos, sexo feminino, 28 kg, é trazida ao pronto-socorro com quadro de poliúria, polidipsia e perda ponderal há 2 semanas, associado a vômitos e dor abdominal há 12 horas. Ao exame: desidratação moderada, respiração irregular e hálito cetônico. Exames laboratoriais: Glicemia capilar: 486 mg/dL pH venoso: 7,08 Bicarbonato: 6 mEq/L Sódio sérico: 132 mEq/L Potássio sérico: 4,8 mEq/L Cetonúria: ++++ Inicia-se a reposição volêmica com soro fisiológico 0,9% (20 mL/kg na primeira hora). Após a primeira hora, a paciente permanece desidratada e a glicemia é 420 mg/dL. Sobre os aspectos da conduta terapêutica mais adequada nesse momento, assinale a alternativa correta.",
+  "alternativas": [
+   "Iniciar insulinoterapia venosa contínua (0,1 U/kg/h) e manter soro fisiológico 0,9% para completar o déficit em 4 – 6 horas, pois a rápida correção da desidratação é prioritária.",
+   "Iniciar insulinoterapia venosa contínua (0,1 U/kg/h) e administrar soro fisiológico 0,45% a 10 mL/kg/h. Quando a glicemia atingir 250 – 300 mg/dL, adicionar glicose a 5% ao soro para prevenir hipoglicemia.",
+   "Iniciar insulinoterapia subcutânea com insulina regular (0,3 U/kg) e manter hidratação venosa com soro glicosado a 5%, pois a glicemia elevada contraindica o uso de soro fisiológico após a primeira hora.",
+   "Administrar bicarbonato de sódio a 8,4% (1 mEq/kg) antes de iniciar a insulina, pois o pH de 7,08 indica acidose grave, que deve ser corrigida imediatamente para evitar arritmias cardíacas.",
+   "Iniciar insulinoterapia venosa contínua (0,05 U/kg/h) e realizar bolus intravenoso de insulina regular (0,1 U/kg) antes de iniciar a infusão contínua para acelerar a queda da glicemia."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 52,
+  "enunciado": "Puérpera de 31 anos, secundigesta, 10 dias pós-parto vaginal, em aleitamento materno exclusivo, procura a Unidade Básica de Saúde queixando-se de dor intensa na mama direita durante e após as mamadas, com piora progressiva nos últimos 4 dias. Refere que o bebê (2o filho) “morde” o seio e que ela sente dor tão forte que tem evitado amamentar do lado direito nas últimas 12 horas. Ao exame, observa-se fissura linear profunda no mamilo direito, com base eritematosa e pequena quantidade de secreção serosa, sem sinais de flogose na aréola ou no parênquima mamário. A mama esquerda não apresenta alterações. A paciente nega febre ou calafrios. A pega do recém-nascido é avaliada (lábios invertidos, aréola pouco visível acima da boca do bebê, queixo afastado da mama). Sinais vitais: afebril, FC: 82 bpm, PA: 110 × 70 mmHg. Sobre a conduta mais adequada para esse caso, assinale a alternativa correta.",
+  "alternativas": [
+   "Orientar a suspensão temporária da amamentação na mama afetada por 48 horas, realizar ordenha manual com descarte do leite da mama direita, aplicar compressas mornas antes da ordenha e prescrever mupirocina tópica 2% sobre a fissura a cada mamada, com reavaliação em 7 dias.",
+   "Orientar a manutenção do aleitamento materno, iniciando a mamada pela mama não afetada (esquerda) e, após a descida do leite, transferir o bebê para a mama direita; corrigir a pega com técnica adequada; aplicar lanolina anidra purificada (100%) sobre a fissura após cada mamada; prescrever analgésico compatível com a lactação e reavaliar em 48 – 72 horas.",
+   "Iniciar antibioticoterapia oral empírica com cefalexina 500 mg 6/6h por 7 dias, suspender a amamentação na mama afetada até cicatrização completa da fissura, realizar ordenha elétrica 3 vezes ao dia e aplicar pomada de nistatina sobre a fissura após cada ordenha.",
+   "Orientar a manutenção do aleitamento materno exclusivo em ambas as mamas, iniciando a mamada sempre pela mama afetada (direita) para garantir seu esvaziamento completo; aplicar compressas frias antes da mamada para analgesia local; utilizar protetores de silicone (nipple shield) durante todas as mamadas até a cicatrização completa; prescrever analgésico e reavaliar em 72 horas.",
+   "Prescrever bromocriptina 2,5 mg 12/12h por 14 dias para supressão temporária da lactação na mama direita, orientar aleitamento exclusivo na mama esquerda e aplicar óleo de rosa mosqueta tópico sobre a fissura 3 vezes ao dia, com reavaliação em 5 dias."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 53,
+  "enunciado": "Escolar de 8 anos, 25 kg, com diagnóstico de asma há 3 anos, em uso de salbutamol spray 100 mcg cerca de 2 a 3 vezes por semana, conforme necessidade. É levado ao pronto-socorro com crise asmática iniciada há 5 horas, sem melhora com salbutamol em casa. Ao exame: FR: 38 irpm, FC: 118 bpm, SpO2: 91% em ar ambiente, sibilos expiratórios difusos, tiragem subcostal discreta, uso de musculatura acessória, fala frases curtas. Sobre os aspectos do manejo da crise e condutas subsequentes à alta hospitalar, com base nas diretrizes atuais do GINA, é correto afirmar:",
+  "alternativas": [
+   "o tratamento de manutenção com salbutamol isolado é padrão-ouro para crianças com asma leve intermitente (Step 1), e o paciente deve manter essa conduta após a alta, se a crise foi adequadamente controlada.",
+   "na crise asmática moderada, a oxigenioterapia deve ser iniciada com alvo de SpO2 ≥ 95%, associada a salbutamol + brometo de ipratrópio inalatório e corticosteroide sistêmico precoce.",
+   "após a alta, o plano de manejo inclui iniciar corticoide inalatório de baixa dose como medicação de manutenção, revisar a técnica inalatória, fornecer plano de ação por escrito e manter salbutamol como medicação de alívio.",
+   "a terapia com corticosteoide inalatório + formoterol como anti-inflamatório de alívio é contraindicada em crianças de 6 – 11 anos, sendo recomendada apenas como terapia de manutenção e resgate nessa faixa etária.",
+   "o sulfato de magnésio intravenoso está indicado como primeira linha no manejo da crise moderada em crianças, antes mesmo da administração do corticosteroide sistêmico."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 54,
+  "enunciado": "Pré-escolar de 3 anos, 14 kg, com miocardiopatia dilatada e em acompanhamento no serviço de cardiologia pediátrica. Durante a internação por descompensação da insuficiência cardíaca, na enfermaria, o paciente apresenta perda súbita de consciência. A enfermeira aciona o código azul. Ao chegar ao leito, o médico observa a monitorização cardíaca com o seguinte ritmo: taquicardia ventricular monomórfica – frequência de 200 bpm, QRS largo. Não é possível palpar pulso central em 10 segundos. Uma via aérea avançada já foi instalada e a equipe de enfermagem iniciou compressões torácicas de alta qualidade. Com base nas diretrizes do suporte avançado de vida, assinale a alternativa correta.",
+  "alternativas": [
+   "Diante de uma taquicardia ventricular com pulso e perfusão inadequada, a conduta inicial é cardioversão elétrica sincronizada com 0,5–1 J/kg, seguida de amiodarona EV (5 mg/kg) em caso de falha.",
+   "O ritmo é chocável e a primeira carga deve ser de 2 J/kg com desfibrilador, seguida imediatamente de RCP por 2 minutos antes de reavaliar o ritmo.",
+   "O tratamento inicial deve ser adenosina (0,1 mg/kg, em bolo IV rápido) para conversão da taquicardia ventricular, associada a cardioversão elétrica sincronizada com 1 J/kg, em caso de falha.",
+   "A conduta prioritária é administrar amiodarona EV (5 mg/kg) em 20 – 60 minutos como primeira linha para reversão do ritmo, visto que a taquicardia ventricular é um ritmo de alta gravidade.",
+   "Por tratar-se de taquicardia ventricular com QRS largo, a droga de escolha é verapamil (0,1 mg/kg EV) para cardioversão química, associada à cardioversão elétrica sincronizada com 0,5 J/kg se mantiver instabilidade hemodinâmica."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 55,
+  "enunciado": "Lactente de 3 meses, previamente hígido, nascido a termo, sem intercorrências, é levado ao pronto-socorro por febre corretamente aferida de 38,8 ºC há 6 horas. Ao exame físico, a criança está em bom estado geral, sem sinais de toxemia, sem sinais meníngeos e sem evidência de foco infeccioso no exame físico. A mãe refere que a vacinação está em dia, de acordo com as orientações do Programa Nacional de Imunizações. De acordo com o protocolo da Sociedade Brasileira de Pediatria, qual a conduta correta?",
+  "alternativas": [
+   "Prescrever antitérmico, orientar observação domiciliar e retorno, se persistência da febre por mais de 72 horas, sem necessidade de exames complementares.",
+   "Solicitar hemograma, PCR, urina (EAS + urocultura por cateterismo), hemocultura, líquor e radiografia de tórax e internar para antibioticoterapia empírica com cefalosporina de terceira geração.",
+   "Solicitar hemograma e urina (EAS); caso os resultados sejam normais, liberar com orientação de retorno em 24 horas.",
+   "Solicitar hemograma, PCR, urina (EAS + urocultura por cateterismo) e hemocultura; se a criança estiver em bom estado geral e os exames sem alterações significativas, considerar observação ambulatorial ou internação breve, com reavaliação em 24h.",
+   "Solicitar hemograma, PCR, urina (EAS + urocultura por cateterismo) e hemocultura e iniciar empiricamente antibioticoterapia oral com amoxicilina e solicitar retorno em 48 horas para reavaliação, independentemente de exames complementares."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 56,
+  "enunciado": "Sobre o manejo do clampeamento do cordão umbilical ao nascimento, de acordo com as diretrizes atuais do Programa Brasileiro de Reanimação Neonatal da SBP, analise os cinco cenários clínicos a seguir e assinale a alternativa que apresenta a conduta correta para a situação clínica.",
+  "alternativas": [
+   "RN de 39 semanas, nascido de parto vaginal eutócico, chorando ao nascer, com tônus muscular em flexão e boa vitalidade. Líquido amniótico claro – clampeamento em, no mínimo, 30 segundos.",
+   "RN de 32 semanas, nascido de parto vaginal, chorando ao nascer, com tônus em flexão e boa vitalidade – clampeamento em, no mínimo, 60 segundos.",
+   "RN de 38 semanas, nascido de parto vaginal. Ao nascer, não chora, não respira e apresenta tônus flácido. A equipe realiza estímulo tátil delicado no dorso por cerca de 15 segundos e o RN passa a respirar e chorar, recuperando o tônus em flexão – clampeamento imediato.",
+   "RN de 40 semanas, nascido de parto vaginal. Ao nascer, apresenta circular de cordão apertada, chorando ao nascer e com tônus em flexão – clampeamento em, no mínimo, 30 segundos.",
+   "RN de 37 semanas, nascido de parto vaginal. Ao nascer, não chora, não respira e apresenta tônus flácido. A equipe realiza estímulo tátil delicado no dorso por cerca de 15 segundos, mas o RN permanece em apneia, com tônus flácido – clampeamento em, no mínimo, 30 segundos."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 57,
+  "enunciado": "Pré-escolar, sexo masculino, 4 anos, é levado pela mãe à consulta por atraso na linguagem e comportamento “diferente”. A mãe relata que ele não responde quando chamado pelo nome, evita contato visual, não aponta para objetos de interesse e prefere brincar sozinho. Passa longos períodos alinhando carrinhos e balança as mãos quando está animado. Aceita apenas 5 alimentos e apresenta crises intensas de irritação quando a rotina é alterada. Sentou aos 6 meses e andou aos 13 meses. Não há perda de habilidades previamente adquiridas. A gestação e o parto foram normais. O exame neurológico é normal. Sobre o diagnóstico de Transtorno do Espectro Autista (TEA) nesse caso, assinale a alternativa correta.",
+  "alternativas": [
+   "O diagnóstico de TEA pode ser firmado clinicamente com base nos critérios do DSM-5 (déficits persistentes na comunicação social e padrões restritos e repetitivos de comportamento), sendo que a presença de atraso motor é um critério essencial para o diagnóstico.",
+   "A ausência de apontar para compartilhar interesse aos 4 anos é um dos marcos preditivos mais precoces e específicos para TEA, e sua presença no caso fortalece a hipótese diagnóstica, devendo o pediatra solicitar avaliação multidisciplinar.",
+   "O diagnóstico de TEA exige obrigatoriamente a confirmação por exame de neuroimagem (ressonância magnética de crânio) ou eletroencefalograma (EEG), sendo a avaliação clínica isolada insuficiente para firmar o diagnóstico.",
+   "O quadro descrito é mais compatível com Transtorno de Linguagem (Transtorno do Desenvolvimento da Linguagem), pois o desenvolvimento motor normal e a ausência de perda de habilidades afastam o diagnóstico de TEA, que sempre cursa com regressão do desenvolvimento.",
+   "O diagnóstico de TEA requer, além dos critérios clínicos, a identificação de uma mutação genética específica (como variantes patogênicas nos genes SHANK3, MECP2 ou FMR1) por meio de sequenciamento de nova geração (painel de genes), sendo o diagnóstico clínico isolado considerado provisório."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 58,
+  "enunciado": "Recém-nascido de 38 semanas, peso 3.200 g, adequado para a idade gestacional, de parto vaginal sem intercorrências, com alta da maternidade com 48 horas de vida. Retorna ao pronto-socorro com 72 horas de vida apresentando icterícia intensa (zona 4 de Kramer), letargia e sucção débil. A mãe é G2P2A0, com tipo sanguíneo O Rh positivo, e o pai tem tipo sanguíneo A Rh positivo. O bebê é tipo A Rh positivo. O teste de Coombs direto é positivo. Os exames laboratoriais revelam: Bilirrubinas totais: 22 mg/dL Bilirrubina indireta: 21,5 mg/dL Hb: 10,2 g/dL Ht: 30% Reticulócitos: 12% Assinale a alternativa que representa o diagnóstico mais provável, o principal fator de risco para neurotoxicidade presente nesse caso, e o exame mais importante para monitorar a resposta ao tratamento, respectivamente.",
+  "alternativas": [
+   "Doença hemolítica por incompatibilidade ABO; bilirrubina total de 22 mg/dL; dosagem de hemoglobina sérica a cada 12 horas.",
+   "Doença hemolítica por incompatibilidade Rh; premunidade materna; teste de Coombs direto seriado para avaliar queda da hemólise.",
+   "Icterícia fisiológica exacerbada pelo baixo peso ao nascer; leucócitos e PCR para descartar sepse; bilirrubina transcutânea.",
+   "Doença hemolítica por incompatibilidade ABO; letargia e sucção débil como sinais clínicos de encefalopatia bilirrubínica aguda; irradiância da fototerapia aferida no nível da pele do RN e dosagem seriada da bilirrubina.",
+   "Deficiência de glicose-6-fosfato desidrogenase (G6PD); hematúria macroscópica; níveis de cetonúria a cada 6 horas."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 59,
+  "enunciado": "Lactente de 14 meses, previamente hígido, é levado pela mãe ao pronto-socorro pela quinta vez nos últimos 3 meses. Ela relata episódios recorrentes de cianose, apneia e letargia, que ocorrem exclusivamente em casa, sempre na presença dela, e nunca foram presenciados por qualquer profissional de saúde. A criança já foi submetida a extensa investigação: eletroencefalograma (normal), ecocardiograma (normal), monitorização cardíaca (sem arritmias), dosagens de glicose, eletrólitos e gasometria (normais) e tomografia de crânio (normal). A mãe mostra um vídeo caseiro gravado por ela mesma, no qual a criança parece estar “desacordada” por cerca de 30 segundos, mas a gravação começa e termina de forma abrupta, sem mostrar o contexto completo. Durante a internação atual, a criança está assintomática, com monitorização contínua normal há 72 horas, exame neurológico e físico normais, e desenvolvimento adequado para a idade. Durante uma visita, a enfermeira observa a mãe desconectando discretamente o cabo do oxímetro de pulso e, em seguida, chamando a equipe alegando que a saturação caiu. Ao ser confrontada, a mãe reage com hostilidade, recusa-se a ficar sozinha com o filho sem supervisão e exige alta hospitalar “para buscar uma segunda opinião. Com base no caso, qual a principal hipótese diagnóstica e qual a conduta imediata mais adequada?",
+  "alternativas": [
+   "Transtorno de ansiedade materna – a mãe apresenta hipervigilância e catastrofização de sintomas benignos, caracterizando hipocondria por procuração. A conduta é prescrever ansiolítico para a mãe e orientar acompanhamento psicológico ambulatorial.",
+   "Síndrome de Munchausen por procuração (transtorno factício imposto a outro). A conduta imediata é comunicar ao Conselho Tutelar, garantir a segurança imediata da criança (afastamento do agressor) e notificar a direção do hospital para elaboração de um plano de proteção com equipe multiprofissional.",
+   "Síndrome delirante materna – a mãe acredita genuinamente que o filho é doente, apresentando delírio compartilhado. A conduta é encaminhar para atendimento psiquiátrico para iniciar antipsicótico para a mãe e manter a criança em observação hospitalar até melhora do quadro materno.",
+   "Epilepsia de difícil controle – os episódios descritos são crises convulsivas sutis não detectadas pelos exames de rotina. A conduta é iniciar fenobarbital empírico e programar vídeo eletroencefalograma prolongado (24 – 48 horas) para captura dos eventos.",
+   "Apneia da prematuridade tardia – a idade de 14 meses permite o diagnóstico de eventos de apneia relacionados à imaturidade do tronco cerebral. A conduta é prescrever cafeína e monitorização domiciliar com oxímetro."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 60,
+  "enunciado": "Recém-nascido de 32 semanas, com peso de 1.800 g, filho de mãe adolescente com VDRL reagente 1:16 no pré-natal (tratada com duas doses de penicilina benzatina 2.400.000 UI, com a última dose 25 dias antes do parto). Ao nascimento, o RN apresenta VDRL sérico 1:64, com titulação maior que o materno. No exame físico, observa-se hepatomegalia (3 cm do rebordo costal direito), icterícia e petéquias. Na avaliação do líquor, o VDRL foi reagente e o número de leucócitos por mm3 foi de 30. A criança está com 72 horas de vida. Qual conduta diagnóstica e terapêutica está de acordo com as recomendações atuais do Ministério da Saúde?",
+  "alternativas": [
+   "Considerar o caso como sífilis congênita provável, tratar com penicilina cristalina 50.000 UI/kg/dose EV a cada 12 horas por 10 dias; o líquor pode ser interpretado como normal para a faixa etária.",
+   "Confirmar sífilis congênita sintomática (precoce), tratar com penicilina cristalina 50.000 UI/kg/dose EV, inicialmente a cada 12 horas, além de realizar hemograma e radiografia de ossos longos como exames complementares obrigatórios.",
+   "Tratar como sífilis congênita apenas com uma dose única de penicilina benzatina 50.000 UI/kg IM, pois a mãe foi tratada na gestação, e realizar acompanhamento ambulatorial com VDRL mensal até a negativação.",
+   "Indicar penicilina cristalina 150.000 UI/kg/dose EV a cada 6 horas por 14 dias, com realização de radiografia de ossos longos apenas se houver sinais clínicos ao exame clínico.",
+   "Considerar o caso como sífilis congênita assintomática e tratar com penicilina cristalina 50.000 UI/kg/dose EV a cada 12 horas por 7 dias, pois o VDRL do RN é superior ao materno, mas não há alterações liquóricas."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 61,
+  "enunciado": "Reconhecer os diferentes tipos de analgesia e anestesia utilizados no trabalho de parto e no parto, bem como suas complicações mais frequentes, é essencial para a atuação de um bom profissional. Sobre esse assunto, assinale a alternativa correta.",
+  "alternativas": [
+   "Os opioides sistêmicos são o método mais efetivo para o alívio da dor durante o trabalho de parto, com maior eficácia analgésica e maior satisfação materna em comparação à analgesia peridural.",
+   "Os opioides sistêmicos são preferíveis por reduzir efeitos colaterais maternos como náuseas, vômitos e sonolência.",
+   "A inalação com óxido nitroso não apresenta segurança adequada para sua aplicação em relação à mãe e feto.",
+   "A inalação com óxido nitroso demonstrou maior potência analgésica em relação às técnicas neuroaxiais.",
+   "Imersão em água, técnicas de relaxamento, acupuntura e estimulação elétrica nervosa transcutânea (Tens) apresentam evidências sobre eficácia analgésica limitadas e inconsistentes."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 62,
+  "enunciado": "F.N.H., primigesta, idade gestacional de 39 semanas, deu entrada no PSO em trabalho de parto. Nega comorbidades. Ao exame obstétrico: colo uterino: 4 cm, médio, posterior; bolsa íntegra; apresentação cefálica; altura da apresentação : -2 De Lee; AU: 36 cm; DU: 3/ 30-40”/10’; tônus uterino: normal. Submetida à cardiotocografia: padrão tranquilizador. Amnioscopia: líquido claro com grumos. Paciente queixando-se de dor tipo cólica intensa. Assinale a alternativa que apresenta a conduta neste momento.",
+  "alternativas": [
+   "Bupivacaína epidural.",
+   "Amniotomia mecânica.",
+   "Ocitocina parenteral.",
+   "Na proxeno retal.",
+   "Nifedipina sublingual."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 63,
+  "enunciado": "F.B.N., 32 anos, primigesta, com 11 semanas de idade gestacional, veio à consulta de pré-natal com resultado de glicemia de jejum de 93 mg/dL. Sobre esse caso, assinale a alternativa correta.",
+  "alternativas": [
+   "Trata-se de diabetes pré-gestacional.",
+   "Trata-se de diabetes gestacional.",
+   "Deve-se repetir o exame com 13 semanas para firmar diagnóstico.",
+   "Deve-se solicitar o TOTG para complementação diagnóstica.",
+   "Deve-se solicitar Hb glicada para complementação diagnóstica."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 64,
+  "enunciado": "R.F.D., 28 anos, GIII PII (2C) A0, idade gestacional de 37 semanas, deu entrada no pronto-socorro obstétrico com queixa de sangramento vaginal moderado, vermelho vivo e indolor, de início há 1 hora. Ao exame físico: tônus uterino normal; BCF: 130 bpm; dinâmica uterina ausente; bolsa íntegra. Assinale a alternativa que apresenta o diagnóstico mais provável.",
+  "alternativas": [
+   "Rotura de vasa prévia.",
+   "Rotura uterina.",
+   "Descolamento prematuro de placenta.",
+   "Placenta prévia.",
+   "Rotura de seio venoso."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 65,
+  "enunciado": "R.B.A., 29 anos, GII PI 1N (há 2 anos) A0, idade gestacional de 12 semanas, vem à consulta de pré-natal questionando sobre as vacinas necessárias na gestação e no pós-parto. Trouxe sorologias realizadas há uma semana: rubéola IgG e IgM não reagentes, HBsAg não reagente e anti-HBs reagente. Tipagem sanguínea Rh negativo; esposo Rh positivo. Refere não ter tomado vacina da rubéola; ao se verificar cartão de vacina, é identificada vacina DTPa na gestação anterior. Assinale a alternativa que apresenta informação correta sobre o caso descrito.",
+  "alternativas": [
+   "Há necessidade de tomar a vacina contra febre amarela nesta gestação, mesmo que não esteja em área endêmica.",
+   "Não há necessidade de tomar nova dose de DTPa (difteria, tétano e coqueluche acelular), por registro de dose anterior há menos de 5 anos.",
+   "Deve-se vacinar com a vacina contra influenza após as vinte semanas de idade gestacional.",
+   "Deve-se administrar a imunoglobulina anti-D a partir do segundo trimestre de gestação.",
+   "Deve-se administrar a vacina tríplice viral no puerpério."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 66,
+  "enunciado": "T.M.F., 36 anos, primigesta, idade gestacional cronológica de 8 semanas, vem ao pronto-socorro obstétrico queixando-se de dor tipo cólica, além de sangramento vaginal em moderada quantidade há um dia. O exame especular revela moderada quantidade de sangue e coágulos em conduto vaginal, sem sangramento ativo. Ao toque vaginal bimanual: colo pérvio 2 cm, médio, amolecido; fundo uterino intrapélvico; colo uterino indolor à mobilização. Submetida a ultrassom transvaginal, que evidencia eco endometrial heterogêneo medindo 3,5 cm. Ovário direito sem alterações. Presença de corpo lúteo em ovário esquerdo. Sobre o caso descrito, é correto afirmar que se trata de",
+  "alternativas": [
+   "aborto completo.",
+   "ameaça de abortamento.",
+   "aborto incompleto.",
+   "mola hidatiforme.",
+   "gestação incipiente."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 67,
+  "enunciado": "E.G.N., 29 anos, GIII PII (1N 1C há 3 anos) A0, idade gestacional de 37 semanas, deu entrada no pronto-socorro obstétrico queixando-se de perda de líquido há 4 horas, além de dor tipo cólica. Paciente HIV positivo, em uso de terapia antirretroviral (TARV), sendo que o último exame demonstrou carga viral de 1.500 cópias/mL, além de CD4 100 céls/mm3. Ao exame físico: especular: saída de líquido claro com grumos pelo orifício externo do colo uterino; toque vaginal: colo 5 cm médio e posterior; dinâmica uterina: 4/10’/40”; BCF: 140 bpm. Cardiotocografia normal. Para o caso descrito, é correto afirmar que o AZT",
+  "alternativas": [
+   "endovenoso está contraindicado, pois a paciente faz uso de TARV combinado.",
+   "endovenoso deve ser infundido apenas se o tempo de rotura de membranas ultrapassar 18 horas.",
+   "é desnecessário porque a profilaxia é indicada em cargas virais acima de 5.000 cópias.",
+   "endovenoso está indicado, pois a carga viral é superior a 1.500 cópias.",
+   "estaria indicado apenas na falha objetiva do esquema de TARV no primeiro trimestre."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 68,
+  "enunciado": "Paciente de 36 anos, GV PIII (2C 1N) AI, idade gestacional de 39 semanas e 3 dias, deu entrada no pronto-socorro queixando-se de dor tipo cólica há cerca de 1 hora. Ao exame obstétrico: tônus uterino normal; colo uterino dilatado 3 cm, médio, medianizado; BCF: 130 bpm; dinâmica uterina 2/10’/50”. Nega perda de líquido. Cultura para estreptococo beta-hemolítico do grupo B negativo. Cardiotocografia normal. Assinale a alternativa que apresenta a conduta mais adequada para o caso.",
+  "alternativas": [
+   "Inibição do trabalho de parto atosibana.",
+   "Condução do trabalho de parto com ocitocina EV.",
+   "Amniotomia e condução do trabalho de parto.",
+   "Ampicilina dose de ataque e parto cesariano.",
+   "Parto cesariano."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 69,
+  "enunciado": "J.S.G., 27 anos, G2P1 (1N), idade gestacional de 35 semanas, sem exames relatados no cartão de pré-natal, relata diminuição progressiva dos movimentos fetais há 24 horas, sem outros sintomas. Ao exame obstétrico, não foram detectados batimentos cardíacos fetais, e a ultrassonografia confirmou o óbito fetal, com peso fetal de 1.900 g. Paciente com história de hipertensão arterial crônica leve, sem uso regular de medicação. Pré-natal iniciado na 16a semana, com total de 4 consultas. Ao exame físico: PA: 130 x 90 mmHg; altura uterina: 30cm; dinâmica uterina ausente; toque vaginal: colo grosso, posterior e impérvio. Exames laboratoriais sem alterações. Assinale a alternativa que apresenta a conduta mais adequada para o caso.",
+  "alternativas": [
+   "Cesariana.",
+   "Passagem do balão de Krause associado à infusão concomitante de ocitocina EV.",
+   "Indução do trabalho de parto com misoprostol.",
+   "Indução do trabalho de parto com ocitocina EV.",
+   "Aguardar início do trabalho de parto espontâneo."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 70,
+  "enunciado": "Assinale a alternativa que representa o anti-hipertensivo contraindicado no tratamento da hipertensão em gestantes com pré-eclâmpsia.",
+  "alternativas": [
+   "Hidralazina.",
+   "Enalapril.",
+   "Metoprolol.",
+   "Anlodipino.",
+   "Metildopa."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 71,
+  "enunciado": "G.M.A., 28 anos, 36 semanas de idade gestacional, submetida à urocultura de rotina, em que o único agente isolado foi a Klebsiella pneumoniae e a contagem de colônias foi de 100.000 UFC/mL. Paciente assintomática. Assinale a alternativa que apresenta a conduta mais adequada diante desse caso.",
+  "alternativas": [
+   "Fosfomicina trometamol 3 g VO em dose única.",
+   "Repetir urocultura em duas semanas.",
+   "Não há necessidade de antibioticoterapia, pois a paciente é assintomática.",
+   "Não há necessidade de antibioticoterapia, pois a contagem de colônias foi inferior a 106 UFC/mL.",
+   "Norfloxacino 500 mg VO de 12/12 horas por 3 dias."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 72,
+  "enunciado": "R.B.F., 36 anos, IMC 28 kg/m2, tabagista de 5 cigarros por dia, no 15o dia pós-parto vaginal sem intercorrências, exceto por RN pequeno para a idade gestacional, vem à consulta ginecológica solicitando método contraceptivo. Nega estar em amamentação materna. Nega atividade sexual desde o parto. De acordo com os Critérios Médicos de Elegibilidade para o Uso de Contraceptivos da Organização Mundial da Saúde, assinale a alternativa que apresenta o método mais adequado para essa paciente entre os apresentados.",
+  "alternativas": [
+   "Anel vaginal.",
+   "Adesivo transdérmico.",
+   "Injeção mensal.",
+   "Pílula combinada via oral.",
+   "Progesterona isolada via oral."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 73,
+  "enunciado": "A Acanthosis nigricans é uma área de hiperpigmentação da pele cinza-amarronzada, aveludada, encontrada nas dobras da pele e atrás do pescoço e na axila. Ela é observada em pacientes portadoras de Síndrome Ovariana Metabólica Poliendócrina (SOMP). Assinale a alternativa que apresenta a causa desse sinal.",
+  "alternativas": [
+   "Hiperestrogenismo.",
+   "Hiperandrogenismo.",
+   "Hipoandrogenismo.",
+   "Hiperprolactinemia.",
+   "Hiperinsulinemia."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 74,
+  "enunciado": "Mulher de 27 anos, sem vida sexual ativa, vem ao consultório queixando-se de amenorreia há cerca de 4 meses. Foi submetida a exames laboratoriais, que demonstraram níveis muito baixos de FSH e LH. Prolactina e androgênios vieram normais. Assinale a alternativa que apresenta a causa da amenorreia.",
+  "alternativas": [
+   "Falência ovariana prematura.",
+   "Disgenesia gonadal.",
+   "Hipotalâmica e/ou hipofisária.",
+   "Resistência à insulina.",
+   "Anovulação hiperandrogênica."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 75,
+  "enunciado": "Mulher de 53 anos vem ao consultório ginecológico queixando-se de fogachos, irritabilidade, falha de memória. Refere última menstruação há cerca de 8 meses. Ao exame físico: IMC: 28 kg/m2. Paciente hipertensa crônica controlada, em uso de enalapril 20 mg/dia. Alega histerectomia há 10 anos por miomatose uterina. Trouxe exames de imagens: mamografia BI-RADS 2; laboratoriais sem alterações significativas. Nega antecedente de primeiro grau de câncer. Assinale a alternativa que apresenta o melhor tratamento para essa paciente.",
+  "alternativas": [
+   "Estrogênio transdérmico.",
+   "Estrogênio transdérmico e progesterona via oral.",
+   "Progesterona isolada via oral.",
+   "Estrogênio e progesterona, ambos via oral.",
+   "Estrogênio e testosterona transdérmicos."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 76,
+  "enunciado": "A endometriose é uma afecção clínica e recorrente, caracterizada pela presença de tecido endometrial fora da cavidade uterina. Em relação a essa doença, assinale a alternativa correta.",
+  "alternativas": [
+   "O dionogeste tem efeito direto sobre focos de endometriose.",
+   "Análogos do GnRH atuam diretamente sobre tecido endometrial ectópico.",
+   "Levonorgestrel intrauterino apresenta efeito direto sobre endometriomas.",
+   "Etinil estradiol promove atrofia dos focos de endometriose.",
+   "Dispositivos intrauterinos de cobre/prata são eficazes na redução da dismenorreia em endometriose."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 77,
+  "enunciado": "Mulher de 25 anos refere prurido vulvar discreto, secreção vaginal bolhosa e colpite macular. À microscopia, a secreção demonstrou piócios e corpos ovalares móveis, com teste das aminas positivo e pH vaginal > 5. Assinale a alternativa que apresenta o diagnóstico correto.",
+  "alternativas": [
+   "Gardnerella.",
+   "Candida.",
+   "Treponema.",
+   "Trichomonas.",
+   "Clamídia."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 78,
+  "enunciado": "Mulher de 52 anos veio ao consultório com queixa de perda urinária, o que vem comprometendo sua rotina e qualidade de vida. Foi submetida a estudo urodinâmico, no qual foi detectada Pressão de Ponto de Perda sob manobra de Valsalva (PPPV) de 40 cm H2O, sem evidências de hipermobilidade uretral. Assinale a alternativa que apresenta a causa da perda urinária.",
+  "alternativas": [
+   "Transbordamento.",
+   "Deficiência esfincteriana.",
+   "Bexiga hiperativa.",
+   "Desmielinização medular.",
+   "Hipoestrogenismo."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 79,
+  "enunciado": "Mulher de 58 anos, em menopausa há 5 anos, nulípara, IMC: 32 kg/m2, sem histórico prévio de terapia de reposição hormonal, queixa-se de sangramento vermelho vivo intermitente, em pequena quantidade, há cerca de 2 meses. Foi submetida a ultrassom transvaginal, que demonstrou eco endometrial de 6 mm. Diante do caso, assinale a alternativa que apresenta a conduta correta.",
+  "alternativas": [
+   "Ácido tranexâmico.",
+   "Repetir ultrassom após cessar sangramento.",
+   "Dispositivo intrauterino com progesterona.",
+   "Progesterona oral.",
+   "Histeroscopia."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 80,
+  "enunciado": "A correta compreensão da fisiologia do ciclo menstrual permite uma facilidade enorme para entender a fisiopatologia de quase todas as doenças da ginecologia. Sobre as características hormonais da fase folicular do ciclo menstrual, é correto afirmar que ela apresenta pulsos de GnRH",
+  "alternativas": [
+   "raros, progesterona alta e estrogênio decrescente.",
+   "frequentes, progesterona alta e estrogênio decrescente.",
+   "frequentes, progesterona baixa e estrogênio crescente.",
+   "raros, progesterona baixa e estrogênio crescente.",
+   "frequentes, progesterona alta e estrogênio alto. MED. PREV. SOCIAL, MED. DE FAMÍLIA E COM., SAÚDE COLETIVA"
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 81,
+  "enunciado": "Mulher de 47 anos, assintomática, procura a Unidade Básica de Saúde (UBS) trazendo consigo uma relação de exames laboratoriais e de imagem que pretende realizar por iniciativa própria, após pesquisa de conteúdo de saúde na internet. Refere desejar “detectar precocemente qualquer doença”, embora negue comorbidades, fatores de risco significativos ou história familiar relevante. Durante a consulta, o médico orienta a paciente sobre os potenciais danos da investigação desnecessária e propõe conduta alinhada às recomendações de rastreamento baseadas em evidências. Assinale a alternativa correta, com base no princípio da prevenção quaternária.",
+  "alternativas": [
+   "Solicitar todos os exames requisitados pela paciente com o objetivo de ampliar a detecção de doenças subclínicas.",
+   "Esclarecer sobre os riscos de sobrediagnóstico e sobretratamento, restringindo a solicitação aos exames de rastreamento preconizados para a faixa etária e perfil epidemiológico da paciente.",
+   "Prescrever exames de imagem de corpo inteiro como abordagem preventiva, visando maximizar a detecção precoce de patologias.",
+   "Adiar qualquer orientação preventiva até que a paciente apresente sinais ou sintomas.",
+   "Encaminhar a paciente a serviços de média complexidade para que a investigação diagnóstica de rotina seja conduzida por especialistas focalizados."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 82,
+  "enunciado": "Médico da Estratégia Saúde da Família acompanha uma comunidade em que a população negra apresenta maior frequência de hipertensão arterial e menor adesão ao acompanhamento na UBS. Durante reunião da equipe, observa-se que muitos usuários relatam experiências de discriminação nos serviços de saúde e dificuldades de acesso decorrentes de condições sociais desfavoráveis. Considerando os princípios da equidade e os determinantes sociais da saúde, assinale a alternativa correta.",
+  "alternativas": [
+   "A maior frequência de hipertensão decorre exclusivamente de fatores genéticos, sendo desnecessária a adoção de estratégias específicas pela equipe.",
+   "O princípio da equidade determina que todos os usuários recebam igualmente o mesmo atendimento, independentemente de suas necessidades.",
+   "A redução das desigualdades em saúde depende fundamentalmente da ampliação da oferta de consultas médicas.",
+   "O reconhecimento do racismo institucional e dos determinantes sociais da saúde é fundamental para o planejamento de ações que promovam maior equidade no cuidado.",
+   "As ações voltadas para populações vulnerabilizadas devem ser desenvolvidas exclusivamente pelos serviços de referência."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 83,
+  "enunciado": "Jovem de 24 anos, recém-chegado de outro estado e ainda sem vínculo formal de emprego, procura a UBS de seu novo bairro apresentando queixa de febre alta e artralgia há três dias. Ao tentar realizar o acolhimento, a recepção hesita em atendê-lo devido à ausência de comprovante de residência local e por ele não possuir carteira de trabalho assinada. À luz dos princípios doutrinários e organizativos que regem o Sistema Único de Saúde (SUS), o atendimento deve ser garantido imediatamente com base no princípio que assegura o acesso de todos os cidadãos às ações e aos serviços de saúde, sem privilégios ou barreiras. Qual princípio do SUS foi diretamente violado na recusa inicial desse atendimento?",
+  "alternativas": [
+   "Descentralização.",
+   "Integralidade.",
+   "Universalidade.",
+   "Equidade.",
+   "Regionalização."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 84,
+  "enunciado": "Médico, atuando no ambulatório de especialidades de um hospital público, atende um cidadão que lhe pergunta como a população pode acompanhar a execução orçamentária da saúde municipal e influenciar a aprovação das contas do gestor local. O médico esclarece que há uma instância colegiada do SUS, permanente e deliberativa, com reuniões periódicas e composição paritária de 50% de usuários, responsável por exercer o controle social e fiscalizar os recursos públicos da saúde. O médico está se referindo a qual dessas instâncias?",
+  "alternativas": [
+   "Mesa Diretora do SUS.",
+   "Conferência Nacional de Saúde.",
+   "Tribunal de Contas do Município.",
+   "Conselho de Saúde.",
+   "Ouvidoria-Geral do SUS."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 85,
+  "enunciado": "Homem de 46 anos procura a UBS para renovação de receitas. Durante a consulta, relata consumo diário de bebidas alcoólicas há vários anos. Afirma que costuma beber cinco a seis doses por dia e refere que, quando tenta reduzir o consumo, apresenta tremores e ansiedade. O médico decide realizar uma avaliação inicial do padrão de uso de álcool para definir a necessidade de intervenções e acompanhamento. Assinale a alternativa correta.",
+  "alternativas": [
+   "O instrumento mais indicado para essa avaliação inicial é o CAGE, por quantificar a gravidade da dependência alcoólica.",
+   "A presença de tremores durante a redução do consumo exclui a necessidade de aplicação de instrumentos de rastreamento.",
+   "O AUDIT é um instrumento recomendado na Atenção Primária para identificar consumo de risco, uso nocivo e provável dependência de álcool.",
+   "A abordagem deve se restringir à orientação para interromper imediatamente o consumo de álcool, independentemente da avaliação clínica.",
+   "A aplicação do MINI substitui a investigação clínica do padrão de consumo de bebidas alcoólicas."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 86,
+  "enunciado": "Mulher de 58 anos, com diabetes mellitus tipo 2 e hipertensão arterial, é atendida por uma médica residente no ambulatório de um hospital-escola para acompanhamento de suas doenças crônicas. Ao ser questionada sobre como convive com essas condições, relata sentir-se culpada por não conseguir seguir a dieta devido à rotina de cuidados com os netos que moram com ela e manifesta receio de perder a visão e deixar de cuidar da família. Após explorar essas preocupações, a médica residente discute as opções terapêuticas e, em conjunto com a paciente, estabelece metas alimentares factíveis, compatíveis com sua realidade familiar e financeira. Considerando os componentes do Método Clínico Centrado na Pessoa (MCCP), essa conduta exemplifica",
+  "alternativas": [
+   "a exploração da experiência do adoecimento, considerando sentimentos, ideias e expectativas da paciente, integrada à elaboração compartilhada de um plano de cuidados compatível com seu contexto.",
+   "a compreensão da pessoa como um todo, dispensando a necessidade de relacionar o contexto familiar às estratégias terapêuticas propostas.",
+   "a priorização da dimensão biomédica da doença, uma vez que o controle glicêmico é o principal fator para reduzir o receio de perda visual.",
+   "o fortalecimento da relação médico-paciente por meio de uma condução diretiva, em que o profissional assume integralmente as decisões terapêuticas.",
+   "a estruturação de um terreno comum cujo principal objetivo é transferir à família a responsabilidade pelo manejo da doença crônica."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 87,
+  "enunciado": "Mulher de 34 anos queixa-se de tristeza, desânimo, choro fácil e insônia inicial há dois meses, iniciados após desemprego. Refere também fadiga, ganho de peso, dificuldade de concentração e sentimentos de inutilidade, sem ideação suicida. Informa que faz uso de clonazepam 1 mg/noite por conta própria há um ano. Diante do quadro, a conduta mais adequada na Atenção Primária à Saúde é",
+  "alternativas": [
+   "iniciar o desmame do clonazepam com redução de 50% da dose na primeira semana e prescrever amitriptilina como primeira escolha, aproveitando seu perfil sedativo para o manejo da insônia.",
+   "prescrever fluoxetina e aumentar a dose do clonazepam nas primeiras quatro semanas para conter a piora inicial da insônia e reduzir riscos de efeitos adversos.",
+   "postergar a introdução de antidepressivo até a retirada total do benzodiazepínico, priorizando exclusivamente abordagens psicoterápicas e de suporte psicossocial.",
+   "diagnosticar transtorno de ansiedade generalizada isolado, pelo uso crônico do ansiolítico, e associar buspirona como estratégia de otimização terapêutica.",
+   "iniciar inibidor seletivo da recaptação de serotonina (ISRS), como a sertralina, orientar sobre o tempo de latência para o efeito clínico e planejar o desmame gradual do clonazepam após a estabilização do humor."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 88,
+  "enunciado": "Mulher de 82 anos, viúva, mora sozinha em área rural e é trazida à UBS pela filha devido a quedas frequentes, confusão mental intermitente e incontinência urinária. Deambula com andador. Faz uso diário de losartana 50 mg, hidroclorotiazida 25 mg, sinvastatina 20 mg, omeprazol 20 mg, alprazolam 0,5 mg, amitriptilina 25 mg e paracetamol 500 mg (se necessário). Ao exame: PA sentada 140/90 mmHg; PA ortostática 115/70 mmHg; FC 78 bpm. Escala de Katz: dependente para banho e vestir-se; Escala de Lawton: dependência parcial para atividades instrumentais. A equipe opta pela desprescrição. O medicamento que deve ser, prioritariamente, reduzido ou suspenso é",
+  "alternativas": [
+   "losartana 50 mg, por ser o principal responsável por delirium e instabilidade postural em idosos.",
+   "alprazolam 0,5 mg, pelo risco de sedação, dependência, declínio cognitivo, piora da incontinência e quedas, sem indicação clínica definida.",
+   "omeprazol 20 mg, por seus efeitos adversos a longo prazo, devendo ser suspenso abruptamente antes dos psicotrópicos.",
+   "hidroclorotiazida, pois a hipotensão ortostática é a principal causa das quedas, não havendo necessidade de revisar os medicamentos psicotrópicos.",
+   "sinvastatina 20 mg, por ser a principal causa dos episódios de confusão e incontinência urinária."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 89,
+  "enunciado": "Homem de 45 anos, trabalhador da construção civil, comparece à UBS com queixa de lesão na região dorsal há 3 meses. Refere que a lesão “não cicatriza” e, ocasionalmente, sangra ao se coçar. Ao exame físico, observa-se lesão pigmentada, assimétrica, com bordas irregulares e diâmetro de 1,2 cm, localizada em região de exposição solar frequente. O paciente nega dor ou prurido intenso. Nega comorbidades e nega uso de medicamentos. Diante desse quadro, qual é a conduta mais adequada?",
+  "alternativas": [
+   "Prescrever corticosteroide tópico de média potência e orientar retorno em 30 dias para reavaliação.",
+   "Realizar biópsia excisional com margem de segurança de 1 cm e encaminhar para avaliação com dermatologista.",
+   "Indicar crioterapia com nitrogênio líquido em três sessões semanais.",
+   "Suspeitar de melanoma e realizar biópsia excisional da lesão, com margens estreitas para diagnóstico.",
+   "Aplicar imiquimode tópico 5% em dias alternados por 6 semanas."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 90,
+  "enunciado": "Homem de 78 anos, com doença pulmonar obstrutiva crônica (DPOC) avançada, em cuidados paliativos exclusivos, encontra-se em acompanhamento domiciliar pela Equipe de Saúde da Família. Apresenta dispneia intensa (escala de Borg 8/10) em repouso, com piora aos mínimos esforços, associada a náuseas e redução do apetite há cinco dias. Encontra-se lúcido e refere sensação de “falta de ar insuportável”. A família informa que o paciente não tolera a máscara de oxigênio e apresenta boca seca. Após ajuste da oxigenoterapia, medidas de posicionamento e outras intervenções não farmacológicas, a dispneia permaneceu refratária. Nesse contexto, qual é a conduta farmacológica mais adequada?",
+  "alternativas": [
+   "Iniciar morfina por via oral ou subcutânea em baixa dose, em esquema regular com doses de resgate, associada às medidas não farmacológicas.",
+   "Prescrever broncodilatador inalatório de curta ação (salbutamol) em altas doses, associado à corticosteroide oral.",
+   "Iniciar midazolam por via sublingual para sedação paliativa imediata como tratamento de primeira linha da dispneia.",
+   "Realizar nebulização com solução salina hipertônica a 3% e manter oxigenoterapia contínua em alto fluxo.",
+   "Iniciar furosemida intravenosa, considerando insuficiência cardíaca como causa presumida da dispneia."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 91,
+  "enunciado": "Paciente de 45 anos, cadeirante, com lesão medular traumática há 10 anos, comparece à Unidade Básica de Saúde (UBS) para consulta de rotina. Relata dificuldade para acessar a unidade devido à ausência de rampas e sanitários acessíveis. Informa ainda que, ao solicitar consulta com oftalmologista para avaliação de catarata, foi orientado de que deveria aguardar a fila de regulação, sem atendimento prioritário em razão da deficiência. Diante dessa situação, a conduta mais adequada da equipe de saúde é",
+  "alternativas": [
+   "garantir o atendimento durante a consulta, encaminhar o paciente para avaliação oftalmológica e orientá-lo a registrar manifestação junto à Ouvidoria sobre as dificuldades de acesso encontradas.",
+   "registrar as dificuldades de acesso no prontuário, encaminhar o paciente para consulta especializada e informar à gestão sobre a necessidade de adequação da estrutura física da unidade.",
+   "assegurar atendimento acessível, comunicar à gestão as barreiras arquitetônicas identificadas e orientar o paciente quanto aos fluxos de acesso aos serviços especializados.",
+   "garantir atendimento acessível, comunicar à gestão a existência de barreiras arquitetônicas e encaminhar o paciente para consulta especializada, observando os fluxos assistenciais estabelecidos.",
+   "assegurar atendimento prioritário e acessível, adotar as medidas cabíveis para reduzir as barreiras ao atendimento e comunicar à gestão a necessidade de adequação da acessibilidade da unidade."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 92,
+  "enunciado": "Diante da baixa participação da população nas ações de prevenção da dengue, uma equipe de Saúde da Família substitui palestras expositivas por rodas de conversa em associações de moradores, incentivando os participantes a compartilhar suas experiências e a construir coletivamente estratégias adequadas à realidade do território. Com base nos princípios da Educação Popular em Saúde, essa estratégia caracteriza-se por",
+  "alternativas": [
+   "valorizar o diálogo e os saberes populares, promovendo a construção compartilhada do conhecimento e a autonomia dos participantes.",
+   "considerar a falta de informação científica como o principal obstáculo, atribuindo aos profissionais a transmissão de conhecimentos técnicos.",
+   "utilizar atividades educativas para ampliar a adesão da população às condutas previamente definidas pela equipe de saúde.",
+   "destinar-se prioritariamente a grupos com baixa escolaridade, sendo pouco aplicável a outros contextos sociais.",
+   "basear o planejamento das ações na equipe de saúde, sem participação da comunidade na definição das estratégias."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 93,
+  "enunciado": "O médico de uma equipe de Saúde da Família, ao analisar o diagnóstico de saúde do território, observa que a comunidade quilombola local apresenta razão de mortalidade materna superior à média municipal. Para monitorar o impacto das intervenções e orientar o planejamento das ações voltadas à saúde das mulheres dessa comunidade, considerando os determinantes sociais da saúde e as diretrizes da Política Nacional de Saúde Integral da População Negra, deve utilizar como indicador e adotar como princípio norteador do planejamento:",
+  "alternativas": [
+   "a Razão de Mortalidade Materna, priorizando ações voltadas ao controle dos fatores de risco clínicos durante o pré-natal, por constituírem os principais determinantes desse desfecho.",
+   "a Razão de Mortalidade Materna, priorizando a ampliação da cobertura do pré-natal e da assistência ao parto, com foco na reorganização da rede assistencial.",
+   "a Razão de Mortalidade Materna, fundamentando o planejamento no reconhecimento do racismo institucional como determinante social da saúde e na promoção da equidade para reduzir barreiras de acesso e de qualidade da assistência.",
+   "a Razão de Mortalidade Materna, concentrando o planejamento na ampliação da cobertura da Estratégia Saúde da Família, por representar a principal estratégia para reduzir esse indicador.",
+   "o Coeficiente de Mortalidade Geral Feminina, priorizando ações voltadas à redução das desigualdades socioeconômicas da população."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 94,
+  "enunciado": "Mulher de 42 anos, com artrite reumatoide moderada, retorna à Unidade Básica de Saúde (UBS) trazendo relatório do ambulatório de reumatologia, para onde havia sido encaminhada há seis meses. No documento, o especialista descreve o ajuste da terapia imunossupressora e solicita à equipe da Atenção Primária à Saúde (APS) o monitoramento laboratorial mensal da função hepática e hematológica, com retorno ao serviço especializado em um ano. Diante desse cenário, qual deve ser a conduta mais adequada do médico da UBS?",
+  "alternativas": [
+   "Assumir o acompanhamento longitudinal da paciente, solicitar os exames laboratoriais na rotina da UBS e utilizar as informações da contrarreferência para coordenar o cuidado em conjunto com a Atenção Especializada.",
+   "Realizar o monitoramento laboratorial solicitado e reavaliar a paciente mensalmente, ficando a UBS responsável por ajustar as doses das medicações imunossupressoras conforme os resultados dos exames.",
+   "Solicitar os exames laboratoriais mensalmente, orientando a paciente a retirar os resultados na UBS e levá-los diretamente ao guichê do ambulatório de especialidades para avaliação do reumatologista.",
+   "Acolher a paciente e realizar o monitoramento laboratorial proposto, desde que a UBS disponha de protocolo municipal instituído que autorize o manejo compartilhado de Medicamentos Modificadores do Curso da Doença (MMCD).",
+   "Agendar consultas trimestrais na UBS para renovação das receitas dos imunossupressores, postergando a solicitação dos exames laboratoriais para o mês que antecede o retorno ao especialista."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 95,
+  "enunciado": "Homem de 44 anos, repositor de mercadorias em supermercado, procura a Unidade Básica de Saúde com queixa de dor lombar há duas semanas, iniciada após esforço físico no trabalho. Refere piora ao final do dia e melhora parcial com repouso e analgésicos comuns, sem irradiação para membros inferiores. Ao exame: dor à palpação paravertebral lombar, Lasègue negativo bilateralmente, com força, reflexos e sensibilidade preservados. Nega febre, perda ponderal, trauma, alterações esfincterianas ou outros sinais de alerta. Diante desse quadro, a conduta inicial mais adequada é",
+  "alternativas": [
+   "solicitar radiografia da coluna lombar para excluir alterações degenerativas relacionadas ao esforço ocupacional e instituir tratamento conservador após a análise dos exames.",
+   "diagnosticar lombalgia mecânica inespecífica, orientar sobre o bom prognóstico, incentivar a manutenção das atividades habituais conforme a tolerância, associando medidas educativas e analgesia quando necessária.",
+   "prescrever anti-inflamatório não esteroidal e afastamento do trabalho por duas semanas, recomendando retorno às atividades apenas após resolução completa da dor.",
+   "instituir tratamento analgésico e encaminhar o paciente para fisioterapia, adiando orientações quanto à manutenção das atividades até reavaliação clínica.",
+   "encaminhar o paciente para avaliação ortopédica, considerando que a dor iniciou após esforço físico relacionado ao trabalho e pode caracterizar doença ocupacional."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 96,
+  "enunciado": "Gestante de 34 semanas, com pré-eclâmpsia, realiza pré-natal compartilhado entre a Unidade Básica de Saúde (UBS) e o ambulatório de especialidades. Após apresentar picos hipertensivos, cefaleia e alterações visuais no domicílio, é encaminhada pelo serviço móvel de urgência à maternidade de referência, onde é submetida à cesariana. Recebe alta hospitalar em boas condições clínicas e retorna à UBS para acompanhamento puerperal. Considerando a organização das Redes de Atenção à Saúde (RAS), assinale a alternativa correta.",
+  "alternativas": [
+   "A Atenção Primária à Saúde exerce a coordenação do cuidado, devendo acompanhar a puérpera após a alta, integrar as informações dos demais serviços e articular o seguimento com os outros pontos da rede, quando necessário.",
+   "O acompanhamento puerperal passa a ser atribuição exclusiva da maternidade que realizou o parto, cabendo à UBS retomar o cuidado apenas após a alta definitiva do serviço especializado.",
+   "A continuidade do cuidado depende da contrarreferência emitida pelo hospital; na sua ausência, a UBS deve aguardar novo encaminhamento antes de retomar o acompanhamento da paciente.",
+   "Como a paciente necessitou de atendimento hospitalar de alta complexidade, o seguimento clínico deve permanecer prioritariamente sob responsabilidade do serviço especializado até o término do puerpério.",
+   "O acompanhamento compartilhado entre APS e Atenção Especializada deve ocorrer apenas durante a gestação, sendo o puerpério de responsabilidade exclusiva da equipe hospitalar."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 97,
+  "enunciado": "Homem de 58 anos, portador de diabetes mellitus tipo 2 e insuficiência cardíaca, comparece à consulta ambulatorial trazendo a negativa de cobertura emitida pela operadora de seu plano de saúde para um medicamento de uso contínuo prescrito pelo cardiologista. A justificativa informa que o fármaco não integra o Rol de Procedimentos e Eventos em Saúde da Agência Nacional de Saúde Suplementar (ANS). O paciente questiona a médica residente sobre as atribuições da ANS e a cobertura assistencial dos planos privados de saúde. Assinale a alternativa correta.",
+  "alternativas": [
+   "A ANS regulamenta a saúde suplementar, estabelece e atualiza o Rol de Procedimentos e Eventos em Saúde que define a cobertura mínima obrigatória dos planos privados regulamentados e fiscaliza o cumprimento dessas normas pelas operadoras.",
+   "A ANS e a Conitec exercem conjuntamente a incorporação de tecnologias para o SUS e para a saúde suplementar, utilizando o mesmo processo decisório e os mesmos critérios técnicos.",
+   "A inclusão de medicamentos no Rol da ANS depende exclusivamente do registro sanitário concedido pela ANVISA, tornando obrigatória sua cobertura pelos planos privados.",
+   "O Rol de Procedimentos e Eventos em Saúde é elaborado pelas operadoras de planos de saúde e, posteriormente, homologado pela ANS, sem participação de instâncias técnicas ou consulta pública.",
+   "As operadoras de planos privados possuem autonomia para definir a cobertura mínima obrigatória, podendo ampliar ou restringir o Rol da ANS, conforme previsão contratual."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 98,
+  "enunciado": "Paciente de 45 anos, portador de artrite reumatoide grave, ajuíza ação judicial contra o Estado para obter imunobiológico de alto custo prescrito por reumatologista da rede privada. O medicamento não integra os Protocolos Clínicos e Diretrizes Terapêuticas (PCDT) do Sistema Único de Saúde (SUS), nem foi incorporado após avaliação da Comissão Nacional de Incorporação de Tecnologias no SUS (Conitec). Após o indeferimento do pedido administrativo, o juiz concede tutela provisória com base exclusivamente em laudo médico particular. À luz do direito sanitário e da jurisprudência sobre a judicialização da saúde, assinale a alternativa correta.",
+  "alternativas": [
+   "A existência de prescrição médica fundamentada e de registro sanitário na ANVISA é suficiente para impor ao Estado o fornecimento do medicamento, independentemente de sua incorporação ao SUS ou da existência de alternativas terapêuticas disponíveis.",
+   "O fornecimento judicial de medicamento não incorporado ao SUS depende da análise do caso concreto, observando, entre outros aspectos, a existência de evidências científicas de eficácia, o registro sanitário na ANVISA, a inexistência de alternativa terapêutica incorporada ao SUS e os demais critérios estabelecidos pela jurisprudência dos tribunais superiores.",
+   "A ausência de incorporação do medicamento pela Conitec impede, por si só, seu fornecimento por decisão judicial, uma vez que a avaliação técnico-científica substitui a apreciação jurisdicional da controvérsia.",
+   "A decisão judicial deve se limitar à verificação da existência de prescrição médica e da incapacidade financeira do paciente, não cabendo ao Poder Judiciário analisar critérios técnicos relacionados à incorporação de tecnologias ou às políticas públicas de saúde.",
+   "O fornecimento judicial de medicamentos não incorporados ao SUS somente é admissível quando houver manifestação favorável prévia da Conitec ou revisão administrativa dos Protocolos Clínicos e Diretrizes Terapêuticas (PCDT)."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 99,
+  "enunciado": "Durante a territorialização de uma microárea de alta vulnerabilidade, a equipe de Saúde da Família realizou uma Estimativa Rápida Participativa (ERP) para mapear lideranças, recursos comunitários e os principais problemas de saúde percebidos pela população. Paralelamente, na Unidade Básica de Saúde, uma médica residente atende um adolescente de 16 anos com crises recorrentes de ansiedade. Ao elaborar o genograma e o ecomapa, identifica que o jovem reside com a mãe e o padrasto, com quem mantém relação conflituosa; evadiu da escola; tem pouco contato com o pai biológico; e mantém forte vínculo de apoio com a avó materna e com um projeto social de capoeira do bairro. Considerando a finalidade e a interpretação dessas ferramentas na Atenção Primária à Saúde, assinale a alternativa correta.",
+  "alternativas": [
+   "O genograma representa a estrutura e as relações familiares, sendo utilizado para identificar vínculos de parentesco e padrões de transmissão familiar de doenças, enquanto as relações de apoio com pessoas sem parentesco devem ser representadas no ecomapa.",
+   "A Estimativa Rápida Participativa utiliza informações provenientes de diferentes fontes, incluindo dados secundários e informações obtidas diretamente junto à comunidade, constituindo instrumento voltado, principalmente, ao diagnóstico clínico individual dos usuários acompanhados pela equipe.",
+   "O ecomapa complementa o genograma ao representar as relações da família com pessoas, instituições e recursos comunitários, sendo utilizado, principalmente, para identificar vínculos hereditários e padrões de transmissão familiar das doenças.",
+   "O ecomapa complementa o genograma ao representar as relações da família com o meio, evidenciando que a avó materna e o projeto social de capoeira constituem importantes pontos de apoio para o plano de cuidado do adolescente.",
+   "O conflito entre o adolescente e o padrasto deve ser representado no genograma, enquanto o ecomapa destina-se exclusivamente à representação das relações da família com instituições e equipamentos da rede de atenção."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 100,
+  "enunciado": "Em um município de 50 mil habitantes, foram notificados 120 casos de dengue nos meses de janeiro e fevereiro. A maior concentração ocorreu no bairro Jardim das Flores, caracterizado por elevada densidade populacional e condições precárias de saneamento. A maioria dos casos foi registrada em adultos de 20 a 39 anos. Para investigar a associação entre as condições socioambientais e a ocorrência da doença, a equipe de vigilância comparou a frequência de casos nesse bairro com a observada em outro bairro do município, de características demográficas semelhantes, porém com melhores condições de saneamento. Considerando os conceitos epidemiológicos, assinale a alternativa correta.",
+  "alternativas": [
+   "A descrição dos casos segundo tempo, lugar e pessoa constitui etapa da epidemiologia descritiva; entretanto, a comparação entre bairros quanto às condições de saneamento caracteriza estudo de coorte retrospectiva, pois utiliza populações previamente expostas a diferentes níveis de risco.",
+   "A utilização de bairros como unidades de comparação impede a formulação de hipóteses causais, restringindo a investigação à epidemiologia descritiva, ainda que sejam avaliadas diferenças de exposição entre os territórios.",
+   "A descrição dos casos segundo tempo, lugar e pessoa pertence à epidemiologia descritiva, enquanto a comparação entre bairros, utilizando grupos populacionais como unidades de análise para investigar associação entre exposição e ocorrência da doença, caracteriza estudo ecológico analítico.",
+   "A comparação entre bairros com diferentes condições de saneamento caracteriza estudo caso-controle ecológico, pois a exposição é avaliada em nível coletivo e a ocorrência da doença é comparada entre populações distintas.",
+   "A investigação corresponde a estudo transversal analítico, pois a exposição ambiental e a ocorrência dos casos são avaliadas, simultaneamente, em diferentes populações do município."
+  ],
+  "imagem": false,
+  "area": "prev"
+ }
+]

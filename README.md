@@ -20,19 +20,24 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/susp/` (projeto `susp`; git em `main`, remoto privado `crispinekkovendas-blip/med-susp`) |
 | PDFs prontos | https://susp.vercel.app/pdf/caderno-ped.pdf (`prev`, `cir`, `go`, `cm` também): uma apostila por área, paginada, com o índice dizendo a página de cada ficha — links no painel do caderno |
 
-## Números (2026-10-07)
+## Números (2026-11-26, volume 2 de Pediatria)
 
-| Área | SUS-SP 2026 | SUS-SP 2021 | UNESP 2026 | Einstein 2026 | Einstein 2025 | Total |
-|---|---|---|---|---|---|---|
-| Pediatria | 20 | 5 | 11 | 8 | 6 | 50 |
-| Medicina Preventiva e Social | 19 | 6 | 12 | 6 | 7 | 50 |
-| Cirurgia | 17 | 8 | 11 | 7 | 7 | 50 |
-| Ginecologia e Obstetrícia | 20 | 5 | 11 | 7 | 7 | 50 |
-| Clínica Médica | 16 | 9 | 10 | 8 | 7 | 50 |
-| **Total** | **92** | **33** | **55** | **36** | **34** | **250** |
+| Área | SUS-SP 2026 | SUS-SP 2021 | UNESP 2026 | Einstein 2026 | Einstein 2025 | Sírio-Libanês 2026 | Sírio-Libanês 2027 | UNESP 2025 | FAMEMA 2026 | Total |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Pediatria | 20 | 5 | 11 | 8 | 6 | 15 | 15 | 10 | 10 | 100 |
+| Medicina Preventiva e Social | 19 | 6 | 12 | 6 | 7 | 0 | 0 | 0 | 0 | 50 |
+| Cirurgia | 17 | 8 | 11 | 7 | 7 | 0 | 0 | 0 | 0 | 50 |
+| Ginecologia e Obstetrícia | 20 | 5 | 11 | 7 | 7 | 0 | 0 | 0 | 0 | 50 |
+| Clínica Médica | 16 | 9 | 10 | 8 | 7 | 0 | 0 | 0 | 0 | 50 |
+| **Total** | **92** | **33** | **55** | **36** | **34** | **15** | **15** | **10** | **10** | **300** |
 
-Figuras: 250 (uma por questão). Sobre a matéria: 250 (uma por questão,
-1.800–3.600 caracteres de texto cada). Páginas das apostilas (PDFs de
+As cinco primeiras colunas são o **volume 1** (questões 01–50 de cada área, o
+banco impresso em 2026-10-27, que não muda); as quatro seguintes alimentam só o
+**volume 2** (questões 51–100), pedido pelo usuário em 2026-11-26 ("250
+questões diferentes") e feito área por área — Pediatria primeiro.
+
+Figuras: 300 (uma por questão). Sobre a matéria: 300 (uma por questão,
+1.800–3.600 caracteres de texto cada). Hoje o banco tem **300 questões**. Páginas das apostilas (PDFs de
 2026-10-27 com as opções padrão — Sobre a matéria depois do comentário,
 figuras, QR codes, quadriculado — contadas e conferidas pelo `pdf.py`):
 Pediatria 157, Preventiva 166, Cirurgia 164, GO 161, Clínica Médica 165
@@ -40,9 +45,10 @@ Pediatria 157, Preventiva 166, Cirurgia 164, GO 161, Clínica Médica 165
 mais o PDF completo. A folha
 de respostas desenha 225 bolhas para as 50 de Pediatria (25 × 5 + 25 × 4).
 
-Ids `ped01–ped50`, `prev01–prev50`, `cir01–cir50`, `go01–go50`, `cm01–cm50`; dentro da área,
+Ids `ped01–ped100`, `prev01–prev50`, `cir01–cir50`, `go01–go50`, `cm01–cm50`; dentro da área,
 as fontes na ordem de `meta.fontes` (SUS-SP 2026, SUS-SP 2021, UNESP 2026,
-Einstein 2026, Einstein 2025), cada grupo pelo número da questão na prova —
+Einstein 2026, Einstein 2025 e, só no volume 2, Sírio-Libanês 2026, Sírio-Libanês
+2027, UNESP 2025 e FAMEMA 2026), cada grupo pelo número da questão na prova —
 os 25 primeiros ids de cada área são o banco original do SUS-SP, os 25
 seguintes a rodada das outras provas (Clínica Médica, acrescentada em
 2026-10-07, segue a mesma ordem: cm01–cm25 do SUS-SP 2026 e 2021, cm26–cm50
@@ -55,6 +61,19 @@ temas que o bloco de 2026 não tocou. Das outras três provas entraram 25 por á
 de 6 a 12 por prova), escolhidas para cobrir o que os 100 primeiros não
 cobriam, fora as anuladas e as que dependem de figura; a lista e o motivo de
 cada escolha estão em `ferramentas/selecao.md`.
+
+**Volume 2 (2026-11-26).** As questões 51–100 de cada área vêm **só das quatro
+fontes novas**, acrescentadas ao fim de `meta.fontes` — assim os ids 01–50, que
+estão impressos nas apostilas e nos QR codes, nunca mudam de lugar. Pediatria:
+`ped51–ped65` Sírio-Libanês 2026 (bloco 41–60), `ped66–ped80` Sírio-Libanês
+2027 (bloco 41–60), `ped81–ped90` UNESP 2025 (bloco 1–20), `ped91–ped100`
+FAMEMA 2026 (bloco 33–48); fora as anuladas (Sírio 2027: 41 e 55; UNESP 2025:
+8 e 10; FAMEMA: 48), as que dependem de figura (UNESP 2025: 16 e 18; FAMEMA:
+40, cujo monitor é imagem) e as que repetiam tema do volume 1 ou de outra
+escolhida (`selecao.md`, "## Volume 2"). O caderno ganhou a opção **Volume**
+(todos · 1 · 2), e `pdf.py` imprime a área com mais de 50 questões em dois
+arquivos: `caderno-<area>.pdf` (volume 1, o mesmo de antes) e
+`caderno-<area>-2.pdf`.
 
 ## Arquivos
 
@@ -155,6 +174,22 @@ própria EPM-UNIFESP; a VUNESP só assume no PSRM 2026-2027, prova em
 29/11/2026), o HRPP 2026 (sem caderno público), a FAMERP (Fundatec) e as
 provas de pré-requisito (nível de especialista).
 
+**As fontes do volume 2 (2026-11-26)**, todas com caderno oficial da VUNESP em
+espelho público (os PDFs da Medway são re-digitados pelo cursinho e não servem):
+**Sírio-Libanês 2026** (prova 002 de acesso direto, 22/11/2025, 100 questões de
+**cinco** alternativas; caderno no QConcursos; gabarito de 25/11/2025 e edital de
+recursos de 15/12/2025: anuladas 9, 17, 63 e 78, 67 alterada para D),
+**Sírio-Libanês 2027** (27/09/2026, cinco alternativas; caderno e gabarito no
+Estratégia MED; o edital de resultado de 21/10/2026 traz o gabarito após os
+recursos, anuladas 23, 34, 41, 55, 75 e 99), **UNESP 2025** (30/11/2024, quatro
+alternativas; despacho de recursos de 06/12/2024: anuladas 8, 10, 54 e 79, seis
+letras trocadas) e **FAMEMA 2026** (08/12/2025, quatro alternativas; o caderno
+que em setembro só existia na área do candidato apareceu no QConcursos; edital de
+recursos de 21/12/2025: anuladas 48, 50, 55 e 64, 98 alterada para C). Em
+reserva, fora de `meta.fontes`: Einstein 2027 (02/11/2026, à espera do edital de
+recursos) e UNESP 2024 (sem despacho de recursos público). Detalhes, URLs e md5
+em `ferramentas/cadernos/FONTES.md`.
+
 O caderno do SUS-SP 2026 tem 100 questões em blocos fixos de 20 (Clínica
 Médica 1–20, Cirurgia 21–40, Pediatria 41–60, GO 61–80, Preventiva 81–100);
 o de 2021 tem os mesmos blocos em outra ordem (Preventiva 1–20, CM 21–40, GO
@@ -166,7 +201,13 @@ UNESP 2026 não titula os blocos: pelo conteúdo, Pediatria 1–20, GO 21–40, 
 siglas nas páginas 3–4, texto compartilhado nas 98–100, alternativas da 87
 são imagens). Os do Einstein têm 75 questões em blocos de 15 (CM 1–15,
 Cirurgia 16–30, Pediatria 31–45, GO 46–60, Preventiva 61–75), com os títulos
-de bloco em caixa trocada no de 2026.
+de bloco em caixa trocada no de 2026. Os do Sírio-Libanês têm blocos de 20
+(CM 1–20, Cirurgia 21–40, Pediatria 41–60, GO 61–80, Saúde Coletiva 81–100),
+começam na página 2 e, em 2027, numeram `QUESTÃO  04` sozinho na linha (estilo
+`questao-linha` do extrator); o da UNESP 2025 repete o mapa de 2026; o da FAMEMA
+tem blocos de 16 (CM 1–16, Cirurgia 17–32, Pediatria 33–48, GO 49–64, Preventiva
+65–80) mais Saúde Mental 81–90 e Medicina de Emergência 91–100, que entram no
+bloco `cm`.
 
 ## O modelo de uma questão
 

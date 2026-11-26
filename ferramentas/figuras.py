@@ -286,6 +286,57 @@ CONSULTAS = {
   "cm48": ["aspiration pneumonia chest radiograph", "pneumonia chest x-ray consolidation right lower lobe", "lobar pneumonia radiograph"],
   "cm49": ["hemorrhagic transformation stroke CT", "intracerebral hemorrhage CT", "cerebral infarction CT hemorrhage"],
   "cm50": ["defibrillator synchronized cardioversion", "cardioversion paddles", "defibrillator pads patient"],
+  # --- Volume 2 · Pediatria (ped51–ped100): Sírio-Libanês 2026 e 2027, UNESP 2025, FAMEMA 2026 ---
+  "ped51": ["toddler walking holding hands", "baby first steps with support"],
+  "ped52": ["infant nasal saline irrigation", "bronchiolitis infant"],
+  "ped53": ["pediatric chest auscultation stethoscope child", "doctor listening child lungs"],
+  "ped54": ["zinc sulfate tablets", "oral rehydration salts sachet"],
+  "ped55": ["measles vaccine vial MMR", "measles rash child"],
+  "ped56": ["urine dipstick nitrite test", "infant urine sample collection"],
+  "ped57": ["intravenous drip child hospital", "pediatric intravenous infusion"],
+  "ped58": ["pediatric intensive care unit monitor", "child patient monitor vital signs"],
+  "ped59": ["diazepam ampoule", "diazepam injection vial"],
+  "ped60": ["pediatric defibrillator pads", "defibrillator paddles child manikin"],
+  "ped61": ["child blood pressure measurement cuff", "pediatric blood pressure cuff"],
+  "ped62": ["scarlet fever strawberry tongue", "scarlet fever rash"],
+  "ped63": ["benzathine penicillin vial", "emergency contraception levonorgestrel"],
+  "ped64": ["umbilical venous catheter neonate", "umbilical cord catheter newborn"],
+  "ped65": ["doctor talking with teenage patient", "adolescent medical consultation"],
+  "ped66": ["Heimlich maneuver child", "abdominal thrusts choking child"],
+  "ped67": ["microcytic anemia blood smear", "hypochromic microcytic red blood cells"],
+  "ped68": ["Ringer's lactate bag", "intravenous fluid bag lactated Ringer"],
+  "ped69": ["child head CT scan normal", "CT scanner pediatric patient"],
+  "ped70": ["high flow nasal cannula infant", "nasal cannula baby oxygen"],
+  "ped71": ["atropine sulfate injection ampoule", "organophosphate pesticide bottle"],
+  "ped72": ["respiratory syncytial virus electron micrograph", "RSV virion"],
+  "ped73": ["inactivated polio vaccine vial", "IPV vaccine injection infant"],
+  "ped74": ["thermometer child fever", "infant axillary temperature"],
+  "ped75": ["breastfeeding latch newborn", "mother breastfeeding infant"],
+  "ped76": ["asthma inhaler spacer child", "metered dose inhaler spacer"],
+  "ped77": ["child lining up toy cars", "autism child playing alone"],
+  "ped78": ["neonatal phototherapy jaundice", "newborn under blue light phototherapy"],
+  "ped79": ["pulse oximeter infant foot", "pediatric pulse oximetry sensor"],
+  "ped80": ["Treponema pallidum dark field microscopy", "Treponema pallidum electron micrograph"],
+  "ped81": ["neonatal transport incubator ambulance", "transport incubator newborn"],
+  "ped82": ["vitamin K injection newborn", "phytomenadione ampoule"],
+  "ped83": ["iron supplement drops infant", "ferrous sulfate oral drops"],
+  "ped84": ["newborn heel prick test", "Guthrie card blood spot"],
+  "ped85": ["Aedes aegypti mosquito", "Aedes aegypti feeding"],
+  "ped86": ["renal ultrasound small kidney", "kidney ultrasound scan child"],
+  "ped87": ["urticaria wheals child", "urticaria hives skin"],
+  "ped88": ["Bordetella pertussis colonies", "pertussis vaccine Tdap vial"],
+  "ped89": ["Mycobacterium tuberculosis Ziehl-Neelsen", "acid-fast bacilli microscopy"],
+  "ped90": ["cavernous sinus anatomy", "orbital cellulitis child eye"],
+  "ped91": ["toddler sleeping crib", "child asleep bed night"],
+  "ped92": ["atopic dermatitis child flexural", "eczema antecubital fossa child"],
+  "ped93": ["bone age hand radiograph child", "left hand X-ray bone age"],
+  "ped94": ["acetylcysteine injection", "paracetamol tablets 750 mg"],
+  "ped95": ["pediatric emergency room resuscitation", "intravenous fluid bolus child"],
+  "ped96": ["sodium chloride infusion bag", "hyponatremia serum sodium laboratory"],
+  "ped97": ["PICC line arm", "peripherally inserted central catheter"],
+  "ped98": ["herpes simplex virus electron micrograph", "neonatal herpes vesicles"],
+  "ped99": ["breastfeeding newborn jaundice", "newborn jaundice skin"],
+  "ped100": ["cyanotic newborn", "transposition of the great arteries diagram"],
 }
 
 MIN_LADO = 400
@@ -536,6 +587,37 @@ CONSULTAS12 = {
 }
 
 
+CONSULTAS13 = {
+  # Volume 2 · Pediatria (2026-11-26): ids sem candidata na primeira rodada, ou com uma só fora do assunto
+  "ped52": ["bronchiolitis", "infant nasal suction bulb", "baby runny nose"],
+  "ped54": ["zinc supplement", "oral rehydration solution", "zinc tablets"],
+  "ped58": ["patient monitor hospital", "vital signs monitor", "pediatric intensive care"],
+  "ped60": ["defibrillator", "automated external defibrillator", "manual defibrillator paddles"],
+  "ped61": ["blood pressure measurement", "sphygmomanometer cuff", "blood pressure child"],
+  "ped63": ["penicillin injection", "benzathine benzylpenicillin", "levonorgestrel emergency contraception"],
+  "ped64": ["umbilical catheter", "neonatal intensive care unit", "newborn resuscitation"],
+  "ped65": ["doctor consultation teenager", "adolescent health clinic", "doctor talking to patient"],
+  "ped68": ["Ringer's solution", "intravenous therapy", "IV fluid bag"],
+  "ped69": ["CT scan head", "computed tomography scanner", "head CT scan normal"],
+  "ped70": ["high-flow nasal cannula", "nasal cannula infant", "oxygen therapy infant"],
+  "ped71": ["atropine", "organophosphate", "pesticide bottle"],
+  "ped73": ["inactivated polio vaccine", "poliomyelitis vaccine", "polio vaccination"],
+  "ped74": ["child fever thermometer", "digital thermometer", "sick child"],
+  "ped77": ["autism", "child playing alone", "toy cars lined up"],
+  "ped79": ["pulse oximeter", "pulse oximeter finger", "oximeter infant"],
+  "ped81": ["neonatal transport incubator", "transport incubator", "newborn incubator ambulance"],
+  "ped82": ["vitamin K", "phytomenadione", "newborn injection thigh"],
+  "ped83": ["ferrous sulfate", "iron supplement", "iron drops"],
+  "ped86": ["renal ultrasound", "kidney ultrasonography", "ultrasound kidney"],
+  "ped88": ["Bordetella pertussis", "whooping cough", "pertussis vaccine"],
+  "ped91": ["sleeping toddler", "child sleeping", "baby sleeping crib"],
+  "ped92": ["atopic dermatitis", "eczema arm", "atopic eczema child"],
+  "ped94": ["paracetamol", "acetaminophen tablets", "acetylcysteine"],
+  "ped95": ["pediatric emergency department", "emergency room child", "child hospital bed intravenous"],
+  "ped96": ["saline bag", "sodium chloride infusion", "intravenous saline"],
+}
+
+
 def candidatos2(tabela=None):
     c = json.load(open(CANDIDATOS, encoding="utf-8"))
     for qid, buscas in (tabela or CONSULTAS2).items():
@@ -647,6 +729,8 @@ if __name__ == "__main__":
         candidatos2(CONSULTAS11)
     elif modo == "candidatos12":
         candidatos2(CONSULTAS12)
+    elif modo == "candidatos13":
+        candidatos2(CONSULTAS13)
     elif modo == "escolher":
         escolher()
     elif modo == "baixar":

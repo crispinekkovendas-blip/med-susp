@@ -94,6 +94,7 @@ def texto_de_apoio(bruto):
 ESTILOS = {
     "ponto": r"(?m)^(\d{2,3})\.\t[ ]*",              # "01.<TAB>" (SUS-SP, Einstein)
     "questao": r"(?m)^QUESTÃO[  ]+(\d{2,3})\t[ ]*",  # "QUESTÃO 03<TAB>" (UNESP; espaço fino U+2009)
+    "questao-linha": r"(?m)^[ ]*QUESTÃO[  ]+(\d{2,3})[ ]*\n",  # "QUESTÃO  04" sozinho na linha, enunciado na seguinte (Sírio-Libanês 2027, Einstein 2027)
 }
 
 def separar_questoes(texto, estilo="ponto"):

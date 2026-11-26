@@ -29,7 +29,7 @@ const exige = (c, m) => { n++; if (!c) erro(m); };
 
 /* quantas questões cada área deve ter: 1 no esboço; a tarefa de conteúdo de
    cada área sobe para o número final dela */
-const ESPERADO = { ped: 50, prev: 50, cir: 50, go: 50, cm: 50 };
+const ESPERADO = { ped: 100, prev: 50, cir: 50, go: 50, cm: 50 };   /* 100 = volume 1 (01–50) + volume 2 (51–100) */
 /* "Sobre a matéria": opcional enquanto as 200 estão sendo escritas; vira
    obrigatória (true) quando todas existirem */
 const EXIGE_MATERIA = true;
@@ -594,7 +594,9 @@ const todos = (el, sel) => el.querySelectorAll(sel);
        Completo — nada de URL crua nem vírgula (filhos aninhados em h() pedem flat(Infinity)) */
     const pdfs = app.querySelector(".pdfs");
     const linksPdf = pdfs ? todos(pdfs, "a") : [];
-    exige(!!pdfs && linksPdf.length === AREAS.length && AREAS.every((a, i) => linksPdf[i].textContent === a.nome && linksPdf[i].attrs.href === `../pdf/caderno-${a.id}.pdf`) && !/Completo|completo/.test(pdfs.textContent), 'a linha "PDF pronto" do painel não traz um link com o nome de cada área mais o Completo');
+    /* um link por área e, nas áreas com volume 2 (mais de 50 questões), um segundo link "(vol. 2)" para caderno-<area>-2.pdf */
+    const linksEsperados = AREAS.flatMap(a => Q.filter(q => q.area === a.id).length > 50 ? [[a.nome, `../pdf/caderno-${a.id}.pdf`], [a.nome + " (vol. 2)", `../pdf/caderno-${a.id}-2.pdf`]] : [[a.nome, `../pdf/caderno-${a.id}.pdf`]]);
+    exige(!!pdfs && linksPdf.length === linksEsperados.length && linksEsperados.every(([t, href], i) => linksPdf[i].textContent === t && linksPdf[i].attrs.href === href) && !/Completo|completo/.test(pdfs.textContent), 'a linha "PDF pronto" do painel não traz um link por área (e um "(vol. 2)" nas áreas com mais de 50 questões), sem o Completo');
     exige(!!pdfs && !/\.pdf|http|object/.test(pdfs.textContent), 'a linha "PDF pronto" do painel vaza texto cru (URL ou objeto): filhos aninhados sem flat(Infinity)');
     exige(!!todos(app, "a").find(a => a.attrs.href === "../videos/" && a.textContent.includes("revisão")), "o painel do caderno não tem o link para a página de revisão dos vídeos");
     const seqAreas = qs.map(f => IDS_AREA.indexOf((Q.find(x => x.id === f.attrs["data-id"]) || {}).area));

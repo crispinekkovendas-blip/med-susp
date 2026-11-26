@@ -39,5 +39,20 @@ module.exports = {
     { id: "einstein2025", edicao: 2025, rotulo: "Einstein 2025",
       txt: "Processo Seletivo 2025 — Programas de Residência Médica do Hospital Israelita Albert Einstein, prova escrita objetiva 001 de acesso direto (VUNESP, 20/10/2024), 75 questões de quatro alternativas; gabarito após a análise dos recursos, edital de 11/2024 (anuladas 11, 31, 44 e 45)",
       caderno: "ferramentas/cadernos/einstein2025.txt", gabarito: "ferramentas/cadernos/einstein2025-gabarito.txt" },
+    /* Volume 2 (2026-11-26): as fontes abaixo só alimentam as questões 51–100 de
+       cada área. A ordem é fixa — os ids dependem dela — e nenhuma fonte entra
+       antes destas, porque os ids 01–50 estão impressos nas apostilas. */
+    { id: "sirio2026", edicao: 2026, rotulo: "Sírio-Libanês 2026",
+      txt: "Processo Seletivo 2026 — Residência Médica do Hospital Sírio-Libanês (São Paulo e Brasília), prova objetiva 002 de acesso direto (VUNESP, 22/11/2025), 100 questões de cinco alternativas; gabarito de 25/11/2025 com o edital de análise de recursos de 15/12/2025 (anuladas 9, 17, 63 e 78; questão 67 alterada para D)",
+      caderno: "ferramentas/cadernos/sirio2026.txt", gabarito: "ferramentas/cadernos/sirio2026-gabarito.txt" },
+    { id: "sirio2027", edicao: 2027, rotulo: "Sírio-Libanês 2027",
+      txt: "Processo Seletivo 2027 — Residência Médica do Hospital Sírio-Libanês (São Paulo e Brasília), prova objetiva 002 de acesso direto (VUNESP, 27/09/2026), 100 questões de cinco alternativas; gabarito após a análise dos recursos, edital de 21/10/2026 (anuladas 23, 34, 41, 55, 75 e 99)",
+      caderno: "ferramentas/cadernos/sirio2027.txt", gabarito: "ferramentas/cadernos/sirio2027-gabarito.txt" },
+    { id: "unesp2025", edicao: 2025, rotulo: "UNESP 2025",
+      txt: "Residência Médica 2025 — Faculdade de Medicina de Botucatu (UNESP), prova escrita objetiva 001 de áreas básicas / acesso direto (VUNESP, 30/11/2024), 100 questões de quatro alternativas; gabarito de 02/12/2024 com o despacho de recursos de 06/12/2024 (anuladas 8, 10, 54 e 79; alteradas 55 para A, 56 para C, 67 para B, 70 para D, 73 e 75 para C)",
+      caderno: "ferramentas/cadernos/unesp2025.txt", gabarito: "ferramentas/cadernos/unesp2025-gabarito.txt" },
+    { id: "famema2026", edicao: 2026, rotulo: "FAMEMA 2026",
+      txt: "Processo Seletivo 2026 — Programas de Residência Médica da Faculdade de Medicina de Marília (FAMEMA), prova objetiva 001 de áreas básicas e acesso direto (VUNESP, 08/12/2025), 100 questões de quatro alternativas; gabarito de 09/12/2025 com o edital de análise de recursos de 21/12/2025 (anuladas 48, 50, 55 e 64; questão 98 alterada para C)",
+      caderno: "ferramentas/cadernos/famema2026.txt", gabarito: "ferramentas/cadernos/famema2026-gabarito.txt" },
   ],
 };

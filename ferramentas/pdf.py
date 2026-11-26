@@ -41,11 +41,19 @@ def servidor():
         except OSError: time.sleep(0.1)
     p.kill(); raise SystemExit("o http.server não subiu")
 
-def rotulos(area):
-    """as etiquetas de origem das fichas da área, na ordem do caderno"""
+def questoes_da_area(area):
     import json
     r = subprocess.run(["node", os.path.join(RAIZ, "ferramentas", "questoes_json.js")], capture_output=True, text=True, encoding="utf-8")
-    qs = [q for q in json.loads(r.stdout) if q["area"] == area]
+    return [q for q in json.loads(r.stdout) if q["area"] == area]
+
+def numero_na_area(q):
+    return int("".join(c for c in q["id"] if c.isdigit()))
+
+def rotulos(area, volume=None):
+    """as etiquetas de origem das fichas da área (ou só do volume: 1 = ids 01–50, 2 = 51–100), na ordem do caderno"""
+    qs = questoes_da_area(area)
+    if volume == 1: qs = [q for q in qs if numero_na_area(q) <= 50]
+    if volume == 2: qs = [q for q in qs if numero_na_area(q) > 50]
     return ["%s · Questão %02d" % (q["rotulo"], q["numero"]) for q in qs]
 
 def inicios(caminho, etiquetas):
@@ -106,16 +114,20 @@ if __name__ == "__main__":
     p = servidor(); erros = 0
     try:
         for a in pedidas:
-            ets = rotulos(a); nome = "caderno-%s.pdf" % a; caminho = os.path.join(RAIZ, "pdf", nome)
+          # área com mais de 50 questões sai em dois PDFs: caderno-<area>.pdf (volume 1, ids 01–50, o mesmo arquivo de antes) e caderno-<area>-2.pdf (volume 2)
+          volumes = [None] if len(questoes_da_area(a)) <= 50 else [1, 2]
+          for vol in volumes:
+            ets = rotulos(a, vol); nome = "caderno-%s.pdf" % a if vol in (None, 1) else "caderno-%s-2.pdf" % a; caminho = os.path.join(RAIZ, "pdf", nome)
+            consulta = "area=" + a + ("" if vol is None else "&volume=%d" % vol); etiqueta = a if vol is None else "%s vol. %d" % (a, vol)
             # 1ª passada: só para ler onde cada ficha começa
-            if imprimir(nome, "area=" + a) is None: erros += 1; continue
+            if imprimir(nome, consulta) is None: erros += 1; continue
             ini = inicios(caminho, ets)
-            if None in ini: print("   !", a, "ficha sem etiqueta na 1ª passada", flush=True); erros += 1; continue
+            if None in ini: print("   !", etiqueta, "ficha sem etiqueta na 1ª passada", flush=True); erros += 1; continue
             # 2ª passada: o índice exato, pela URL
-            if imprimir(nome, "area=%s&paginas=%s" % (a, ",".join(map(str, ini)))) is None: erros += 1; continue
+            if imprimir(nome, "%s&paginas=%s" % (consulta, ",".join(map(str, ini)))) is None: erros += 1; continue
             problemas = conferir_pdf(caminho, ets)
-            for pr in problemas: print("   !", a, pr, flush=True)
-            print("   %s: %s" % (a, "índice e rodapé conferem" if not problemas else "%d problema(s)" % len(problemas)), flush=True)
+            for pr in problemas: print("   !", etiqueta, pr, flush=True)
+            print("   %s: %s" % (etiqueta, "índice e rodapé conferem" if not problemas else "%d problema(s)" % len(problemas)), flush=True)
             erros += len(problemas)
     finally:
         p.kill()

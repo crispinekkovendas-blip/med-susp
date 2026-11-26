@@ -396,7 +396,7 @@
      É o destino do botão "Abrir a questão no site" da página v/ (links curtos
      dos QR codes). O filtro volta para "todas", para o alvo estar na lista. */
   function irParaAlvo() {
-    const m = /^#([a-z]+\d{2})$/i.exec(String((window.location && window.location.hash) || ""));
+    const m = /^#([a-z]+\d{2,3})$/i.exec(String((window.location && window.location.hash) || ""));   /* ped07 … ped100 */
     const alvo = m && porId[m[1].toLowerCase()];
     if (!alvo) return false;
     if (estado.simulado) return false;                 /* no simulado o link não interrompe a prova */

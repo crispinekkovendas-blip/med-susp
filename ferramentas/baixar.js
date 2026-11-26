@@ -23,6 +23,24 @@ const ARQUIVOS = [
   ["einstein2025-caderno.pdf", "https://arquivos.qconcursos.com/prova/arquivo_prova/132851/vunesp-2024-einstein-residencia-medica-acesso-direto-prova.pdf"],
   ["einstein2025-gabarito-preliminar.pdf", "https://arquivos.qconcursos.com/prova/arquivo_gabarito/132851/vunesp-2024-einstein-residencia-medica-acesso-direto-gabarito.pdf"],
   ["einstein2025-resultado.pdf", "https://www.grupomedcof.com.br/blog/wp-content/uploads/2024/10/Resultado-HIAE-2025.pdf"],
+  /* Volume 2 (2026-11-26): Sírio-Libanês 2026 e 2027 (cinco alternativas), UNESP 2025 e FAMEMA 2026 (quatro) */
+  ["sirio2026-caderno.pdf", "https://arquivos.qconcursos.com/prova/arquivo_prova/153309/vunesp-2025-hospital-sirio-libanes-residencia-medica-acesso-direto-prova.pdf"],
+  ["sirio2026-gabarito-preliminar.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2025/11/HSLI2502_306_20251125081735.pdf.pdf"],
+  ["sirio2026-recursos.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2025/12/respostas-recursos-sirio-2026.pdf"],
+  ["sirio2027-caderno.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2026/09/prova_ad_sirio2027.pdf"],
+  ["sirio2027-gabarito-preliminar.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2026/09/gabarito_ad_sirio2027.pdf"],
+  ["sirio2027-resultado.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2026/10/HSLI2601_306_20261021192544.pdf.pdf"],
+  ["unesp2025-caderno.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2024/12/prova_AD_unesp.pdf"],
+  ["unesp2025-gabarito-preliminar.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2024/12/gabaritopre_AD_unesp.pdf"],
+  ["unesp2025-recursos.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2024/12/gabarito-definitvo-unesp.pdf"],
+  ["famema2026-caderno.pdf", "https://arquivos.qconcursos.com/prova/arquivo_prova/143769/vunesp-2025-famema-residencia-medica-areas-basicas-e-acesso-direto-prova.pdf"],
+  ["famema2026-gabarito-preliminar.pdf", "https://arquivos.qconcursos.com/prova/arquivo_gabarito/143769/vunesp-2025-famema-residencia-medica-areas-basicas-e-acesso-direto-gabarito.pdf"],
+  ["famema2026-recursos.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2026/01/FMMA2503_306_20251221182350.pdf.pdf"],
+  /* reserva (ainda fora de meta.fontes): Einstein 2027 espera o edital de resultado dos recursos; UNESP 2024 não tem despacho de recursos público */
+  ["einstein2027-caderno.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2026/11/provaad_hiae2027.pdf"],
+  ["einstein2027-gabarito-preliminar.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2026/11/gabaritospreliminar_hiae2027.pdf"],
+  ["unesp2024-caderno.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2023/11/Unesp-2024.pdf"],
+  ["unesp2024-gabarito-preliminar.pdf", "https://med.estrategia.com/portal/wp-content/uploads/2023/11/gabarito_preliminar_UNESP-1.pdf"],
 ];
 function baixar(url, destino, saltos = 0) {
   return new Promise((ok, falha) => {

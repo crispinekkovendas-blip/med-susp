@@ -1,0 +1,1202 @@
+[
+ {
+  "numero": 1,
+  "enunciado": "RN de 35 semanas recebeu reanimação neonatal em sala de parto com dois ciclos de ventilação pulmonar com pressão positiva. AP: pré-eclâmpsia materna, parto cesáreo. Exame físico aos 12 minutos de vida: desconforto respiratório com batimento de aleta nasal moderada, tiragem intercostal e subdiafragmática, murmúrio vesicular presente bilateralmente e gemência expiratória, SatO2: 94%, FC: 140 bpm, FR: 60 irpm, Tax: 36,6 ºC. A conduta inicial envolve",
+  "alternativas": [
+   "oferta de oxigênio inalatório para obter SatO2 acima de 95%.",
+   "cateter nasal de oxigênio 1-2 L/min e início de antibióticos na primeira hora de vida.",
+   "suporte respiratório com CPAP, com concentração de oxigênio a 21%.",
+   "CPAP nasal com concentração de oxigênio a 30% e aumento da temperatura do berço de reanimação."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 2,
+  "enunciado": "RN, com 10 dias de vida, apresenta pele e olhos amarelados. Recebe leite materno em livre demanda, e mãe relata que o RN mama pouca quantidade, acorda muitas vezes e parece estar sempre com fome. Ela diz que apresenta dor no mamilo ao amamentar. AP: nascido de 36 semanas, peso de 2 800 g, tipagem sanguínea: mãe: A+ e RN: O+, 2 dias em alojamento conjunto. Exame físico: BEG, icterícia (++/++++) até região umbilical. P: 2 600 g. O diagnóstico e a conduta devem ser, respectivamente:",
+  "alternativas": [
+   "icterícia do leite materno; manter o aleitamento materno e realizar banhos de sol 2x/dia em horários com baixa radiação ultravioleta.",
+   "hiperbilirrubinemia relacionada à baixa ingesta; orientar a mãe quanto à técnica de amamentação e reavaliar o RN em retorno próximo.",
+   "provável crise de hemólise por incompatibilidade sanguínea A-O; realizar fototerapia e acompanhar o nível da bilirrubina.",
+   "icterícia do leite materno; suspender o aleitamento materno por 12 a 24 horas e reavaliar o paciente após esse período."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 3,
+  "enunciado": "RN de 33 semanas com peso de 1 400 g, que nasceu assistido em maternidade de nível secundário, evolui com desconforto respiratório. Exame físico com 6 horas de vida: estável em CPAP nasal com 50% de oxigênio, SatO2: 90%, T: 36 ºC, HGT: 25 mg/dL. Em relação ao transporte desse RN, é correto afirmar:",
+  "alternativas": [
+   "não há necessidade de transferência, pois o RN está estável.",
+   "deve-se intubar o RN e transferi-lo para que receba surfactante em serviço terciário.",
+   "deve-se calcular o risco de morte pelo escore Ca-TRIPS para decidir a necessidade de transferência.",
+   "deve-se transferir o RN após solicitação de vaga, consentimento materno e estabilização dele."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 4,
+  "enunciado": "RN de 39 semanas, com peso de nascimento de 3 450 g, foi amamentado na primeira hora de vida. A prescrição de vitamina K injetável é indicada para prevenção da",
+  "alternativas": [
+   "forma clássica da doença hemorrágica do recém-nascido.",
+   "plaquetopenia aloimune.",
+   "forma precoce da doença hemorrágica do recém-nascido.",
+   "forma tardia da doença hemorrágica do recém-nascido."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 5,
+  "enunciado": "Lactente de 6 meses está em aleitamento materno exclusivo (AME) e iniciará introdução da alimentação complementar. AP: pré-natal e parto sem intercorrências, nascido a termo com peso de 3 020 g. Peso atual: 8 900 g. A recomendação de suplementação de ferro é",
+  "alternativas": [
+   "desnecessária por não haver fatores de risco e pelo RN ter recebido AME.",
+   "de 1 mg/kg/dia de ferro elementar, via oral, longe da mamada, de agora até o 24o mês de idade.",
+   "de 2 mg/kg/dia de sulfato ferroso, via oral, a qualquer horário do dia, de agora até o 24o mês de idade.",
+   "de 1 mg/kg/dia de ferro elementar, via oral, se o aleitamento materno for suspenso, até o 24o mês de idade."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 6,
+  "enunciado": "Lactente de 20 dias de vida reside no Brasil e apresenta, no resultado do teste do pezinho, TSH de 15 mUI/L. AP: nascido a termo com peso de 3 050 g, sem intercorrências, em aleitamento materno exclusivo. Sobre o Programa Nacional de Triagem Neonatal (PNTN) e a conduta correta para o caso, é correto afirmar:",
+  "alternativas": [
+   "o teste do pezinho, o da orelhinha, da linguinha e do coraçãozinho devem ser realizados por todas as crianças e estão disponíveis pelo SUS no Brasil; deve-se iniciar o tratamento com levotiroxina e coletar TSH e T4L de sangue periférico em 15 dias.",
+   "o teste do pezinho disponível no SUS analisa, na maioria das cidades do Brasil, fenilcetonúria, hipotireoidismo congênito, anemia falciforme, hiperplasia adrenal congênita, deficiência de biotinidase e fibrose cística; deve-se investigar histórico do paciente, fazer exame físico e coletar TSH e T4L de sangue periférico.",
+   "o teste do pezinho está sendo realizado pelo SUS, na maioria das cidades do país, assim como todos os exames, até a 5a etapa (atrofia muscular espinhal); deve-se realizar exame físico e coletar exames complementares, incluindo a tireoglobulina.",
+   "atualmente, o teste do pezinho realizado no Brasil, pelo SUS, na maioria das cidades do país, inclui o teste de triagem neonatal genética para doenças com tratamentos disponíveis; deve-se investigar histórico do paciente, fazer exame físico e coletar TSH e T4L de sangue periférico."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 7,
+  "enunciado": "Menina de 1 ano e 3 meses e irmão de 4 anos estão com febre baixa (37,8 ºC a 38,0 ºC), que cede com dipirona, e sem apetite há dois dias. AP: crianças hígidas, sem internação prévia. AF: pai teve dengue há 15 dias. Teste rápido para dengue para ambas as crianças: positivo. Exame físico: prova do laço negativo em ambas, hidratadas, eupneicas, PA normal. A classificação e o tratamento da dengue, além do uso de dipirona ou paracetamol se houver febre e a não utilização de anti-inflamatórios, são:",
+  "alternativas": [
+   "menina e irmão: grupo A; TRO em casa, orientar sinais de alerta para retorno em serviço de saúde se necessário, coletar hemograma e sorologia no sexto dia de doença, com reavaliação a seguir.",
+   "menina: grupo B, irmão: grupo A; menina: coletar e verificar hematócrito, iniciar TRO supervisionada; se não estiver hemoconcentrado, orientar TRO; reavaliação em 24 h; irmão: realizar TRO em casa e orientar sinais de alerta para retorno, coletar hemograma e sorologia no sexto dia de doença; reavaliação em 72 h.",
+   "menina: grupo B, irmão: grupo A; para ambos: coletar e verificar hematócrito; se estiver alterado, iniciar TRO no serviço com orientação para uso em casa se houver boa aceitação; retorno no sexto dia para coleta de sorologia.",
+   "menina e irmão: grupo B; para ambos: coletar hemograma e orientar TRO em casa; reavaliação em 24/48h para verificação do exame; se hematócrito estiver alterado, realizar hidratação IV com soro fisiológico 0,9% e coletar novo hemograma; retorno no sexto dia da doença com coleta de sorologia e verificação do hematócrito."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 8,
+  "enunciado": "Menino de 8 anos em retorno para verificar exames. AP: síndrome de West, em uso de valproato de sódio (dose adequada para o peso); encefalopatia crônica não progressiva de grau 3; anemia megaloblástica pregressa. Exame físico: eutrófico. A relação correta entre os resultados dos exames, o diagnóstico e a conduta correta é:",
+  "alternativas": [
+   "Hb: 12,2 g/dL, ferro sérico: 93 mcg/dL, ferritina: 33 ng/mL, 25-OH vitamina D: 20 ng/mL; deficiência de vitamina D; suplementação de vitamina D: 1 000 UI por dia por 3 meses.",
+   "Hb: 11,5 g/dL, ferro sérico: 93 mcg/dL, ferritina: 30 ng/mL, 25-OH vitamina D: 20 ng/mL; anemia ferropriva; suplementação de ferro elementar: 5 mg/kg/dia por 3 meses.",
+   "Hb: 12,2 g/dL, ferro sérico: 93 mcg/dL, ferritina: 15 ng/mL, 25-OH vitamina D: 33 ng/mL; deficiência de vitamina D e anemia ferropriva; suplementação de vitamina D: 1 000 UI por dia por 3 meses e de ferro elementar: 5 mg/kg/dia por 3 meses.",
+   "Hb: 11,5 g/dL, ferro sérico: 93 mcg/dL, ferritina: 30 ng/mL, 25-OH vitamina D: 33 ng/mL; anemia ferropriva; suplementação de ferro elementar: 5 mg/kg/dia por 3 meses."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 9,
+  "enunciado": "Menino de 8 anos apresenta febre alta, dor de garganta, vômitos e cefaleia há 24 h. Está em uso de amoxacilina há 24 h. Exame físico: hipoativo, faringe hiperemiada com placas esbranquiçadas sobre as amígdalas, língua saburrosa com papilas evidentes e adenomegalia cervical, exantema micropapular avermelhado em todo o tegumento, que poupa região perioral e some à digitopressão, acentuado nas pregas poplíteas e na região cubital. O diagnóstico e a conduta corretos são, respectivamente:",
+  "alternativas": [
+   "mononucleose infecciosa; uso de sintomáticos.",
+   "farmacodermia; suspensão do antibiótico e uso de corticoide.",
+   "sarampo; vitamina A.",
+   "escarlatina; penicilina benzatina."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 10,
+  "enunciado": "RN com 48 horas de vida é submetido ao teste do coraçãozinho com os seguintes resultados: MSD SatO2: 96%, MIE SatO2: 91%. Segundo as recomendações da Sociedade Brasileira de Pediatria (2022), deve-se considerar o resultado",
+  "alternativas": [
+   "normal e dar alta hospitalar para o RN.",
+   "alterado e dar alta hospitalar para o RN com encaminhamento para especialista.",
+   "alterado e fazer um ecocardiograma imediatamente.",
+   "alterado, e deve-se repetir o exame em uma hora. Se ainda alterado, realizar um ecocardiograma."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 11,
+  "enunciado": "Menina de 20 dias de vida comparece a uma consulta de rotina, e é solicitada a medida da PA por aparelho oscilométrico. AP: nasceu de cesárea, gestação de 39 semanas sem intercorrências, grande para a idade gestacional. Com relação à indicação para aferir a PA e a escolha pelo aparelho utilizado, respectivamente, é correto afirmar:",
+  "alternativas": [
+   "a indicação é necessária; a escolha é adequada.",
+   "a indicação é necessária; a escolha é inadequada.",
+   "a indicação não é necessária; a escolha é adequada.",
+   "a indicação não é necessária; a escolha é inadequada."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 12,
+  "enunciado": "Menina de 10 anos apresenta inapetência, palidez, sonolência, baixo rendimento escolar há 6 meses, diminuição da diurese há 5 dias. AP: infecções urinárias febris dos 4 aos 8 meses de idade; POT: correção de refluxo vesico-ureteral com 1 ano. Exame físico: peso e estatura no percentil 25, PA: 112 x 80 mmHg (PAS entre percentil 90 e 95 e PAD entre percentil 95 e 95+12 mmHg), REG, descorada +2/+4, sem edemas, sopro cardíaco +1/+6. Exames laboratoriais: GV: 2,34 x 106/mm3, Hb: 7,5 g/dL, Ht: 24%, plaquetas: 136 000/mm3, Cr: 1,5 mg/dL, Ur: 50 mg/dL, urina: densidade de 1 001, pH: 6,5, nitrito e leucoesterase negativos, proteína +2, leucócitos: 10/campo, hemácias: 8/campo. US de rins e vias urinárias: tamanhos diminuídos, não apresenta diferenciação córtico-medular. O diagnóstico e a causa básica são, correta e respectivamente:",
+  "alternativas": [
+   "injúria aguda do rim; glomerulonefrite rapidamente progressiva.",
+   "injúria aguda do rim; síndrome hemolítica urêmica atípica.",
+   "doença renal crônica; hipertensão arterial sistêmica.",
+   "doença renal crônica; anomalias congênitas do trato urinário."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 13,
+  "enunciado": "Criança apresenta lesões elevadas, com edema central de tamanho variável, algumas circundadas por eritema, com retorno da pele ao seu aspecto normal em 12 horas. O diagnóstico e a etiologia são, correta e respectivamente:",
+  "alternativas": [
+   "urticária aguda; infecciosa.",
+   "angioedema agudo; alergia ao leite de vaca.",
+   "urticária aguda; dermografismo.",
+   "angioedema agudo; picada de inseto."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 14,
+  "enunciado": "A conduta correta em relação ao aumento de casos de coqueluche no Brasil consiste em",
+  "alternativas": [
+   "administrar a pentavalente, esquema vacinal composto por três doses (aos 2, 4 e 6 meses de vida), seguidas de reforços com a vacina DTPw aos 15 meses e aos 4 anos de idade, além da vacinação de gestantes, puérperas e de profissionais da área da saúde, com a dTpa.",
+   "manter a vigilância sobre os casos suspeitos como a principal medida para prevenir o aumento da doença em todas as faixas etárias, visto que, em 2023, as vacinas apresentaram aumento da cobertura, em comparação com o ano de 2022.",
+   "realizar ações de alerta aos profissionais de saúde da área assistencial, investigar contatos de casos confirmados, ofertar tratamento oportuno em casos suspeitos.",
+   "manter a administração da pentavalente, esquema vacinal composto por três doses (aos 2, 4 e 6 meses de vida), seguidas de reforços com a vacina DTPw aos 15 meses e aos 4 anos de idade, a fim de prevenir óbitos em lactentes."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 15,
+  "enunciado": "Lactente de 5 meses, internada por quadro de dispneia e sibilância, sem febre, inapetência ou perda de peso. Fez uso de antibiótico, por sete dias, para tratar possível pneumonia. Após duas semanas da alta hospitalar, manteve os sintomas e apresentou febre ao entardecer e taquidispneia, então foi reinternada. Exame físico: desconforto respiratório com tiragem subcostal; à ausculta, MV reduzido em base esquerda e crepitações, principalmente em hemitórax esquerdo. Necessitou de oxigenoterapia com cateter nasal e de prescrição de antibióticos. Exames complementares: raio X (figura a seguir). AP: hígida, peso no percentil 50 e comprimento no percentil 50-10. (Arquivo pessoal; imagem usada com autorização) A: raio X em anteroposterior revelando opacidade em praticamente todo o pulmão esquerdo, poupando parte do lobo superior, obliterando contorno cardíaco. B: raio X em anteroposterior e perfil com a evolução 15 dias depois, evidenciando a resolução parcial do processo consolidativo, com surgimento de pequenas cavernas de permeio e alguns broncogramas aéreos. Para elucidação diagnóstica, as próximas condutas devem ser:",
+  "alternativas": [
+   "solicitar TC de tórax e escarro com baciloscopia para BAAR, realizar IGRA (Interferon-Gamma Release Assay) e, se o resultado for positivo, suspender a antibioticoterapia e iniciar RIP (rifampicina, isoniazida e pirazinamida) nas doses adequadas para a idade; realizar a vacinação BCG; solicitar raio X de tórax e escarro materno.",
+   "solicitar TC de tórax, hemocultura e cultura de secreções, solicitar painel viral e avaliar o uso de novo antibiótico em conformidade com o antibiograma, se houver cultura positiva. Conferir teste de triagem neonatal e realizar dosagem de sódio e cloro no suor, realizar triagem para vírus da imunodeficiência humana (HIV) e investigar óbitos fetais pregressos ou outros filhos com doenças na família.",
+   "solicitar TC de tórax, coletar lavados gástricos consecutivos com baciloscopia para BAAR, realizar teste rápido molecular (TRM-TB) e, se o resultado for positivo, suspender a antibioticoterapia e iniciar esquema com RIP, nas doses adequadas para a idade; conferir vacinação BCG, realizar triagem para HIV, solicitar raio X de tórax e escarro materno e investigar vínculos epidemiológicos.",
+   "solicitar TC de tórax, coletar lavados gástricos consecutivos com baciloscopia para BAAR, realizar IGRA e, se resultado positivo, suspender a antibioticoterapia e iniciar esquema com rifampicina, isoniazida e etambutol, nas doses adequadas para a idade; coletar líquor e iniciar corticoide se necessário; investigar vínculos epidemiológicos."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 16,
+  "enunciado": "Adolescente de 13 anos apresenta lesões na região anterior e posterior do dorso (figura A) há um ano, assintomáticas. Exame direto: figura B. Figura A (Arquivo pessoal; imagem usada com autorização) Figura B (Arquivo pessoal; imagem usada com autorização) Com base nesse contexto, assinale a alternativa correta.",
+  "alternativas": [
+   "O tratamento de escolha é terbinafina oral.",
+   "Trata-se de micose superficial causada por fungos dermatófitos.",
+   "O sinal de Nikolsky é positivo nessa dermatose.",
+   "Ao exame micológico direto, evidenciam-se pseudo-hifas e esporos."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 17,
+  "enunciado": "Menino de 15 anos de idade apresenta surdez genética neurossensorial em altas frequências acompanhada de nefrite progressiva. A síndrome genética que deve ser considerada é a de",
+  "alternativas": [
+   "Pendred.",
+   "Alport.",
+   "Usher.",
+   "Waardenburg."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 18,
+  "enunciado": "Menino de 8 anos apresenta quadro progressivo de cefaleia, vômitos e dificuldade de marcha há duas semanas. Exame físico: BEG, escala de coma de Glasgow: 14, marcha atáxica, dismetria e decomposição de movimentos bilateralmente, reflexos patelares em pêndulo. Ressonância magnética de encéfalo conforme a imagem a seguir. (Arquivo pessoal; imagem usada com autorização) A hipótese diagnóstica correta é",
+  "alternativas": [
+   "glioblastoma.",
+   "neuroblastoma.",
+   "astrocitoma pilocítico.",
+   "meningioma."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 19,
+  "enunciado": "Adolescente de 18 anos queixa-se de sentir, há uma semana, obstrução nasal à direita, secreção purulenta por essa fossa nasal e cefaleia. Exame fisico: febre alta, edema palpebral importante, perda visual, diminuição na motilidade ocular e sinais meníngeos. A suspeita diagnóstica correta é de",
+  "alternativas": [
+   "trombose de seio cavernoso.",
+   "celulite periorbital.",
+   "abscesso subperiosteal.",
+   "abscesso orbital."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 20,
+  "enunciado": "Lactente de 7 meses apresenta lacrimejamento excessivo em olho esquerdo (OE). AP: nascida com 35 semanas de IG, parto cesáreo. Exame ocular: cílios grudados, filme lacrimal aumentado em OE, sem lesões de superfície ocular, presença de secreção à expressão do canto medial do OE. O diagnóstico correto é",
+  "alternativas": [
+   "glaucoma congênito.",
+   "conjuntivite química.",
+   "dacrioestenose congênita.",
+   "oftalmia neonatal."
+  ],
+  "imagem": false,
+  "area": "ped"
+ },
+ {
+  "numero": 21,
+  "enunciado": "Primigesta comparece à segunda consulta de pré-natal em 12.03.24. Ultrassom: idade gestacional compatível com a data da última menstruação (DUM: 26.01.24). A idade gestacional e a data provável do parto (DPP) são, respectivamente,",
+  "alternativas": [
+   "6 semanas e 4 dias; 01.11.24.",
+   "7 semanas e 2 dias; 30.10.24.",
+   "6 semanas e 5 dias; 26.10.24.",
+   "7 semanas; 26.10.24."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 22,
+  "enunciado": "Primigesta de 18 anos está, em 20.06.24, com 12 semanas de gestação. Ela apresenta a carteira de vacinação a seguir. dT dupla adulto (tétano e difteria) dTpa (tétano, difteria e coqueluche) Data Jan/2020 Influenza Hepatite B Rubéola Covid-19 Jan/2020 (1a dose) Abr/2019 Nov/23 (4a dose) Abr/2020 Abr/2023 Mai/2023 A recomendação sobre a imunização nessa gravidez é: Abr/2020 (2a dose)",
+  "alternativas": [
+   "terceira dose da dT; influenza; covid-19; a partir da 20a semana, dTpa.",
+   "influenza; covid-19 (5a dose); terceira dose da hepatite B.",
+   "terceiras doses da dT e da hepatite B; influenza; covid-19 (5a dose).",
+   "influenza e covid-19; 3a dose da hepatite B; a partir da 20a semana, a dTpa."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 23,
+  "enunciado": "Mulher de 38 anos teve o diagnóstico de diabetes gestacional com 25 semanas. Retorna 40 dias pós-parto para verificação do teste de tolerância oral à glicoce (75 g), cujos valores são: glicemia de jejum de 99 mg/dL e glicemia de 2 horas de 155 mg/dL. O resultado do exame é compatível com",
+  "alternativas": [
+   "o normal.",
+   "diabetes.",
+   "intolerância à glicose.",
+   "glicemia de jejum alterada."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 24,
+  "enunciado": "Tercigesta secundípara de 36 anos, com 11 semanas de gravidez, apresenta glicemia de jejum de 94 mg/dL. AP: macrossomia em gestação anterior. A conduta correta consiste em",
+  "alternativas": [
+   "realizar imediatamente um teste de tolerância oral à glicose (75 g).",
+   "orientar mudança de estilo de vida e fazer controle da glicemia.",
+   "realizar teste de tolerância oral à glicose com 24 semanas.",
+   "solicitar hemoglobina glicada e prescrever metformina."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 25,
+  "enunciado": "Primigesta de 22 anos procura o pronto atendimento da maternidade com 33 semanas e 2 dias relatando sentir cólicas em baixo-ventre. AP: parto a termo em gestação anterior. Exame físico: altura uterina de 31 cm, feto único, situação longitudinal, dorso à esquerda e apresentação cefálica. Dinâmica uterina: uma contração de 25 segundos em 10 minutos. Toque vaginal: colo uterino posterior, grosso, pérvio: 1,5 cm. A conduta correta é:",
+  "alternativas": [
+   "corticoterapia, apenas.",
+   "inibição do trabalho de parto, apenas.",
+   "liberação com orientações.",
+   "inibição do trabalho de parto, corticoterapia e neuroproteção."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 26,
+  "enunciado": "Puérpera apresenta temperatura axilar de 37,9 ºC. AP: sexto dia pós-parto cesariano (gestação de 39 semanas e parada secundária da descida com 12 horas de bolsa rota). Exame físico: BEG, temperatura sublingual: 37,2 ºC, FC: 72 bpm, mamas túrgidas, flácidas e sem sinais flogísticos, abdome semigloboso, depressível, indolor à palpação profunda, útero palpável 2 a 3 cm acima do bordo superior da sínfise púbica, ferida operatória sem sinais flogísticos, loquiação sem odor fétido. Toque vaginal: útero móvel, indolor à mobilização, colo pérvio: 1,5 cm. Hemograma: Ht: 33%, Hb: 11,2 g/dL, leucócitos: 12 400/mm3, neutrófilos: 6 800/mm3, bastões: 0/mm3. A conduta correta é:",
+  "alternativas": [
+   "internação e antibioticoterapia.",
+   "internação para rastreio infeccioso.",
+   "antibioticoterapia oral e reavaliação em 3 dias.",
+   "orientar curva térmica sublingual e retorno se necessário."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 27,
+  "enunciado": "Primigesta de 19 anos, na 32a semana de gestação, procura atendimento em unidade de pronto atendimento com queixa de cefaleia persistente há dois dias acompanhada de visão de pontos brilhantes e dor na região do estômago. Exame físico: REG, edema de membros inferiores e mãos (++/4+), PA: 140 x 90 mmHg. Considerando o diagnóstico e a necessidade de transferência da gestante para outro serviço, a conduta clínica correta é a administração de",
+  "alternativas": [
+   "sulfato de magnésio, 4 g IV, apenas.",
+   "sulfato de magnésio, 4 g IV + 10 g IM.",
+   "hidralazina, 5 mg IV.",
+   "benzodiazepínico, 10 mg IV."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 28,
+  "enunciado": "Primigesta de 22 anos, com 14 semanas de gestação de risco habitual, assintomática, apresenta cultura de urina positiva, com mais de 100 000 UFC/mL, cujo agente identificado foi Escherichia coli, ESBL positivo (antibiograma a seguir). Antimicrobianos Resultado Amicacina Sensível, dose padrão Amoxacilina/Ácido Clavulânico Sensível, dose padrão Ampicilina Resistente Cefalexina Resistente Cefepima Resistente Ceftriaxona Resistente Cefuroxima Resistente Ciprofloxacina Sensível, dose padrão Ertapenem Sensível, dose padrão Gentamicina Sensível, dose padrão Imipenem Sensível, dose padrão Levofloxacina Sensível, dose padrão Nitrofurantoína Sensível, dose padrão Norfloxacina Resistente Piperacilina/Tazobactan Sensível, dose padrão Sulfametoxazol/Trimetoprin Resistente O tratamento correto é",
+  "alternativas": [
+   "intra-hospitalar, com carbapenêmicos.",
+   "intra-hospitalar, com amoxacilina/ácido clavulânico.",
+   "ambulatorial, com carbapenêmicos.",
+   "ambulatorial, com amoxacilina/ácido clavulânico."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 29,
+  "enunciado": "Secundigesta de 29 anos, com 20 semanas de gestação, está assintomática. AP: máculas e pápulas eritematosas em várias partes do corpo, incluindo as regiões palmo-plantares há 8 meses, que desapareceram sem tratamento. Exame físico sem lesões de pele. Sorologia para sífilis: teste treponêmico reagente, VDRL: 1/128. O diagnóstico e o tratamento corretos são, respectivamente:",
+  "alternativas": [
+   "sífilis latente com duração ignorada; penicilina benzatina na dose total de 7,2 milhões UI, IM.",
+   "sífilis latente com duração ignorada; penicilina benzatina na dose total de 4,8 milhões UI, IM.",
+   "sífilis secundária recente; penicilina benzatina na dose total de 7,2 milhões UI, IM.",
+   "sífilis secundária recente; penicilina benzatina na dose total de 4,8 milhões UI, IM."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 30,
+  "enunciado": "Mulher de 51 anos relata fogachos moderados, principalmente noturnos, acompanhados de insônia, irritabilidade e cefaleia. AP: trombose em membro inferior direito, última menstruação há 18 meses. IMC: 30,6 kg/m2. Densitometria óssea em coluna lombar com T-score de –2,6 desvios-padrão e colo de fêmur com T-score de –1,68 desvios-padrão, mamografia BI-RADS I. Em relação à terapia hormonal, é correto afirmar que ela está",
+  "alternativas": [
+   "indicada para o alívio dos sintomas climatéricos.",
+   "indicada para tratamento da osteoporose.",
+   "contraindicada devido ao tromboembolismo.",
+   "contraindicada devido à obesidade."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 31,
+  "enunciado": "Mulher de 36 anos realizou rastreio de câncer de colo uterino com pesquisa de DNA HPV por PCR, cujo resultado foi positivo para o genótipo 16. A conduta correta é realizar",
+  "alternativas": [
+   "citologia oncótica.",
+   "colposcopia.",
+   "novo teste de DNA HPV em 1 ano.",
+   "exérese da zona de transformação."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 32,
+  "enunciado": "A Síndrome de Fitz-Hugh-Curtis",
+  "alternativas": [
+   "acomete, em média, 30% das pacientes com DIP (doença inflamatória pélvica) e está muito associada ao Mycoplasma hominis.",
+   "apresenta envolvimento leve do parênquima hepático, mas, em casos graves, pode evoluir para insuficiência do órgão.",
+   "traduz-se clinicamente por quadro de dor aguda em hipocôndrio direito, o que leva à confusão diagnóstica com colecistite aguda.",
+   "apresenta provas de função hepática alteradas essenciais para o diagnóstico e que costumam predizer a gravidade do quadro."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 33,
+  "enunciado": "As características típicas do câncer de mama luminal A são:",
+  "alternativas": [
+   "alta expressão de human epidermal growth factor receptor-type 2 (HER2) e baixo índice de proliferação celular.",
+   "baixa expressão de receptores hormonais de estrogênio e progesterona e alta taxa de proliferação celular (Ki-67).",
+   "ausência de receptores hormonais de estrogênio e progesterona e alta expressão de HER2.",
+   "alta expressão de receptores hormonais de estrogênio e progesterona e baixa taxa de proliferação celular (Ki-67)."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 34,
+  "enunciado": "Para que ocorra o ciclo menstrual com descamação cíclica e ordenada do endométrio, são necessárias as seguintes condições:",
+  "alternativas": [
+   "ausência de disfunções das glândulas adrenais, tireoidianas e paratireoidianas e ausência de anormalidades canaliculares.",
+   "integridade do eixo hipotálamo-hipófise-ovariano, ausência de disfunções tireoidianas e adrenais e ausência de anormalidades canaliculares.",
+   "ausência de disfunções das glândulas adrenais e tireoidianas e ausência de anormalidades canaliculares.",
+   "integridade do eixo hipotálamo-hipófise-ovariano e ausência de disfunções das glândulas adrenais, tireoidianas e paratireoidianas."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 35,
+  "enunciado": "Mulher de 34 anos com desejo reprodutivo queixa-se de sangramento uterino aumentado. AP: G0P0. EF: IMC: 38,7 kg/m2. Histeroscopia ambulatorial: lesão circunscrita bem delimitada de aspecto polipoide, em parede uterina fúndica anterior, intensamente friável e hipervascularizada, com sinais de atipias vasculares. Biópsia excisional da lesão e amostragem do endométrio adjacente: adenocarcinoma endometrial do tipo endometrioide, bem diferenciado, confinado ao pólipo, margens cirúrgicas livres. Estudo bimolecular: mutação do gene POLE. Considerando os achados e o desejo da paciente, é correto indicar",
+  "alternativas": [
+   "braquiterapia e radioterapia.",
+   "histerectomia total com salpingooforectomia, apenas.",
+   "histerectomia total com salpingooforectomia bilateral e pesquisa de linfonodo sentinela.",
+   "tratamento conservador com progestágenos contínuos por 6 meses e mudanças do estilo de vida."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 36,
+  "enunciado": "Em relação à investigação da paciente com suspeita clínica de endometriose, é correto afirmar que",
+  "alternativas": [
+   "o exame físico normal descarta o diagnóstico.",
+   "a laparoscopia é o exame padrão-ouro para o diagnóstico.",
+   "o tratamento clínico deve ser sempre instituído para controle da queixa álgica.",
+   "US transvaginal com preparo intestinal ou RM são indispensáveis para corroborar suspeita clínica."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 37,
+  "enunciado": "Adolescente de 13 anos e 3 meses relata nunca ter menstruado e não apresentar desenvolvimento de mamas e pelos pubianos. A conduta correta consiste em",
+  "alternativas": [
+   "iniciar a investigação, pois provavelmente se trata de alterações no eixo hipotálamo-hipófise-ovário.",
+   "aguardar até os 16 anos, sem necessidade de investigação.",
+   "iniciar a investigação, pois provavelmente se trata de malformação útero-vaginal.",
+   "aguardar, pois provavelmente se trata de retardo constitucional do desenvolvimento."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 38,
+  "enunciado": "Paciente de 30 anos, portadora de síndrome dos ovários policísticos (SOP), deseja engravidar. Está em uso de anticoncepcional combinado (ACO) e espironolactona. Quanto às recomendações pré-gestacionais apropriadas a essa paciente, assinale a alternativa correta.",
+  "alternativas": [
+   "A paciente não deve engravidar, pois tem alto risco de complicações gestacionais.",
+   "Deve-se suspender o ACO, manter a espironolactona e iniciar ácido fólico, apenas.",
+   "Deve-se suspender o ACO, manter a espironolactona, iniciar ácido fólico e realizar GTT.",
+   "Deve-se suspender o ACO e a espironolactona, iniciar ácido fólico e realizar GTT."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 39,
+  "enunciado": "Adolescente de 15 anos relata aumento da duração e do volume da menstruação. AP: menarca aos 12 anos e 6 meses, DUM há 2 meses. Os exames laboratoriais imprescindíveis na avaliação inicial são",
+  "alternativas": [
+   "FSH, TSH e PRL.",
+   "hemograma e BhCG.",
+   "hemograma e coagulograma.",
+   "nenhum; trata-se de imaturidade do eixo hipotálamo-hipófise-ovário."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 40,
+  "enunciado": "Com base na relação entre dispositivo intrauterino (DIU) e doença inflamatória pélvica, assinale a alternativa correta.",
+  "alternativas": [
+   "O DIU não precisa ser removido de rotina, mas a retirada deve ser considerada na ausência de melhora clínica após 48-72 h de antibioticoterapia.",
+   "O DIU deve ser removido imediatamente para diminuir o risco de disseminação bacteriana, especialmente em pacientes que desejam retirá-lo.",
+   "Há indicação de tratamento hospitalar para evitar abscesso tubo-ovariano e outras complicações dessa associação.",
+   "Estudos atuais mostram maior tempo de internação e maior taxa de abscesso tubo-ovariano em pacientes com DIU, especialmente DIU de cobre."
+  ],
+  "imagem": false,
+  "area": "go"
+ },
+ {
+  "numero": 41,
+  "enunciado": "Mulher de 45 anos apresenta melena e está hemodinamicamente estável, em tratamento com vasoconstritor. AP: cirrose por hepatite autoimune. EDA: 4 cordões varicosos de grosso calibre e gastropatia hipertensiva portal intensa. Além de fazer ligadura elástica das varizes esofágicas, deve-se",
+  "alternativas": [
+   "prescrever antibiótico profilático, se a paciente tiver ascite, e dar alta hospitalar.",
+   "trocar vasoconstritor por betabloqueador não seletivo e dar alta hospitalar.",
+   "prescrever betabloqueador não seletivo e antibiótico profilático, se a paciente tiver ascite.",
+   "manter vasoconstritor por 3 a 5 dias e antibiótico profilático e, a seguir, trocar por betabloqueador não seletivo."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 42,
+  "enunciado": "Homem de 73 anos apresenta dispneia e edema de membros inferiores há 2 meses, sendo diagnosticado com insuficiência cardíaca e derrame pleural moderado. Após tratamento com diurético, apresenta melhora do edema, mas persiste com dispneia e derrame pleural. É indicada toracocentese diagnóstica. AP: HAS e DM2. Deve-se realizar o cálculo do gradiente de albumina do líquido pleural para diferenciação entre transudato e exsudato devido",
+  "alternativas": [
+   "à idade avançada.",
+   "ao uso de diurético.",
+   "ao diagnóstico de diabetes.",
+   "à suspeita de neoplasia."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 43,
+  "enunciado": "Mulher de 52 anos apresenta febre de 38,5 ºC há 2 dias. AP: linfoma difuso de grandes células B, com 1o ciclo de quimioterapia há 8 dias. Exame físico: FC: 112 bpm, FR: 22 irpm, PA: 120 x 80 mmHg e desidratada +/4+. Deve-se",
+  "alternativas": [
+   "monitorizar clinicamente, já que a paciente está estável; não é necessário coletar exames e pode-se dar alta com antibioticoterapia empírica.",
+   "coletar hemograma devido à possibilidade de neutropenia febril e, se confirmar o diagnóstico, introduzir antibiótico.",
+   "iniciar antibioticoterapia de amplo espectro com cobertura para Pseudomonas na admissão.",
+   "monitorizar clinicamente, já que a paciente está estável; não é necessário coletar exames e pode-se dar alta com uso de antitérmico."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 44,
+  "enunciado": "Homem de 78 anos teve infecções respiratórias recorrentes no último ano, com duas pneumonias bacterianas nos últimos 6 meses. AP: HAS e DM2. Exames complementares: anemia normocítica e normocrômica e eletroforese de proteínas séricas com hipogamaglobulinemia, dosagem de cadeias leves livres com aumento de cadeia leve lambda e redução de cadeia leve kappa, com relação kappa/lambda alterada. O diagnóstico provável é",
+  "alternativas": [
+   "imunodeficiência comum variável.",
+   "gamopatia monoclonal.",
+   "lúpus eritematoso sistêmico.",
+   "imunodeficiência primária com defeito de anticorpos."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 45,
+  "enunciado": "Familiar de mulher de 86 anos informa que, há 4 dias, a paciente acordou à noite confusa e agitada, não reconhecendo a própria casa e alegando que o quarto estava cheio de cachorros barulhentos. Desde então, passou a necessitar de ajuda para fazer sua higiene pessoal, a não compreender as orientações e a perseverar na ideia de que precisava cuidar dos cachorros. Há 1 dia, está desatenta, apática, sonolenta, com dificuldade para deambular e com incontinência para fezes e urina. AP: ausência de distúrbios mentais prévios. Segundo o Confusion Assessment Method (CAM), para o diagnóstico do quadro descrito, são obrigatórios",
+  "alternativas": [
+   "pensamento desorganizado e dificuldade para focar a atenção.",
+   "modificação aguda do estado mental e apatia.",
+   "dificuldade para focar a atenção e dependência funcional.",
+   "modificação aguda do estado mental e dificuldade para focar a atenção."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 46,
+  "enunciado": "A seguir, são apresentados os valores de creatinina sérica de quatro pacientes com episódio de insulto renal agudo isquêmico tratado com medidas adequadas. Dias Valores de creatinina sérica (mg/dL) Paciente A Paciente B Paciente C Paciente D 1,0 1,0 4,0 3,0 3,0 3,0 7,0 7,0 5,5 1,0 10,0 7,0 7,0 1,0 10,0 8,0 7,0 1,0 10,0 8,0 7,0 1,0 10,0 8,0 3,8 1,0 4,0 8,0 1,5 1,0 4,0 10,0 1,0 1,0 4,0 10,0 Considerando IRA (injúria renal aguda), NTA (necrose tubular aguda), DRC (doença renal crônica) e DRA (doença renal aguda), a associação correta entre os pacientes (A, B, C e D) e seu diagnóstico nefrológico é:",
+  "alternativas": [
+   "A: IRA hemodinâmica; B: IRA intrínseca por NTA; C: DRC com IRA sobreposta; D: DRC.",
+   "A: DRC; B: IRA funcional; C: DRC com IRA sobreposta; D: DRA.",
+   "A: DRA; B: IRA hemodinâmica; C: DRC com IRA sobreposta; D: DRC com DRA sobreposta.",
+   "A: DRA; B: DRC com IRA sobreposta; C: IRA intrínseca por NTA; D: DRC com DRA sobreposta."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 47,
+  "enunciado": "Mulher de 36 anos apresenta dispneia aos esforços há 2 meses com piora progressiva e, há 2 dias, relata cefaleia occipital ao acordar. EF: ortopneia, cianose discreta de extremidades, confusão mental leve, FC: 120 bpm, FR: 27 irpm, PA: 268 x 134 mmHg em MSE e 272 x 138 mmHg em MSD, ictus desviado para a esquerda, presença de quarta bulha, sopro sistólico 2+/4+ em foco mitral, crepitações finas em ambas as bases pulmonares, fundo de olho com borramento de papila, exsudatos e hemorragias. Em relação ao diagnóstico imediato e à conduta correta, trata-se de hipertensão",
+  "alternativas": [
+   "acelerada/maligna e manejo hospitalar com medicações orais.",
+   "acelerada/maligna e manejo hospitalar com vasodilatador intravenoso.",
+   "resistente e manejo ambulatorial com medicações orais.",
+   "resistente e manejo hospitalar com vasodilatador intravenoso."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 48,
+  "enunciado": "Mulher de 68 anos relata tosse produtiva e febre há 3 dias. Exame físico: desorientação em tempo e espaço, FC: 75 bpm, FR: 24 irpm, SatO2: 93% em ar ambiente, PA: 130 x 70 mmHg, T: 38,1 ºC, ausculta pulmonar com murmúrio vesicular presente e crepitações em base esquerda. Exames laboratoriais: Hb: 13,5 g/dL, plaquetas: 205 mil/mm3, leucócitos: 13 800/mm3, PCR: 18 mg/dL, creatinina: 1,1 mg/dL, ureia: 56 mg/dL, sódio: 136 mEq/L. Gasometria arterial (ar ambiente): pH: 7,34, pO2: 65 mmHg, pCO2: 35 mmHg, bicarbonato: 18 mEq/L. A conduta correta consiste em iniciar antibioticoterapia com",
+  "alternativas": [
+   "azitromicina e em internação hospitalar.",
+   "azitromicina e em tratamento ambulatorial.",
+   "amoxicilina com clavulanato e azitromicina e em internação hospitalar.",
+   "amoxicilina com clavulanato e azitromicina e em tratamento ambulatorial."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 49,
+  "enunciado": "Homem de 42 anos apresenta lesões cutâneas (conforme figura a seguir) que se iniciaram há dois dias, com muita dor na região torácica à esquerda. AP: transplantado renal há 6 anos em uso de drogas imunossupressoras. (Arquivo pessoal; imagem usada com autorização) A conduta correta envolve",
+  "alternativas": [
+   "o uso de aciclovir endovenoso, na dose de 10 mg/kg a cada 8 horas, até melhora clínica.",
+   "apenas aguardar evolução do quadro, uma vez que se trata de doença autolimitada.",
+   "o uso de aciclovir tópico por 14 dias.",
+   "o uso de aciclovir oral na dose 200 mg cinco vezes ao dia por sete dias e analgesia."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 50,
+  "enunciado": "Mulher de 55 anos relata dor torácica intensa e dispneia súbita há 1 hora. Evolui com parada cardiorrespiratória em ritmo apresentado em ECG (conforme a imagem a seguir). (Arquivo pessoal; imagem usada com autorização) Após chamar ajuda, a sequência de medidas no atendimento deve ser a seguinte:",
+  "alternativas": [
+   "compressões torácicas, administração de epinefrina, compressões torácicas e administração de epinefrina.",
+   "desfibrilação, compressões torácicas, desfibrilação e administração de epinefrina.",
+   "intubação orotraqueal, compressões torácicas, administração de epinefrina e compressões torácicas.",
+   "desfibrilação, administração de amiodarona, compressões torácicas e administração de epinefrina."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 51,
+  "enunciado": "Mulher de 70 anos refere dor intensa em joelho direito há 2 dias, sem história de trauma prévio, acompanhada de edema e eritema no local. AP: artrite reumatoide soropositiva em remissão há 1 ano. Medicações em uso: leflunomida 20 mg/dia. Exame físico: joelho direito com sinal da tecla presente, amplitude de movimento reduzida e calor local. A principal hipótese diagnóstica e a conduta inicial devem ser:",
+  "alternativas": [
+   "artrite reumatoide em atividade; prednisona e metotrexato.",
+   "osteoartrite; analgésico e condroprotetor.",
+   "artrite gotosa; punção articular diagnóstica, análise do líquido sinovial, alopurinol e anti-inflamatório.",
+   "artrite séptica; punção articular diagnóstica, análise do líquido sinovial e antibioticoterapia."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 52,
+  "enunciado": "Homem de 23 anos refere dispneia iniciada há 30 minutos durante atividade física. Nega histórico de trauma. Nega procedimentos torácicos prévios. Exame físico: murmúrio vesicular presente em todo hemitórax direito e ausente no hemitórax esquerdo, percussão com som claro pulmonar no hemitórax direito e timpanismo no hemitórax esquerdo. Realizada ultrassonografia torácica a beira-leito, cujos achados esperados à direita e à esquerda são, respectivamente:",
+  "alternativas": [
+   "deslizamento pleural, linhas A e pulso pulmonar; deslizamento pleural, linhas B e pulso pulmonar.",
+   "deslizamento pleural, linhas A; deslizamento pleural ausente e ponto pulmonar.",
+   "deslizamento pleural ausente e linhas B; deslizamento pleural, linhas A e sinal da água-viva.",
+   "deslizamento pleural ausente, linhas A e ponto pulmonar; deslizamento pleural e linhas A."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 53,
+  "enunciado": "Homem de 50 anos com neoplasia de esôfago refere que está com dificuldade de deglutição há 2 meses e, por isso, opta por alimentos pastosos, sendo metade do que costumava comer anteriormente. Seu peso habitual era de 120 kg (IMC = 39 kg/ m2) e, atualmente, é de 90 kg (IMC = 29,4 kg/ m2). Segundo os critérios do Global Leadership Initiative in Malnutrition (GLIM), o paciente apresenta",
+  "alternativas": [
+   "sobrepeso.",
+   "risco nutricional.",
+   "desnutrição grave.",
+   "obesidade controlada."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 54,
+  "enunciado": "Homem de 52 anos refere dispneia aos esforços. AP: HAS, DM2 e obesidade. Exame físico: estase jugular 2+/4+, crepitações pulmonares em bases bilateralmente e edema de membros inferiores sem sinais inflamatórios. Radiografia de tórax: congestão pulmonar grave. Ecocardiograma: aumento de átrio esquerdo, aumento da espessura da parede do ventrículo esquerdo e fração de ejeção de 55%. Com o objetivo de aumentar a sobrevida, a melhor conduta para esse paciente é",
+  "alternativas": [
+   "introduzir inibidor da enzima conversora da angiotensina.",
+   "introduzir espironolactona.",
+   "introduzir inibidor da SGLT2.",
+   "tratar as comorbidades."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 55,
+  "enunciado": "Mulher de 63 anos refere ganho de peso e constipação. Não possui doenças prévias nem faz uso de medicamentos. Exames laboratoriais: TSH: 10,7 mU/L, T4 livre: 1,1 ng/dL (valores de referência: 0,7 – 1,4 ng/dL), anti-TPO: 23 UI/mL (valores normais abaixo de 35 UI/mL). Nesse caso, a conduta deve ser:",
+  "alternativas": [
+   "iniciar tratamento com levotiroxina para normalizar os níveis de TSH e aliviar os sintomas.",
+   "solicitar ultrassonografia de tireoide e indicar tratamento apenas em caso de alterações ecográficas difusas.",
+   "calcular o risco cardiovascular e iniciar tratamento com levotiroxina apenas em caso de a paciente apresentar alto risco.",
+   "monitorizar os níveis de TSH e T4 livre a cada 6-12 meses e iniciar tratamento apenas se houver progressão."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 56,
+  "enunciado": "Homem de 28 anos apresenta dificuldades em manter controle glicêmico adequado, com variações significativas da glicemia ao longo do dia, apesar do uso de múltiplas doses diárias de insulina e monitoramento contínuo da glicose. AP: DM1 sem complicações vasculares. Nesse caso, a prescrição de inibidores da SGLT-2 para melhora do controle glicêmico",
+  "alternativas": [
+   "está associada ao aumento de eventos de hipoglicemia grave.",
+   "promove redução da glicemia por efeito mediado pela insulina.",
+   "está associada ao aumento do risco de cetoacidose diabética.",
+   "promove aumento na taxa de filtração glomerular."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 57,
+  "enunciado": "Mulher de 62 anos refere dor epigástrica em queimação de forte intensidade com irradiação para região retroesternal e membros superiors, com duração, até o momento, de 50 minutos. Exame físico normal. ECG: infradesnivelamento de segmento ST maior que 1 mm em derivações inferiores. Considerando as diretrizes da Sociedade Europeia de Cardiologia para síndrome coronariana aguda, pode-se afirmar, corretamente, que",
+  "alternativas": [
+   "é possível inferir a artéria culpada pelo evento coronariano agudo a partir da alteração eletrocardiográfica descrita.",
+   "na evolução natural da isquemia miocárdica, a alteração eletrocardiográfica descrita é precedida de inversão simétrica de onda T.",
+   "a apresentação clínica e eletrocardiográfica desta paciente é compatível com suboclusão coronariana, não sendo possível a oclusão total.",
+   "a alteração eletrocardiográfica mencionada é compatível com lesão miocárdica do tipo isquemia."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 58,
+  "enunciado": "Assinale a alternativa correta sobre as medidas não farmacológicas para controle da hipertensão arterial sistêmica.",
+  "alternativas": [
+   "Em pacientes em uso de dieta rica em sódio, substituir cloreto de sódio por cloreto de potássio é recomendado para reduzir a pressão arterial e o risco cardiovascular.",
+   "A restrição de sal (cloreto de sódio) na dieta é recomendada para redução da pressão arterial, com restrição de menos de 4 gramas de cloreto de sódio, que corresponde a cerca de 1 grama de sódio.",
+   "É recomendado o consumo moderado de álcool para proteção cardiovascular.",
+   "Há evidência dos efeitos de exercício aeróbico na redução da hipertensão arterial e melhora do perfil cardiovascular, porém não para exercício resistido."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 59,
+  "enunciado": "Homem de 55 anos, agricultor, apresentou úlcera única, de bordas infiltradas, emolduradas e fundo granuloso na região pré-tibial esquerda, com crescimento há 45 dias. AP: DM2, doença de Chagas, bloqueio atrioventricular grau II, bloqueio de ramo esquerdo e doença renal crônica pré-dialítica. Exame citológico da base da úlcera: estruturas parasitárias diminutas. A estratégia terapêutica mais segura e eficaz é",
+  "alternativas": [
+   "miltefosina oral.",
+   "antimoniato de N-metil glucamina intramuscular.",
+   "anfotericina B (lipossomal) endovenosa.",
+   "pentamidina intramuscular."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 60,
+  "enunciado": "Homem de 33 anos refere febre alta, cefaleia, mialgia, artralgia há 4 dias. Há um dia, houve aparecimento de manchas vermelhas pelo corpo, muito pruriginosas e epistaxe em mínima quantidade, com resolução espontânea. AP: DM1 controlado. Exame físico: BEG, PA: 130 x 80 mmHg (aferida em duas posições), FC: 89 bpm, TEC < 3 segundos, sem sinais de hipoperfusão, prova do laço negativa. HGT 149 mg/dL. Com suspeita de dengue, a classificação clínica e a conduta são, correta e respectivamente,",
+  "alternativas": [
+   "grupo B; é necessário iniciar hidratação e avaliar o hemograma em até 4 horas. Caso não apresente hemoconcentração e/ou plaquetopenia grave, o manejo pode ser ambulatorial, com reavaliações clínicas diárias e hemogramas seriados, até resolução completa do quadro.",
+   "grupo C; é necessário iniciar hidratação e avaliar o hemograma em até 2 horas. A depender do hemograma, o paciente deverá ficar internado ou ser manejado ambulatorialmente, com reavaliações clínicas diárias e hemogramas seriados, até resolução completa do quadro.",
+   "grupo A; não é necessário avaliar o hemograma, e o manejo pode ser ambulatorial, com reavaliação clínica no dia da cessação da febre ou no sétimo dia de sintoma, caso a febre persista.",
+   "grupo D; é necessário iniciar hidratação endovenosa e avaliar o hemograma em até 2 horas. O paciente deverá ficar internado por, pelo menos, 48 horas em unidade de terapia intensiva."
+  ],
+  "imagem": false,
+  "area": "cm"
+ },
+ {
+  "numero": 61,
+  "enunciado": "Mulher de 57 anos, queixa-se de pirose e epigastralgia há 2 anos, nega disfagia e perda ponderal. Refere uso de omeprazol por mais de 6 meses sem melhora do quadro. AP: HAS e DM2 em tratamento. Exame físico: IMC de 29 kg/m2. EDA (3 exames): gastrite enantematosa leve de antro gástrico. A hipótese e próximo exame para complementação diagnóstica são, respectivamente,",
+  "alternativas": [
+   "acalasia; manometria esofágica convencional.",
+   "doença do refluxo gastroesofágico; manometria esofágica de alta resolução.",
+   "doença do refluxo gastroesofágico; pHmetria esofágica.",
+   "esofagite eosinofílica; nova endoscopia com biópsias esofágicas."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 62,
+  "enunciado": "Mulher de 62 anos queixa-se de disfagia progressiva nos últimos 4 anos associada à perda ponderal de 7 kg. AP: HAS e cirurgia colorretal prévia por obstrução intestinal, porém não se recorda o motivo. Refere aceitar dieta pastosa atualmente. EDA: candidíase esofágica, sem evidência de lesões sugestivas de neoplasia. A hipótese diagnóstica e o próximo exame para confirmá-lo são, correta e respectivamente,",
+  "alternativas": [
+   "esclerodermia; manometria esofágica convencional.",
+   "motilidade esofágica ineficaz; manometria esofágica de alta resolução.",
+   "acalasia; pHimpedanciometria.",
+   "acalasia; manometria esofágica de alta resolução."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 63,
+  "enunciado": "Motociclista de 25 anos sofreu colisão em alta velocidade contra um automóvel. Estava de capacete fechado (com proteção frontal) e foi arremessado a 10 metros. Deu entrada com capacete e sem colar cervical. Exame físico: arresponsivo mesmo ao estímulo vigoroso, respiração ruidosa, com incursões respiratórias rápidas e superficiais e uso de musculatura acessória. FC: 134 bpm, PA: 80 x 40 mmHg, SatO2: 72% (ar ambiente). De acordo com o protocolo ATLS a conduta deve ser:",
+  "alternativas": [
+   "inspecionar e aspirar a via aérea, e suplementar oxigênio com máscara a 10 L/min.",
+   "retirar o capacete evitando a movimentação da coluna cervical, com auxílio de um segundo socorrista, para abordagem da via aérea.",
+   "puncionar dois acessos venosos calibrosos de grosso calibre nas fossas antecubitais e iniciar reposição volêmica.",
+   "realizar cricotireoidostomia por punção."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 64,
+  "enunciado": "Homem de 19 anos dá entrada em Unidade de Pronto Atendimento com história de mergulho em lago. Exame físico: sonolento, confuso, fala empastada, hálito etílico, paresia dos membros inferiores e ferimento cortocontuso na cabeça, FC: 68 bpm, FR: 18 irpm, SatO2: 98% (ar ambiente); PA: 80 x 50 mmHg. Pode-se afirmar, corretamente, que",
+  "alternativas": [
+   "não há necessidade de suporte de oxigênio, uma vez que o paciente apresenta boa saturação em ar ambiente.",
+   "o deficit neurológico dos membros inferiores é secundário a uma lesão cranioencefálica.",
+   "se trata de choque hipovolêmico e deve-se iniciar o tratamento com reposição volêmica com 2 000 mL de cristaloide intravenoso em bolus.",
+   "a causa do choque e do deficit neurológico é uma provável lesão ou compressão de medula ou raízes nervosas ao nível da coluna cervical baixa/torácica alta."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 65,
+  "enunciado": "Mulher de 47 anos refere dor intensa no epigástrio e hipocôndrio direito há 1 dia. Apresentou episódios semelhantes anteriormente, porém, dessa vez, a dor está mais intensa e acompanhada de náuseas e vômitos. Exame físico: obesa, dor à palpação do epigástrio e do hipocôndrio direito. Exames: Ht: 42%; Hb: 13,5 g/dL; GB: 10 500 mm3; Ur: 39 mg/dL; Cr: 1 mg/dL; TGO: 40 U/L; TGP: 43 U/L; GGT: 60 U/L; FA: 140 U/L; BT: 1,1 mg/dL; BD: 0,6 mg/dL; BI: 0,5 mg/dL; amilase: 130 U/L; lipase: 495 U/L. Pode-se afirmar, corretamente, que",
+  "alternativas": [
+   "a principal hipótese diagnóstica é pancreatite aguda, e o primeiro exame de imagem a ser solicitado é TC de abdome.",
+   "o tratamento inicial deve incluir jejum, hidratação, analgesia, antiemético e antibióticos.",
+   "ao palpar o hipocôndrio direito, se a paciente sentir dor ao inspirar, estará caracterizado o sinal de Murphy positivo.",
+   "o US de abdome é o exame de escolha, menos invasivo, mais barato e com maior sensibilidade quando comparado à TC."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 66,
+  "enunciado": "Homem de 75 anos queixa-se de dois episódios de hematoquezia em grande quantidade há 1 dia, associada à síncope. Exame físico: REG, afebril, acianótico, anictérico, descorado 2+/4+, FC: 120 bpm, PA: 100 x 60 mmHg; abdome plano, flácido e indolor à palpação. Toque retal: ausência de lesões e fezes na ampola, grande quantidade de coágulos. AP: HAS, DM e antiagregante plaquetário devido a procedimento endovascular recente. EDA (há 3 dias): sem alterações. A etiologia mais provável e o tratamento inicial são:",
+  "alternativas": [
+   "angiodisplasia; arteriografia.",
+   "doença hemorroidária; cirurgia de urgência.",
+   "doença diverticular do cólon; monitorização e estabilização clínica.",
+   "neoplasia de cólon; colonoscopia."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 67,
+  "enunciado": "Menino de 11 meses apresenta dor abdominal intermitente há 1 dia. Mãe relata que o filho apresenta momentos com muita dor, que duram alguns minutos e, em seguida, fica quieto e pálido. Hoje apresentou episódios de vômitos, inicialmente com conteúdo alimentar e, posteriormente, esverdeado. Não evacua há 2 dias. Exame físico: REG, descorado +/4, desidratado ++/4, FC: 140 bpm. Abdome distendido, com ruídos hidroaéreos diminuídos, doloroso à palpação profunda, com massa móvel palpável em hipocôndrio direito e fossa ilíaca direita “vazia”, sem sinais de irritação peritoneal. A principal hipótese diagnóstica para esse caso é:",
+  "alternativas": [
+   "apendicite aguda.",
+   "invaginação intestinal.",
+   "enterocolite necrosante.",
+   "obstrução intestinal por Ascaris lumbricoides."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 68,
+  "enunciado": "Menina de 6 anos apresenta, há 2 dias, dor abdominal, inicialmente difusa e, agora, está mais localizada em fossa ilíaca direita. Está com apetite diminuído, com náuseas e vômitos. Há 1 dia, apresenta dor para urinar e um episódio de febre (37,8 ºC). Possui hábito intestinal regular, diário, sem esforço, mas está há 1 dia sem evacuar. Exame físico: prostrada, FC: 102 bpm, discretamente desidratada. Abdome: doloroso à palpação profunda difusamente, com sinal de Blumberg positivo. Em face do exposto, a conduta a ser adotada é realizar",
+  "alternativas": [
+   "observação clínica por 48 horas.",
+   "drenagem de cavidade abdominal guiada por US.",
+   "TC de abdome.",
+   "apendicectomia de urgência."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 69,
+  "enunciado": "Homem de 67 anos queixa-se de dificuldade miccional, jato urinário fraco e sensação de esvaziamento incompleto da bexiga, há 6 meses. Nega hematúria, infecções urinárias recorrentes e sintomas de disfunção erétil. AP: HAS controlada. Toque retal: próstata aumentada e consistência elástica. A primeira linha de tratamento farmacológico deve ser:",
+  "alternativas": [
+   "inibidor da 5-alfa-redutase.",
+   "alfabloqueador.",
+   "anti-inflamatório não esteroide.",
+   "inibidor da fosfodiesterase tipo 5."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 70,
+  "enunciado": "Homem de 45 anos apresenta dor lombar intensa do lado direito, em cólica, que irradia para a região inguinal, acompanhada de náuseas e vômitos. Nega febre. Exame físico: afebril, dor à palpação da região lombar direita e sinal de Giordano positivo. O exame de imagem para confirmar o diagnóstico deve ser:",
+  "alternativas": [
+   "US abdominal.",
+   "radiografia simples de abdome.",
+   "urografia excretora.",
+   "TC de abdome total sem contraste."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 71,
+  "enunciado": "Homem de 28 anos apresenta úlcera genital dolorosa há 5 dias. Relata febre e mal-estar geral antes do aparecimento da lesão. Exame físico: imagem. AP: múltiplas parcerias sexuais nos últimos meses sem uso de preservativos. (Arquivo pessoal; imagem usada com autorização) Em face do exposto, a hipótese diagnóstica é:",
+  "alternativas": [
+   "sífilis.",
+   "herpes genital.",
+   "cancroide.",
+   "linfogranuloma venéreo."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 72,
+  "enunciado": "Homem de 65 anos foi submetido a implante de prótese valvar mecânica mitral e está em uso de anticoagulante oral. Evoluiu no 5o dia de pós-operatório com estase jugular, hipotensão arterial e hipofonese de bulhas cardíacas. A conduta a ser adotada nesse caso deve ser:",
+  "alternativas": [
+   "realizar ecocardiograma, suspender anticoagulante oral e otimizar medicação para controle da insuficiência cardíaca.",
+   "substituir o anticoagulante oral por heparina regular e fazer acompanhamento do tempo de tromboplastina parcialmente ativada a cada 8 horas.",
+   "realizar drenagem do derrame pericárdico.",
+   "reoperar imediatamente, drenando o derrame pericárdio, e trocar a prótese mecânica por biológica."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 73,
+  "enunciado": "Adolescente de 17 anos, vítima de queimadura de 2o grau superficial com álcool em região lateral e inferior da coxa direita há 2 horas, relata dor local de intensidade 8 em uma escala de 10. Além da limpeza local com soro fisiológico, a conduta inicial a ser adotada deve ser analgesia",
+  "alternativas": [
+   "intravenosa e antibiótico via oral.",
+   "via oral e colagenase tópica.",
+   "intravenosa e curativo com sulfadiazina de prata.",
+   "intravenosa e antibiótico intravenoso."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 74,
+  "enunciado": "Mulher de 35 anos refere aparecimento de um nódulo em região cervical anterior. Exame físico: nódulo de 2,0 cm em topografia de lobo direito da tireoide. Exames: TSH e T4 livre dentro dos limites de normalidade. US de tireoide: nódulo altamente suspeito de malignidade segundo os critérios do ACR TI-RADS (American College of Radiology). Em face do exposto, é correto afirmar que se trata de nódulo",
+  "alternativas": [
+   "sólido, hiperecoico, mais largo do que alto, margem regular e com presença de macrocalcificações.",
+   "sólido-cístico, com conteúdo sólido isoecoico, mais alto do que largo, com margens regulares e sem focos ecogênicos no seu interior.",
+   "sólido, hipoecoico, mais alto do que largo, com margens irregulares e presença de focos ecogênicos puntiformes no seu interior.",
+   "sólido, hiperecoico, mais largo do que alto, com margens irregulares e sem focos ecogênicos no seu interior."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 75,
+  "enunciado": "Homem de 54 anos apresenta dor torácica e tosse com expectoração amarelada há 5 dias, febre há 2 dias. AP: tabagista (carga tabágica: 35 anos-maço). Radiografia de tórax: broncograma aéreo em lobo superior direito e derrame pleural à direita de 15 mm em decúbito lateral direito. Toracocentese diagnóstica: líquido pleural seroso, pH: 7,2, glicose: 80 mg/dL, proteína: 2,6 g/dL, DHL: 270 UI/L, 55% de neutrófilos, 25% de linfócitos, 10% monócitos. Exames laboratoriais séricos: proteína: 6,5 g/dL, DHL: 520 UI/L. Com relação ao derrame pleural, deve-se realizar",
+  "alternativas": [
+   "biópsia pleural.",
+   "drenagem torácica.",
+   "conduta expectante.",
+   "pleurodese."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 76,
+  "enunciado": "Homem de 38 anos, vítima de acidente automobilístico, dá entrada no Pronto-Socorro referindo dor torácica importante. Exame físico: sudoreico, taquipneico, FC: 125 bpm, PA: 80 x 50 mmHg, turgência jugular, escoriação e crepitação à palpação do 4o e 5o arcos costais à esquerda, ausência de murmúrio vesicular em hemitórax esquerdo e bulhas rítmicas normofonéticas a dois tempos. Nesse caso, a conduta a ser adotada deve ser:",
+  "alternativas": [
+   "intubação orotraqueal.",
+   "pericardiocentese.",
+   "toracostomia com drenagem pleural fechada.",
+   "toracocentese de alívio."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 77,
+  "enunciado": "Menino de 1 ano e oito meses estava passeando com sua avó e tentou se soltar fazendo força para se jogar no chão (imagem). A avó segurou firmemente, enquanto a criança puxava sua mão com força. De repente, o menino deu um grito agudo, começou a chorar e parou de mexer o cotovelo esquerdo, dando entrada com essa situação clínica no Pronto-Socorro. (Arquivo pessoal; imagem usada com autorização) O diagnóstico provável é de",
+  "alternativas": [
+   "fratura por estresse do úmero distal.",
+   "pronação dolorosa.",
+   "epifisiólise da ulna.",
+   "ruptura da cápsula articular do cotovelo."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 78,
+  "enunciado": "Homem de 62 anos dá entrada no Pronto-Socorro com queixa de dor súbita e edema no MIE. AP: câncer de pulmão metastático em tratamento quimioterápico, evoluindo com pancitopenia. Exame físico: aumento de volume e calor localizado no MIE. US Doppler: trombose venosa profunda envolvendo as veias femoral e ilíaca comum esquerdas. A conduta nesse caso deve ser:",
+  "alternativas": [
+   "implantar filtro de veia cava inferior.",
+   "anticoagulação com ajuste de dose de acordo com o peso do paciente.",
+   "compressão pneumática intermitente como tratamento inicial.",
+   "monitorização da evolução com US Doppler seriada."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 79,
+  "enunciado": "Homem de 65 anos queixa-se de claudicação intermitente há 6 meses, com piora da dor em membro inferior direito há 25 dias, ao caminhar cerca de 30 metros e aliviada com repouso. AP: ex-tabagista há 10 anos, DM2 em uso de metformina. Exame físico: pulsos femorais presentes bilateralmente, ausência de pulsos poplíteos, tibiais posteriores e tibiais anteriores bilateralmente. Em face do exposto, a conduta deve ser:",
+  "alternativas": [
+   "angioplastia com colocação de stent na artéria ilíaca comum direita.",
+   "cilostazol e encaminhamento para reabilitação cardiovascular.",
+   "angiografia do MID e programação de revascularização cirúrgica.",
+   "analgésicos para controle da dor durante caminhadas supervisionadas."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 80,
+  "enunciado": "Homem de 72 anos apresenta-se ao serviço de emergência com dor abdominal súbita e intensa. AP: HAS controlada. Exame físico: massa pulsátil palpável na região abdominal e hipotensão arterial. TC abdominal: aneurisma de aorta abdominal infrarrenal de 5,5 cm (4,0 cm há sete meses). Nesse caso, a conduta deve ser:",
+  "alternativas": [
+   "US abdominal seriado a cada 3 meses.",
+   "reparo cirúrgico imediato do aneurisma.",
+   "bloqueador de canal de cálcio e avaliação cardiológica.",
+   "betabloqueador e acompanhamento clínico regular."
+  ],
+  "imagem": false,
+  "area": "cir"
+ },
+ {
+  "numero": 81,
+  "enunciado": "Homem de 37 anos, com diagnóstico recente de tuberculose (TB) pulmonar em tratamento. A equipe de saúde identifica que sua esposa de 35 anos e seu filho de 15 anos têm diagnóstico de TB ativa. Segundo o Ministério da Saúde, o tratamento encurtado com 2 meses de rifampicina + isoniazida + pirazinamida + etambutol, seguido por 2 meses de rifampicina + isoniazida,",
+  "alternativas": [
+   "é recomendado para o filho, caso o raio-X de tórax seja compatível com TB pulmonar confinada em um lobo, sem cavidades e sem padrão miliar; tenha teste rápido molecular para TB não detectado e apresente sintomas leves que não precisem de internação.",
+   "é recomendado para a esposa, caso o raio-X de tórax seja compatível com TB pulmonar confinada em um lobo, sem cavidades e sem padrão miliar; tenha teste rápido molecular para TB não detectado e apresente sintomas leves que não precisem de internação.",
+   "é recomendado para o filho, caso o raio-X de tórax mostre derrame pleural não complicado; tenha baciloscopia de escarro positiva para BAAR ou teste rápido molecular para TB positivo e esteja com estado nutricional semelhante ao que tinha antes de desenvolver TB, após 4 meses de tratamento.",
+   "não foi incorporado no Brasil, apesar das recomendações da Organização Mundial de Saúde, baseadas nos resultados consistentes do estudo SHINE, no qual foi demonstrada a não inferioridade do esquema terapêutico de 4 meses em comparação ao de 6 meses."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 82,
+  "enunciado": "Por atribuição conferida pela Constituição Federal, o Ministério da Saúde institui a Lista de Doenças Relacionadas ao Trabalho (LDRT), periodicamente. As finalidades da LDRT são, além de orientar o uso clínico epidemiológico, de forma a permitir a qualificação da atenção integral à Saúde do Trabalhador, facilitar o estudo da relação entre o adoecimento e o trabalho;",
+  "alternativas": [
+   "adotar procedimentos de diagnóstico; elaborar projetos terapêuticos mais acurados; orientar as ações de responsabilização dos trabalhadores adoecidos.",
+   "adotar procedimentos medicamentosos; elaborar projetos terapêuticos mais acurados; orientar as ações de vigilância e promoção da saúde em nível individual e coletivo.",
+   "adotar procedimentos de diagnóstico; elaborar projetos terapêuticos que preservem o empregador; orientar as ações de vigilância e promoção da saúde em nível individual e coletivo.",
+   "adotar procedimentos de diagnóstico; elaborar projetos terapêuticos mais acurados; orientar as ações de vigilância e promoção da saúde em nível individual e coletivo."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 83,
+  "enunciado": "Homem de 50 anos, casado, técnico em telecomunicações, funcionário de empresa de telefonia há 20 anos, começa a apresentar alguns problemas de saúde após sucessivas mudanças administrativas em seu emprego, com ameaças de demissão, desmoralização dos funcionários e exigências cada vez maiores de rendimento. Foi transferido de unidade duas vezes e assumiu posto de gerência, aumentando suas atribuições, enquanto reduzia-se o efetivo de pessoal. Começou a sentir-se muito cansado fisicamente, ansioso, tenso e insone. Passou a apresentar também tristeza profunda, falta de prazer nas atividades, dificuldade em tomar decisões, perda de apetite e de peso, lapsos de memória, desesperança, sentimento de desvalorização pessoal e profissional. Foi afastado do trabalho por transtorno mental relacionado ao trabalho. Os diagnósticos mais prováveis, nesse caso, são síndrome",
+  "alternativas": [
+   "de estresse pós-traumático e transtorno depressivo.",
+   "da fadiga crônica e transtorno depressivo.",
+   "do esgotamento profissional e síndrome da fadiga crônica.",
+   "do esgotamento profissional e transtorno depressivo."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 84,
+  "enunciado": "Assinale a alternativa correta quanto à associação entre o uso abusivo de álcool e de outras drogas, provocando dependência química e psicológica, e as condições e situações de trabalho.",
+  "alternativas": [
+   "Há intensificação do uso dessas substâncias para justificar as faltas ou para compensar a insatisfação no trabalho ou a impossibilidade de realizá-lo.",
+   "Há início ou intensificação do uso dessas substâncias como recurso para enfrentar situações desagradáveis/ difíceis, para compensar a insatisfação, para viabilizar o trabalho ou como forma de inclusão no grupo.",
+   "Há início ou intensificação do uso dessas substâncias em trabalhadores expostos a produtos químicos, visando manter a performance propiciada pela inalação do produto utilizado no trabalho.",
+   "O uso abusivo dessas substâncias está fortemente relacionado a fatores genéticos e de personalidade, não sendo possível associá-lo ao trabalho."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 85,
+  "enunciado": "A fim de avaliar a associação entre câncer bucal e a presença e gravidade da periodontite, um estudo incluiu 200 participantes, 100 diagnosticados com câncer bucal e 100 sem câncer bucal. Um questionário foi utilizado para obter informações sobre fatores de risco socioeconômicos e de estilo de vida que podem influenciar o desenvolvimento do carcinoma de células escamosas oral e a gravidade da periodontite, determinada de acordo com a Classificação das Doenças e Condições Periodontais e Peri implantares. O desenho de estudo utilizado nessa pesquisa foi:",
+  "alternativas": [
+   "ensaio clínico randomizado.",
+   "estudo de coorte prospectivo.",
+   "estudo de caso-controle.",
+   "estudo transversal."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 86,
+  "enunciado": "Um estudo foi conduzido para avaliar a relação entre o consumo de frutas e vegetais em diferentes países e a prevalência de doenças cardiovasculares (DCV). Os resultados mostraram que países com maior consumo médio de frutas e vegetais apresentaram menor incidência de DCV. Com base nesses resultados, concluiu-se que indivíduos que consomem mais frutas têm menor risco de desenvolver DCV. Essa conclusão pode estar incorreta devido ao seguinte tipo de erro:",
+  "alternativas": [
+   "viés de seleção.",
+   "falácia ecológica.",
+   "confusão residual.",
+   "de aferição."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 87,
+  "enunciado": "Um estudo de coorte foi conduzido para avaliar a relação entre o uso de um novo medicamento e a ocorrência de dor epigástrica. Os pesquisadores acompanharam, durante 2 anos, 200 pacientes que usaram o medicamento e 200 que não o usaram. A análise estatística revelou um risco relativo de 1,5 com um intervalo de confiança de 95% variando de 0,95 a 2,10. Com base nesses resultados, assinale a alternativa que apresenta a interpretação correta.",
+  "alternativas": [
+   "Foi encontrada uma redução no risco de dor epigástrica devido ao uso do medicamento, e esta foi significativa.",
+   "Foi encontrada uma redução no risco de dor epigástrica devido ao uso do medicamento, mas esta não foi significativa.",
+   "Foi encontrado um aumento no risco de dor epigástrica devido ao uso do medicamento, e este foi significativo.",
+   "Foi encontrado um aumento no risco de dor epigástrica devido ao uso do medicamento, mas este não foi significativo."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 88,
+  "enunciado": "A Constituição da República Federativa do Brasil, em seu artigo 199 e parágrafos, trata da assistência à saúde pela iniciativa privada. Assinale a alternativa que expressa corretamente a condição a ser observada nessa prestação de serviços.",
+  "alternativas": [
+   "É vedada a destinação de recursos públicos para auxílios ou subvenções às instituições privadas com fins lucrativos.",
+   "As instituições privadas poderão participar do Sistema Único de Saúde de forma complementar, observada a equidade entre as entidades filantrópicas e as com fins lucrativos.",
+   "É permitida a participação direta ou indireta de empresas ou capitais estrangeiros na assistência à saúde no País, exceto nos casos previstos em lei.",
+   "São permitidos a coleta, o processamento e a transfusão de sangue e seus derivados, com fins comerciais, exceto nos casos previstos em lei."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 89,
+  "enunciado": "Segundo o Decreto no 7.508/2011, que regulamenta a Lei Orgânica da Saúde (no 8.080/1990), no Sistema Único de Saúde (SUS), o acesso universal e igualitário às ações e aos serviços de saúde será ordenado",
+  "alternativas": [
+   "pela APS (Atenção Primária à Saúde).",
+   "pela CROSS (Central de Regulação de Ofertas de Serviços de Saúde).",
+   "pelo DRS (Departamento Regional de Saúde).",
+   "pela RAS (Rede de Atenção à Saúde Especializada)."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 90,
+  "enunciado": "As normas legais que regem o Sistema Único de Saúde (SUS) condicionam o acesso à assistência farmacêutica à observância de requisitos, dentre eles:",
+  "alternativas": [
+   "ter o medicamento sido prescrito por quaisquer profissionais de saúde, desde que registrados nos respectivos Conselhos Profissionais.",
+   "estar o usuário assistido por ações e serviços de saúde públicos ou privados.",
+   "estarem incluídos na RENAME (Relação Nacional de Medicamentos Essenciais) somente produtos com registro na Agência Nacional de Vigilância Sanitária (ANVISA).",
+   "estar a prescrição em conformidade com a RENAME, excluídas as relações complementares estaduais ou municipais."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 91,
+  "enunciado": "O “processo contínuo e sistemático de coleta, consolidação, análise de dados e disseminação de informações sobre eventos relacionados à saúde, visando o planejamento e a implementação de medidas de saúde pública, incluindo a regulação, intervenção e atuação em condicionantes e determinantes da saúde, para a proteção e promoção da saúde da população, prevenção e controle de riscos, agravos e doenças” (Resolução do Conselho Nacional de Saúde no 588/2018) corresponde ao conceito de",
+  "alternativas": [
+   "Integralidade.",
+   "Vigilância em Saúde.",
+   "Vigilância Epidemiológica.",
+   "Universalidade."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 92,
+  "enunciado": "Mulher de 32 anos, faxineira, estava limpando a parte externa de uma janela, em um prédio, quando caiu de altura de 12 metros, chocando o abdome sobre um muro. No PS teve diagnóstico de laceração de fígado com hemorragia intra-abdominal, choque hemorrágico e óbito. A família informou que ela tinha anemia falciforme. Em face do exposto, assinale a alternativa correta.",
+  "alternativas": [
+   "O preenchimento correto da Declaração de Óbito (DO) deve ser: PARTE I a) Choque hemorrágico b) Laceração hepática c) Traumatismo abdominal d) Queda de edifício PARTE II Anemia falciforme",
+   "O preenchimento correto da Declaração de Óbito (DO) deve ser: PARTE I a) Queda de edifício b) Traumatismo abdominal c) Laceração de fígado d) Choque hemorrágico PARTE II -------------",
+   "O preenchimento correto da Declaração de Óbito (DO) deve ser: PARTE I a) Choque hemorrágico b) Laceração hepática c) Anemia falciforme d) ------------- PARTE II Queda de edifício",
+   "O preenchimento correto da Declaração de Óbito (DO) deve ser: PARTE I a) Choque hemorrágico b) Traumatismo de fígado c) Anemia falciforme d) ------------- PARTE II Queda de edifício"
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 93,
+  "enunciado": "A figura a seguir representa graficamente a ocorrência de casos novos de dengue em dois municípios do estado de São Paulo, no ano de 2024. Ocorrência de casos novos de DENGUE por 100 mil habitantes, segundo semanas epidemiológicas, nos municípios de São Manuel e Botucatu, de janeiro a abril de 2024 Casos novos de DENGUE por 100 mil hab. 1000 São Manuel Botucatu 800 600 400 200 10 11 12 13 14 15 16 17 ABR MAR FEV JAN Semanas epidemiológicas (Ministério da Saúde) Os dados apresentados por semanas epidemiológicas ex-pressam",
+  "alternativas": [
+   "coeficientes de prevalência.",
+   "a variação sazonal.",
+   "coeficientes de incidência.",
+   "o diagrama de controle."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 94,
+  "enunciado": "A população do estado de São Paulo em 2022 era de 44 411 238 habitantes (IBGE). O quadro a seguir expressa informações sobre a ocorrência de casos e óbitos (acumulados) de Covid-19 no estado, nos anos de 2021 e 2022. Acumulado até 31.12.21 Acumulado até 31.12.22 Covid-19 Casos 4.456.108 6.317.252 Óbitos 155.205 177.435 (Secretaria de Estado da Saúde de São Paulo) Com base nessas informações, assinale a alternativa que expressa percentualmente o coeficiente de letalidade da Covid-19, no estado de São Paulo, durante o ano de 2022.",
+  "alternativas": [
+   "1,2",
+   "2,8",
+   "3,5",
+   "349,5"
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 95,
+  "enunciado": "Assinale a alternativa que expressa corretamente o denominador do coeficiente de mortalidade materna.",
+  "alternativas": [
+   "População feminina de 15 a 49 anos de idade.",
+   "População feminina total.",
+   "Número total de óbitos femininos.",
+   "Número de nascidos vivos."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 96,
+  "enunciado": "São consideradas ações e atividades de programas da atenção primária a serem executadas pela ESF:",
+  "alternativas": [
+   "Na atenção à saúde da mulher: pré-natal de baixo, médio e de alto risco gestacional: diagnóstico de gravidez, cadastramento das gestantes com e sem riscos gestacionais, na primeira consulta; vacinação antitetânica, avaliação no puerpério e atividade educativa de promoção à saúde; planejamento familiar com fornecimento de medicamento e orientação quanto a métodos anticoncepcionais.",
+   "No controle de tuberculose: busca ativa de casos e identificação de sintomáticos respiratórios; diagnóstico clínico dos comunicantes, vacinação com BCG e quimioprofilaxia quando necessário; notificação e investigação dos casos; tratamento supervisionado dos casos positivos e busca de faltosos; fornecimento de medicamentos; ações educativas.",
+   "No controle de hipertensão arterial e diabetes: diagnóstico de caso e cadastramento dos portadores; busca ativa dos casos com medição de pressão arterial e/ou dosagem dos níveis de glicose; diagnóstico precoce de complicações; encaminhamento de todos os pacientes para acompanhamento na atenção especializada; ações educativas.",
+   "Na eliminação da hanseníase: busca ativa de casos e identificação dos sintomáticos dermatológicos e de seus comunicantes; notificação e investigação dos casos; diagnóstico clínico dos casos com exames dos sintomáticos; tratamento supervisionado dos casos com avaliação dermato-neurológica e encaminhamento para a farmácia de alto custo para fornecimento de medicamento."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 97,
+  "enunciado": "Assinale a alternativa que descreve corretamente como marcadores de consumo alimentar do SISVAN (Sistema de Vigilância Alimentar e Nutricional) podem ser utilizados na prática clínica na APS.",
+  "alternativas": [
+   "São utilizados exclusivamente para a prescrição de medicamentos nutricionais aos pacientes com deficiências específicas.",
+   "São usados para auxiliar o monitoramento do consumo de alimentos, permitindo a implementação de orientações dietéticas individualizadas.",
+   "São utilizados apenas para registrar a altura e o peso dos pacientes, sem considerar aspectos relacionados à dieta e ao consumo alimentar.",
+   "São usados para a avaliação exclusiva de aspectos socioeconômicos dos pacientes, sem relação direta com a dieta e o consumo alimentar."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 98,
+  "enunciado": "Mulher de 68 anos comparece à UBS para saber resultados de exames bioquímicos, que estão alterados. Refere que se mudou recentemente para o bairro e sempre cuidou de sua alimentação, consumindo verduras e legumes de 1 a 2 vezes por dia. Atualmente, tem dificuldade para comprar verduras e legumes, pois nesse bairro não há horta, sacolão ou feira livre, passando dias sem consumir esses alimentos. Dessa forma, o território em questão caracteriza-se como um ambiente alimentar denominado",
+  "alternativas": [
+   "pântano alimentar.",
+   "oásis alimentar.",
+   "deserto alimentar.",
+   "ilhas de abundância."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 99,
+  "enunciado": "A principal estratégia do PNHPN (Programa Nacional de Humanização do Pré-Natal e Nascimento) é fazer com que a assistência prestada à gestante e ao recém-nascido (RN) seja com qualidade e humanizada. Para tanto, é necessário",
+  "alternativas": [
+   "realizar atividades educativas e, no mínimo, 12 consultas médicas de pré-natal, nos 9 meses de gestação.",
+   "contraindicar a aplicação de vacina antitetânica em gestantes ou dose de reforço em mulheres já imunizadas.",
+   "realizar a primeira consulta de pré-natal até o 4o mês de gestação e a classificação de risco gestacional na primeira consulta e nas consultas subsequentes.",
+   "reduzir a taxa de mortalidade infantil, composta por óbitos perinatal, neonatal e pós- neonatal por ser um coeficiente sensível à adequação da assistência obstétrica."
+  ],
+  "imagem": false,
+  "area": "prev"
+ },
+ {
+  "numero": 100,
+  "enunciado": "Homem de 32 anos refere contato sexual desprotegido na noite anterior e procurou a unidade de saúde. Foi realizado teste rápido para sífilis (imunocromatografia) que resultou positivo. Não apresenta lesão cutânea e nega ter tido sífilis anteriormente. Em face do exposto, assinale a alternativa correta.",
+  "alternativas": [
+   "Apresenta sífilis primária, visto que a sorologia torna-se positiva antes do aparecimento da lesão cutânea.",
+   "O teste, provavelmente, é falso-positivo e outras doenças devem ser pesquisadas, tais como lúpus eritematoso sistêmico e síndrome do anticorpo antifosfolípide.",
+   "Deve-se realizar punção liquórica para afastar neurossífilis tardia (oligossintomática).",
+   "Pode representar sífilis latente ou tratada de forma inadequada, a ser confirmada com exame laboratorial convencional (VDRL e FTA-Abs)."
+  ],
+  "imagem": false,
+  "area": "prev"
+ }
+]
