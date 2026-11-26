@@ -331,7 +331,8 @@ for (const arq of ["banco.js", "app.js", "app.css", "index.html", "caderno/cader
 {
   n++;
   const css = fs.readFileSync(path.join(AQUI, "caderno", "caderno.css"), "utf8");
-  const regras = [...css.matchAll(/([^{}]+)\{([^}]*)\}/g)].map(m => ({ sel: m[1].split(",").map(s => s.trim()), corpo: m[2] }));
+  /* sem os comentários: um comentário antes da regra entrava no seletor e escondia ".questao" (controle cego, 2026-11-26) */
+  const regras = [...css.replace(/\/\*[\s\S]*?\*\//g, "").matchAll(/([^{}]+)\{([^}]*)\}/g)].map(m => ({ sel: m[1].split(",").map(s => s.trim()), corpo: m[2] }));
   const proibido = regras.filter(r => (r.sel.includes(".questao") || r.sel.includes(".comentario")) && /overflow:\s*hidden|break-inside:\s*avoid|page-break-inside:\s*avoid/.test(r.corpo));
   exige(!proibido.length, "caderno.css: .questao e .comentario não podem ter overflow: hidden nem break-inside: avoid (a ficha longa precisa correr para a página seguinte)");
   exige(/--pagina:\s*256mm/.test(css), "caderno.css: --pagina deve ser 256mm");

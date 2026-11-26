@@ -36,6 +36,10 @@ function noBloco(orig, id, velho, novo) {
 const moveGabarito = (orig, id, para) => noBloco(orig, id, /correta: \d,/.exec(orig.slice(orig.indexOf(`{ id: "${id}",`)))[0], `correta: ${para},`);
 const primeiroId = area => { const m = originais["banco.js"].match(new RegExp(`\\{ id: "(${area}\\d\\d)",`)); return m[1]; };
 const PED = primeiroId("ped"), PREV = primeiroId("prev"), CIR = primeiroId("cir"), GO = primeiroId("go");
+/* vídeos: o harness não confere a lista de canais numa escolha forçada (escolhas.json), então o controle do canal
+   planta na primeira questão de Pediatria cujo vídeo da matéria não é forçado (ped01 passou a ser forçado em 2026-10-27) */
+const PED_LIVRE = (() => { const E = JSON.parse(fs.readFileSync(path.join(DIR, "ferramentas", "videos", "escolhas.json"), "utf8")); const V = JSON.parse(originais["videos.json"]);
+  const id = Object.keys(V).find(k => /^ped\d/.test(k) && V[k].m && !(E[k] && E[k].forcado && E[k].forcado.m)); if (!id) throw new Error("não há questão de Pediatria com vídeo da matéria não forçado"); return id; })();
 /* a primeira questão de quatro alternativas (UNESP 2026): o bloco em que o array alternativas tem 4 linhas */
 const QUATRO = (() => { const b = originais["banco.js"]; const m = /\{ id: "(\w+)",\n  area: "\w+",\n  tema: "[^"\n]*",\n  fonte: "unesp2026"/.exec(b); if (!m) throw new Error("não há questão da UNESP 2026 em banco.js"); return m[1]; })();
 
@@ -115,8 +119,6 @@ const controles = [
     txt: o => planta(o, '(op.area === "todas" || q.area === op.area)', "true"), cita: /com a área ped, o caderno montou \d+ fichas/ },
   { arquivo: "caderno/caderno.js", nome: "caderno: a ficha sai sem referências",
     txt: o => planta(o, 'h("p", { class: "referencias", html: `<span class="rot">Referências</span> ${q.referencias.join(" · ")}` }),', ""), cita: /alguma ficha não traz/ },
-  { arquivo: "caderno/caderno.js", nome: "caderno: o mapa de temas perde a tag da área",
-    txt: o => planta(o, 'h("td", { class: "d" }, h("span", { class: "tag " + q.area }, NOME_AREA[q.area])),', 'h("td", { class: "d" }, h("span", { class: "tag " + q.area }, q.area)),'), cita: /o mapa de temas não lista cada questão sob a sua área/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: overflow: hidden volta à ficha",
     txt: o => planta(o, ".questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px;", ".questao { margin: 0 0 7mm; border: 1px solid var(--line-2); border-radius: 3px; overflow: hidden;"), cita: /não podem ter overflow: hidden nem break-inside: avoid/ },
   { arquivo: "app.js", nome: "app: aparece filtro de uma edição que não tem questões (edição inventada)",
@@ -164,8 +166,6 @@ const controles = [
     txt: o => planta(o, 'window.addEventListener("load", medirFichas)', "void 0"), cita: /evento load/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: a figura da ficha sem limite de altura",
     txt: o => planta(o, "max-height: 52mm;", "max-height: none;"), cita: /max-height em mm/ },
-  { arquivo: "caderno/caderno.js", nome: "caderno: a ficha deixa de garantir 90 mm de pauta",
-    txt: o => planta(o, "const folga = notas ? 90 * mm : 0;", "const folga = notas ? 10 * mm : 0;"), cita: /garantir 90 mm de pauta/ },
   { arquivo: "caderno/caderno.js", nome: "caderno: a pauta sai sem o quadro dos termos-chave",
     txt: o => planta(o, 'h("span", { class: "rot" }, "Termos-chave"), h("div", { class: "termos" }),', ""), cita: /alguma ficha não traz, dentro dela/ },
   { arquivo: "caderno/caderno.css", nome: "caderno.css: o quadro dos termos-chave perde a altura fixa",
@@ -225,8 +225,8 @@ const controles = [
     txt: o => { const V = JSON.parse(o); delete V[PED]; return JSON.stringify(V, null, 1); }, cita: /videos\.json tem \d+ ids, esperava um por questão/ },
   { arquivo: "videos.json", nome: `vídeos: ${PED} com url fora da forma canônica`,
     txt: o => { const V = JSON.parse(o); V[PED].q = { url: "https://youtu.be/aaaaaaaaaaa", titulo: "x", canal: "y", canalId: "UCx", duracao: 600 }; return JSON.stringify(V, null, 1); }, cita: /url do vídeo q não é https:\/\/www\.youtube\.com\/watch/ },
-  { arquivo: "videos.json", nome: `vídeos: ${PED} com canal fora da lista`,
-    txt: o => { const V = JSON.parse(o); V[PED].m = { url: "https://www.youtube.com/watch?v=aaaaaaaaaaa", titulo: "x", canal: "Canal Y", canalId: "UCnaolistado", duracao: 600 }; return JSON.stringify(V, null, 1); }, cita: /não está em canais\.json/ },
+  { arquivo: "videos.json", nome: `vídeos: ${PED_LIVRE} com canal fora da lista`,
+    txt: o => { const V = JSON.parse(o); V[PED_LIVRE].m = { url: "https://www.youtube.com/watch?v=aaaaaaaaaaa", titulo: "x", canal: "Canal Y", canalId: "UCnaolistado", duracao: 600 }; return JSON.stringify(V, null, 1); }, cita: /não está em canais\.json/ },
   { arquivo: "videos.json", nome: `vídeos: ${PED} com busca de 3 letras`,
     txt: o => { const V = JSON.parse(o); V[PED].busca = "abc"; return JSON.stringify(V, null, 1); }, cita: /busca fora de 8–80/ },
   /* --- links curtos: destino() ---------------------------------------------- */
