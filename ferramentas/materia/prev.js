@@ -1955,4 +1955,2011 @@ module.exports = {
 <li>Toda revisão sistemática tem meta-análise? <details><summary>Resposta</summary>Não; a meta-análise é a etapa estatística opcional, feita quando os estudos são combináveis.</details></li>
 </ol>
 `,
+
+/* --- Volume 2 · Preventiva · Sírio-Libanês 2026 (prev51–prev65) --------------------------- */
+"sirio2026#81": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Situar a Declaração de Alma-Ata no tempo e no seu conteúdo central.</li>
+<li>Distinguir Alma-Ata dos relatórios Flexner, Lalonde e Black e da Carta de Ottawa.</li>
+<li>Reconhecer a herança de Alma-Ata na Constituição de 1988 e na Estratégia Saúde da Família.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Alma-Ata (1978)</dt>
+<dd>Conferência da OMS e do UNICEF que definiu os cuidados primários de saúde como estratégia para "Saúde para Todos no Ano 2000".</dd>
+<dt>Relatório Flexner (1910)</dt>
+<dd>Reforma do ensino médico norte-americano centrada no hospital e nas ciências básicas; símbolo do modelo biomédico.</dd>
+<dt>Relatório Lalonde (1974)</dt>
+<dd>Documento canadense que criou o "campo da saúde" (biologia, ambiente, estilo de vida, serviços) e inaugurou a promoção da saúde.</dd>
+<dt>Relatório Black (1980)</dt>
+<dd>Estudo britânico que documentou as desigualdades sociais em saúde e sua persistência apesar do NHS.</dd>
+<dt>Carta de Ottawa (1986)</dt>
+<dd>Primeira conferência internacional de promoção da saúde: cinco campos de ação, da política pública saudável à reorientação dos serviços.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Em setembro de 1978, em Alma-Ata, então União Soviética, 134 países assinaram a declaração que afirmou a saúde como <strong>direito humano fundamental</strong>, denunciou a desigualdade entre países e dentro deles como inaceitável e propôs os <strong>cuidados primários de saúde</strong> como a estratégia para alcançar "Saúde para Todos no Ano 2000".</p>
+<p>O contexto explica o alcance. Flexner (1910) havia moldado uma medicina hospitalar e especializada que, nos anos 1970, se mostrava cara e incapaz de reduzir as desigualdades. Lalonde (1974) mostrou que o gasto assistencial comprava pouca saúde diante do estilo de vida e do ambiente. Alma-Ata propôs inverter a pirâmide: investir na base, nos cuidados primários, e organizar o sistema a partir dela.</p>
+<p>Depois vieram o Relatório Black (1980), sobre desigualdades mesmo com acesso universal, e a Carta de Ottawa (1986), que deslocou o foco para a promoção da saúde: políticas públicas saudáveis, ambientes favoráveis, ação comunitária, habilidades pessoais e reorientação dos serviços.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na prova, cada documento tem uma palavra-chave: Alma-Ata é "cuidados primários" e "Saúde para Todos"; Flexner é "ensino médico" e "hospital"; Lalonde é "campo da saúde" e "estilo de vida"; Black é "desigualdades"; Ottawa é "promoção da saúde". A OMS nasceu em 1948 com a definição de saúde como bem-estar completo, não com a APS.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Alma-Ata (1978): saúde como direito, cuidados primários como estratégia, meta Saúde para Todos no Ano 2000.</li>
+<li>Flexner (1910) é o modelo biomédico; Lalonde (1974), o campo da saúde; Black (1980), as desigualdades; Ottawa (1986), a promoção.</li>
+<li>APS abrangente versus seletiva: o debate que nasceu logo depois de Alma-Ata.</li>
+<li>No Brasil, a 8ª Conferência, a Constituição de 1988 e a ESF descendem de Alma-Ata.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que documento criou o conceito de "campo da saúde" e inaugurou a promoção da saúde? <details><summary>Resposta</summary>O Relatório Lalonde, do Canadá, em 1974.</details></li>
+<li>Qual é o lema associado à Declaração de Alma-Ata? <details><summary>Resposta</summary>"Saúde para Todos no Ano 2000", a ser alcançada pelos cuidados primários de saúde.</details></li>
+<li>O que diferencia a APS abrangente da APS seletiva? <details><summary>Resposta</summary>A abrangente organiza todo o sistema a partir do primeiro nível, com participação e intersetorialidade; a seletiva oferece pacotes mínimos e verticais de intervenções.</details></li>
+</ol>
+`,
+
+"sirio2026#82": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever os principais modelos explicativos do processo saúde-doença.</li>
+<li>Reconhecer a tríade ecológica e a história natural da doença de Leavell e Clark.</li>
+<li>Identificar o modelo em uso a partir das pistas de um caso clínico.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Modelo biomédico</dt>
+<dd>A doença é lesão ou agente etiológico no corpo; o foco é o diagnóstico e o tratamento individual.</dd>
+<dt>Tríade ecológica</dt>
+<dd>Agente, hospedeiro e ambiente em interação; a doença resulta do desequilíbrio entre os três.</dd>
+<dt>História natural da doença</dt>
+<dd>Curso da doença sem intervenção, do período pré-patogênico ao desfecho, base dos níveis de prevenção de Leavell e Clark.</dd>
+<dt>Determinação social</dt>
+<dd>Modelo em que a estrutura da sociedade (classe, trabalho, renda) produz os perfis de saúde e doença dos grupos.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Cada época e cada grupo explicam a doença de um modo, e a Saúde Coletiva organiza essas explicações em <strong>modelos</strong>. O <strong>mágico-religioso</strong> atribui o adoecimento a forças sobrenaturais e castigos. O <strong>miasmático</strong>, dominante até o século XIX, culpava os ares e as emanações pútridas, e fundou o sanitarismo urbano. O <strong>biomédico</strong>, que nasceu com a bacteriologia de Pasteur e Koch e se consolidou com Flexner, vê a doença como lesão causada por um agente específico, e é ainda o modelo hegemônico da clínica.</p>
+<p>O <strong>modelo ecológico</strong>, sistematizado por Leavell e Clark nos anos 1960, amplia o biomédico sem romper com ele: a doença é o resultado da interação de um <strong>agente</strong> (biológico, físico, químico), um <strong>hospedeiro</strong> suscetível (idade, nutrição, imunidade, hábitos) e um <strong>ambiente</strong> (físico, biológico e social). O equilíbrio entre os três é a saúde; o desequilíbrio, a doença. Esse modelo gerou a <strong>história natural da doença</strong>, com o período pré-patogênico e o patogênico, e os <strong>níveis de prevenção</strong>: primária (promoção e proteção específica), secundária (diagnóstico precoce e limitação do dano) e terciária (reabilitação).</p>
+<p>O <strong>modelo da determinação social</strong>, da medicina social latino-americana (Laurell, Breilh), e o dos <strong>determinantes sociais</strong> (Dahlgren e Whitehead, Comissão da OMS) deslocam a causa para a estrutura social: classe, trabalho, renda, moradia, gênero e raça produzem os perfis de adoecimento. O <strong>histórico-cultural</strong> enfatiza que a própria noção de doença varia com a cultura e a época. Na prática, os modelos coexistem: a equipe trata a pneumonia (biomédico), avalia agente, criança e casa (ecológico) e aciona a assistência social para a moradia (social).</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na prova, "agente, hospedeiro e ambiente" é ecológico; "classe, trabalho, renda" é social; "lesão e agente etiológico" é biomédico; "varia com a cultura" é histórico-cultural. A presença de fatores sociais dentro do "ambiente" não transforma o modelo em social: o que define o modelo é a lógica da explicação, não a lista de fatores.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Modelos: mágico-religioso, miasmático, biomédico, ecológico, social, histórico-cultural.</li>
+<li>Ecológico (Leavell e Clark): tríade agente-hospedeiro-ambiente, história natural da doença, níveis de prevenção.</li>
+<li>Social: a estrutura da sociedade determina os perfis de saúde e doença dos grupos.</li>
+<li>Os modelos coexistem na prática; a prova pede o que melhor descreve o raciocínio do caso.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que modelo originou os níveis de prevenção primária, secundária e terciária? <details><summary>Resposta</summary>O modelo ecológico da história natural da doença, de Leavell e Clark.</details></li>
+<li>Uma equipe explica a tuberculose de um bairro pela precarização do trabalho e pela renda das famílias. Que modelo usa? <details><summary>Resposta</summary>O modelo da determinação social da saúde.</details></li>
+</ol>
+`,
+
+"sirio2026#83": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever as medidas de barreira para água de consumo contaminada.</li>
+<li>Diferenciar vigilância ambiental da água, saneamento e vigilância epidemiológica da diarreia.</li>
+<li>Saber o que é a Monitorização das Doenças Diarreicas Agudas e quando a diarreia se notifica.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Coliformes fecais (termotolerantes)</dt>
+<dd>Bactérias indicadoras de contaminação fecal recente da água; a <em>Escherichia coli</em> é o marcador principal.</dd>
+<dt>Vigiagua</dt>
+<dd>Programa nacional de vigilância da qualidade da água para consumo humano, parte da vigilância em saúde ambiental.</dd>
+<dt>MDDA</dt>
+<dd>Monitorização das Doenças Diarreicas Agudas: registro agregado semanal dos casos atendidos nas unidades sentinela, para detectar surtos.</dd>
+<dt>Desinfecção domiciliar</dt>
+<dd>Fervura por 1 a 5 minutos (o enunciado da banca aceita 5 a 10) ou hipoclorito de sódio a 2,5%, duas gotas por litro, com 30 minutos de espera.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A diarreia aguda infantil ligada a água sem tratamento é um problema de <strong>saneamento</strong>, e a vigilância em saúde ambiental cuida da interface entre ambiente e saúde: qualidade da água (Vigiagua), solo contaminado, ar, desastres e vetores. Quando a investigação encontra <strong>coliformes fecais</strong> na água de uso comum e famílias que a bebem sem tratar, a cadeia está exposta: fonte (fezes humanas ou animais no rio), veículo (água) e suscetíveis (crianças pequenas). A ação de proteção imediata é cortar o veículo no ponto de consumo.</p>
+<p>As medidas se ordenam no tempo. <strong>Imediatas</strong> e individuais: ferver a água de beber e de cozinhar, ou desinfetar com hipoclorito de sódio a 2,5% (duas gotas por litro, aguardar 30 minutos), guardar em recipiente limpo e tampado, lavar as mãos. <strong>Intermediárias</strong>: distribuição de hipoclorito pela UBS e pelos agentes comunitários, educação em higiene e preparo de alimentos, soro de reidratação oral e zinco para os casos. <strong>Estruturais</strong>: abastecimento tratado, esgotamento sanitário, proteção da nascente, com prefeitura, companhia de saneamento e Ministério Público. Clorar o rio não é medida: a cloração se faz na água captada e armazenada, não no curso d'água.</p>
+<p>No registro, a diarreia aguda individual não é agravo de notificação compulsória; os casos entram na <strong>MDDA</strong>, planilha semanal por faixa etária e plano de tratamento, cuja análise detecta o aumento inesperado. O que se notifica de imediato é o <strong>surto</strong> de doença diarreica aguda, e certas etiologias específicas, como cólera, febre tifoide e rotavírus em surto. Investigar o surto, coletar amostras clínicas e de água e devolver os resultados à comunidade fecham o ciclo da vigilância.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na consulta da criança com diarreia, a pergunta "de onde vem a água de casa?" vale tanto quanto o plano de hidratação. Água de poço, rio ou cisterna sem tratamento é indicação de orientar fervura ou hipoclorito na mesma consulta e de acionar o agente comunitário para o restante da microárea.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Água com coliformes e famílias que a bebem sem tratar: cortar o veículo no ponto de consumo, já.</li>
+<li>Ferver ou hipoclorito a 2,5% (duas gotas por litro, 30 minutos) são as medidas provisórias; saneamento é a solução definitiva.</li>
+<li>Não se clora o rio; clora-se a água captada e armazenada.</li>
+<li>Diarreia individual vai à MDDA; surto de diarreia é notificação imediata.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Como se desinfeta água de beber em casa quando não é possível ferver? <details><summary>Resposta</summary>Hipoclorito de sódio a 2,5%, duas gotas por litro, aguardando 30 minutos antes de consumir.</details></li>
+<li>A diarreia aguda de uma criança atendida na UBS é notificada no SINAN? <details><summary>Resposta</summary>Não; ela é registrada na MDDA. Notifica-se o surto de doença diarreica aguda e etiologias específicas, como cólera.</details></li>
+</ol>
+`,
+
+"sirio2026#84": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir promoção da saúde segundo a Carta de Ottawa e a PNPS.</li>
+<li>Distinguir promoção de prevenção primária, secundária e terciária.</li>
+<li>Aplicar a distinção ao controle da dengue no território.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Promoção da saúde</dt>
+<dd>Processo de capacitar pessoas e comunidades para aumentar o controle sobre os determinantes da sua saúde (Ottawa, 1986).</dd>
+<dt>Proteção específica</dt>
+<dd>Prevenção primária dirigida a um agravo: vacina, preservativo, tela na janela, caixa d'água vedada.</dd>
+<dt>Prevenção secundária</dt>
+<dd>Diagnóstico precoce e tratamento oportuno para limitar o dano: rastreamento, teste rápido, classificação de risco.</dd>
+<dt>LIRAa</dt>
+<dd>Levantamento Rápido de Índices para <em>Aedes aegypti</em>: amostragem de imóveis que estima a infestação e orienta as ações no território.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>promoção da saúde</strong> age sobre os determinantes e sobre a capacidade das pessoas de agir: não é dirigida a uma doença, mas à autonomia, às condições de vida e ao ambiente. A Carta de Ottawa lista cinco campos: políticas públicas saudáveis, ambientes favoráveis, reforço da ação comunitária, desenvolvimento de habilidades pessoais e reorientação dos serviços. A Política Nacional de Promoção da Saúde (2006, revista em 2014) traduz isso em temas prioritários: alimentação, atividade física, tabaco e álcool, cultura da paz, mobilidade segura, ambiente sustentável.</p>
+<p>A <strong>prevenção</strong>, no modelo de Leavell e Clark, é dirigida à doença. A <strong>primária</strong> evita o aparecimento e inclui a <strong>proteção específica</strong>: vacinar, vedar caixas d'água, eliminar criadouros, telar janelas, usar repelente. A <strong>secundária</strong> detecta e trata cedo: teste rápido, classificação de risco, hidratação precoce que evita o choque. A <strong>terciária</strong> reabilita e limita sequelas.</p>
+<p>Na dengue, o controle vetorial é a base: visita domiciliar dos agentes de endemias, eliminação mecânica de criadouros, larvicida onde não se pode eliminar, LIRAa para medir a infestação e dirigir as ações, e bloqueio com inseticida em casos confirmados. A vacina Qdenga, incorporada ao SUS em 2024 para a faixa de 10 a 14 anos em municípios prioritários, é proteção específica. A classificação de risco (grupos A a D) e a hidratação precoce são prevenção secundária, e reduzem a mortalidade mais que qualquer outra medida assistencial.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Para classificar uma ação na prova, pergunte a quem ela se dirige e o que faz: se aumenta a autonomia e age sobre determinantes, é promoção; se bloqueia um agravo específico, é proteção específica; se detecta ou trata cedo, é secundária; se reabilita, é terciária. "Palestra sobre alimentação" é promoção, mas não é promoção <em>relacionada à dengue</em>.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Promoção: autonomia e determinantes, não dirigida a uma doença (Ottawa, PNPS).</li>
+<li>Prevenção primária e proteção específica: caixa d'água vedada, criadouros eliminados, vacina, repelente.</li>
+<li>Prevenção secundária: teste, classificação de risco e hidratação precoce; terciária: reabilitação.</li>
+<li>Dengue: controle vetorial com LIRAa e agentes de endemias, mais vacina Qdenga em grupos prioritários.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Distribuir repelente para gestantes em área de transmissão é promoção ou prevenção? <details><summary>Resposta</summary>Prevenção primária, proteção específica contra a picada do vetor.</details></li>
+<li>Quais são os cinco campos de ação da Carta de Ottawa? <details><summary>Resposta</summary>Políticas públicas saudáveis, ambientes favoráveis, ação comunitária, habilidades pessoais e reorientação dos serviços de saúde.</details></li>
+</ol>
+`,
+
+"sirio2026#85": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Afirmar o direito do migrante, regular ou não, ao SUS integral.</li>
+<li>Reconhecer a criança em situação de risco e o dever de comunicar ao Conselho Tutelar.</li>
+<li>Articular a Vigilância em Saúde do Trabalhador diante de um ambiente de trabalho insalubre.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Universalidade</dt>
+<dd>Acesso de todas as pessoas às ações e serviços de saúde, sem exigência de documento, vínculo ou nacionalidade (CF, art. 196).</dd>
+<dt>Lei de Migração (13.445/2017)</dt>
+<dd>Garante ao migrante, independentemente da situação migratória, acesso a serviços públicos de saúde e assistência social.</dd>
+<dt>Conselho Tutelar</dt>
+<dd>Órgão municipal que zela pelos direitos da criança e do adolescente; recebe a comunicação de suspeita de violação de direitos (ECA, art. 13).</dd>
+<dt>Trabalho infantil</dt>
+<dd>Qualquer trabalho antes dos 14 anos; dos 14 aos 16, só como aprendiz; proibido em atividade insalubre antes dos 18.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O SUS é <strong>universal</strong>: a Constituição diz "saúde é direito de todos", e a Lei de Migração (2017) acabou com qualquer dúvida sobre o estrangeiro, garantindo acesso aos serviços públicos de saúde "sem discriminação em razão da nacionalidade e da condição migratória". Comprovante de residência, CPF e documento de identidade servem para o cadastro e o Cartão SUS, que pode ser emitido com documentos do país de origem ou mesmo sem documento; nunca são condição para atender.</p>
+<p>O caso traz uma criança de 6 anos que passa a jornada numa confecção úmida e empoeirada e adoece por isso. Isso é <strong>situação de risco</strong>: exposição a ambiente insalubre e, se ela ajuda nas tarefas, trabalho infantil. O ECA (art. 13) obriga os profissionais de saúde a comunicar ao <strong>Conselho Tutelar</strong> os casos de suspeita ou confirmação de maus-tratos e violação de direitos, e o Conselho aciona assistência social, educação e, se for o caso, Ministério Público e Justiça.</p>
+<p>A confecção é também um <strong>ambiente de trabalho</strong>, frequentemente com migrantes em condições análogas à escravidão. A Vigilância em Saúde do Trabalhador (CEREST e vigilância municipal) inspeciona o local e articula o Ministério do Trabalho e o Ministério Público do Trabalho. A equipe de saúde da família faz a sua parte: trata a criança, notifica, articula e mantém o vínculo, explicando à família o que está fazendo e por quê.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Diante de família migrante, pergunte onde a criança passa o dia, se frequenta escola, onde os pais trabalham e quantas horas. Garanta vacinação, acompanhamento e medicação como a qualquer criança, e acione o Conselho Tutelar e a assistência social com a família informada: a notificação é dever profissional e não depende do consentimento dos pais.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Migrante irregular tem acesso integral ao SUS; documento é para cadastro, não para atender.</li>
+<li>Criança em ambiente insalubre ou em trabalho é situação de risco: comunicar ao Conselho Tutelar (ECA, art. 13).</li>
+<li>Ambiente de trabalho insalubre: Vigilância em Saúde do Trabalhador e articulação intersetorial.</li>
+<li>Explicar à família e manter o vínculo; omitir a notificação deixa a criança no risco.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Uma UBS pode exigir CPF ou comprovante de residência para atender uma criança estrangeira? <details><summary>Resposta</summary>Não. Esses documentos servem ao cadastro; o atendimento é garantido pela universalidade e pela Lei de Migração.</details></li>
+<li>A quem a equipe comunica a suspeita de que uma criança está em situação de risco? <details><summary>Resposta</summary>Ao Conselho Tutelar do município, por dever legal do ECA, com a família informada.</details></li>
+</ol>
+`,
+
+"sirio2026#87": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Explicar o que a Lei 8.080 entende por participação complementar da iniciativa privada.</li>
+<li>Distinguir setor complementar de setor suplementar.</li>
+<li>Reconhecer as regras do contrato: direito público, preferência aos filantrópicos, gratuidade ao usuário.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Participação complementar</dt>
+<dd>Contratação de serviços privados pelo SUS quando a rede pública é insuficiente, sob normas do SUS e sem cobrança ao usuário (Lei 8.080, art. 24).</dd>
+<dt>Setor suplementar</dt>
+<dd>Planos e seguros privados e o desembolso direto, regulados pela ANS, que o cidadão compra por conta própria.</dd>
+<dt>Entidade filantrópica</dt>
+<dd>Hospital ou serviço sem fins lucrativos com certificação (CEBAS); tem preferência na contratação pelo SUS e isenções tributárias.</dd>
+<dt>Contrato de direito público</dt>
+<dd>Instrumento que vincula o prestador privado às normas técnicas e administrativas do SUS, com metas e fiscalização.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Constituição (art. 199) diz que a assistência à saúde é livre à iniciativa privada e que as instituições privadas <strong>podem participar de forma complementar</strong> do SUS, mediante contrato de direito público ou convênio, com preferência às entidades filantrópicas e sem fins lucrativos.</p>
+<p>Daí decorrem as características do setor <strong>complementar</strong>: o serviço é privado na propriedade, mas público no acesso e nas regras. O usuário entra pela regulação do SUS, não paga nada, e o prestador recebe do gestor pela tabela ou por metas. Santas Casas e hospitais filantrópicos respondem por grande parte das internações do SUS no interior; laboratórios e clínicas de diálise, por quase toda a oferta de certos procedimentos.</p>
+<p>O setor <strong>suplementar</strong> é outra coisa: planos e seguros de saúde, cooperativas médicas, autogestões e o pagamento direto, que cobrem cerca de um quarto da população e são regulados pela Agência Nacional de Saúde Suplementar. Ele não é "complementar" ao SUS, ainda que seus usuários também tenham direito ao SUS, e o atendimento pelo SUS de um beneficiário de plano gera o ressarcimento da operadora ao sistema público. Os dois setores se misturam em muitos hospitais, que atendem SUS e convênios no mesmo prédio, o que exige fiscalização da dupla porta.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na prova, "complementar" vem sempre com três marcas: insuficiência da rede pública, contrato de direito público e preferência aos filantrópicos. Qualquer frase com "cobrança ao usuário", "maior eficiência do privado", "obrigação de integrar" ou "autorização do Ministério para cobrar" está descrevendo outra coisa ou está errada.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Complementar: o SUS contrata o privado quando a rede pública não basta, sob as regras do SUS e sem custo ao usuário.</li>
+<li>Preferência às entidades filantrópicas e sem fins lucrativos; contrato de direito público ou convênio.</li>
+<li>Suplementar: planos, seguros e desembolso direto, regulados pela ANS; não é complementar.</li>
+<li>Recursos públicos não vão a auxílios para entidades privadas com fins lucrativos.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Um hospital filantrópico que atende pelo SUS pode cobrar do paciente uma diferença pelo quarto? <details><summary>Resposta</summary>Não. No atendimento contratado pelo SUS, o acesso é gratuito e segue as normas do sistema público.</details></li>
+<li>Qual é a condição legal para o SUS recorrer a serviços privados? <details><summary>Resposta</summary>A insuficiência das disponibilidades da rede pública para garantir a cobertura assistencial da população de uma área.</details></li>
+</ol>
+`,
+
+"sirio2026#88": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer a Lei 14.737/2023 e o direito da mulher ao acompanhante.</li>
+<li>Diferenciar o acompanhante da mulher do acompanhante no parto e da criança internada.</li>
+<li>Resolver o conflito entre regra do serviço e direito da paciente.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Lei 14.737/2023</dt>
+<dd>Garante à mulher acompanhante de sua escolha em consultas, exames e procedimentos, em serviços públicos e privados; obrigatório se ela estiver sedada ou com consciência alterada.</dd>
+<dt>Lei do Acompanhante no parto (11.108/2005)</dt>
+<dd>Direito à presença de um acompanhante durante o trabalho de parto, parto e pós-parto imediato no SUS.</dd>
+<dt>ECA, art. 12</dt>
+<dd>Permanência em tempo integral de um dos pais ou responsável na internação da criança e do adolescente.</dd>
+<dt>Autonomia</dt>
+<dd>Direito da pessoa de decidir sobre o próprio cuidado, incluindo quem a acompanha, princípio do SUS (Lei 8.080, art. 7º).</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Lei 14.737, de novembro de 2023, nasceu depois de casos de violência sexual contra mulheres sedadas em ambiente assistencial. Ela inseriu na Lei 8.080 o <strong>direito de toda mulher a um acompanhante de sua livre escolha</strong> em consultas, exames e procedimentos de saúde, em qualquer serviço, público ou privado.</p>
+<p>A lei não exige agendamento, aviso prévio, parentesco ou autorização de chefia: a escolha é da mulher, e isso inclui a esposa, a companheira, a amiga ou a mãe. Em caso de limitação real de espaço ou de risco (sala de radiologia durante a exposição, por exemplo), o serviço deve informar e buscar solução, não impedir. Regras internas que contrariem a lei são nulas. O direito também vale para a adolescente, e convive com o direito dela à privacidade e ao sigilo, que ela mesma administra.</p>
+<p>Outras leis protegem situações específicas. A Lei 11.108/2005 garante acompanhante no trabalho de parto, parto e pós-parto imediato, e a Rede Cegonha e a Lei 14.737 reforçaram esse direito. O ECA (art. 12) garante a permanência de um dos pais durante a internação da criança, e o Estatuto da Pessoa Idosa (art. 16) o acompanhante do idoso internado. Nos exames ginecológicos e no atendimento à violência sexual, a presença de alguém de confiança é também proteção contra o constrangimento e boa prática desde antes da lei.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A atitude correta é simples: perguntar à mulher se deseja alguém junto, acolher quem ela escolheu e registrar. Se ela estiver sob sedação e sozinha, uma profissional acompanha o procedimento. Diante de uma regra do serviço que contrarie isso, o profissional segue a lei e informa a gestão para corrigir a rotina.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Lei 14.737/2023: acompanhante de livre escolha em consultas, exames e procedimentos, público e privado, sem aviso prévio.</li>
+<li>Sedação ou consciência alterada: acompanhante obrigatório; na falta, um profissional do serviço.</li>
+<li>Parto: Lei 11.108/2005; criança internada: ECA, art. 12; idoso internado: Estatuto da Pessoa Idosa.</li>
+<li>Regra interna não se sobrepõe à lei; a decisão é da paciente.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Uma mulher será sedada para endoscopia e veio sozinha. O que o serviço deve fazer? <details><summary>Resposta</summary>Designar um profissional de saúde para acompanhá-la durante o procedimento, pois com sedação o acompanhante é obrigatório.</details></li>
+<li>A clínica pode exigir que o acompanhante seja parente ou tenha sido agendado antes? <details><summary>Resposta</summary>Não. A lei fala em acompanhante de livre escolha da mulher, sem exigência de parentesco ou aviso prévio.</details></li>
+</ol>
+`,
+
+"sirio2026#89": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Caracterizar o estudo transversal e os seus produtos.</li>
+<li>Distinguir transversal, ecológico, coorte, caso-controle e ensaio clínico pela pergunta e pela unidade de análise.</li>
+<li>Reconhecer as limitações do transversal: prevalência, temporalidade, viés de sobrevivência.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Estudo transversal (seccional)</dt>
+<dd>Mede exposição e desfecho ao mesmo tempo numa amostra; produz prevalência e razão de prevalências.</dd>
+<dt>Estudo ecológico</dt>
+<dd>A unidade de análise é o agregado (cidade, país, escola); compara taxas e médias entre grupos.</dd>
+<dt>Estudo descritivo</dt>
+<dd>Descreve a distribuição do problema por tempo, lugar e pessoa, sem grupo de comparação formal; gera hipóteses.</dd>
+<dt>Causalidade reversa</dt>
+<dd>Dúvida sobre o que veio antes, exposição ou desfecho, inerente ao corte transversal.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O <strong>estudo transversal</strong> fotografa a população num instante: seleciona uma amostra, mede exposições e desfechos ao mesmo tempo e descreve como se distribuem. Seus produtos são a <strong>prevalência</strong> (quantos têm o problema), o <strong>perfil</strong> dos afetados (sexo, idade, renda, hábitos) e, quando se comparam expostos e não expostos, a razão de prevalências. É rápido, barato, não tem perdas de seguimento e serve para planejar serviços e <strong>gerar hipóteses</strong> que os estudos analíticos vão testar. Os grandes inquéritos nacionais (PNS, Vigitel, PeNSE) são transversais.</p>
+<p>Suas limitações vêm da mesma fotografia. Não mede incidência nem risco, porque não acompanha ninguém. Não estabelece <strong>temporalidade</strong>: se os hipertensos são mais sedentários, não se sabe se o sedentarismo veio antes. Sofre o <strong>viés de sobrevivência</strong> (ou de prevalência): só entram os casos que sobreviveram até o momento do inquérito, e doenças curtas ou letais ficam sub-representadas. Por isso o transversal é descritivo ou, no máximo, analítico fraco.</p>
+<p>A escolha do desenho segue a pergunta. "Quantos e quem?" é transversal. "Lugares com mais X têm mais Y?" é ecológico, com o agregado como unidade e a falácia ecológica como risco. "Expostos adoecem mais ao longo do tempo?" é coorte, que mede incidência e risco relativo. "Doentes foram mais expostos no passado?" é caso-controle, que dá odds ratio e serve a doenças raras. "A intervenção funciona?" é ensaio clínico randomizado. A hierarquia de evidência para causalidade vai do ecológico e do transversal, embaixo, ao ensaio clínico, no topo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na prova, "magnitude, características da população e hipóteses" é transversal; "comparar municípios ou países" é ecológico; "acompanhar expostos e não expostos" é coorte; "doentes e não doentes olhando para trás" é caso-controle. O transversal responde "quem são" indivíduo a indivíduo; o ecológico não.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Transversal: corte único, prevalência, perfil e hipóteses; rápido e barato.</li>
+<li>Não mede incidência nem temporalidade; sofre viés de sobrevivência.</li>
+<li>Ecológico usa agregados; coorte mede incidência; caso-controle, odds ratio; ensaio, intervenção.</li>
+<li>Inquéritos nacionais (PNS, Vigitel) são transversais.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que medida de frequência um estudo transversal produz? <details><summary>Resposta</summary>Prevalência (e razão de prevalências), nunca incidência.</details></li>
+<li>Por que um transversal não prova que o sedentarismo causa hipertensão? <details><summary>Resposta</summary>Porque mede os dois ao mesmo tempo e não estabelece qual veio antes (causalidade reversa).</details></li>
+</ol>
+`,
+
+"sirio2026#91": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir território na PNAB e na Estratégia Saúde da Família.</li>
+<li>Descrever a territorialização e seus instrumentos.</li>
+<li>Relacionar adscrição de clientela e responsabilidade sanitária.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Território vivo</dt>
+<dd>Conceito de Milton Santos: espaço usado, em permanente construção pelas relações sociais, econômicas e culturais.</dd>
+<dt>Territorialização</dt>
+<dd>Processo de reconhecimento do território: cadastro, mapeamento de riscos, recursos e equipamentos sociais, e definição de áreas e microáreas.</dd>
+<dt>Adscrição</dt>
+<dd>Vínculo formal entre uma população definida e uma equipe, que responde por ela, procure ou não a unidade.</dd>
+<dt>Microárea</dt>
+<dd>Subdivisão do território da equipe, sob responsabilidade de um agente comunitário de saúde, em geral com até 750 pessoas.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A PNAB (2017) define a Atenção Básica como ações "desenvolvidas por meio de práticas de cuidado integrado e gestão qualificada, realizadas com equipe multiprofissional e dirigidas à população em <strong>território definido</strong>, sobre o qual as equipes assumem <strong>responsabilidade sanitária</strong>".</p>
+<p>A <strong>territorialização</strong> é o processo de conhecer esse espaço: cadastrar as famílias (e-SUS), mapear ruas, equipamentos (escolas, igrejas, associações), áreas de risco (córregos, tráfico, falta de saneamento), identificar lideranças e grupos vulneráveis, e dividir a área em <strong>microáreas</strong> para os agentes comunitários. O produto é o diagnóstico situacional, que orienta o planejamento local: onde há mais idosos acamados, onde a cobertura vacinal é baixa, onde a dengue se concentra.</p>
+<p>Da territorialização decorre a <strong>adscrição</strong>: a equipe responde por todos os que vivem na sua área, de 2.000 a 3.500 pessoas por equipe de Saúde da Família, inclusive por quem nunca procurou a unidade. Busca ativa de faltosos, visita domiciliar e vigilância são expressão dessa responsabilidade. A adscrição permite a <strong>longitudinalidade</strong> e o vínculo, atributos essenciais da APS, e dá base a indicadores populacionais (cobertura vacinal, pré-natal, hipertensos acompanhados), que só fazem sentido com um denominador conhecido.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando um hipertenso da área não aparece há um ano, ele não "não é paciente da equipe": é um usuário adscrito sob responsabilidade sanitária, e o agente comunitário o procura. O território explica também por que a equipe participa de reuniões de associação de moradores e de ações na escola: a saúde se produz no território, não só na sala de consulta.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Território na PNAB: espaço vivo e dinâmico, com dimensões geográfica, social, econômica, cultural e de saúde.</li>
+<li>Territorialização: cadastro, mapeamento de riscos e recursos, microáreas, diagnóstico situacional.</li>
+<li>Adscrição: a equipe responde por toda a população da área, inclusive por quem não procura a unidade.</li>
+<li>2.000 a 3.500 pessoas por equipe; microárea de até 750 pessoas por agente comunitário.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Uma família mora na área da equipe, mas usa só o plano de saúde. A equipe tem responsabilidade sobre ela? <details><summary>Resposta</summary>Sim. A adscrição é pela residência no território; a responsabilidade sanitária independe de a família procurar a unidade.</details></li>
+<li>Qual é a diferença entre área da UBS e território vivo? <details><summary>Resposta</summary>A área é o limite geográfico-administrativo; o território vivo inclui as relações sociais, as condições de vida e os recursos da população que ali vive.</details></li>
+</ol>
+`,
+
+"sirio2026#92": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir esperança de vida ao nascer e explicar como se calcula.</li>
+<li>Interpretar o indicador e as suas variações entre regiões e no tempo.</li>
+<li>Distinguir esperança de vida de idade média ao morrer e de esperança de vida saudável.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Esperança de vida ao nascer</dt>
+<dd>Número médio de anos que uma coorte hipotética de recém-nascidos viveria sob as taxas de mortalidade por idade do ano de referência.</dd>
+<dt>Tábua de vida</dt>
+<dd>Tabela que aplica as taxas de mortalidade de cada idade a uma coorte fictícia de 100 mil nascidos e calcula os sobreviventes e os anos vividos.</dd>
+<dt>Esperança de vida saudável</dt>
+<dd>Anos esperados de vida sem incapacidade; combina mortalidade e morbidade.</dd>
+<dt>Idade média ao morrer</dt>
+<dd>Média das idades dos óbitos ocorridos; depende da estrutura etária e não é um indicador padronizado.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>esperança de vida ao nascer</strong> é um indicador <strong>hipotético</strong>: pega-se uma coorte imaginária de recém-nascidos e supõe-se que ela enfrente, em cada idade, exatamente as taxas de mortalidade observadas na população no ano de referência. A média de anos vividos por essa coorte é a esperança de vida. Ela não é uma previsão de quanto os nascidos de hoje vão viver, pois as taxas mudam; é um <strong>resumo da mortalidade atual</strong>, de todas as idades, num único número, independente da estrutura etária da população. Por isso serve para comparar lugares e épocas.</p>
+<p>O cálculo é a <strong>tábua de vida</strong>: para cada idade, a probabilidade de morrer; a partir dela, os sobreviventes de cada idade e os anos vividos pela coorte; a soma dos anos restantes dividida pelos sobreviventes em cada idade dá a esperança de vida naquela idade. Esperança de vida aos 60 anos, por exemplo, é quantos anos em média ainda viveria quem chegou aos 60.</p>
+<p>No Brasil, a esperança de vida ao nascer passou de cerca de 45 anos em 1940 para 76 anos em 2023, com queda de cerca de dois anos em 2021 pela covid-19 e recuperação depois. As mulheres vivem cerca de sete anos mais que os homens, em grande parte pelas causas externas na juventude masculina, e há diferenças de vários anos entre estados e entre bairros da mesma cidade, reflexo das condições de vida.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Erros comuns de prova: confundir esperança de vida com idade média dos óbitos (que depende de quantos jovens e idosos há na população), supor que ela depende da estrutura etária (não depende, por ser calculada por idade) e esquecer que a definição fala de uma coorte submetida às taxas do ano, e não de pessoas reais acompanhadas.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Esperança de vida ao nascer: anos médios de uma coorte hipotética sob as taxas de mortalidade por idade do ano.</li>
+<li>Calculada pela tábua de vida; independe da estrutura etária; resume a mortalidade de todas as idades.</li>
+<li>A mortalidade infantil é o maior determinante do valor ao nascer.</li>
+<li>Brasil: cerca de 76 anos em 2023, mulheres sete anos acima dos homens, grandes diferenças regionais.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a esperança de vida ao nascer pode ser comparada entre um país jovem e um país envelhecido? <details><summary>Resposta</summary>Porque é calculada a partir das taxas de mortalidade específicas por idade, e não depende da proporção de jovens e idosos na população.</details></li>
+<li>O que mais contribuiu para o aumento da esperança de vida ao nascer no século XX? <details><summary>Resposta</summary>A queda da mortalidade infantil, que subtraía dezenas de anos potenciais a cada óbito no primeiro ano.</details></li>
+</ol>
+`,
+
+"sirio2026#95": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar a abordagem sindrômica ao corrimento uretral.</li>
+<li>Montar o pacote de prevenção combinada na mesma consulta.</li>
+<li>Atender a população LGBT sem discriminação, com sigilo e autonomia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Abordagem sindrômica</dt>
+<dd>Tratar na primeira consulta pelo conjunto de sinais e sintomas, sem esperar o agente, cobrindo as etiologias mais prováveis.</dd>
+<dt>Prevenção combinada</dt>
+<dd>Soma de preservativo, testagem, PEP, PrEP, tratamento das IST, vacinas e redução de danos, escolhida com a pessoa.</dd>
+<dt>PrEP</dt>
+<dd>Profilaxia pré-exposição ao HIV com tenofovir e entricitabina, diária ou sob demanda, para pessoas com risco aumentado.</dd>
+<dt>Comunicação às parcerias</dt>
+<dd>Aviso às parcerias sexuais para que se tratem, feito preferencialmente pelo próprio paciente, com apoio do serviço e sem quebra de sigilo.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O <strong>corrimento uretral</strong> masculino tem como causas principais <em>Neisseria gonorrhoeae</em> e <em>Chlamydia trachomatis</em>, frequentemente juntas, e ainda <em>Mycoplasma genitalium</em> e <em>Trichomonas</em>. O PCDT de IST manda tratar na primeira consulta pela <strong>abordagem sindrômica</strong>: <strong>ceftriaxona 500 mg IM</strong> em dose única mais <strong>azitromicina 1 g VO</strong> em dose única. Quando houver laboratório, colhe-se material para bacterioscopia ou biologia molecular antes, mas o tratamento não espera o resultado. Persistência após 7 dias com adesão e sem reexposição sugere micoplasma ou tricomonas e muda o esquema.</p>
+<p>A consulta por IST é a oportunidade da <strong>prevenção combinada</strong>: testes rápidos para HIV, sífilis, hepatites B e C; vacinas contra hepatite B, hepatite A (disponível para homens que fazem sexo com homens no SUS) e HPV (até 45 anos para alguns grupos); preservativos e gel; orientação sobre <strong>PEP</strong> até 72 horas após exposição e oferta de <strong>PrEP</strong> para quem tem risco continuado, como múltiplas parcerias sem preservativo. As parcerias dos últimos 60 dias devem ser tratadas; a comunicação é feita pelo paciente, com cartão de convocação, ou pelo serviço com o seu consentimento, sempre sem revelar o diagnóstico a terceiros sem autorização.</p>
+<p>A Política Nacional de Saúde Integral de LGBT (2011) reconhece a discriminação como determinante de saúde e exige acolhimento sem julgamento, uso do nome social e abordagem da sexualidade na anamnese de forma natural. Perguntar sobre práticas sexuais, parcerias e uso de preservativo não é invasão: é o que permite oferecer o cuidado certo. Tratar "só o biomédico" para não constranger, encaminhar a sexualidade ao serviço social ou envolver a família de um adulto sem pedido são formas de excluir.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Fluxo da consulta: tratar com ceftriaxona e azitromicina; testes rápidos; vacinas; preservativos; conversar sobre PrEP e PEP; orientar comunicação às parcerias e retorno em uma semana. Notificar no SINAN apenas o que é compulsório (HIV, sífilis, hepatites); a uretrite gonocócica não é de notificação individual.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Corrimento uretral: ceftriaxona 500 mg IM + azitromicina 1 g VO na primeira consulta.</li>
+<li>Mesma consulta: testes rápidos, vacinas, preservativo, PEP e PrEP conforme o risco.</li>
+<li>Parcerias dos últimos 60 dias tratadas; comunicação voluntária e sigilosa.</li>
+<li>Acolhimento sem discriminação e sexualidade na anamnese: cuidado, não constrangimento.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o tratamento sindrômico do corrimento uretral no PCDT? <details><summary>Resposta</summary>Ceftriaxona 500 mg intramuscular em dose única mais azitromicina 1 g oral em dose única.</details></li>
+<li>Em que prazo a PEP para HIV deve ser iniciada? <details><summary>Resposta</summary>Idealmente em até 2 horas e no máximo até 72 horas após a exposição.</details></li>
+</ol>
+`,
+
+"sirio2026#96": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer o calendário da vacina varicela e a idade mínima da vacina atenuada.</li>
+<li>Saber quem recebe imunoglobulina antivaricela-zóster após exposição.</li>
+<li>Orientar a família de um lactente exposto a varicela ou zóster.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Tetraviral</dt>
+<dd>Sarampo, caxumba, rubéola e varicela numa só dose, aos 15 meses, no calendário nacional.</dd>
+<dt>Varicela atenuada</dt>
+<dd>Vacina de vírus vivo; não se aplica antes dos 12 meses de rotina, nem a imunodeprimidos e gestantes.</dd>
+<dt>IGHAVZ</dt>
+<dd>Imunoglobulina humana antivaricela-zóster, aplicada até 96 horas após a exposição a suscetíveis de alto risco.</dd>
+<dt>Herpes zóster</dt>
+<dd>Reativação do vírus varicela-zóster em gânglio sensitivo; transmite varicela pelo contato com as lesões, menos que a varicela.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>No calendário nacional, a <strong>varicela</strong> entra na <strong>tetraviral aos 15 meses</strong> e tem a segunda dose, como varicela isolada, aos <strong>4 anos</strong>. Por ser vacina de vírus vivo atenuado, não é aplicada antes dos <strong>12 meses</strong> fora de situação de surto, em que a SBIm e os CRIE admitem a partir dos 9 meses, sem contar essa dose para o esquema. É contraindicada em imunodeprimidos graves e gestantes. Lactentes menores de um ano não têm, portanto, vacina disponível, e dependem da imunidade materna transferida e, depois, da baixa exposição.</p>
+<p>O <strong>herpes zóster</strong> da avó transmite o vírus pelo contato com as vesículas, até que formem crostas, e com menor transmissibilidade que a varicela. Um lactente saudável exposto pode ter varicela, em geral <strong>benigna</strong>: a doença grave concentra-se em imunodeprimidos, gestantes, recém-nascidos de mãe com varicela periparto e adultos.</p>
+<p>A conduta para o lactente de 4 meses é orientar: separar a avó enquanto houver lesões abertas, cobrir as lesões, higiene das mãos, e observar por 10 a 21 dias o aparecimento de febre e vesículas; em caso de varicela, antitérmico (nunca ácido acetilsalicílico), higiene das lesões e retorno se houver sinais de complicação. O calendário de rotina dos 6 meses segue normalmente. A avó deve ser orientada sobre a vacina de zóster recombinante, indicada a partir dos 50 anos na rede privada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando um responsável pergunta "existe vacina para proteger agora?", a resposta é não para o lactente saudável com menos de 12 meses, e a imunoglobulina não é para ele. A pergunta certa a fazer de volta é: a criança é prematura extrema ou tem imunodeficiência? Só então a IGHAVZ entra.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Varicela: tetraviral aos 15 meses e reforço aos 4 anos; atenuada, não antes dos 12 meses de rotina.</li>
+<li>Zóster transmite varicela pelo contato com as lesões; em lactente saudável, a varicela é em geral benigna.</li>
+<li>IGHAVZ até 96 horas só para imunodeprimidos, gestantes suscetíveis, recém-nascidos de mãe com varicela periparto e prematuros.</li>
+<li>Lactente de 4 meses exposto: orientar, observar e manter o calendário.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em que idade o calendário nacional dá a primeira dose contra varicela e em que vacina? <details><summary>Resposta</summary>Aos 15 meses, na tetraviral (sarampo, caxumba, rubéola e varicela).</details></li>
+<li>Recém-nascido a termo cuja mãe teve varicela dois dias antes do parto: que profilaxia recebe? <details><summary>Resposta</summary>Imunoglobulina antivaricela-zóster, pois a varicela materna de 5 dias antes a 2 dias depois do parto é indicação.</details></li>
+</ol>
+`,
+
+"sirio2026#97": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Caracterizar os modelos Beveridge, Bismarck e de mercado.</li>
+<li>Associar cada modelo a países e à sua concepção de saúde.</li>
+<li>Situar o SUS e o antigo INAMPS nessa tipologia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Modelo Beveridge</dt>
+<dd>Sistema nacional de saúde financiado por impostos, de acesso universal, com provisão majoritariamente pública (Reino Unido, Suécia, Brasil).</dd>
+<dt>Modelo Bismarck</dt>
+<dd>Seguro social obrigatório financiado por contribuições de empregados e empregadores, gerido por caixas (Alemanha, França, Japão).</dd>
+<dt>Modelo de mercado</dt>
+<dd>Seguros privados voluntários e desembolso direto, com programas públicos residuais (Estados Unidos).</dd>
+<dt>Cobertura universal</dt>
+<dd>Meta da OMS: toda a população com acesso a serviços de qualidade sem sofrer dificuldade financeira, independentemente do modelo.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A tipologia clássica distingue os sistemas pelo <strong>financiamento</strong> e pela <strong>concepção de saúde</strong>. O modelo <strong>Bismarck</strong> é o mais antigo: em 1883, o chanceler alemão criou o seguro-doença obrigatório para operários, financiado por contribuições de trabalhadores e patrões e gerido por caixas de seguridade. A saúde é <strong>seguro social</strong>, direito ligado ao trabalho e à contribuição, e a provisão é mista. Alemanha, França, Bélgica, Japão e Áustria seguem variantes, hoje com cobertura quase universal por extensão progressiva das caixas.</p>
+<p>O modelo <strong>Beveridge</strong> vem do relatório de William Beveridge (1942) e do National Health Service britânico (1948): a saúde é <strong>direito universal de cidadania</strong>, financiada por impostos gerais, com acesso gratuito no ponto de uso e provisão predominantemente pública, organizada a partir do médico generalista. Reino Unido, países nórdicos, Espanha, Itália, Portugal e o <strong>SUS</strong> estão nessa família: a Constituição de 1988 rompeu com o modelo previdenciário do INAMPS, que era bismarckiano e cobria só os contribuintes, e universalizou o direito.</p>
+<p>O modelo de <strong>mercado</strong>, cujo exemplo é o dos Estados Unidos, trata a saúde como <strong>bem de consumo</strong>: cada um compra o seguro que pode, em geral pelo empregador, e o Estado cobre grupos residuais (Medicare para idosos, Medicaid para pobres). É o sistema mais caro do mundo, com piores indicadores que os pares e milhões de não segurados, parcialmente corrigidos pelo Affordable Care Act (2010). Na prática, todos os sistemas são mistos: o Brasil tem um SUS beveridgiano convivendo com um setor suplementar de mercado que cobre um quarto da população.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Mnemônico de prova: Beveridge, Bismarck, Mercado = direito, seguro, consumo = imposto, contribuição, bolso = Reino Unido, Alemanha, Estados Unidos. INAMPS era Bismarck; SUS é Beveridge; plano de saúde é mercado.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Bismarck (1883): seguro social por contribuição, ligado ao trabalho; Alemanha.</li>
+<li>Beveridge (1948): direito universal por impostos, provisão pública; Reino Unido e SUS.</li>
+<li>Mercado: bem de consumo por seguros privados, Estado residual; Estados Unidos.</li>
+<li>O Brasil passou do INAMPS bismarckiano ao SUS beveridgiano em 1988, mantendo um setor suplementar de mercado.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que modelo o INAMPS representava e por quê? <details><summary>Resposta</summary>O modelo Bismarck, pois cobria apenas os trabalhadores contribuintes da previdência, como um seguro social.</details></li>
+<li>Qual é a fonte principal de financiamento no modelo Beveridge? <details><summary>Resposta</summary>Impostos gerais, com acesso universal e gratuito no ponto de uso.</details></li>
+</ol>
+`,
+
+"sirio2026#99": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Enunciar os princípios e as diretrizes da Política Nacional de Humanização.</li>
+<li>Reconhecer o acolhimento como postura e não como triagem.</li>
+<li>Aplicar a PNH ao cuidado do acompanhante na internação pediátrica.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>PNH (HumanizaSUS)</dt>
+<dd>Política de 2003 que propõe mudar as práticas de gestão e de cuidado no SUS a partir da valorização dos sujeitos: usuários, trabalhadores e gestores.</dd>
+<dt>Acolhimento</dt>
+<dd>Postura ética de escuta qualificada e responsabilização, em todo encontro, e não um setor ou uma etapa de triagem.</dd>
+<dt>Clínica ampliada</dt>
+<dd>Olhar que integra doença, sujeito e contexto, com projeto terapêutico singular construído em equipe e com o usuário.</dd>
+<dt>Cogestão</dt>
+<dd>Inclusão de usuários e trabalhadores nas decisões, por colegiados e dispositivos como a visita aberta e o acompanhante.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>Política Nacional de Humanização</strong> parte de três princípios: <strong>transversalidade</strong> (atravessa todas as práticas e serviços), <strong>inseparabilidade entre atenção e gestão</strong> (o modo de gerir produz o modo de cuidar) e <strong>protagonismo, corresponsabilidade e autonomia</strong> dos sujeitos. Suas diretrizes incluem acolhimento, clínica ampliada e compartilhada, cogestão, valorização do trabalhador, defesa dos direitos dos usuários, ambiência, visita aberta e direito a acompanhante.</p>
+<p>O <strong>acolhimento</strong>, na PNH, é escuta qualificada da necessidade da pessoa, com responsabilização pela resposta, em todos os momentos e por todos os profissionais. A mãe que se sente "invisível" descreve uma equipe que acolhe a criança como objeto de exame e ignora a família como sujeito. Ouvir ativamente, nomear e validar o sofrimento ("é muito cansativo ficar cinco dias aqui") e compartilhar com a equipe, com o consentimento dela, para ajustar a comunicação e a rotina, é a aplicação da diretriz.</p>
+<p>A internação pediátrica tem dispositivos próprios. O ECA (art. 12) garante a permanência em tempo integral de um dos pais, e os hospitais devem oferecer condições para isso: poltrona ou leito, alimentação, banho, informação clara e participação no cuidado (a mãe que aspira o nariz e dá a dieta não é visitante, é cuidadora). A <strong>visita aberta</strong> e a <strong>ambiência</strong> (espaço de descanso, luz, ruído) são parte da PNH, e a troca de informações entre a equipe, com a mãe presente na passagem de visita, é o que impede o sentimento de invisibilidade.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ferramentas de escuta que cabem em cinco minutos: perguntar "como você está?", sentar-se na altura dela, resumir o que ouviu, perguntar o que a preocupa mais e combinar o próximo passo. Oferecer, não impor, o descanso; nunca medicar a criança para resolver a exaustão do adulto.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>PNH: transversalidade, inseparabilidade entre atenção e gestão, protagonismo e corresponsabilidade.</li>
+<li>Acolhimento é escuta qualificada com responsabilização, em todo encontro; não é triagem.</li>
+<li>Clínica ampliada: a família adoece com a criança; a mãe é cuidadora, não visitante.</li>
+<li>Acompanhante em tempo integral (ECA, art. 12), visita aberta e ambiência são dispositivos da PNH.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os três princípios da Política Nacional de Humanização? <details><summary>Resposta</summary>Transversalidade, inseparabilidade entre atenção e gestão, e protagonismo, corresponsabilidade e autonomia dos sujeitos.</details></li>
+<li>Por que acolhimento não é sinônimo de triagem com classificação de risco? <details><summary>Resposta</summary>Porque é uma postura ética de escuta e responsabilização de todos os profissionais em todos os encontros, e não uma etapa ou um setor do serviço.</details></li>
+</ol>
+`,
+
+"sirio2026#100": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever o circuito de incorporação de tecnologias no SUS pela Conitec.</li>
+<li>Explicar o papel dos Protocolos Clínicos e Diretrizes Terapêuticas.</li>
+<li>Distinguir registro sanitário, incorporação e dispensação.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Conitec</dt>
+<dd>Comissão Nacional de Incorporação de Tecnologias no SUS, criada pela Lei 12.401/2011, que assessora o Ministério sobre incorporar, excluir ou alterar tecnologias e elaborar PCDT.</dd>
+<dt>ATS</dt>
+<dd>Avaliação de Tecnologias em Saúde: análise de eficácia, segurança, custo-efetividade e impacto orçamentário para decidir sobre a oferta pública.</dd>
+<dt>PCDT</dt>
+<dd>Protocolo Clínico e Diretrizes Terapêuticas: documento oficial que define critérios de diagnóstico, tratamento, doses, monitoramento e resultados esperados.</dd>
+<dt>Componente Especializado</dt>
+<dd>Parte da assistência farmacêutica que dispensa medicamentos de alto custo conforme os PCDT, em farmácias estaduais.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Um medicamento percorre três portas até chegar ao usuário do SUS. A primeira é o <strong>registro na Anvisa</strong>, que atesta qualidade, segurança e eficácia e autoriza a comercialização no país; sem ele, a Lei 8.080 (art. 19-T) proíbe a dispensação no SUS. A segunda é a <strong>incorporação</strong>: a Lei 12.401/2011 criou a <strong>Conitec</strong>, que analisa as demandas de incorporação em até 180 dias (prorrogáveis por 90), com <strong>Avaliação de Tecnologias em Saúde</strong>, consulta pública e recomendação ao secretário de Ciência, Tecnologia e Inovação, que decide.</p>
+<p>A incorporação vem acompanhada do <strong>PCDT</strong>, que traduz a evidência em regras de uso: critérios de inclusão e exclusão, esquema, doses, exames de monitoramento, critérios de interrupção. O PCDT protege o paciente e o sistema: garante que a tecnologia seja usada em quem se beneficia e que o gasto seja previsível.</p>
+<p>A Conitec também pode <strong>excluir</strong> tecnologias obsoletas e revisar PCDT, e qualquer pessoa pode protocolar uma demanda. Para a saúde suplementar, o processo é outro: a ANS atualiza o Rol de Procedimentos com a sua própria comissão. A judicialização surge quando o paciente pede algo não incorporado; os tribunais exigem, entre outros critérios, que não exista substituto no SUS e que haja evidência de eficácia, e a mora da Conitec em analisar uma demanda pesa a favor do pedido.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Prescrever no SUS é prescrever dentro do PCDT: o formulário do Componente Especializado (LME) exige o CID, os exames e os critérios do protocolo, e a farmácia estadual só dispensa o que se enquadra. Conhecer o PCDT da doença que se trata é parte da competência clínica, não burocracia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Três portas: registro na Anvisa, incorporação pela Conitec (ATS, 180 dias, consulta pública) e dispensação pela assistência farmacêutica.</li>
+<li>PCDT: critérios de uso, doses e monitoramento; a prescrição no SUS segue o protocolo.</li>
+<li>Hepatite C: antivirais incorporados após ATS, PCDT ampliado, cura acima de 95%.</li>
+<li>ANS e Rol cuidam dos planos privados; a Conitec cuida do SUS.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que lei criou a Conitec e qual é o prazo para analisar uma demanda de incorporação? <details><summary>Resposta</summary>A Lei 12.401/2011; 180 dias, prorrogáveis por mais 90.</details></li>
+<li>Registro na Anvisa basta para um medicamento ser dispensado no SUS? <details><summary>Resposta</summary>Não. O registro autoriza a venda no país; a oferta no SUS exige incorporação pela Conitec e uso conforme o PCDT.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · Preventiva · Sírio-Libanês 2027 (prev66–prev80) --------------------------- */
+"sirio2027#81": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir prevenção quaternária e situá-la entre os níveis de prevenção.</li>
+<li>Explicar sobrediagnóstico, sobretratamento e cascata de exames.</li>
+<li>Listar os rastreamentos recomendados para uma mulher de 47 anos sem fatores de risco.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Prevenção quaternária</dt>
+<dd>Ação que identifica a pessoa em risco de medicalização excessiva e a protege de intervenções sem benefício (Jamoulle).</dd>
+<dt>Sobrediagnóstico</dt>
+<dd>Diagnóstico correto de uma condição que nunca causaria sintomas ou morte; o paciente só colhe os danos do rótulo e do tratamento.</dd>
+<dt>Incidentaloma</dt>
+<dd>Achado casual de exame de imagem, em geral benigno, que desencadeia nova investigação.</dd>
+<dt>Critérios de Wilson e Jungner</dt>
+<dd>Condições para rastrear: doença importante, fase pré-clínica detectável, teste aceitável e tratamento precoce que muda o desfecho.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Marc Jamoulle propôs em 1986 a <strong>prevenção quaternária</strong> a partir do cruzamento entre o que o médico vê (doença presente ou ausente) e o que a pessoa sente (doente ou não). Quando a pessoa se sente doente e o médico não encontra doença, o risco é a medicalização: exames em cascata, diagnósticos de conveniência, tratamentos sem indicação. A prevenção quaternária é proteger a pessoa desse excesso, com o princípio <em>primum non nocere</em>, e é tarefa especialmente da APS, que vê a pessoa inteira e ao longo do tempo.</p>
+<p>O <strong>rastreamento</strong> só faz bem quando cumpre os critérios de Wilson e Jungner e tem evidência de reduzir mortalidade ou morbidade. Fora disso, produz <strong>falsos positivos</strong> (ansiedade, biópsias), <strong>sobrediagnóstico</strong> (cânceres de tireoide e de próstata indolentes, por exemplo) e <strong>sobretratamento</strong>, além de custo e radiação. O ultrassom de tireoide em assintomáticos é o exemplo clássico: a Coreia do Sul multiplicou por quinze o diagnóstico de câncer de tireoide sem mudar a mortalidade.</p>
+<p>Para a mulher de 47 anos sem fatores de risco, o que tem recomendação no Brasil é: <strong>citologia cervical</strong> a cada três anos após dois exames anuais normais (ou teste de HPV a cada cinco anos, onde implantado); <strong>mamografia</strong> bienal a partir dos 50 anos pelo Ministério da Saúde (a SBM e a Febrasgo propõem anual a partir dos 40); <strong>pressão arterial</strong> em toda consulta; <strong>glicemia</strong> e <strong>lipídios</strong> conforme o risco cardiovascular; rastreamento de câncer colorretal a partir dos 50 (ou 45, para algumas sociedades); e atenção a tabagismo, álcool, peso e vacinas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Frases que funcionam na consulta: "esse exame, em quem não tem sintomas, encontra mais problemas falsos do que verdadeiros"; "o que a ciência mostra que protege alguém da sua idade é isto, e eu quero fazer isto bem feito". Oferecer o rastreamento certo é tão importante quanto negar o errado.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Prevenção quaternária: proteger a pessoa da medicalização e do excesso de intervenção.</li>
+<li>Rastrear só o que cumpre Wilson e Jungner e reduz mortalidade; o resto produz sobrediagnóstico.</li>
+<li>Mulher de 47 anos sem risco: citologia, pressão, glicemia e lipídios conforme risco, mamografia a partir dos 50 (MS).</li>
+<li>Ultrassom de tireoide, vitamina D e imagem de corpo inteiro em assintomáticos não têm indicação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que é sobrediagnóstico? <details><summary>Resposta</summary>O diagnóstico de uma condição real que nunca causaria sintomas ou morte, de modo que a pessoa só recebe os danos do rótulo e do tratamento.</details></li>
+<li>Qual é a recomendação do Ministério da Saúde para mamografia de rastreamento? <details><summary>Resposta</summary>Bienal, dos 50 aos 69 anos, em mulheres sem fatores de risco elevados.</details></li>
+</ol>
+`,
+
+"sirio2027#82": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diferenciar igualdade de equidade no SUS.</li>
+<li>Definir racismo institucional e reconhecê-lo como determinante social.</li>
+<li>Conhecer as diretrizes da Política Nacional de Saúde Integral da População Negra.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Equidade</dt>
+<dd>Oferecer mais a quem precisa mais, para reduzir desigualdades injustas; princípio do SUS derivado da igualdade.</dd>
+<dt>Racismo institucional</dt>
+<dd>Fracasso coletivo das instituições em oferecer serviço adequado às pessoas por sua cor ou origem, produzindo desvantagem sistemática.</dd>
+<dt>PNSIPN</dt>
+<dd>Política Nacional de Saúde Integral da População Negra (2009), que reconhece o racismo como determinante e orienta ações de equidade.</dd>
+<dt>Quesito raça/cor</dt>
+<dd>Campo de autodeclaração nos sistemas de informação do SUS, obrigatório desde 2017, que permite medir as desigualdades.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Lei 8.080 fala em <strong>igualdade</strong> da assistência, sem preconceitos ou privilégios; a <strong>equidade</strong> é a sua leitura substantiva: como as necessidades são diferentes, tratar igual os desiguais mantém a desigualdade, e o sistema deve oferecer mais a quem tem mais necessidade. Equidade orienta a alocação de recursos (mais equipes onde há mais vulnerabilidade), a organização do acesso (busca ativa, horários estendidos) e as políticas para grupos específicos: população negra, LGBT, pessoas em situação de rua, povos indígenas, população do campo.</p>
+<p>A população negra tem mais hipertensão, diabetes, mortalidade materna, mortes por violência e menor acesso a pré-natal adequado e a analgesia no parto. A explicação genética é marginal; o que pesa são os <strong>determinantes sociais</strong> (renda, moradia, trabalho) e o <strong>racismo</strong>, inclusive o <strong>institucional</strong>: o serviço que não oferece o mesmo acolhimento, que demora mais a atender, que subestima a dor da mulher negra, que não registra a cor.</p>
+<p>Na APS, a política se traduz em ações concretas: preencher o <strong>quesito raça/cor</strong> em todos os registros, para que a desigualdade seja visível nos indicadores; capacitar a equipe sobre racismo e saúde; atenção à doença falciforme, à hipertensão e ao diabetes com busca ativa; cuidado respeitoso no pré-natal e no parto; espaço para que os usuários relatem discriminação, com resposta institucional. Reconhecer o racismo não é acusar a equipe: é entender por que a mesma oferta produz resultados diferentes e corrigir o processo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Três perguntas para a reunião de equipe: o quesito raça/cor está preenchido nos nossos cadastros? Os indicadores (pré-natal, hipertensão controlada, vacinação) são diferentes por cor? Os usuários negros relatam experiências ruins no acesso? As respostas mostram onde começa a ação de equidade.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Igualdade é o mesmo para todos; equidade é mais para quem precisa mais, para reduzir iniquidades.</li>
+<li>Racismo institucional: as instituições funcionam pior para a população negra, e isso é determinante social.</li>
+<li>PNSIPN (2009): reconhece o racismo como determinante e prioriza a redução das iniquidades.</li>
+<li>Quesito raça/cor preenchido, equipe capacitada, busca ativa e acolhimento sem discriminação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a equipe deve preencher o quesito raça/cor em todos os cadastros? <details><summary>Resposta</summary>Porque só com ele os indicadores revelam as desigualdades por cor e orientam as ações de equidade.</details></li>
+<li>Como a PNSIPN classifica o racismo? <details><summary>Resposta</summary>Como determinante social das condições de saúde, ao lado das desigualdades étnico-raciais e do racismo institucional.</details></li>
+</ol>
+`,
+
+"sirio2027#83": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Enunciar os princípios doutrinários e organizativos do SUS.</li>
+<li>Reconhecer, em situações concretas, qual princípio foi violado.</li>
+<li>Diferenciar universalidade de equidade e de integralidade.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Universalidade</dt>
+<dd>Acesso de todas as pessoas, sem exigir contribuição, vínculo, documento ou residência comprovada.</dd>
+<dt>Integralidade</dt>
+<dd>Conjunto articulado de ações preventivas e curativas, individuais e coletivas, em todos os níveis de complexidade.</dd>
+<dt>Equidade</dt>
+<dd>Prioridade a quem tem mais necessidade; a face substantiva da igualdade.</dd>
+<dt>Princípios organizativos</dt>
+<dd>Descentralização com direção única em cada esfera, regionalização e hierarquização, participação da comunidade.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Os <strong>princípios doutrinários</strong> do SUS dizem o que ele é: <strong>universalidade</strong> (saúde é direito de todos e dever do Estado, CF art. 196), <strong>integralidade</strong> (cuidado completo, da promoção à reabilitação) e <strong>equidade</strong> (igualdade substantiva, com prioridade a quem mais precisa). Os <strong>princípios organizativos</strong> dizem como ele funciona: <strong>descentralização</strong> com comando único em cada esfera de governo, <strong>regionalização e hierarquização</strong> da rede em níveis de complexidade e <strong>participação da comunidade</strong> por conselhos e conferências.</p>
+<p>A <strong>universalidade</strong> foi a ruptura de 1988: antes, o INAMPS atendia só os trabalhadores contribuintes, e os demais dependiam da caridade ou dos poucos serviços de saúde pública. Hoje nenhum documento é condição de acesso. O Cartão SUS e o comprovante de residência servem ao cadastro e à adscrição na APS, mas a PNAB é explícita: a demanda espontânea de quem está no território deve ser acolhida, inclusive de quem não reside na área, com orientação posterior sobre a unidade de referência. Exigir carteira de trabalho é regredir ao modelo previdenciário.</p>
+<p>Distinguir os princípios na prova exige olhar o que foi negado. Negar acesso a um cidadão qualquer fere a <strong>universalidade</strong>. Dar o mesmo a todos ignorando necessidades diferentes, ou deixar de priorizar quem precisa mais, fere a <strong>equidade</strong>. Tratar só a queixa sem prevenção, ou não garantir o seguimento no nível seguinte, fere a <strong>integralidade</strong>. Centralizar decisões no Ministério fere a descentralização; não ouvir o conselho fere a participação.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Acolher a demanda espontânea é tarefa de toda a equipe, inclusive da recepção, e a PNAB prevê a classificação de risco já no acolhimento. A pessoa fora da área é atendida e depois orientada sobre a unidade de referência, nunca mandada embora. Síndrome febril aguda em época de arboviroses tem prioridade.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Doutrinários: universalidade, integralidade, equidade; organizativos: descentralização, regionalização e hierarquização, participação.</li>
+<li>Universalidade: acesso de todos, sem documento, vínculo ou residência comprovada; ruptura com o INAMPS.</li>
+<li>Negar acesso fere a universalidade; não priorizar quem precisa mais fere a equidade; cuidado incompleto fere a integralidade.</li>
+<li>Demanda espontânea é acolhida mesmo fora da área; cadastro vem depois.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Uma UBS atende os hipertensos com o mesmo intervalo de consultas, independentemente do controle da pressão. Que princípio está em falta? <details><summary>Resposta</summary>A equidade: quem está descompensado precisa de mais atenção que quem está controlado.</details></li>
+<li>Quais são os princípios organizativos do SUS? <details><summary>Resposta</summary>Descentralização com direção única em cada esfera, regionalização e hierarquização, e participação da comunidade.</details></li>
+</ol>
+`,
+
+"sirio2027#85": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar e interpretar o AUDIT na atenção primária.</li>
+<li>Conhecer os limites do CAGE e o papel da intervenção breve.</li>
+<li>Reconhecer sinais de dependência e de risco de abstinência.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>AUDIT</dt>
+<dd>Dez perguntas da OMS sobre consumo, dependência e problemas; escore de 0 a 40 com quatro zonas de risco e intervenções correspondentes.</dd>
+<dt>AUDIT-C</dt>
+<dd>As três primeiras perguntas do AUDIT, sobre quantidade e frequência; rastreio rápido, positivo com 4 pontos em homens e 3 em mulheres.</dd>
+<dt>CAGE</dt>
+<dd>Quatro perguntas (cortar, aborrecer-se, culpa, abrir os olhos bebendo); duas positivas sugerem dependência, sem graduar.</dd>
+<dt>Intervenção breve</dt>
+<dd>Conversa estruturada de 5 a 15 minutos, com devolutiva do escore, metas e acompanhamento, eficaz no uso de risco e nocivo.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O álcool é a substância que mais causa dano no Brasil, e a APS é o lugar de identificar o problema antes da dependência. O <strong>AUDIT</strong>, desenvolvido pela OMS para a atenção primária, tem dez perguntas: três sobre <strong>consumo</strong> (frequência, quantidade, episódios de seis ou mais doses), três sobre <strong>dependência</strong> (não conseguir parar, deixar de fazer o esperado, beber de manhã) e quatro sobre <strong>problemas</strong> (culpa, amnésia, ferimentos, preocupação de terceiros). O escore vai de 0 a 40 e define zonas: <strong>0 a 7</strong>, baixo risco, educação; <strong>8 a 15</strong>, uso de risco, orientação simples; <strong>16 a 19</strong>, uso nocivo, intervenção breve e monitoramento; <strong>20 ou mais</strong>, provável dependência, avaliação diagnóstica e encaminhamento ao CAPS-AD ou tratamento especializado.</p>
+<p>O <strong>CAGE</strong> é mais antigo e mais curto, e rastreia dependência com boa sensibilidade quando há duas respostas positivas, mas não identifica o uso de risco sem dependência, que é a maioria dos casos na APS, nem gradua a gravidade. O <strong>AUDIT-C</strong> serve como primeira peneira em consultas rápidas. O <strong>MINI</strong> e o <strong>SCID</strong> são entrevistas diagnósticas psiquiátricas estruturadas, para pesquisa ou especialista, e não substituem a história do consumo.</p>
+<p>No caso de cinco a seis doses diárias com tremor e ansiedade ao reduzir, o AUDIT provavelmente marcará 20 ou mais, e os sintomas indicam <strong>dependência com risco de abstinência</strong>. Mandar parar de imediato sem plano pode precipitar abstinência grave, com convulsão e delirium tremens. O plano inclui a devolutiva do escore, a avaliação da motivação (entrevista motivacional), tiamina, estratégia de redução ou de desintoxicação assistida com benzodiazepínico quando houver risco, exames (hepatograma, hemograma) e articulação com o CAPS-AD, mantendo o vínculo com a equipe.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Uma dose padrão no Brasil tem cerca de 14 g de etanol: uma lata de cerveja, um copo de vinho de 150 mL ou 45 mL de destilado. Beber cinco ou mais doses numa ocasião é "binge" e já pontua no AUDIT. Tiamina antes de qualquer glicose em quem bebe muito previne a encefalopatia de Wernicke.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>AUDIT: dez perguntas, escore 0 a 40; zonas 0–7, 8–15, 16–19 e 20 ou mais, cada uma com a sua intervenção.</li>
+<li>CAGE rastreia dependência, mas não gradua nem detecta o uso de risco; AUDIT-C é a peneira rápida.</li>
+<li>Tremor e ansiedade ao reduzir indicam dependência com risco de abstinência: não interromper abruptamente sem plano.</li>
+<li>Intervenção breve funciona no uso de risco e nocivo; dependência vai ao CAPS-AD com a APS junto.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Um paciente marca 17 pontos no AUDIT. Em que zona está e qual é a conduta? <details><summary>Resposta</summary>Uso nocivo (16 a 19): intervenção breve com acompanhamento.</details></li>
+<li>Por que o CAGE não é o melhor instrumento para a APS? <details><summary>Resposta</summary>Porque detecta só a dependência provável e não gradua a gravidade nem identifica o uso de risco, que é o alvo da intervenção breve.</details></li>
+</ol>
+`,
+
+"sirio2027#86": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Enumerar os componentes do Método Clínico Centrado na Pessoa.</li>
+<li>Explorar a experiência da doença com as perguntas sobre sentimentos, ideias, função e expectativas.</li>
+<li>Construir um plano conjunto adaptado ao contexto da pessoa.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Experiência da doença (illness)</dt>
+<dd>O que a pessoa sente, pensa e espera a respeito do seu adoecer, em contraste com a doença (disease) que o médico diagnostica.</dd>
+<dt>SIFE</dt>
+<dd>Sentimentos, Ideias, Função e Expectativas: as quatro dimensões a explorar na experiência da doença.</dd>
+<dt>Terreno comum</dt>
+<dd>Acordo entre médico e pessoa sobre os problemas, as metas e os papéis de cada um no plano de cuidado.</dd>
+<dt>Pessoa como um todo</dt>
+<dd>Compreensão do indivíduo no seu ciclo de vida, família, trabalho, cultura e comunidade.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O <strong>Método Clínico Centrado na Pessoa</strong>, sistematizado por Moira Stewart e Ian McWhinney na Universidade de Western Ontario, reorganiza a consulta em quatro componentes interligados. O primeiro é <strong>explorar a saúde, a doença e a experiência da doença</strong>: além da história clínica, perguntar o que a pessoa <strong>sente</strong> (medo de cegar), o que <strong>pensa</strong> que está acontecendo (culpa por não seguir a dieta), como a doença afeta a sua <strong>função</strong> (cuidar dos netos) e o que <strong>espera</strong> da consulta. O segundo é <strong>entender a pessoa como um todo</strong>: ciclo de vida, família, trabalho, renda, cultura, espiritualidade.</p>
+<p>O terceiro componente é <strong>elaborar um plano conjunto de manejo dos problemas</strong>, o <strong>terreno comum</strong>: definir juntos quais são os problemas, quais as metas e qual o papel de cada um. Metas alimentares factíveis para quem cozinha para os netos e tem pouco dinheiro valem mais que a dieta ideal que não será seguida. O quarto é <strong>intensificar a relação</strong> entre pessoa e médico ao longo do tempo: empatia, confiança, continuidade, consciência das próprias reações. Versões anteriores do método listavam ainda a prevenção e o realismo (tempo e recursos), hoje incorporados aos quatro.</p>
+<p>A evidência mostra que o método melhora satisfação, adesão, controle de doenças crônicas e reduz exames e encaminhamentos. Ele não é o oposto da competência técnica: a hemoglobina glicada continua sendo medida, mas a decisão sobre como baixá-la é compartilhada. O erro oposto, a <strong>consulta centrada no médico</strong>, é diretiva, foca a doença, decide pela pessoa e explica por que tantos planos "perfeitos" fracassam. Ferramentas como o genograma e a abordagem familiar complementam o segundo componente; a decisão compartilhada, o terceiro.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quatro perguntas que cabem em qualquer consulta: "O que você acha que está acontecendo?", "O que mais a preocupa nisso?", "Como isso tem atrapalhado o seu dia a dia?", "O que você espera que a gente faça hoje?". As respostas são o material do plano conjunto.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Quatro componentes: explorar doença e experiência da doença; pessoa como um todo; plano conjunto; relação.</li>
+<li>Experiência da doença: sentimentos, ideias, função e expectativas (SIFE).</li>
+<li>Terreno comum: problemas, metas e papéis acordados, adaptados ao contexto real.</li>
+<li>Melhora adesão, satisfação e controle de crônicos; não dispensa a técnica, compartilha a decisão.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que quatro dimensões compõem a experiência da doença no MCCP? <details><summary>Resposta</summary>Sentimentos, ideias, função e expectativas.</details></li>
+<li>O que significa "terreno comum"? <details><summary>Resposta</summary>O acordo entre médico e pessoa sobre a definição dos problemas, as metas do tratamento e o papel de cada um.</details></li>
+</ol>
+`,
+
+"sirio2027#87": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diagnosticar o episódio depressivo na APS e graduar a sua gravidade.</li>
+<li>Escolher e iniciar o antidepressivo de primeira linha, orientando a latência.</li>
+<li>Planejar o desmame seguro de um benzodiazepínico de uso crônico.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Episódio depressivo</dt>
+<dd>Humor deprimido ou anedonia por pelo menos duas semanas, com sintomas somáticos e cognitivos e prejuízo funcional.</dd>
+<dt>ISRS</dt>
+<dd>Inibidores seletivos da recaptação de serotonina (sertralina, fluoxetina, escitalopram, citalopram, paroxetina): primeira linha pela eficácia e segurança.</dd>
+<dt>Latência</dt>
+<dd>Intervalo de duas a quatro semanas entre o início do antidepressivo e a melhora clínica perceptível; resposta plena em seis a oito.</dd>
+<dt>Desmame de benzodiazepínico</dt>
+<dd>Redução gradual de 10 a 25% da dose a cada duas a quatro semanas, mais lenta no fim, para evitar abstinência e recaída da insônia.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A depressão é a condição de saúde mental mais frequente na APS, e o diagnóstico é clínico: pelo menos <strong>duas semanas</strong> de humor deprimido ou perda de interesse, acompanhados de alterações de sono e apetite, fadiga, dificuldade de concentração, sentimentos de inutilidade ou culpa, lentificação ou agitação e ideias de morte. O <strong>PHQ-9</strong> ajuda a graduar: leve (5 a 9), moderada (10 a 14), moderadamente grave (15 a 19), grave (20 ou mais).</p>
+<p>No episódio leve, a primeira linha é psicoterapia, atividade física e acompanhamento; no <strong>moderado a grave</strong>, antidepressivo, de preferência combinado à psicoterapia. Os <strong>ISRS</strong> são a escolha pela eficácia equivalente aos tricíclicos com muito mais segurança; a <strong>sertralina</strong> (50 mg, até 200 mg) e o escitalopram (10 a 20 mg) são boas opções na APS, e a fluoxetina (20 a 60 mg) está na RENAME.</p>
+<p>O <strong>benzodiazepínico crônico</strong> é problema à parte: causa dependência, piora a cognição, aumenta quedas e, em uso prolongado, pode contribuir para a depressão. A retirada é <strong>gradual</strong> e negociada, depois de iniciar o antidepressivo e estabilizar o humor, com reduções de 10 a 25% a cada duas a quatro semanas e higiene do sono; em alguns casos troca-se por diazepam, de meia-vida longa, para facilitar. Nunca se aumenta o benzodiazepínico para "cobrir" a insônia da depressão, e nunca se corta de forma abrupta após uso prolongado, pelo risco de abstinência com insônia rebote, ansiedade e, raramente, convulsão.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Receita de primeira consulta na APS: sertralina 50 mg pela manhã, retorno em 15 dias para adesão e efeitos, PHQ-9 a cada visita, plano de segurança se houver ideação, encaminhamento ao CAPS se risco de suicídio, psicose ou refratariedade. O clonazepam fica na mesma dose até a melhora, e então começa a descer.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Depressão: duas semanas de humor deprimido ou anedonia mais sintomas associados; PHQ-9 gradua; perguntar sobre suicídio.</li>
+<li>Moderada a grave: ISRS (sertralina, escitalopram, fluoxetina) e psicoterapia; latência de duas a quatro semanas; manter seis a doze meses.</li>
+<li>Benzodiazepínico crônico: desmame gradual após a melhora do humor; nunca aumentar nem cortar de uma vez.</li>
+<li>Amitriptilina não é primeira linha; buspirona não trata depressão.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quanto tempo o paciente deve esperar pela melhora após iniciar um ISRS? <details><summary>Resposta</summary>Duas a quatro semanas para a melhora inicial, com resposta plena em seis a oito semanas.</details></li>
+<li>Como se retira um benzodiazepínico usado há um ano? <details><summary>Resposta</summary>Gradualmente, reduzindo 10 a 25% da dose a cada duas a quatro semanas, após estabilizar o humor com o antidepressivo.</details></li>
+</ol>
+`,
+
+"sirio2027#88": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a polifarmácia e os medicamentos potencialmente inadequados no idoso.</li>
+<li>Usar os critérios de Beers e a avaliação geriátrica ampla para priorizar a desprescrição.</li>
+<li>Planejar a retirada segura de um benzodiazepínico no idoso.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Polifarmácia</dt>
+<dd>Uso de cinco ou mais medicamentos; aumenta interações, efeitos adversos, quedas e internações.</dd>
+<dt>Critérios de Beers</dt>
+<dd>Lista da American Geriatrics Society de medicamentos a evitar em idosos, por classe e por condição.</dd>
+<dt>Desprescrição</dt>
+<dd>Processo planejado de reduzir ou retirar medicamentos cujos riscos superam os benefícios, com acompanhamento.</dd>
+<dt>Escalas de Katz e Lawton</dt>
+<dd>Avaliam atividades básicas (banho, vestir, transferência) e instrumentais (compras, finanças, medicação) da vida diária.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A idosa de 82 anos tem a tríade geriátrica de risco: <strong>quedas</strong>, <strong>confusão intermitente</strong> e <strong>incontinência</strong>, mais dependência funcional (Katz e Lawton alterados) e <strong>sete medicamentos</strong>. Quedas em idosos são multifatoriais, mas os psicotrópicos são o fator modificável mais importante.</p>
+<p>A <strong>desprescrição</strong> segue um método: listar tudo o que a pessoa toma, inclusive o que compra por conta própria; identificar a indicação de cada item; avaliar risco e benefício no contexto da expectativa de vida e das metas; priorizar o que tem maior dano e menor benefício; retirar <strong>um de cada vez</strong>, de forma gradual quando há risco de abstinência, e monitorar. Aqui o primeiro alvo é o <strong>alprazolam</strong>, sem indicação definida; o segundo, a <strong>amitriptilina</strong>; depois se reavalia a hipotensão ortostática (queda de 25 mmHg na sistólica ao levantar), reduzindo a hidroclorotiazida ou ajustando o losartana, e se questiona o omeprazol crônico e a estatina numa idosa frágil.</p>
+<p>A retirada do benzodiazepínico no idoso é <strong>gradual</strong>: 10 a 25% da dose a cada duas a quatro semanas, com explicação à paciente e à filha de que a insônia inicial é esperada e transitória, e medidas de higiene do sono. A avaliação geriátrica ampla completa o cuidado: rastreio cognitivo, visão e audição, força e marcha, ambiente domiciliar (tapetes, iluminação, barras no banheiro), vitamina D, e a questão de uma idosa dependente morando sozinha em área rural, que exige rede de apoio e assistência social.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pergunta de triagem em toda consulta de idoso: "caiu nos últimos 12 meses?" Uma queda ou medo de cair já indica revisão da medicação, teste de levantar e andar cronometrado (acima de 12 segundos é risco) e medida da pressão em pé. Benzodiazepínico em idoso que cai é a primeira coisa a sair da receita.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Quedas, confusão e incontinência em idosa polimedicada: pensar em medicamento antes de doença nova.</li>
+<li>Beers: benzodiazepínicos e tricíclicos no topo da lista a evitar; alprazolam primeiro, amitriptilina depois.</li>
+<li>Desprescrever um medicamento por vez, de forma gradual, com monitoramento; hipotensão ortostática pede revisão do diurético.</li>
+<li>Avaliação geriátrica ampla e ambiente seguro completam a prevenção de quedas.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que duas classes de psicotrópicos os critérios de Beers mandam evitar em idosos com quedas? <details><summary>Resposta</summary>Benzodiazepínicos e antidepressivos tricíclicos (além de antipsicóticos e hipnóticos Z).</details></li>
+<li>Como se define hipotensão ortostática? <details><summary>Resposta</summary>Queda de 20 mmHg ou mais na sistólica, ou de 10 mmHg na diastólica, em até 3 minutos após levantar.</details></li>
+</ol>
+`,
+
+"sirio2027#89": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar a regra ABCDE e o sinal do patinho feio às lesões pigmentadas.</li>
+<li>Escolher a biópsia excisional com margens estreitas como passo diagnóstico.</li>
+<li>Relacionar o Breslow às margens definitivas e ao linfonodo sentinela.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>ABCDE</dt>
+<dd>Assimetria, Bordas irregulares, Cores variadas, Diâmetro acima de 6 mm, Evolução: sinais de suspeita de melanoma.</dd>
+<dt>Biópsia excisional</dt>
+<dd>Retirada completa da lesão com 1 a 3 mm de margem, para exame histopatológico de toda a espessura.</dd>
+<dt>Índice de Breslow</dt>
+<dd>Espessura do melanoma em milímetros, da camada granulosa ao ponto mais profundo; principal fator prognóstico e guia das margens.</dd>
+<dt>Linfonodo sentinela</dt>
+<dd>Primeiro linfonodo de drenagem, pesquisado em melanomas com Breslow acima de 0,8 mm ou com ulceração.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O melanoma é menos de 5% dos cânceres de pele, mas causa a maioria das mortes, e o prognóstico depende do diagnóstico precoce. Os fatores de risco são exposição solar intermitente e queimaduras, pele clara, muitos nevos, nevos atípicos, história familiar e imunossupressão; trabalhadores ao ar livre, como o da construção civil, acumulam exposição. A regra <strong>ABCDE</strong> (assimetria, bordas irregulares, cores variadas, diâmetro acima de 6 mm, evolução) e o <strong>sinal do patinho feio</strong> (a lesão diferente das demais do paciente) orientam a suspeita; sangramento, prurido e "ferida que não cicatriza" são sinais tardios.</p>
+<p>Diante da suspeita, o passo é a <strong>biópsia excisional</strong> com margens estreitas de 1 a 3 mm, incluindo a hipoderme, orientada no sentido da drenagem linfática. Ela permite ao patologista medir o <strong>Breslow</strong>, a ulceração, o índice mitótico e as margens, informações que definem o estádio e a conduta. Biópsia incisional ou por punch só em lesões muito grandes ou em áreas nobres; <em>shaving</em> é proibido, porque corta a lesão e inviabiliza o Breslow. Nunca se destrói uma lesão pigmentada suspeita com crioterapia, eletrocoagulação ou laser.</p>
+<p>Com o laudo, decide-se a <strong>ampliação de margens</strong>: 0,5 a 1 cm no melanoma in situ, 1 cm até 1 mm de espessura, 1 a 2 cm entre 1 e 2 mm, e 2 cm acima de 2 mm. A <strong>pesquisa do linfonodo sentinela</strong> é indicada a partir de 0,8 mm de Breslow ou com ulceração, e o estadiamento com imagem para doença mais espessa ou com linfonodos positivos. Na doença avançada, a imunoterapia (anti-PD-1, anti-CTLA-4) e os inibidores de BRAF e MEK mudaram a sobrevida. A prevenção é fotoproteção, autoexame e exame da pele em consultas de rotina, sobretudo em quem trabalha ao sol.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na APS, lesão pigmentada com qualquer item do ABCDE ou que mudou nos últimos meses não espera: encaminhamento prioritário para biópsia excisional, com registro fotográfico. A dermatoscopia aumenta a acurácia em quem é treinado, mas não substitui a histologia quando a suspeita existe.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Suspeita: ABCDE, patinho feio, lesão que muda, sangra ou não cicatriza, em pele exposta ao sol.</li>
+<li>Diagnóstico: biópsia excisional com 1 a 3 mm de margem; nunca shaving, crioterapia ou pomada.</li>
+<li>Breslow define as margens definitivas (0,5 a 2 cm) e a pesquisa do linfonodo sentinela (a partir de 0,8 mm ou ulceração).</li>
+<li>Prevenção: fotoproteção e exame da pele, com atenção aos trabalhadores ao ar livre.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a biópsia excisional inicial usa margens estreitas e não a margem oncológica? <details><summary>Resposta</summary>Porque a margem definitiva depende do Breslow, só conhecido após a histologia, e margens largas prematuras prejudicam o linfonodo sentinela.</details></li>
+<li>A partir de que espessura se pesquisa o linfonodo sentinela? <details><summary>Resposta</summary>Breslow de 0,8 mm ou mais, ou qualquer espessura com ulceração.</details></li>
+</ol>
+`,
+
+"sirio2027#90": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Avaliar a dispneia em cuidados paliativos e identificar a dispneia refratária.</li>
+<li>Prescrever opioide em baixa dose para dispneia com segurança.</li>
+<li>Situar a sedação paliativa como último recurso, com seus critérios.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Dispneia refratária</dt>
+<dd>Falta de ar que persiste apesar do tratamento otimizado da causa e das medidas não farmacológicas.</dd>
+<dt>Cuidados paliativos exclusivos</dt>
+<dd>Fase em que o tratamento modificador da doença foi suspenso e o objetivo é conforto e qualidade de vida.</dd>
+<dt>Morfina em baixa dose</dt>
+<dd>2,5 a 5 mg por via oral (ou 1 a 2,5 mg subcutânea) a cada 4 horas, com resgates, titulando pelo alívio.</dd>
+<dt>Sedação paliativa</dt>
+<dd>Redução deliberada da consciência para aliviar sofrimento refratário na terminalidade, após decisão compartilhada.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A dispneia é um dos sintomas mais angustiantes no fim da vida, presente em quase todos os pacientes com DPOC avançada e em metade dos com câncer.</p>
+<p>Quando a dispneia persiste, o tratamento farmacológico de primeira linha é o <strong>opioide em baixa dose</strong>. A morfina reduz a sensação de falta de ar por ação central, diminui a frequência respiratória e o consumo de oxigênio, e a evidência de ensaios clínicos em DPOC e câncer mostra alívio sem depressão respiratória clinicamente relevante nas doses usadas. Em pacientes virgens de opioide: morfina 2,5 a 5 mg por via oral a cada 4 horas, ou 1 a 2,5 mg subcutânea, com doses de resgate iguais à dose regular, titulando a cada 24 horas; em quem já usa opioide para dor, aumenta-se 25%.</p>
+<p>Benzodiazepínicos não tratam a dispneia em si; servem para a ansiedade associada, em segunda linha e em dose baixa. Broncodilatadores e corticoides tratam o componente obstrutivo e já fazem parte do esquema do DPOC; salina hipertônica e furosemida sem indicação são erros. A <strong>sedação paliativa</strong> fica para o sintoma refratário a tudo, inclusive ao opioide bem titulado, na terminalidade, após discussão com o paciente (enquanto lúcido) e com a família, registro em prontuário e, idealmente, avaliação de uma segunda opinião; usa-se midazolam titulado ao conforto, não à inconsciência.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Prescrição domiciliar típica: morfina solução oral 10 mg/mL, 2,5 mg (0,25 mL) a cada 4 horas e 2,5 mg de resgate até de hora em hora se necessário; ventilador portátil; lactulose; metoclopramida se náusea. Reavaliar em 24 a 48 horas e ensinar a família a registrar os resgates: três ou mais por dia indicam subir a dose regular.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Dispneia no fim da vida: tratar o tratável, medidas não farmacológicas (ventilador no rosto, posição, família), oxigênio só se hipoxemia.</li>
+<li>Refratária: morfina em baixa dose regular com resgates, titulando; sem depressão respiratória relevante.</li>
+<li>Benzodiazepínico só para a ansiedade associada, em segunda linha.</li>
+<li>Sedação paliativa é o último recurso, proporcional, com decisão compartilhada e registro.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a dose inicial de morfina para dispneia num paciente que nunca usou opioide? <details><summary>Resposta</summary>2,5 a 5 mg por via oral a cada 4 horas (ou 1 a 2,5 mg subcutânea), com resgates, titulando pelo alívio.</details></li>
+<li>Quando a sedação paliativa está indicada? <details><summary>Resposta</summary>Para sofrimento refratário a todas as medidas, inclusive opioide titulado, na terminalidade, após decisão compartilhada e registro.</details></li>
+</ol>
+`,
+
+"sirio2027#91": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer os direitos da pessoa com deficiência na saúde segundo a Lei Brasileira de Inclusão.</li>
+<li>Identificar barreiras arquitetônicas, atitudinais e comunicacionais nos serviços.</li>
+<li>Descrever a Rede de Cuidados à Pessoa com Deficiência no SUS.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Lei Brasileira de Inclusão (13.146/2015)</dt>
+<dd>Estatuto da Pessoa com Deficiência: igualdade, atendimento prioritário, acessibilidade e proibição de discriminação.</dd>
+<dt>Modelo social da deficiência</dt>
+<dd>A deficiência resulta da interação entre o impedimento do corpo e as barreiras do ambiente; remover barreiras reduz a deficiência.</dd>
+<dt>Barreiras</dt>
+<dd>Obstáculos urbanísticos, arquitetônicos, de transporte, comunicacionais, atitudinais e tecnológicos ao exercício de direitos.</dd>
+<dt>Rede de Cuidados à Pessoa com Deficiência</dt>
+<dd>Componentes de APS, atenção especializada (CER) e hospitalar e de urgência, articulados (Portaria 793/2012).</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Cerca de 8% dos brasileiros têm alguma deficiência. A <strong>Lei Brasileira de Inclusão</strong>, que incorporou a Convenção da ONU, adota o <strong>modelo social</strong>: a deficiência não está só no corpo, mas no encontro do impedimento com um ambiente cheio de barreiras.</p>
+<p>Nos serviços de saúde as barreiras são de vários tipos. <strong>Arquitetônicas</strong>: ausência de rampa, sanitário acessível, maca regulável, balança para cadeirante. <strong>Comunicacionais</strong>: falta de intérprete de Libras, de material em braile, de linguagem simples para a deficiência intelectual. <strong>Atitudinais</strong>: falar com o acompanhante em vez de com a pessoa, infantilizar, supor incapacidade de decidir, negar prioridade "porque a fila é igual para todos". A LBI considera discriminação toda distinção que prejudique o exercício de direitos, e o gestor que não adequa a unidade responde por isso.</p>
+<p>A <strong>Rede de Cuidados à Pessoa com Deficiência</strong> (2012) organiza a APS como coordenadora, com identificação precoce, acompanhamento e encaminhamento; os <strong>Centros Especializados em Reabilitação</strong> (CER II, III e IV, conforme as modalidades física, auditiva, visual e intelectual) e as oficinas ortopédicas; e a atenção hospitalar e de urgência.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Boas práticas na consulta: dirigir-se à pessoa, não ao acompanhante; perguntar como ela prefere ser transferida para a maca; ter balança e maca acessíveis ou registrar a necessidade; garantir a prioridade na fila e na regulação; e registrar as barreiras encontradas em comunicação formal à gestão, com cópia no prontuário.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>LBI (2015): modelo social, atendimento prioritário, acessibilidade e atenção integral à saúde.</li>
+<li>Barreiras arquitetônicas, comunicacionais e atitudinais nos serviços são discriminação a ser removida.</li>
+<li>Prioridade na fila e na regulação é direito, não favor; o gestor responde pela adequação da unidade.</li>
+<li>Rede de Cuidados à Pessoa com Deficiência: APS coordena, CER reabilita, hospital e urgência completam.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual artigo da LBI garante o atendimento prioritário à pessoa com deficiência? <details><summary>Resposta</summary>O art. 9º, que inclui atendimento em todas as instituições e serviços ao público e tramitação prioritária.</details></li>
+<li>O que são barreiras atitudinais? <details><summary>Resposta</summary>Atitudes e comportamentos que impedem a participação da pessoa com deficiência, como falar com o acompanhante em vez de com ela ou presumir incapacidade.</details></li>
+</ol>
+`,
+
+"sirio2027#92": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Enunciar os princípios da Política Nacional de Educação Popular em Saúde.</li>
+<li>Distinguir educação popular de educação sanitária tradicional.</li>
+<li>Aplicar metodologias participativas no território.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Educação popular em saúde</dt>
+<dd>Prática educativa dialógica, inspirada em Paulo Freire, que parte dos saberes e da realidade das pessoas para construir conhecimento e autonomia.</dd>
+<dt>PNEPS-SUS</dt>
+<dd>Política Nacional de Educação Popular em Saúde no SUS (Portaria 2.761/2013), com seis princípios.</dd>
+<dt>Educação bancária</dt>
+<dd>Termo de Freire para o ensino que "deposita" conteúdos em quem supostamente nada sabe.</dd>
+<dt>Roda de conversa</dt>
+<dd>Metodologia em que todos falam e escutam em igualdade, problematizando a realidade e construindo respostas coletivas.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>educação sanitária</strong> tradicional transmite informação técnica de quem sabe para quem não sabe, com palestras e cartilhas, e supõe que o comportamento muda quando a pessoa é informada. Décadas de campanhas mostraram o limite: as pessoas sabem que o mosquito nasce na água parada e as caixas d'água continuam abertas, porque o problema não é só informação, mas condições de vida, prioridades, confiança e sentido.</p>
+<p>A <strong>PNEPS-SUS</strong> (2013) tem seis princípios: <strong>diálogo</strong> (encontro de saberes diferentes em igualdade); <strong>amorosidade</strong> (afeto e respeito nas relações); <strong>problematização</strong> (ler criticamente a realidade e suas causas); <strong>construção compartilhada do conhecimento</strong>; <strong>emancipação</strong> (autonomia e superação das opressões); e <strong>compromisso com a construção do projeto democrático e popular</strong>. Seus eixos incluem a participação e o controle social, a formação dos trabalhadores, o cuidado em saúde e a intersetorialidade.</p>
+<p>Na prática da APS, a educação popular aparece nas <strong>rodas de conversa</strong>, nos grupos de hipertensos que definem o próprio tema, nas oficinas com agentes comunitários, no mapa falante construído com os moradores, nas práticas integrativas em grupo, no trabalho com lideranças e associações. Na dengue, significa entender com a comunidade por que os criadouros persistem (falta de tampa, água intermitente que obriga a estocar, terreno baldio do vizinho ausente) e agir sobre as causas junto com a prefeitura, em lugar de culpar o morador. O resultado é adesão duradoura porque as soluções são das pessoas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Teste rápido para saber se a atividade é educação popular: quem definiu o tema? quem fala mais? o que a equipe aprendeu? o que mudou no plano a partir do que a comunidade disse? Se as respostas forem "a equipe", "a equipe", "nada" e "nada", foi palestra com cadeiras em círculo.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Educação sanitária transmite; educação popular dialoga, problematiza e constrói com as pessoas (Freire).</li>
+<li>PNEPS-SUS (2013): diálogo, amorosidade, problematização, construção compartilhada, emancipação, compromisso democrático.</li>
+<li>Vale para qualquer grupo, não só para quem tem pouca escolaridade.</li>
+<li>Na dengue: entender com a comunidade por que os criadouros persistem e agir sobre as causas.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os seis princípios da PNEPS-SUS? <details><summary>Resposta</summary>Diálogo, amorosidade, problematização, construção compartilhada do conhecimento, emancipação e compromisso com o projeto democrático e popular.</details></li>
+<li>O que Freire chamou de educação bancária? <details><summary>Resposta</summary>O ensino que deposita conteúdos em quem é visto como vazio de saber, sem diálogo nem problematização.</details></li>
+</ol>
+`,
+
+"sirio2027#94": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir coordenação do cuidado e longitudinalidade como atributos da APS.</li>
+<li>Distinguir referência, contrarreferência e cuidado compartilhado.</li>
+<li>Delimitar o que a APS assume e o que permanece com o especialista.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Coordenação do cuidado</dt>
+<dd>Atributo da APS de integrar as informações e as ações dos vários serviços que a pessoa usa, garantindo continuidade.</dd>
+<dt>Longitudinalidade</dt>
+<dd>Relação pessoal e duradoura entre a equipe e a pessoa ao longo do tempo, independentemente do problema.</dd>
+<dt>Contrarreferência</dt>
+<dd>Retorno formal de informação do nível especializado à APS, com diagnóstico, conduta e plano de acompanhamento.</dd>
+<dt>Cuidado compartilhado</dt>
+<dd>Arranjo em que APS e especialista dividem tarefas definidas no seguimento de uma condição, com comunicação regular.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Starfield descreveu quatro atributos essenciais da APS: <strong>acesso de primeiro contato</strong>, <strong>longitudinalidade</strong>, <strong>integralidade</strong> e <strong>coordenação</strong>, mais os derivados (orientação familiar, comunitária e competência cultural). A <strong>coordenação do cuidado</strong> é o que faz da APS o centro da rede: ela conhece a pessoa inteira, sabe quem a atende, reúne os resultados e as decisões de cada serviço e evita duplicações, interações e lacunas. Sem coordenação, o paciente com várias doenças tem vários médicos e nenhum cuidado.</p>
+<p>O instrumento da coordenação é a <strong>comunicação formal</strong> entre níveis: a <strong>referência</strong>, encaminhamento com motivo, dados e pergunta clara; e a <strong>contrarreferência</strong>, resposta do especialista com diagnóstico, conduta, o que a APS deve monitorar e quando o paciente volta. O caso da artrite reumatoide é o modelo: o reumatologista ajusta o imunossupressor e pede à APS o monitoramento mensal de hemograma e transaminases, com retorno em um ano.</p>
+<p>O que fica com o especialista é o que exige a sua expertise: ajustar doses de metotrexato ou de biológico, decidir trocas de esquema. Isso não precisa de "protocolo municipal" para acontecer: pedir hemograma e enzimas é competência ordinária da APS, e condicionar o cuidado a um documento inexistente é recusa disfarçada. Também não se faz do paciente o mensageiro entre guichês. Ferramentas que facilitam: prontuário eletrônico compartilhado, teleinterconsulta (Telessaúde), matriciamento e protocolos de acesso regulado que definem o que cada nível faz em cada condição.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ao receber uma contrarreferência, registre o plano no prontuário, agende os exames e a consulta de rotina, defina quais resultados disparam o contato com o especialista (por exemplo, transaminases acima de três vezes o limite ou leucócitos abaixo de 3.000) e combine com a paciente o canal para dúvidas. Isso é coordenação em ato.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Atributos essenciais da APS: primeiro contato, longitudinalidade, integralidade e coordenação (Starfield).</li>
+<li>Referência pergunta; contrarreferência responde com conduta e plano; a APS integra e segue.</li>
+<li>A APS assume o monitoramento e o cuidado longitudinal; o ajuste de imunossupressores fica com o especialista.</li>
+<li>Não se exige protocolo para exames de rotina nem se faz do paciente mensageiro.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os quatro atributos essenciais da APS segundo Starfield? <details><summary>Resposta</summary>Acesso de primeiro contato, longitudinalidade, integralidade e coordenação do cuidado.</details></li>
+<li>O que deve conter uma contrarreferência adequada? <details><summary>Resposta</summary>Diagnóstico, conduta adotada, o que a APS deve monitorar e com que frequência, e quando e por que o paciente retorna ao especialista.</details></li>
+</ol>
+`,
+
+"sirio2027#95": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar a dor lombar aguda e identificar os sinais de alerta.</li>
+<li>Conduzir a lombalgia mecânica inespecífica sem exame de imagem.</li>
+<li>Reconhecer a dor lombar relacionada ao trabalho e o papel da ergonomia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Lombalgia mecânica inespecífica</dt>
+<dd>Dor lombar sem causa estrutural identificável, relacionada a esforço e postura; 85 a 90% dos casos.</dd>
+<dt>Sinais de alerta (red flags)</dt>
+<dd>Febre, perda de peso, câncer prévio, trauma, idade acima de 50 ou abaixo de 20, déficit neurológico, alteração esfincteriana, imunossupressão, uso de corticoide.</dd>
+<dt>Síndrome da cauda equina</dt>
+<dd>Retenção ou incontinência, anestesia em sela e fraqueza bilateral: emergência cirúrgica.</dd>
+<dt>Fatores de risco psicossociais (yellow flags)</dt>
+<dd>Medo do movimento, catastrofização, insatisfação no trabalho e depressão: predizem cronificação.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A dor lombar é a principal causa de incapacidade no mundo e uma das queixas mais frequentes na APS. A anamnese e o exame classificam em três grupos: <strong>inespecífica</strong> (85 a 90%), <strong>radicular</strong> (ciatalgia com irradiação abaixo do joelho, Lasègue positivo, déficit no dermátomo) e <strong>causa específica grave</strong> (fratura, infecção, tumor, cauda equina), rastreada pelos <strong>sinais de alerta</strong>.</p>
+<p>A conduta da lombalgia inespecífica é <strong>educação e atividade</strong>: explicar que a dor é benigna e autolimitada (a maioria melhora em quatro a seis semanas), que a coluna é forte e que o movimento cura; manter o trabalho e as atividades conforme a tolerância; calor local; <strong>analgesia</strong> com paracetamol ou AINE em dose e tempo curtos se necessário, relaxante muscular por poucos dias em casos selecionados; e <strong>evitar o repouso no leito</strong>, que atrasa a recuperação.</p>
+<p>A dor que começa após esforço no trabalho não é, por si, doença ocupacional, mas a lombalgia é a principal causa de afastamento e de <strong>LER/DORT</strong> entre trabalhadores de carga, e o nexo ocupacional pede ação: orientar ergonomia (técnica de levantamento, rodízio, pausas), comunicar o afastamento se necessário, e, quando o quadro é crônico e relacionado ao trabalho, notificar como LER/DORT no SINAN e articular com a Vigilância em Saúde do Trabalhador.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Script de consulta: "Seus exames físicos estão normais e não há nada grave. Essa dor melhora em poucas semanas, e o melhor remédio é continuar ativo. Tome o analgésico quando precisar e evite ficar deitado. Volte se a dor descer para a perna, se fraquejar ou se tiver dificuldade para urinar." Marcar retorno em duas a quatro semanas se não melhorar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Três grupos: inespecífica (85 a 90%), radicular e causa grave; os sinais de alerta separam a terceira.</li>
+<li>Sem sinais de alerta: nenhum exame de imagem; educação, atividade, analgesia curta; sem repouso no leito.</li>
+<li>Melhora em quatro a seis semanas; fisioterapia se não melhorar; cirurgia e opioide não entram.</li>
+<li>Relacionada ao trabalho: ergonomia, afastamento se preciso, LER/DORT no SINAN quando crônica.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que achados obrigam a investigar a dor lombar com imagem e urgência? <details><summary>Resposta</summary>Sinais de alerta: déficit neurológico progressivo, alteração esfincteriana ou anestesia em sela, febre, perda de peso, câncer prévio, trauma significativo.</details></li>
+<li>Qual orientação tem maior impacto na recuperação da lombalgia inespecífica? <details><summary>Resposta</summary>Manter-se ativo e continuar as atividades habituais conforme a tolerância, evitando o repouso no leito.</details></li>
+</ol>
+`,
+
+"sirio2027#97": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever o papel da ANS na regulação da saúde suplementar.</li>
+<li>Explicar o Rol de Procedimentos e Eventos em Saúde e a mudança da Lei 14.454/2022.</li>
+<li>Distinguir ANS, Anvisa e Conitec.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>ANS</dt>
+<dd>Agência Nacional de Saúde Suplementar (Lei 9.961/2000), autarquia vinculada ao Ministério da Saúde que regula, normatiza e fiscaliza os planos privados.</dd>
+<dt>Rol de Procedimentos e Eventos em Saúde</dt>
+<dd>Lista da ANS que define a cobertura mínima obrigatória dos planos regulamentados, atualizada continuamente.</dd>
+<dt>Lei 9.656/1998</dt>
+<dd>Marco legal dos planos de saúde: segmentações, carências, cobertura obrigatória, reajustes, proibição de rescisão unilateral.</dd>
+<dt>Ressarcimento ao SUS</dt>
+<dd>Cobrança da operadora quando um beneficiário é atendido no SUS por procedimento coberto pelo plano.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Cerca de um quarto dos brasileiros tem plano de saúde, e o setor movimenta mais que o orçamento federal do SUS. Até 1998 ele era quase sem regras; a <strong>Lei 9.656/1998</strong> definiu segmentações (ambulatorial, hospitalar, obstétrica, odontológica), carências máximas, cobertura mínima e proibiu a exclusão de doenças preexistentes após 24 meses. A <strong>ANS</strong>, criada em 2000, é a agência reguladora: autoriza operadoras, define e atualiza o <strong>Rol</strong>, controla reajustes de planos individuais, fiscaliza e aplica multas, administra o ressarcimento ao SUS e mantém índices de reclamação e qualidade.</p>
+<p>O <strong>Rol de Procedimentos e Eventos em Saúde</strong> lista o que todo plano regulamentado deve cobrir, com diretrizes de utilização. Sua atualização passa por uma comissão técnica (COSAÚDE), avaliação de evidências e consulta pública, em ciclos contínuos desde 2021.</p>
+<p>Três órgãos se confundem na prova. A <strong>Anvisa</strong> registra e fiscaliza produtos (medicamentos, alimentos, cosméticos) e serviços de saúde quanto ao risco sanitário. A <strong>Conitec</strong> decide o que o <strong>SUS</strong> incorpora e escreve os PCDT. A <strong>ANS</strong> regula os <strong>planos privados</strong> e o seu Rol. Um medicamento pode estar registrado na Anvisa, fora do SUS e fora do Rol, ou qualquer combinação; e a judicialização contra planos segue critérios semelhantes aos do SUS, com a Lei 14.454 como base.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Diante de uma negativa do plano, oriente o paciente a pedir a negativa por escrito com o motivo, verificar se o item está no Rol e nas diretrizes de utilização, registrar reclamação na ANS (que abre a Notificação de Intermediação Preliminar, resolvendo a maioria dos casos em dias) e, se for o caso, recorrer à Justiça com laudo que cite a evidência científica.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Lei 9.656/1998 regula os planos; ANS (2000) normatiza, fiscaliza, define o Rol e cobra o ressarcimento ao SUS.</li>
+<li>Rol é a cobertura mínima; desde a Lei 14.454/2022, o plano cobre fora do Rol com evidência científica ou recomendação da Conitec/ATS.</li>
+<li>Anvisa registra produtos; Conitec incorpora no SUS; ANS regula planos.</li>
+<li>Negativa do plano: pedir por escrito, reclamar na ANS (NIP), judicializar com laudo e evidência.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que mudou com a Lei 14.454/2022? <details><summary>Resposta</summary>O Rol da ANS passou a ser referência mínima: o plano deve cobrir tratamentos fora dele quando há comprovação científica de eficácia ou recomendação da Conitec ou de órgão internacional de ATS.</details></li>
+<li>Qual órgão incorpora tecnologias no SUS e qual regula os planos privados? <details><summary>Resposta</summary>A Conitec incorpora no SUS; a ANS regula a saúde suplementar.</details></li>
+</ol>
+`,
+
+"sirio2027#98": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Entender por que a judicialização da saúde cresceu e quais tensões produz.</li>
+<li>Conhecer os critérios do STJ (Tema 106) e do STF (Tema 6) para medicamentos não incorporados.</li>
+<li>Saber o que o médico deve escrever num laudo para fins judiciais.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Judicialização da saúde</dt>
+<dd>Busca do Judiciário para obter medicamentos, procedimentos ou leitos negados administrativamente.</dd>
+<dt>Tema 106 do STJ (2018)</dt>
+<dd>Requisitos cumulativos para medicamento fora da lista do SUS: laudo fundamentado, incapacidade financeira e registro na Anvisa.</dd>
+<dt>Tema 6 do STF (2024)</dt>
+<dd>Regra geral de não fornecimento judicial de medicamento não incorporado, com exceções estritas e cumulativas.</dd>
+<dt>NatJus</dt>
+<dd>Núcleos de apoio técnico do Judiciário que emitem pareceres baseados em evidência para orientar os juízes.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A judicialização explodiu a partir dos anos 2000, com centenas de milhares de ações por ano e gasto federal de bilhões de reais em medicamentos por decisão judicial, muitos de alto custo e sem incorporação. Ela expressa o direito individual à saúde (CF, art. 196) e corrige falhas reais do sistema (filas, desabastecimento, mora da Conitec), mas também produz iniquidade: beneficia quem tem acesso a advogado e laudo, drena recursos de políticas coletivas e pode impor tratamentos sem evidência. Os tribunais superiores buscaram critérios para equilibrar os dois lados.</p>
+<p>O <strong>STJ</strong>, no <strong>Tema 106</strong> (2018), fixou três requisitos cumulativos para medicamento não constante das listas do SUS: laudo médico fundamentado e circunstanciado, que comprove a necessidade e a <strong>ineficácia dos fármacos fornecidos pelo SUS</strong>; <strong>incapacidade financeira</strong> do paciente; e <strong>registro na Anvisa</strong>.</p>
+<p>O <strong>médico</strong> tem papel central e responsabilidade. O laudo deve descrever o diagnóstico com CID, os tratamentos do SUS já tentados e por que falharam ou são contraindicados, a evidência que sustenta a prescrição (ensaios, diretrizes), a dose e a duração, e declarar a inexistência de conflito de interesse. Laudos genéricos, prescrição por nome comercial sem justificar e indicação fora da bula sem evidência fragilizam o pedido e expõem o profissional.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Antes de encaminhar o paciente à Justiça, confira: existe PCDT para a doença e o paciente já percorreu as opções nele? O pedido administrativo foi feito e negado por escrito? Há evidência de qualidade para o fármaco pedido? O laudo responde a essas três perguntas. Muitos "casos judiciais" se resolvem na farmácia do Componente Especializado com o LME bem preenchido.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Judicialização: direito individual versus política pública; corrige falhas, mas gera iniquidade e custo.</li>
+<li>STJ Tema 106: laudo fundamentado com ineficácia das opções do SUS, incapacidade financeira, registro na Anvisa.</li>
+<li>STF Tema 6: regra é não fornecer o não incorporado; exceções cumulativas incluem evidência de eficácia, sem substituto no SUS e mora ou ilegalidade da Conitec.</li>
+<li>O laudo médico decide: diagnóstico, opções do SUS tentadas, evidência, dose, sem conflito de interesse.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que três requisitos o STJ fixou no Tema 106? <details><summary>Resposta</summary>Laudo médico fundamentado comprovando a necessidade e a ineficácia dos fármacos do SUS; incapacidade financeira do paciente; e registro do medicamento na Anvisa.</details></li>
+<li>Pela tese do STF (Tema 6), medicamento sem registro na Anvisa pode ser concedido judicialmente? <details><summary>Resposta</summary>Não, salvo situações excepcionalíssimas; a regra é o registro sanitário como condição.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · Preventiva · UNESP 2025 (prev81–prev90) ----------------------------------- */
+"unesp2025#81": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer o esquema básico de tratamento da tuberculose e o esquema encurtado pediátrico.</li>
+<li>Aplicar os critérios de tuberculose não grave que permitem os quatro meses.</li>
+<li>Organizar a investigação e o tratamento dos contatos domiciliares.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Esquema básico (2RHZE/4RH)</dt>
+<dd>Dois meses de rifampicina, isoniazida, pirazinamida e etambutol e quatro de rifampicina e isoniazida: seis meses, para adultos e adolescentes.</dd>
+<dt>Esquema encurtado (2RHZE/2RH)</dt>
+<dd>Quatro meses, para crianças e adolescentes de 3 meses a menos de 16 anos com tuberculose não grave, baseado no ensaio SHINE.</dd>
+<dt>Tuberculose não grave</dt>
+<dd>Pulmonar restrita a um lobo, sem cavidade nem padrão miliar, ou linfonodal periférica, com bacteriologia negativa e sem sinais de gravidade.</dd>
+<dt>TRM-TB</dt>
+<dd>Teste rápido molecular (GeneXpert), que detecta o DNA do bacilo e a resistência à rifampicina em duas horas.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O Brasil notifica cerca de 80 mil casos de tuberculose por ano, e a APS é responsável pelo diagnóstico, pelo tratamento diretamente observado e pelo controle dos contatos. O <strong>esquema básico</strong> para adultos e adolescentes é 2RHZE/4RH, em comprimidos de dose fixa combinada, com baciloscopias mensais de controle. Para <strong>crianças com menos de 10 anos</strong> o esquema era 2RHZ/4RH (sem etambutol, pela dificuldade de monitorar a visão), com doses por peso. Em todos, a adesão é o maior desafio, e o tratamento diretamente observado reduz o abandono.</p>
+<p>O ensaio <strong>SHINE</strong> (2022), com 1.200 crianças na África e na Índia, mostrou que quatro meses não são inferiores a seis na tuberculose não grave, e a OMS o incorporou na diretriz de 2022.</p>
+<p>O <strong>controle de contatos</strong> completa o cuidado da família: todos os contatos domiciliares são avaliados com história, exame e radiografia; os sintomáticos fazem TRM-TB e escarro; os assintomáticos fazem prova tuberculínica ou IGRA, e a infecção latente é tratada com rifampicina por quatro meses (ou isoniazida por seis a nove, ou isoniazida e rifapentina semanal por três meses). Crianças menores de 10 anos contatos de bacilífero recebem tratamento da infecção latente mesmo com prova negativa inicial, repetida em oito semanas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pergunta de prova e de consultório: "esta criança pode fazer quatro meses?" Responda com uma lista: idade entre 3 meses e 16 anos, radiografia de um lobo sem cavidade nem miliar (ou só linfonodo periférico), TRM e baciloscopia negativos, sintomas leves, sem HIV, sem desnutrição grave. Faltando um item, seis meses.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Esquema básico: 2RHZE/4RH, seis meses, para adultos e adolescentes; tratamento diretamente observado.</li>
+<li>Encurtado 2RHZE/2RH (quatro meses): 3 meses a menos de 16 anos, tuberculose não grave, bacteriologia negativa (MS 2024, após o SHINE).</li>
+<li>Excluem o encurtamento: escarro ou TRM positivo, cavidade, miliar, formas graves, HIV, desnutrição grave, 16 anos ou mais.</li>
+<li>Contatos: avaliar todos; infecção latente tratada com rifampicina por quatro meses.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Adolescente de 15 anos com TRM-TB detectado e cavidade no lobo superior pode fazer o esquema de quatro meses? <details><summary>Resposta</summary>Não. Bacteriologia positiva e cavidade são critérios de gravidade; o esquema é o básico de seis meses.</details></li>
+<li>Qual é o tratamento preferencial da infecção latente por tuberculose? <details><summary>Resposta</summary>Rifampicina diária por quatro meses (ou isoniazida e rifapentina semanais por três meses).</details></li>
+</ol>
+`,
+
+"unesp2025#82": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever a Lista de Doenças Relacionadas ao Trabalho e sua base legal.</li>
+<li>Usar a classificação de Schilling para estabelecer o nexo com o trabalho.</li>
+<li>Relacionar a lista à notificação, à CAT e à vigilância.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>LDRT</dt>
+<dd>Lista de Doenças Relacionadas ao Trabalho do Ministério da Saúde, prevista na Lei 8.080 e atualizada pela Portaria 1.999/2023.</dd>
+<dt>Classificação de Schilling</dt>
+<dd>Grupo I: o trabalho é causa necessária; Grupo II: fator de risco contributivo; Grupo III: desencadeador ou agravante de doença preexistente.</dd>
+<dt>Nexo causal</dt>
+<dd>Relação entre a doença e o trabalho, estabelecida por história ocupacional, exposição e evidência epidemiológica.</dd>
+<dt>CAT</dt>
+<dd>Comunicação de Acidente de Trabalho à Previdência, obrigatória para o empregador, emitida também pelo médico, sindicato ou o próprio trabalhador.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Lei 8.080 inclui a saúde do trabalhador no campo do SUS e manda o Ministério da Saúde elaborar e revisar periodicamente a <strong>Lista de Doenças Relacionadas ao Trabalho</strong>. A primeira foi a Portaria 1.339/1999; a <strong>Portaria 1.999/2023</strong> a atualizou, ampliando-a para cerca de 165 grupos de doenças (de 198 para 347 códigos da CID-10), com a entrada da covid-19, de mais transtornos mentais e de cânceres relacionados a agentes ocupacionais.</p>
+<p>As <strong>finalidades</strong> declaradas pelo Ministério são orientar o uso clínico-epidemiológico, qualificar a atenção integral ao trabalhador, facilitar o estudo da relação entre adoecimento e trabalho, <strong>adotar procedimentos de diagnóstico</strong>, <strong>elaborar projetos terapêuticos mais acurados</strong> e <strong>orientar as ações de vigilância e promoção da saúde</strong> individual e coletiva. A lista é referência para o SUS, para a Previdência (nexo técnico epidemiológico) e para a Justiça do Trabalho, e serve de base para a notificação dos agravos relacionados ao trabalho no SINAN.</p>
+<p>O raciocínio clínico usa a <strong>classificação de Schilling</strong>. No <strong>Grupo I</strong> o trabalho é causa necessária: silicose, saturnismo, intoxicação por agrotóxico, asbestose. No <strong>Grupo II</strong> o trabalho é fator de risco contributivo entre outros: câncer de pulmão no exposto a asbesto, hipertensão no trabalho em turnos, LER/DORT, perda auditiva por ruído. No <strong>Grupo III</strong> o trabalho desencadeia ou agrava doença preexistente: asma agravada por poeira, dermatite atópica piorada por irritantes, transtorno mental agravado por assédio.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Toda anamnese de adulto tem a pergunta "o que você faz e com o que trabalha?". Diante de doença da lista, registre o nexo no prontuário, emita a CAT se houver vínculo formal, notifique no SINAN quando for agravo compulsório (LER/DORT, dermatose ocupacional, PAIR, pneumoconiose, transtorno mental, intoxicação, câncer, acidente grave) e comunique a Vigilância em Saúde do Trabalhador para agir na empresa.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>LDRT: prevista na Lei 8.080, atualizada pela Portaria 1.999/2023, dupla entrada agente-doença.</li>
+<li>Finalidades: uso clínico-epidemiológico, diagnóstico, projetos terapêuticos, vigilância e promoção.</li>
+<li>Schilling I (causa necessária), II (contributivo), III (desencadeador ou agravante).</li>
+<li>História ocupacional estabelece o nexo; dele decorrem CAT, notificação e vigilância do ambiente.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em que grupo de Schilling está a silicose? <details><summary>Resposta</summary>Grupo I: o trabalho (exposição à sílica) é causa necessária.</details></li>
+<li>Quem pode emitir a CAT? <details><summary>Resposta</summary>O empregador tem a obrigação, mas na sua omissão podem emitir o médico assistente, o sindicato, o próprio trabalhador ou qualquer autoridade pública.</details></li>
+</ol>
+`,
+
+"unesp2025#86": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Caracterizar o estudo ecológico e os seus usos legítimos.</li>
+<li>Definir falácia ecológica e falácia atomística.</li>
+<li>Distinguir falácia ecológica de viés de seleção, confusão e erro de aferição.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Estudo ecológico</dt>
+<dd>Desenho em que a unidade de análise é um grupo (país, município, escola) e as variáveis são taxas ou médias.</dd>
+<dt>Falácia ecológica</dt>
+<dd>Inferir sobre indivíduos a partir de uma associação observada entre grupos.</dd>
+<dt>Falácia atomística</dt>
+<dd>O erro inverso: inferir sobre grupos a partir de dados individuais.</dd>
+<dt>Confusão</dt>
+<dd>Distorção da associação por uma terceira variável ligada à exposição e ao desfecho; residual quando persiste após o ajuste.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O <strong>estudo ecológico</strong> compara agregados: taxa de doença cardiovascular por país contra consumo médio de frutas; mortalidade por município contra cobertura da ESF; incidência de dengue por bairro contra saneamento. Usa dados secundários, é rápido e barato, e é insubstituível para avaliar <strong>políticas</strong> e <strong>exposições que só existem no nível coletivo</strong> (lei, poluição do ar de uma cidade, fluoretação da água). Também gera hipóteses: foi um estudo ecológico que associou gordura saturada e doença coronariana entre países, antes das coortes.</p>
+<p>Seu limite é a <strong>falácia ecológica</strong>: a associação entre as médias dos grupos não garante a associação nas pessoas. Países com mais frutas podem ter menos doença cardiovascular porque são mais ricos, fumam menos e têm melhores sistemas de saúde, e nada se sabe sobre se os indivíduos que comem frutas são os que adoecem menos; a correlação pode até se inverter dentro de cada país. Clássico: Durkheim viu mais suicídio em regiões protestantes e concluiu sobre o indivíduo protestante, quando podiam ser os católicos minoritários que se matavam.</p>
+<p>Outros erros têm nomes próprios e não se confundem com ela. <strong>Viés de seleção</strong>: a forma de escolher os participantes distorce a associação (voluntários mais saudáveis, perdas diferenciais). <strong>Erro de aferição ou de informação</strong>: medir mal a exposição ou o desfecho (recordatório alimentar impreciso, diagnóstico desigual entre países).</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando ler um estudo, pergunte primeiro: qual é a unidade de análise? Se são países, cidades ou escolas, toda conclusão sobre "indivíduos que..." é suspeita de falácia ecológica, por mais forte que seja a correlação. A pergunta sobre pessoas exige um estudo com pessoas.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Estudo ecológico: unidade de análise é o grupo; bom para políticas, exposições coletivas e hipóteses.</li>
+<li>Falácia ecológica: inferir sobre indivíduos a partir de associação entre grupos; atomística é o inverso.</li>
+<li>Viés de seleção, erro de aferição e confusão são erros distintos, com mecanismos próprios.</li>
+<li>Para saber o que acontece com pessoas, estude pessoas: transversal, caso-controle, coorte, ensaio.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Um estudo mostra que municípios com mais cobertura de ESF têm menos internações evitáveis. Pode-se concluir que a família cadastrada na ESF interna menos? <details><summary>Resposta</summary>Não diretamente: a inferência do município para a família é falácia ecológica; a conclusão vale para o nível municipal.</details></li>
+<li>O que é confusão residual? <details><summary>Resposta</summary>A confusão que persiste após o ajuste estatístico, porque os confundidores foram mal medidos ou não medidos.</details></li>
+</ol>
+`,
+
+"unesp2025#87": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Calcular e interpretar o risco relativo numa coorte.</li>
+<li>Ler um intervalo de confiança e relacioná-lo à significância estatística.</li>
+<li>Distinguir significância estatística de relevância clínica e reconhecer o efeito do tamanho da amostra.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Risco relativo (RR)</dt>
+<dd>Razão entre a incidência nos expostos e nos não expostos; 1 é ausência de associação, acima de 1 aumento, abaixo de 1 proteção.</dd>
+<dt>Intervalo de confiança de 95%</dt>
+<dd>Faixa de valores compatíveis com os dados; se repetíssemos o estudo muitas vezes, 95% dos intervalos conteriam o valor verdadeiro.</dd>
+<dt>Valor nulo</dt>
+<dd>O valor que significa "nenhum efeito": 1 para razões (RR, OR, HR) e 0 para diferenças (de médias, de riscos).</dd>
+<dt>Poder estatístico</dt>
+<dd>Probabilidade de detectar um efeito real; depende do tamanho da amostra e da frequência do desfecho.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Na coorte, calcula-se a <strong>incidência</strong> em cada grupo e o <strong>risco relativo</strong>, razão entre elas. RR de 1,5 significa que o risco nos expostos foi 50% maior; RR de 0,6, que foi 40% menor. Mas a estimativa vem de uma amostra, e o <strong>intervalo de confiança de 95%</strong> expressa a sua precisão: o conjunto de valores do RR compatíveis com os dados. Um intervalo estreito (1,3 a 1,7) indica estimativa precisa; um largo (0,95 a 2,10), imprecisa. A largura depende sobretudo do <strong>tamanho da amostra</strong> e do número de eventos.</p>
+<p>A regra de leitura é simples: se o intervalo <strong>inclui o valor nulo</strong> (1 para razões), o resultado <strong>não é estatisticamente significativo</strong> ao nível de 5%, o que equivale a p maior que 0,05; se o intervalo fica inteiro acima ou abaixo de 1, é significativo. No caso, RR de 1,5 com intervalo de 0,95 a 2,10: a estimativa pontual aponta aumento, mas os dados são compatíveis com uma leve redução (0,95) e com mais que o dobro de risco (2,10). Não se pode afastar o acaso, e a conclusão correta é "aumento não significativo", nunca "não há associação": ausência de significância não é prova de ausência de efeito.</p>
+<p>O intervalo é mais informativo que o valor de p, porque mostra a magnitude e a precisão. <strong>Significância estatística</strong> não é <strong>relevância clínica</strong>: um RR de 1,05 pode ser significativo numa amostra de milhões e irrelevante; um RR de 2,0 pode ser não significativo numa amostra de 400 e muito relevante se confirmado. O estudo da questão tem poder baixo para o desfecho; um ensaio ou coorte maior estreitaria o intervalo. Para as medidas absolutas, usa-se a diferença de riscos e o número necessário para tratar ou para causar dano, cujo valor nulo é zero.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Três perguntas ao ler um resultado: qual é o valor nulo desta medida (1 ou 0)? O intervalo o inclui? Quão largo é o intervalo? Com isso você responde se o efeito é significativo, em que direção aponta e quanta confiança a amostra permite, sem precisar do valor de p.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>RR = incidência nos expostos / incidência nos não expostos; acima de 1 aumento, abaixo de 1 proteção.</li>
+<li>IC 95% que inclui o 1: não significativo (p maior que 0,05); que exclui o 1: significativo.</li>
+<li>RR 1,5 (0,95 a 2,10): aumento de risco não significativo, compatível com acaso; amostra pequena.</li>
+<li>Significância estatística não é relevância clínica; ausência de significância não é ausência de efeito.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Um estudo relata RR de 0,70 com IC 95% de 0,55 a 0,89. Como se interpreta? <details><summary>Resposta</summary>Redução de 30% no risco, estatisticamente significativa, pois o intervalo não inclui o 1.</details></li>
+<li>Qual é o valor nulo de uma diferença de médias? <details><summary>Resposta</summary>Zero: o intervalo de confiança que inclui o zero indica resultado não significativo.</details></li>
+</ol>
+`,
+
+"unesp2025#89": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer o Decreto 7.508/2011 e os conceitos que ele introduziu.</li>
+<li>Identificar as portas de entrada do SUS e o papel ordenador da APS.</li>
+<li>Entender regiões de saúde, mapa da saúde, RENASES e COAP.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Decreto 7.508/2011</dt>
+<dd>Regulamenta a Lei 8.080: organização do SUS em regiões de saúde, planejamento, assistência e articulação interfederativa.</dd>
+<dt>Portas de entrada</dt>
+<dd>Atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto.</dd>
+<dt>Região de saúde</dt>
+<dd>Espaço geográfico contínuo de municípios limítrofes que compartilham a rede, com no mínimo APS, urgência, psicossocial, especializada e vigilância.</dd>
+<dt>RENASES</dt>
+<dd>Relação Nacional de Ações e Serviços de Saúde: tudo o que o SUS oferece à população.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Vinte e um anos depois da Lei 8.080, o <strong>Decreto 7.508/2011</strong> deu forma operacional a conceitos que estavam dispersos em portarias. Ele define a <strong>região de saúde</strong> como o espaço de municípios vizinhos que organizam a rede em conjunto, com <strong>comissões intergestores regionais</strong> (CIR) ao lado da bipartite (CIB) e da tripartite (CIT); cria o <strong>mapa da saúde</strong>, descrição da oferta e das necessidades; institui a <strong>RENASES</strong> e consolida a <strong>RENAME</strong>; e prevê o <strong>Contrato Organizativo da Ação Pública da Saúde</strong> (COAP), acordo entre os entes sobre responsabilidades, metas e recursos, que na prática quase não foi assinado.</p>
+<p>Sobre o acesso, o decreto é direto. O acesso universal, igualitário e <strong>ordenado</strong> começa pelas <strong>portas de entrada</strong>: atenção primária, atenção de urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto (como os de saúde do trabalhador ou de IST, conforme definição estadual); os demais serviços são referenciados. E diz que o acesso <strong>é ordenado pela Atenção Primária</strong>, que deve ser resolutiva, coordenar o cuidado e referenciar o usuário conforme a necessidade, respeitando os critérios de regulação e a gravidade. A ESF é, assim, o eixo da rede, não um nível "básico" em sentido menor.</p>
+<p>Isso se materializa nas <strong>Redes de Atenção à Saúde</strong> (Portaria 4.279/2010): arranjos poliárquicos de serviços de diferentes densidades tecnológicas, integrados por sistemas de apoio (diagnóstico, farmacêutico), logísticos (regulação, prontuário, transporte) e de governança, com a APS no centro. As redes temáticas (Rede Cegonha, de Urgência e Emergência, de Atenção Psicossocial, de Cuidados à Pessoa com Deficiência, de doenças crônicas) seguem esse desenho. Centrais de regulação (como a CROSS em São Paulo) e departamentos regionais são instrumentos; a ordenação é da APS.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na prática, "ordenar o acesso" significa que o médico de família encaminha com critério clínico, prioriza pela gravidade, acompanha o paciente na fila e o recebe de volta com a contrarreferência. O paciente pode entrar pelo pronto-socorro ou pelo CAPS, mas quem coordena o percurso é a equipe de referência dele.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Decreto 7.508/2011: regiões de saúde, CIR, mapa da saúde, RENASES, RENAME, COAP.</li>
+<li>Portas de entrada: APS, urgência e emergência, atenção psicossocial, serviços especiais de acesso aberto.</li>
+<li>O acesso é ordenado pela Atenção Primária, que coordena e referencia.</li>
+<li>Redes de Atenção à Saúde: poliárquicas, com a APS no centro e sistemas de apoio, logísticos e de governança.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são as portas de entrada do SUS segundo o Decreto 7.508? <details><summary>Resposta</summary>Atenção primária, atenção de urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto.</details></li>
+<li>O que é a RENASES? <details><summary>Resposta</summary>A Relação Nacional de Ações e Serviços de Saúde, que compreende todas as ações e serviços que o SUS oferece ao usuário.</details></li>
+</ol>
+`,
+
+"unesp2025#90": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Enumerar os requisitos legais do acesso à assistência farmacêutica no SUS.</li>
+<li>Descrever a RENAME, as relações complementares e os três componentes da assistência farmacêutica.</li>
+<li>Relacionar registro na Anvisa, RENAME e PCDT.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>RENAME</dt>
+<dd>Relação Nacional de Medicamentos Essenciais: seleção e padronização dos medicamentos do SUS, atualizada a cada dois anos.</dd>
+<dt>REMUME e RESME</dt>
+<dd>Relações municipais e estaduais que complementam a RENAME conforme o perfil epidemiológico local.</dd>
+<dt>Componentes da assistência farmacêutica</dt>
+<dd>Básico (APS), Estratégico (programas como tuberculose, HIV, hanseníase) e Especializado (alto custo, conforme PCDT).</dd>
+<dt>Farmácia Popular</dt>
+<dd>Programa de copagamento ou gratuidade em farmácias privadas credenciadas para medicamentos de hipertensão, diabetes, asma e outros.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A assistência farmacêutica integra a integralidade do SUS (Lei 8.080, art. 6º). O Decreto 7.508/2011 (art. 28) fixa os <strong>requisitos</strong> de acesso: estar o usuário <strong>assistido por ações e serviços de saúde do SUS</strong>; ter o medicamento sido <strong>prescrito por profissional de saúde no exercício regular de suas funções no SUS</strong>; estar a prescrição <strong>em conformidade com a RENAME e os PCDT</strong> ou com a <strong>relação específica complementar</strong> estadual, distrital ou municipal; e ter a dispensação ocorrido em unidades indicadas pela direção do SUS.</p>
+<p>A <strong>RENAME</strong> é a lista nacional, hoje com cerca de 900 itens, organizada pelos componentes. O <strong>Componente Básico</strong> cobre a APS e é financiado pelas três esferas, com dispensação nas farmácias das UBS; o <strong>Estratégico</strong> é financiado e adquirido pelo Ministério para programas (tuberculose, hanseníase, HIV, malária, vacinas); o <strong>Especializado</strong> dispensa medicamentos de alto custo nas farmácias estaduais, mediante Laudo de Medicamento Especializado (LME) e critérios do PCDT.</p>
+<p>A Lei 8.080 (art. 19-T, incluída pela Lei 12.401/2011) <strong>veda</strong> em todas as esferas a dispensação, o pagamento ou o reembolso de medicamento <strong>sem registro na Anvisa</strong>, e de uso experimental ou não autorizado; portanto a RENAME só contém produtos registrados. A exceção são as importações autorizadas pela Anvisa para programas estratégicos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ao prescrever no SUS, use a denominação genérica, consulte a REMUME do município (o que a farmácia da UBS realmente tem) e, para alto custo, preencha o LME com CID, exames e critérios do PCDT. Para hipertensão, diabetes e asma, o Farmácia Popular dispensa gratuitamente com receita de qualquer serviço, público ou privado.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Requisitos (Decreto 7.508, art. 28): usuário do SUS, prescritor do SUS, prescrição conforme RENAME e PCDT ou relações complementares, dispensação no SUS.</li>
+<li>RENAME nacional; REMUME e RESME complementam, nunca restringem.</li>
+<li>Componentes Básico, Estratégico e Especializado; alto custo com LME e PCDT.</li>
+<li>Sem registro na Anvisa, nenhuma dispensação no SUS (Lei 8.080, art. 19-T).</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os três componentes da assistência farmacêutica no SUS? <details><summary>Resposta</summary>Básico (APS), Estratégico (programas nacionais) e Especializado (alto custo conforme PCDT).</details></li>
+<li>O município pode criar uma lista própria de medicamentos? <details><summary>Resposta</summary>Sim, a REMUME, que complementa a RENAME conforme o perfil local, sem restringir o que a RENAME garante.</details></li>
+</ol>
+`,
+
+"unesp2025#91": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir Vigilância em Saúde segundo a PNVS e situar suas quatro vigilâncias.</li>
+<li>Distinguir vigilância epidemiológica, sanitária, ambiental e em saúde do trabalhador.</li>
+<li>Relacionar a vigilância à APS e à notificação compulsória.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>PNVS</dt>
+<dd>Política Nacional de Vigilância em Saúde (Resolução CNS 588/2018), que define a vigilância como função essencial do SUS, universal e integrada à atenção.</dd>
+<dt>Vigilância epidemiológica</dt>
+<dd>Conhecer, detectar e prevenir mudanças nos fatores determinantes da saúde, recomendando e adotando medidas de controle (Lei 8.080, art. 6º).</dd>
+<dt>Vigilância sanitária</dt>
+<dd>Eliminar, diminuir ou prevenir riscos de produtos, serviços e ambientes (Anvisa e visas estaduais e municipais).</dd>
+<dt>Vigilância em saúde ambiental</dt>
+<dd>Fatores ambientais que interferem na saúde: água, ar, solo, desastres, vetores, contaminantes.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>Vigilância em Saúde</strong> é o conceito integrador que a PNVS (2018) define como "processo contínuo e sistemático de coleta, consolidação, análise de dados e disseminação de informações sobre eventos relacionados à saúde, visando o planejamento e a implementação de medidas de saúde pública, incluindo a regulação, intervenção e atuação em condicionantes e determinantes da saúde, para a proteção e promoção da saúde da população, prevenção e controle de riscos, agravos e doenças".</p>
+<p>Ela abrange quatro vigilâncias com histórias distintas. A <strong>epidemiológica</strong>, nascida das campanhas contra doenças transmissíveis, trabalha com notificação, investigação de casos e surtos, imunização e, hoje, também doenças crônicas e violências. A <strong>sanitária</strong>, a mais antiga, controla alimentos, medicamentos, cosméticos, saneantes, serviços de saúde e portos e aeroportos, pela Anvisa e pelas visas locais. A <strong>ambiental</strong> monitora água para consumo (Vigiagua), ar, solo, contaminantes e desastres.</p>
+<p>Instrumentos comuns: a <strong>Lista Nacional de Notificação Compulsória</strong> (Portaria 264/2020), com agravos de notificação imediata (24 horas) e semanal, e o SINAN; os sistemas de mortalidade (SIM) e nascimentos (SINASC); a investigação de surtos; a análise de situação de saúde; e a resposta a emergências pelo CIEVS. Integralidade e universalidade são princípios do SUS, não processos de vigilância; e a vigilância epidemiológica é uma parte, não o todo: a definição que fala em "regulação" e em "condicionantes e determinantes" é a da Vigilância em Saúde.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Toda unidade de saúde é unidade notificadora. O médico que atende um caso suspeito de dengue, sífilis em gestante, acidente de trabalho grave ou violência preenche a ficha do SINAN; para os agravos imediatos (sarampo, meningite, febre amarela, epizootia, surto), a notificação é por telefone em 24 horas, antes mesmo da confirmação.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Vigilância em Saúde (PNVS 2018): informação mais ação, incluindo regulação e atuação sobre determinantes.</li>
+<li>Quatro vigilâncias: epidemiológica, sanitária, ambiental e em saúde do trabalhador, integradas à APS.</li>
+<li>Instrumentos: lista de notificação compulsória, SINAN, SIM, SINASC, investigação de surtos, CIEVS.</li>
+<li>Vigilância epidemiológica é parte; integralidade e universalidade são princípios, não vigilância.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que resolução define a Política Nacional de Vigilância em Saúde? <details><summary>Resposta</summary>A Resolução CNS 588/2018.</details></li>
+<li>Qual vigilância controla medicamentos, alimentos e serviços de saúde? <details><summary>Resposta</summary>A vigilância sanitária, pela Anvisa e pelas vigilâncias estaduais e municipais.</details></li>
+</ol>
+`,
+
+"unesp2025#92": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Preencher a parte I e a parte II da Declaração de Óbito com a lógica causal.</li>
+<li>Identificar a causa básica e explicar por que ela importa para a estatística.</li>
+<li>Saber quem preenche a DO em morte natural, violenta e sem assistência.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Causa básica</dt>
+<dd>Doença ou lesão que iniciou a cadeia de eventos que levou à morte, ou a circunstância do acidente ou violência; vai na última linha da parte I.</dd>
+<dt>Causa terminal (imediata)</dt>
+<dd>O evento final que produziu a morte; vai na linha a da parte I.</dd>
+<dt>Parte II</dt>
+<dd>Condições significativas que contribuíram para a morte mas não pertencem à cadeia causal da parte I.</dd>
+<dt>IML e SVO</dt>
+<dd>Instituto Médico Legal, para mortes violentas ou suspeitas; Serviço de Verificação de Óbito, para mortes naturais sem causa definida.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Declaração de Óbito é documento legal (permite o sepultamento), epidemiológico (alimenta o SIM) e de direitos (pensões, seguros). O bloco de causas segue o modelo da OMS. A <strong>parte I</strong> tem quatro linhas, lidas de cima para baixo com a expressão "devido a": na linha <strong>a</strong>, a <strong>causa terminal</strong>; nas linhas b e c, as causas intermediárias; na última linha preenchida, a <strong>causa básica</strong>.</p>
+<p>A <strong>parte II</strong> recebe as condições que <strong>contribuíram</strong> mas não estão na cadeia: diabetes num óbito por infarto cuja cadeia é choque cardiogênico devido a infarto devido a aterosclerose; anemia falciforme num óbito por trauma. Colocar a condição contribuinte na parte I desloca a causa básica e distorce a estatística: a morte do caso seria contada como doença hematológica, e a <strong>causa externa</strong> (queda de altura em trabalho) desapareceria do SIM e da vigilância de acidentes de trabalho.</p>
+<p>Quem preenche depende do tipo de morte. <strong>Morte natural com assistência</strong>: o médico que acompanhava, ou o do serviço, ou o substituto; sem causa definida, o SVO. <strong>Morte violenta ou suspeita</strong> (acidente, suicídio, homicídio, queda, intoxicação), inclusive quando o paciente morre no hospital dias depois do trauma: o corpo vai ao <strong>IML</strong>, que preenche a DO; o médico assistente não a emite. <strong>Morte sem assistência</strong> em local sem SVO: qualquer médico do serviço público ou, na sua falta, duas testemunhas em cartório.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Teste rápido antes de assinar: leia a parte I de baixo para cima como uma história ("ela caiu do prédio, por isso traumatizou o abdome, por isso lacerou o fígado, por isso chocou e morreu"). Se a história faz sentido e a última linha é o que começou tudo, está certo. Se a última linha é uma doença que não causou o evento seguinte, ela pertence à parte II.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Parte I: linha a é a causa terminal; última linha é a causa básica; cada linha "devido a" a de baixo.</li>
+<li>Parte II: condições contribuintes fora da cadeia (diabetes, anemia falciforme).</li>
+<li>A causa básica é o que entra na estatística; trocar a ordem apaga a causa externa.</li>
+<li>Morte violenta vai ao IML, mesmo se ocorrer no hospital dias depois; sem causa definida, SVO.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Paciente com diabetes morre de choque cardiogênico após infarto por aterosclerose coronariana. Onde fica o diabetes? <details><summary>Resposta</summary>Na parte II, como condição contribuinte; a parte I é choque cardiogênico, devido a infarto, devido a aterosclerose coronariana.</details></li>
+<li>Vítima de atropelamento morre no hospital após uma semana de internação. Quem emite a DO? <details><summary>Resposta</summary>O IML, pois a morte é de causa externa, ainda que tardia e em ambiente hospitalar.</details></li>
+</ol>
+`,
+
+"unesp2025#95": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir óbito materno e a razão de mortalidade materna.</li>
+<li>Explicar o denominador e a diferença entre razão e coeficiente.</li>
+<li>Conhecer a situação brasileira, as causas e a vigilância do óbito materno.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Óbito materno</dt>
+<dd>Morte de mulher durante a gravidez ou até 42 dias após o seu término, por causa relacionada ou agravada pela gestação ou por seu manejo, excluídas as acidentais ou incidentais.</dd>
+<dt>Óbito materno tardio</dt>
+<dd>Morte por causa obstétrica entre 43 dias e um ano após o término da gestação; não entra na razão.</dd>
+<dt>Razão de mortalidade materna</dt>
+<dd>Óbitos maternos por 100 mil nascidos vivos no mesmo período e lugar.</dd>
+<dt>Causas obstétricas diretas e indiretas</dt>
+<dd>Diretas: complicações da própria gestação (hipertensão, hemorragia, infecção); indiretas: doenças preexistentes agravadas (cardiopatia, HIV).</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>razão de mortalidade materna</strong> é o indicador mais sensível da qualidade da atenção à saúde da mulher. O numerador são os <strong>óbitos maternos</strong>, definidos pela OMS pelo tempo (gravidez até 42 dias do término, qualquer duração ou localização) e pela causa (obstétrica direta ou indireta), excluídas mortes acidentais ou incidentais, como atropelamento ou homicídio. O denominador ideal seria o número de mulheres grávidas no período, mas ele é desconhecido, porque abortos e perdas precoces não se registram; usam-se os <strong>nascidos vivos</strong> como aproximação.</p>
+<p>No Brasil, a razão caiu de cerca de 140 em 1990 para cerca de 55 a 60 por 100 mil em 2019, subiu para mais de 100 em 2021 com a covid-19 e voltou a cerca de 50 a 60 depois; a meta dos Objetivos de Desenvolvimento Sustentável é menos de 30 até 2030, e a OMS considera aceitável abaixo de 20. As principais causas diretas são <strong>hipertensão</strong> (pré-eclâmpsia e eclâmpsia), <strong>hemorragia</strong> e <strong>infecção</strong> puerperal, seguidas do aborto inseguro; as indiretas crescem com a idade e as comorbidades.</p>
+<p>A <strong>vigilância do óbito materno</strong> é obrigatória: todo óbito de mulher de 10 a 49 anos é investigado (óbito de mulher em idade fértil), para identificar os maternos sub-registrados e os evitáveis, com <strong>comitês de mortalidade materna</strong> que analisam cada caso e propõem correções. O <strong>fator de correção</strong> da sub-notificação, antes necessário, deixou de ser aplicado quando a investigação cobriu o país.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Denominadores para não confundir na prova: mortalidade materna, nascidos vivos; mortalidade infantil, nascidos vivos; taxa de fecundidade, mulheres de 15 a 49 anos; mortalidade geral, população total; mortalidade proporcional, total de óbitos. Óbito materno de mulher que morre de acidente de carro grávida não entra na razão.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Óbito materno: gravidez até 42 dias, causa obstétrica direta ou indireta, excluídas acidentais.</li>
+<li>Razão de mortalidade materna: óbitos maternos por 100 mil nascidos vivos; razão porque o numerador não está no denominador.</li>
+<li>Brasil cerca de 50 a 60; meta ODS abaixo de 30; causas: hipertensão, hemorragia, infecção, aborto inseguro.</li>
+<li>Todo óbito de mulher de 10 a 49 anos é investigado; comitês de mortalidade materna analisam a evitabilidade.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a mortalidade materna é uma razão e não um coeficiente? <details><summary>Resposta</summary>Porque o numerador (óbitos maternos) não está inteiramente contido no denominador (nascidos vivos), que é só uma aproximação da população exposta.</details></li>
+<li>Uma gestante de 30 semanas morre em acidente de trânsito. É óbito materno? <details><summary>Resposta</summary>Não. Causas acidentais ou incidentais são excluídas da definição de óbito materno.</details></li>
+</ol>
+`,
+
+"unesp2025#98": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir ambiente alimentar, deserto e pântano alimentar.</li>
+<li>Relacionar o ambiente alimentar aos determinantes sociais e à obesidade.</li>
+<li>Propor ações intersetoriais a partir do diagnóstico do território.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Ambiente alimentar</dt>
+<dd>Conjunto de condições físicas, econômicas e sociais que determinam o acesso e a escolha dos alimentos num território.</dd>
+<dt>Deserto alimentar</dt>
+<dd>Área com baixa disponibilidade de alimentos in natura ou minimamente processados, por distância ou preço.</dd>
+<dt>Pântano alimentar</dt>
+<dd>Área saturada de estabelecimentos que vendem ultraprocessados, lanches e bebidas açucaradas.</dd>
+<dt>Classificação NOVA</dt>
+<dd>Divide os alimentos em in natura ou minimamente processados, ingredientes culinários, processados e ultraprocessados; base do Guia Alimentar brasileiro.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O que as pessoas comem depende menos de "força de vontade" e mais do <strong>ambiente alimentar</strong>: o que está disponível perto de casa, a que preço, com que publicidade e em que condições de tempo e renda. O Guia Alimentar para a População Brasileira (2014), baseado na classificação <strong>NOVA</strong>, recomenda alimentos in natura e minimamente processados como base da alimentação, e evita os ultraprocessados; mas essa recomendação só é realizável onde há feira, sacolão, mercado de bairro e tempo e dinheiro para cozinhar.</p>
+<p>A Câmara Interministerial de Segurança Alimentar e Nutricional (<strong>CAISAN</strong>) mapeou em 2018 os <strong>desertos alimentares</strong> no Brasil, definidos pela baixa densidade de estabelecimentos que vendem alimentos saudáveis por habitante, e mostrou que eles se concentram em periferias e áreas rurais pobres, onde o alimento fresco é distante ou caro. O conceito de <strong>pântano alimentar</strong> descreve a situação inversa e frequentemente sobreposta: a abundância de lanchonetes, redes de fast food e comércio de ultraprocessados, com publicidade intensa, especialmente perto de escolas.</p>
+<p>A APS tem papel duplo. No indivíduo: avaliação do consumo pelos marcadores do <strong>SISVAN</strong>, orientação prática adaptada ao que existe no bairro (feiras, hortas, compra coletiva), e cuidado da obesidade conforme a linha de cuidado.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na consulta, troque "coma mais verduras" por perguntas: onde você compra comida? Quanto custa? Tem feira perto? Quem cozinha e quando? As respostas mostram se o problema é informação, acesso ou tempo, e orientam uma recomendação possível, como a feira de produtor do bairro vizinho ou o programa de alimentação escolar para os filhos.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Ambiente alimentar determina a alimentação mais que a vontade individual.</li>
+<li>Deserto alimentar: falta de alimento in natura acessível; pântano: excesso de ultraprocessados (CAISAN, 2018).</li>
+<li>Guia Alimentar e classificação NOVA: base in natura, evitar ultraprocessados.</li>
+<li>APS: SISVAN e orientação adaptada ao bairro; no território, ação intersetorial (feiras, hortas, PAA, escolas).</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a diferença entre deserto e pântano alimentar? <details><summary>Resposta</summary>Deserto é a escassez de alimentos in natura acessíveis; pântano é a saturação de ultraprocessados e fast food, com forte publicidade.</details></li>
+<li>Que programa compra da agricultura familiar para abastecer escolas e equipamentos públicos? <details><summary>Resposta</summary>O Programa de Aquisição de Alimentos (PAA) e o Programa Nacional de Alimentação Escolar, que destina ao menos 30% às compras da agricultura familiar.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · Preventiva · FAMEMA 2026 (prev91–prev100) --------------------------------- */
+"famema2026#65": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer ações de promoção da saúde que acontecem fora da unidade.</li>
+<li>Descrever a intersetorialidade e a ação comunitária como eixos da PNPS.</li>
+<li>Organizar a participação da equipe em atividades no território.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Intersetorialidade</dt>
+<dd>Articulação da saúde com educação, assistência social, trabalho, cultura e organizações da comunidade para agir sobre determinantes.</dd>
+<dt>Ação comunitária</dt>
+<dd>Campo da Carta de Ottawa: fortalecer a capacidade da comunidade de decidir e agir sobre a sua saúde.</dd>
+<dt>Determinantes sociais</dt>
+<dd>Condições de vida e trabalho (renda, trabalho, alimentação, moradia, direitos) que produzem saúde e doença.</dd>
+<dt>Atividade extramuros</dt>
+<dd>Ação da equipe fora da unidade: escolas, associações, feiras, igrejas, domicílios, com planejamento e registro.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>Política Nacional de Promoção da Saúde</strong> (2006, revista em 2014) define promoção como estratégia de produção de saúde articulada às demais políticas, que age sobre os <strong>determinantes</strong> e amplia a autonomia dos sujeitos e das coletividades.</p>
+<p>A PNAB manda que a equipe atue <strong>no território</strong>, não só no prédio: visitas domiciliares, atividades em escolas (Programa Saúde na Escola), grupos na comunidade, participação em conselhos locais e em ações intersetoriais. A divisão entre "atividade do setor saúde" e "atividade da comunidade" é o que a promoção da saúde recusa: a saúde se produz onde a vida acontece, e uma associação de mulheres que gera renda, informa sobre direitos e vende comida saudável está produzindo saúde.</p>
+<p>Participar exige <strong>organização</strong>, não recusa: escala para o sábado com compensação, planejamento do que levar, registro da atividade coletiva no e-SUS (ficha de atividade coletiva), avaliação com a associação. Convites da comunidade são oportunidades de vínculo, de conhecimento do território e de alcance de quem não vai à unidade, como trabalhadoras domésticas e do comércio, que não conseguem consultar em horário comercial.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Um bom estande de saúde numa feira comunitária cabe numa mesa: pressão arterial e glicemia capilar com orientação, teste rápido de HIV e sífilis, vacinas de rotina e campanha, caderneta da criança, informação sobre direitos (acompanhante, gratuidade, Farmácia Popular) e um caderno para anotar quem precisa de consulta e marcar na segunda-feira. O que não cabe é "não é problema nosso".</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>PNPS: agir sobre determinantes e ampliar a autonomia, com equidade, participação e intersetorialidade.</li>
+<li>Feira comunitária com renda, direitos e comida saudável é promoção da saúde; a UBS participa.</li>
+<li>A PNAB exige ação no território: escolas, associações, domicílios, conselhos.</li>
+<li>Participar é organizar escala, planejar, registrar e avaliar, não recusar por horário ou por "não ser saúde".</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Cite três temas prioritários da Política Nacional de Promoção da Saúde. <details><summary>Resposta</summary>Alimentação adequada e saudável, práticas corporais e atividade física, enfrentamento do tabaco e do álcool, cultura da paz, mobilidade segura, desenvolvimento sustentável.</details></li>
+<li>Como se registra uma atividade de saúde realizada numa feira comunitária? <details><summary>Resposta</summary>Na ficha de atividade coletiva do e-SUS, com o tipo de ação, o público e os participantes.</details></li>
+</ol>
+`,
+
+"famema2026#67": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diferenciar urgência, emergência e pseudocrise hipertensiva.</li>
+<li>Listar as emergências hipertensivas e a conduta inicial em cada cenário.</li>
+<li>Diagnosticar hipertensão do avental branco e mascarada com MAPA e MRPA.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Urgência hipertensiva</dt>
+<dd>Pressão muito elevada (em geral acima de 180/120) sem lesão aguda de órgão-alvo; reduz-se em 24 a 48 horas, por via oral.</dd>
+<dt>Emergência hipertensiva</dt>
+<dd>Pressão elevada com lesão aguda em curso (encefalopatia, AVE, infarto, edema agudo, dissecção, eclâmpsia); droga venosa e UTI.</dd>
+<dt>Pseudocrise</dt>
+<dd>Pressão alta por dor, ansiedade ou abandono da medicação, sem lesão de órgão-alvo; trata-se a causa, não a pressão.</dd>
+<dt>Hipertensão do avental branco</dt>
+<dd>Pressão alta no consultório e normal fora dele (MAPA ou MRPA); a mascarada é o inverso.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>crise hipertensiva</strong> é a elevação acentuada da pressão, em geral acima de 180/120 mmHg, e o que define a conduta não é o número, mas a presença de <strong>lesão aguda de órgão-alvo</strong>. Na <strong>urgência</strong> não há lesão: cefaleia leve, tontura ou nada; reduz-se a pressão gradualmente em 24 a 48 horas com medicação oral (captopril, clonidina, ou retomada do esquema), observação e reavaliação ambulatorial.</p>
+<p>As <strong>emergências</strong> são a <strong>encefalopatia hipertensiva</strong>, o <strong>AVE</strong> isquêmico e hemorrágico (com metas de pressão próprias e mais permissivas), a <strong>síndrome coronariana aguda</strong> e o <strong>edema agudo de pulmão</strong>, a <strong>dissecção de aorta</strong> (meta agressiva: sistólica abaixo de 120 e frequência abaixo de 60 em minutos, betabloqueador antes do vasodilatador), a <strong>eclâmpsia</strong> e a pré-eclâmpsia grave, a crise do feocromocitoma e a intoxicação por cocaína ou anfetaminas.</p>
+<p>O diagnóstico da hipertensão fora da crise também exige medidas repetidas, mas <strong>fora do consultório</strong>. A <strong>hipertensão do avental branco</strong> (consultório alto, casa normal) afeta até 20% dos hipertensos aparentes e não é descartada por medidas repetidas no consultório: só a <strong>MAPA</strong> de 24 horas ou a <strong>MRPA</strong> (medidas residenciais em 5 dias, três de manhã e três à noite) a identificam. A <strong>hipertensão mascarada</strong> é o inverso e tem risco cardiovascular semelhante ao da hipertensão sustentada. As diretrizes brasileiras de 2020 recomendam MAPA ou MRPA para confirmar o diagnóstico sempre que possível.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Diante de 190/110 na UBS: pergunte sobre dor, ansiedade, sono, remédio esquecido; examine fundo de olho, sinais neurológicos, dor torácica, dispneia; se nada disso, deixe em repouso 30 minutos e remeça. Sem lesão, é urgência ou pseudocrise: trate a causa, ajuste o esquema oral e reavalie em dias. Nunca nifedipina sublingual.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Crise hipertensiva: o que decide é a lesão aguda de órgão-alvo, não o número.</li>
+<li>Urgência: oral, 24 a 48 horas; emergência: venoso, UTI, redução controlada; pseudocrise: trate a causa.</li>
+<li>Emergências: encefalopatia, AVE, infarto, edema agudo, dissecção, eclâmpsia, feocromocitoma, cocaína; podem ocorrer sem HAS prévia.</li>
+<li>Avental branco e mascarada só se diagnosticam com MAPA ou MRPA, não com medidas repetidas no consultório.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que exame diferencia hipertensão do avental branco de hipertensão sustentada? <details><summary>Resposta</summary>MAPA de 24 horas ou MRPA, que medem a pressão fora do consultório.</details></li>
+<li>Por que a nifedipina sublingual é proscrita na crise hipertensiva? <details><summary>Resposta</summary>Porque produz queda abrupta e imprevisível da pressão, com risco de isquemia cerebral, coronariana e renal.</details></li>
+</ol>
+`,
+
+"famema2026#68": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a dermatite de contato alérgica por esmalte e sua localização palpebral.</li>
+<li>Saber quais dermatoses são de notificação compulsória.</li>
+<li>Distinguir dermatose ocupacional de dermatose por hábito pessoal.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Dermatite de contato alérgica</dt>
+<dd>Hipersensibilidade tardia (tipo IV) a um alérgeno em contato com a pele; eczema pruriginoso 24 a 72 horas após a exposição.</dd>
+<dt>Dermatite de contato irritativa</dt>
+<dd>Dano direto da pele por substância irritante (detergente, solvente), sem sensibilização; a mais comum no trabalho.</dd>
+<dt>Dermatose ocupacional</dt>
+<dd>Alteração da pele causada ou agravada pelo trabalho; de notificação compulsória no SINAN.</dd>
+<dt>Teste de contato (patch test)</dt>
+<dd>Aplicação de alérgenos padronizados no dorso por 48 horas, com leitura em 48 e 96 horas, para identificar o agente.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>dermatite de contato</strong> é a dermatose mais comum na APS e no trabalho. A forma <strong>irritativa</strong> resulta de agressão direta (água e detergentes nas mãos de quem limpa, cimento, solventes) e aparece em quem se expõe o bastante; a <strong>alérgica</strong> exige sensibilização prévia e reaparece a cada contato com o alérgeno, mesmo em pequena quantidade. Os alérgenos mais frequentes são níquel (bijuterias, fivelas), fragrâncias, conservantes de cosméticos, borracha, tinturas de cabelo e a <strong>resina tosilamida-formaldeído</strong> do esmalte.</p>
+<p>O diagnóstico é clínico e pela história de exposição, e o <strong>teste de contato</strong> confirma o agente quando há dúvida ou quando a exposição é ocupacional e a identificação define o afastamento. O tratamento é evitar o alérgeno (esmaltes "hipoalergênicos" sem a resina), corticoide tópico de potência baixa nas pálpebras por poucos dias, e emolientes; nas formas extensas, corticoide oral curto. Nas dermatoses das mãos de trabalhadores, a proteção (luvas adequadas, cremes de barreira) e a mudança do processo de trabalho são o tratamento de fundo.</p>
+<p>Quanto à vigilância, a Lista Nacional de Notificação Compulsória (Portaria 264/2020) inclui, entre os agravos relacionados ao trabalho, as <strong>dermatoses ocupacionais</strong>, ao lado de acidente de trabalho grave e com material biológico, câncer, LER/DORT, perda auditiva, pneumoconioses, transtornos mentais e intoxicações exógenas relacionadas ao trabalho.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Eczema de pálpebras numa mulher sem cosméticos faciais: pergunte por esmalte, bijuteria, colírio e produtos para cabelo. Oriente suspender o esmalte por quatro semanas antes de qualquer outro passo; a melhora confirma. Se ela for manicure ou cabeleireira, a exposição é ocupacional e muda a notificação e a conduta no trabalho.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Dermatite de contato alérgica: sensibilização prévia, eczema pruriginoso 24 a 72 horas após o contato; esmalte dá lesão ectópica nas pálpebras.</li>
+<li>Irritativa é a mais comum no trabalho; o teste de contato identifica o alérgeno na alérgica.</li>
+<li>Só as dermatoses ocupacionais são de notificação compulsória (Portaria 264/2020).</li>
+<li>A pergunta é "a exposição vem do trabalho?": esmalte por hábito, não; esmalte na manicure, sim.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a dermatite por esmalte aparece nas pálpebras e não nos dedos? <details><summary>Resposta</summary>Porque a pele das pálpebras é fina e reativa, e as mãos transportam o alérgeno até ela; é a dermatite de contato ectópica.</details></li>
+<li>Uma manicure desenvolve eczema nas mãos pelo contato com produtos do trabalho. Notifica-se? <details><summary>Resposta</summary>Sim, como dermatose ocupacional no SINAN, com registro do nexo e comunicação à vigilância em saúde do trabalhador.</details></li>
+</ol>
+`,
+
+"famema2026#69": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Explicar a toxicocinética do metanol e por que os sintomas são tardios.</li>
+<li>Descrever o tratamento: antídotos, bicarbonato, ácido folínico e hemodiálise.</li>
+<li>Reconhecer a resposta de saúde pública ao surto de 2025.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Metanol</dt>
+<dd>Álcool metílico, usado em solventes e combustíveis; adulterante de bebidas por ser barato e incolor.</dd>
+<dt>Ácido fórmico</dt>
+<dd>Metabólito tóxico do metanol, via álcool-desidrogenase e formaldeído; causa acidose metabólica e lesão do nervo óptico.</dd>
+<dt>Fomepizol</dt>
+<dd>Inibidor da álcool-desidrogenase; antídoto de escolha, importado em 2025 pelo Ministério da Saúde.</dd>
+<dt>Gap osmolar e ânion gap</dt>
+<dd>Pistas laboratoriais: o gap osmolar sobe cedo (metanol circulante) e o ânion gap sobe tarde (ácido fórmico).</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O <strong>metanol</strong> em si causa pouco mais que embriaguez; o dano vem dos metabólitos. A <strong>álcool-desidrogenase</strong> o converte em formaldeído e este em <strong>ácido fórmico</strong>, que inibe a citocromo-oxidase, produz <strong>acidose metabólica</strong> grave com ânion gap elevado e lesa o nervo óptico e os gânglios da base.</p>
+<p>O tratamento tem quatro pilares. <strong>Bloquear a álcool-desidrogenase</strong>: <strong>fomepizol</strong> (15 mg/kg de ataque e depois 10 mg/kg a cada 12 horas) ou, na sua falta, <strong>etanol</strong> por via oral ou venosa, mantendo etanolemia de 100 a 150 mg/dL, com monitorização; ambos impedem a formação de ácido fórmico enquanto o metanol é eliminado ou dialisado. <strong>Corrigir a acidose</strong> com bicarbonato. <strong>Acelerar a eliminação do fórmico</strong> com ácido folínico (leucovorina) ou ácido fólico. <strong>Hemodiálise</strong> nos casos com acidose grave, alteração visual, metanol acima de 50 mg/dL ou falência renal, pois remove metanol e fórmico.</p>
+<p>No <strong>surto de 2025</strong>, com dezenas de casos e mortes concentrados em São Paulo por bebidas destiladas adulteradas, o Ministério da Saúde emitiu nota técnica de manejo, distribuiu fomepizol importado aos centros de referência e a <strong>Anvisa autorizou o uso emergencial de etanol farmacêutico injetável</strong>, o que a letra correta da prova registra. A vigilância sanitária apreendeu lotes e interditou fabricantes clandestinos, sem suspensão geral de bebidas; a intoxicação exógena é de notificação compulsória, e os centros de informação toxicológica (CIATox, 0800 722 6001) orientam o manejo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pessoa que bebeu destilado de origem duvidosa e chega com náusea, taquipneia e visão turva horas depois: gasometria (acidose com ânion gap alto), osmolaridade, lactato, função renal; iniciar antídoto antes do nível de metanol, que demora; acionar nefrologia para diálise e o CIATox. Etanol oral (destilado comercial) é opção de ponte na ausência de fomepizol e etanol injetável.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Metanol vira formaldeído e ácido fórmico pela álcool-desidrogenase; latência de 12 a 24 horas, acidose e lesão do nervo óptico.</li>
+<li>Tratamento: fomepizol ou etanol (bloqueio da enzima), bicarbonato, ácido folínico, hemodiálise nos graves.</li>
+<li>Surto de 2025: fomepizol importado, etanol injetável autorizado pela Anvisa, lotes apreendidos; notificação compulsória.</li>
+<li>Diagnóstico difícil: sintomas tardios e inespecíficos; gap osmolar e ânion gap ajudam.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o etanol funciona como antídoto do metanol? <details><summary>Resposta</summary>Porque compete pela álcool-desidrogenase com afinidade maior, impedindo a conversão do metanol em formaldeído e ácido fórmico.</details></li>
+<li>Quais são as indicações de hemodiálise na intoxicação por metanol? <details><summary>Resposta</summary>Acidose metabólica grave, alteração visual, metanol sérico acima de 50 mg/dL ou insuficiência renal.</details></li>
+</ol>
+`,
+
+"famema2026#70": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar os procedimentos previstos para a Atenção Primária.</li>
+<li>Indicar e executar com segurança a drenagem de abscesso, a exérese de lipoma e a remoção de cerúmen.</li>
+<li>Reconhecer quando o procedimento deve ir ao serviço especializado.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Resolutividade</dt>
+<dd>Capacidade da APS de resolver a maior parte dos problemas que recebe (cerca de 85%), sem encaminhar.</dd>
+<dt>Pequena cirurgia</dt>
+<dd>Procedimento ambulatorial sob anestesia local em sala de procedimentos: suturas, drenagens, exéreses de lesões superficiais, biópsias de pele, cantoplastia.</dd>
+<dt>Abscesso cutâneo</dt>
+<dd>Coleção purulenta na pele e no subcutâneo, em geral por <em>Staphylococcus aureus</em>; o tratamento é a drenagem.</dd>
+<dt>Lipoma</dt>
+<dd>Tumor benigno de tecido adiposo, móvel, indolor, de crescimento lento; retira-se por incômodo, crescimento ou dúvida diagnóstica.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A PNAB lista entre as atribuições do médico da APS "realizar pequenos procedimentos cirúrgicos" e o Caderno de Atenção Primária nº 30 (Procedimentos) detalha o que se espera de uma UBS equipada: suturas, <strong>drenagem de abscessos</strong>, <strong>exérese de lipomas e cistos</strong> pequenos, retirada de nevos e lesões benignas, biópsias de pele, cantoplastia para unha encravada, retirada de corpo estranho, <strong>lavagem auricular</strong>, cauterização química, infiltrações, tamponamento nasal anterior, retirada de pontos e curativos complexos.</p>
+<p>Cada procedimento tem a sua técnica e os seus limites. O <strong>abscesso</strong> flutuante se drena com incisão ampla, exploração e lavagem, sem suturar; antibiótico só se houver celulite extensa, imunossupressão, febre ou localização de risco, e em diabéticos acompanha-se a cicatrização de perto, mas o diabetes não contraindica drenar na UBS, ao contrário: atrasar favorece a extensão.</p>
+<p>O que limita os procedimentos na APS não é a complexidade, mas a <strong>estrutura</strong> (sala, material estéril, iluminação, anestésico, kit de emergência) e o <strong>treinamento</strong>, que a formação em medicina de família inclui. O reflexo de encaminhar tudo tem custo: filas de meses para drenar um abscesso que piora em dias, usuários que desistem e voltam complicados.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Lista mínima da sala de procedimentos: lidocaína 2% com e sem vasoconstritor, bisturi, pinças, porta-agulha, fios, cureta e seringa de lavagem auricular, nitrato de prata, kit de drenagem, caixa de sutura, material para anafilaxia. Com isso a maioria dos "encaminhamentos para pequena cirurgia" se resolve no mesmo dia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>A PNAB e o Caderno nº 30 preveem pequenos procedimentos na APS: suturas, drenagens, exéreses, lavagem auricular, cantoplastia.</li>
+<li>Abscesso: drenar na UBS, inclusive em diabéticos, com acompanhamento; antibiótico só com critérios.</li>
+<li>Lipoma pequeno e superficial se retira na UBS; grande, profundo, em local nobre ou suspeito vai ao especialista.</li>
+<li>Resolutividade poupa filas; o que limita é estrutura e treinamento, não a complexidade.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quando o abscesso drenado precisa de antibiótico? <details><summary>Resposta</summary>Com celulite extensa ao redor, febre ou sinais sistêmicos, imunossupressão, localização de risco ou falha da drenagem.</details></li>
+<li>Que características de um lipoma indicam encaminhar em vez de retirar na UBS? <details><summary>Resposta</summary>Tamanho acima de 5 cm, localização profunda ou em face e mão, crescimento rápido, dor ou consistência endurecida.</details></li>
+</ol>
+`,
+
+"famema2026#73": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever os efeitos diretos e indiretos das mudanças climáticas na saúde.</li>
+<li>Identificar os grupos mais vulneráveis e a dimensão da desigualdade.</li>
+<li>Conhecer as respostas do setor saúde: vigilância, adaptação e mitigação.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Mudança climática</dt>
+<dd>Aquecimento global de origem humana, com ondas de calor, secas, chuvas extremas e mudança na distribuição de vetores.</dd>
+<dt>Efeitos diretos</dt>
+<dd>Calor extremo, frio, poluição, desastres: mortes cardiovasculares e respiratórias, trauma, afogamento.</dd>
+<dt>Efeitos indiretos</dt>
+<dd>Dengue, malária e leptospirose em novas áreas, insegurança alimentar, deslocamentos, saúde mental.</dd>
+<dt>Justiça climática</dt>
+<dd>Reconhecimento de que quem menos emite sofre mais, entre países e dentro deles.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A OMS chama a mudança climática de maior ameaça à saúde do século. Os <strong>efeitos diretos</strong> vêm das <strong>ondas de calor</strong>, que aumentam as mortes cardiovasculares, renais e respiratórias, especialmente em idosos, cardiopatas e trabalhadores ao ar livre; da <strong>poluição atmosférica</strong>, agravada por incêndios e queimadas, que piora asma, DPOC, pneumonia e infarto; dos <strong>desastres</strong> (enchentes como as do Rio Grande do Sul em 2024, deslizamentos, secas), com trauma, afogamento, leptospirose, diarreia e perda de serviços de saúde.</p>
+<p>Os <strong>efeitos indiretos</strong> são tão importantes: a expansão geográfica e sazonal da <strong>dengue</strong> e de outras arboviroses (o Brasil bateu recorde em 2024), a malária e as doenças de veiculação hídrica; a <strong>insegurança alimentar</strong> por quebra de safras e alta de preços; os deslocamentos de população; e o impacto na <strong>saúde mental</strong> (ansiedade, estresse pós-traumático após desastres, luto).</p>
+<p>O setor saúde responde em duas frentes. <strong>Adaptação</strong>: vigilância de calor extremo com alertas e planos de contingência (hidratação, salas climatizadas, busca ativa de idosos), monitoramento da qualidade do ar, preparação para desastres, controle vetorial reforçado, mapeamento de vulnerabilidades no território. <strong>Mitigação</strong>: reduzir a pegada de carbono dos serviços (energia, resíduos, anestésicos) e defender políticas de transporte, energia e alimentação que protegem a saúde.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Em onda de calor, a equipe de APS tem uma lista: idosos que moram sozinhos, pessoas com insuficiência cardíaca e renal, gestantes, lactentes, usuários de diuréticos e psicotrópicos, trabalhadores ao ar livre. Ligar, orientar hidratação e sombra, ajustar diuréticos e checar quem não respondeu salvam vidas tanto quanto o pronto-socorro.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Diretos: calor, poluição e desastres, com mortes cardiovasculares e respiratórias; crianças e idosos são os mais vulneráveis.</li>
+<li>Indiretos: arboviroses em expansão, insegurança alimentar, deslocamentos, saúde mental.</li>
+<li>Desigual: quem é pobre sofre primeiro e mais (justiça climática); ninguém se beneficia.</li>
+<li>Saúde responde com adaptação (vigilância, planos de calor, desastres, vetores) e mitigação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que crianças são mais vulneráveis à poluição atmosférica? <details><summary>Resposta</summary>Vias aéreas mais estreitas, maior ventilação por quilo de peso, pulmões em desenvolvimento e mais tempo ao ar livre.</details></li>
+<li>Cite dois efeitos indiretos da mudança climática sobre a saúde no Brasil. <details><summary>Resposta</summary>Expansão da dengue e de outras arboviroses, e insegurança alimentar por quebra de safras e alta de preços (também leptospirose após enchentes e impactos na saúde mental).</details></li>
+</ol>
+`,
+
+"famema2026#74": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Enunciar a definição de Atenção Básica da PNAB 2017.</li>
+<li>Reconhecer os princípios e as diretrizes da PNAB e suas palavras exatas.</li>
+<li>Identificar as armadilhas de prova: porta de entrada única, residir no território, saberes validados.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>PNAB 2017</dt>
+<dd>Portaria 2.436/2017, que revisou a política de 2011: definição, princípios, diretrizes, tipos de equipe e financiamento.</dd>
+<dt>Porta de entrada preferencial</dt>
+<dd>A APS é o primeiro contato preferencial, mas não único: urgência, psicossocial e serviços especiais também são portas.</dd>
+<dt>Equipe multiprofissional</dt>
+<dd>Médico, enfermeiro, técnico ou auxiliar de enfermagem e agentes comunitários, com saúde bucal e eMulti como complemento.</dd>
+<dt>Integração de saberes</dt>
+<dd>Diretriz de valorizar as diversas práticas e saberes, inclusive populares e integrativos, na perspectiva da integralidade.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A PNAB define a Atenção Básica como "o conjunto de ações de saúde individuais, familiares e coletivas que envolvem <strong>promoção, prevenção, proteção, diagnóstico, tratamento, reabilitação, redução de danos, cuidados paliativos e vigilância em saúde</strong>, desenvolvida por meio de práticas de cuidado integrado e gestão qualificada, realizada com <strong>equipe multiprofissional</strong> e dirigida à população em <strong>território definido</strong>, sobre as quais as equipes assumem responsabilidade sanitária".</p>
+<p>Os <strong>princípios</strong> da PNAB são universalidade, equidade e integralidade. As <strong>diretrizes</strong>: regionalização e hierarquização; territorialização; população adscrita; cuidado centrado na pessoa; resolutividade; longitudinalidade do cuidado; coordenação do cuidado; ordenação da rede; e participação da comunidade.</p>
+<p>As provas exploram palavras únicas. "Porta de entrada <strong>única</strong>" está errado; "preferencial" está certo. "Profissionais devem <strong>residir</strong> no território" está errado para a equipe; para o ACS é desejável, não obrigatório. "Saberes <strong>desde que validados cientificamente</strong>" contradiz a diretriz. "Acesso <strong>universal e contínuo</strong> a serviços resolutivos" é texto da PNAB, mas a frase inteira só está certa se não trouxer a palavra "única". Ler a frase até o fim é a habilidade testada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Numa UBS, a definição se traduz em agenda: acolhimento à demanda espontânea todos os dias (acesso), consultas programadas de crônicos (longitudinalidade), visitas e grupos (território e promoção), pequenos procedimentos (resolutividade), encaminhamentos regulados com contrarreferência (coordenação) e reunião de equipe com a comunidade (participação).</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Definição da PNAB: promoção, prevenção, proteção, diagnóstico, tratamento, reabilitação, redução de danos, paliativos e vigilância, por equipe multiprofissional em território definido.</li>
+<li>Princípios: universalidade, equidade, integralidade; diretrizes: territorialização, adscrição, longitudinalidade, coordenação, ordenação, resolutividade, participação.</li>
+<li>Porta de entrada preferencial, não única; residir no território é recomendação só para o ACS.</li>
+<li>Valorizar saberes diversos sem condicionar a validação científica.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>A APS é a porta de entrada única do SUS? <details><summary>Resposta</summary>Não. É a porta de entrada preferencial; urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto também são portas.</details></li>
+<li>Quais são os princípios da PNAB 2017? <details><summary>Resposta</summary>Universalidade, equidade e integralidade.</details></li>
+</ol>
+`,
+
+"famema2026#76": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever a Política Nacional de Saúde do Trabalhador e da Trabalhadora e a RENAST.</li>
+<li>Reconhecer o papel da APS na vigilância em saúde do trabalhador no território.</li>
+<li>Aplicar as regras de notificação do acidente de trabalho no SINAN.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>PNSTT</dt>
+<dd>Política Nacional de Saúde do Trabalhador e da Trabalhadora (Portaria 1.823/2012): todos os trabalhadores, formais e informais, como sujeitos da atenção e da vigilância.</dd>
+<dt>RENAST e CEREST</dt>
+<dd>Rede Nacional de Atenção Integral à Saúde do Trabalhador, com os Centros de Referência em Saúde do Trabalhador como apoio técnico.</dd>
+<dt>VISAT</dt>
+<dd>Vigilância em Saúde do Trabalhador: intervenção sobre os processos e ambientes de trabalho que produzem adoecimento.</dd>
+<dt>Acidente de trabalho grave</dt>
+<dd>O que resulta em morte, mutilação, internação ou incapacidade, ou atinge criança ou adolescente; notificação compulsória para qualquer vínculo.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A <strong>PNSTT</strong> afirma que a saúde do trabalhador é responsabilidade do SUS e que o seu sujeito é <strong>todo trabalhador</strong>, com ou sem carteira, urbano ou rural, formal ou informal, inclusive o desempregado. Sua estratégia central é integrar a vigilância em saúde do trabalhador às demais vigilâncias e à <strong>APS</strong>, porque é no território que se vê o trabalho real: a confecção no fundo da casa, o canteiro de obras, o evento que se monta em três dias com equipe temporária.</p>
+<p>A primeira tarefa da APS na saúde do trabalhador é <strong>identificar as atividades produtivas e as situações de risco no território</strong>: perguntar a todos os usuários o que fazem e onde, mapear os processos produtivos da área (inclusive os informais), e reconhecer os riscos físicos, químicos, biológicos, ergonômicos e da <strong>organização do trabalho</strong>, como prazos exíguos, jornadas longas, terceirização e equipes reduzidas, que são determinantes de acidentes tão importantes quanto a altura ou a carga.</p>
+<p>A <strong>notificação</strong> segue a Portaria 264/2020: são compulsórios o acidente de trabalho <strong>grave</strong> (morte, mutilação, internação, incapacidade), o <strong>fatal</strong>, o que envolve <strong>crianças e adolescentes</strong> e o acidente com <strong>material biológico</strong>, além das doenças relacionadas ao trabalho.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>No pronto atendimento, três perguntas convertem o "acidente" em caso de saúde do trabalhador: estava trabalhando? fazendo o quê e para quem? com que proteção? Registre no prontuário, notifique no SINAN se grave, emita ou oriente a CAT, e comunique o CEREST para que a investigação alcance o local, porque o próximo trabalhador já está lá.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>PNSTT (2012): todo trabalhador, formal ou informal; RENAST e CEREST apoiam; APS integra a vigilância.</li>
+<li>APS identifica atividades produtivas e riscos no território, inclusive da organização do trabalho, e age intersetorialmente.</li>
+<li>Notificação compulsória: acidente grave, fatal, em criança ou adolescente, com material biológico; sem exigir vínculo, CAT ou 15 dias.</li>
+<li>Assistir o acidentado é necessário; prevenir pela vigilância é o papel principal.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Um trabalhador informal se acidenta gravemente. Notifica-se no SINAN? <details><summary>Resposta</summary>Sim. A notificação do acidente de trabalho grave independe de vínculo formal.</details></li>
+<li>O prazo de 15 dias de afastamento tem relação com a notificação? <details><summary>Resposta</summary>Não. É critério previdenciário para o auxílio por incapacidade; a notificação segue a gravidade, não o afastamento.</details></li>
+</ol>
+`,
+
+"famema2026#78": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer os grupos de sintomas do transtorno de estresse pós-traumático.</li>
+<li>Distinguir estresse agudo, estresse pós-traumático, pânico e luto normal.</li>
+<li>Conduzir o primeiro atendimento e o encaminhamento na APS.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Evento traumático</dt>
+<dd>Exposição a morte, ameaça de morte, lesão grave ou violência sexual, vivida, testemunhada ou ocorrida com pessoa próxima.</dd>
+<dt>Reexperiência</dt>
+<dd>Memórias intrusivas, pesadelos, flashbacks e reações intensas a lembretes do evento.</dd>
+<dt>Transtorno de estresse agudo</dt>
+<dd>Sintomas semelhantes nos primeiros 3 dias a 1 mês após o trauma.</dd>
+<dt>Terapia focada no trauma</dt>
+<dd>Terapia cognitivo-comportamental focada no trauma e EMDR: primeira linha de tratamento.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Depois de um evento traumático, reações de medo, insônia e lembranças são esperadas e, na maioria, passam em dias ou semanas.</p>
+<p>O diagnóstico diferencial é clínico. No <strong>transtorno do pânico</strong>, as crises são inesperadas e não ligadas a um evento; no <strong>transtorno de ansiedade generalizada</strong>, a preocupação é difusa; na <strong>depressão</strong>, que frequentemente coexiste, domina o humor deprimido; no <strong>luto</strong>, o foco é a perda. Adolescentes vítimas de violência urbana, mulheres vítimas de violência sexual e doméstica, profissionais de emergência e sobreviventes de desastres são grupos de risco, e a prevalência após assalto à mão armada é alta. Sempre se rastreiam uso de substâncias e risco de suicídio.</p>
+<p>A conduta na APS começa pelo <strong>acolhimento</strong> e pela <strong>psicoeducação</strong>: explicar que as reações são compreensíveis, que tendem a melhorar e que há tratamento. A <strong>primeira linha</strong> é a psicoterapia focada no trauma (terapia cognitivo-comportamental focada no trauma, exposição prolongada, EMDR), o que torna correto o encaminhamento à psicologia, e a APS garante o acesso pelo NASF ou eMulti, pelo CAPS infantojuvenil ou pela rede. Antidepressivos ISRS (sertralina, paroxetina) são segunda linha ou associados em quadros graves; benzodiazepínicos não previnem nem tratam o transtorno e podem piorá-lo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Perguntas de rastreio em quem passou por um evento grave: "tem sonhado ou revivido o que aconteceu?", "evita lugares ou pensamentos ligados a isso?", "anda em alerta, se assustando fácil, dormindo mal?", "sente culpa ou se afastou das pessoas?" Duas respostas positivas com prejuízo pedem avaliação e encaminhamento, não espera.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Quatro grupos: reexperiência, evitação, cognição e humor negativos, hiperexcitabilidade; mais de um mês e prejuízo.</li>
+<li>Primeiro mês: transtorno de estresse agudo; pânico tem crises sem gatilho; depressão coexiste com frequência.</li>
+<li>Primeira linha: psicoterapia focada no trauma; ISRS em segunda linha; benzodiazepínico não.</li>
+<li>APS acolhe, psicoeduca, rastreia risco e encaminha; violência exige notificação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que duração diferencia o transtorno de estresse agudo do pós-traumático? <details><summary>Resposta</summary>Até um mês após o trauma é estresse agudo; acima de um mês, pós-traumático.</details></li>
+<li>Qual é o tratamento de primeira linha do transtorno de estresse pós-traumático? <details><summary>Resposta</summary>Psicoterapia focada no trauma (terapia cognitivo-comportamental focada no trauma ou EMDR); ISRS em segunda linha.</details></li>
+</ol>
+`,
+
+"famema2026#80": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Explicar a vigilância de epizootias em primatas não humanos e seu papel na febre amarela.</li>
+<li>Orientar a conduta do cidadão e do serviço diante de um macaco morto.</li>
+<li>Rever a transmissão, a vacina e as áreas de recomendação da febre amarela.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Epizootia</dt>
+<dd>Doença ou morte de animais de uma espécie além do esperado; em primatas não humanos, evento sentinela da febre amarela, de notificação imediata.</dd>
+<dt>Ciclo silvestre</dt>
+<dd>Vírus circulando entre macacos e mosquitos <em>Haemagogus</em> e <em>Sabethes</em>; o humano se infecta ao entrar na mata.</dd>
+<dt>Ciclo urbano</dt>
+<dd>Transmissão humano-<em>Aedes aegypti</em>-humano, ausente no Brasil desde 1942, e cuja reintrodução a vigilância teme.</dd>
+<dt>Vacina febre amarela</dt>
+<dd>Vírus vivo atenuado 17D; dose única a partir dos 9 meses em todo o país, com reforço aos 4 anos para quem recebeu a primeira antes dos 5.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A febre amarela no Brasil é <strong>silvestre</strong>: o vírus circula entre macacos e mosquitos de copa de árvore, e o humano adoece ao entrar na mata sem vacina. Os <strong>primatas não humanos</strong> são tão suscetíveis quanto nós, e as espécies brasileiras, sobretudo os bugios, morrem em grande número quando o vírus chega: por isso a <strong>morte de macacos é o evento sentinela</strong>, que antecede em semanas os casos humanos.</p>
+<p>A <strong>epizootia em primatas não humanos</strong> está na Lista Nacional de Notificação Compulsória como notificação <strong>imediata</strong>, em até 24 horas, por qualquer pessoa ou serviço à vigilância municipal, estadual ou ao Disque Saúde 136. Quem encontra o animal <strong>não toca, não transporta, não enterra</strong>: avisa e protege o local, para que a equipe de zoonoses, com equipamento de proteção, colete amostras (vísceras, sangue, ou o animal inteiro) e as envie ao laboratório de referência.</p>
+<p>A <strong>vacina</strong> é a única proteção eficaz: desde 2020 a área com recomendação de vacinação cobre todo o país, em dose única a partir dos <strong>9 meses</strong> (6 meses em situação de surto), com <strong>reforço aos 4 anos</strong> para quem a recebeu antes dos 5 anos; adultos vacinados uma vez estão protegidos. Contraindicações: imunossupressão grave, gestantes e lactantes de menores de 6 meses (avaliar risco), alergia grave ao ovo, e cautela acima dos 60 anos pelos eventos adversos graves raros (doença viscerotrópica).</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Numa UBS de área rural, a notícia de macacos mortos no sítio de um usuário é emergência de vigilância: ligar para a zoonoses no mesmo dia, orientar a família a não tocar no animal, conferir a vacinação de todos na microárea e, se houver suspeita, iniciar busca ativa de não vacinados. Febre e icterícia em quem andou na mata nas últimas duas semanas é febre amarela até prova em contrário.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Febre amarela silvestre: macacos e mosquitos de mata; a morte de macacos é o alerta que antecede os casos humanos.</li>
+<li>Epizootia em primatas não humanos: notificação imediata (24 horas); não tocar, não transportar, não enterrar.</li>
+<li>Confirmação dispara vacinação de bloqueio; matar macacos cega a vigilância.</li>
+<li>Vacina: dose única aos 9 meses, reforço aos 4 anos, todo o país; contraindicações em imunossuprimidos e gestantes.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em quanto tempo a epizootia em primatas deve ser notificada e por que é importante? <details><summary>Resposta</summary>Em até 24 horas; é o evento sentinela que antecede os casos humanos de febre amarela e permite a vacinação de bloqueio.</details></li>
+<li>Qual é o esquema vacinal atual contra febre amarela no calendário nacional? <details><summary>Resposta</summary>Dose aos 9 meses e reforço aos 4 anos; quem recebe a primeira dose aos 5 anos ou mais fica com dose única.</details></li>
+</ol>
+`,
 };
