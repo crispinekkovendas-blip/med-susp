@@ -5,5 +5,10 @@ __pycache__
 
 .vercel
 pdf
+# os PDFs-fonte (cadernos e editais nos espelhos dos cursinhos e do QConcursos)
+# ficam fora do git desde que o repositório é público (2026-11-26): URL, tamanho
+# e md5 em ferramentas/cadernos/FONTES.md; `node ferramentas/baixar.js` rebaixa
+ferramentas/cadernos/*.pdf
+figuras/_folha-*.png
 # rascunho da ferramenta de vídeos (nomes dos canais vistos na descoberta)
 ferramentas/videos/_canais-vistos.json

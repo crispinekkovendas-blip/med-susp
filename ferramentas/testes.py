@@ -24,7 +24,13 @@ def ler(nome):
 
 @teste
 def test_fontes_2026_baixadas():
-    assert md5(os.path.join(CADERNOS, "susp2026-caderno.pdf")) == "f6d7843b513f7f29edd9dfb435c1347d", "caderno SUS-SP 2026 não é o documento esperado"
+    # Os PDFs ficam fora do git desde que o repositório é público (2026-11-26): no
+    # GitHub Actions eles não existem, e o teste confere o caderno só se estiver na pasta.
+    caderno = os.path.join(CADERNOS, "susp2026-caderno.pdf")
+    if os.path.exists(caderno):
+        assert md5(caderno) == "f6d7843b513f7f29edd9dfb435c1347d", "caderno SUS-SP 2026 não é o documento esperado"
+    else:
+        print("    (sem susp2026-caderno.pdf na pasta: fora do git; a URL está em FONTES.md)")
     gab = ler("susp2026-gabarito-preliminar.txt")
     assert "41 - B" in gab and "100 - B" in gab, "gabarito preliminar SUS-SP 2026 sem as linhas esperadas"
     rec = ler("susp2026-recursos.txt")

@@ -1,7 +1,14 @@
 # Documentos-fonte
 
-Tudo o que o banco usa está aqui, para não depender de nenhum espelho no futuro.
+Tudo o que o banco usa está registrado aqui, para não depender de nenhum espelho no futuro.
 `node ferramentas/baixar.js` rebaixa o que faltar. Data da coleta: 2026-09-28.
+
+**Os PDFs ficam fora do git desde 2026-11-26**, quando o repositório passou a ser
+público (o GitHub Actions é gratuito nos públicos): são documentos da VUNESP e dos
+espelhos (cursinhos, QConcursos), não nossos. `.gitignore` exclui
+`ferramentas/cadernos/*.pdf`; a URL, o tamanho e o md5 de cada um continuam nesta
+tabela, e `testes.py` confere o md5 só quando o arquivo está na pasta. O texto
+extraído (`*.txt`, `*-questoes.json`), os gabaritos e as figuras continuam no git.
 
 | Arquivo | O que é | De onde | Tamanho / md5 |
 |---|---|---|---|

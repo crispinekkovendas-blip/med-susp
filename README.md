@@ -17,7 +17,7 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Banco na tela | https://susp.vercel.app/ |
 | Caderno para imprimir | https://susp.vercel.app/caderno/ |
 | Vídeos — página de revisão (para o cliente) | https://susp.vercel.app/videos/ (os links curtos dos QR codes: `/v/<id>/q`, `/m`, `/mais`) |
-| Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/susp/` (projeto `susp`; git em `main`, remoto privado `crispinekkovendas-blip/med-susp`) |
+| Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/susp/` (projeto `susp`; git em `main`, remoto público `crispinekkovendas-blip/med-susp` desde 2026-11-26 — os PDFs-fonte dos cadernos ficam fora do git, ver `ferramentas/cadernos/FONTES.md`) |
 | PDFs prontos | https://susp.vercel.app/pdf/caderno-ped.pdf (`prev`, `cir`, `go`, `cm` também): uma apostila por área, paginada, com o índice dizendo a página de cada ficha — links no painel do caderno |
 
 ## Números (2026-11-26, volume 2 de Pediatria)
