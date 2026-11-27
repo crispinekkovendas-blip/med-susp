@@ -20,7 +20,7 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Deploy | `python ferramentas/pdf.py` e depois `npx vercel deploy --prod --yes`, a partir de `med/susp/` (projeto `susp`; git em `main`, remoto público `crispinekkovendas-blip/med-susp` desde 2026-11-26 — os PDFs-fonte dos cadernos ficam fora do git, ver `ferramentas/cadernos/FONTES.md`) |
 | PDFs prontos | https://susp.vercel.app/pdf/caderno-ped.pdf (`prev`, `cir`, `go`, `cm` também): uma apostila por área, paginada, com o índice dizendo a página de cada ficha — links no painel do caderno |
 
-## Números (2026-11-26, volume 2 de Pediatria, Preventiva, Cirurgia e GO)
+## Números (2026-11-27, volume 2 completo: as cinco áreas com 100 questões)
 
 | Área | SUS-SP 2026 | SUS-SP 2021 | UNESP 2026 | Einstein 2026 | Einstein 2025 | Sírio-Libanês 2026 | Sírio-Libanês 2027 | UNESP 2025 | FAMEMA 2026 | Total |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -28,16 +28,16 @@ servidor. Irmão do banco INEPAM (`med/gineco/inepam/`), de onde herdou a forma.
 | Medicina Preventiva e Social | 19 | 6 | 12 | 6 | 7 | 15 | 15 | 10 | 10 | 100 |
 | Cirurgia | 17 | 8 | 11 | 7 | 7 | 15 | 15 | 10 | 10 | 100 |
 | Ginecologia e Obstetrícia | 20 | 5 | 11 | 7 | 7 | 15 | 15 | 10 | 10 | 100 |
-| Clínica Médica | 16 | 9 | 10 | 8 | 7 | 0 | 0 | 0 | 0 | 50 |
-| **Total** | **92** | **33** | **55** | **36** | **34** | **60** | **60** | **40** | **40** | **450** |
+| Clínica Médica | 16 | 9 | 10 | 8 | 7 | 15 | 15 | 10 | 10 | 100 |
+| **Total** | **92** | **33** | **55** | **36** | **34** | **75** | **75** | **50** | **50** | **500** |
 
 As cinco primeiras colunas são o **volume 1** (questões 01–50 de cada área, o
 banco impresso em 2026-10-27, que não muda); as quatro seguintes alimentam só o
 **volume 2** (questões 51–100), pedido pelo usuário em 2026-11-26 ("250
-questões diferentes") e feito área por área — Pediatria, Preventiva, Cirurgia e GO prontas.
+questões diferentes") e feito área por área — as cinco áreas prontas (2026-11-27).
 
 Figuras: 300 (uma por questão). Sobre a matéria: 300 (uma por questão,
-1.800–3.600 caracteres de texto cada). Hoje o banco tem **450 questões**. Páginas das apostilas (PDFs de
+1.800–3.600 caracteres de texto cada). Hoje o banco tem **500 questões**. Páginas das apostilas (PDFs de
 2026-10-27 com as opções padrão — Sobre a matéria depois do comentário,
 figuras, QR codes, quadriculado — contadas e conferidas pelo `pdf.py`):
 Pediatria 157, Preventiva 166, Cirurgia 164, GO 161, Clínica Médica 165
@@ -88,7 +88,14 @@ fora as anuladas (Sírio 2026: 63 e 78; Sírio 2027: 75; FAMEMA: 50, 55 e 64), a
 dependem de tabela (UNESP 2025: 22 e 28), as duas com texto truncado no caderno
 (Sírio 2026: 80; Sírio 2027: 80) e as que repetiam tema do volume 1 (glicemia de 94
 na primeira consulta, vacinas na gestação, contracepção no puerpério, sífilis por
-estágio) ou de outra escolhida. O
+estágio) ou de outra escolhida. Clínica Médica:
+`cm51–cm65` Sírio-Libanês 2026 (bloco 1–20), `cm66–cm80` Sírio-Libanês 2027 (bloco
+1–20), `cm81–cm90` UNESP 2025 (bloco 41–60), `cm91–cm100` FAMEMA 2026 (blocos 1–16 e
+81–100); fora as anuladas (Sírio 2026: 9 e 17; UNESP: 54), as que dependem de imagem
+ou tabela (Sírio 2027: 2 e 12; UNESP: 46, 49 e 50; FAMEMA: 1, 5, 6 e 15), as que
+perderam o caso clínico no caderno (FAMEMA: 2, 3 e 13, e 12 e 100 com texto
+truncado) e as que repetiam tema do volume 1 (neutropenia febril, etomidato na
+intubação, TI-RADS, hiponatremia hipervolêmica) ou de outra escolhida. O
 caderno ganhou a opção **Volume**
 (todos · 1 · 2), e `pdf.py` imprime a área com mais de 50 questões em dois
 arquivos: `caderno-<area>.pdf` (volume 1, o mesmo de antes) e

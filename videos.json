@@ -7250,5 +7250,455 @@
    "duracao": 1266
   },
   "busca": "Fibrilação atrial instável — cardioversão elétrica sincronizada"
+ },
+ "cm51": {
+  "fonte": "sirio2026",
+  "numero": 2,
+  "tema": "Síndrome neuroléptica maligna — bloqueio D2, rigidez, febre e CPK alta",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome neuroléptica maligna — bloqueio D2, rigidez, febre e CPK alta"
+ },
+ "cm52": {
+  "fonte": "sirio2026",
+  "numero": 3,
+  "tema": "Hipomagnesemia do etilista — convulsão, hipocalemia e hipocalcemia",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hipomagnesemia do etilista — convulsão, hipocalemia e hipocalcemia"
+ },
+ "cm53": {
+  "fonte": "sirio2026",
+  "numero": 5,
+  "tema": "AVC ao despertar — ressonância com difusão e FLAIR para trombolisar",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "AVC ao despertar — ressonância com difusão e FLAIR para trombolisar"
+ },
+ "cm54": {
+  "fonte": "sirio2026",
+  "numero": 6,
+  "tema": "Hemorragia subaracnóidea — WFNS 2 e pressão sistólica abaixo de 160",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hemorragia subaracnóidea — WFNS 2 e pressão sistólica abaixo de 160"
+ },
+ "cm55": {
+  "fonte": "sirio2026",
+  "numero": 7,
+  "tema": "Jovem com nefrite rapidamente progressiva e citopenias — lúpus",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Jovem com nefrite rapidamente progressiva e citopenias — lúpus"
+ },
+ "cm56": {
+  "fonte": "sirio2026",
+  "numero": 8,
+  "tema": "Hiponatremia euvolêmica, urina concentrada, urato baixo — SIADH",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hiponatremia euvolêmica, urina concentrada, urato baixo — SIADH"
+ },
+ "cm57": {
+  "fonte": "sirio2026",
+  "numero": 10,
+  "tema": "Dor rasgante com sopro aórtico novo — angiotomografia de aorta",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Dor rasgante com sopro aórtico novo — angiotomografia de aorta"
+ },
+ "cm58": {
+  "fonte": "sirio2026",
+  "numero": 11,
+  "tema": "Encefalopatia hepática — não restringir proteína: 1,2 a 1,5 g/kg",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Encefalopatia hepática — não restringir proteína: 1,2 a 1,5 g/kg"
+ },
+ "cm59": {
+  "fonte": "sirio2026",
+  "numero": 12,
+  "tema": "H. pylori em jovem sem alarme — terapia tripla, sem endoscopia",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "H. pylori em jovem sem alarme — terapia tripla, sem endoscopia"
+ },
+ "cm60": {
+  "fonte": "sirio2026",
+  "numero": 13,
+  "tema": "Delirium na UTI — o benzodiazepínico é o sedativo que o provoca",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Delirium na UTI — o benzodiazepínico é o sedativo que o provoca"
+ },
+ "cm61": {
+  "fonte": "sirio2026",
+  "numero": 14,
+  "tema": "Mononeurite múltipla, hepatite B e vasculite de médio calibre — PAN",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Mononeurite múltipla, hepatite B e vasculite de médio calibre — PAN"
+ },
+ "cm62": {
+  "fonte": "sirio2026",
+  "numero": 15,
+  "tema": "Lúpus com proteinúria — hidroxicloroquina, corticoide e biópsia renal",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Lúpus com proteinúria — hidroxicloroquina, corticoide e biópsia renal"
+ },
+ "cm63": {
+  "fonte": "sirio2026",
+  "numero": 16,
+  "tema": "Leucemia mieloide crônica BCR-ABL — imatinibe, não transplante",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Leucemia mieloide crônica BCR-ABL — imatinibe, não transplante"
+ },
+ "cm64": {
+  "fonte": "sirio2026",
+  "numero": 19,
+  "tema": "Nódulo tireoidiano com TSH suprimido — cintilografia antes da punção",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Nódulo tireoidiano com TSH suprimido — cintilografia antes da punção"
+ },
+ "cm65": {
+  "fonte": "sirio2026",
+  "numero": 20,
+  "tema": "Meningite após os 50 — ceftriaxona, ampicilina, vanco e dexametasona",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Meningite após os 50 — ceftriaxona, ampicilina, vanco e dexametasona"
+ },
+ "cm66": {
+  "fonte": "sirio2027",
+  "numero": 1,
+  "tema": "Diabético com albuminúria maciça e TFG de 41 — somar inibidor de SGLT2",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Diabético com albuminúria maciça e TFG de 41 — somar inibidor de SGLT2"
+ },
+ "cm67": {
+  "fonte": "sirio2027",
+  "numero": 3,
+  "tema": "Cirrótico encefalopático sem choque — investigar antes do antibiótico",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Cirrótico encefalopático sem choque — investigar antes do antibiótico"
+ },
+ "cm68": {
+  "fonte": "sirio2027",
+  "numero": 4,
+  "tema": "Edema agudo hipertensivo — sistólica abaixo de 140 na primeira hora",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Edema agudo hipertensivo — sistólica abaixo de 140 na primeira hora"
+ },
+ "cm69": {
+  "fonte": "sirio2027",
+  "numero": 5,
+  "tema": "Sepse por cateter com ESBL conhecida — meropenem empírico",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Sepse por cateter com ESBL conhecida — meropenem empírico"
+ },
+ "cm70": {
+  "fonte": "sirio2027",
+  "numero": 8,
+  "tema": "Hantavirose — extravasamento capilar, inotrópico cedo e pouco volume",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Hantavirose — extravasamento capilar, inotrópico cedo e pouco volume"
+ },
+ "cm71": {
+  "fonte": "sirio2027",
+  "numero": 9,
+  "tema": "Hanseníase neural pura — nervo espessado com perda sensitiva basta",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Hanseníase neural pura — nervo espessado com perda sensitiva basta"
+ },
+ "cm72": {
+  "fonte": "sirio2027",
+  "numero": 10,
+  "tema": "Esteatose metabólica com FIB-4 intermediário — elastografia decide",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Esteatose metabólica com FIB-4 intermediário — elastografia decide"
+ },
+ "cm73": {
+  "fonte": "sirio2027",
+  "numero": 11,
+  "tema": "Ferritina alta com saturação de transferrina normal — não é ferro",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Ferritina alta com saturação de transferrina normal — não é ferro"
+ },
+ "cm74": {
+  "fonte": "sirio2027",
+  "numero": 13,
+  "tema": "SDRA refratária em PCV — alongar o tempo inspiratório com cuidado",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "SDRA refratária em PCV — alongar o tempo inspiratório com cuidado"
+ },
+ "cm75": {
+  "fonte": "sirio2027",
+  "numero": 14,
+  "tema": "Pré-operatório — capacidade funcional pelo DASI, não pelo olho clínico",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Pré-operatório — capacidade funcional pelo DASI, não pelo olho clínico"
+ },
+ "cm76": {
+  "fonte": "sirio2027",
+  "numero": 15,
+  "tema": "Polipose nasal — lavagem salina e corticoide tópico antes de tudo",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Polipose nasal — lavagem salina e corticoide tópico antes de tudo"
+ },
+ "cm77": {
+  "fonte": "sirio2027",
+  "numero": 16,
+  "tema": "Endocardite subaguda — as manchas de Roth são vasculite imune",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Endocardite subaguda — as manchas de Roth são vasculite imune"
+ },
+ "cm78": {
+  "fonte": "sirio2027",
+  "numero": 17,
+  "tema": "Tirzepatida — a queda rápida da glicada pode piorar a retinopatia",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Tirzepatida — a queda rápida da glicada pode piorar a retinopatia"
+ },
+ "cm79": {
+  "fonte": "sirio2027",
+  "numero": 18,
+  "tema": "Linfoma de Hodgkin — poucas células de Reed-Sternberg em mar reativo",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Linfoma de Hodgkin — poucas células de Reed-Sternberg em mar reativo"
+ },
+ "cm80": {
+  "fonte": "sirio2027",
+  "numero": 19,
+  "tema": "Coma por fenobarbital — bolhas de pressão e carvão em doses múltiplas",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Coma por fenobarbital — bolhas de pressão e carvão em doses múltiplas"
+ },
+ "cm81": {
+  "fonte": "unesp2025",
+  "numero": 41,
+  "tema": "Hemorragia varicosa — vasoconstritor 3 a 5 dias e antibiótico",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Hemorragia varicosa — vasoconstritor 3 a 5 dias e antibiótico"
+ },
+ "cm82": {
+  "fonte": "unesp2025",
+  "numero": 42,
+  "tema": "Derrame na insuficiência cardíaca em diurético — gradiente de albumina",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Derrame na insuficiência cardíaca em diurético — gradiente de albumina"
+ },
+ "cm83": {
+  "fonte": "unesp2025",
+  "numero": 44,
+  "tema": "Infecções de repetição e cadeia leve lambda — gamopatia monoclonal",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Infecções de repetição e cadeia leve lambda — gamopatia monoclonal"
+ },
+ "cm84": {
+  "fonte": "unesp2025",
+  "numero": 45,
+  "tema": "Delirium pelo CAM — início agudo flutuante e desatenção obrigatórios",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Delirium pelo CAM — início agudo flutuante e desatenção obrigatórios"
+ },
+ "cm85": {
+  "fonte": "unesp2025",
+  "numero": 47,
+  "tema": "Hipertensão maligna — fundo de olho grau III e vasodilatador venoso",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Hipertensão maligna — fundo de olho grau III e vasodilatador venoso"
+ },
+ "cm86": {
+  "fonte": "unesp2025",
+  "numero": 51,
+  "tema": "Monoartrite aguda na artrite reumatoide — tratar como séptica",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Monoartrite aguda na artrite reumatoide — tratar como séptica"
+ },
+ "cm87": {
+  "fonte": "unesp2025",
+  "numero": 52,
+  "tema": "Pneumotórax ao ultrassom — sem deslizamento, com ponto pulmonar",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Pneumotórax ao ultrassom — sem deslizamento, com ponto pulmonar"
+ },
+ "cm88": {
+  "fonte": "unesp2025",
+  "numero": 53,
+  "tema": "Critérios GLIM — perder 25% do peso é desnutrição grave, IMC à parte",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Critérios GLIM — perder 25% do peso é desnutrição grave, IMC à parte"
+ },
+ "cm89": {
+  "fonte": "unesp2025",
+  "numero": 55,
+  "tema": "Hipotireoidismo subclínico com TSH acima de 10 — levotiroxina",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Hipotireoidismo subclínico com TSH acima de 10 — levotiroxina"
+ },
+ "cm90": {
+  "fonte": "unesp2025",
+  "numero": 59,
+  "tema": "Leishmaniose cutânea no cardiopata renal — anfotericina lipossomal",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Leishmaniose cutânea no cardiopata renal — anfotericina lipossomal"
+ },
+ "cm91": {
+  "fonte": "famema2026",
+  "numero": 4,
+  "tema": "Perfil hemodinâmico dos choques — cardiogênico com PVC e capilar altas",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Perfil hemodinâmico dos choques — cardiogênico com PVC e capilar altas"
+ },
+ "cm92": {
+  "fonte": "famema2026",
+  "numero": 7,
+  "tema": "SDRA — 6 mL/kg de peso predito, platô até 30 e PEEP ajustada",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "SDRA — 6 mL/kg de peso predito, platô até 30 e PEEP ajustada"
+ },
+ "cm93": {
+  "fonte": "famema2026",
+  "numero": 10,
+  "tema": "Cefaleia em trovoada com tomografia normal — punção lombar",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Cefaleia em trovoada com tomografia normal — punção lombar"
+ },
+ "cm94": {
+  "fonte": "famema2026",
+  "numero": 11,
+  "tema": "Lesão renal aguda em diurético — FeUreia abaixo de 35% é pré-renal",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Lesão renal aguda em diurético — FeUreia abaixo de 35% é pré-renal"
+ },
+ "cm95": {
+  "fonte": "famema2026",
+  "numero": 14,
+  "tema": "Comatoso após parada — temperatura entre 32 e 36 ºC por 24 horas",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Comatoso após parada — temperatura entre 32 e 36 ºC por 24 horas"
+ },
+ "cm96": {
+  "fonte": "famema2026",
+  "numero": 16,
+  "tema": "CURB-65 — um ponto por critério; 0–1 em casa, 2 interna, 3 ou mais UTI",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "CURB-65 — um ponto por critério; 0–1 em casa, 2 interna, 3 ou mais UTI"
+ },
+ "cm97": {
+  "fonte": "famema2026",
+  "numero": 94,
+  "tema": "KDIGO — lesão renal aguda com creatinina subindo 0,3 mg/dL em 48 horas",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "KDIGO — lesão renal aguda com creatinina subindo 0,3 mg/dL em 48 horas"
+ },
+ "cm98": {
+  "fonte": "famema2026",
+  "numero": 96,
+  "tema": "Hemianopsia homônima com hemi-hipoestesia — artéria cerebral posterior",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hemianopsia homônima com hemi-hipoestesia — artéria cerebral posterior"
+ },
+ "cm99": {
+  "fonte": "famema2026",
+  "numero": 98,
+  "tema": "Capnografia na RCP — abaixo de 10 mmHg é mau sinal",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Capnografia na RCP — abaixo de 10 mmHg é mau sinal"
+ },
+ "cm100": {
+  "fonte": "famema2026",
+  "numero": 99,
+  "tema": "Triagem de sepse — qSOFA é específico, mas pouco sensível",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Triagem de sepse — qSOFA é específico, mas pouco sensível"
  }
 }

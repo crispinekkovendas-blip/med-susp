@@ -2026,4 +2026,2108 @@ module.exports = {
 <li>Por que a adenosina não serve na fibrilação atrial? <details><summary>Resposta</summary>Porque interrompe apenas as taquicardias por reentrada no nó atrioventricular; a fibrilação não depende do nó para se manter.</details></li>
 </ol>
 `,
+
+/* --- Volume 2 · Clínica Médica · Sírio-Libanês 2026 (cm51–cm65) ------------------------ */
+"sirio2026#2": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a síndrome neuroléptica maligna e seus fármacos desencadeantes.</li>
+<li>Diferenciá-la da síndrome serotoninérgica, da hipertermia maligna e da catatonia.</li>
+<li>Descrever o tratamento de suporte e os agentes específicos.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Síndrome neuroléptica maligna</dt>
+<dd>Reação idiossincrásica ao bloqueio dopaminérgico, com hipertermia, rigidez, alteração da consciência e disautonomia, em horas a dias após início ou aumento de dose.</dd>
+<dt>Rigidez em cano de chumbo</dt>
+<dd>Hipertonia uniforme em toda a amplitude do movimento, sem clônus, com reflexos normais ou reduzidos.</dd>
+<dt>Síndrome serotoninérgica</dt>
+<dd>Excesso de serotonina por antidepressivos, tramadol, linezolida ou triptanos: início em horas, hiperreflexia, clônus, midríase e diarreia.</dd>
+<dt>Dantroleno</dt>
+<dd>Relaxante muscular que bloqueia a liberação de cálcio do retículo sarcoplasmático; usado nos casos graves com rigidez intensa e CPK muito alta.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A síndrome neuroléptica maligna ocorre em até 0,2% dos usuários de antipsicóticos, mais com os de primeira geração em dose alta e via parenteral, mas também com os atípicos e com os antieméticos antidopaminérgicos (metoclopramida, prometazina) e na retirada abrupta de levodopa no parkinsoniano.</p>
+<p>O diagnóstico diferencial é clínico e depende dos reflexos e do tempo. A <strong>síndrome serotoninérgica</strong> se instala em horas após a droga serotoninérgica, com hiperreflexia, clônus (sobretudo nos tornozelos), midríase, tremor e diarreia. A <strong>hipertermia maligna</strong> segue anestésicos inalatórios e succinilcolina em minutos a horas, no centro cirúrgico.</p>
+<p>O tratamento começa pela <strong>suspensão</strong> do bloqueador dopaminérgico e pelo suporte intensivo: resfriamento externo, hidratação vigorosa para proteger o rim da mioglobina, correção de eletrólitos, profilaxia de trombose e vigilância de insuficiência respiratória por rigidez torácica. Os <strong>benzodiazepínicos</strong> controlam agitação e rigidez e são a primeira medida farmacológica.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Febre alta, rigidez e confusão em quem usa haloperidol ou metoclopramida é síndrome neuroléptica maligna até prova em contrário, e a CPK alta confirma. O reflexo decide o diferencial: hiporreflexia e rigidez é neuroléptica; hiperreflexia e clônus é serotoninérgica. Suspender a droga, hidratar, resfriar e dar benzodiazepínico vem antes de qualquer agente específico.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Causa: bloqueio D2 por antipsicóticos ou antieméticos, ou retirada de levodopa; início em um a três dias.</li>
+<li>Clínica: hipertermia, rigidez em cano de chumbo, alteração da consciência, disautonomia; CPK e leucócitos altos.</li>
+<li>Diferencial: serotoninérgica (hiperreflexia, clônus, horas), hipertermia maligna (anestesia), catatonia maligna, infecção do SNC.</li>
+<li>Tratamento: suspender a droga, resfriar, hidratar, benzodiazepínico; bromocriptina ou dantroleno nos graves.</li>
+<li>Reintroduzir antipsicótico só após duas semanas, de outra classe e em dose baixa.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o mecanismo central da síndrome neuroléptica maligna? <details><summary>Resposta</summary>O bloqueio dos receptores dopaminérgicos D2 no estriado, no hipotálamo e no sistema autônomo.</details></li>
+<li>Que achado do exame neurológico separa a síndrome neuroléptica maligna da serotoninérgica? <details><summary>Resposta</summary>Os reflexos: hiporreflexia com rigidez na neuroléptica; hiperreflexia com clônus na serotoninérgica.</details></li>
+<li>Quais são as primeiras medidas de tratamento? <details><summary>Resposta</summary>Suspender o bloqueador dopaminérgico, resfriar, hidratar vigorosamente e administrar benzodiazepínico; dantroleno ou bromocriptina nos casos graves.</details></li>
+</ol>
+`,
+
+"sirio2026#3": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar as causas de hipomagnesemia, com o etilismo à frente.</li>
+<li>Explicar como a depleção de magnésio produz hipocalemia e hipocalcemia refratárias.</li>
+<li>Reconhecer as manifestações e tratar a hipomagnesemia grave.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Hipomagnesemia</dt>
+<dd>Magnésio sérico abaixo de 1,7 mg/dL; grave abaixo de 1,0 mg/dL, com risco de convulsão e arritmia.</dd>
+<dt>Canal ROMK</dt>
+<dd>Canal de potássio do néfron distal que o magnésio intracelular inibe; sem magnésio, o potássio escapa para a urina.</dd>
+<dt>Hipocalemia refratária</dt>
+<dd>Potássio que não sobe apesar da reposição, até que o magnésio seja corrigido.</dd>
+<dt>Hipoparatireoidismo funcional</dt>
+<dd>Secreção e ação do paratormônio deprimidas pela depleção de magnésio, com hipocalcemia que não responde ao cálcio.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O magnésio é o segundo cátion intracelular mais abundante e cofator de centenas de enzimas, incluindo a bomba de sódio e potássio.</p>
+<p>A depleção de magnésio arrasta outros dois íons. No rim, o magnésio intracelular bloqueia os canais <strong>ROMK</strong>; quando falta, o potássio vaza para a luz tubular, e a <strong>hipocalemia</strong> se torna refratária à reposição até que o magnésio seja corrigido. Na paratireoide, o magnésio é necessário para a secreção do paratormônio e para a resposta dos tecidos a ele; a depleção causa <strong>hipocalcemia</strong> que também não responde ao cálcio isolado.</p>
+<p>O tratamento depende da gravidade. Na hipomagnesemia grave ou sintomática (convulsão, arritmia, tetania), <strong>sulfato de magnésio venoso</strong>, 1 a 2 g em 15 minutos no caso agudo, seguidos de 4 a 8 g em 12 a 24 horas, lembrando que metade da dose infundida se perde na urina e que a reposição precisa continuar por dias para repor o estoque intracelular. Nos casos leves, sais orais, limitados pela diarreia. Repor junto o potássio e, se necessário, o cálcio, e tratar a causa: suspender o inibidor de bomba de prótons, trocar o diurético, controlar a glicemia.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando o enunciado traz potássio e cálcio baixos que "não sobem", procure o magnésio: ele é o distúrbio-mãe, sobretudo no etilista e no usuário crônico de diurético ou de omeprazol. Convulsão com magnésio de 0,5 tem o magnésio como causa, e a reposição venosa vem antes de qualquer anticonvulsivante de manutenção.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Causas: ingestão pobre, perda digestiva e perda renal; o etilismo soma todas.</li>
+<li>Depleção de magnésio abre os canais ROMK (hipocalemia refratária) e deprime o paratormônio (hipocalcemia refratária).</li>
+<li>Clínica: tremor, tetania, convulsão, QT longo, torsades, fraqueza, confusão.</li>
+<li>Grave ou sintomática: sulfato de magnésio venoso, 1 a 2 g rápido e 4 a 8 g em 12 a 24 h, mantido por dias.</li>
+<li>Corrigir potássio e cálcio em paralelo e tratar a causa; tiamina no etilista.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a hipocalemia do etilista não corrige até que o magnésio seja reposto? <details><summary>Resposta</summary>Porque a depleção de magnésio abre os canais ROMK do néfron distal e o potássio reposto é perdido na urina.</details></li>
+<li>Como a hipomagnesemia causa hipocalcemia? <details><summary>Resposta</summary>Reduz a secreção de paratormônio e a resposta dos tecidos a ele, um hipoparatireoidismo funcional.</details></li>
+<li>Qual é a dose inicial de sulfato de magnésio na hipomagnesemia com convulsão? <details><summary>Resposta</summary>1 a 2 g por via venosa em 15 minutos, seguidos de 4 a 8 g em 12 a 24 horas e reposição continuada por dias.</details></li>
+</ol>
+`,
+
+"sirio2026#5": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar as janelas de trombólise e trombectomia no AVC isquêmico.</li>
+<li>Descrever o uso da ressonância com difusão e FLAIR no AVC de início desconhecido.</li>
+<li>Diferenciar os exames que indicam trombólise dos que indicam trombectomia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Último momento assintomático</dt>
+<dd>Referência temporal para a trombólise quando o início não foi presenciado; no AVC ao despertar, é a hora em que o paciente foi dormir.</dd>
+<dt>Mismatch DWI-FLAIR</dt>
+<dd>Lesão visível na difusão e ausente no FLAIR, indicando infarto com menos de 4,5 horas; critério do estudo WAKE-UP.</dd>
+<dt>Trombectomia mecânica</dt>
+<dd>Retirada endovascular do trombo em oclusão de grande vaso, até 6 horas pela clínica e até 24 horas com seleção por perfusão (DAWN, DEFUSE-3).</dd>
+<dt>Alteplase e tenecteplase</dt>
+<dd>Trombolíticos venosos; a tenecteplase em bolus único é equivalente e mais prática, sobretudo antes da trombectomia.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A trombólise venosa no AVC isquêmico é indicada até <strong>4,5 horas</strong> do início dos sintomas, após tomografia sem contraste que exclua hemorragia, com pressão abaixo de 185 × 110 e sem contraindicações hemorrágicas. Quando o início não foi presenciado, vale o <strong>último momento em que o paciente estava bem</strong>, e cerca de um quarto dos AVCs acontece durante o sono, ficando formalmente fora da janela. Esse grupo era excluído até que a imagem passou a estimar a idade do infarto.</p>
+<p>Na ressonância, a sequência de <strong>difusão</strong> (DWI) mostra o infarto em minutos, pela restrição à difusão da água no edema citotóxico; o <strong>FLAIR</strong> só se altera depois de algumas horas, quando o edema vasogênico se instala. Um infarto visível na difusão e <strong>ainda invisível no FLAIR</strong> tem, com boa probabilidade, menos de 4,5 horas.</p>
+<p>A <strong>trombectomia</strong> segue outra lógica: exige demonstrar <strong>oclusão de grande vaso</strong> (carótida interna, cerebral média proximal, basilar) por angiotomografia ou angiorressonância, com pequeno núcleo de infarto (ASPECTS 6 ou mais) e déficit relevante (NIHSS 6 ou mais).</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Separe os exames pelo que decidem: tomografia sem contraste exclui sangue e libera a trombólise dentro da janela; ressonância com difusão e FLAIR estima o tempo quando a janela é desconhecida; angiotomografia mostra a oclusão e decide a trombectomia. Paciente que acordou com o déficit e dormiu há dez horas vai à ressonância, não à angiotomografia, se a pergunta é trombólise.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Trombólise venosa até 4,5 h do início ou do último momento assintomático, após tomografia sem hemorragia.</li>
+<li>AVC ao despertar ou de início desconhecido: ressonância com DWI positivo e FLAIR negativo permite trombolisar (WAKE-UP); perfusão até 9 h é opção.</li>
+<li>Trombectomia exige oclusão de grande vaso na angiotomografia; até 6 h pela clínica, até 24 h com perfusão.</li>
+<li>Elegível para ambas recebe trombólise e segue para trombectomia sem esperar.</li>
+<li>Tenecteplase em bolus é equivalente à alteplase e mais prática.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que horário se usa como início do AVC em quem acordou com o déficit? <details><summary>Resposta</summary>O último momento em que o paciente estava comprovadamente assintomático, em geral a hora em que foi dormir.</details></li>
+<li>O que significa o mismatch DWI-FLAIR e para que serve? <details><summary>Resposta</summary>Infarto visível na difusão e ausente no FLAIR, que indica menos de 4,5 horas de evolução e permite a trombólise no AVC de início desconhecido.</details></li>
+<li>Qual exame decide a trombectomia mecânica? <details><summary>Resposta</summary>A angiotomografia (ou angiorressonância), que demonstra a oclusão de grande vaso; fora de 6 horas, a perfusão seleciona pelo mismatch núcleo-penumbra.</details></li>
+</ol>
+`,
+
+"sirio2026#6": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a hemorragia subaracnóidea aneurismática e graduá-la pelas escalas WFNS e Hunt-Hess.</li>
+<li>Definir as metas pressóricas e as medidas antes da exclusão do aneurisma.</li>
+<li>Prevenir e reconhecer o ressangramento, o vasoespasmo e a hidrocefalia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Escala WFNS</dt>
+<dd>Grau I: Glasgow 15; II: 13 a 14 sem déficit motor; III: 13 a 14 com déficit; IV: 7 a 12; V: 3 a 6.</dd>
+<dt>Escala de Fisher modificada</dt>
+<dd>Quantidade de sangue na tomografia; prediz o risco de vasoespasmo e isquemia tardia.</dd>
+<dt>Vasoespasmo</dt>
+<dd>Estreitamento arterial entre o 3º e o 14º dia, com isquemia cerebral tardia; prevenido com nimodipina e euvolemia.</dd>
+<dt>Nimodipina</dt>
+<dd>Bloqueador de cálcio oral, 60 mg a cada 4 horas por 21 dias, que reduz a isquemia tardia e melhora o desfecho.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A hemorragia subaracnóidea espontânea é aneurismática em 85% dos casos e se anuncia pela <strong>cefaleia em trovoada</strong>, máxima em segundos, muitas vezes com vômitos, rigidez de nuca, perda transitória de consciência ou crise convulsiva. A tomografia sem contraste é quase sempre positiva nas primeiras seis horas; se negativa com suspeita forte, a punção lombar com pesquisa de xantocromia fecha o diagnóstico, e a angiotomografia localiza o aneurisma.</p>
+<p>Até a exclusão do aneurisma, o inimigo é o <strong>ressangramento</strong>, mais frequente nas primeiras 24 horas e com mortalidade acima de 50%.</p>
+<p>Depois vêm as complicações tardias. O <strong>vasoespasmo</strong> e a isquemia cerebral tardia ocorrem do 3º ao 14º dia, prevenidos com <strong>nimodipina</strong> por 21 dias e euvolemia (a hipovolemia e a hiponatremia por perda de sal aumentam o risco), monitorados com Doppler transcraniano e tratados com hipertensão induzida e, se necessário, angioplastia. A <strong>hidrocefalia</strong> aguda exige derivação ventricular externa. Hiponatremia, febre, hiperglicemia e disfunção cardíaca neurogênica são frequentes e pioram o desfecho se não corrigidas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Memorize os números: WFNS II é Glasgow 13 a 14 sem déficit; a meta pressórica antes de tratar o aneurisma é sistólica abaixo de 160 (na hemorragia intraparenquimatosa, abaixo de 140); nimodipina por 21 dias para o vasoespasmo; nada de fenitoína profilática. A pior dor de cabeça da vida com tomografia normal ainda precisa de punção lombar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Cefaleia em trovoada; tomografia sem contraste, e punção lombar se negativa; angiotomografia para o aneurisma.</li>
+<li>Gravidade pela WFNS (Glasgow e déficit) e Hunt-Hess; sangue pela Fisher modificada.</li>
+<li>Antes da exclusão do aneurisma: sistólica abaixo de 160 com droga titulável, repouso, reverter antitrombóticos; sem anticonvulsivante de rotina.</li>
+<li>Embolização ou clipagem o mais cedo possível, idealmente em 24 horas.</li>
+<li>Vasoespasmo do 3º ao 14º dia: nimodipina 21 dias, euvolemia, Doppler; hidrocefalia pede derivação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Como se define o grau II da escala WFNS? <details><summary>Resposta</summary>Escala de coma de Glasgow de 13 ou 14 sem déficit motor focal.</details></li>
+<li>Qual é a meta de pressão sistólica antes da exclusão do aneurisma e por que não baixar demais? <details><summary>Resposta</summary>Abaixo de 160 mmHg; reduções excessivas comprometem a perfusão cerebral num encéfalo com pressão intracraniana elevada.</details></li>
+<li>Qual droga previne a isquemia cerebral tardia e por quanto tempo? <details><summary>Resposta</summary>Nimodipina oral, 60 mg a cada 4 horas, por 21 dias.</details></li>
+</ol>
+`,
+
+"sirio2026#7": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a glomerulonefrite rapidamente progressiva e suas causas por faixa etária.</li>
+<li>Identificar o lúpus como causa de nefrite com citopenias na mulher jovem.</li>
+<li>Diferenciar as microangiopatias trombóticas da nefrite lúpica.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Glomerulonefrite rapidamente progressiva</dt>
+<dd>Perda de função renal em dias a semanas com sedimento ativo (hematúria dismórfica, cilindros hemáticos) e proteinúria; crescentes na biópsia.</dd>
+<dt>Nefrite lúpica proliferativa</dt>
+<dd>Classes III (focal) e IV (difusa) da ISN/RPS, com depósitos de imunocomplexos, hipertensão, proteinúria e queda de filtração; a forma mais grave.</dd>
+<dt>Microangiopatia trombótica</dt>
+<dd>Anemia hemolítica com esquizócitos, plaquetopenia e lesão de órgão por trombos de microcirculação: SHU, PTT, crise renal esclerodérmica.</dd>
+<dt>Anti-DNA de dupla hélice</dt>
+<dd>Autoanticorpo específico do lúpus, que acompanha a atividade renal junto com a queda de C3 e C4.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Uma mulher jovem com creatinina de 5, potássio de 7, proteinúria nefrótica, hematúria e hipertensão tem uma <strong>glomerulonefrite rapidamente progressiva</strong>, emergência nefrológica em que semanas de atraso custam o rim. As causas se dividem em três padrões imunológicos: anticorpo antimembrana basal (Goodpasture), imunocomplexos (lúpus, pós-infecciosa, IgA, crioglobulinemia, endocardite) e pauci-imune (vasculites ANCA).</p>
+<p>A nefrite lúpica acomete metade dos pacientes e é a principal causa de morbidade. As classes <strong>proliferativas</strong> (III e IV) produzem sedimento ativo, proteinúria e insuficiência renal, com anti-DNA alto e complemento consumido; a classe V (membranosa) produz síndrome nefrótica com função preservada. A confirmação exige FAN, anti-DNA, anti-Sm, C3 e C4, pesquisa de antifosfolípides e <strong>biópsia renal</strong>, que classifica e gradua atividade e cronicidade.</p>
+<p>O diferencial com as <strong>microangiopatias trombóticas</strong> é essencial porque o tratamento é diferente.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Mulher jovem, rim falindo rápido com proteinúria e hematúria, mais anemia e plaquetopenia, sem diarreia e sem contexto: pense em lúpus, peça FAN, anti-DNA e complemento e agende a biópsia. Para marcar microangiopatia, a prova precisa dar esquizócitos, DHL alta e, no caso da SHU, a diarreia prévia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Glomerulonefrite rapidamente progressiva: perda de função em dias a semanas com sedimento ativo; emergência.</li>
+<li>Na mulher jovem com citopenias, o lúpus é a causa principal; classes III e IV são as proliferativas graves.</li>
+<li>Diagnóstico: FAN, anti-DNA, C3 e C4 baixos, antifosfolípides e biópsia renal.</li>
+<li>Indução com corticoide mais micofenolato ou ciclofosfamida (com belimumabe ou voclosporina); manutenção prolongada; hidroxicloroquina para todos.</li>
+<li>Microangiopatias (SHU, PTT, crise esclerodérmica) têm esquizócitos e hemólise, sem síndrome nefrítica com proteinúria nefrótica.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que achados hematológicos apontam para o lúpus numa glomerulonefrite rapidamente progressiva? <details><summary>Resposta</summary>Anemia, leucopenia e plaquetopenia, critérios hematológicos do lúpus que raramente acompanham as outras causas.</details></li>
+<li>Quais classes de nefrite lúpica cursam com sedimento ativo e perda de função? <details><summary>Resposta</summary>As classes proliferativas III e IV.</details></li>
+<li>Que exame do sangue periférico ajuda a separar nefrite lúpica de microangiopatia trombótica? <details><summary>Resposta</summary>O esfregaço com pesquisa de esquizócitos, junto com DHL e haptoglobina, que indicam hemólise microangiopática.</details></li>
+</ol>
+`,
+
+"sirio2026#8": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Organizar a investigação da hiponatremia pela osmolalidade e pela volemia.</li>
+<li>Aplicar os critérios diagnósticos da SIADH e suas causas.</li>
+<li>Tratar a hiponatremia sintomática grave sem ultrapassar o limite de correção.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Hiponatremia hipotônica</dt>
+<dd>Sódio abaixo de 135 mEq/L com osmolalidade plasmática baixa; classificada em hipo, eu e hipervolêmica.</dd>
+<dt>SIADH</dt>
+<dd>Secreção de ADH inadequada à osmolalidade: euvolemia, osmolalidade urinária acima de 100, sódio urinário acima de 30, urato baixo, tireoide e adrenal normais.</dd>
+<dt>Síndrome de desmielinização osmótica</dt>
+<dd>Lesão pontina e extrapontina por correção rápida do sódio; prevenida limitando a 8 mEq/L em 24 horas.</dd>
+<dt>Salina hipertônica a 3%</dt>
+<dd>Tratamento da hiponatremia com sintomas graves: bolus de 100 a 150 mL em 10 a 20 minutos, repetido até duas vezes.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A hiponatremia é o distúrbio eletrolítico mais comum e quase sempre significa <strong>excesso de água</strong> em relação ao sódio, por ação do hormônio antidiurético. A investigação segue três perguntas. A osmolalidade plasmática é baixa? (exclui pseudo-hiponatremia e hiperglicemia).</p>
+<p>A <strong>SIADH</strong> é diagnóstico de exclusão com critérios definidos: hiponatremia hipotônica, osmolalidade urinária acima de 100, sódio urinário acima de 30 com ingestão normal de sal, <strong>euvolemia clínica</strong>, função tireoidiana e adrenal normais e ausência de diurético recente; o <strong>ácido úrico baixo</strong> (abaixo de 4 mg/dL) reforça, pela expansão de volume e maior excreção.</p>
+<p>O tratamento depende dos sintomas, não do número. Com <strong>sintomas graves</strong> (convulsão, rebaixamento, vômitos), salina a 3% em bolus de 100 a 150 mL, repetidos até elevar o sódio em 4 a 6 mEq/L, o suficiente para cessar os sintomas; depois, a correção total não deve passar de <strong>8 mEq/L em 24 horas</strong> (alguns aceitam 10 em baixo risco), com sódio dosado a cada 2 a 4 horas; se passar, reduz-se com água livre ou desmopressina.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Sódio baixo, urina concentrada (osmolalidade acima de 100), sódio urinário alto, paciente sem edema e sem desidratação, TSH e cortisol normais: SIADH, e procure a droga (fluoxetina, carbamazepina) ou o tumor. Convulsão ou confusão exigem salina a 3% em bolus; o limite de 8 mEq/L em 24 horas protege a ponte.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Investigar pela osmolalidade plasmática, osmolalidade urinária (100 é o corte) e volemia com sódio urinário (30 é o corte).</li>
+<li>SIADH: euvolemia, urina concentrada e rica em sódio, urato baixo, tireoide e adrenal normais, sem diurético.</li>
+<li>Causas: neoplasias, pulmão, SNC, dor e pós-operatório, fármacos (ISRS, carbamazepina, antipsicóticos).</li>
+<li>Sintomas graves: salina a 3% em bolus até subir 4 a 6 mEq/L; limite de 8 mEq/L em 24 h.</li>
+<li>Sem sintomas graves: restrição hídrica, suspender a droga, ureia ou tolvaptana se preciso.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que valor de osmolalidade urinária separa a hiponatremia por excesso de ADH da hiponatremia por excesso de água ingerida? <details><summary>Resposta</summary>100 mOsm/kg: acima dele há ação do ADH; abaixo, o rim dilui ao máximo (polidipsia, baixo soluto).</details></li>
+<li>Quais condições precisam ser excluídas antes de diagnosticar SIADH? <details><summary>Resposta</summary>Hipotireoidismo, insuficiência adrenal, uso recente de diurético e hipovolemia ou hipervolemia clínicas.</details></li>
+<li>Qual é o limite de correção do sódio em 24 horas e por quê? <details><summary>Resposta</summary>8 mEq/L (até 10 em baixo risco), para evitar a síndrome de desmielinização osmótica.</details></li>
+</ol>
+`,
+
+"sirio2026#10": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Suspeitar de dissecção aguda de aorta pela dor e pelos sinais associados.</li>
+<li>Estimar a probabilidade pelo escore ADD-RS e escolher o exame confirmatório.</li>
+<li>Classificar em Stanford A e B e iniciar o tratamento clínico correto.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Dissecção aguda de aorta</dt>
+<dd>Rotura da íntima com formação de falsa luz entre as camadas da parede; mortalidade de 1 a 2% por hora nas primeiras 48 horas do tipo A não tratado.</dd>
+<dt>Classificação de Stanford</dt>
+<dd>Tipo A envolve a aorta ascendente e é cirúrgico; tipo B começa após a subclávia esquerda e é clínico ou endovascular.</dd>
+<dt>Escore ADD-RS</dt>
+<dd>Três categorias (condição de risco, característica da dor, achados do exame), um ponto cada; 0 a 1 com D-dímero negativo exclui; 2 a 3 vai direto à imagem.</dd>
+<dt>Terapia anti-impulso</dt>
+<dd>Betabloqueador venoso para frequência de 60 e sistólica de 100 a 120, antes de vasodilatador, para reduzir a força de ejeção sobre a parede.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A dissecção de aorta é a grande impostora da dor torácica: imita infarto, embolia, AVC e abdome agudo, e o tratamento das impostoras (antitrombóticos, trombolítico) a mata. A suspeita vem de três grupos de dados do escore <strong>ADD-RS</strong>. <strong>Condições de risco</strong>: síndrome de Marfan e outras doenças do tecido conjuntivo, história familiar, valva aórtica bicúspide, cirurgia aórtica recente, aneurisma conhecido. <strong>Características da dor</strong>: início abrupto, intensidade máxima desde o começo, caráter rasgante ou lancinante.</p>
+<p>O escore orienta o caminho. Com <strong>0 ou 1 ponto</strong>, o D-dímero abaixo de 500 ng/mL exclui a dissecção com segurança; se positivo, imagem. Com <strong>2 ou 3 pontos</strong>, ou com qualquer sinal de instabilidade, a <strong>angiotomografia de aorta</strong> é imediata, sem passar pelo D-dímero: tem sensibilidade e especificidade acima de 95%, mostra a extensão, os ramos comprometidos e as complicações (tamponamento, hemotórax, má perfusão).</p>
+<p>O tratamento começa antes da imagem quando a suspeita é alta: analgesia com opioide, <strong>betabloqueador venoso</strong> (esmolol, metoprolol) para frequência em torno de 60, depois vasodilatador (nitroprussiato, nicardipina) para sistólica de 100 a 120, nessa ordem, para não provocar taquicardia reflexa; e nenhum antiagregante ou anticoagulante.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Dor súbita, rasgante, máxima no início, com sopro aórtico novo ou assimetria de pulsos, em hipertenso ou portador de Marfan, é dissecção: angiotomografia agora, betabloqueador antes do vasodilatador e nada de aspirina, heparina ou trombolítico. D-dímero só serve para quem tem probabilidade baixa.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>ADD-RS: condição de risco, dor típica, achados de exame; 2 ou 3 pontos vão direto à angiotomografia.</li>
+<li>D-dímero negativo exclui apenas com 0 ou 1 ponto.</li>
+<li>Sopro diastólico novo, assimetria de pulsos e déficit neurológico são achados de exame que somam ponto.</li>
+<li>Tratamento inicial: opioide, betabloqueador venoso, depois vasodilatador; sem antitrombóticos.</li>
+<li>Stanford A: cirurgia de emergência; B não complicada: clínico; B complicada: endoprótese.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são as três categorias do escore ADD-RS? <details><summary>Resposta</summary>Condições de alto risco, características da dor de alto risco e achados de exame de alto risco, um ponto cada.</details></li>
+<li>Por que o betabloqueador vem antes do vasodilatador na dissecção? <details><summary>Resposta</summary>Para reduzir a frequência e a força de ejeção antes de vasodilatar, evitando a taquicardia reflexa que aumentaria o estresse na parede.</details></li>
+<li>Qual é a conduta na dissecção Stanford tipo A? <details><summary>Resposta</summary>Cirurgia de emergência com substituição da aorta ascendente.</details></li>
+</ol>
+`,
+
+"sirio2026#11": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a encefalopatia hepática, seus graus e seus fatores precipitantes.</li>
+<li>Prescrever a nutrição do cirrótico com encefalopatia sem restringir proteína.</li>
+<li>Tratar o episódio agudo e prevenir a recorrência.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Encefalopatia hepática</dt>
+<dd>Disfunção cerebral por insuficiência hepática e shunt portossistêmico, de alterações sutis (grau mínimo) ao coma (grau IV de West Haven).</dd>
+<dt>Asterixe (flapping)</dt>
+<dd>Perda transitória do tônus postural com queda das mãos em extensão; sinal dos graus II e III.</dd>
+<dt>Sarcopenia do cirrótico</dt>
+<dd>Perda de massa muscular presente em até 60% dos cirróticos; o músculo é sítio alternativo de depuração de amônia.</dd>
+<dt>Lactulose</dt>
+<dd>Dissacarídeo não absorvível que acidifica o cólon, retém a amônia como amônio e acelera o trânsito; titulada para duas a três evacuações pastosas por dia.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A encefalopatia hepática resulta do acúmulo de <strong>amônia</strong> e de outras toxinas que o fígado doente não depura e que o shunt portossistêmico desvia da circulação hepática; no cérebro, a amônia é convertida em glutamina nos astrócitos, causando edema celular e disfunção. Quase todo episódio tem um <strong>fator precipitante</strong>: constipação, hemorragia digestiva, infecção (sobretudo peritonite bacteriana espontânea), hipocalemia e alcalose por diurético, desidratação, sedativos, excesso de proteína aguda, TIPS. Encontrá-lo e corrigi-lo é metade do tratamento.</p>
+<p>A <strong>nutrição</strong> mudou de paradigma. A restrição proteica, adotada por décadas, piora a sarcopenia, e o músculo é o órgão que converte amônia em glutamina quando o fígado falha; a desnutrição está associada a mais encefalopatia, mais infecção e mais mortalidade.</p>
+<p>O tratamento do episódio é <strong>lactulose</strong> oral ou por sonda (ou enema nos graus III e IV), titulada para duas a três evacuações pastosas, junto com a correção do precipitante, hidratação e suspensão de sedativos; a via aérea é protegida no grau IV. A <strong>rifaximina</strong>, 550 mg duas vezes ao dia, é associada à lactulose para prevenir recorrência após o segundo episódio e reduz internações. L-ornitina L-aspartato é adjuvante.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Cirrótico confuso com flapping: procure o gatilho (constipação, sangramento, infecção, diurético), dê lactulose e não corte a proteína. A prova testa justamente o número: 35 a 40 kcal/kg e 1,2 a 1,5 g/kg de proteína, com lanche à noite. Qualquer opção com 0,6 a 0,8 g/kg é a conduta antiga e errada.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Amônia e shunt portossistêmico causam edema astrocitário; quase sempre há precipitante a corrigir.</li>
+<li>Graus de West Haven e asterixe fazem o diagnóstico; amônia sérica ajuda pouco.</li>
+<li>Nutrição: 35 a 40 kcal/kg/dia e 1,2 a 1,5 g/kg/dia de proteína, em pequenas refeições com lanche noturno; nunca restringir.</li>
+<li>Episódio: lactulose até duas a três evacuações, correção do gatilho, proteção de via aérea no grau IV.</li>
+<li>Prevenção: rifaximina associada após recorrência; encefalopatia refratária indica transplante.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a restrição proteica é contraindicada na encefalopatia hepática? <details><summary>Resposta</summary>Porque agrava a sarcopenia, e o músculo é sítio alternativo de depuração de amônia; a desnutrição aumenta encefalopatia e mortalidade.</details></li>
+<li>Qual é a meta de energia e proteína para o cirrótico com encefalopatia? <details><summary>Resposta</summary>35 a 40 kcal/kg/dia e 1,2 a 1,5 g/kg/dia de proteína, fracionadas e com lanche noturno.</details></li>
+<li>Como se titula a lactulose? <details><summary>Resposta</summary>Até obter duas a três evacuações pastosas por dia.</details></li>
+</ol>
+`,
+
+"sirio2026#12": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar a estratégia "testar e tratar" na dispepsia do adulto jovem sem alarme.</li>
+<li>Conhecer os esquemas de erradicação do H. pylori do consenso brasileiro e suas durações.</li>
+<li>Confirmar a cura e manejar a falha.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Sinais de alarme</dt>
+<dd>Perda de peso, disfagia, odinofagia, vômitos persistentes, sangramento, anemia, massa palpável, história familiar de câncer gástrico; indicam endoscopia.</dd>
+<dt>Testar e tratar</dt>
+<dd>Teste não invasivo para H. pylori (respiratório com ureia ou antígeno fecal) no dispéptico jovem sem alarme, com tratamento se positivo.</dd>
+<dt>Terapia tripla</dt>
+<dd>Inibidor de bomba de prótons em dose dobrada, amoxicilina 1 g e claritromicina 500 mg, duas vezes ao dia, por 14 dias.</dd>
+<dt>Quádrupla com bismuto</dt>
+<dd>Inibidor de bomba, subcitrato de bismuto, tetraciclina e metronidazol por 10 a 14 dias; primeira linha em alta resistência e resgate no Brasil.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O H. pylori infecta metade da população brasileira e é a causa da maioria das úlceras pépticas, do linfoma MALT e do adenocarcinoma gástrico, além de contribuir para parte das dispepsias funcionais.</p>
+<p>O esquema de <strong>primeira linha</strong> no Brasil, onde a resistência à claritromicina ainda é baixa (abaixo de 15%), é a <strong>terapia tripla</strong>: inibidor de bomba de prótons em dose plena duas vezes ao dia, amoxicilina 1 g duas vezes ao dia e claritromicina 500 mg duas vezes ao dia, por <strong>14 dias</strong>, com taxas de erradicação acima de 85%.</p>
+<p>O <strong>controle de cura</strong> é obrigatório, quatro semanas após o fim do antibiótico, com teste respiratório ou antígeno fecal (a sorologia não serve, pois permanece positiva). Na <strong>falha</strong>, não se repete a claritromicina: a segunda linha é a quádrupla com bismuto ou a tripla com <strong>levofloxacino</strong> (inibidor de bomba, amoxicilina e levofloxacino 500 mg por 10 a 14 dias); na terceira falha, cultura com antibiograma ou esquema com rifabutina.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Dispepsia em jovem sem alarme: teste não invasivo e, se positivo, tripla com claritromicina por 14 dias, confirmando a cura quatro semanas depois. Endoscopia só acima de 40 anos ou com alarme. Levofloxacino é resgate; repetir claritromicina após falha é erro. Sorologia nunca confirma cura.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Indicações: úlcera, MALT, dispepsia, parentes de câncer gástrico, AINE crônico, ferropenia, PTI, B12.</li>
+<li>Menos de 40 anos sem alarme: testar e tratar com teste respiratório ou antígeno fecal; sem endoscopia.</li>
+<li>Primeira linha no Brasil: IBP + amoxicilina + claritromicina por 14 dias.</li>
+<li>Cura confirmada quatro semanas após o antibiótico, sem IBP por duas semanas, com teste não sorológico.</li>
+<li>Falha: quádrupla com bismuto ou tripla com levofloxacino; nunca repetir claritromicina.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em quem se aplica a estratégia "testar e tratar" para H. pylori? <details><summary>Resposta</summary>No dispéptico com menos de 40 anos e sem sinais de alarme, com teste não invasivo e tratamento se positivo.</details></li>
+<li>Qual é o esquema de primeira linha do consenso brasileiro e sua duração? <details><summary>Resposta</summary>Inibidor de bomba de prótons, amoxicilina e claritromicina, duas vezes ao dia, por 14 dias.</details></li>
+<li>Como e quando se confirma a erradicação? <details><summary>Resposta</summary>Com teste respiratório ou antígeno fecal, quatro semanas após o fim do antibiótico e duas semanas sem inibidor de bomba; a sorologia não serve.</details></li>
+</ol>
+`,
+
+"sirio2026#13": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diagnosticar o delirium na UTI com o CAM-ICU e reconhecer seus subtipos.</li>
+<li>Identificar os fatores de risco modificáveis, com os benzodiazepínicos à frente.</li>
+<li>Aplicar a prevenção e o tratamento recomendados pelas diretrizes PADIS.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Delirium</dt>
+<dd>Disfunção cerebral aguda e flutuante com desatenção e pensamento desorganizado ou alteração da consciência; acomete até 80% dos ventilados.</dd>
+<dt>CAM-ICU</dt>
+<dd>Versão do Confusion Assessment Method para pacientes que não falam; avalia início agudo, desatenção, pensamento desorganizado e nível de consciência.</dd>
+<dt>Sedação leve</dt>
+<dd>Alvo de RASS de 0 a −2, com despertar diário e avaliação de prontidão para extubação.</dd>
+<dt>Pacote ABCDEF</dt>
+<dd>Avaliar e tratar a dor, despertar e respiração espontâneos, escolha de sedação, monitorar delirium, mobilização precoce, família.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O delirium na UTI é frequente, subdiagnosticado e grave: associa-se a mais tempo de ventilação, mais mortalidade e declínio cognitivo persistente após a alta. Em dois terços dos casos é <strong>hipoativo</strong> (sonolento, apático, desatento) e passa despercebido; o hiperativo, agitado, chama a atenção mas é minoria; o misto alterna os dois. Por isso a triagem com o <strong>CAM-ICU</strong> ou o ICDSC deve ser feita a cada turno em todo paciente despertável.</p>
+<p>Entre os sedativos, os <strong>benzodiazepínicos</strong> são o fator de risco mais consistente: o midazolam e o lorazepam aumentam a transição para delirium de forma dose-dependente, e seus metabólitos se acumulam em idosos e na disfunção renal e hepática.</p>
+<p>A prevenção e o tratamento são sobretudo <strong>não farmacológicos</strong>, organizados no pacote ABCDEF: controle da dor, despertar e teste de respiração espontânea diários, escolha de sedativo, monitorização do delirium, mobilização precoce e presença da família, além de reorientação, relógio e janela, ciclo claro-escuro, redução de ruído à noite, óculos e aparelhos auditivos, retirada de sondas e contenções.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Paciente de UTI que fica desatento e com pensamento desorganizado ao sair da sedação tem delirium, e o sedativo culpado é o benzodiazepínico (midazolam). A resposta terapêutica não é outro remédio, e sim retirar o gatilho, tratar a dor, mobilizar, devolver o dia e a noite e trazer a família; antipsicótico só para agitação perigosa.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Delirium: agudo, flutuante, com desatenção; hipoativo é o mais comum e o mais perdido; triar com CAM-ICU a cada turno.</li>
+<li>Fatores modificáveis: benzodiazepínicos, opioides em excesso, sono, imobilidade, contenção, déficits sensoriais, dor.</li>
+<li>Sedação leve com propofol ou dexmedetomidina; evitar midazolam; analgesia antes de sedar; despertar diário.</li>
+<li>Pacote ABCDEF e medidas ambientais previnem e tratam; família à beira do leito.</li>
+<li>Antipsicóticos não encurtam o delirium; usar só para agitação perigosa; dexmedetomidina para o agitado que impede extubação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual subtipo de delirium é o mais frequente na UTI e por que é perigoso? <details><summary>Resposta</summary>O hipoativo, porque o paciente sonolento e apático não chama atenção e o diagnóstico é perdido sem triagem sistemática.</details></li>
+<li>Qual classe de sedativos mais se associa ao delirium e quais são as preferidas? <details><summary>Resposta</summary>Os benzodiazepínicos (midazolam, lorazepam); preferem-se propofol e dexmedetomidina, com sedação leve e despertar diário.</details></li>
+<li>Os antipsicóticos previnem ou encurtam o delirium? <details><summary>Resposta</summary>Não; ficam reservados à agitação que ameaça a segurança, em dose baixa e por curto tempo.</details></li>
+</ol>
+`,
+
+"sirio2026#14": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar as vasculites pelo calibre do vaso segundo Chapel Hill.</li>
+<li>Reconhecer a poliarterite nodosa e sua ligação com a hepatite B.</li>
+<li>Diferenciá-la das vasculites ANCA-associadas e tratar as duas.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Poliarterite nodosa</dt>
+<dd>Vasculite necrosante de artérias de médio e pequeno calibre, sem glomerulonefrite, sem capilarite e sem ANCA; associada ao HBV em parte dos casos.</dd>
+<dt>Mononeurite múltipla</dt>
+<dd>Lesão assimétrica e sucessiva de nervos periféricos isolados, por isquemia dos vasa nervorum; marca das vasculites.</dd>
+<dt>Vasculites ANCA-associadas</dt>
+<dd>Granulomatose com poliangeíte (PR3), poliangeíte microscópica (MPO) e granulomatose eosinofílica; pequenos vasos, com glomerulonefrite e capilarite pulmonar.</dd>
+<dt>Microaneurismas</dt>
+<dd>Dilatações saculares em artérias renais, mesentéricas e hepáticas à angiografia, típicas da poliarterite nodosa.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A classificação de Chapel Hill organiza as vasculites pelo <strong>calibre predominante</strong>. Grandes vasos: arterite de células gigantes e Takayasu. <strong>Médios vasos</strong>: poliarterite nodosa e doença de Kawasaki. Pequenos vasos: as ANCA-associadas (pauci-imunes) e as por imunocomplexos (IgA, crioglobulinemia, anti-membrana basal, urticariforme hipocomplementêmica).</p>
+<p>A <strong>poliarterite nodosa</strong> acomete homens de meia-idade com sintomas constitucionais, <strong>mononeurite múltipla</strong> (70%), dor abdominal pós-prandial, hipertensão de início recente por isquemia renal, creatinina elevada com <strong>sedimento urinário inativo</strong> (não há glomerulonefrite), nódulos subcutâneos, livedo e úlceras. O pulmão é poupado. O <strong>ANCA é negativo</strong>.</p>
+<p>O tratamento depende da causa e da gravidade. Na forma <strong>associada ao HBV</strong>, corticoide por curto período para controlar a inflamação, seguido de antiviral (entecavir ou tenofovir) e plasmaférese, evitando imunossupressão prolongada que aumenta a replicação viral.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Mononeurite múltipla mais dor abdominal mais hipertensão nova, sem glomerulonefrite, sem pulmão e com ANCA negativo, é poliarterite nodosa, e a hepatite B no antecedente fecha. Se a prova trouxer sedimento ativo, hemorragia alveolar ou ANCA positivo, mude para vasculite de pequenos vasos. A biópsia que mostra artéria média com necrose fibrinoide é a confirmação clássica.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Chapel Hill: grandes (células gigantes, Takayasu), médios (PAN, Kawasaki), pequenos (ANCA e imunocomplexos).</li>
+<li>PAN: mononeurite múltipla, dor abdominal, hipertensão, infartos renais sem glomerulonefrite, nódulos e livedo; pulmão poupado; ANCA negativo.</li>
+<li>Associação com HBV em 5 a 30%; diagnóstico por biópsia (necrose fibrinoide transmural) ou angiografia (microaneurismas).</li>
+<li>PAN-HBV: corticoide breve, antiviral e plasmaférese; PAN idiopática: corticoide e ciclofosfamida nas graves.</li>
+<li>Vasculites ANCA: pequenos vasos, glomerulonefrite e capilarite; rituximabe ou ciclofosfamida.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o sedimento urinário é inativo na poliarterite nodosa apesar da creatinina elevada? <details><summary>Resposta</summary>Porque o rim sofre por isquemia e infartos de artérias médias, não por glomerulonefrite, que é lesão de pequenos vasos.</details></li>
+<li>Qual infecção se associa à poliarterite nodosa e como isso muda o tratamento? <details><summary>Resposta</summary>A hepatite B; o tratamento usa corticoide breve, antiviral e plasmaférese, evitando imunossupressão prolongada.</details></li>
+<li>Que achado histológico define a poliarterite nodosa na biópsia? <details><summary>Resposta</summary>Inflamação transmural com necrose fibrinoide em artéria de médio calibre, sem granulomas.</details></li>
+</ol>
+`,
+
+"sirio2026#15": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o lúpus eritematoso sistêmico pelos critérios clínicos e imunológicos.</li>
+<li>Justificar a hidroxicloroquina para todos e o corticoide como ponte.</li>
+<li>Indicar a biópsia renal e escolher o imunossupressor pela classe.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Critérios EULAR/ACR 2019</dt>
+<dd>FAN de 1:80 ou mais como porta de entrada, mais pontos ponderados em domínios clínicos e imunológicos; 10 pontos classificam.</dd>
+<dt>Hidroxicloroquina</dt>
+<dd>Antimalárico de uso universal no lúpus, até 5 mg/kg/dia, que reduz atividade, surtos, trombose, dano acumulado e mortalidade; exige exame de retina.</dd>
+<dt>Limiar de biópsia renal</dt>
+<dd>Proteinúria de 0,5 g/24 h ou relação proteína/creatinina de 500 mg/g, com ou sem hematúria ou queda de filtração.</dd>
+<dt>Micofenolato de mofetila</dt>
+<dd>Imunossupressor de indução e manutenção das nefrites III, IV e V, opção à ciclofosfamida com menor toxicidade gonadal.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O lúpus eritematoso sistêmico é a doença autoimune sistêmica prototípica, dez vezes mais frequente em mulheres, com pico entre 20 e 40 anos.</p>
+<p>O tratamento tem uma base e degraus. A base é a <strong>hidroxicloroquina</strong> para todo paciente, independentemente da gravidade, porque reduz surtos, dano, trombose e morte; a dose respeita 5 mg/kg de peso real e exige exame de fundo de olho e OCT anual a partir do quinto ano.</p>
+<p>A <strong>nefrite</strong> é a manifestação que mais define prognóstico e exige <strong>biópsia</strong> sempre que a proteinúria atinge <strong>0,5 g/24 h</strong>, porque a classe histológica (ISN/RPS) determina o tratamento: classes I e II não exigem imunossupressão específica; <strong>III e IV</strong> (proliferativas) recebem indução com corticoide e <strong>micofenolato</strong> ou ciclofosfamida em dose baixa (Euro-Lupus), com belimumabe ou voclosporina associados nas diretrizes recentes, e manutenção com micofenolato ou azatioprina por pelo menos três anos; a <strong>classe V</strong> (membranosa) com proteinúria nefrótica recebe micofenolato ou inibidor de calcineurina; a classe VI é esclerose avançada, sem benefício de imunossupressão.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Diante do lúpus recém-diagnosticado com proteinúria acima de 0,5 g, a conduta tem três partes inseparáveis: hidroxicloroquina para todos, corticoide para a atividade e biópsia renal para escolher o imunossupressor. Opções que dispensam a biópsia, que usam só hidroxicloroquina ou que começam por rituximabe estão erradas.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Lúpus: mulher jovem, artrite, rash malar, citopenias, FAN positivo, anti-DNA e anti-Sm específicos, complemento baixo na atividade.</li>
+<li>Hidroxicloroquina para todos (até 5 mg/kg, com exame de retina); corticoide como ponte, reduzido a 5 mg/dia ou menos.</li>
+<li>Proteinúria de 0,5 g/24 h indica biópsia renal; a classe define o tratamento.</li>
+<li>Classes III e IV: corticoide com micofenolato ou ciclofosfamida (mais belimumabe ou voclosporina); classe V: micofenolato ou calcineurínico.</li>
+<li>Manutenção por anos, bloqueio do SRAA, proteção óssea; rituximabe na refratariedade.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a hidroxicloroquina é indicada para todo paciente com lúpus? <details><summary>Resposta</summary>Porque reduz atividade, surtos, trombose, dano acumulado e mortalidade, com perfil de segurança favorável.</details></li>
+<li>Qual nível de proteinúria indica biópsia renal no lúpus? <details><summary>Resposta</summary>0,5 g em 24 horas ou relação proteína/creatinina de 500 mg/g.</details></li>
+<li>Qual é a indução das nefrites lúpicas proliferativas? <details><summary>Resposta</summary>Corticoide associado a micofenolato ou ciclofosfamida em dose baixa, com belimumabe ou voclosporina nas diretrizes recentes.</details></li>
+</ol>
+`,
+
+"sirio2026#16": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a leucemia mieloide crônica pelo hemograma, pelo exame físico e pelo BCR-ABL.</li>
+<li>Diferenciá-la da reação leucemoide e das outras neoplasias mieloproliferativas.</li>
+<li>Descrever o tratamento com inibidores de tirosina-quinase e a monitorização da resposta.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Cromossomo Filadélfia</dt>
+<dd>Translocação t(9;22) que funde os genes BCR e ABL1, gerando uma tirosina-quinase constitutivamente ativa.</dd>
+<dt>Fases da LMC</dt>
+<dd>Crônica (blastos abaixo de 10%), acelerada (10 a 19%, basofilia acima de 20%, plaquetopenia, novas alterações citogenéticas) e blástica (20% ou mais).</dd>
+<dt>Fosfatase alcalina leucocitária</dt>
+<dd>Baixa na LMC e alta na reação leucemoide e na policitemia vera; teste clássico, hoje substituído pelo BCR-ABL.</dd>
+<dt>Resposta molecular maior</dt>
+<dd>BCR-ABL abaixo de 0,1% na escala internacional por PCR quantitativo; meta aos 12 meses de tratamento.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A leucemia mieloide crônica é uma neoplasia mieloproliferativa da célula-tronco em que a fusão <strong>BCR-ABL1</strong> produz uma quinase sempre ligada, que impulsiona a proliferação granulocítica. O paciente típico tem 50 a 60 anos, mas adultos jovens são comuns; metade é assintomática ao diagnóstico, e os demais têm fadiga, sudorese, perda de peso, saciedade precoce e <strong>esplenomegalia</strong>, às vezes volumosa.</p>
+<p>O diferencial inclui a <strong>reação leucemoide</strong> (infecção grave, corticoide, neoplasia sólida), com granulações tóxicas, sem basofilia e com fosfatase alcalina leucocitária alta; a leucemia mielomonocítica crônica, com monocitose; a mielofibrose, com dacriócitos e leucoeritroblastose; e as leucemias agudas, com blastos acima de 20%.</p>
+<p>O tratamento transformou a doença. Os <strong>inibidores de tirosina-quinase</strong>, imatinibe (primeira geração), dasatinibe, nilotinibe e bosutinibe (segunda) e ponatinibe ou asciminibe (para a mutação T315I e resistência), são orais e induzem resposta hematológica, citogenética e molecular na grande maioria; a sobrevida em dez anos passa de 85%.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Leucocitose com todas as formas granulocíticas, basofilia, esplenomegalia e BCR-ABL positivo é LMC em fase crônica, e a resposta é inibidor de tirosina-quinase, em geral imatinibe. Transplante, quimioterapia intensiva e anticorpos anti-CD20 são distratores de outras doenças. Guarde as metas do PCR: 10% aos três meses, 1% aos seis, 0,1% aos doze.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>LMC: BCR-ABL1 (t(9;22)) ativa uma tirosina-quinase; esplenomegalia, leucocitose com desvio completo, basofilia, blastos abaixo de 10% na fase crônica.</li>
+<li>Diferencial: reação leucemoide (sem basofilia, FAL alta), LMMC, mielofibrose, leucemia aguda.</li>
+<li>Diagnóstico por PCR ou FISH para BCR-ABL no sangue; cariótipo medular para alterações adicionais.</li>
+<li>Tratamento: inibidores de tirosina-quinase orais (imatinibe e sucessores); sobrevida em dez anos acima de 85%.</li>
+<li>Monitorar PCR trimestral (metas 10%, 1%, 0,1%); transplante só na falha de múltiplos inibidores ou nas fases avançadas.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que achado do hemograma, além da leucocitose, mais sugere leucemia mieloide crônica? <details><summary>Resposta</summary>A basofilia, acompanhada de eosinofilia e de todas as formas de maturação granulocítica em circulação.</details></li>
+<li>Qual é o tratamento de primeira linha da LMC em fase crônica? <details><summary>Resposta</summary>Um inibidor de tirosina-quinase oral, classicamente o imatinibe.</details></li>
+<li>Quando o transplante de células-tronco é indicado na LMC? <details><summary>Resposta</summary>Na falha ou intolerância a múltiplos inibidores de tirosina-quinase e nas fases acelerada e blástica.</details></li>
+</ol>
+`,
+
+"sirio2026#19": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Organizar a investigação do nódulo tireoidiano a partir do TSH.</li>
+<li>Indicar a cintilografia e interpretar o nódulo quente e o frio.</li>
+<li>Aplicar o TI-RADS e os critérios de punção para o nódulo não funcionante.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Nódulo hiperfuncionante (quente)</dt>
+<dd>Adenoma autônomo que capta o radiofármaco e suprime o tecido circundante; produz TSH baixo e quase nunca é maligno.</dd>
+<dt>Cintilografia de tireoide</dt>
+<dd>Imagem funcional com iodo-123, iodo-131 ou tecnécio-99m; indicada quando o TSH está suprimido.</dd>
+<dt>TI-RADS</dt>
+<dd>Classificação ultrassonográfica de risco (ACR TI-RADS 1 a 5) que, junto com o tamanho, define a indicação de punção.</dd>
+<dt>Classificação de Bethesda</dt>
+<dd>Seis categorias citológicas da punção aspirativa, de não diagnóstica a maligna, cada uma com risco e conduta.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Nódulos tireoidianos são achados em até dois terços dos adultos ao ultrassom, e menos de 10% são malignos. A investigação começa com história (irradiação cervical, história familiar, crescimento rápido, rouquidão), exame físico e <strong>TSH</strong>, cujo resultado abre dois caminhos.</p>
+<p>O nódulo <strong>quente</strong>, que concentra o radiofármaco e apaga o restante da glândula, é um <strong>adenoma tóxico</strong>, autônomo por mutação ativadora do receptor de TSH ou da proteína Gs, com risco de malignidade inferior a 1%. Ele <strong>não é puncionado</strong>, porque a citologia de adenoma folicular hiperfuncionante é indistinguível da de neoplasia folicular e geraria cirurgias desnecessárias; mesmo um aspecto TI-RADS 4 não muda essa regra.</p>
+<p>No nódulo não funcionante, a conduta depende da citologia: Bethesda II (benigno) é seguido com ultrassom; III e IV (atipia e neoplasia folicular) podem ser esclarecidos por teste molecular ou lobectomia diagnóstica; V e VI (suspeito e maligno) vão à cirurgia, com extensão definida pelo tamanho e pela presença de linfonodos. Calcitonina é dosada quando há história familiar de carcinoma medular ou neoplasia endócrina múltipla, e tireoglobulina só serve ao seguimento após tireoidectomia por câncer diferenciado.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>O TSH decide o primeiro passo depois do ultrassom: suprimido, cintilografia; normal ou alto, punção conforme TI-RADS e tamanho. O nódulo quente não se punciona e vai para iodo ou cirurgia. Puncionar antes da cintilografia num paciente com TSH de 0,01 é o erro que a prova espera flagrar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Nódulos são comuns e menos de 10% são malignos; história, exame, TSH e ultrassom iniciam a investigação.</li>
+<li>TSH suprimido: cintilografia; nódulo quente é adenoma tóxico, não se punciona, trata-se com iodo radioativo ou lobectomia.</li>
+<li>TSH normal ou alto: TI-RADS e tamanho definem a punção (TR3 de 2,5 cm, TR4 de 1,5 cm, TR5 de 1 cm).</li>
+<li>Bethesda orienta a conduta após a punção: benigno segue, indeterminado esclarece, suspeito ou maligno opera.</li>
+<li>Calcitonina só com suspeita de medular; tireoglobulina só no seguimento pós-tireoidectomia.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o próximo exame diante de um nódulo tireoidiano com TSH suprimido? <details><summary>Resposta</summary>A cintilografia de tireoide, para verificar se o nódulo é hiperfuncionante.</details></li>
+<li>Por que o nódulo quente não é puncionado? <details><summary>Resposta</summary>Porque o risco de malignidade é inferior a 1% e a citologia do adenoma hiperfuncionante é indistinguível da neoplasia folicular, gerando cirurgias desnecessárias.</details></li>
+<li>Qual é o tratamento definitivo do adenoma tóxico? <details><summary>Resposta</summary>Iodo radioativo ou lobectomia; os antitireoidianos apenas preparam o paciente.</details></li>
+</ol>
+`,
+
+"sirio2026#20": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Escolher o antibiótico empírico da meningite bacteriana por idade e fator de risco.</li>
+<li>Justificar a dexametasona e o momento de administrá-la.</li>
+<li>Saber quando a tomografia precede a punção lombar e quando o antibiótico não pode esperar.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Listeria monocytogenes</dt>
+<dd>Bacilo gram-positivo intracelular, resistente às cefalosporinas; causa meningite em maiores de 50 anos, imunossuprimidos, etilistas, gestantes e neonatos.</dd>
+<dt>Dexametasona adjuvante</dt>
+<dd>0,15 mg/kg (10 mg) a cada 6 horas por 4 dias, iniciada antes ou com a primeira dose do antibiótico; reduz mortalidade e sequelas na meningite pneumocócica.</dd>
+<dt>Vancomicina empírica</dt>
+<dd>Cobre o pneumococo com sensibilidade reduzida às cefalosporinas até o antibiograma; suspensa se o germe for sensível.</dd>
+<dt>Indicações de tomografia antes da punção</dt>
+<dd>Imunossupressão, doença do SNC prévia, crise convulsiva recente, papiledema, rebaixamento importante ou déficit focal.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A meningite bacteriana aguda mata um em cada cinco adultos e deixa sequelas em um terço dos sobreviventes; cada hora de atraso no antibiótico aumenta a mortalidade. A tríade de febre, rigidez de nuca e alteração do estado mental está completa em menos da metade dos casos, mas quase todos têm pelo menos dois de quatro sinais (os três mais cefaleia).</p>
+<p>O esquema empírico segue os agentes prováveis. Entre 1 mês e 50 anos, pneumococo e meningococo: <strong>ceftriaxona</strong> (2 g a cada 12 horas) mais <strong>vancomicina</strong>, pela possibilidade de pneumococo com sensibilidade reduzida às cefalosporinas.</p>
+<p>A <strong>dexametasona</strong>, 10 mg a cada 6 horas por 4 dias, iniciada 15 a 20 minutos antes ou junto com a primeira dose de antibiótico, reduz a mortalidade e a perda auditiva na meningite por <strong>pneumococo</strong> em adultos de países de alta renda, ao atenuar a inflamação subaracnóidea desencadeada pela lise bacteriana; é recomendada empiricamente e mantida se o pneumococo se confirmar, suspensa se o agente for outro.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Monte o esquema pela idade: ceftriaxona e vancomicina para todos os adultos; ampicilina a mais depois dos 50 anos ou com imunossupressão, álcool e gestação; dexametasona antes da primeira dose. Nunca atrase o antibiótico pela tomografia ou pela punção; colha hemoculturas e trate.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Antibiótico em menos de uma hora; se a tomografia precede a punção, hemoculturas e antibiótico antes da imagem.</li>
+<li>1 mês a 50 anos: ceftriaxona e vancomicina; acima de 50, imunossuprimidos, etilistas, gestantes: mais ampicilina para Listeria.</li>
+<li>Pós-neurocirurgia ou derivação: cefepima ou meropenem com vancomicina.</li>
+<li>Dexametasona 10 mg 6/6 h por 4 dias, antes ou com a primeira dose; manter se pneumococo.</li>
+<li>Isolamento 24 h, profilaxia dos contatos (meningococo e Haemophilus), notificação compulsória.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a ampicilina entra no esquema empírico da meningite após os 50 anos? <details><summary>Resposta</summary>Para cobrir Listeria monocytogenes, mais frequente nessa faixa e resistente às cefalosporinas.</details></li>
+<li>Quando a dexametasona deve ser administrada e por quê? <details><summary>Resposta</summary>Antes ou junto com a primeira dose de antibiótico, para atenuar a inflamação desencadeada pela lise bacteriana; reduz mortalidade e sequelas na meningite pneumocócica.</details></li>
+<li>O que fazer quando há indicação de tomografia antes da punção lombar? <details><summary>Resposta</summary>Colher hemoculturas e iniciar antibiótico com dexametasona antes da tomografia, sem esperar o líquor.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · Clínica Médica · Sírio-Libanês 2027 (cm66–cm80) ------------------------ */
+"sirio2027#1": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Estadiar a doença renal do diabético pela filtração e pela albuminúria.</li>
+<li>Listar os pilares da nefroproteção no diabético segundo o KDIGO.</li>
+<li>Explicar o benefício renal e cardiovascular dos inibidores de SGLT2.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Doença renal do diabetes</dt>
+<dd>Albuminúria persistente (relação albumina/creatinina de 30 mg/g ou mais) ou TFG abaixo de 60 por mais de três meses em diabético, sem outra causa.</dd>
+<dt>Inibidores de SGLT2</dt>
+<dd>Empagliflozina, dapagliflozina, canagliflozina: bloqueiam a reabsorção de glicose e sódio no túbulo proximal, restauram o feedback tubuloglomerular e reduzem a pressão intraglomerular.</dd>
+<dt>Finerenona</dt>
+<dd>Antagonista não esteroidal do receptor mineralocorticoide, que reduz progressão renal e eventos cardiovasculares no diabético com albuminúria residual.</dd>
+<dt>Agonistas de GLP-1</dt>
+<dd>Semaglutida, liraglutida, dulaglutida: reduzem eventos cardiovasculares e, com a semaglutida (FLOW), a progressão renal; segunda camada após o SGLT2.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A doença renal do diabetes acomete 40% dos diabéticos e é a principal causa de diálise no mundo. O estadiamento usa dois eixos, a <strong>TFG</strong> (G1 a G5) e a <strong>albuminúria</strong> (A1 abaixo de 30, A2 de 30 a 300, A3 acima de 300 mg/g), e a albuminúria é o fator que mais prediz progressão e eventos cardiovasculares; um paciente com TFG de 41 e albuminúria de 1.361 mg/g está em G3b A3, risco muito alto.</p>
+<p>O KDIGO de 2022 organiza o tratamento em camadas. A base para todos: controle glicêmico (glicada em torno de 7%), pressórico (abaixo de 130 × 80), lipídico, dieta com restrição de sódio e proteína moderada, exercício e cessação do tabagismo.</p>
+<p>Os inibidores de SGLT2 merecem destaque porque seu benefício é <strong>independente da glicose</strong>. Ao bloquear a reabsorção de sódio e glicose no túbulo proximal, mais sódio chega à mácula densa, a arteríola aferente se contrai e a <strong>hiperfiltração</strong> glomerular diminui; a queda inicial da TFG (até 30%) é esperada e benigna, seguida de uma curva de declínio muito mais lenta.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Diabético com albuminúria e TFG acima de 20, já em inibidor da ECA ou BRA, recebe inibidor de SGLT2 a seguir, mesmo com glicada na meta, porque a indicação é renal e cardiovascular. Não espere o açúcar subir para indicar a gliflozina, e não a troque por glitazona, sulfonilureia ou gliptina, que não protegem o rim.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Estadiar por TFG e albuminúria; a albuminúria é o maior preditor de progressão e de eventos cardiovasculares.</li>
+<li>Primeira camada: bloqueio do SRAA em dose máxima, inibidor de SGLT2 (TFG de 20 ou mais) e estatina.</li>
+<li>Segunda camada: finerenona para albuminúria residual; agonista de GLP-1 para meta glicêmica ou aterosclerose.</li>
+<li>SGLT2 reduz hiperfiltração e progressão renal em 30 a 40%, independentemente da glicada; queda inicial da TFG é esperada.</li>
+<li>Suspender SGLT2 em jejum, cirurgia e doença aguda; vigiar volume e infecção genital.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são as três drogas da primeira camada de nefroproteção no diabético com albuminúria? <details><summary>Resposta</summary>Bloqueador do sistema renina-angiotensina em dose máxima, inibidor de SGLT2 e estatina.</details></li>
+<li>Por que a queda inicial da TFG após o inibidor de SGLT2 não deve levar à suspensão? <details><summary>Resposta</summary>Porque reflete a redução da hiperfiltração glomerular, é hemodinâmica e benigna, e é seguida de declínio muito mais lento da função renal.</details></li>
+<li>Até que TFG o inibidor de SGLT2 pode ser iniciado? <details><summary>Resposta</summary>Até 20 mL/min/1,73 m², podendo ser mantido abaixo disso até a diálise.</details></li>
+</ol>
+`,
+
+"sirio2027#3": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar a estratificação da Surviving Sepsis Campaign em choque, sepse provável e sepse possível.</li>
+<li>Definir o tempo para o antibiótico em cada cenário e o papel da avaliação rápida.</li>
+<li>Reconhecer as particularidades do cirrótico descompensado com suspeita de infecção.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Sepse</dt>
+<dd>Disfunção orgânica com risco de vida causada por resposta desregulada à infecção; aumento de 2 pontos no SOFA.</dd>
+<dt>Choque séptico</dt>
+<dd>Sepse com necessidade de vasopressor para manter PAM de 65 e lactato acima de 2 mmol/L após reposição volêmica.</dd>
+<dt>Sepse possível</dt>
+<dd>Disfunção orgânica em que a infecção não está confirmada e há diferenciais não infecciosos plausíveis; avaliação rápida de até três horas antes do antibiótico, sem choque.</dd>
+<dt>Peritonite bacteriana espontânea</dt>
+<dd>Infecção da ascite sem foco cirúrgico, com 250 ou mais polimorfonucleares por mm³; principal infecção do cirrótico.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A Surviving Sepsis Campaign de 2021 refinou o momento do antibiótico de acordo com a probabilidade de infecção e a gravidade. No <strong>choque séptico</strong> e na <strong>sepse provável</strong> (infecção evidente com disfunção), o antibiótico entra na <strong>primeira hora</strong>, porque cada hora de atraso aumenta a mortalidade.</p>
+<p>A ressuscitação também foi matizada. Os <strong>30 mL/kg</strong> de cristaloide nas primeiras três horas valem para hipotensão ou lactato acima de 4 mmol/L, hoje como sugestão, com reavaliação dinâmica da resposta a volume; não são regra para quem não está hipotenso, e em cardiopatas e cirróticos com ascite a infusão às cegas congestiona.</p>
+<p>O <strong>cirrótico</strong> descompensado é o exemplo da sepse possível: a encefalopatia, a taquicardia e a taquipneia podem vir de infecção (peritonite bacteriana espontânea, urinária, pneumonia, celulite), mas também de sangramento oculto, constipação, distúrbio eletrolítico, sedativos ou insuficiência hepática progressiva; a febre pode faltar, e a leucocitose é mascarada pelo hiperesplenismo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pergunte duas coisas: há choque ou a infecção é evidente? Se sim, antibiótico em uma hora. Se a infecção é apenas possível e não há choque, investigue rápido (até três horas) e trate assim que confirmar. No cirrótico confuso com ascite, o exame que decide é a paracentese, e o soro de 30 mL/kg só se houver hipotensão ou lactato acima de 4.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Choque séptico ou sepse provável: antibiótico na primeira hora.</li>
+<li>Sepse possível sem choque: avaliação rápida de até três horas para confirmar infecção e excluir diferenciais; antibiótico ao confirmar.</li>
+<li>30 mL/kg para hipotensão ou lactato acima de 4, com reavaliação dinâmica; cautela em cardiopatas e cirróticos.</li>
+<li>Lactato orienta, mas sua normalização rápida não é meta isolada; noradrenalina para PAM de 65.</li>
+<li>Cirrótico com ascite e encefalopatia: paracentese imediata; 250 PMN ou mais indica ceftriaxona e albumina.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em que situação a Surviving Sepsis Campaign admite até três horas para iniciar o antibiótico? <details><summary>Resposta</summary>Na sepse possível sem choque, quando a infecção não está confirmada e há causas não infecciosas plausíveis, após avaliação rápida.</details></li>
+<li>Para quem valem os 30 mL/kg de cristaloide nas primeiras três horas? <details><summary>Resposta</summary>Para pacientes com hipotensão ou lactato acima de 4 mmol/L, com reavaliação dinâmica da resposta a volume.</details></li>
+<li>Qual exame é obrigatório no cirrótico com ascite admitido com encefalopatia e qual resultado define infecção? <details><summary>Resposta</summary>A paracentese diagnóstica; 250 ou mais polimorfonucleares por mm³ definem peritonite bacteriana espontânea.</details></li>
+</ol>
+`,
+
+"sirio2027#4": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o edema agudo de pulmão hipertensivo como emergência hipertensiva com meta própria.</li>
+<li>Prescrever vasodilatador venoso, diurético e ventilação não invasiva.</li>
+<li>Diferenciar as metas pressóricas das principais emergências hipertensivas.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Emergência hipertensiva</dt>
+<dd>Pressão muito elevada com lesão aguda de órgão-alvo (encefalopatia, AVC, síndrome coronariana, edema agudo, dissecção, eclâmpsia, hipertensão maligna); exige droga venosa.</dd>
+<dt>Edema agudo de pulmão hipertensivo</dt>
+<dd>Insuficiência cardíaca aguda desencadeada por pico pressórico, com redistribuição de volume para o pulmão e fração de ejeção muitas vezes preservada.</dd>
+<dt>Nitroglicerina venosa</dt>
+<dd>Venodilatador em dose baixa e arteriodilatador em dose alta; droga de escolha no edema agudo, titulada de 10 a 200 mcg/min.</dd>
+<dt>Ventilação não invasiva</dt>
+<dd>CPAP ou BiPAP por máscara, que reduz pré e pós-carga, recruta alvéolos e diminui a necessidade de intubação.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O edema agudo de pulmão hipertensivo é a forma mais dramática de insuficiência cardíaca aguda: um pico de pressão eleva a pós-carga de forma súbita, o ventrículo esquerdo, muitas vezes hipertrofiado e rígido, não consegue ejetar, a pressão de enchimento dispara e o líquido invade os alvéolos em minutos.</p>
+<p>Por isso a meta pressórica difere das demais emergências. Na maioria delas (encefalopatia hipertensiva, hipertensão maligna) reduz-se a pressão média em 20 a 25% na primeira hora e gradualmente depois, para não causar isquemia; no AVC isquêmico tolera-se até 220 × 120 sem trombólise.</p>
+<p>Completam o tratamento o <strong>diurético de alça</strong> venoso (furosemida 40 a 80 mg), que venodilata antes de diuresar, a posição sentada com as pernas pendentes, o oxigênio para saturação de 90 a 94% e a <strong>ventilação não invasiva</strong>, que reduz o trabalho respiratório, a pré-carga e a pós-carga e evita intubação; a morfina perdeu espaço por aumentar mortalidade.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Edema agudo com pressão de 230 × 130 é a exceção da regra dos 25%: a sistólica deve cair para menos de 140 na primeira hora, com nitroglicerina ou nitroprussiato, furosemida e máscara de ventilação não invasiva. Betabloqueador, hidralazina e morfina são os distratores; o benefício da ventilação não invasiva é hemodinâmico e respiratório, não anti-isquêmico.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Pico pressórico eleva a pós-carga, o ventrículo rígido falha e o pulmão inunda por redistribuição, não por excesso de volume.</li>
+<li>Meta: sistólica abaixo de 140 mmHg na primeira hora (exceção à regra dos 20 a 25%).</li>
+<li>Nitroglicerina venosa titulada, ou nitroprussiato; furosemida venosa; sentado com pernas pendentes; oxigênio para 90 a 94%.</li>
+<li>Ventilação não invasiva reduz pré e pós-carga e intubação; morfina não é recomendada.</li>
+<li>Betabloqueador contraindicado na fase aguda; hidralazina evitada; investigar a causa do pico após a estabilização.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a meta de pressão sistólica na primeira hora do edema agudo de pulmão hipertensivo? <details><summary>Resposta</summary>Abaixo de 140 mmHg, redução rápida que difere da regra dos 20 a 25% das outras emergências.</details></li>
+<li>Qual é o vasodilatador de escolha e por que a hidralazina não serve? <details><summary>Resposta</summary>Nitroglicerina venosa titulada (ou nitroprussiato); a hidralazina causa taquicardia reflexa e tem efeito imprevisível e difícil de titular.</details></li>
+<li>Qual é o benefício da ventilação não invasiva nesse cenário? <details><summary>Resposta</summary>Reduz pré-carga, pós-carga e trabalho respiratório, melhora a oxigenação e diminui a necessidade de intubação.</details></li>
+</ol>
+`,
+
+"sirio2027#5": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Escolher o antibiótico empírico da sepse pelo foco, pelo Gram e pela história de resistência.</li>
+<li>Entender o que são as ESBL e por que o carbapenêmico é a droga para infecções graves.</li>
+<li>Conduzir a infecção de cateter de hemodiálise, incluindo a retirada do dispositivo.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>ESBL</dt>
+<dd>Beta-lactamases de espectro estendido, produzidas por E. coli e Klebsiella, que hidrolisam penicilinas, cefalosporinas de terceira e quarta geração e aztreonam, poupando carbapenêmicos.</dd>
+<dt>Estudo MERINO</dt>
+<dd>Ensaio que mostrou maior mortalidade em 30 dias com piperacilina-tazobactam do que com meropenem na bacteremia por E. coli e Klebsiella resistentes à ceftriaxona.</dd>
+<dt>Infecção de corrente sanguínea relacionada a cateter</dt>
+<dd>Bacteremia com o mesmo germe no cateter e no sangue periférico, com tempo de positividade do cateter pelo menos duas horas menor.</dd>
+<dt>Descalonamento</dt>
+<dd>Estreitar o antibiótico assim que a cultura e o antibiograma definem o agente, para reduzir pressão seletiva e toxicidade.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O antibiótico empírico da sepse é escolhido em minutos com as informações disponíveis: o <strong>foco</strong> provável, o <strong>Gram</strong> de material acessível, a <strong>história de colonização ou infecção prévia</strong> por germes resistentes, as internações e antibióticos recentes, os dispositivos (cateteres, próteses) e a epidemiologia local.</p>
+<p>As <strong>ESBL</strong> são enzimas plasmidiais, sobretudo CTX-M, cada vez mais comuns em E. coli e Klebsiella comunitárias e hospitalares, que inativam cefalosporinas de terceira e quarta geração; os inibidores clássicos de beta-lactamase (clavulanato, tazobactam) as inibem in vitro, mas na infecção grave, com inóculo alto e expressão variável, essa proteção falha.</p>
+<p>A <strong>infecção de cateter de hemodiálise</strong> tem conduta própria.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Paciente séptico com bastonetes gram-negativos e ESBL no histórico recebe meropenem, não piperacilina-tazobactam, cefepima ou ceftriaxona. Dialítico com pus no cateter e choque tem o cateter retirado. Se o Gram não mostrou cocos gram-positivos, a vancomicina pode ser suspensa cedo. Descalone quando a cultura chegar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Empírico pelo foco, Gram, colonização prévia, antibióticos recentes, dispositivos e epidemiologia local; acertar na primeira hora.</li>
+<li>ESBL hidrolisam cefalosporinas de terceira e quarta geração; em infecção grave, carbapenêmico (MERINO: meropenem venceu piperacilina-tazobactam).</li>
+<li>Fosfomicina e nitrofurantoína só para cistite por ESBL; carbapenemases exigem novos beta-lactâmicos.</li>
+<li>Cateter de diálise infectado: hemoculturas pareadas, vancomicina mais cobertura gram-negativa; retirar em sepse grave, túnel, S. aureus, Pseudomonas, fungos, bacteremia persistente.</li>
+<li>Tratar 7 a 14 dias após a retirada; 4 a 6 semanas se endocardite; ecocardiograma na bacteremia por S. aureus.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a piperacilina-tazobactam não é adequada à sepse por enterobactéria produtora de ESBL? <details><summary>Resposta</summary>Porque, apesar da sensibilidade in vitro, o estudo MERINO mostrou mortalidade três vezes maior do que com meropenem na bacteremia por esses germes.</details></li>
+<li>Em quais situações o cateter de hemodiálise infectado deve ser retirado? <details><summary>Resposta</summary>Sepse grave, infecção de túnel, endocardite, tromboflebite séptica, bacteremia persistente após 72 horas e infecção por S. aureus, Pseudomonas, fungos ou micobactérias.</details></li>
+<li>Que informação da história muda a escolha empírica para um carbapenêmico? <details><summary>Resposta</summary>Colonização ou infecção prévia por enterobactéria produtora de ESBL em paciente com infecção grave.</details></li>
+</ol>
+`,
+
+"sirio2027#8": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a síndrome cardiopulmonar por hantavírus pela exposição e pela tríade laboratorial.</li>
+<li>Explicar o extravasamento capilar e suas consequências hemodinâmicas.</li>
+<li>Conduzir o suporte com restrição de volume, inotrópico precoce e ventilação protetora.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Hantavírus</dt>
+<dd>Vírus de RNA transmitido por aerossóis de urina, fezes e saliva de roedores silvestres; no Brasil, as variantes Araraquara e Juquitiba, com letalidade de 40 a 50%.</dd>
+<dt>Fase prodrômica</dt>
+<dd>Três a seis dias de febre, mialgia lombar, cefaleia, dor abdominal e vômitos, indistinguíveis de dengue ou leptospirose.</dd>
+<dt>Fase cardiopulmonar</dt>
+<dd>Edema pulmonar não cardiogênico de instalação rápida, com choque misto e depressão miocárdica; dura dois a quatro dias.</dd>
+<dt>Tríade laboratorial</dt>
+<dd>Plaquetopenia, hemoconcentração e imunoblastos acima de 10% dos linfócitos; mais leucocitose com desvio, hipoalbuminemia e DHL elevada.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A hantavirose é zoonose rural: o vírus é eliminado por roedores silvestres e inalado em locais fechados com acúmulo de excretas, como <strong>silos, paióis, galpões e casas fechadas</strong>, o que torna agricultores, trabalhadores de limpeza rural e acampantes o grupo de risco.</p>
+<p>A fisiopatologia é uma <strong>lesão endotelial funcional</strong>. O vírus infecta células endoteliais pela integrina β3 sem destruí-las; a resposta imune, com linfócitos T citotóxicos e citocinas (TNF, interleucinas), aumenta a permeabilidade capilar de forma difusa e intensa, sobretudo no pulmão.</p>
+<p>Não há antiviral eficaz, e o tratamento é <strong>suporte intensivo precoce</strong>, de preferência em UTI antes do colapso.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Trabalhador rural que limpou silo, com pródromo febril e insuficiência respiratória rápida, hematócrito alto, plaquetas baixas e imunoblastos: hantavirose. A pegadinha terapêutica é o volume: pouco soro, inotrópico e vasopressor cedo, ventilação protetora. Grandes expansões afogam o pulmão de um paciente cujo problema é vazamento, não falta de água.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Exposição a excretas de roedores em locais fechados; pródromo febril com mialgia lombar; fase cardiopulmonar em horas.</li>
+<li>Tríade: plaquetopenia, hemoconcentração, imunoblastos acima de 10%; infiltrado bilateral com coração normal.</li>
+<li>Extravasamento capilar por lesão endotelial imune, mais depressão miocárdica: choque misto com resistência alta.</li>
+<li>Suporte: volume restritivo, inotrópico e vasopressor precoces, ventilação protetora, ECMO nos refratários; sem antiviral.</li>
+<li>Notificação imediata; prevenção na limpeza de ambientes fechados; diferencial com leptospirose, dengue, influenza e febre maculosa.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que achados laboratoriais compõem a tríade da síndrome cardiopulmonar por hantavírus? <details><summary>Resposta</summary>Plaquetopenia, hemoconcentração (hematócrito elevado) e imunoblastos acima de 10% dos linfócitos.</details></li>
+<li>Por que a reposição volêmica deve ser restritiva na hantavirose? <details><summary>Resposta</summary>Porque o extravasamento capilar difuso leva o líquido infundido para o pulmão, agravando o edema; o choque tem componente cardiogênico que pede inotrópico.</details></li>
+<li>Qual é o mecanismo da lesão endotelial na hantavirose? <details><summary>Resposta</summary>Alteração funcional da permeabilidade por citocinas e resposta imune após infecção do endotélio pela integrina β3, sem destruição celular.</details></li>
+</ol>
+`,
+
+"sirio2027#9": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar os sinais cardinais que definem caso de hanseníase.</li>
+<li>Reconhecer a forma neural pura e a sequência de perda sensitiva.</li>
+<li>Classificar em paucibacilar e multibacilar e conduzir os contatos.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Sinais cardinais</dt>
+<dd>Lesão de pele com alteração de sensibilidade; espessamento de nervo periférico com alteração sensitiva, motora ou autonômica; baciloscopia positiva. Um basta.</dd>
+<dt>Hanseníase neural pura</dt>
+<dd>Acometimento de um ou mais troncos nervosos sem lesão cutânea, com baciloscopia negativa; diagnóstico clínico, apoiado por ultrassom de nervo ou biópsia.</dd>
+<dt>Classificação operacional</dt>
+<dd>Paucibacilar: até cinco lesões e um tronco nervoso, baciloscopia negativa; multibacilar: mais de cinco lesões, mais de um nervo ou baciloscopia positiva.</dd>
+<dt>Poliquimioterapia única</dt>
+<dd>Rifampicina, dapsona e clofazimina para todos desde 2020: seis meses no paucibacilar, doze no multibacilar.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O Brasil é o segundo país em casos novos de hanseníase, e o diagnóstico é <strong>clínico</strong>, feito na atenção primária pelo exame dermatoneurológico.</p>
+<p>A <strong>forma neural pura</strong> representa 5 a 10% dos casos e é a que mais escapa: não há lesão cutânea, e o paciente chega com parestesias, dor neuropática, perda de sensibilidade em território de nervo e, mais tarde, fraqueza e garras. O exame procura o nervo espessado e doloroso à palpação e mapeia a sensibilidade com os monofilamentos de Semmes-Weinstein, que graduam da sensação leve (0,05 g) à perda da sensibilidade protetora (2 g, monofilamento lilás) e à anestesia.</p>
+<p>Definido o caso, a classificação operacional separa paucibacilar e multibacilar, e o tratamento é a <strong>poliquimioterapia única</strong> com rifampicina mensal supervisionada, dapsona e clofazimina diárias, por seis ou doze meses.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Contato de hanseníase com nervo ulnar grosso e dolorido e perda de sensibilidade no quinto dedo tem hanseníase, mesmo sem mancha e com baciloscopia zero: é a forma neural pura, e o espessamento de nervo com déficit sensitivo é sinal cardinal suficiente. A sensibilidade tátil é a última a ir; a térmica é a primeira. Sorologia e PCR não entram na triagem de contatos do SUS.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Caso de hanseníase: um de três sinais cardinais (lesão com hipoestesia, nervo espessado com déficit, baciloscopia positiva); baciloscopia negativa não exclui.</li>
+<li>Neural pura: nervo espessado e déficit sensitivo sem lesão de pele; monofilamentos mapeiam; térmica perde-se antes da dolorosa e da tátil.</li>
+<li>Classificação: paucibacilar (até cinco lesões, um nervo) e multibacilar; poliquimioterapia única por seis ou doze meses.</li>
+<li>Vigiar reações (tipo 1 com prednisona, tipo 2 com talidomida) e graduar incapacidade no diagnóstico e na alta.</li>
+<li>Contatos: exame anual por cinco anos, BCG, rifampicina em dose única; notificação compulsória.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os três sinais cardinais da hanseníase e quantos são necessários? <details><summary>Resposta</summary>Lesão de pele com alteração de sensibilidade, espessamento de nervo com alteração sensitiva, motora ou autonômica, e baciloscopia positiva; um deles basta.</details></li>
+<li>Qual é a ordem de perda das sensibilidades na hanseníase? <details><summary>Resposta</summary>Térmica, depois dolorosa e por último tátil.</details></li>
+<li>Que medidas se aplicam aos contatos domiciliares de um caso novo? <details><summary>Resposta</summary>Exame dermatoneurológico anual por cinco anos, vacina BCG e rifampicina em dose única como quimioprofilaxia.</details></li>
+</ol>
+`,
+
+"sirio2027#10": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir a doença hepática esteatótica associada à disfunção metabólica e sua nova nomenclatura.</li>
+<li>Estratificar o risco de fibrose em dois passos com FIB-4 e elastografia.</li>
+<li>Tratar pelo peso, pelo diabetes e, na fibrose, com as drogas específicas.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>MASLD</dt>
+<dd>Esteatose hepática com pelo menos um critério cardiometabólico (obesidade, diabetes ou pré-diabetes, hipertensão, triglicerídeos altos, HDL baixo), sem álcool significativo; antiga NAFLD.</dd>
+<dt>FIB-4</dt>
+<dd>Idade × AST dividido por plaquetas × raiz de ALT; abaixo de 1,3 risco baixo, acima de 2,67 risco alto, entre eles indeterminado (cortes de 2,0 e 2,67 acima de 65 anos).</dd>
+<dt>Elastografia transitória</dt>
+<dd>Mede a rigidez hepática em kPa: abaixo de 8 afasta fibrose avançada; acima de 12 a 15 sugere fibrose avançada ou cirrose; e quantifica gordura pelo CAP.</dd>
+<dt>Esteato-hepatite (MASH)</dt>
+<dd>Esteatose com inflamação e balonização hepatocitária, forma progressiva que leva à fibrose, cirrose e carcinoma hepatocelular.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A esteatose hepática metabólica atinge um terço dos adultos e dois terços dos diabéticos tipo 2, e é hoje a causa que mais cresce de cirrose e de transplante. A nomenclatura de 2023 trocou "não alcoólica" por <strong>"associada à disfunção metabólica"</strong> (MASLD), exigindo um critério cardiometabólico e abandonando o rótulo pela negativa; o consumo de 20 a 50 g de álcool por dia em quem tem critérios metabólicos define a forma combinada (MetALD).</p>
+<p>Por isso as diretrizes propõem o rastreio de fibrose em <strong>dois passos</strong> para todo diabético tipo 2, obeso com comorbidade metabólica ou paciente com esteatose ou enzimas alteradas.</p>
+<p>O tratamento tem uma base e camadas. A base é a <strong>perda de peso</strong>: 5% reduz a esteatose, 7 a 10% resolve a esteato-hepatite e acima de 10% regride a fibrose, com dieta mediterrânea, exercício e, quando indicada, cirurgia bariátrica.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Obeso diabético com transaminases discretamente altas e FIB-4 entre 1,3 e 2,67 vai para a elastografia, não para tomografia, ultrassom nem biópsia direta. Guarde o que entra no FIB-4 (idade, AST, ALT, plaquetas) e o que não entra (GGT, fosfatase, albumina, protrombina). O que mata é a fibrose e o coração, não a gordura.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>MASLD: esteatose com critério cardiometabólico; a fibrose, não a gordura ou as transaminases, define o prognóstico.</li>
+<li>Rastreio de fibrose em diabéticos, obesos com comorbidade e esteatose ou enzimas alteradas: FIB-4 primeiro.</li>
+<li>FIB-4 abaixo de 1,3 segue na atenção primária; acima de 2,67 vai ao hepatologista; entre eles, elastografia.</li>
+<li>Elastografia abaixo de 8 kPa tranquiliza; acima de 12 indica fibrose avançada; discordância pede biópsia.</li>
+<li>Tratamento: perda de peso (7 a 10% resolve a esteato-hepatite), GLP-1, pioglitazona, SGLT2, resmetirom na fibrose F2 e F3; estatina para o coração.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que variáveis compõem o FIB-4? <details><summary>Resposta</summary>Idade, AST, ALT e contagem de plaquetas.</details></li>
+<li>Qual é a conduta diante de FIB-4 entre 1,3 e 2,67? <details><summary>Resposta</summary>Segundo passo com elastografia (ou teste sérico patenteado) para confirmar ou afastar fibrose significativa; biópsia se discordante.</details></li>
+<li>Quanto de perda de peso é necessário para resolver a esteato-hepatite e para regredir a fibrose? <details><summary>Resposta</summary>7 a 10% para a esteato-hepatite e acima de 10% para a fibrose.</details></li>
+</ol>
+`,
+
+"sirio2027#11": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Interpretar a ferritina elevada com a saturação de transferrina e os marcadores inflamatórios.</li>
+<li>Reconhecer a hiperferritinemia dismetabólica e suas causas não hemocromatóticas.</li>
+<li>Investigar e tratar a hemocromatose hereditária quando a saturação está alta.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Ferritina</dt>
+<dd>Proteína de armazenamento do ferro e reagente de fase aguda; sobe na inflamação, na esteatose, no álcool, na citólise e nas neoplasias, mesmo sem excesso de ferro.</dd>
+<dt>Saturação de transferrina</dt>
+<dd>Ferro sérico dividido pela capacidade total de ligação; acima de 45% é o gatilho para investigar sobrecarga; abaixo disso, sobrecarga é improvável.</dd>
+<dt>Hemocromatose hereditária</dt>
+<dd>Doença autossômica recessiva, em geral homozigose C282Y do gene HFE, com absorção intestinal de ferro aumentada por deficiência de hepcidina.</dd>
+<dt>Ressonância hepática (R2* ou T2*)</dt>
+<dd>Quantifica a concentração hepática de ferro sem biópsia; normal até cerca de 1,8 mg/g de peso seco.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A ferritina elevada é um dos achados laboratoriais mais frequentes e, na maior parte das vezes, <strong>não significa sobrecarga de ferro</strong>. Como proteína de fase aguda, ela sobe na inflamação crônica de baixo grau da <strong>síndrome metabólica</strong> (obesidade central, resistência à insulina, esteatose hepática), no consumo de álcool, nas hepatopatias com citólise, nas infecções, nas neoplasias, nas doenças autoimunes e nas hemopatias.</p>
+<p>O exame que separa os caminhos é a <strong>saturação de transferrina</strong>, de preferência em jejum.</p>
+<p>Na <strong>hemocromatose confirmada</strong>, o tratamento é a <strong>flebotomia</strong> semanal de 450 a 500 mL até ferritina de 50 a 100 ng/mL, depois manutenção a cada dois a quatro meses, com rastreio de cirrose (elastografia, biópsia se ferritina acima de 1.000 ou transaminases altas), de carcinoma hepatocelular nos cirróticos, de diabetes, cardiomiopatia, hipogonadismo e artropatia, e aconselhamento dos parentes de primeiro grau com saturação, ferritina e genotipagem.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Ferritina alta com saturação de transferrina abaixo de 45% em obeso diabético é inflamação metabólica, não hemocromatose: não peça o teste genético, não faça biópsia, não prescreva dieta sem ferro nem flebotomia. Saturação acima de 45% é o que abre a investigação do HFE. A ressonância normal sela a ausência de depósito.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Ferritina é reagente de fase aguda; sobe na síndrome metabólica, álcool, citólise, infecção, neoplasia e autoimunidade sem excesso de ferro.</li>
+<li>Saturação de transferrina abaixo de 45%: sobrecarga improvável; investigar causas inflamatórias e metabólicas; ressonância se dúvida.</li>
+<li>Saturação acima de 45%: genotipagem HFE; homozigose C282Y confirma hemocromatose hereditária.</li>
+<li>Hemocromatose: flebotomias até ferritina de 50 a 100, rastreio de cirrose e carcinoma, triagem familiar; evitar suplementos, vitamina C e álcool.</li>
+<li>Hiperferritinemia dismetabólica: tratar a síndrome metabólica; flebotomia não indicada.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual exame distingue a hiperferritinemia inflamatória da sobrecarga de ferro? <details><summary>Resposta</summary>A saturação de transferrina: abaixo de 45% torna a sobrecarga improvável; acima de 45% indica investigar hemocromatose.</details></li>
+<li>Quando se pede a pesquisa das mutações do gene HFE? <details><summary>Resposta</summary>Com saturação de transferrina acima de 45%, sobretudo se a ferritina também estiver elevada.</details></li>
+<li>Qual é o tratamento da hemocromatose hereditária e sua meta? <details><summary>Resposta</summary>Flebotomias seriadas até ferritina de 50 a 100 ng/mL, seguidas de manutenção periódica.</details></li>
+</ol>
+`,
+
+"sirio2027#13": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Entender os determinantes da oxigenação e da ventilação em pressão controlada.</li>
+<li>Usar PEEP, tempo inspiratório e pressão média de vias aéreas para corrigir hipoxemia refratária.</li>
+<li>Reconhecer e medir a auto-PEEP e aplicar a posição prona e a ECMO na SDRA grave.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Pressão controlada (PCV)</dt>
+<dd>Modo em que se fixa a pressão inspiratória e o tempo inspiratório; o volume corrente resulta da complacência e da resistência, com fluxo desacelerado.</dd>
+<dt>Pressão média de vias aéreas</dt>
+<dd>Média da pressão ao longo do ciclo; principal determinante da oxigenação; sobe com PEEP, pressão inspiratória e tempo inspiratório.</dd>
+<dt>Auto-PEEP</dt>
+<dd>Pressão alveolar residual ao fim da expiração por tempo expiratório insuficiente; medida pela pausa expiratória; causa hiperinsuflação, hipotensão e barotrauma.</dd>
+<dt>Relação I:E invertida</dt>
+<dd>Tempo inspiratório maior que o expiratório (1:1 a 2:1), estratégia de resgate que eleva a pressão média à custa de auto-PEEP.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Na ventilação mecânica, dois objetivos se separam: a <strong>ventilação</strong> (remoção de CO2) depende do volume-minuto, isto é, de volume corrente e frequência; a <strong>oxigenação</strong> depende da FiO2 e da <strong>pressão média de vias aéreas</strong>, que mantém os alvéolos abertos e disponíveis para a troca.</p>
+<p>No modo <strong>pressão controlada</strong>, o ventilador entrega uma pressão fixa durante um tempo inspiratório fixo, com fluxo desacelerado que distribui melhor o gás e costuma ser bem tolerado; o volume corrente é consequência: se a complacência cai, o volume cai, e a ventilação alveolar precisa ser vigiada pelo volume exalado e pela capnografia.</p>
+<p>A <strong>posição prona</strong> por pelo menos 16 horas por dia, na SDRA com relação PaO2/FiO2 abaixo de 150 após 12 a 24 horas de ventilação otimizada, reduz a mortalidade e deve vir antes das manobras heroicas; o bloqueio neuromuscular por 48 horas ajuda nas assincronias graves.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Hipoxemia refratária em PCV: suba a pressão média (PEEP, tempo inspiratório), prone o paciente e lembre que o tempo inspiratório longo cobra em auto-PEEP, que se mede na pausa expiratória. Em PCV o que é fixo é a pressão; o volume muda com a complacência. Heliox é para asma e estenose, não para SDRA.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Ventilação depende de volume-minuto; oxigenação depende de FiO2 e de pressão média de vias aéreas.</li>
+<li>Protetora: 6 mL/kg predito, platô abaixo de 30, driving pressure abaixo de 15, PEEP titulada, hipercapnia permissiva.</li>
+<li>Em PCV a pressão é fixa e o volume varia com a complacência; o fluxo desacelerado é bem tolerado.</li>
+<li>Para oxigenar: mais PEEP, mais pressão inspiratória dentro do platô, tempo inspiratório maior (vigiar auto-PEEP pela pausa expiratória).</li>
+<li>Prona 16 h/dia se PaO2/FiO2 abaixo de 150; bloqueio neuromuscular nas assincronias; ECMO na refratariedade; heliox não se aplica.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o principal determinante da oxigenação na ventilação mecânica e como ele se eleva em PCV? <details><summary>Resposta</summary>A pressão média de vias aéreas, elevada por PEEP, pressão inspiratória e prolongamento do tempo inspiratório.</details></li>
+<li>Qual é o risco de prolongar o tempo inspiratório e como se detecta? <details><summary>Resposta</summary>Auto-PEEP por tempo expiratório insuficiente, detectada pela pausa expiratória e pela curva de fluxo que não retorna a zero, com hipotensão e risco de barotrauma.</details></li>
+<li>Quando a posição prona está indicada na SDRA? <details><summary>Resposta</summary>Com PaO2/FiO2 abaixo de 150 após 12 a 24 horas de ventilação protetora otimizada, por pelo menos 16 horas por dia.</details></li>
+</ol>
+`,
+
+"sirio2027#14": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Estratificar o risco cardiovascular perioperatório pelo tipo de cirurgia, pela clínica e pela capacidade funcional.</li>
+<li>Usar o DASI e os biomarcadores em vez da impressão subjetiva.</li>
+<li>Decidir sobre aspirina, betabloqueador, estatina e exames pré-operatórios de rotina.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Risco cirúrgico</dt>
+<dd>Baixo (abaixo de 1% de eventos cardíacos em 30 dias: catarata, mama, hérnia), intermediário (1 a 5%: abdominal, ortopédica maior, carótida) e alto (acima de 5%: aórtica, vascular periférica, pancreática).</dd>
+<dt>DASI</dt>
+<dd>Duke Activity Status Index, questionário de 12 atividades ponderadas; escore abaixo de 34 (cerca de 4 MET) identifica capacidade funcional reduzida e maior risco.</dd>
+<dt>Índice de risco cardíaco revisado</dt>
+<dd>Seis fatores (cirurgia de alto risco, coronariopatia, insuficiência cardíaca, AVC, insulina, creatinina acima de 2); dois ou mais indicam risco elevado.</dd>
+<dt>Biomarcadores perioperatórios</dt>
+<dd>NT-proBNP ou BNP antes da cirurgia e troponina de alta sensibilidade depois, em pacientes de risco, para detectar lesão miocárdica perioperatória.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A avaliação perioperatória não busca "liberar" o paciente, e sim estimar e reduzir o risco.</p>
+<p>Durante décadas a capacidade funcional foi estimada pela pergunta sobre escadas e MET, mas o estudo <strong>METS</strong>, com mais de 1.400 pacientes, mostrou que a <strong>avaliação subjetiva do médico</strong> não prediz complicações, enquanto o <strong>DASI</strong>, questionário estruturado que pontua atividades como subir escadas, correr distância curta, fazer trabalho pesado em casa e praticar esportes, previu morte e infarto em 30 dias; o <strong>NT-proBNP</strong> previu ainda melhor.</p>
+<p>Quanto às medicações, as regras são claras. O <strong>betabloqueador</strong> em uso crônico é mantido (a suspensão provoca rebote e isquemia), mas não se inicia na véspera, pois a introdução aguda aumentou AVC e morte no POISE.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Coronariopata estável com boa capacidade funcional indo a cirurgia de risco intermediário: mantenha betabloqueador, aspirina e estatina, meça a capacidade com o DASI e não peça radiografia de rotina. Suspender betabloqueador ou aspirina de prevenção secundária e iniciar betabloqueador na véspera são os erros que as diretrizes condenam.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Três eixos: risco da cirurgia, condição clínica ativa e capacidade funcional; testes só se mudarem conduta.</li>
+<li>DASI (corte 34) substitui a estimativa subjetiva; NT-proBNP pré e troponina pós-operatória em pacientes de risco.</li>
+<li>Betabloqueador crônico mantido, nunca iniciado na véspera; estatina mantida; aspirina de prevenção secundária mantida salvo neurocirurgia e próstata.</li>
+<li>IECA/BRA podem pausar 24 h antes; SGLT2 três dias antes; metformina no dia.</li>
+<li>Sem radiografia, ECG, coagulograma ou laboratório de rotina sem indicação clínica.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o DASI é preferido à estimativa clínica da capacidade funcional? <details><summary>Resposta</summary>Porque o estudo METS mostrou que a impressão subjetiva não prediz complicações, enquanto o DASI previu morte e infarto em 30 dias.</details></li>
+<li>O que fazer com o betabloqueador e a aspirina de um coronariopata estável antes de uma colectomia? <details><summary>Resposta</summary>Manter ambos; suspender o betabloqueador causa rebote e isquemia, e a aspirina de prevenção secundária só é suspensa em cirurgias de risco hemorrágico crítico.</details></li>
+<li>Em quem se recomenda o NT-proBNP pré-operatório? <details><summary>Resposta</summary>Em pacientes com 65 anos ou mais, ou com doença cardiovascular ou fatores de risco, antes de cirurgias de risco intermediário ou alto.</details></li>
+</ol>
+`,
+
+"sirio2027#15": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diagnosticar a rinossinusite crônica e distinguir a forma com pólipos.</li>
+<li>Aplicar os degraus de tratamento do EPOS 2020.</li>
+<li>Reconhecer as associações com asma e intolerância a anti-inflamatórios e as indicações de imagem e cirurgia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Rinossinusite crônica</dt>
+<dd>Dois ou mais sintomas (obstrução, rinorreia anterior ou posterior, dor ou pressão facial, hiposmia) por mais de 12 semanas, com um deles sendo obstrução ou rinorreia, e sinais endoscópicos ou tomográficos.</dd>
+<dt>Pólipos nasais</dt>
+<dd>Massas edematosas pálidas e translúcidas do meato médio, bilaterais, de inflamação tipo 2 com eosinófilos; causam hiposmia precoce.</dd>
+<dt>Doença respiratória exacerbada por aspirina</dt>
+<dd>Tríade de asma, polipose nasal e reações respiratórias a anti-inflamatórios inibidores de COX-1; forma grave e recidivante.</dd>
+<dt>Biológicos anti-tipo 2</dt>
+<dd>Dupilumabe (anti-IL-4Rα), mepolizumabe (anti-IL-5) e omalizumabe (anti-IgE), para polipose grave não controlada após cirurgia e corticoide.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A rinossinusite crônica afeta 5 a 12% dos adultos e se divide em <strong>com</strong> e <strong>sem pólipos</strong>, hoje reclassificadas pelo endótipo: a forma com pólipos é, na maioria, inflamação <strong>tipo 2</strong>, com eosinófilos, IL-4, IL-5 e IL-13, e por isso se associa à <strong>asma</strong> (em 40 a 60%), à intolerância a anti-inflamatórios e à boa resposta a corticoide.</p>
+<p>O tratamento segue degraus.</p>
+<p>A <strong>tomografia</strong> de seios da face é indicada para planejar cirurgia, quando há falha do tratamento clínico por três meses ou quando surgem sinais de alarme (dor intensa, edema periorbitário, diplopia, sinais neurológicos, epistaxe); não é pré-requisito para começar o tratamento.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Asmático com nariz entupido dos dois lados há meses, sem cheiro e com massas pálidas no meato médio: polipose nasal, e o primeiro passo é soro em alto volume e corticoide tópico contínuo. Tomografia é para planejar cirurgia ou com alarme; antibiótico e anti-histamínico não tratam pólipo; biológico é o último degrau. Pólipo de um lado só é outra história.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Rinossinusite crônica: sintomas por mais de 12 semanas; a forma com pólipos é inflamação tipo 2, com hiposmia e associação com asma.</li>
+<li>Primeiro degrau: lavagem salina de alto volume e corticoide intranasal contínuo.</li>
+<li>Segundo: curso curto de corticoide oral; anti-histamínico só com rinite alérgica; antibiótico não trata.</li>
+<li>Tomografia para planejar cirurgia, falha de três meses ou sinais de alarme; cirurgia endoscópica seguida de tópico.</li>
+<li>Biológicos (dupilumabe) na doença grave recidivante com asma ou intolerância à aspirina; pólipo unilateral exige biópsia.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o tratamento de primeira linha da rinossinusite crônica com pólipos? <details><summary>Resposta</summary>Lavagem nasal de alto volume com solução salina e corticoide intranasal em uso contínuo.</details></li>
+<li>Quando a tomografia de seios da face está indicada? <details><summary>Resposta</summary>Para planejar cirurgia, após falha do tratamento clínico por cerca de três meses, ou diante de sinais de alarme como edema periorbitário, diplopia ou sinais neurológicos.</details></li>
+<li>Que condições se associam à polipose nasal e indicam inflamação tipo 2? <details><summary>Resposta</summary>Asma, eosinofilia e a doença respiratória exacerbada por aspirina.</details></li>
+</ol>
+`,
+
+"sirio2027#16": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a endocardite infecciosa subaguda e aplicar os critérios de Duke-ISCVID.</li>
+<li>Separar os fenômenos vasculares dos imunológicos e entender sua fisiopatologia.</li>
+<li>Investigar a endocardite com hemoculturas negativas e iniciar o tratamento.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Critérios de Duke-ISCVID 2023</dt>
+<dd>Maiores: microbiológico e de imagem (ecocardiograma, PET-CT, tomografia cardíaca); menores: predisposição, febre, fenômenos vasculares e imunológicos.</dd>
+<dt>Fenômenos vasculares</dt>
+<dd>Êmbolos arteriais, aneurismas micóticos, hemorragias conjuntivais e lesões de Janeway (máculas indolores palmoplantares).</dd>
+<dt>Fenômenos imunológicos</dt>
+<dd>Glomerulonefrite, nódulos de Osler (dolorosos, nas polpas digitais), manchas de Roth (exsudato retiniano com centro pálido e halo hemorrágico), fator reumatoide positivo.</dd>
+<dt>Endocardite com cultura negativa</dt>
+<dd>5 a 10% dos casos: antibiótico prévio, HACEK, Coxiella, Bartonella, Brucella e fungos.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A endocardite infecciosa subaguda, em geral por estreptococos do grupo viridans ou enterococos sobre valva previamente lesada, se arrasta por semanas com febre baixa, sudorese, emagrecimento, mialgia e artralgia, anemia de doença crônica, esplenomegalia e um <strong>sopro novo ou modificado</strong>, muitas vezes de regurgitação; o paciente passa por várias consultas e recebe antibióticos curtos que negativam as culturas sem curar.</p>
+<p>Os sinais periféricos se dividem por mecanismo.</p>
+<p>Quando as hemoculturas permanecem negativas, a investigação segue com culturas prolongadas, sorologias para <strong>Coxiella burnetii</strong> (febre Q, com fase I acima de 1:800), <strong>Bartonella</strong> e <strong>Brucella</strong>, PCR de sangue e, após cirurgia, PCR da valva, lembrando de fungos em usuários de drogas e próteses.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Febre prolongada, sopro novo, baço palpável, nódulos dolorosos nos dedos, manchas de Roth, hematúria dismórfica e fator reumatoide alto é endocardite subaguda, mesmo com culturas negativas. Separe: Janeway é indolor e embólica; Osler e Roth são dolorosos ou retinianos e imunológicos. Peça três pares de hemoculturas, ecocardiograma e sorologias de Coxiella, Bartonella e Brucella antes de pensar em lúpus.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Subaguda: febre arrastada, anemia, esplenomegalia e sopro novo; três pares de hemoculturas e ecocardiograma.</li>
+<li>Vasculares (embólicos): infartos, aneurismas micóticos, hemorragias em estilha e conjuntivais, lesões de Janeway indolores.</li>
+<li>Imunológicos (imunocomplexos): nódulos de Osler dolorosos, manchas de Roth, glomerulonefrite, fator reumatoide positivo.</li>
+<li>Cultura negativa: antibiótico prévio, HACEK, Coxiella, Bartonella, Brucella, fungos; sorologias e PCR.</li>
+<li>Tratamento de quatro a seis semanas; cirurgia na insuficiência cardíaca, infecção não controlada e embolia recorrente; profilaxia só no alto risco.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a diferença de mecanismo entre as lesões de Janeway e os nódulos de Osler? <details><summary>Resposta</summary>Janeway são microabscessos embólicos indolores nas palmas e plantas; Osler são nódulos dolorosos nas polpas digitais por vasculite de imunocomplexos.</details></li>
+<li>Que exames se pedem quando as hemoculturas da endocardite permanecem negativas? <details><summary>Resposta</summary>Culturas prolongadas, sorologias para Coxiella, Bartonella e Brucella, PCR de sangue e, se operado, PCR da valva.</details></li>
+<li>Quais são as indicações de cirurgia na endocardite? <details><summary>Resposta</summary>Insuficiência cardíaca por disfunção valvar, infecção não controlada (abscesso, fístula, bacteremia persistente, fungos) e prevenção de embolia em vegetação grande com evento embólico.</details></li>
+</ol>
+`,
+
+"sirio2027#17": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer os efeitos adversos e as precauções dos agonistas de GLP-1 e do duplo agonista GIP/GLP-1.</li>
+<li>Explicar a piora precoce da retinopatia com a queda rápida da glicada.</li>
+<li>Manejar retitulação após doses perdidas, hipoglicemia por sulfonilureia, litíase biliar e perioperatório.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Tirzepatida</dt>
+<dd>Agonista duplo de GIP e GLP-1, semanal, titulado de 2,5 a 15 mg; perda de peso de 15 a 20% e glicada −2 pontos.</dd>
+<dt>Piora precoce da retinopatia</dt>
+<dd>Progressão transitória da retinopatia nos primeiros meses de queda rápida da glicada em quem já tem retinopatia.</dd>
+<dt>Retitulação</dt>
+<dd>Após três ou mais doses semanais perdidas, reiniciar em dose menor e subir de novo.</dd>
+<dt>Suspensão perioperatória</dt>
+<dd>Interromper a dose semanal uma semana antes de anestesia ou sedação, pelo risco de aspiração.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Os agonistas de GLP-1 (liraglutida, dulaglutida, semaglutida) e a tirzepatida mudaram o tratamento do diabetes tipo 2 e da obesidade: reduzem a glicada em 1,5 a 2,5 pontos sem hipoglicemia intrínseca, promovem perda de peso expressiva e, vários deles, reduzem eventos cardiovasculares e renais.</p>
+<p>A <strong>retina</strong> merece atenção.</p>
+<p>Outros cuidados práticos: a <strong>hipoglicemia</strong> surge quando o agonista é combinado com sulfonilureia ou insulina, e a conduta é reduzir ou suspender essas drogas, não o agonista; a perda de peso rápida aumenta a <strong>litíase biliar</strong> e a colecistite, e cólica em hipocôndrio direito pede ultrassom; a <strong>pancreatite</strong> é rara, e a elevação assintomática de lipase ou amilase não indica suspender; a droga é contraindicada na história pessoal ou familiar de carcinoma medular de tireoide e na neoplasia endócrina múltipla tipo 2; na gestação é suspensa; reações no local da injeção são benignas; e a perda de massa magra pede proteína e exercício resistido.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Diabético que derrubou a glicada de 9 para 6,5 em poucos meses e perdeu a visão de um olho: pense em piora precoce da retinopatia e mande ao oftalmologista. Tremores antes das refeições são a sulfonilureia, que deve cair; dor biliar pede ultrassom; a cirurgia marcada exige suspender a injeção uma semana antes; e após três semanas sem dose, recomece baixo e titule.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Agonistas de GLP-1 e tirzepatida: glicada −1,5 a −2,5, perda de peso de 10 a 20%, benefício cardiovascular e renal, sem hipoglicemia intrínseca.</li>
+<li>Náuseas dose-dependentes: titular devagar; após três doses semanais perdidas, reiniciar em dose menor.</li>
+<li>Queda rápida da glicada pode piorar retinopatia prévia nos primeiros meses: fundo de olho antes e durante; reduzir gradualmente.</li>
+<li>Hipoglicemia vem da sulfonilureia ou insulina associadas: reduzi-las; litíase biliar com perda de peso rápida; lipase alta assintomática não suspende.</li>
+<li>Suspender uma semana antes de anestesia; contraindicado no carcinoma medular de tireoide e na gestação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a redução rápida da glicada pode piorar a retinopatia diabética? <details><summary>Resposta</summary>Porque a normalização abrupta da glicose altera o fluxo retiniano e agrava transitoriamente o edema macular e a retinopatia proliferativa em quem já tem retinopatia, com benefício a longo prazo.</details></li>
+<li>Como retomar a tirzepatida após três ou mais doses semanais perdidas? <details><summary>Resposta</summary>Reiniciando em dose menor e titulando de novo, para evitar náuseas, vômitos e desidratação.</details></li>
+<li>Qual é a conduta diante de hipoglicemias em paciente que usa tirzepatida com gliclazida? <details><summary>Resposta</summary>Reduzir ou suspender a sulfonilureia, mantendo o agonista, que não causa hipoglicemia por si.</details></li>
+</ol>
+`,
+
+"sirio2027#18": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a apresentação do linfoma de Hodgkin e definir os sintomas B.</li>
+<li>Descrever a histologia, os subtipos e a associação com o vírus Epstein-Barr.</li>
+<li>Conduzir o diagnóstico por biópsia excisional, o estadiamento e as linhas gerais do tratamento.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Células de Reed-Sternberg</dt>
+<dd>Células B grandes e binucleadas, CD30 e CD15 positivas; minoria da celularidade do tumor.</dd>
+<dt>Sintomas B</dt>
+<dd>Febre acima de 38 ºC, sudorese noturna profusa e perda de mais de 10% do peso em seis meses; prurido não entra.</dd>
+<dt>Estadiamento de Ann Arbor / Lugano</dt>
+<dd>I: uma região; II: duas ou mais do mesmo lado do diafragma; III: ambos os lados; IV: extralinfático difuso.</dd>
+<dt>Subtipos clássicos</dt>
+<dd>Esclerose nodular (mais comum, jovens), celularidade mista (EBV, HIV), rico em linfócitos e depleção linfocitária.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O linfoma de Hodgkin tem distribuição bimodal (20 a 30 anos e após 55) e apresentação característica: <strong>linfonodomegalia indolor</strong>, fibroelástica, de crescimento progressivo, em cadeias <strong>cervicais, supraclaviculares e mediastinais</strong>, com disseminação <strong>contígua</strong> de uma cadeia à vizinha, ao contrário dos linfomas não Hodgkin, que saltam regiões.</p>
+<p>A <strong>histologia</strong> é peculiar: as células malignas, de <strong>Reed-Sternberg</strong> e suas variantes (lacunares na esclerose nodular, mononucleares), são derivadas de células B do centro germinativo que perderam o programa B, e correspondem a <strong>menos de 1 a 5%</strong> do tecido; o restante é um <strong>infiltrado reativo</strong> de linfócitos T, eosinófilos, histiócitos, plasmócitos e fibrose, atraído por citocinas (IL-5, IL-13, CCL17) secretadas pelo tumor.</p>
+<p>O estadiamento por PET-CT (Lugano) e a presença de fatores de risco (massa volumosa, VHS alta, mais de três cadeias, sintomas B, extralinfático) definem o tratamento: nos estágios iniciais, ABVD por dois a quatro ciclos com ou sem radioterapia de campo envolvido; nos avançados, ABVD por seis ciclos ou BEACOPP escalonado, hoje com a opção de brentuximabe-vedotina (anti-CD30) associado, e o PET interino após dois ciclos guia a desescalada ou a intensificação.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Jovem com gânglio cervical e massa mediastinal, suor noturno e perda de mais de 10% do peso é Hodgkin até a biópsia dizer o contrário, e a biópsia é excisional, nunca por agulha fina. Lembre que as células de Reed-Sternberg são poucas num mar reativo, que a celularidade mista é o subtipo do EBV e que os sintomas B são três, sem prurido.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Linfonodomegalia indolor cervical e mediastinal, contígua; sintomas B estritos.</li>
+<li>Reed-Sternberg é minoria num infiltrado reativo; biópsia excisional obrigatória.</li>
+<li>Esclerose nodular é o mais comum e tem pouco EBV; celularidade mista é o do EBV e do HIV.</li>
+<li>PET-CT estadia; ABVD com ou sem radioterapia nos iniciais, ABVD ou BEACOPP nos avançados; PET interino guia.</li>
+<li>Cura acima de 80%; vigiar toxicidades tardias; resgate com transplante autólogo e anti-PD-1.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os sintomas B e qual é o corte de perda de peso? <details><summary>Resposta</summary>Febre acima de 38 ºC sem causa, sudorese noturna profusa e perda não intencional de mais de 10% do peso em seis meses.</details></li>
+<li>Por que a punção aspirativa não serve para diagnosticar o linfoma de Hodgkin? <details><summary>Resposta</summary>Porque as células de Reed-Sternberg são menos de 5% do tecido e o diagnóstico depende da arquitetura e do infiltrado reativo, exigindo biópsia excisional.</details></li>
+<li>Qual subtipo do Hodgkin clássico tem maior associação com o vírus Epstein-Barr? <details><summary>Resposta</summary>A celularidade mista, sobretudo em crianças, idosos, países em desenvolvimento e portadores de HIV.</details></li>
+</ol>
+`,
+
+"sirio2027#19": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer as síndromes tóxicas pelo exame físico e identificar a intoxicação por barbitúricos.</li>
+<li>Aplicar as medidas de descontaminação e de eliminação aumentada, incluindo o carvão em doses múltiplas.</li>
+<li>Saber quando usar e quando evitar os antídotos flumazenil e naloxona.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Síndrome sedativo-hipnótica</dt>
+<dd>Rebaixamento, bradipneia, hipotensão, hipotermia e hiporreflexia, com pupilas em geral normais ou pouco reativas; benzodiazepínicos, barbitúricos, álcool.</dd>
+<dt>Bolhas de coma</dt>
+<dd>Bolhas tensas e estéreis em áreas de pressão, por isquemia cutânea e toxicidade direta, clássicas dos barbitúricos, mas vistas também em outros comas prolongados.</dd>
+<dt>Carvão ativado em doses múltiplas</dt>
+<dd>0,5 g/kg a cada 4 horas após a dose inicial de 1 g/kg, com via aérea protegida; indicado para fenobarbital, carbamazepina, teofilina, dapsona e quinina.</dd>
+<dt>Alcalinização urinária</dt>
+<dd>Bicarbonato venoso para pH urinário de 7,5 a 8, que ioniza ácidos fracos (fenobarbital, salicilato) e impede sua reabsorção tubular.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Diante do paciente intoxicado inconsciente, o exame físico organiza a suspeita em <strong>síndromes tóxicas</strong>.</p>
+<p>O tratamento é, antes de tudo, <strong>suporte</strong>: via aérea e ventilação (intubação no coma com hipoventilação), volume e vasopressor para a hipotensão, aquecimento, correção metabólica. A <strong>descontaminação</strong> com carvão ativado em dose única (1 g/kg) vale na primeira hora, com via aérea protegida; a lavagem gástrica tem indicação rara. A <strong>eliminação aumentada</strong> depende da farmacocinética.</p>
+<p>Os <strong>antídotos</strong> têm indicações específicas. A <strong>naloxona</strong> reverte opioides e é segura; o <strong>flumazenil</strong> reverte benzodiazepínicos, mas é raramente indicado na intoxicação intencional, porque precipita convulsões em usuários crônicos e em coingestão com tricíclicos, cocaína ou pró-convulsivantes; nenhum dos dois age nos barbitúricos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Coma com bradipneia, hipotensão, hipotermia, pupilas reativas, ECG normal e bolhas nos calcanhares é fenobarbital: suporte, intubação, carvão ativado em doses múltiplas e alcalinização da urina. Flumazenil e naloxona não funcionam aqui, acidificar a urina é erro, e o painel urinário não guia dose de nada.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Síndromes tóxicas pelo exame: simpaticomimética, anticolinérgica, colinérgica, opioide, sedativo-hipnótica; barbitúrico é sedativo com hipotermia e bolhas.</li>
+<li>Suporte primeiro: via aérea, ventilação, volume, aquecimento; glicemia, ECG, paracetamol e salicilato em todos.</li>
+<li>Carvão em dose única na primeira hora; em doses múltiplas para fenobarbital, carbamazepina, teofilina, dapsona e quinina, com via aérea protegida.</li>
+<li>Alcalinização urinária para fenobarbital e salicilato; hemodiálise nos casos graves.</li>
+<li>Naloxona para opioides; flumazenil raramente, nunca com pró-convulsivantes; nenhum age em barbitúricos.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que achado cutâneo sugere intoxicação por barbitúricos? <details><summary>Resposta</summary>Bolhas tensas e estéreis nas áreas de pressão, como calcanhares e joelhos, as "bolhas de coma".</details></li>
+<li>Para quais tóxicos o carvão ativado em doses múltiplas está indicado? <details><summary>Resposta</summary>Fenobarbital, carbamazepina, teofilina, dapsona e quinina, desde que a via aérea esteja protegida.</details></li>
+<li>Por que o flumazenil é evitado na maioria das intoxicações intencionais? <details><summary>Resposta</summary>Porque pode precipitar convulsões em usuários crônicos de benzodiazepínicos e em coingestões com drogas pró-convulsivantes, como os tricíclicos.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · Clínica Médica · UNESP 2025 (cm81–cm90) ------------------------------- */
+"unesp2025#41": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conduzir a hemorragia varicosa aguda em suas três frentes: vasoativo, endoscopia e antibiótico.</li>
+<li>Definir a duração do vasoconstritor e o momento da transição para a profilaxia secundária.</li>
+<li>Reconhecer as indicações de TIPS precoce e de resgate.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Terlipressina e octreotida</dt>
+<dd>Vasoconstritores esplâncnicos que reduzem o fluxo portal; iniciados à suspeita e mantidos por 2 a 5 dias.</dd>
+<dt>Profilaxia antibiótica</dt>
+<dd>Ceftriaxona 1 g/dia por até 7 dias em todo cirrótico com hemorragia digestiva; reduz infecção, ressangramento e morte.</dd>
+<dt>Profilaxia secundária</dt>
+<dd>Betabloqueador não seletivo (carvedilol preferido) associado a ligadura elástica seriada até a erradicação das varizes.</dd>
+<dt>TIPS precoce</dt>
+<dd>Derivação portossistêmica em até 72 horas para Child C até 13 pontos ou Child B com sangramento ativo; reduz falha e mortalidade.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A hemorragia varicosa é a complicação mais letal da hipertensão portal, com mortalidade de 15 a 20% em seis semanas, e o atendimento precisa correr em paralelo.</p>
+<p>A <strong>endoscopia</strong> em até 12 horas confirma a fonte e trata: ligadura elástica das varizes esofágicas, cianoacrilato nas gástricas. Depois dela, o vasoconstritor é <strong>mantido por 2 a 5 dias</strong>, janela de maior risco de ressangramento precoce, e o antibiótico completa até 7 dias.</p>
+<p>Controlado o episódio, começa a <strong>profilaxia secundária</strong>, porque dois terços ressangram em um ano sem ela: <strong>betabloqueador não seletivo</strong> (carvedilol até 12,5 mg/dia, ou propranolol titulado para frequência de 55 a 60), iniciado assim que o vasoconstritor é suspenso e a hemodinâmica permite, associado a <strong>sessões de ligadura</strong> a cada duas a quatro semanas até a erradicação, com endoscopias de controle. O betabloqueador reduz a pressão portal e previne também a ascite e a peritonite bacteriana espontânea; é suspenso temporariamente na hipotensão, na lesão renal aguda e na peritonite com instabilidade.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Cirrótico que sangrou por varizes: vasoconstritor e antibiótico antes da endoscopia, ligadura na endoscopia, vasoconstritor por 2 a 5 dias e antibiótico por até 7, e betabloqueador não seletivo com ligaduras seriadas depois. Antibiótico é para todos, com ou sem ascite; betabloqueador não substitui o vasoconstritor na fase aguda; Child C sangrando pensa em TIPS precoce.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Chegada: acessos, hemoglobina alvo de 7 a 8, via aérea, vasoconstritor e ceftriaxona antes da endoscopia; lactulose.</li>
+<li>Endoscopia em 12 h: ligadura das esofágicas, cianoacrilato nas gástricas.</li>
+<li>Vasoconstritor por 2 a 5 dias; antibiótico por até 7 dias, em todo cirrótico que sangra.</li>
+<li>TIPS precoce (72 h) em Child C 10 a 13 ou Child B com sangramento ativo; resgate na falha.</li>
+<li>Profilaxia secundária: carvedilol ou propranolol mais ligaduras seriadas até erradicar; só então alta.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por quanto tempo o vasoconstritor esplâncnico é mantido após a hemorragia varicosa? <details><summary>Resposta</summary>De 2 a 5 dias, período de maior risco de ressangramento precoce.</details></li>
+<li>O antibiótico profilático na hemorragia varicosa depende da presença de ascite? <details><summary>Resposta</summary>Não; é indicado para todo cirrótico com hemorragia digestiva, porque reduz infecção, ressangramento e mortalidade.</details></li>
+<li>Em que consiste a profilaxia secundária após o primeiro sangramento varicoso? <details><summary>Resposta</summary>Betabloqueador não seletivo (carvedilol ou propranolol) associado a sessões de ligadura elástica até a erradicação das varizes.</details></li>
+</ol>
+`,
+
+"unesp2025#42": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar os critérios de Light e reconhecer suas limitações.</li>
+<li>Usar o gradiente de albumina e de proteínas e o NT-proBNP do líquido no cardiopata em diurético.</li>
+<li>Organizar a análise do líquido pleural conforme a hipótese clínica.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Critérios de Light</dt>
+<dd>Exsudato se proteína pleural/sérica acima de 0,5, DHL pleural/sérica acima de 0,6 ou DHL pleural acima de dois terços do limite superior sérico; sensibilidade de 98% para exsudato.</dd>
+<dt>Gradiente de albumina soro-líquido</dt>
+<dd>Albumina sérica menos albumina pleural; acima de 1,2 g/dL indica transudato, mesmo quando Light aponta exsudato.</dd>
+<dt>Gradiente de proteínas</dt>
+<dd>Proteína sérica menos pleural acima de 3,1 g/dL também indica transudato no paciente em diurético.</dd>
+<dt>NT-proBNP pleural</dt>
+<dd>Acima de 1.500 pg/mL aponta para derrame de origem cardíaca; correlaciona-se com o sérico.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O primeiro passo na análise do derrame pleural é separar <strong>transudato</strong> (desequilíbrio de pressões: insuficiência cardíaca, cirrose, síndrome nefrótica, diálise peritoneal, hipoalbuminemia) de <strong>exsudato</strong> (doença da pleura: infecção, neoplasia, embolia, colagenoses, pancreatite). Os <strong>critérios de Light</strong> fazem isso com três relações, e basta uma positiva para rotular exsudato.</p>
+<p>Quando a clínica sugere insuficiência cardíaca e os critérios dizem exsudato, aplicam-se testes de segunda linha.</p>
+<p>Confirmado o exsudato, a análise segue pela hipótese: celularidade (neutrófilos nas infecções agudas, linfócitos em tuberculose e neoplasia, eosinófilos em sangue e ar), glicose (abaixo de 60 em empiema, artrite reumatoide, tuberculose e neoplasia), pH (abaixo de 7,2 indica drenagem no parapneumônico), adenosina desaminase (acima de 40 U/L em linfocitário sugere tuberculose), citologia oncótica, cultura, triglicerídeos (acima de 110 no quilotórax) e amilase (pancreatite, rotura de esôfago).</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Cardiopata em furosemida com derrame que Light chama de exsudato: antes de sair caçando câncer, calcule o gradiente de albumina; acima de 1,2 é transudato e o problema é o coração. A indicação do gradiente é o diurético, não a idade, o diabetes ou a suspeita de neoplasia, que pedem citologia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Light separa transudato de exsudato com três relações; sensível para exsudato, mas erra 25% dos transudatos cardíacos em diurético.</li>
+<li>Gradiente de albumina acima de 1,2 g/dL ou de proteínas acima de 3,1 g/dL reclassifica como transudato.</li>
+<li>NT-proBNP pleural acima de 1.500 pg/mL confirma origem cardíaca.</li>
+<li>Transudatos: insuficiência cardíaca, cirrose, nefrótica, diálise; exsudatos: infecção, neoplasia, embolia, colagenoses.</li>
+<li>No exsudato, celularidade, glicose, pH, ADA, citologia e cultura orientam; toracoscopia nos linfocitários sem diagnóstico.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que os critérios de Light erram no cardiopata em uso de diurético? <details><summary>Resposta</summary>Porque a diurese retira água do líquido pleural mais rápido que proteína e DHL, concentrando-as e elevando as relações para a faixa de exsudato.</details></li>
+<li>Qual gradiente de albumina indica transudato? <details><summary>Resposta</summary>Albumina sérica menos pleural acima de 1,2 g/dL.</details></li>
+<li>Que marcador do líquido pleural confirma a origem cardíaca do derrame? <details><summary>Resposta</summary>NT-proBNP pleural acima de 1.500 pg/mL.</details></li>
+</ol>
+`,
+
+"unesp2025#44": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Interpretar eletroforese de proteínas, imunofixação e cadeias leves livres.</li>
+<li>Diferenciar gamopatia monoclonal de significado indeterminado, mieloma indolente e mieloma múltiplo.</li>
+<li>Reconhecer a imunodeficiência secundária às discrasias plasmocitárias.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Gamopatia monoclonal</dt>
+<dd>Produção de imunoglobulina ou cadeia leve única por um clone de plasmócitos; abrange GMSI, mieloma indolente, mieloma múltiplo, amiloidose AL e Waldenström.</dd>
+<dt>Relação kappa/lambda</dt>
+<dd>Normal entre 0,26 e 1,65; alterada indica clonalidade, mesmo sem pico na eletroforese (mieloma de cadeia leve, não secretor).</dd>
+<dt>Critérios CRAB</dt>
+<dd>Hipercalcemia, insuficiência renal, anemia e lesões ósseas líticas: lesão de órgão que define mieloma múltiplo sintomático.</dd>
+<dt>Critérios SLiM</dt>
+<dd>Plasmócitos medulares de 60% ou mais, relação de cadeias leves envolvida/não envolvida de 100 ou mais, mais de uma lesão focal na ressonância; definem mieloma mesmo sem CRAB.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Na produção normal de anticorpos, milhares de clones secretam imunoglobulinas com cadeias leves kappa e lambda em proporção estável, e a eletroforese mostra uma banda gama larga e policlonal.</p>
+<p>A gamopatia monoclonal é um espectro.</p>
+<p>O tratamento do mieloma múltiplo combina um inibidor de proteassoma (bortezomibe), um imunomodulador (lenalidomida), dexametasona e, hoje, um anticorpo anti-CD38 (daratumumabe), com transplante autólogo nos elegíveis, além de bisfosfonato ou denosumabe para o osso, profilaxia de trombose com o imunomodulador, hidratação e correção da hipercalcemia e vacinação (pneumococo, influenza, COVID-19, herpes-zóster recombinante) e imunoglobulina de reposição nas infecções recorrentes com hipogamaglobulinemia grave.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Idoso com pneumonias repetidas, anemia e hipogamaglobulinemia, com uma cadeia leve alta e a outra baixa, tem clone: gamopatia monoclonal, provavelmente mieloma de cadeia leve, e não imunodeficiência primária. O que denuncia o clone é a relação kappa/lambda alterada, não o nível de imunoglobulinas. O passo seguinte é imunofixação, mielograma, cálcio, creatinina e imagem óssea.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Clone de plasmócitos produz imunoglobulina ou cadeia leve única e desloca a relação kappa/lambda; pode não haver pico na eletroforese.</li>
+<li>O componente M suprime as imunoglobulinas normais: hipogamaglobulinemia e infecções por encapsulados.</li>
+<li>GMSI: M abaixo de 3 g/dL, plasmócitos abaixo de 10%, sem lesão; indolente: M de 3 ou mais ou plasmócitos 10 a 59%; mieloma: 10% ou mais com CRAB ou SLiM.</li>
+<li>Investigar com eletroforese, imunofixação, cadeias livres, cálcio, creatinina, beta-2-microglobulina, mielograma e imagem de corpo inteiro.</li>
+<li>Tratamento com bortezomibe, lenalidomida, dexametasona e daratumumabe; transplante autólogo; proteção óssea, vacinas e imunoglobulina se infecções graves.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que resultado das cadeias leves livres indica clonalidade? <details><summary>Resposta</summary>Uma cadeia elevada com a outra reduzida e relação kappa/lambda fora de 0,26 a 1,65.</details></li>
+<li>Por que o paciente com gamopatia monoclonal tem infecções de repetição? <details><summary>Resposta</summary>Porque o componente M suprime a produção das imunoglobulinas normais, causando hipogamaglobulinemia funcional e infecções por germes encapsulados.</details></li>
+<li>O que diferencia gamopatia de significado indeterminado de mieloma múltiplo? <details><summary>Resposta</summary>Na GMSI o componente M é inferior a 3 g/dL, os plasmócitos são menos de 10% e não há lesão de órgão; o mieloma exige 10% ou mais de plasmócitos com critérios CRAB ou SLiM.</details></li>
+</ol>
+`,
+
+"unesp2025#45": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diagnosticar o delirium pelo CAM e distingui-lo da demência e da depressão.</li>
+<li>Identificar as causas e os fatores precipitantes no idoso.</li>
+<li>Aplicar a prevenção multicomponente e o tratamento da agitação.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Confusion Assessment Method</dt>
+<dd>Algoritmo com quatro itens: (1) início agudo e curso flutuante, (2) desatenção, (3) pensamento desorganizado, (4) alteração do nível de consciência; diagnóstico com 1 + 2 + (3 ou 4).</dd>
+<dt>Subtipos motores</dt>
+<dd>Hiperativo (agitação, alucinações), hipoativo (sonolência, apatia, o mais comum e o mais perdido) e misto (alternância).</dd>
+<dt>Fatores predisponentes</dt>
+<dd>Idade avançada, demência, déficit sensorial, fragilidade, polifarmácia, dependência funcional, depressão, alcoolismo.</dd>
+<dt>Fatores precipitantes</dt>
+<dd>Infecção, fármacos (anticolinérgicos, benzodiazepínicos, opioides), distúrbios metabólicos, desidratação, dor, retenção urinária, fecaloma, cirurgia, mudança de ambiente, privação de sono.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O delirium é a síndrome de disfunção cerebral aguda mais frequente no idoso hospitalizado, presente em 15 a 50% das internações e em até 80% dos pacientes de UTI, e é um marcador de gravidade: aumenta mortalidade, tempo de internação, institucionalização e declínio cognitivo persistente.</p>
+<p>O diagnóstico é clínico e o <strong>CAM</strong> é a ferramenta padrão, com sensibilidade e especificidade acima de 90% quando aplicado por avaliador treinado.</p>
+<p>A conduta tem três partes. Primeiro, <strong>procurar e tratar a causa</strong>: anamnese medicamentosa, exame físico com toque retal e bexiga, glicemia, eletrólitos, função renal e hepática, hemograma, urina, saturação, eletrocardiograma e, se houver sinal focal, trauma ou nada encontrado, imagem do encéfalo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Idoso que de repente ficou confuso, com alucinações e depois sonolento e desatento, tem delirium, e o CAM exige início agudo flutuante e desatenção, mais pensamento desorganizado ou alteração da consciência. Apatia e dependência funcional não são critérios. Depois do rótulo, a pergunta é sempre "por quê": infecção, remédio, desidratação, retenção, dor.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Delirium: disfunção cerebral aguda e flutuante; marcador de gravidade e de pior prognóstico no idoso.</li>
+<li>CAM: início agudo flutuante e desatenção são obrigatórios; mais pensamento desorganizado ou alteração do nível de consciência.</li>
+<li>Hipoativo é o subtipo mais comum e o mais perdido; demência prévia é o maior fator de risco.</li>
+<li>Investigar causa: medicamentos, infecção, metabólico, desidratação, dor, retenção urinária, fecaloma; imagem se sinal focal ou sem causa.</li>
+<li>Prevenção e tratamento não farmacológicos; antipsicótico em dose baixa só para agitação perigosa; evitar benzodiazepínico salvo abstinência.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais itens do CAM são obrigatórios para o diagnóstico de delirium? <details><summary>Resposta</summary>Início agudo com curso flutuante e desatenção; a eles se soma pensamento desorganizado ou alteração do nível de consciência.</details></li>
+<li>Qual característica clínica separa o delirium da demência? <details><summary>Resposta</summary>A desatenção de início agudo e flutuante; na demência o início é insidioso, o curso estável e a atenção preservada até fases avançadas.</details></li>
+<li>Quando o tratamento farmacológico do delirium está indicado e com o quê? <details><summary>Resposta</summary>Apenas na agitação que ameaça o paciente ou impede o tratamento, com haloperidol em dose baixa ou antipsicótico atípico por poucos dias; benzodiazepínicos só na abstinência alcoólica.</details></li>
+</ol>
+`,
+
+"unesp2025#47": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diferenciar urgência, emergência hipertensiva e hipertensão acelerada/maligna.</li>
+<li>Reconhecer a retinopatia hipertensiva e a lesão de órgão-alvo em progressão.</li>
+<li>Tratar a hipertensão maligna com droga venosa e metas graduais, e investigar a causa.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Urgência hipertensiva</dt>
+<dd>Pressão muito elevada sem lesão aguda de órgão-alvo; tratamento oral e redução em 24 a 48 horas.</dd>
+<dt>Emergência hipertensiva</dt>
+<dd>Pressão elevada com lesão aguda de órgão-alvo (encefalopatia, AVC, coronária, edema agudo, dissecção, eclâmpsia, maligna); droga venosa titulável.</dd>
+<dt>Hipertensão acelerada/maligna</dt>
+<dd>Pressão muito elevada com retinopatia grau III ou IV, expressão de necrose fibrinoide arteriolar sistêmica.</dd>
+<dt>Classificação de Keith-Wagener-Barker</dt>
+<dd>Grau I estreitamento arteriolar; II cruzamentos arteriovenosos; III hemorragias e exsudatos; IV papiledema.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A crise hipertensiva se define menos pelo número e mais pela presença de <strong>lesão aguda de órgão-alvo</strong>.</p>
+<p>A <strong>hipertensão acelerada/maligna</strong> é uma emergência com fisiopatologia própria: a pressão muito alta e sustentada supera a autorregulação, lesa o endotélio e causa <strong>necrose fibrinoide</strong> das arteríolas, com microangiopatia trombótica, isquemia renal com ativação do sistema renina-angiotensina (que perpetua a hipertensão), encefalopatia por edema cerebral e o sinal diagnóstico no <strong>fundo de olho</strong>: <strong>hemorragias em chama, exsudatos algodonosos</strong> (grau III) e <strong>papiledema</strong> (grau IV).</p>
+<p>O tratamento é hospitalar, com <strong>nitroprussiato</strong> (atenção à toxicidade por cianeto após 48 horas e na insuficiência renal), <strong>nicardipina</strong>, <strong>labetalol</strong> ou clevidipina, reduzindo a pressão média em 20 a 25% nas primeiras horas, nunca abaixo de 160 × 100 no primeiro dia, para não provocar isquemia cerebral, coronariana e renal num leito vascular adaptado a pressões altas; a transição para drogas orais começa em 24 horas, e a pressão alvo é atingida em semanas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pressão de 270 × 135 com fundo de olho mostrando hemorragias, exsudatos e papila borrada é hipertensão maligna, uma emergência, e o tratamento é hospitalar com vasodilatador venoso e redução de 20 a 25% na primeira hora. Não confunda com hipertensão resistente, que é um diagnóstico de consultório. E lembre que a causa secundária é a regra, não a exceção, nessa apresentação.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Urgência: sem lesão aguda, tratamento oral; emergência: lesão em curso, droga venosa e monitorização.</li>
+<li>Maligna: retinopatia grau III ou IV; necrose fibrinoide, microangiopatia, lesão renal e encefalopatia.</li>
+<li>Meta: reduzir 20 a 25% da pressão média na primeira hora, 160 × 100 em 2 a 6 horas; nunca normalizar no primeiro dia.</li>
+<li>Drogas: nitroprussiato, nicardipina, labetalol, clevidipina; nifedipina sublingual é proscrita.</li>
+<li>Investigar causa secundária depois: renovascular, glomerulopatia, feocromocitoma, drogas, esclerodermia.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que define a hipertensão acelerada/maligna? <details><summary>Resposta</summary>Pressão muito elevada com retinopatia hipertensiva grau III (hemorragias e exsudatos) ou IV (papiledema), expressão de lesão endotelial sistêmica.</details></li>
+<li>Qual é a meta de redução pressórica na primeira hora de uma emergência hipertensiva, na regra geral? <details><summary>Resposta</summary>Reduzir a pressão arterial média em 20 a 25%, sem normalizar, para preservar a perfusão cerebral, coronariana e renal.</details></li>
+<li>Por que a hipertensão resistente não é o diagnóstico nesse cenário? <details><summary>Resposta</summary>Porque hipertensão resistente é definição ambulatorial (pressão não controlada com três drogas, incluindo diurético) e não descreve uma emergência com lesão aguda de órgão-alvo.</details></li>
+</ol>
+`,
+
+"unesp2025#51": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Abordar a monoartrite aguda como artrite séptica até prova em contrário.</li>
+<li>Interpretar o líquido sinovial e reconhecer os fatores de risco da infecção articular.</li>
+<li>Tratar a artrite séptica e saber quando as outras causas entram no diferencial.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Artrite séptica</dt>
+<dd>Infecção bacteriana do espaço articular, em geral hematogênica, por Staphylococcus aureus em 50 a 60%; destrói a cartilagem em dias.</dd>
+<dt>Artrocentese</dt>
+<dd>Punção articular para celularidade, Gram, cultura e pesquisa de cristais; exame obrigatório em toda monoartrite aguda.</dd>
+<dt>Líquido inflamatório vs. séptico</dt>
+<dd>2.000 a 50.000 leucócitos é inflamatório (gota, pseudogota, artrite reumatoide); acima de 50.000 com mais de 90% de neutrófilos é séptico até a cultura dizer o contrário.</dd>
+<dt>Fatores de risco</dt>
+<dd>Artrite reumatoide, prótese articular, imunossupressão, diabetes, idade avançada, injeção intra-articular recente, uso de drogas injetáveis, infecção cutânea.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A monoartrite aguda é uma emergência até que a infecção seja afastada, porque a artrite séptica destrói a cartilagem em poucos dias e tem mortalidade de 10%.</p>
+<p>A <strong>artrocentese</strong> deve ser feita antes do antibiótico e enviada para contagem de células com diferencial, Gram, cultura (em frasco de hemocultura aumenta o rendimento) e <strong>pesquisa de cristais</strong> em luz polarizada, porque gota e pseudogota imitam a infecção e, pior, podem coexistir com ela.</p>
+<p>O tratamento é <strong>antibiótico venoso empírico</strong> logo após a coleta, orientado pelo Gram: oxacilina ou cefazolina para cocos gram-positivos, com vancomicina se risco de MRSA; ceftriaxona para gram-negativos ou gonococo; na ausência de Gram, cobertura de estafilococo e, no imunossuprimido, de gram-negativos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Joelho único quente e inchado em paciente com artrite reumatoide em imunossupressor: puncione antes de qualquer coisa e trate como séptica. Pesquise cristais na mesma amostra, mas não inicie alopurinol na crise, e jamais injete corticoide ou aumente o imunossupressor antes de a cultura voltar. Monoartrite nunca é "a doença de sempre" até prova em contrário.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Monoartrite aguda é séptica até prova em contrário; punção obrigatória antes do antibiótico.</li>
+<li>Artrite reumatoide, prótese, imunossupressão, diabetes, infiltração recente e drogas injetáveis são os fatores de risco; S. aureus lidera.</li>
+<li>Líquido: celularidade, Gram, cultura em frasco de hemocultura, cristais; acima de 50.000 neutrófilos sugere infecção; cristais não excluem.</li>
+<li>Antibiótico venoso empírico pelo Gram (oxacilina ou cefazolina, vancomicina se MRSA, ceftriaxona para gonococo ou gram-negativos) e drenagem.</li>
+<li>Duas semanas venosas e duas a quatro orais; suspender imunossupressor; corticoide intra-articular só após excluir infecção.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o primeiro passo diante de uma monoartrite aguda? <details><summary>Resposta</summary>A artrocentese, com celularidade, Gram, cultura e pesquisa de cristais, antes de iniciar antibiótico.</details></li>
+<li>Por que a artrite reumatoide é o maior fator de risco para artrite séptica? <details><summary>Resposta</summary>Pela articulação cronicamente lesada, pela imunossupressão medicamentosa e pelas bacteremias frequentes, que elevam o risco em cerca de dez vezes.</details></li>
+<li>A presença de cristais no líquido sinovial exclui a infecção? <details><summary>Resposta</summary>Não; gota e artrite séptica podem coexistir, e a cultura decide; o tratamento empírico segue até o resultado.</details></li>
+</ol>
+`,
+
+"unesp2025#52": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Conhecer os sinais básicos do ultrassom pulmonar: deslizamento, linhas A, linhas B e pulso pulmonar.</li>
+<li>Diagnosticar pneumotórax pelo ultrassom e reconhecer o ponto pulmonar.</li>
+<li>Aplicar o protocolo BLUE na dispneia aguda.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Deslizamento pleural</dt>
+<dd>Movimento de vaivém da linha pleural a cada respiração, que no modo M gera o "sinal da praia"; indica pleuras em contato e pulmão ventilado.</dd>
+<dt>Linhas A</dt>
+<dd>Reverberações horizontais da pleura, equidistantes, que indicam ar abaixo da pleura (pulmão normal, DPOC ou pneumotórax).</dd>
+<dt>Linhas B</dt>
+<dd>Artefatos verticais em cauda de cometa que partem da pleura e apagam as linhas A; três ou mais por campo indicam síndrome intersticial (edema, pneumonia, fibrose).</dd>
+<dt>Ponto pulmonar</dt>
+<dd>Local onde o deslizamento aparece e desaparece com a respiração, marcando a borda do pneumotórax; especificidade próxima de 100%.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O ultrassom pulmonar à beira do leito lê artefatos, porque o ar não transmite o som. No pulmão <strong>normal</strong>, a linha pleural hiperecogênica <strong>desliza</strong> com a respiração, e abaixo dela aparecem <strong>linhas A</strong>, repetições horizontais da pleura; no modo M, o deslizamento desenha o "sinal da praia" (linhas retas acima, grãos de areia abaixo).</p>
+<p>No <strong>pneumotórax</strong>, o ar interposto bloqueia a visão da pleura visceral: o <strong>deslizamento desaparece</strong> (modo M com o "sinal da estratosfera" ou código de barras), as linhas A persistem, <strong>não há linhas B</strong> nem pulso pulmonar.</p>
+<p>O <strong>protocolo BLUE</strong> organiza a dispneia aguda em perfis: deslizamento com linhas A (perfil A) sugere DPOC, asma ou embolia, e pede pesquisa de trombose venosa; deslizamento com linhas B difusas (perfil B) é edema pulmonar; linhas B unilaterais ou assimétricas com consolidação apontam para pneumonia; ausência de deslizamento com linhas A e ponto pulmonar é pneumotórax; derrame pleural aparece como coleção anecoica com o pulmão flutuando ("sinal da água-viva") e o "sinal do sinusoide" no modo M.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Lado normal: desliza e tem linhas A. Lado do pneumotórax: não desliza, só linhas A, sem linhas B, e o ponto pulmonar confirma. Se a prova descreve linhas B ou pulso pulmonar num hemitórax, ali não há pneumotórax. A água-viva é derrame, o código de barras é pneumotórax, a praia é normal.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Normal: deslizamento pleural (sinal da praia) e linhas A; pulso pulmonar confirma contato pleural.</li>
+<li>Linhas B: síndrome intersticial; difusas e bilaterais no edema, focais na pneumonia; excluem pneumotórax no ponto examinado.</li>
+<li>Pneumotórax: sem deslizamento (código de barras), linhas A, sem linhas B nem pulso; ponto pulmonar é específico.</li>
+<li>Ausência de deslizamento isolada não é específica (aderência, apneia, intubação seletiva, DPOC grave).</li>
+<li>Protocolo BLUE: perfil A (DPOC, asma, embolia), perfil B (edema), consolidação (pneumonia), água-viva (derrame).</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os achados ultrassonográficos do pneumotórax? <details><summary>Resposta</summary>Ausência de deslizamento pleural, linhas A sem linhas B, ausência de pulso pulmonar e, de forma específica, o ponto pulmonar.</details></li>
+<li>Por que a ausência de deslizamento pleural isolada não confirma pneumotórax? <details><summary>Resposta</summary>Porque também ocorre em aderências pleurais, apneia, intubação seletiva, fibrose e DPOC grave; a confirmação vem do ponto pulmonar.</details></li>
+<li>O que é o sinal da água-viva? <details><summary>Resposta</summary>O pulmão flutuando dentro de um derrame pleural anecoico, movimentando-se com a respiração.</details></li>
+</ol>
+`,
+
+"unesp2025#53": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar os critérios GLIM para diagnosticar e graduar a desnutrição.</li>
+<li>Reconhecer a desnutrição no paciente obeso e no paciente com câncer.</li>
+<li>Indicar a terapia nutricional e prevenir a síndrome de realimentação.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Critérios GLIM</dt>
+<dd>Diagnóstico de desnutrição com pelo menos um critério fenotípico (perda de peso, IMC baixo, massa muscular reduzida) e um etiológico (ingestão ou absorção reduzida, inflamação por doença).</dd>
+<dt>Gravidade pelo GLIM</dt>
+<dd>Moderada: perda de 5 a 10% em seis meses ou 10 a 20% além; IMC abaixo de 20 (ou 22 acima de 70 anos). Grave: perda acima de 10% em seis meses ou 20% além; IMC abaixo de 18,5 (ou 20 acima de 70).</dd>
+<dt>Caquexia do câncer</dt>
+<dd>Perda de massa muscular por inflamação e anorexia tumorais, que não reverte só com nutrição; perda acima de 5% ou acima de 2% com IMC baixo ou sarcopenia.</dd>
+<dt>Triagem nutricional</dt>
+<dd>Primeiro passo do GLIM, com ferramentas validadas (NRS-2002, MUST, MNA-SF) em até 24 a 48 horas da internação.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A desnutrição hospitalar atinge 30 a 50% dos internados e piora infecções, cicatrização, tempo de internação e mortalidade, mas durante décadas faltou um critério universal. O consenso <strong>GLIM</strong>, de 2019, criou um diagnóstico em dois passos. Primeiro, a <strong>triagem</strong> de risco com um instrumento validado.</p>
+<p>O desenho do GLIM tem uma consequência deliberada: o <strong>obeso pode estar desnutrido</strong>.</p>
+<p>Diagnosticada a desnutrição, a <strong>terapia nutricional</strong> começa cedo: aconselhamento e suplementos orais hipercalóricos e hiperproteicos quando a via oral permite; nutrição enteral por sonda quando a ingestão fica abaixo de 60% das necessidades por mais de uma semana ou há disfagia, como no câncer de esôfago; parenteral quando o trato digestivo não funciona.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Não deixe o IMC enganar: 25% de perda de peso em dois meses é desnutrição grave pelo GLIM, mesmo em quem ainda está acima do peso. A prova monta exatamente esse paciente, obeso com câncer de esôfago e disfagia. Um fenótipo mais uma etiologia fazem o diagnóstico; a perda acima de 10% em seis meses dá a gravidade.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>GLIM: triagem e depois um critério fenotípico (perda de peso, IMC baixo, massa muscular reduzida) mais um etiológico (ingestão reduzida ou inflamação).</li>
+<li>Gravidade: moderada com perda de 5 a 10% em seis meses; grave com perda acima de 10% em seis meses ou 20% em mais tempo.</li>
+<li>O obeso pode estar gravemente desnutrido; obesidade sarcopênica tem pior prognóstico.</li>
+<li>Terapia: suplementos orais, enteral se ingestão abaixo de 60% ou disfagia, parenteral se o intestino falha; 25 a 30 kcal/kg e 1,2 a 1,5 g/kg de proteína.</li>
+<li>Realimentação gradual com fósforo, potássio, magnésio e tiamina no desnutrido grave; nutrição pré-operatória no câncer.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que combinação de critérios o GLIM exige para diagnosticar desnutrição? <details><summary>Resposta</summary>Pelo menos um critério fenotípico (perda de peso, IMC baixo ou massa muscular reduzida) e um etiológico (ingestão ou absorção reduzida, ou inflamação por doença).</details></li>
+<li>Qual perda de peso define desnutrição grave pelo GLIM? <details><summary>Resposta</summary>Perda não intencional acima de 10% em seis meses ou acima de 20% além de seis meses.</details></li>
+<li>Por que um paciente com IMC de 29 pode ser classificado como gravemente desnutrido? <details><summary>Resposta</summary>Porque o IMC é só um dos fenótipos; a perda maciça de peso e de massa muscular, somada à etiologia (câncer e disfagia), define a desnutrição independentemente do IMC.</details></li>
+</ol>
+`,
+
+"unesp2025#55": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir hipotireoidismo subclínico e confirmar o diagnóstico antes de tratar.</li>
+<li>Decidir o tratamento pelo nível de TSH, pela idade, pelos sintomas e pelos anticorpos.</li>
+<li>Prescrever e monitorar a levotiroxina.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Hipotireoidismo subclínico</dt>
+<dd>TSH acima do limite com T4 livre normal, confirmado em nova dosagem após dois a três meses; prevalência de 4 a 10%, maior em mulheres e idosos.</dd>
+<dt>Anti-TPO</dt>
+<dd>Anticorpo antiperoxidase, marcador de tireoidite de Hashimoto; sua positividade dobra a taxa de progressão para hipotireoidismo franco.</dd>
+<dt>Corte de 10 mUI/L</dt>
+<dd>Nível de TSH acima do qual as diretrizes recomendam tratar a maioria dos adultos, pelo risco de progressão e cardiovascular.</dd>
+<dt>Levotiroxina</dt>
+<dd>Dose inicial de 25 a 50 mcg/dia no subclínico (menor no idoso e cardiopata), em jejum, ajustada pelo TSH a cada 6 a 8 semanas.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O hipotireoidismo subclínico é laboratorial: <strong>TSH elevado com T4 livre normal</strong>, e o primeiro cuidado é <strong>confirmar</strong> em nova dosagem após dois a três meses, porque metade dos TSH discretamente elevados normaliza, sobretudo após doenças agudas, no idoso (cujo limite superior sobe para 6 a 7) e na obesidade. Excluem-se também o uso de amiodarona, lítio e inibidores de checkpoint e a fase de recuperação de tireoidites.</p>
+<p>A decisão de tratar segue o <strong>nível do TSH</strong>.</p>
+<p>A <strong>levotiroxina</strong> começa em dose baixa no subclínico, 25 a 50 mcg/dia (12,5 a 25 no idoso e no coronariopata), tomada em jejum, 30 a 60 minutos antes do café, separada de cálcio, ferro, inibidores de bomba de prótons e soja, e ajustada pelo TSH a cada 6 a 8 semanas até a faixa alvo (0,5 a 4,5 no adulto; até 6 a 7 no idoso); depois, TSH anual. O excesso causa fibrilação atrial e osteoporose, e por isso a meta no idoso é o limite superior da normalidade, não o inferior.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Confirme o TSH, depois aplique o corte: 10 ou mais trata; entre 4,5 e 10, trata se sintomas, anti-TPO positivo, bócio, dislipidemia ou gestação, e observa o idoso assintomático. Mulher de 63 anos com TSH de 10,7 e sintomas recebe levotiroxina em dose baixa. Ultrassom e risco cardiovascular não decidem acima de 10.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Subclínico: TSH alto com T4 livre normal, confirmado após dois a três meses; dosar anti-TPO.</li>
+<li>TSH de 10 ou mais: tratar a maioria dos adultos; individualizar acima de 70 anos.</li>
+<li>TSH entre 4,5 e 10: tratar com sintomas, anti-TPO positivo, bócio, dislipidemia, infertilidade ou gestação; observar os demais.</li>
+<li>Levotiroxina 25 a 50 mcg em jejum, menor no idoso e no cardiopata; ajustar pelo TSH a cada 6 a 8 semanas.</li>
+<li>Evitar excesso (fibrilação atrial, osteoporose); meta no idoso é o limite superior da normalidade.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o primeiro passo diante de um TSH elevado com T4 livre normal? <details><summary>Resposta</summary>Confirmar em nova dosagem após dois a três meses, excluindo doença aguda e fármacos, e dosar o anti-TPO.</details></li>
+<li>A partir de que valor de TSH o tratamento do hipotireoidismo subclínico é recomendado para a maioria dos adultos? <details><summary>Resposta</summary>TSH de 10 mUI/L ou mais, confirmado.</details></li>
+<li>Como se inicia e se monitora a levotiroxina no subclínico? <details><summary>Resposta</summary>25 a 50 mcg/dia em jejum (menos no idoso e no coronariopata), com TSH a cada 6 a 8 semanas até a meta e depois anualmente.</details></li>
+</ol>
+`,
+
+"unesp2025#59": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a leishmaniose tegumentar e confirmar o diagnóstico.</li>
+<li>Conhecer os esquemas terapêuticos do Ministério da Saúde e suas contraindicações.</li>
+<li>Escolher a anfotericina B lipossomal nos pacientes com cardiopatia, nefropatia, hepatopatia, gestação ou idade avançada.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Leishmaniose tegumentar</dt>
+<dd>Infecção por Leishmania (braziliensis, guyanensis, amazonensis) transmitida por flebotomíneos, com úlcera cutânea de bordas elevadas e fundo granuloso e risco de forma mucosa.</dd>
+<dt>Antimoniato de meglumina</dt>
+<dd>Primeira linha (10 a 20 mg Sb/kg/dia IM ou IV por 20 dias); cardiotóxico (QT, arritmias), nefrotóxico, hepatotóxico e pancreatotóxico.</dd>
+<dt>Anfotericina B lipossomal</dt>
+<dd>3 a 5 mg/kg/dia IV até 20 a 40 mg/kg; indicada quando o antimoniato é contraindicado ou falha; menos tóxica que a desoxicolato.</dd>
+<dt>Miltefosina</dt>
+<dd>Única droga oral, 2,5 mg/kg/dia por 28 dias; teratogênica, exige contracepção; disponibilidade restrita no SUS.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A leishmaniose tegumentar é endêmica em todo o Brasil, com 15 a 20 mil casos por ano, sobretudo em trabalhadores rurais e moradores de áreas de mata.</p>
+<p>O tratamento sistêmico é a regra, pela forma mucosa que a doença pode gerar, e a <strong>primeira linha</strong> no Brasil é o <strong>antimoniato de meglumina</strong> por 20 dias, com eletrocardiograma, função renal, hepática e amilase antes e durante, porque a droga prolonga o QT, causa arritmias e morte súbita, lesa rim, fígado e pâncreas e provoca artralgia e mialgia.</p>
+<p>O tratamento <strong>intralesional</strong> com antimoniato é aceito para lesão única, pequena, sem risco mucoso e em paciente que não pode receber droga sistêmica, assim como a termoterapia. A cura é clínica (reepitelização completa em até três meses) e o seguimento dura dois anos, com exame das mucosas; a forma mucosa exige esquemas mais longos e, na falha, anfotericina.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Úlcera de borda em moldura e fundo granuloso em agricultor com amastigotas no exame direto é leishmaniose; a pergunta é a droga. Antimoniato é o padrão, mas cardiopatia com bloqueio, doença renal, hepatopatia, gestação e idade avançada o proíbem, e a resposta vira anfotericina B lipossomal. Pentamidina no diabético é outro erro clássico.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Úlcera indolor de bordas elevadas e fundo granuloso em área endêmica; exame direto, cultura, histologia ou PCR; vigiar mucosa.</li>
+<li>Primeira linha: antimoniato de meglumina por 20 dias com monitorização de ECG, rim, fígado e pâncreas.</li>
+<li>Contraindicações do antimoniato: cardiopatia, nefropatia, hepatopatia, gestação, idade avançada com comorbidade, drogas que prolongam o QT.</li>
+<li>Nesses casos e na falha: anfotericina B lipossomal; desoxicolato se a lipossomal faltar; pentamidina só em L. guyanensis sem diabetes.</li>
+<li>Intralesional para lesão única pequena; cura clínica em três meses; seguimento de dois anos; notificação compulsória.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são as contraindicações ao antimoniato de meglumina? <details><summary>Resposta</summary>Cardiopatia (sobretudo arritmias e bloqueios), nefropatia, hepatopatia, gestação, idade avançada com comorbidades e uso de drogas que prolongam o QT.</details></li>
+<li>Qual é a droga de escolha para a leishmaniose tegumentar no cardiopata com doença renal crônica? <details><summary>Resposta</summary>A anfotericina B lipossomal, mais eficaz e menos tóxica que a desoxicolato e sem a cardiotoxicidade do antimoniato.</details></li>
+<li>Por que a pentamidina é especialmente perigosa no diabético? <details><summary>Resposta</summary>Porque causa hipoglicemia e pode precipitar diabetes, além de arritmias e nefrotoxicidade.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · Clínica Médica · FAMEMA 2026 (cm91–cm100) ----------------------------- */
+"famema2026#4": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar os choques em hipovolêmico, cardiogênico, obstrutivo e distributivo.</li>
+<li>Descrever o perfil hemodinâmico de cada tipo: pré-carga, débito e resistência.</li>
+<li>Usar o exame físico e o ultrassom à beira do leito para identificar o tipo e guiar o tratamento inicial.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Choque</dt>
+<dd>Falência circulatória com perfusão tecidual inadequada e hipóxia celular; hipotensão, oligúria, pele fria ou quente, alteração mental e lactato acima de 2 mmol/L.</dd>
+<dt>Pressão venosa central e pressão de oclusão da artéria pulmonar</dt>
+<dd>Estimativas da pré-carga direita e esquerda; altas no cardiogênico e no obstrutivo, baixas no hipovolêmico e no distributivo inicial.</dd>
+<dt>Resistência vascular sistêmica</dt>
+<dd>Tônus arteriolar; alta nos choques de baixo débito (hipovolêmico, cardiogênico, obstrutivo) e baixa no distributivo.</dd>
+<dt>Perfil hiperdinâmico</dt>
+<dd>Débito cardíaco alto com resistência baixa, pele quente e pressão de pulso alargada; sepse inicial, anafilaxia, insuficiência hepática.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O choque é um estado de perfusão insuficiente, e sua classificação por mecanismo orienta o tratamento.</p>
+<p>À beira do leito, três perguntas organizam: o paciente está <strong>frio ou quente</strong> (resistência alta ou baixa)? As <strong>jugulares</strong> estão colabadas ou ingurgitadas (pré-carga baixa ou alta)? O <strong>pulmão</strong> está úmido ou seco (congestão ou não)?</p>
+<p>O tratamento começa pelo mecanismo: volume e sangue no hipovolêmico, com controle da hemorragia; inotrópico (dobutamina), vasopressor com cautela, revascularização e suporte mecânico no cardiogênico, evitando volume; alívio da obstrução (pericardiocentese, drenagem torácica, trombólise ou embolectomia) no obstrutivo, com volume cauteloso na embolia; cristaloide e <strong>noradrenalina</strong> precoces, antibiótico e controle de foco na sepse; adrenalina na anafilaxia; vasopressor e atropina no neurogênico; hidrocortisona na insuficiência adrenal.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Grave o quadro mental: pré-carga alta é cardiogênico ou obstrutivo; pré-carga baixa é hipovolêmico ou distributivo; resistência baixa e pele quente é distributivo (sepse inicial com débito alto); pós-carga do ventrículo direito alta é embolia. Com isso você desmonta qualquer afirmação invertida, como PVC alta no hipovolêmico ou débito alto na embolia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Hipovolêmico: pré-carga baixa, débito baixo, resistência alta; frio, jugulares vazias, pulmão seco.</li>
+<li>Cardiogênico: pré-carga alta (PVC e oclusão altas), débito baixo, resistência alta; frio, jugulares cheias, pulmão úmido.</li>
+<li>Obstrutivo: PVC alta, débito baixo; embolia com pós-carga do VD elevada; tamponamento e pneumotórax impedem o enchimento.</li>
+<li>Distributivo: resistência baixa, débito alto na sepse inicial, pele quente, pressão de pulso ampla; pode virar frio tardiamente.</li>
+<li>Ultrassom à beira do leito identifica o tipo; tratamento pelo mecanismo, com reavaliação dinâmica e atenção aos choques mistos.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Como estão PVC e pressão de oclusão da artéria pulmonar no choque cardiogênico e por quê? <details><summary>Resposta</summary>Elevadas, porque a falência da bomba represa o sangue atrás dos ventrículos, aumentando as pressões de enchimento.</details></li>
+<li>Qual é o perfil hemodinâmico do choque séptico inicial? <details><summary>Resposta</summary>Hiperdinâmico: débito cardíaco alto, resistência vascular baixa, pele quente e pressão de pulso ampla, com PVC baixa ou normal.</details></li>
+<li>O que acontece com a pós-carga do ventrículo direito na embolia pulmonar maciça? <details><summary>Resposta</summary>Sobe abruptamente, dilatando o ventrículo direito e reduzindo o débito cardíaco.</details></li>
+</ol>
+`,
+
+"famema2026#7": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir a SDRA pelos critérios de Berlim e pela atualização global de 2023.</li>
+<li>Prescrever a ventilação protetora: volume, platô, driving pressure, PEEP e FiO2.</li>
+<li>Indicar prona, bloqueio neuromuscular e ECMO conforme a gravidade.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>SDRA</dt>
+<dd>Insuficiência respiratória aguda em até uma semana de um insulto, com opacidades bilaterais não explicadas por derrame, colapso ou nódulos, e hipoxemia não cardiogênica; leve, moderada ou grave pela PaO2/FiO2 (300, 200, 100) com PEEP de 5.</dd>
+<dt>Peso predito</dt>
+<dd>Calculado pela altura e pelo sexo (homens: 50 + 0,91 × [altura em cm − 152,4]; mulheres: 45,5 + 0,91 × [...]); base do volume corrente, porque o pulmão não cresce com a gordura.</dd>
+<dt>Driving pressure</dt>
+<dd>Pressão de platô menos PEEP; reflete a tensão sobre o pulmão aerado ("baby lung"); abaixo de 15 cmH2O associa-se a menor mortalidade.</dd>
+<dt>Posição prona</dt>
+<dd>Decúbito ventral por 16 horas ou mais por dia, na PaO2/FiO2 abaixo de 150; homogeneíza a ventilação e reduz a mortalidade (PROSEVA).</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A SDRA é a resposta inflamatória difusa do pulmão a um insulto direto (pneumonia, aspiração, contusão, afogamento) ou indireto (sepse, pancreatite, transfusão, trauma), com lesão da barreira alvéolo-capilar, edema rico em proteína, colapso e perda de complacência; o pulmão funcional fica pequeno e heterogêneo.</p>
+<p>Os componentes são precisos.</p>
+<p>Na SDRA com PaO2/FiO2 abaixo de 150 após 12 a 24 horas de ventilação otimizada, a <strong>posição prona</strong> por pelo menos 16 horas diárias reduz a mortalidade em cerca de 15 pontos percentuais e deve ser aplicada precocemente, com equipe treinada para evitar extubação acidental e úlceras de pressão. As manobras de recrutamento de rotina e a PEEP muito alta não melhoraram desfechos e aumentaram mortalidade num grande ensaio; o óxido nítrico inalado melhora a oxigenação sem mudar sobrevida; corticoide (dexametasona) tem benefício na SDRA moderada a grave precoce e na COVID-19.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A resposta certa na SDRA é sempre a tríade protetora: 6 mL/kg de peso predito, platô até 30 e PEEP ajustada (com FiO2 mínima). Volumes de 10 mL/kg, FiO2 de 100% fixa e PEEP mínima são os distratores que lesam o pulmão. Abaixo de 150 de relação, prone; abaixo de 80, pense em ECMO.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>SDRA: início em uma semana, opacidades bilaterais, hipoxemia não cardiogênica; leve, moderada e grave por PaO2/FiO2 de 300, 200 e 100.</li>
+<li>Protetora: 6 mL/kg de peso predito, platô até 30, driving pressure abaixo de 15, PEEP titulada, FiO2 abaixo de 60%, hipercapnia permissiva com pH acima de 7,20.</li>
+<li>Sedação e bloqueio neuromuscular nas assincronias graves das primeiras 48 horas; balanço hídrico conservador.</li>
+<li>Prona 16 h/dia se PaO2/FiO2 abaixo de 150 após otimização; corticoide na moderada a grave precoce; recrutamento de rotina não.</li>
+<li>ECMO venovenosa na hipoxemia ou hipercapnia refratária; tratar a causa.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o volume corrente é calculado pelo peso predito e não pelo peso real? <details><summary>Resposta</summary>Porque o tamanho do pulmão depende da altura e do sexo, não da massa corporal; usar o peso real hiperdistende o pulmão do obeso.</details></li>
+<li>Quais são os limites de pressão de platô e de driving pressure na SDRA? <details><summary>Resposta</summary>Platô até 30 cmH2O e driving pressure (platô menos PEEP) abaixo de 15 cmH2O.</details></li>
+<li>Quando a posição prona está indicada e por quanto tempo? <details><summary>Resposta</summary>Com PaO2/FiO2 abaixo de 150 após 12 a 24 horas de ventilação protetora otimizada, por pelo menos 16 horas por dia.</details></li>
+</ol>
+`,
+
+"famema2026#10": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a cefaleia em trovoada e suas causas graves.</li>
+<li>Aplicar a regra das seis horas da tomografia e indicar a punção lombar.</li>
+<li>Interpretar o líquor (hemácias, xantocromia) e seguir para a angiotomografia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Cefaleia em trovoada</dt>
+<dd>Dor que atinge intensidade máxima em menos de um minuto; hemorragia subaracnóidea até prova em contrário, além de dissecção arterial, trombose venosa, apoplexia hipofisária e vasoconstrição reversível.</dd>
+<dt>Regra das seis horas</dt>
+<dd>Tomografia sem contraste feita em até seis horas do início, em aparelho moderno e laudada por radiologista experiente, tem sensibilidade próxima de 100% para hemorragia subaracnóidea.</dd>
+<dt>Xantocromia</dt>
+<dd>Cor amarelada do sobrenadante do líquor por bilirrubina derivada da degradação das hemácias; surge após 12 horas e persiste por duas semanas; distingue hemorragia de acidente de punção.</dd>
+<dt>Regra de Ottawa</dt>
+<dd>Idade de 40 ou mais, dor ou rigidez cervical, perda de consciência, início no esforço, trovoada e flexão cervical limitada; qualquer um presente exige investigação.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A cefaleia em trovoada é um sinal de alarme absoluto: um quarto dos pacientes tem hemorragia subaracnóidea, cuja mortalidade chega a 50% e cujo ressangramento precoce é frequentemente fatal, e os demais diagnósticos possíveis também são graves.</p>
+<p>O primeiro exame é a <strong>tomografia de crânio sem contraste</strong>.</p>
+<p>Confirmada a hemorragia, a <strong>angiotomografia</strong> procura o aneurisma (presente em 85%), e a arteriografia digital é o padrão quando a angiotomografia é negativa ou para o planejamento do tratamento; a hemorragia perimesencefálica não aneurismática tem bom prognóstico.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pior cefaleia da vida com rigidez de nuca e tomografia normal: punção lombar, procurando hemácias persistentes e xantocromia. A tomografia só exclui quando feita em até seis horas e sem sinais meníngeos. Angiotomografia é para achar o aneurisma depois, não para excluir o sangramento antes. Analgésico e observação é a resposta errada que mata.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Trovoada: pico em menos de um minuto; hemorragia subaracnóidea em 25%; regra de Ottawa seleciona quem investigar.</li>
+<li>Tomografia sem contraste até seis horas quase exclui; depois disso, a sensibilidade cai e a punção lombar é obrigatória.</li>
+<li>Punção após 12 horas: hemácias estáveis nos quatro tubos e xantocromia confirmam; queda de hemácias e sobrenadante claro indicam acidente de punção.</li>
+<li>Confirmada a hemorragia, angiotomografia e, se negativa, arteriografia para o aneurisma.</li>
+<li>Investigação negativa: vasoconstrição reversível, dissecção, trombose venosa, apoplexia hipofisária; angiografia arterial e venosa e ressonância.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em que condições a tomografia normal exclui a hemorragia subaracnóidea sem punção lombar? <details><summary>Resposta</summary>Quando feita até seis horas do início, em aparelho moderno, laudada por radiologista experiente, em paciente sem rigidez de nuca e com exame neurológico normal.</details></li>
+<li>Como a punção lombar distingue hemorragia subaracnóidea de acidente de punção? <details><summary>Resposta</summary>Pela persistência das hemácias do primeiro ao quarto tubo e pela xantocromia do sobrenadante na hemorragia; no acidente, as hemácias caem e o sobrenadante é claro.</details></li>
+<li>Por que a angiotomografia não substitui a punção na investigação inicial? <details><summary>Resposta</summary>Porque aneurismas incidentais ocorrem em 2 a 3% das pessoas e sua presença não prova sangramento, nem sua ausência o exclui; ela serve para localizar o aneurisma após a confirmação.</details></li>
+</ol>
+`,
+
+"famema2026#11": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar a lesão renal aguda em pré-renal, intrínseca e pós-renal.</li>
+<li>Interpretar os índices urinários e conhecer suas limitações com diuréticos.</li>
+<li>Conduzir a lesão pré-renal no cardiopata com perdas digestivas e polifarmácia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Lesão renal aguda pré-renal</dt>
+<dd>Queda da filtração por hipoperfusão, com túbulos íntegros que reabsorvem sódio e água ao máximo; reversível com a correção da causa.</dd>
+<dt>Fração de excreção de sódio (FeNa)</dt>
+<dd>Sódio excretado em relação ao filtrado; abaixo de 1% sugere pré-renal, acima de 2% necrose tubular; inválida sob diuréticos, na doença renal crônica e em algumas intrínsecas.</dd>
+<dt>Fração de excreção de ureia (FeUreia)</dt>
+<dd>Ureia excretada em relação à filtrada, reabsorvida no túbulo proximal e não afetada pelo diurético de alça; abaixo de 35% indica pré-renal, acima de 50% necrose tubular.</dd>
+<dt>Densidade e osmolalidade urinárias</dt>
+<dd>Urina concentrada (densidade acima de 1.020, osmolalidade acima de 500) indica túbulos funcionantes e causa pré-renal; isostenúria (1.010, 300) sugere lesão tubular.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A lesão renal aguda, definida pelo KDIGO por elevação da creatinina ou queda da diurese, é classificada pelo local do problema.</p>
+<p>Os <strong>índices urinários</strong> perguntam ao túbulo se ele está funcionando.</p>
+<p>O tratamento da pré-renal é corrigir a causa: <strong>reposição volêmica</strong> guiada por resposta na hipovolemia, otimização do débito na insuficiência cardíaca (que pode exigir diurético, não volume, na síndrome cardiorrenal congestiva), e <strong>suspensão temporária</strong> das drogas que agravam a hemodinâmica renal: diuréticos, inibidores da ECA, BRA, sacubitril-valsartana, antagonistas mineralocorticoides e inibidores de SGLT2 ("regras do dia de doença"), além de anti-inflamatórios e metformina.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Cardiopata em furosemida com vômitos e diarreia, oligúria e creatinina dobrada: pré-renal, e o exame que confirma é a FeUreia abaixo de 35% (ou a densidade alta), porque a FeNa está falsamente elevada pelo diurético. Soro, pausar diurético, bloqueador do SRAA e gliflozina por uns dias, e reintroduzir ao recuperar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Pré-renal: hipoperfusão com túbulos íntegros; intrínseca: necrose tubular, intersticial, glomerular, vascular; pós-renal: obstrução.</li>
+<li>Pré-renal: sódio urinário abaixo de 20, FeNa abaixo de 1%, densidade acima de 1.020, ureia/creatinina acima de 40, sedimento limpo.</li>
+<li>FeNa falha com diuréticos, doença renal crônica, glomerulonefrite, contraste, pigmento e obstrução precoce.</li>
+<li>FeUreia abaixo de 35% indica pré-renal mesmo sob diurético; acima de 50%, necrose tubular.</li>
+<li>Tratar a causa: volume, pausar diurético, IECA/BRA, sacubitril, espironolactona, SGLT2, AINE e metformina; reintroduzir na recuperação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a fração de excreção de sódio não serve para quem usa diurético de alça? <details><summary>Resposta</summary>Porque o diurético força a excreção de sódio e eleva a FeNa mesmo quando o rim está hipoperfundido e os túbulos íntegros.</details></li>
+<li>Qual índice urinário substitui a FeNa nesse caso e qual é o corte para pré-renal? <details><summary>Resposta</summary>A fração de excreção de ureia, com valor abaixo de 35% indicando lesão pré-renal.</details></li>
+<li>Que medicamentos devem ser pausados durante a lesão renal aguda pré-renal do cardiopata? <details><summary>Resposta</summary>Diuréticos, inibidores da ECA ou BRA, sacubitril-valsartana, antagonistas mineralocorticoides, inibidores de SGLT2, anti-inflamatórios e metformina, com reintrodução na recuperação.</details></li>
+</ol>
+`,
+
+"famema2026#14": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Organizar os cuidados pós-parada cardíaca: hemodinâmica, ventilação, coronariografia e neuroproteção.</li>
+<li>Aplicar o controle direcionado de temperatura e a prevenção da febre.</li>
+<li>Conduzir o prognóstico neurológico de forma multimodal e no tempo certo.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Síndrome pós-parada cardíaca</dt>
+<dd>Lesão cerebral anóxica, disfunção miocárdica, resposta sistêmica de isquemia-reperfusão e a patologia que causou a parada.</dd>
+<dt>Controle direcionado de temperatura</dt>
+<dd>Manutenção ativa da temperatura central numa faixa definida (32 a 36 ºC nas diretrizes de 2020; 32 a 37,5 ºC com prevenção de febre nas atualizações pós-TTM2) por pelo menos 24 horas, com reaquecimento lento.</dd>
+<dt>Estudos TTM e TTM2</dt>
+<dd>TTM (2013): 33 ºC igual a 36 ºC; TTM2 (2021): 33 ºC igual à normotermia com tratamento de febre; ambos sem diferença de mortalidade ou desfecho neurológico.</dd>
+<dt>Prognóstico multimodal</dt>
+<dd>Após 72 horas sem sedação: exame neurológico (pupilas, córneo, motor), potenciais evocados somatossensitivos, enolase neurônio-específica, eletroencefalograma e imagem; nunca um sinal isolado.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O retorno da circulação espontânea é o começo de uma segunda fase crítica.</p>
+<p>A febre após a parada piora o desfecho neurológico, e a hipotermia induzida foi, por duas décadas, o pilar da neuroproteção, com base em ensaios de 2002 que mostraram benefício a 32 a 34 ºC.</p>
+<p>O <strong>prognóstico neurológico</strong> é a decisão mais delicada e não pode ser antecipada: a sedação, a hipotermia e a disfunção de órgãos mascaram o exame, e por isso a avaliação formal só começa <strong>72 horas após o retorno à normotermia</strong>, livre de sedativos, e deve ser <strong>multimodal</strong>: ausência bilateral de reflexos pupilar e córneo, resposta motora ausente ou em extensão, ausência bilateral da onda N20 nos potenciais evocados, enolase muito elevada, eletroencefalograma com padrão altamente maligno (supressão, surto-supressão) e edema difuso ou perda da diferenciação na imagem.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Comatoso após parada em fibrilação ventricular: cateterismo se o infarto é provável, pressão média de 65 ou mais, normoxemia e normocapnia, glicemia controlada e controle direcionado de temperatura (32 a 36 ºC por 24 horas ou mais, depois sem febre). Não resfrie abaixo de 32, não dê corticoide e não dê prognóstico antes de 72 horas sem sedação.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Síndrome pós-parada: lesão cerebral, disfunção miocárdica, isquemia-reperfusão sistêmica e causa persistente; coronariografia se infarto provável.</li>
+<li>Hemodinâmica com PAM de 65 ou mais; saturação de 92 a 98% sem hiperóxia; normocapnia; glicemia de 140 a 180; tratar convulsões.</li>
+<li>Controle direcionado de temperatura em todo comatoso: 32 a 36 ºC (ou até 37,5 com prevenção ativa de febre) por pelo menos 24 horas, reaquecimento lento, sem febre por 72 horas.</li>
+<li>Não resfriar abaixo de 32 ºC; corticoide em alta dose não protege o cérebro.</li>
+<li>Prognóstico multimodal após 72 horas sem sedação: pupilas, córneo, motor, potenciais evocados, enolase, EEG e imagem.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a faixa de temperatura e a duração mínima do controle direcionado de temperatura pós-parada? <details><summary>Resposta</summary>Entre 32 e 36 ºC (as atualizações aceitam até 37,5 com prevenção ativa de febre), mantida por pelo menos 24 horas, com reaquecimento lento.</details></li>
+<li>Por que não se resfria o paciente abaixo de 32 ºC? <details><summary>Resposta</summary>Porque aumenta arritmias, coagulopatia e infecções sem benefício neurológico adicional.</details></li>
+<li>Quando e como se define o prognóstico neurológico após a parada? <details><summary>Resposta</summary>Pelo menos 72 horas após o retorno à normotermia e sem sedação, de forma multimodal, exigindo dois ou mais achados concordantes.</details></li>
+</ol>
+`,
+
+"famema2026#16": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Calcular o CURB-65 e o CRB-65 e traduzi-los em local de tratamento.</li>
+<li>Conhecer os critérios de gravidade da ATS/IDSA para a internação em UTI.</li>
+<li>Escolher o antibiótico empírico da pneumonia adquirida na comunidade conforme o cenário.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>CURB-65</dt>
+<dd>Confusão, ureia acima de 50 mg/dL (ou 43 nas versões com 7 mmol/L), frequência respiratória de 30 ou mais, pressão sistólica abaixo de 90 ou diastólica de 60 ou menos, idade de 65 ou mais; um ponto cada.</dd>
+<dt>CRB-65</dt>
+<dd>Versão sem a ureia, para a atenção primária: 0 trata em casa, 1 a 2 considera internar, 3 a 4 interna com urgência.</dd>
+<dt>Critérios ATS/IDSA de pneumonia grave</dt>
+<dd>Um maior (ventilação mecânica invasiva ou choque com vasopressor) ou três menores (FR de 30 ou mais, PaO2/FiO2 de 250 ou menos, infiltrado multilobar, confusão, ureia de 43 ou mais, leucopenia, plaquetopenia, hipotermia, hipotensão que exige volume).</dd>
+<dt>Pneumonia Severity Index</dt>
+<dd>Escore de 20 variáveis em cinco classes; mais acurado para identificar baixo risco, porém trabalhoso.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A decisão mais importante na pneumonia adquirida na comunidade é onde tratar, porque ela define o antibiótico, a via e o custo, e a estimativa subjetiva erra para os dois lados. O <strong>CURB-65</strong> é o escore mais simples: cinco critérios de <strong>igual peso</strong>, um ponto cada.</p>
+<p>A necessidade de <strong>UTI</strong> é definida pelos critérios da <strong>ATS/IDSA</strong>: um critério maior (ventilação mecânica ou choque séptico) ou três menores.</p>
+<p>O <strong>antibiótico</strong> segue o cenário. Ambulatorial sem comorbidades: amoxicilina em dose alta ou macrolídeo (claritromicina, azitromicina), por 5 a 7 dias, ou doxiciclina. Ambulatorial com comorbidades (DPOC, diabetes, insuficiência cardíaca, renal, hepática, alcoolismo, neoplasia): amoxicilina-clavulanato ou cefuroxima associados a macrolídeo, ou quinolona respiratória (levofloxacino, moxifloxacino) isolada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>CURB-65 é um ponto por letra, sem pesos: 0 a 1 em casa, 2 na enfermaria, 3 ou mais pensa em UTI, e quem define a UTI de verdade são os critérios da ATS/IDSA. Idade de 65 sozinha não interna ninguém. Confira sempre a saturação, porque o CURB-65 não a inclui e ela interna por si só.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>CURB-65: confusão, ureia acima de 50, FR de 30 ou mais, PA abaixo de 90/60, idade de 65 ou mais; um ponto cada.</li>
+<li>0 a 1: ambulatorial; 2: internação; 3 ou mais: alto risco, avaliar UTI; CRB-65 na atenção primária.</li>
+<li>Complementar com saturação, comorbidades, via oral e suporte social; UTI pelos critérios ATS/IDSA (1 maior ou 3 menores).</li>
+<li>Antibiótico: amoxicilina ou macrolídeo em casa; betalactâmico mais macrolídeo ou quinolona nos internados; MRSA e Pseudomonas só com fatores de risco.</li>
+<li>Duração de 5 a 7 dias com estabilidade clínica; corticoide na pneumonia grave com insuficiência respiratória.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os cinco critérios do CURB-65 e qual é o peso de cada um? <details><summary>Resposta</summary>Confusão, ureia acima de 50 mg/dL, frequência respiratória de 30 ou mais, pressão sistólica abaixo de 90 ou diastólica de 60 ou menos, e idade de 65 anos ou mais; um ponto cada.</details></li>
+<li>Que conduta corresponde a cada faixa do CURB-65? <details><summary>Resposta</summary>0 a 1: tratamento ambulatorial; 2: internação hospitalar; 3 ou mais: alto risco de morte, internação com avaliação de UTI.</details></li>
+<li>O que define pneumonia grave com indicação de UTI pelos critérios ATS/IDSA? <details><summary>Resposta</summary>Um critério maior (ventilação mecânica invasiva ou choque séptico) ou três critérios menores.</details></li>
+</ol>
+`,
+
+"famema2026#94": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar a definição e o estadiamento KDIGO da lesão renal aguda.</li>
+<li>Diferenciar lesão renal aguda, doença renal aguda e doença renal crônica.</li>
+<li>Reconhecer as indicações de terapia de substituição renal.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Definição KDIGO de lesão renal aguda</dt>
+<dd>Creatinina com aumento de 0,3 mg/dL em 48 horas, ou 1,5 vez o basal em sete dias, ou diurese abaixo de 0,5 mL/kg/h por seis horas.</dd>
+<dt>Estágios KDIGO</dt>
+<dd>1: creatinina 1,5 a 1,9 × ou +0,3, diurese abaixo de 0,5 por 6 a 12 h; 2: 2 a 2,9 ×, diurese abaixo de 0,5 por 12 h ou mais; 3: 3 × ou mais, ou 4 mg/dL ou mais, ou diálise, ou diurese abaixo de 0,3 por 24 h ou anúria por 12 h.</dd>
+<dt>Doença renal aguda</dt>
+<dd>Alteração de função ou estrutura renal com duração de 7 a 90 dias, ponte entre a lesão aguda e a doença crônica.</dd>
+<dt>Doença renal crônica</dt>
+<dd>TFG abaixo de 60 ou marcador de dano renal por mais de 90 dias.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Até 2012 conviviam várias definições de lesão renal aguda (RIFLE, AKIN), e o <strong>KDIGO</strong> as unificou com dois parâmetros simples: a <strong>creatinina sérica</strong> e o <strong>débito urinário</strong>. Há lesão renal aguda quando a creatinina sobe <strong>0,3 mg/dL ou mais em 48 horas</strong>, ou <strong>1,5 vez o valor basal</strong> conhecido ou presumido nos últimos sete dias, ou quando a diurese fica <strong>abaixo de 0,5 mL/kg/hora por seis horas</strong>.</p>
+<p>O <strong>estadiamento</strong> em três estágios usa o pior dos dois critérios e orienta prognóstico e conduta: o estágio 1 pede revisão de medicamentos, volemia e nefrotóxicos; o 2, monitorização intensiva e ajuste de doses; o 3, avaliação de diálise.</p>
+<p>O manejo é de suporte e de proteção: tratar a causa, otimizar a volemia com reavaliação dinâmica (nem hipovolemia nem sobrecarga), manter pressão de perfusão, suspender nefrotóxicos (anti-inflamatórios, aminoglicosídeos, contraste, vancomicina quando possível) e ajustar doses, controlar potássio, acidose e fósforo, e oferecer nutrição adequada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>KDIGO é creatinina e diurese, nada mais: 0,3 em 48 horas, 1,5 vez em sete dias, 0,5 mL/kg/h por seis horas. Relação ureia/creatinina e FeNa são ferramentas de causa, não de definição, e 1 mL/kg/h é um corte inventado. Estágio 3 é creatinina três vezes o basal, acima de 4 ou diálise.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Definição KDIGO: creatinina +0,3 mg/dL em 48 h, ou 1,5 × o basal em 7 dias, ou diurese abaixo de 0,5 mL/kg/h por 6 h.</li>
+<li>Estágios 1 a 3 pelo pior critério; estágio 3 inclui creatinina 3 ×, acima de 4 mg/dL, diálise, diurese abaixo de 0,3 por 24 h ou anúria por 12 h.</li>
+<li>Lesão aguda até 7 dias; doença renal aguda de 7 a 90; doença crônica acima de 90; podem se sobrepor.</li>
+<li>FeNa, ureia/creatinina e densidade classificam a causa, não definem a lesão.</li>
+<li>Suporte: volemia, perfusão, retirar nefrotóxicos, ajustar doses; diálise por complicações refratárias; seguimento em 90 dias.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os três critérios que definem lesão renal aguda pelo KDIGO? <details><summary>Resposta</summary>Aumento da creatinina de 0,3 mg/dL ou mais em 48 horas, aumento de 1,5 vez o basal em sete dias, ou diurese abaixo de 0,5 mL/kg/h por seis horas.</details></li>
+<li>O que define o estágio 3 da lesão renal aguda? <details><summary>Resposta</summary>Creatinina três vezes o basal ou acima de 4 mg/dL, início de diálise, diurese abaixo de 0,3 mL/kg/h por 24 horas ou anúria por 12 horas.</details></li>
+<li>Como se diferenciam lesão renal aguda, doença renal aguda e doença renal crônica? <details><summary>Resposta</summary>Pelo tempo: até 7 dias, de 7 a 90 dias e acima de 90 dias, respectivamente.</details></li>
+</ol>
+`,
+
+"famema2026#96": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Correlacionar os territórios das artérias cerebrais com as síndromes clínicas do AVC.</li>
+<li>Reconhecer a síndrome da artéria cerebral posterior e suas variantes talâmicas.</li>
+<li>Distinguir as síndromes de circulação anterior e posterior para o diagnóstico e a conduta.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Artéria cerebral média</dt>
+<dd>Irriga a convexidade frontoparietotemporal, a cápsula interna e os gânglios da base; hemiparesia e hemi-hipoestesia braquiofaciais, afasia (esquerda) ou negligência (direita), desvio do olhar.</dd>
+<dt>Artéria cerebral anterior</dt>
+<dd>Irriga a face medial dos lobos frontal e parietal; paresia e hipoestesia crurais, abulia, incontinência, reflexo de preensão.</dd>
+<dt>Artéria cerebral posterior</dt>
+<dd>Irriga o lobo occipital, a face inferomedial do temporal e, por perfurantes, o tálamo e o mesencéfalo; hemianopsia homônima, déficit sensitivo talâmico, alexia sem agrafia, amnésia.</dd>
+<dt>Hemianopsia homônima</dt>
+<dd>Perda do mesmo hemicampo visual nos dois olhos, por lesão retroquiasmática contralateral; com preservação macular na lesão occipital por dupla irrigação do polo.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O AVC isquêmico produz síndromes previsíveis porque cada artéria tem território fixo, e reconhecer o território orienta a imagem, a busca da fonte embólica e as decisões de trombólise e trombectomia.</p>
+<p>A <strong>circulação posterior</strong> (vertebrobasilar) nutre tronco, cerebelo e as cerebrais posteriores.</p>
+<p>Clinicamente, a distinção importa. Síndromes da circulação posterior podem apresentar-se com vertigem, diplopia, disartria, ataxia e rebaixamento, confundem-se com causas benignas e exigem atenção à artéria basilar, cuja oclusão é devastadora e beneficia-se de trombectomia em janela ampliada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Hemianopsia homônima com hemi-hipoestesia e força preservada é cerebral posterior (occipital mais tálamo). Se houvesse hemiparesia braquiofacial com afasia ou negligência, seria cerebral média; se o déficit fosse da perna, cerebral anterior. Déficits "só de visão e sensibilidade" pontuam pouco no NIHSS, mas são AVC e merecem a mesma pressa.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Cerebral média: hemiparesia e hipoestesia braquiofaciais, desvio do olhar, afasia (esquerda) ou negligência (direita), hemianopsia possível.</li>
+<li>Cerebral anterior: déficit crural, abulia, incontinência, reflexos frontais.</li>
+<li>Cerebral posterior: hemianopsia homônima com preservação macular (occipital) e hemi-hipoestesia global (tálamo), sem fraqueza; alexia sem agrafia, amnésia.</li>
+<li>Circulação posterior: vertigem, diplopia, ataxia, rebaixamento; NIHSS subestima; ressonância com difusão é mais sensível; atenção à basilar.</li>
+<li>Conduta aguda igual: tomografia, trombólise até 4,5 h, angiotomografia e trombectomia; prevenção secundária pela fonte.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que estruturas a artéria cerebral posterior irriga e que déficits sua oclusão produz? <details><summary>Resposta</summary>O lobo occipital e o tálamo, produzindo hemianopsia homônima contralateral com preservação macular e hemi-hipoestesia de todas as modalidades, sem fraqueza.</details></li>
+<li>Como se distingue a síndrome da cerebral média da síndrome da cerebral posterior? <details><summary>Resposta</summary>A cerebral média causa hemiparesia braquiofacial com afasia ou negligência; a posterior causa déficit visual e sensitivo sem fraqueza nem afasia.</details></li>
+<li>Por que a tomografia inicial pode falhar no AVC de circulação posterior? <details><summary>Resposta</summary>Porque a fossa posterior sofre artefatos ósseos e os infartos pequenos de tronco e tálamo não aparecem; a ressonância com difusão é mais sensível.</details></li>
+</ol>
+`,
+
+"famema2026#98": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Entender o que a capnografia mede durante a reanimação cardiopulmonar.</li>
+<li>Usar o ETCO2 para confirmar a via aérea, avaliar as compressões e detectar o retorno da circulação.</li>
+<li>Interpretar o valor de 10 mmHg no prognóstico e na decisão de interromper a reanimação.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Capnografia com forma de onda</dt>
+<dd>Registro contínuo do CO2 exalado ao longo do ciclo respiratório; o valor ao fim da expiração (ETCO2) reflete a ventilação alveolar e o fluxo sanguíneo pulmonar.</dd>
+<dt>ETCO2 na parada</dt>
+<dd>Com ventilação constante, o CO2 exalado depende do débito cardíaco gerado pelas compressões; valores de 10 a 20 mmHg indicam compressões eficazes.</dd>
+<dt>Elevação abrupta do ETCO2</dt>
+<dd>Salto para 35 a 40 mmHg ou mais durante a RCP, sinal mais precoce de retorno da circulação espontânea, antes do pulso palpável.</dd>
+<dt>Critérios para interromper a RCP</dt>
+<dd>Decisão multifatorial: ritmo não chocável persistente, parada não presenciada, sem retorno após 20 minutos de suporte avançado e ETCO2 persistentemente abaixo de 10 mmHg.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O CO2 que chega ao pulmão depende de três coisas: produção tecidual, transporte pelo sangue e ventilação alveolar. Durante a parada cardíaca, com o paciente intubado e ventilado de forma constante (10 ventilações por minuto), a produção é estável e a ventilação é fixa; o que varia é o <strong>fluxo sanguíneo pulmonar</strong>, isto é, o débito cardíaco gerado pelas compressões.</p>
+<p>Os números orientam.</p>
+<p>No <strong>prognóstico</strong>, o ETCO2 <strong>persistentemente abaixo de 10 mmHg após 20 minutos</strong> de suporte avançado em paciente intubado associa-se a probabilidade muito baixa de retorno da circulação e de sobrevida, e é um dos elementos, junto com ritmo não chocável, parada não presenciada e ausência de causa reversível, que apoiam a decisão de interromper a reanimação; nunca deve ser usado isoladamente, nem nos primeiros minutos, nem em paradas por hipotermia, afogamento ou intoxicação, nem com ventilação por máscara, em que a medida é imprecisa.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Durante a RCP, ETCO2 abaixo de 10 é mau sinal: ou as compressões estão ruins ou o prognóstico é sombrio; acima de 20 é o alvo; salto para 40 é o coração voltando. Nenhum valor de ETCO2 diagnostica tamponamento ou obstrução de via aérea por si só, e a decisão de parar a reanimação é sempre multifatorial.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Na parada, com ventilação fixa, o ETCO2 reflete o débito cardíaco das compressões.</li>
+<li>Confirma e monitora a posição do tubo traqueal melhor que a ausculta.</li>
+<li>Meta durante a RCP: acima de 10, idealmente acima de 20 mmHg; abaixo de 10 pede corrigir técnica ou trocar socorrista.</li>
+<li>Elevação abrupta para 35 a 40 mmHg ou mais é o sinal mais precoce de retorno da circulação.</li>
+<li>Abaixo de 10 mmHg após 20 minutos de suporte avançado: prognóstico muito ruim; apoia, mas não decide sozinho, a interrupção; após o retorno, manter 35 a 40.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que determina o valor do ETCO2 durante a reanimação cardiopulmonar? <details><summary>Resposta</summary>Com ventilação constante, o fluxo sanguíneo pulmonar gerado pelas compressões, ou seja, a qualidade da RCP.</details></li>
+<li>Que valor de ETCO2 indica compressões inadequadas e o que fazer? <details><summary>Resposta</summary>Abaixo de 10 mmHg; corrigir profundidade, frequência e apoio, trocar o socorrista e evitar hiperventilação.</details></li>
+<li>Como o ETCO2 anuncia o retorno da circulação espontânea? <details><summary>Resposta</summary>Por uma elevação abrupta para 35 a 40 mmHg ou mais, antes mesmo do pulso palpável.</details></li>
+</ol>
+`,
+
+"famema2026#99": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir sepse e choque séptico pelo Sepsis-3 e entender o papel do SOFA.</li>
+<li>Comparar SIRS, qSOFA, NEWS e MEWS como ferramentas de triagem.</li>
+<li>Aplicar a recomendação da Surviving Sepsis Campaign sobre triagem no departamento de emergência.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Sepsis-3</dt>
+<dd>Sepse é disfunção orgânica ameaçadora à vida causada por resposta desregulada à infecção, operacionalizada como aumento de 2 pontos no SOFA; choque séptico é sepse com vasopressor para PAM de 65 e lactato acima de 2 após volume.</dd>
+<dt>qSOFA</dt>
+<dd>Frequência respiratória de 22 ou mais, pressão sistólica de 100 ou menos, alteração do estado mental; dois ou mais pontos indicam alto risco de morte, com baixa sensibilidade.</dd>
+<dt>SIRS</dt>
+<dd>Temperatura acima de 38 ou abaixo de 36, frequência cardíaca acima de 90, respiratória acima de 20 ou PaCO2 abaixo de 32, leucócitos acima de 12.000 ou abaixo de 4.000 ou mais de 10% de bastões; dois ou mais; sensível e inespecífico.</dd>
+<dt>NEWS</dt>
+<dd>National Early Warning Score: frequência respiratória, saturação, oxigênio suplementar, temperatura, pressão sistólica, frequência cardíaca e consciência; 5 ou mais indica alto risco; melhor acurácia global.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O Sepsis-3 mudou o conceito: sepse deixou de ser infecção com SIRS e passou a ser infecção com <strong>disfunção orgânica</strong>, medida pelo <strong>SOFA</strong> (respiração, coagulação, fígado, cardiovascular, sistema nervoso e rim), com aumento de 2 pontos sobre o basal.</p>
+<p>Os estudos de validação mostraram as limitações.</p>
+<p>Na prática, a triagem é um sistema, não um número: aferição completa de sinais vitais na chegada, escore de alerta precoce, pergunta ativa sobre infecção, lactato nos suspeitos e avaliação médica em minutos; a confirmação da disfunção vem do SOFA e do lactato.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Decore os perfis: SIRS sensível e inespecífico; qSOFA específico e pouco sensível, por isso não deve ser usado sozinho na emergência; SOFA define disfunção, mas não tria; NEWS tem a melhor acurácia. A questão que inverte sensibilidade e especificidade do SIRS ou chama o NEWS de pior está errada.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Sepsis-3: sepse é infecção com disfunção orgânica (SOFA +2); choque séptico exige vasopressor e lactato acima de 2.</li>
+<li>SOFA define e gradua, mas depende de exames e não serve à triagem.</li>
+<li>qSOFA: alta especificidade, baixa sensibilidade; não usar isoladamente na triagem (SSC 2021).</li>
+<li>SIRS: alta sensibilidade, baixa especificidade; NEWS e MEWS têm acurácia igual ou melhor e se aplicam a todos.</li>
+<li>Triagem é sistema: sinais vitais, escore de alerta, suspeita de infecção, lactato, avaliação médica rápida e antibiótico no tempo certo.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o perfil de sensibilidade e especificidade do qSOFA e qual é a consequência prática? <details><summary>Resposta</summary>Alta especificidade e baixa sensibilidade; por isso não deve ser usado como ferramenta única de triagem, pois deixa passar metade dos sépticos na chegada.</details></li>
+<li>Por que o SOFA não é um instrumento de triagem? <details><summary>Resposta</summary>Porque depende de exames laboratoriais e gasometria e serve para definir e graduar a disfunção orgânica, não para o reconhecimento rápido na porta de entrada.</details></li>
+<li>Que escores a Surviving Sepsis Campaign prefere ao qSOFA para a triagem? <details><summary>Resposta</summary>SIRS, NEWS ou MEWS, que têm maior sensibilidade e, no caso do NEWS, melhor acurácia global.</details></li>
+</ol>
+`,
 };
