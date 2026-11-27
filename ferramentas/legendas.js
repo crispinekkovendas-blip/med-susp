@@ -466,8 +466,8 @@ module.exports = {
   go99: "Bebê alimentado com mamadeira: a fórmula infantil que substitui o leite materno quando a mãe vive com HIV ou faz quimioterapia.",
   go100: "Cristalização em folha de samambaia vista ao microscópio: o teste clássico da bolsa rota, superado em acurácia pela detecção da PAMG-1.",
   /* --- Clínica Médica, volume 2 (cm51–cm100) ------------------------------ */
-  cm51: "Ampola de haloperidol: o bloqueador de dopamina que, em pessoas sensíveis, provoca a síndrome neuroléptica maligna, com febre alta, rigidez e CPK elevada.",
-  cm52: "Traçado de torsades de pointes: a arritmia que a hipomagnesemia grave do etilista pode disparar, ao lado da convulsão, da hipocalemia e da hipocalcemia.",
+  cm51: "Frasco de haloperidol injetável: o bloqueador de dopamina que, em pessoas sensíveis, provoca a síndrome neuroléptica maligna, com febre alta, rigidez e CPK elevada.",
+  cm52: "Eletrocardiograma de doze derivações com o intervalo QT prolongado: a alteração que a hipomagnesemia grave do etilista produz e que pode degenerar em torsades de pointes.",
   cm53: "Corte axial de ressonância na sequência de difusão: a área brilhante é o infarto recente, visível aqui antes de aparecer no FLAIR, o que abre a janela de trombólise no AVC ao despertar.",
   cm54: "Tomografia de crânio sem contraste com sangue nas cisternas da base: a hemorragia subaracnóidea que se gradua pela escala WFNS e pede pressão sistólica abaixo de 160.",
   cm55: "Glomérulo com proliferação difusa na nefrite lúpica classe IV: a lesão que explica a perda rápida de função renal com proteinúria e hematúria na mulher jovem.",

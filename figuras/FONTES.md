@@ -454,8 +454,8 @@ Toda imagem vem do Wikimedia Commons sob CC0, domínio público, CC BY ou CC BY-
 | go98 | figuras/go98.jpg | [File:Urine sample for Culture and Sensitivity.jpg](https://commons.wikimedia.org/wiki/File:Urine_sample_for_Culture_and_Sensitivity.jpg) | Ajay Kumar Chaurasiya | CC BY-SA 4.0 | 1400×1050, 103 KB |
 | go99 | figuras/go99.jpg | [File:Baby and baby milk bottle, Baby feeding, Moscow, Russia.jpg](https://commons.wikimedia.org/wiki/File:Baby_and_baby_milk_bottle,_Baby_feeding,_Moscow,_Russia.jpg) | Vyacheslav Argenberg | CC BY 4.0 | 1400×1035, 104 KB |
 | go100 | figuras/go100.jpg | [File:Positive Fern Test .jpg](https://commons.wikimedia.org/wiki/File:Positive_Fern_Test_.jpg) | Philapeter | CC BY-SA 4.0 | 1400×1050, 325 KB |
-| cm51 | figuras/cm51.jpg | [File:Vial of haloperidol.jpg](https://commons.wikimedia.org/wiki/File:Vial_of_haloperidol.jpg) | Whispyhistory | CC0 | 682×1400, 111 KB |
-| cm52 | figuras/cm52.jpg | [File:E318 (CardioNetworks ECGpedia).jpg](https://commons.wikimedia.org/wiki/File:E318_(CardioNetworks_ECGpedia).jpg) | Michael Rosengarten BEng, MD.McGill | CC BY-SA 3.0 | 1400×358, 36 KB |
+| cm51 | figuras/cm51.jpg | [File:Haloperidol 2.jpg](https://commons.wikimedia.org/wiki/File:Haloperidol_2.jpg) | Intropin (Mark Oniffrey) | CC BY-SA 4.0 | 1400×933, 80 KB |
+| cm52 | figuras/cm52.jpg | [File:E315 (CardioNetworks ECGpedia).jpg](https://commons.wikimedia.org/wiki/File:E315_(CardioNetworks_ECGpedia).jpg) | Michael Rosengarten BEng, MD.McGill | CC BY-SA 3.0 | 1400×803, 339 KB |
 | cm53 | figuras/cm53.jpg | [File:MRI Brain DWI Axial (9).jpg](https://commons.wikimedia.org/wiki/File:MRI_Brain_DWI_Axial_(9).jpg) | 511KeV | CC BY-SA 4.0 | 1080×1080, 49 KB |
 | cm54 | figuras/cm54.jpg | [File:Subarachnoid hemorrhage CT (uncropped).jpg](https://commons.wikimedia.org/wiki/File:Subarachnoid_hemorrhage_CT_(uncropped).jpg) | Dr. George Jallo | CC BY-SA 3.0 | 956×923, 79 KB |
 | cm55 | figuras/cm55.jpg | [File:Diffuse proliferative lupus nephritis - high mag.jpg](https://commons.wikimedia.org/wiki/File:Diffuse_proliferative_lupus_nephritis_-_high_mag.jpg) | Nephron | CC BY-SA 3.0 | 1400×933, 279 KB |
