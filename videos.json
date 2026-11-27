@@ -5701,6 +5701,456 @@
   },
   "busca": "DIP sem abscesso — antibiótico oral e reavaliação em 3 dias"
  },
+ "go51": {
+  "fonte": "sirio2026",
+  "numero": 61,
+  "tema": "Cisto anexial simples na adolescente — folicular, só observar",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Cisto anexial simples na adolescente — folicular, só observar"
+ },
+ "go52": {
+  "fonte": "sirio2026",
+  "numero": 62,
+  "tema": "HPV 16 positivo no rastreio — colposcopia direto, sem citologia",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "HPV 16 positivo no rastreio — colposcopia direto, sem citologia"
+ },
+ "go53": {
+  "fonte": "sirio2026",
+  "numero": 64,
+  "tema": "Transição menopausal — o primeiro sinal é o ciclo que encurta",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Transição menopausal — o primeiro sinal é o ciclo que encurta"
+ },
+ "go54": {
+  "fonte": "sirio2026",
+  "numero": 65,
+  "tema": "SUA agudo na adolescente — disfunção ovulatória vem primeiro",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "SUA agudo na adolescente — disfunção ovulatória vem primeiro"
+ },
+ "go55": {
+  "fonte": "sirio2026",
+  "numero": 67,
+  "tema": "Perimenopausa — FSH e LH altos com estradiol baixo",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Perimenopausa — FSH e LH altos com estradiol baixo"
+ },
+ "go56": {
+  "fonte": "sirio2026",
+  "numero": 68,
+  "tema": "Rastreamento mamográfico no SUS — 50 a 69 anos, a cada dois anos",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Rastreamento mamográfico no SUS — 50 a 69 anos, a cada dois anos"
+ },
+ "go57": {
+  "fonte": "sirio2026",
+  "numero": 69,
+  "tema": "Pressão alta antes de 20 semanas — hipertensão arterial crônica",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pressão alta antes de 20 semanas — hipertensão arterial crônica"
+ },
+ "go58": {
+  "fonte": "sirio2026",
+  "numero": 70,
+  "tema": "Peso no percentil 4 com 31 semanas — restrição de crescimento precoce",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Peso no percentil 4 com 31 semanas — restrição de crescimento precoce"
+ },
+ "go59": {
+  "fonte": "sirio2026",
+  "numero": 71,
+  "tema": "Corioamnionite com 29 semanas — antibiótico, sulfato e indução",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Corioamnionite com 29 semanas — antibiótico, sulfato e indução"
+ },
+ "go60": {
+  "fonte": "sirio2026",
+  "numero": 72,
+  "tema": "Sífilis na gestante alérgica — confirmar e dessensibilizar",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Sífilis na gestante alérgica — confirmar e dessensibilizar"
+ },
+ "go61": {
+  "fonte": "sirio2026",
+  "numero": 73,
+  "tema": "Bordo placentário a 1 cm do orifício interno — placenta baixa",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Bordo placentário a 1 cm do orifício interno — placenta baixa"
+ },
+ "go62": {
+  "fonte": "sirio2026",
+  "numero": 74,
+  "tema": "Nódulo cístico indolor no puerpério — galactocele, só observar",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Nódulo cístico indolor no puerpério — galactocele, só observar"
+ },
+ "go63": {
+  "fonte": "sirio2026",
+  "numero": 76,
+  "tema": "Dor súbita, sangue vivo e hipertonia — descolamento de placenta",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Dor súbita, sangue vivo e hipertonia — descolamento de placenta"
+ },
+ "go64": {
+  "fonte": "sirio2026",
+  "numero": 77,
+  "tema": "Índice de Bishop — os cinco itens do colo e da apresentação",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Índice de Bishop — os cinco itens do colo e da apresentação"
+ },
+ "go65": {
+  "fonte": "sirio2026",
+  "numero": 79,
+  "tema": "Hipertensa pede contracepção — progestagênio isolado, sem estrogênio",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hipertensa pede contracepção — progestagênio isolado, sem estrogênio"
+ },
+ "go66": {
+  "fonte": "sirio2027",
+  "numero": 61,
+  "tema": "Analgesia no parto — peridural é o padrão, o resto tem evidência fraca",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Analgesia no parto — peridural é o padrão, o resto tem evidência fraca"
+ },
+ "go67": {
+  "fonte": "sirio2027",
+  "numero": 62,
+  "tema": "Dor intensa com 4 cm e tudo normal — analgesia peridural agora",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Dor intensa com 4 cm e tudo normal — analgesia peridural agora"
+ },
+ "go68": {
+  "fonte": "sirio2027",
+  "numero": 64,
+  "tema": "Sangue vivo, indolor, útero mole a termo — placenta prévia",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Sangue vivo, indolor, útero mole a termo — placenta prévia"
+ },
+ "go69": {
+  "fonte": "sirio2027",
+  "numero": 66,
+  "tema": "Colo pérvio e eco heterogêneo de 3,5 cm — aborto incompleto",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Colo pérvio e eco heterogêneo de 3,5 cm — aborto incompleto"
+ },
+ "go70": {
+  "fonte": "sirio2027",
+  "numero": 67,
+  "tema": "HIV com carga viral de 1.500 no parto — AZT venoso indicado",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "HIV com carga viral de 1.500 no parto — AZT venoso indicado"
+ },
+ "go71": {
+  "fonte": "sirio2027",
+  "numero": 68,
+  "tema": "Duas cesáreas anteriores em trabalho de parto — nova cesárea",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Duas cesáreas anteriores em trabalho de parto — nova cesárea"
+ },
+ "go72": {
+  "fonte": "sirio2027",
+  "numero": 69,
+  "tema": "Óbito fetal com colo desfavorável — induzir com misoprostol",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Óbito fetal com colo desfavorável — induzir com misoprostol"
+ },
+ "go73": {
+  "fonte": "sirio2027",
+  "numero": 70,
+  "tema": "Pré-eclâmpsia — inibidor da ECA é o anti-hipertensivo proibido",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Pré-eclâmpsia — inibidor da ECA é o anti-hipertensivo proibido"
+ },
+ "go74": {
+  "fonte": "sirio2027",
+  "numero": 71,
+  "tema": "Bacteriúria assintomática na gestante — tratar com fosfomicina",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Bacteriúria assintomática na gestante — tratar com fosfomicina"
+ },
+ "go75": {
+  "fonte": "sirio2027",
+  "numero": 73,
+  "tema": "Acantose nigricans na SOP — marca da hiperinsulinemia",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Acantose nigricans na SOP — marca da hiperinsulinemia"
+ },
+ "go76": {
+  "fonte": "sirio2027",
+  "numero": 74,
+  "tema": "Amenorreia com FSH e LH baixos — causa hipotalâmica ou hipofisária",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Amenorreia com FSH e LH baixos — causa hipotalâmica ou hipofisária"
+ },
+ "go77": {
+  "fonte": "sirio2027",
+  "numero": 76,
+  "tema": "Endometriose — dienogeste age direto no foco; o análogo age no eixo",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Endometriose — dienogeste age direto no foco; o análogo age no eixo"
+ },
+ "go78": {
+  "fonte": "sirio2027",
+  "numero": 77,
+  "tema": "Secreção bolhosa, colpite macular e protozoário móvel — tricomoníase",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Secreção bolhosa, colpite macular e protozoário móvel — tricomoníase"
+ },
+ "go79": {
+  "fonte": "sirio2027",
+  "numero": 78,
+  "tema": "Perda a 40 cm H2O sem hipermobilidade — deficiência esfincteriana",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Perda a 40 cm H2O sem hipermobilidade — deficiência esfincteriana"
+ },
+ "go80": {
+  "fonte": "sirio2027",
+  "numero": 79,
+  "tema": "Sangramento pós-menopausa com eco de 6 mm — histeroscopia com biópsia",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Sangramento pós-menopausa com eco de 6 mm — histeroscopia com biópsia"
+ },
+ "go81": {
+  "fonte": "unesp2025",
+  "numero": 21,
+  "tema": "Idade gestacional e data provável do parto — contar e aplicar Naegele",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Idade gestacional e data provável do parto — contar e aplicar Naegele"
+ },
+ "go82": {
+  "fonte": "unesp2025",
+  "numero": 23,
+  "tema": "TOTG pós-parto — 2 h entre 140 e 199 é intolerância à glicose",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "TOTG pós-parto — 2 h entre 140 e 199 é intolerância à glicose"
+ },
+ "go83": {
+  "fonte": "unesp2025",
+  "numero": 25,
+  "tema": "Cólica com 33 semanas sem trabalho de parto — orientar e liberar",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Cólica com 33 semanas sem trabalho de parto — orientar e liberar"
+ },
+ "go84": {
+  "fonte": "unesp2025",
+  "numero": 26,
+  "tema": "Febre baixa no puerpério com tudo normal — só curva térmica",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Febre baixa no puerpério com tudo normal — só curva térmica"
+ },
+ "go85": {
+  "fonte": "unesp2025",
+  "numero": 27,
+  "tema": "Iminência de eclâmpsia antes de transferir — Pritchard",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Iminência de eclâmpsia antes de transferir — Pritchard"
+ },
+ "go86": {
+  "fonte": "unesp2025",
+  "numero": 30,
+  "tema": "Trombose venosa prévia — a terapia hormonal está contraindicada",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Trombose venosa prévia — a terapia hormonal está contraindicada"
+ },
+ "go87": {
+  "fonte": "unesp2025",
+  "numero": 33,
+  "tema": "Câncer de mama luminal A — receptores altos e Ki-67 baixo",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Câncer de mama luminal A — receptores altos e Ki-67 baixo"
+ },
+ "go88": {
+  "fonte": "unesp2025",
+  "numero": 37,
+  "tema": "Treze anos sem telarca — investigar, o eixo não começou",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Treze anos sem telarca — investigar, o eixo não começou"
+ },
+ "go89": {
+  "fonte": "unesp2025",
+  "numero": 38,
+  "tema": "SOP e desejo de gravidez — parar espironolactona, folato e TOTG",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "SOP e desejo de gravidez — parar espironolactona, folato e TOTG"
+ },
+ "go90": {
+  "fonte": "unesp2025",
+  "numero": 40,
+  "tema": "DIP em usuária de DIU — tratar com o DIU no lugar e reavaliar",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "DIP em usuária de DIU — tratar com o DIU no lugar e reavaliar"
+ },
+ "go91": {
+  "fonte": "famema2026",
+  "numero": 49,
+  "tema": "Corrimento fétido que piora no sexo e na menstruação — vaginose",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Corrimento fétido que piora no sexo e na menstruação — vaginose"
+ },
+ "go92": {
+  "fonte": "famema2026",
+  "numero": 51,
+  "tema": "Fluxo crescente, peso pélvico e infertilidade aos 37 — miomatose",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Fluxo crescente, peso pélvico e infertilidade aos 37 — miomatose"
+ },
+ "go93": {
+  "fonte": "famema2026",
+  "numero": 52,
+  "tema": "Desejo hipoativo na terapia hormonal — acrescentar testosterona em gel",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Desejo hipoativo na terapia hormonal — acrescentar testosterona em gel"
+ },
+ "go94": {
+  "fonte": "famema2026",
+  "numero": 53,
+  "tema": "Contracepção na adolescente — os LARC devem ser incentivados",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Contracepção na adolescente — os LARC devem ser incentivados"
+ },
+ "go95": {
+  "fonte": "famema2026",
+  "numero": 54,
+  "tema": "Abscesso tubo-ovariano — a rotura obriga a cirurgia",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Abscesso tubo-ovariano — a rotura obriga a cirurgia"
+ },
+ "go96": {
+  "fonte": "famema2026",
+  "numero": 56,
+  "tema": "Nódulo irregular e mais alto que largo — BI-RADS 4, puncionar",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Nódulo irregular e mais alto que largo — BI-RADS 4, puncionar"
+ },
+ "go97": {
+  "fonte": "famema2026",
+  "numero": 57,
+  "tema": "Bordo placentário a 3,2 cm do orifício interno — inserção normal",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Bordo placentário a 3,2 cm do orifício interno — inserção normal"
+ },
+ "go98": {
+  "fonte": "famema2026",
+  "numero": 59,
+  "tema": "Pressão alta nova com 30 semanas — relação proteína/creatinina",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Pressão alta nova com 30 semanas — relação proteína/creatinina"
+ },
+ "go99": {
+  "fonte": "famema2026",
+  "numero": 61,
+  "tema": "Contraindicação formal à amamentação — HIV e antineoplásicos",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Contraindicação formal à amamentação — HIV e antineoplásicos"
+ },
+ "go100": {
+  "fonte": "famema2026",
+  "numero": 63,
+  "tema": "Suspeita de bolsa rota sem líquido ao exame — PAMG-1 decide",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Suspeita de bolsa rota sem líquido ao exame — PAMG-1 decide"
+ },
  "cm01": {
   "fonte": "susp2026",
   "numero": 1,

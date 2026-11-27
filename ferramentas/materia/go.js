@@ -1955,4 +1955,2112 @@ module.exports = {
 <li>Qual é o esquema ambulatorial e quando reavaliar? <details><summary>Resposta</summary>Ceftriaxona intramuscular em dose única, doxiciclina e metronidazol por 14 dias, com reavaliação em 72 horas.</details></li>
 </ol>
 `,
+
+/* --- Volume 2 · GO · Sírio-Libanês 2026 (go51–go65) ----------------------------------- */
+"sirio2026#61": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o cisto funcional do ovário pela imagem e pelo contexto clínico.</li>
+<li>Diferenciar o cisto simples das massas anexiais que exigem investigação.</li>
+<li>Definir a conduta expectante e os critérios para intervir.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Cisto folicular</dt>
+<dd>Folículo dominante que não ovulou e continuou a crescer, em geral entre 3 e 8 cm, com conteúdo anecoico e parede fina.</dd>
+<dt>Cisto de corpo lúteo</dt>
+<dd>Corpo lúteo que acumulou líquido ou sangue após a ovulação; pode ter parede espessa, vascularizada, e conteúdo heterogêneo.</dd>
+<dt>Cisto simples</dt>
+<dd>Imagem anecoica, unilocular, de parede fina e regular, sem septos, sem componentes sólidos e sem fluxo interno ao Doppler.</dd>
+<dt>Massa complexa</dt>
+<dd>Lesão com septos espessos, papilas, componente sólido ou debris, que exige caracterização adicional e eventual cirurgia.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Os cistos funcionais nascem do próprio ciclo menstrual. Na fase folicular, um folículo cresce até cerca de 2,5 cm e rompe na ovulação; se o pico de LH falha ou o folículo não se rompe, ele segue acumulando líquido e vira um <strong>cisto folicular</strong>. Depois da ovulação, o corpo lúteo pode sangrar para dentro e formar o cisto de corpo lúteo, que às vezes dói e simula ectópica.</p>
+<p>A imagem é o que separa o fisiológico do patológico. O cisto simples, anecoico, sem septos, sem papilas e sem debris, tem risco de malignidade próximo de zero em qualquer idade, e na mulher jovem é funcional até prova em contrário. Já conteúdo em vidro fosco sugere endometrioma; níveis, cabelo e calcificação sugerem teratoma; septos espessos, papilas e fluxo interno exigem marcadores e avaliação oncológica.</p>
+<p>A conduta no cisto simples é <strong>expectante</strong>: repetir o ultrassom em seis a oito semanas, de preferência logo após a menstruação, quando o cisto funcional já desapareceu. Anticoncepcionais não aceleram a regressão de um cisto já formado, embora previnam novos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Na prova, a adolescente ou mulher jovem assintomática com cisto anecoico de até 8 a 10 cm, sem septos e sem debris, tem cisto funcional, e a resposta é observar. Os distratores são sempre diagnósticos que exigem outro quadro: endometrioma com dismenorreia e dispareunia, abscesso com febre e dor, ectópica com atraso e beta-hCG positivo.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Cisto folicular: folículo que não ovulou; cisto de corpo lúteo: corpo lúteo que acumulou líquido ou sangue.</li>
+<li>Cisto simples: anecoico, unilocular, parede fina, sem septos, sem papilas, sem fluxo interno.</li>
+<li>Risco de malignidade do cisto simples é quase nulo; a regressão espontânea ocorre em um a três ciclos.</li>
+<li>Conduta: ultrassom de controle em seis a oito semanas; anticoncepcional não dissolve o cisto.</li>
+<li>Cirurgia só por torção, rotura instável, dor refratária, crescimento ou persistência.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que características ultrassonográficas definem um cisto simples? <details><summary>Resposta</summary>Conteúdo anecoico, unilocular, parede fina e regular, sem septos, sem papilas, sem componente sólido e sem fluxo interno ao Doppler.</details></li>
+<li>Em quanto tempo se repete o ultrassom de um cisto funcional e por quê? <details><summary>Resposta</summary>Em seis a oito semanas, logo após a menstruação, quando o cisto funcional já deve ter regredido.</details></li>
+<li>O anticoncepcional combinado acelera a regressão de um cisto funcional já formado? <details><summary>Resposta</summary>Não; ele previne a formação de novos cistos, mas não reduz o tempo de regressão do cisto existente.</details></li>
+</ol>
+`,
+
+"sirio2026#62": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever o rastreamento do câncer do colo do útero com teste de DNA-HPV adotado em 2025.</li>
+<li>Aplicar a conduta correta a cada resultado do teste molecular.</li>
+<li>Explicar por que os tipos 16 e 18 levam direto à colposcopia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Teste de DNA-HPV</dt>
+<dd>Exame molecular que detecta os tipos oncogênicos do papilomavírus no material cervical, com genotipagem parcial para 16 e 18.</dd>
+<dt>Triagem por citologia</dt>
+<dd>Citologia feita na mesma amostra quando o teste é positivo para outros tipos oncogênicos, para decidir quem vai à colposcopia.</dd>
+<dt>Colposcopia</dt>
+<dd>Exame do colo com magnificação e ácido acético, que localiza a lesão e dirige a biópsia.</dd>
+<dt>Autocoleta</dt>
+<dd>Coleta vaginal feita pela própria mulher, com acurácia equivalente para o teste molecular, prevista para ampliar a cobertura.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O rastreamento brasileiro mudou em 2025: o teste de DNA-HPV passou a ser o exame primário, no lugar da citologia, para mulheres de <strong>25 a 64 anos</strong>, com intervalo de <strong>cinco anos</strong> quando negativo. A razão é a sensibilidade: o teste molecular detecta a lesão precursora muito melhor que o Papanicolaou, com um resultado negativo que protege por mais tempo, e permite reduzir o número de exames na vida da mulher sem perder segurança.</p>
+<p>A conduta depende do resultado. <strong>Negativo</strong>: repete em cinco anos. <strong>Positivo para HPV 16 ou 18</strong>: colposcopia imediata, porque esses dois tipos causam cerca de 70% dos cânceres do colo e o risco de lesão de alto grau já presente é da ordem de 15 a 20%. <strong>Positivo para outros tipos oncogênicos</strong>: faz-se a citologia de triagem na mesma amostra; se alterada, colposcopia; se normal, novo teste em um ano. Esse desenho concentra a colposcopia em quem tem risco real e evita a sobrecarga de encaminhamentos.</p>
+<p>Alguns cuidados completam o algoritmo. Mulheres vacinadas seguem o mesmo rastreamento. Imunossuprimidas e mulheres com HIV têm intervalo menor. Abaixo dos 25 anos não se rastreia, porque a infecção é transitória e o tratamento de lesões que regrediriam causa dano obstétrico. Na colposcopia, biopsia-se a área suspeita, e a conduta posterior segue a histologia: lesão de baixo grau observa-se, lesão de alto grau trata-se com excisão da zona de transformação.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A pergunta clássica é o que fazer com o teste positivo. A regra decorada é simples: 16 ou 18 vai à colposcopia; outros tipos vão à citologia; negativo volta em cinco anos. Tratamento tópico, repetição em poucos meses e imuno-histoquímica são distratores que não fazem parte do fluxo.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Rastreamento primário com teste de DNA-HPV, 25 a 64 anos, a cada cinco anos quando negativo.</li>
+<li>HPV 16 ou 18 positivo: colposcopia direta, pelo risco alto de lesão de alto grau.</li>
+<li>Outros tipos oncogênicos: citologia de triagem na mesma amostra; alterada vai à colposcopia, normal repete em um ano.</li>
+<li>Não rastrear antes dos 25 anos; vacinadas seguem o mesmo esquema; imunossuprimidas com intervalo menor.</li>
+<li>Tratamento depende da histologia da biópsia dirigida, nunca do teste isolado.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a faixa etária e o intervalo do rastreamento com teste de DNA-HPV? <details><summary>Resposta</summary>De 25 a 64 anos, com repetição a cada cinco anos quando o teste é negativo.</details></li>
+<li>O que fazer diante de um teste positivo para outros tipos oncogênicos, que não o 16 nem o 18? <details><summary>Resposta</summary>Citologia de triagem na mesma amostra: se alterada, colposcopia; se normal, repetir o teste em um ano.</details></li>
+<li>Por que o HPV 16 dispensa a citologia e vai direto à colposcopia? <details><summary>Resposta</summary>Porque é o tipo mais oncogênico, responsável com o 18 por cerca de 70% dos cânceres, e o risco de lesão de alto grau já presente é alto demais para esperar.</details></li>
+</ol>
+`,
+
+"sirio2026#64": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever os estágios do envelhecimento reprodutivo segundo o STRAW+10.</li>
+<li>Identificar o critério menstrual que marca o início da transição menopausal.</li>
+<li>Diferenciar transição precoce, transição tardia e pós-menopausa.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>STRAW+10</dt>
+<dd>Sistema de estadiamento do envelhecimento reprodutivo, de −5 (reprodutivo inicial) a +2 (pós-menopausa tardia), baseado no padrão menstrual.</dd>
+<dt>Transição menopausal precoce (−2)</dt>
+<dd>Variação persistente de sete dias ou mais na duração de ciclos consecutivos.</dd>
+<dt>Transição menopausal tardia (−1)</dt>
+<dd>Intervalos de amenorreia de 60 dias ou mais, com FSH acima de 25 UI/L e sintomas vasomotores frequentes.</dd>
+<dt>Menopausa</dt>
+<dd>Última menstruação, reconhecida retrospectivamente após 12 meses de amenorreia; idade média de 51 anos.</dd>
+<dt>Perimenopausa</dt>
+<dd>Período que vai do início da transição até um ano após a última menstruação.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O ovário envelhece antes do resto do corpo. A reserva folicular cai de forma acelerada a partir dos 37 anos, e com ela cai a inibina B, que freia o FSH. O FSH sobe, recruta folículos mais cedo e encurta a fase folicular: no fim da vida reprodutiva os ciclos ficam ligeiramente mais curtos, de 25 ou 26 dias. Quando restam poucos folículos, começam a falhar as ovulações, e o padrão muda: ciclos irregulares, que ora encurtam ora se alongam, com atrasos de uma semana ou mais.</p>
+<p>O STRAW+10 usa exatamente essa variabilidade como marcador. A <strong>transição precoce</strong> começa quando a duração de ciclos consecutivos varia sete dias ou mais, de modo persistente; a mulher percebe que a menstruação "desregulou", com atrasos. A <strong>transição tardia</strong> é definida por intervalos de 60 dias ou mais sem menstruar, geralmente com fogachos e FSH já claramente alto. A <strong>menopausa</strong> só se confirma depois de 12 meses de amenorreia, e o primeiro ano após a última menstruação ainda pertence à perimenopausa, com sintomas no auge.</p>
+<p>Na prática, o diagnóstico é clínico acima dos 45 anos e não precisa de dosagem hormonal, porque o FSH oscila muito de um ciclo para outro na transição. A dosagem ajuda apenas entre 40 e 45 anos ou em quem usa hormônio ou tem o útero retirado. A transição dura em média quatro anos, e a contracepção deve ser mantida até a menopausa confirmada, porque a ovulação, embora rara, ainda acontece.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando a prova pergunta pelo primeiro sinal da transição, a resposta é a irregularidade com atrasos, não a amenorreia nem a mudança do fluxo. A amenorreia de 60 dias já é transição tardia, e os 12 meses sem menstruar fecham a menopausa. Volume de sangramento varia, mas não estadia nada.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Queda da reserva folicular e da inibina B eleva o FSH; a ovulação passa a falhar.</li>
+<li>Transição precoce: variação de sete dias ou mais entre ciclos, percebida como atrasos.</li>
+<li>Transição tardia: amenorreia de 60 dias ou mais, FSH acima de 25, fogachos frequentes.</li>
+<li>Menopausa: 12 meses de amenorreia; diagnóstico clínico acima dos 45 anos, sem dosagem.</li>
+<li>Manter contracepção até a menopausa confirmada; a transição dura cerca de quatro anos.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual critério menstrual define a transição menopausal precoce no STRAW+10? <details><summary>Resposta</summary>Variação persistente de sete dias ou mais na duração de ciclos consecutivos.</details></li>
+<li>O que caracteriza a transição menopausal tardia? <details><summary>Resposta</summary>Intervalos de amenorreia de 60 dias ou mais, com FSH acima de 25 UI/L e sintomas vasomotores.</details></li>
+<li>Por que não se dosa FSH para diagnosticar a transição em mulheres acima de 45 anos? <details><summary>Resposta</summary>Porque os níveis oscilam muito de ciclo para ciclo e o diagnóstico clínico, pelo padrão menstrual, é suficiente.</details></li>
+</ol>
+`,
+
+"sirio2026#65": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Explicar por que a anovulação é a causa mais comum de sangramento uterino anormal na adolescência.</li>
+<li>Reconhecer quando investigar coagulopatia na adolescente que sangra.</li>
+<li>Descrever o tratamento do sangramento agudo e a manutenção.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>PALM-COEIN</dt>
+<dd>Classificação da FIGO para o sangramento uterino anormal: causas estruturais (pólipo, adenomiose, leiomioma, malignidade) e não estruturais (coagulopatia, ovulatória, endometrial, iatrogênica, não classificada).</dd>
+<dt>Disfunção ovulatória (AUB-O)</dt>
+<dd>Sangramento irregular e imprevisível por anovulação, com estímulo estrogênico sem oposição de progesterona.</dd>
+<dt>Sangramento agudo</dt>
+<dd>Episódio de volume suficiente para exigir intervenção imediata, com ou sem anemia e instabilidade.</dd>
+<dt>Doença de von Willebrand</dt>
+<dd>Coagulopatia hereditária mais comum, presente em até 10 a 20% das adolescentes com sangramento menstrual intenso.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Nos primeiros dois a três anos após a menarca, o eixo hipotálamo-hipófise-ovário ainda não gera o pico de LH de forma confiável, e metade dos ciclos é <strong>anovulatória</strong>. Sem ovulação não há corpo lúteo nem progesterona; o estrogênio prolifera o endométrio sem oposição até que ele se torna frágil, descama de forma irregular e sangra por tempo prolongado, às vezes em grande volume.</p>
+<p>A segunda causa, e a que não pode passar despercebida, é a <strong>coagulopatia</strong>. A doença de von Willebrand e as disfunções plaquetárias aparecem em até uma de cada cinco adolescentes com sangramento intenso desde a menarca.</p>
+<p>O tratamento do episódio agudo é hormonal: estrogênio conjugado venoso em caso de sangramento muito intenso, ou contraceptivo combinado em doses altas por via oral com redução progressiva, ou progestagênio isolado em dose alta (acetato de medroxiprogesterona ou noretisterona) quando o estrogênio é contraindicado. O ácido tranexâmico acrescenta efeito, e a anemia se corrige com ferro ou transfusão.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A adolescente que sangra muito e há pouco tempo menstruou tem anovulação como primeira hipótese, e a prova espera isso. Mas o mesmo enunciado com história familiar, sangramento desde a primeira menstruação ou outros sangramentos muda a resposta para coagulopatia. Leia o antecedente antes de responder.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Anovulação por imaturidade do eixo: causa mais comum de sangramento uterino anormal pós-menarca.</li>
+<li>Coagulopatia (von Willebrand) é a segunda causa; rastrear se sangramento intenso desde a menarca, anemia, história familiar ou outros sangramentos.</li>
+<li>Sempre excluir gravidez com beta-hCG.</li>
+<li>Agudo: estrogênio venoso, combinado em dose alta ou progestagênio em dose alta, mais ácido tranexâmico e ferro.</li>
+<li>Manutenção hormonal por meses; curetagem só na falha clínica.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a adolescente nos primeiros anos pós-menarca sangra de forma irregular? <details><summary>Resposta</summary>Porque o eixo imaturo não gera o pico de LH e muitos ciclos são anovulatórios, com estrogênio sem oposição de progesterona.</details></li>
+<li>Quais achados levam a investigar coagulopatia na adolescente com sangramento intenso? <details><summary>Resposta</summary>Sangramento profuso desde a menarca, hemoglobina abaixo de 10, história familiar, epistaxe, gengivorragia, equimoses ou sangramento cirúrgico.</details></li>
+<li>Qual é a base do tratamento do sangramento agudo nessa paciente? <details><summary>Resposta</summary>Terapia hormonal (estrogênio venoso, combinado ou progestagênio em dose alta), com ácido tranexâmico e correção da anemia.</details></li>
+</ol>
+`,
+
+"sirio2026#67": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever as mudanças hormonais da transição menopausal e sua sequência.</li>
+<li>Diferenciar hipogonadismo hipergonadotrófico de hipogonadotrófico pelo FSH.</li>
+<li>Saber quando a dosagem hormonal é útil no climatério.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Inibina B</dt>
+<dd>Peptídeo das células da granulosa dos folículos pequenos, que inibe o FSH; sua queda é o primeiro sinal bioquímico do envelhecimento ovariano.</dd>
+<dt>Hormônio antimülleriano</dt>
+<dd>Marcador da reserva folicular, produzido pelos folículos pré-antrais; cai antes do FSH subir e fica indetectável perto da menopausa.</dd>
+<dt>Hipogonadismo hipergonadotrófico</dt>
+<dd>Estradiol baixo com FSH e LH altos: a falha está no ovário.</dd>
+<dt>Hipogonadismo hipogonadotrófico</dt>
+<dd>Estradiol baixo com FSH e LH baixos ou normais: a falha está no hipotálamo ou na hipófise.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O eixo reprodutivo funciona por retroalimentação negativa. Os folículos ovarianos produzem estradiol e inibina B, e os dois freiam a secreção de FSH pela hipófise. Quando a reserva folicular diminui, a inibina B é a primeira a cair, e o FSH começa a subir ainda com ciclos regulares; esse FSH mais alto recruta folículos mais cedo e encurta a fase folicular. Com a progressão, o estradiol também cai, as ovulações falham, e o LH acompanha o FSH para cima.</p>
+<p>Esse padrão permite localizar a lesão em qualquer hipogonadismo feminino. Gonadotrofinas altas significam que a hipófise está tentando e o ovário não responde: menopausa, insuficiência ovariana prematura, disgenesia gonadal, quimioterapia ou radioterapia pélvica.</p>
+<p>Na transição menopausal os hormônios oscilam de ciclo para ciclo, e um FSH normal num mês não exclui a transição. Por isso acima dos 45 anos o diagnóstico é clínico, pelo padrão menstrual e pelos sintomas. A dosagem é útil entre 40 e 45 anos, quando há dúvida, e abaixo dos 40 anos, quando dois valores de FSH acima de 25 UI/L com intervalo de quatro semanas definem insuficiência ovariana prematura.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A mulher de 40 a 50 anos com atrasos menstruais, insônia e irritabilidade tem perimenopausa, e o perfil cobrado é FSH alto, LH alto, estradiol baixo. Se a prova trouxer o mesmo quadro clínico com gonadotrofinas baixas, pense em causa central e peça prolactina e imagem da hipófise.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Sequência da transição: queda da inibina B, elevação do FSH, queda do estradiol, elevação do LH.</li>
+<li>Perfil da perimenopausa e pós-menopausa: FSH e LH altos, estradiol baixo.</li>
+<li>FSH alto localiza a falha no ovário; FSH baixo ou normal com estradiol baixo, no hipotálamo ou na hipófise.</li>
+<li>Acima de 45 anos o diagnóstico é clínico; dosagem para 40 a 45 anos e para suspeita de insuficiência ovariana prematura.</li>
+<li>Insuficiência ovariana prematura: FSH acima de 25 em duas dosagens, antes dos 40 anos.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o primeiro hormônio a se alterar no envelhecimento ovariano e qual a consequência? <details><summary>Resposta</summary>A inibina B cai, liberando a hipófise para elevar o FSH ainda com ciclos regulares.</details></li>
+<li>Como o FSH diferencia a origem de um hipogonadismo feminino? <details><summary>Resposta</summary>FSH alto indica falha ovariana; FSH baixo ou normal com estradiol baixo indica causa hipotalâmica ou hipofisária.</details></li>
+<li>Quando a dosagem hormonal é dispensável no diagnóstico da transição menopausal? <details><summary>Resposta</summary>Acima dos 45 anos, com padrão menstrual e sintomas típicos, porque os valores oscilam e o diagnóstico é clínico.</details></li>
+</ol>
+`,
+
+"sirio2026#68": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Enunciar a recomendação brasileira de rastreamento mamográfico para mulheres de risco habitual.</li>
+<li>Explicar o balanço entre benefício e dano que define faixa etária e intervalo.</li>
+<li>Diferenciar rastreamento de diagnóstico e reconhecer quem sai da regra geral.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Rastreamento</dt>
+<dd>Exame periódico em pessoas assintomáticas para detectar a doença antes dos sintomas; difere do exame diagnóstico, pedido por queixa ou achado.</dd>
+<dt>Sobrediagnóstico</dt>
+<dd>Detecção de tumores que nunca causariam sintomas nem morte, levando a tratamento desnecessário.</dd>
+<dt>Falso positivo</dt>
+<dd>Exame suspeito em mulher sem câncer, que gera exames adicionais, biópsias e ansiedade.</dd>
+<dt>Alto risco</dt>
+<dd>Mutação BRCA ou síndromes hereditárias, radioterapia torácica antes dos 30 anos, ou parentes de primeiro grau com câncer de mama antes dos 50; rastreamento próprio.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A diretriz do Ministério da Saúde e do INCA, de 2015, recomenda <strong>mamografia a cada dois anos para mulheres de 50 a 69 anos</strong> sem sintomas e sem fatores de risco.</p>
+<p>A lógica é o balanço entre vidas salvas e danos causados. Dos 50 aos 69 anos, a incidência é alta, a mama é menos densa e a mamografia reduz a mortalidade por câncer de mama em cerca de 20%; o número de mulheres a rastrear para evitar uma morte é aceitável. Antes dos 50, a incidência menor e a mama densa diminuem a sensibilidade e multiplicam falsos positivos, biópsias e sobrediagnóstico, e a redução de mortalidade é pequena.</p>
+<p>Existem posições divergentes. A Sociedade Brasileira de Mastologia, o Colégio Brasileiro de Radiologia e a FEBRASGO recomendam mamografia anual a partir dos 40 anos, e essa divergência costuma aparecer nas provas; quando o enunciado cita o Ministério da Saúde ou o INCA, a resposta é 50 a 69 anos, bienal. Mulheres de alto risco saem da regra: começam mais cedo, por volta dos 30 anos ou dez anos antes do caso mais jovem da família, com ressonância anual associada à mamografia.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Leia de quem é a diretriz. "Ministério da Saúde", "INCA" e "SUS" significam 50 a 69 anos a cada dois anos, sem autoexame como rastreamento. "Sociedade Brasileira de Mastologia" ou "FEBRASGO" significam anual a partir dos 40. A paciente com sintoma nunca é rastreamento, e a de alto risco tem esquema próprio com ressonância.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Ministério da Saúde e INCA (2015): mamografia bienal de 50 a 69 anos para risco habitual.</li>
+<li>Recomendação contrária ao rastreamento de rotina de 40 a 49 e acima de 70, e ao autoexame como rastreamento.</li>
+<li>Razão: nos 50 a 69 anos o benefício em mortalidade supera falsos positivos e sobrediagnóstico.</li>
+<li>Sociedades de especialidade recomendam anual a partir dos 40; a prova cobra a fonte citada.</li>
+<li>Alto risco: início precoce com ressonância anual; sintoma é exame diagnóstico, não rastreamento.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a recomendação do Ministério da Saúde para o rastreamento mamográfico de risco habitual? <details><summary>Resposta</summary>Mamografia a cada dois anos para mulheres de 50 a 69 anos, assintomáticas e sem fatores de risco.</details></li>
+<li>Por que a diretriz não recomenda o rastreamento de rotina entre 40 e 49 anos? <details><summary>Resposta</summary>Porque a incidência menor e a mama densa reduzem o benefício e aumentam falsos positivos, biópsias e sobrediagnóstico.</details></li>
+<li>Como difere o rastreamento da mulher de alto risco hereditário? <details><summary>Resposta</summary>Começa mais cedo, por volta dos 30 anos, com ressonância magnética anual associada à mamografia.</details></li>
+</ol>
+`,
+
+"sirio2026#69": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar as síndromes hipertensivas da gestação pelo marco das 20 semanas e pela proteinúria.</li>
+<li>Reconhecer a hipertensão crônica a partir da carteira de pré-natal.</li>
+<li>Descrever o seguimento da gestante hipertensa crônica e a suspeita de pré-eclâmpsia superajuntada.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Hipertensão arterial crônica</dt>
+<dd>Pressão de 140 × 90 mmHg ou mais, documentada antes da gestação ou antes de 20 semanas, ou que persiste além de 12 semanas pós-parto.</dd>
+<dt>Hipertensão gestacional</dt>
+<dd>Hipertensão nova após 20 semanas, sem proteinúria nem disfunção de órgão-alvo, que se resolve no puerpério.</dd>
+<dt>Pré-eclâmpsia</dt>
+<dd>Hipertensão após 20 semanas com proteinúria ou com sinal de disfunção de órgão (plaquetopenia, creatinina alta, transaminases elevadas, edema pulmonar, sintomas neurológicos).</dd>
+<dt>Pré-eclâmpsia superajuntada</dt>
+<dd>Pré-eclâmpsia que se instala sobre hipertensão crônica: proteinúria nova, piora abrupta da pressão ou alteração laboratorial.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A classificação das síndromes hipertensivas gira em torno de duas perguntas: <strong>quando</strong> a pressão subiu e <strong>se há proteinúria ou lesão de órgão</strong>. Pressão alta antes de 20 semanas é hipertensão crônica, mesmo que a mulher nunca tenha recebido o diagnóstico; a gestação apenas revelou. Pressão alta depois de 20 semanas, sem proteinúria, é hipertensão gestacional; com proteinúria ou disfunção de órgão, é pré-eclâmpsia.</p>
+<p>A hipertensão crônica tem particularidades. No segundo trimestre a pressão cai fisiologicamente, e a hipertensa pode parecer normotensa por algumas semanas, voltando a subir no terceiro trimestre; é por isso que a leitura da primeira consulta é decisiva.</p>
+<p>O grande risco é a <strong>pré-eclâmpsia superajuntada</strong>, que atinge 20 a 25% das hipertensas crônicas e é mais grave que a pré-eclâmpsia isolada. Suspeita-se dela quando surge proteinúria em quem não tinha, quando a pressão sobe abruptamente e exige mais droga, ou quando aparecem plaquetopenia, elevação de transaminases ou creatinina.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Procure sempre a pressão da primeira consulta. Se já estava em 140 × 90 ou mais antes de 20 semanas, a resposta é hipertensão crônica, e os distratores "gestacional", "pré-eclâmpsia" e "HELLP" caem, porque exigem início tardio e exames. Sem laboratório, não se diagnostica superajuntada nem HELLP.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Antes de 20 semanas: hipertensão crônica; depois de 20 semanas: gestacional (sem proteinúria) ou pré-eclâmpsia (com proteinúria ou lesão de órgão).</li>
+<li>A queda fisiológica da pressão no segundo trimestre pode mascarar a hipertensa crônica.</li>
+<li>Hipertensa crônica: aspirina desde 12 semanas, anti-hipertensivo seguro, exames de base precoces.</li>
+<li>Superajuntada em 20 a 25%: proteinúria nova, piora abrupta da pressão ou laboratório alterado.</li>
+<li>HELLP e superajuntada são diagnósticos laboratoriais; sem exames, não se afirmam.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o critério temporal que separa hipertensão crônica de hipertensão gestacional? <details><summary>Resposta</summary>Hipertensão documentada antes de 20 semanas (ou antes da gestação) é crônica; a que surge após 20 semanas é gestacional.</details></li>
+<li>O que diferencia hipertensão gestacional de pré-eclâmpsia? <details><summary>Resposta</summary>A presença de proteinúria ou de sinal de disfunção de órgão-alvo na pré-eclâmpsia.</details></li>
+<li>Como se suspeita de pré-eclâmpsia superajuntada na hipertensa crônica? <details><summary>Resposta</summary>Por proteinúria nova, elevação abrupta da pressão exigindo mais droga, ou plaquetopenia, transaminases ou creatinina alteradas.</details></li>
+</ol>
+`,
+
+"sirio2026#70": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar os critérios de Delphi para restrição de crescimento fetal precoce e tardia.</li>
+<li>Diferenciar feto pequeno para a idade gestacional de feto com restrição de crescimento.</li>
+<li>Descrever o seguimento com Doppler e a decisão do momento do parto.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Pequeno para a idade gestacional</dt>
+<dd>Peso estimado abaixo do percentil 10 sem critério de restrição; na maioria, feto constitucionalmente pequeno e saudável.</dd>
+<dt>Restrição de crescimento precoce</dt>
+<dd>Diagnosticada antes de 32 semanas; associada a insuficiência placentária grave, pré-eclâmpsia e Doppler da umbilical alterado.</dd>
+<dt>Restrição de crescimento tardia</dt>
+<dd>Diagnosticada a partir de 32 semanas; insuficiência placentária leve, Doppler umbilical normal, alteração da relação cerebroplacentária.</dd>
+<dt>Relação cerebroplacentária</dt>
+<dd>Índice de pulsatilidade da artéria cerebral média dividido pelo da umbilical; abaixo do percentil 5 indica redistribuição.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O consenso de Delphi de 2016 trouxe critérios objetivos para separar o feto que é apenas pequeno do feto que não cresce por insuficiência placentária.</p>
+<p>A partir de 32 semanas, a <strong>restrição tardia</strong> também se define por peso ou circunferência abaixo do percentil 3, ou por dois de três critérios: peso ou circunferência abaixo do percentil 10, queda de mais de dois quartis na curva de crescimento, e relação cerebroplacentária abaixo do percentil 5 ou umbilical acima do percentil 95.</p>
+<p>O seguimento é feito com Doppler seriado, cardiotocografia e perfil biofísico. Na restrição precoce, a progressão vai da umbilical alterada para diástole zero, diástole reversa e, por fim, ducto venoso com onda A ausente ou reversa, que indica parto independentemente da idade gestacional. Com diástole reversa, resolve-se em torno de 32 semanas; com diástole zero, em torno de 34; com umbilical alterada mas diástole presente, em 37.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Duas perguntas resolvem a maioria das questões: a idade gestacional é menor que 32 semanas (precoce) ou não (tardia), e o feto está abaixo do percentil 3 (restrição por si só) ou entre 3 e 10 (precisa de Doppler alterado para ser restrição; sem Doppler alterado é pequeno para a idade gestacional).</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Precoce (antes de 32 semanas): percentil abaixo de 3 isolado, ou diástole zero, ou percentil abaixo de 10 com Doppler umbilical ou uterino alterado.</li>
+<li>Tardia (32 semanas ou mais): percentil abaixo de 3, ou dois de três: percentil abaixo de 10, queda de dois quartis, relação cerebroplacentária alterada.</li>
+<li>Pequeno para a idade gestacional: abaixo do percentil 10 sem critério de restrição; vigiar e levar a termo.</li>
+<li>Progressão do Doppler na precoce: umbilical alterada, diástole zero, diástole reversa, ducto venoso alterado.</li>
+<li>Momento do parto guiado pelo Doppler: ducto venoso alterado a qualquer idade; diástole reversa em 32; zero em 34; alterada em 37.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que achado isolado define restrição de crescimento antes de 32 semanas mesmo com Doppler normal? <details><summary>Resposta</summary>Peso estimado ou circunferência abdominal abaixo do percentil 3.</details></li>
+<li>O que diferencia o feto pequeno para a idade gestacional do feto com restrição? <details><summary>Resposta</summary>O pequeno está abaixo do percentil 10 mas acima do 3 e com Doppler normal; o restrito cumpre critério de Delphi, por percentil 3 ou por Doppler alterado.</details></li>
+<li>Qual alteração do Doppler indica parto imediato independentemente da idade gestacional? <details><summary>Resposta</summary>Ducto venoso com onda A ausente ou reversa.</details></li>
+</ol>
+`,
+
+"sirio2026#71": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a corioamnionite clínica na gestante com bolsa rota.</li>
+<li>Definir a conduta: antibiótico, parto e via de parto.</li>
+<li>Indicar o sulfato de magnésio para neuroproteção fetal e o corticoide no contexto da infecção.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Corioamnionite clínica</dt>
+<dd>Febre materna de 38 ºC ou mais associada a taquicardia fetal, leucocitose ou secreção purulenta pelo colo; chamada também infecção intra-amniótica.</dd>
+<dt>Rotura prematura de membranas pré-termo</dt>
+<dd>Rotura antes de 37 semanas e antes do trabalho de parto; a infecção ascendente é sua principal complicação, e o risco cresce com o tempo de latência.</dd>
+<dt>Neuroproteção fetal</dt>
+<dd>Sulfato de magnésio administrado à mãe antes do parto prematuro abaixo de 32 semanas, que reduz paralisia cerebral no recém-nascido.</dd>
+<dt>Período de latência</dt>
+<dd>Intervalo entre a rotura das membranas e o parto; na conduta expectante, vigiado com temperatura, frequência cardíaca fetal e leucograma.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Na rotura prematura de membranas antes de 34 semanas, a conduta é expectante: internação, antibiótico profilático por sete dias (ampicilina com azitromicina, depois amoxicilina), corticoide para maturação pulmonar e vigilância de infecção, porque prolongar a gestação beneficia o feto enquanto a cavidade uterina permanecer estéril.</p>
+<p>A via de parto não muda por causa da infecção. Com colo favorável e feto cefálico, induz-se o trabalho de parto com ocitocina; a cesárea fica para as indicações obstétricas habituais, porque operar um útero infectado aumenta a endometrite, a infecção da ferida e a tromboflebite pélvica. O parto não precisa ser imediato em minutos, mas deve ser encaminhado sem demora, enquanto a mãe recebe hidratação e antibiótico para conter a sepse.</p>
+<p>Dois adjuvantes completam o cuidado do prematuro que vai nascer. O <strong>sulfato de magnésio</strong> para neuroproteção está indicado em todo parto iminente antes de 32 semanas, infectado ou não, com a mesma dose da pré-eclâmpsia; ele reduz em cerca de 30% a paralisia cerebral. O corticoide pode ser administrado se ainda não foi, mas nunca atrasa o parto diante de infecção.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A prova monta um quadro de bolsa rota prolongada com febre, taquicardia fetal e leucocitose e oferece "expectante" como distrator. A resposta tem sempre três partes: antibiótico venoso, parto pela via obstétrica (indução se o colo permitir) e, abaixo de 32 semanas, sulfato de magnésio para o cérebro do prematuro.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Corioamnionite: febre materna com taquicardia fetal, leucocitose, útero doloroso ou líquido fétido.</li>
+<li>Infecção intra-amniótica é indicação de parto em qualquer idade gestacional; conduta expectante acaba.</li>
+<li>Antibiótico terapêutico venoso (ampicilina e gentamicina; clindamicina se cesárea) e hidratação.</li>
+<li>Via de parto pela obstetrícia: indução com colo favorável; cesárea só por indicação habitual.</li>
+<li>Sulfato de magnésio para neuroproteção abaixo de 32 semanas; corticoide sem atrasar o parto.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que achados definem a corioamnionite clínica? <details><summary>Resposta</summary>Febre materna de 38 ºC ou mais com taquicardia fetal, leucocitose, útero doloroso ou líquido amniótico purulento ou fétido.</details></li>
+<li>A corioamnionite indica cesárea? <details><summary>Resposta</summary>Não; indica parto, pela via obstétrica; com colo favorável e feto cefálico, induz-se o trabalho de parto.</details></li>
+<li>Por que o sulfato de magnésio entra na conduta de um parto com 29 semanas? <details><summary>Resposta</summary>Para neuroproteção fetal: abaixo de 32 semanas ele reduz a paralisia cerebral do prematuro.</details></li>
+</ol>
+`,
+
+"sirio2026#72": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Interpretar os testes treponêmicos e não treponêmicos no diagnóstico da sífilis na gestação.</li>
+<li>Justificar a penicilina benzatina como único tratamento que previne a sífilis congênita.</li>
+<li>Descrever a conduta na gestante alérgica à penicilina.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Teste não treponêmico</dt>
+<dd>VDRL ou RPR: detecta anticorpos contra cardiolipina, é quantitativo, serve para monitorar e pode ser falso-positivo.</dd>
+<dt>Teste treponêmico</dt>
+<dd>Teste rápido, FTA-Abs, TPHA ou ELISA: detecta anticorpos específicos contra o Treponema, confirma o diagnóstico e permanece positivo pela vida.</dd>
+<dt>Tratamento adequado na gestação</dt>
+<dd>Penicilina benzatina em dose e número de doses conforme o estágio, iniciada até 30 dias antes do parto, com intervalo semanal respeitado.</dd>
+<dt>Dessensibilização</dt>
+<dd>Administração hospitalar de doses orais crescentes de penicilina ao longo de cerca de quatro horas, para induzir tolerância temporária.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O rastreamento da sífilis na gestação se faz na primeira consulta, no início do terceiro trimestre e no parto. O diagnóstico combina um teste treponêmico e um não treponêmico: o primeiro confirma, o segundo quantifica.</p>
+<p>O tratamento tem uma única droga eficaz para o feto: a <strong>penicilina benzatina</strong>, que atravessa a placenta e atinge concentração treponemicida no sangue fetal. Na sífilis recente (primária, secundária ou latente recente, com menos de um ano) basta uma dose de 2,4 milhões de unidades; na latente tardia, terciária ou de duração ignorada são três doses semanais, 7,2 milhões no total.</p>
+<p>A alergia à penicilina, portanto, não abre caminho para outros antibióticos. A eritromicina e a azitromicina não atravessam a placenta de modo confiável, e a doxiciclina é contraindicada na gestação.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Qualquer opção que troque a penicilina por eritromicina, azitromicina, clindamicina ou ceftriaxona na gestante está errada. Alergia significa dessensibilizar e dar penicilina. E lembre que o teste treponêmico confirma, mas na gestante não se espera por ele para a primeira dose.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Rastreio na primeira consulta, no terceiro trimestre e no parto; teste treponêmico confirma, VDRL quantifica e monitora.</li>
+<li>Na gestante, iniciar o tratamento com o primeiro teste positivo, sem esperar confirmação.</li>
+<li>Penicilina benzatina é a única droga que trata o feto: 2,4 milhões em dose única na recente; 7,2 milhões em três doses na tardia ou ignorada.</li>
+<li>Gestante tratada sem penicilina é considerada não tratada; o recém-nascido é tratado como sífilis congênita.</li>
+<li>Alergia: dessensibilização hospitalar e penicilina; tratar o parceiro; VDRL mensal.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a eritromicina não é aceita para tratar a sífilis na gestante? <details><summary>Resposta</summary>Porque não atravessa a placenta de forma confiável e não trata o feto; a gestante é considerada não tratada.</details></li>
+<li>Qual é o esquema de penicilina para a sífilis latente de duração ignorada? <details><summary>Resposta</summary>Três doses semanais de 2,4 milhões de unidades de penicilina benzatina, 7,2 milhões no total.</details></li>
+<li>O que fazer com a gestante alérgica à penicilina? <details><summary>Resposta</summary>Dessensibilização em ambiente hospitalar, com doses orais crescentes, seguida do esquema completo de penicilina benzatina.</details></li>
+</ol>
+`,
+
+"sirio2026#73": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar a nomenclatura atual da inserção placentária baseada no ultrassom transvaginal.</li>
+<li>Reconhecer os fatores de risco e a apresentação da placenta prévia.</li>
+<li>Planejar o seguimento e a via de parto conforme a distância do bordo ao orifício interno.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Placenta prévia</dt>
+<dd>Placenta que cobre o orifício interno do colo, total ou parcialmente, após 16 semanas.</dd>
+<dt>Placenta baixa</dt>
+<dd>Bordo placentário a menos de 2 cm do orifício interno, sem cobri-lo.</dd>
+<dt>Migração placentária</dt>
+<dd>Afastamento aparente do bordo placentário em relação ao colo ao longo da gestação, pelo crescimento do segmento inferior.</dd>
+<dt>Acretismo</dt>
+<dd>Invasão anormal do miométrio pelas vilosidades; acompanha a prévia em útero com cesáreas anteriores.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Até pouco tempo a placenta prévia era graduada em total, parcial, marginal e lateral, com base no toque e na relação com o colo dilatado. A classificação dependia do examinador e do momento do parto, e por isso foi substituída por uma nomenclatura binária medida no <strong>ultrassom transvaginal</strong>: <strong>prévia</strong> quando o tecido cobre o orifício interno, <strong>baixa</strong> quando o bordo fica a menos de 2 cm sem cobrir, e <strong>normal</strong> quando a distância é de 2 cm ou mais.</p>
+<p>A placenta prévia ocorre em cerca de 1 em 200 gestações a termo e tem como fatores de risco as cesáreas anteriores, a curetagem, a multiparidade, a idade avançada, o tabagismo e a gemelaridade. O quadro é sangramento vermelho vivo, indolor, de início súbito e sem hipertonia, muitas vezes recorrente, a partir do final do segundo trimestre. O toque vaginal é proibido até a localização da placenta, pelo risco de hemorragia maciça.</p>
+<p>O seguimento depende do diagnóstico no segundo trimestre: a maioria das placentas baixas ou prévias vistas às 20 semanas se normaliza até o termo, e por isso o exame se repete às 32 e às 36 semanas. A via de parto segue a distância final: prévia é cesárea eletiva entre 36 e 37 semanas; placenta baixa com bordo entre 1 e 2 cm permite tentativa de parto vaginal em serviço com banco de sangue, e abaixo de 1 cm a maioria dos protocolos indica cesárea.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Memorize o corte de 2 cm: cobre o orifício é prévia, não cobre mas está a menos de 2 cm é baixa, 2 cm ou mais é normal. Os termos marginal, lateral e centro-parcial são distratores da nomenclatura antiga. E não esqueça: diante de sangramento do terceiro trimestre, ultrassom antes do toque.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Nomenclatura atual: prévia (cobre o orifício), baixa (bordo a menos de 2 cm), normal (2 cm ou mais).</li>
+<li>Fatores de risco: cesáreas prévias, curetagens, multiparidade, idade, tabagismo, gemelaridade.</li>
+<li>Clínica: sangramento vivo, indolor, útero relaxado, feto bem; toque proibido antes do ultrassom.</li>
+<li>Repetir ultrassom às 32 e 36 semanas; a migração normaliza a maioria dos casos precoces.</li>
+<li>Via de parto: prévia é cesárea 36 a 37 semanas; baixa entre 1 e 2 cm pode tentar vaginal; sangramento ativo é cesárea imediata.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual distância define placenta baixa na nomenclatura atual? <details><summary>Resposta</summary>Bordo placentário a menos de 2 cm do orifício interno do colo, sem cobri-lo.</details></li>
+<li>Por que a classificação antiga em total, parcial e marginal foi abandonada? <details><summary>Resposta</summary>Porque dependia do toque e da dilatação do colo no momento do exame, com baixa reprodutibilidade.</details></li>
+<li>Qual é a via de parto para a placenta prévia e com que idade gestacional? <details><summary>Resposta</summary>Cesárea eletiva entre 36 e 37 semanas, antecipada em caso de sangramento ativo.</details></li>
+</ol>
+`,
+
+"sirio2026#74": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a galactocele e diferenciá-la da mastite e do abscesso mamário.</li>
+<li>Descrever a conduta conservadora e as indicações de punção.</li>
+<li>Revisar as complicações mamárias da lactação e seu manejo.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Galactocele</dt>
+<dd>Cisto de retenção de leite por obstrução ductal, indolor, móvel e sem inflamação; a lesão benigna mais comum da mama lactante.</dd>
+<dt>Ingurgitamento</dt>
+<dd>Mamas cheias, tensas e dolorosas por acúmulo de leite e edema, bilateral, nos primeiros dias; trata-se com esvaziamento.</dd>
+<dt>Mastite puerperal</dt>
+<dd>Inflamação com área quente, vermelha e dolorosa, febre e mal-estar, em geral por Staphylococcus aureus que entra por fissuras.</dd>
+<dt>Abscesso mamário</dt>
+<dd>Coleção de pus, flutuante, que complica a mastite não tratada; exige drenagem por punção guiada ou cirúrgica.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A mama lactante produz um espectro de queixas que se distinguem por dor, sinais inflamatórios e febre. O <strong>ingurgitamento</strong> é bilateral, tenso e doloroso, nos primeiros dias, e se resolve com mamadas frequentes, ordenha e compressas. O <strong>ducto obstruído</strong> é um nódulo doloroso localizado, sem febre, que cede com massagem e esvaziamento. A <strong>mastite</strong> acrescenta calor, rubor, febre e mal-estar, e se trata com antibiótico antiestafilocócico (cefalexina) por 10 a 14 dias, analgesia e manutenção da amamentação. O <strong>abscesso</strong> é a mastite que flutua e exige drenagem.</p>
+<p>A <strong>galactocele</strong> é diferente de todos: um nódulo <strong>indolor</strong>, amolecido, móvel, sem sinais flogísticos e sem febre, que surge quando um ducto se obstrui e o leite se acumula atrás dele. O ultrassom mostra cisto de conteúdo variável, de anecoico a heterogêneo, às vezes com nível entre gordura e água. Como é benigna e assintomática, a conduta é <strong>conservadora</strong>: manter a amamentação, que favorece a drenagem, e observar; a maioria regride com a lactação ou após o desmame.</p>
+<p>A punção aspirativa com agulha fina entra quando há dor, desconforto por volume, crescimento ou dúvida diagnóstica; a saída de leite confirma o diagnóstico e esvazia o cisto, embora ele possa recidivar. Biópsia por agulha grossa fica para nódulo sólido suspeito. Supressão da lactação com cabergolina e antibiótico não têm indicação, porque não há infecção nem motivo para interromper a amamentação.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Nódulo na mama de quem amamenta, sem dor, sem vermelhidão e sem febre, com cisto no ultrassom, é galactocele e se observa. Se a prova acrescenta dor, calor e febre, vira mastite e a resposta é antibiótico com amamentação mantida; se acrescenta flutuação, vira abscesso e a resposta é drenar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Galactocele: cisto de leite por ducto obstruído, indolor, sem inflamação, benigno.</li>
+<li>Conduta: manter a amamentação e observar; punção só se dor, volume, crescimento ou dúvida.</li>
+<li>Mastite: dor, calor, rubor e febre; cefalexina 10 a 14 dias, amamentação mantida.</li>
+<li>Abscesso: flutuação; drenagem por punção guiada ou cirúrgica.</li>
+<li>Cabergolina e antibiótico não têm lugar na galactocele.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que diferencia a galactocele da mastite ao exame clínico? <details><summary>Resposta</summary>A galactocele é indolor, sem calor, rubor ou febre; a mastite tem área quente, vermelha, dolorosa e febre.</details></li>
+<li>Qual é a conduta inicial diante de uma galactocele típica e assintomática? <details><summary>Resposta</summary>Controle clínico, com manutenção da amamentação e reavaliação; sem punção, antibiótico ou supressão da lactação.</details></li>
+<li>Quando a punção com agulha fina está indicada na galactocele? <details><summary>Resposta</summary>Quando há dor, desconforto por volume, crescimento ou dúvida diagnóstica; a saída de leite confirma e alivia.</details></li>
+</ol>
+`,
+
+"sirio2026#76": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o descolamento prematuro de placenta pela tríade de dor, hipertonia e sangramento.</li>
+<li>Diferenciar as causas de sangramento do terceiro trimestre.</li>
+<li>Definir a conduta conforme a vitalidade fetal e a estabilidade materna.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Descolamento prematuro de placenta</dt>
+<dd>Separação da placenta normalmente inserida antes do nascimento, após 20 semanas, por hemorragia decidual.</dd>
+<dt>Hematoma retroplacentário</dt>
+<dd>Coleção de sangue entre a placenta e a parede uterina, que irrita o miométrio e descola progressivamente a placenta.</dd>
+<dt>Útero de Couvelaire</dt>
+<dd>Infiltração hemorrágica do miométrio no descolamento grave, com útero arroxeado e hipotônico após o parto.</dd>
+<dt>Hemorragia oculta</dt>
+<dd>Sangramento retido atrás da placenta, sem exteriorização; o volume visível não reflete a perda.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O descolamento prematuro de placenta complica cerca de 1% das gestações e é a principal causa de óbito perinatal por hemorragia. Seu fator de risco dominante é a <strong>hipertensão</strong>, crônica ou gestacional; seguem-se o trauma abdominal, o tabagismo, a cocaína, a rotura prematura de membranas, a descompressão súbita do polidrâmnio, a gemelaridade e o antecedente de descolamento, que multiplica o risco por dez.</p>
+<p>O quadro é <strong>dor abdominal súbita</strong> e contínua, <strong>hipertonia uterina</strong> (útero lenhoso, com altura maior que a esperada pelo acúmulo de sangue), sangramento vaginal escuro ou vivo em 80% dos casos e <strong>sofrimento fetal</strong>, de taquicardia a bradicardia e óbito. Em 20% a hemorragia é oculta, e a gravidade se mede pela clínica materna e pela vitalidade fetal, não pelo sangue no forro.</p>
+<p>A conduta começa pela estabilização materna com dois acessos, cristaloide, hemoderivados e correção da coagulopatia, com sondagem vesical e exames de coagulação. Com <strong>feto vivo</strong> e viável, a resolução é imediata, quase sempre por cesárea, salvo se o parto vaginal for iminente.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Hipertensa com dor súbita, útero duro e sangramento é descolamento, e o sofrimento fetal confirma. A placenta prévia é o espelho: indolor, útero mole, feto bem, cesáreas prévias. Vasa prévia sangra com a rotura da bolsa e o feto bradicardiza; rotura uterina ocorre em útero com cicatriz, em trabalho de parto, com a apresentação que sobe.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Fator de risco principal: hipertensão; depois trauma, tabaco, cocaína, rotura de membranas, antecedente.</li>
+<li>Clínica: dor súbita, hipertonia, altura uterina aumentada, sangramento (oculto em 20%), sofrimento fetal.</li>
+<li>Diagnóstico clínico; ultrassom só exclui prévia e não deve atrasar a conduta.</li>
+<li>Estabilizar a mãe e corrigir coagulopatia; feto vivo, cesárea imediata; feto morto, parto vaginal com amniotomia se mãe estável.</li>
+<li>Complicações: coagulopatia de consumo, atonia, útero de Couvelaire, insuficiência renal.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o principal fator de risco do descolamento prematuro de placenta? <details><summary>Resposta</summary>A hipertensão arterial, crônica ou gestacional.</details></li>
+<li>Por que o volume de sangramento vaginal não mede a gravidade do descolamento? <details><summary>Resposta</summary>Porque em até 20% dos casos a hemorragia é oculta, retida atrás da placenta; a gravidade se mede pela clínica materna e pela vitalidade fetal.</details></li>
+<li>Qual é a via de parto preferida no descolamento com feto morto e mãe estável? <details><summary>Resposta</summary>Parto vaginal com amniotomia, que reduz a pressão intrauterina e a passagem de tromboplastina.</details></li>
+</ol>
+`,
+
+"sirio2026#77": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar os cinco componentes do índice de Bishop e sua pontuação.</li>
+<li>Usar o índice para escolher entre indução direta e preparo cervical.</li>
+<li>Reconhecer indicações e métodos de indução do trabalho de parto.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Índice de Bishop</dt>
+<dd>Escore de 0 a 13 que soma dilatação, esvaecimento, consistência e posição do colo e altura da apresentação.</dd>
+<dt>Colo favorável</dt>
+<dd>Bishop de 8 ou mais (alguns usam 6): a indução com ocitocina tem probabilidade de sucesso semelhante ao parto espontâneo.</dd>
+<dt>Preparo cervical</dt>
+<dd>Amadurecimento do colo desfavorável com misoprostol, dinoprostona ou balão (sonda de Foley), antes da ocitocina.</dd>
+<dt>Taquissistolia</dt>
+<dd>Mais de cinco contrações em dez minutos, complicação da ocitocina e do misoprostol, que pode causar sofrimento fetal.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O índice de Bishop, publicado em 1964, continua a ser a ferramenta clínica para avaliar se o colo está pronto para a indução. São cinco parâmetros: <strong>dilatação</strong> (0 cm, 1 a 2, 3 a 4, 5 ou mais, pontuando 0 a 3), <strong>esvaecimento</strong> (0 a 30%, 40 a 50%, 60 a 70%, 80% ou mais, 0 a 3), <strong>altura da apresentação</strong> (De Lee −3, −2, −1 a 0, +1 ou +2, 0 a 3), <strong>consistência</strong> (firme, média, amolecida, 0 a 2) e <strong>posição</strong> do colo (posterior, central, anterior, 0 a 2). O máximo é 13. Membranas, ângulo subpúbico e peso fetal não entram.</p>
+<p>O escore orienta o método. Com colo <strong>favorável</strong>, Bishop de 8 ou mais, a ocitocina venosa em infusão crescente, com ou sem amniotomia, costuma bastar, e a taxa de cesárea é parecida com a do trabalho de parto espontâneo.</p>
+<p>As indicações de indução são as situações em que continuar a gestação é mais perigoso que interrompê-la: pré-eclâmpsia, rotura de membranas a termo, gestação de 41 semanas ou mais, diabetes com repercussão fetal, restrição de crescimento com Doppler alterado, óbito fetal e corioamnionite. As contraindicações são as mesmas do parto vaginal: placenta prévia, apresentação anômala, cicatriz uterina corporal, herpes genital ativo. Durante a indução, a vigilância fetal é contínua, e a taquissistolia se trata reduzindo a ocitocina ou retirando o misoprostol.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando a prova pergunta o que o Bishop avalia, elimine qualquer item que não seja do colo ou da altura da apresentação: membranas, ângulo subpúbico, peso fetal e paridade não pontuam. Quando pergunta o método, a regra é colo favorável recebe ocitocina, colo desfavorável recebe misoprostol ou balão, e útero com cesárea anterior recebe balão.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Bishop: dilatação, esvaecimento, altura da apresentação, consistência e posição do colo; máximo 13.</li>
+<li>Favorável (8 ou mais): ocitocina com ou sem amniotomia; desfavorável (menos de 6): preparo cervical.</li>
+<li>Preparo: misoprostol 25 mcg a cada 4 a 6 h, dinoprostona ou balão; balão se cesárea anterior.</li>
+<li>Indicações: pré-eclâmpsia, bolsa rota a termo, 41 semanas, diabetes, restrição, óbito fetal, corioamnionite.</li>
+<li>Vigiar taquissistolia e sofrimento fetal; reduzir ocitocina ou retirar misoprostol.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os cinco parâmetros do índice de Bishop? <details><summary>Resposta</summary>Dilatação, esvaecimento, consistência e posição do colo, e altura da apresentação.</details></li>
+<li>Qual método de preparo cervical é preferido na gestante com cesárea anterior e por quê? <details><summary>Resposta</summary>O balão transcervical, porque as prostaglandinas aumentam o risco de rotura do útero com cicatriz.</details></li>
+<li>O que define um colo favorável à indução pelo índice de Bishop? <details><summary>Resposta</summary>Escore de 8 ou mais, com chance de sucesso da ocitocina semelhante à do trabalho de parto espontâneo.</details></li>
+</ol>
+`,
+
+"sirio2026#79": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar as categorias dos critérios de elegibilidade da OMS para contraceptivos.</li>
+<li>Identificar as condições que contraindicam o estrogênio.</li>
+<li>Escolher o método para a mulher com doença cardiovascular ou fator de risco.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Categoria 1</dt>
+<dd>Sem restrição ao uso do método.</dd>
+<dt>Categoria 2</dt>
+<dd>Vantagens superam os riscos; usar com acompanhamento.</dd>
+<dt>Categoria 3</dt>
+<dd>Riscos superam as vantagens; usar só se não houver outra opção aceitável.</dd>
+<dt>Categoria 4</dt>
+<dd>Risco inaceitável; método contraindicado.</dd>
+<dt>Métodos combinados</dt>
+<dd>Pílula, injetável mensal, adesivo e anel vaginal; todos contêm estrogênio e compartilham as mesmas contraindicações.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Os critérios médicos de elegibilidade da OMS classificam cada condição clínica para cada método em quatro categorias.</p>
+<p>A <strong>hipertensão</strong> é um caso instrutivo. Hipertensa controlada com medicação ou com pressão de 140 a 159 por 90 a 99 é categoria <strong>3</strong> para combinados; pressão de 160 × 100 ou mais, ou doença vascular, é categoria <strong>4</strong>. Já os métodos <strong>só de progestagênio</strong> são categoria 1 ou 2 em todas essas faixas: pílula de desogestrel, implante de etonogestrel e DIU de levonorgestrel são categoria 1, e o injetável trimestral é categoria 2 na hipertensão leve e 3 na grave, pelo efeito discreto sobre lipídios e pressão. O DIU de cobre é categoria 1, sem interferência metabólica.</p>
+<p>Outras condições seguem a mesma lógica. Na enxaqueca com aura, o estrogênio é categoria 4 e o progestagênio isolado, 2. No pós-parto, o estrogênio é evitado nas primeiras seis semanas se há amamentação e nas três primeiras em qualquer caso, pelo risco trombótico. Na obesidade com IMC acima de 35, os combinados são categoria 2, com atenção ao risco somado de outros fatores. A regra prática é: quando houver qualquer dúvida cardiovascular, tirar o estrogênio e manter a eficácia com progestagênio isolado ou DIU.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Diante de hipertensa, enxaqueca com aura, trombose prévia ou fumante acima de 35 anos pedindo contracepção, risque todas as opções com estrogênio, inclusive adesivo e anel, que não são "mais seguros" por serem transdérmicos. Sobram pílula de progestagênio, implante, DIU hormonal e DIU de cobre.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>OMS: categorias 1 e 2 permitem; 3 restringe; 4 contraindica.</li>
+<li>Estrogênio dos combinados eleva fatores de coagulação e pressão; restrições iguais para pílula, injetável mensal, adesivo e anel.</li>
+<li>Hipertensão controlada ou leve: combinados categoria 3; grave ou com doença vascular: categoria 4.</li>
+<li>Progestagênio isolado (pílula, implante, DIU hormonal) e DIU de cobre: categoria 1 ou 2 na hipertensa.</li>
+<li>Mesma lógica para enxaqueca com aura, trombose prévia, tabagismo acima de 35 anos e pós-parto precoce.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em que categoria da OMS está a pílula combinada para a hipertensa controlada com medicação? <details><summary>Resposta</summary>Categoria 3: os riscos superam os benefícios; usar só na falta de outra opção.</details></li>
+<li>O adesivo transdérmico é mais seguro que a pílula para a hipertensa? <details><summary>Resposta</summary>Não; contém estrogênio e tem a mesma categoria de restrição dos demais combinados.</details></li>
+<li>Quais métodos hormonais são categoria 1 para a mulher hipertensa? <details><summary>Resposta</summary>Pílula de progestagênio isolado, implante de etonogestrel e DIU de levonorgestrel.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · GO · Sírio-Libanês 2027 (go66–go80) ----------------------------------- */
+"sirio2027#61": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Comparar eficácia e segurança dos métodos de analgesia no trabalho de parto.</li>
+<li>Descrever a analgesia neuroaxial, suas vantagens e seus efeitos adversos.</li>
+<li>Posicionar os métodos não farmacológicos à luz da evidência.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Analgesia neuroaxial</dt>
+<dd>Peridural, raquianestesia ou combinada; bloqueio da dor com anestésico local em baixa concentração e opioide no espaço peridural ou subaracnóideo.</dd>
+<dt>Opioides sistêmicos</dt>
+<dd>Meperidina, fentanil ou remifentanil por via venosa ou muscular; alívio parcial, com sedação e depressão neonatal.</dd>
+<dt>Óxido nitroso</dt>
+<dd>Gás inalado a 50% com oxigênio, autoadministrado; analgesia leve, seguro para mãe e feto.</dd>
+<dt>Métodos não farmacológicos</dt>
+<dd>Imersão em água, deambulação, massagem, relaxamento, acupuntura e TENS; seguros, melhoram a satisfação, com evidência analgésica limitada.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A dor do trabalho de parto é uma das mais intensas que a mulher experimenta, e aliviá-la é parte do cuidado, não um luxo. A revisão Cochrane que agrupou todas as revisões sistemáticas sobre o tema separa os métodos em três grupos: os que <strong>funcionam</strong> (analgesia neuroaxial e, em menor grau, óxido nitroso e opioides), os que <strong>podem funcionar</strong> (imersão em água, relaxamento, acupuntura, massagem) e os com <strong>evidência insuficiente</strong> (hipnose, TENS, aromaterapia).</p>
+<p>A <strong>analgesia neuroaxial</strong> é o padrão: alivia a dor melhor que qualquer outro método, com maior satisfação materna, e pode ser iniciada em qualquer fase do trabalho de parto a pedido da mulher, sem esperar dilatação mínima.</p>
+<p>Os <strong>opioides sistêmicos</strong> dão alívio modesto e causam náusea, vômito, sonolência e depressão respiratória neonatal, sobretudo a meperidina; o remifentanil em bomba controlada pela paciente é a opção quando a neuroaxial é contraindicada. O <strong>óxido nitroso</strong> é seguro, de início rápido e reversível, mas fraco. As contraindicações da neuroaxial são coagulopatia, plaquetas abaixo de 70 mil, infecção no local, hipertensão intracraniana e recusa, e nesses casos os demais métodos ganham espaço.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A hierarquia que a prova cobra é: neuroaxial é mais eficaz e mais satisfatória que opioides; opioides causam efeitos adversos maternos e neonatais; óxido nitroso é seguro, mas fraco; métodos não farmacológicos são seguros e bem-vindos, mas a evidência de que tiram a dor é fraca. Nenhuma dilatação mínima é exigida para a peridural.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Neuroaxial: método mais eficaz e com maior satisfação; a pedido da mulher, em qualquer fase.</li>
+<li>Efeitos da peridural: hipotensão, febre, retenção urinária, segundo período mais longo, mais ocitocina e fórcipe; sem aumento de cesárea.</li>
+<li>Opioides sistêmicos: alívio modesto, náusea, sedação, depressão neonatal.</li>
+<li>Óxido nitroso: seguro, autoadministrado, potência baixa.</li>
+<li>Não farmacológicos: seguros, melhoram a satisfação, evidência analgésica limitada e inconsistente.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o método de analgesia obstétrica com maior eficácia e satisfação materna? <details><summary>Resposta</summary>A analgesia neuroaxial (peridural ou combinada), superior aos opioides sistêmicos e ao óxido nitroso.</details></li>
+<li>A peridural aumenta a taxa de cesárea? <details><summary>Resposta</summary>Não; prolonga um pouco o segundo período e aumenta o uso de ocitocina e de parto instrumental, mas não a cesárea.</details></li>
+<li>Como a evidência classifica a eficácia analgésica dos métodos não farmacológicos? <details><summary>Resposta</summary>Como limitada e inconsistente: são seguros e aumentam a satisfação, mas os estudos são pequenos e heterogêneos.</details></li>
+</ol>
+`,
+
+"sirio2027#62": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o trabalho de parto fisiológico e evitar intervenções sem indicação.</li>
+<li>Indicar a analgesia peridural pelo pedido materno e descrever a técnica.</li>
+<li>Saber quando amniotomia, ocitocina e tocólise têm lugar.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Fase ativa do trabalho de parto</dt>
+<dd>A partir de 5 cm de dilatação (OMS, 2018) ou 4 cm nos critérios antigos, com contrações regulares; progressão esperada de cerca de 1 cm por hora, com grande variação.</dd>
+<dt>Peridural de baixa dose</dt>
+<dd>Bupivacaína ou ropivacaína a 0,0625 a 0,125% com fentanil, em bolus ou infusão contínua, preservando a mobilidade.</dd>
+<dt>Amniotomia</dt>
+<dd>Rotura artificial das membranas; acelera o parto em progressão lenta, mas não é rotina no trabalho de parto normal.</dd>
+<dt>Taquissistolia</dt>
+<dd>Mais de cinco contrações em dez minutos; risco da ocitocina usada sem indicação.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O trabalho de parto que progride com dinâmica adequada, dilatação avançando, bolsa íntegra, feto em boa vitalidade e líquido claro não precisa de nenhuma intervenção obstétrica. A OMS e o ACOG insistem em <strong>limitar as intervenções</strong> no parto de baixo risco: nada de amniotomia de rotina, ocitocina de rotina, jejum, tricotomia, enema ou posição imposta. O que a mulher precisa é de apoio contínuo, liberdade de movimento, hidratação e alívio da dor quando desejar.</p>
+<p>A <strong>dor</strong> é indicação por si só. O ACOG afirma que, na ausência de contraindicação, o pedido da mulher é motivo suficiente para a analgesia, e que não existe dilatação mínima para iniciá-la; a peridural precoce, com 2 ou 3 cm, não aumenta cesárea nem prolonga de forma relevante o trabalho de parto.</p>
+<p>As outras intervenções têm indicações precisas. A <strong>amniotomia</strong> é útil quando a progressão é lenta (menos de 1 cm em duas horas na fase ativa) ou para avaliar o líquido em caso de alteração da frequência cardíaca fetal; de rotina, só acrescenta risco de infecção e de compressão do cordão. A <strong>ocitocina</strong> é para hipoatividade uterina com progressão insatisfatória, começando com dose baixa e titulando até três a cinco contrações em dez minutos.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando o enunciado descreve um trabalho de parto normal e a única queixa é dor, a resposta é analgesia peridural; qualquer outra conduta é intervenção sem indicação. O examinador quer saber se você resiste a romper a bolsa e a dar ocitocina "para ajudar" num parto que já está ajudando a si mesmo.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Parto fisiológico: progressão adequada, feto bem, líquido claro; nenhuma intervenção de rotina.</li>
+<li>Dor é indicação de analgesia; o pedido da mulher basta; sem dilatação mínima.</li>
+<li>Peridural de baixa dose com opioide preserva mobilidade e não aumenta cesárea.</li>
+<li>Amniotomia e ocitocina só para progressão lenta ou hipoatividade uterina.</li>
+<li>Tocólise é para prematuridade; anti-inflamatórios não tratam a dor do parto.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Existe dilatação mínima para iniciar a analgesia peridural? <details><summary>Resposta</summary>Não; o pedido materno é indicação suficiente em qualquer fase, e a peridural precoce não aumenta a cesárea.</details></li>
+<li>Quando a amniotomia tem indicação no trabalho de parto? <details><summary>Resposta</summary>Na progressão lenta da fase ativa ou para avaliar o líquido diante de alteração da frequência cardíaca fetal; nunca de rotina.</details></li>
+<li>Por que a ocitocina não deve ser dada num trabalho de parto com dinâmica adequada? <details><summary>Resposta</summary>Porque não há hipoatividade a corrigir e ela aumenta a dor e o risco de taquissistolia e sofrimento fetal.</details></li>
+</ol>
+`,
+
+"sirio2027#64": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Montar o diagnóstico diferencial do sangramento do terceiro trimestre.</li>
+<li>Reconhecer a placenta prévia pelo quadro e pelos fatores de risco.</li>
+<li>Descrever a conduta na prévia com sangramento e a investigação de acretismo.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Hemorragia anteparto</dt>
+<dd>Sangramento genital após 20 semanas e antes do parto; prévia e descolamento são as causas graves, e as causas cervicais e vaginais, as benignas.</dd>
+<dt>Vasa prévia</dt>
+<dd>Vasos fetais desprotegidos que cruzam as membranas sobre o colo; rompem com a bolsa e sangram sangue fetal.</dd>
+<dt>Rotura uterina</dt>
+<dd>Solução de continuidade do miométrio, em geral sobre cicatriz de cesárea, durante o trabalho de parto.</dd>
+<dt>Espectro do acretismo placentário</dt>
+<dd>Placenta acreta, increta e percreta; invasão do miométrio associada a prévia e cesáreas anteriores.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Diante do sangramento do terceiro trimestre, três perguntas organizam o raciocínio: há <strong>dor</strong>? o <strong>útero</strong> está relaxado ou hipertônico? como está o <strong>feto</strong>? A <strong>placenta prévia</strong> sangra sem dor, com útero mole, dinâmica ausente e feto em boa vitalidade, e o sangue é vermelho vivo, muitas vezes em episódios repetidos e autolimitados, o primeiro deles em geral após 28 semanas.</p>
+<p>Os fatores de risco da prévia são as agressões ao endométrio e o aumento da superfície placentária: <strong>cesáreas anteriores</strong> (o risco cresce com cada cicatriz), curetagens, multiparidade, idade acima de 35 anos, tabagismo, gemelaridade e reprodução assistida.</p>
+<p>A conduta no episódio de sangramento começa pela estabilização e pela confirmação com ultrassom transvaginal, sem toque. Com sangramento controlado e feto prematuro, a mulher fica internada, recebe corticoide se abaixo de 34 semanas e imunoglobulina anti-D se Rh negativo, e o parto é programado por cesárea entre 36 e 37 semanas. Sangramento volumoso, instabilidade materna ou sofrimento fetal indicam cesárea imediata em qualquer idade gestacional.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>"Sangramento vermelho vivo, indolor, tônus normal, feto bem, cesáreas anteriores" é placenta prévia em qualquer prova. Se o enunciado acrescentar bolsa rota recente e bradicardia fetal, vire para vasa prévia; se acrescentar dor, hipertonia e hipertensão, vire para descolamento; se acrescentar trabalho de parto com dor que cede e apresentação que sobe, vire para rotura uterina.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Prévia: sangramento indolor, útero mole, feto bem, episódios repetidos; descolamento: dor, hipertonia, sofrimento fetal.</li>
+<li>Vasa prévia: sangra com a bolsa rota e o feto bradicardiza; rotura uterina: cicatriz, trabalho de parto, apresentação que sobe.</li>
+<li>Fatores de risco da prévia: cesáreas, curetagens, multiparidade, idade, tabaco, gemelar.</li>
+<li>Prévia sobre cicatriz: investigar acretismo com Doppler e ressonância.</li>
+<li>Conduta: ultrassom transvaginal sem toque; estável, cesárea 36 a 37 semanas; instável ou sofrimento fetal, cesárea imediata.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que três perguntas separam placenta prévia de descolamento à beira do leito? <details><summary>Resposta</summary>Se há dor, se o útero está relaxado ou hipertônico e como está a vitalidade fetal; a prévia é indolor, com útero mole e feto bem.</details></li>
+<li>Por que a placenta prévia em mulher com cesáreas anteriores exige investigação adicional? <details><summary>Resposta</summary>Pelo risco de acretismo placentário, que muda o planejamento para cesárea-histerectomia em centro de referência.</details></li>
+<li>Qual exame confirma a placenta prévia e o que é proibido antes dele? <details><summary>Resposta</summary>O ultrassom transvaginal; o toque vaginal é proibido até que a placenta seja localizada.</details></li>
+</ol>
+`,
+
+"sirio2027#66": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar o abortamento pelo exame do colo e pelo ultrassom.</li>
+<li>Diferenciar ameaça, incompleto, completo, retido, inevitável e infectado.</li>
+<li>Descrever as opções de esvaziamento uterino e os cuidados associados.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Abortamento</dt>
+<dd>Interrupção da gestação antes de 20 a 22 semanas ou com feto abaixo de 500 g; ocorre em 10 a 15% das gestações reconhecidas.</dd>
+<dt>Aborto incompleto</dt>
+<dd>Eliminação parcial do conteúdo ovular, com colo pérvio, sangramento persistente e restos na cavidade.</dd>
+<dt>Aborto retido</dt>
+<dd>Óbito embrionário com colo fechado e sem eliminação, diagnosticado pelo ultrassom.</dd>
+<dt>Aspiração manual intrauterina</dt>
+<dd>Esvaziamento por cânula e seringa a vácuo; método de escolha abaixo de 12 semanas, ambulatorial e com menos complicações que a curetagem.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O exame do <strong>colo</strong> e o <strong>ultrassom</strong> classificam o abortamento. Colo <strong>fechado</strong> com embrião vivo é <strong>ameaça</strong>, e a conduta é expectante, com orientações; colo fechado com embrião sem batimentos ou saco vazio é <strong>aborto retido</strong>; colo fechado após sangramento que cessou, com cavidade vazia (endométrio abaixo de 15 mm), é <strong>aborto completo</strong>.</p>
+<p>No <strong>aborto incompleto</strong> há três caminhos. A <strong>aspiração manual intrauterina</strong> é o método recomendado pela OMS e pelo Ministério da Saúde abaixo de 12 semanas: rápida, ambulatorial, com anestesia local e menor risco de perfuração e sinéquias que a curetagem. O <strong>misoprostol</strong> (400 a 800 mcg vaginal ou sublingual) é a opção medicamentosa, com sucesso acima de 90% em alguns dias, para a mulher estável que prefere evitar o procedimento.</p>
+<p>Os cuidados são os mesmos em qualquer via: tipagem sanguínea com imunoglobulina anti-D para a Rh negativa não sensibilizada, hemograma, analgesia, contracepção imediata (o DIU pode ser inserido logo após o esvaziamento sem infecção) e acolhimento, porque a perda gestacional é um luto. A investigação de causas só se justifica a partir de duas ou três perdas consecutivas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Colo aberto mais restos no ultrassom é aborto incompleto, e a prova gosta de oferecer "ameaça" como distrator, que exige colo fechado e embrião vivo. A conduta de escolha abaixo de 12 semanas é a aspiração manual intrauterina, e o misoprostol e a expectação são aceitáveis na paciente estável.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Colo fechado: ameaça (embrião vivo), retido (sem batimentos) ou completo (cavidade vazia após sangramento).</li>
+<li>Colo pérvio: inevitável (em expulsão) ou incompleto (restos heterogêneos e sangramento).</li>
+<li>Infectado: febre, útero doloroso, secreção fétida; antibiótico e esvaziamento imediato.</li>
+<li>Incompleto abaixo de 12 semanas: aspiração manual intrauterina; misoprostol ou expectação se estável.</li>
+<li>Anti-D para Rh negativa, contracepção imediata, acolhimento; investigar causas após duas ou três perdas.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>O que diferencia a ameaça de abortamento do aborto incompleto? <details><summary>Resposta</summary>Na ameaça o colo está fechado e o embrião vivo; no incompleto o colo está pérvio e há restos heterogêneos na cavidade com sangramento.</details></li>
+<li>Qual é o método de esvaziamento de escolha no aborto incompleto abaixo de 12 semanas? <details><summary>Resposta</summary>A aspiração manual intrauterina, por ser ambulatorial, rápida e com menos perfurações e sinéquias que a curetagem.</details></li>
+<li>Que cuidado específico a mulher Rh negativa recebe após o abortamento? <details><summary>Resposta</summary>Imunoglobulina anti-D, se não sensibilizada, para prevenir aloimunização.</details></li>
+</ol>
+`,
+
+"sirio2027#67": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever a prevenção da transmissão vertical do HIV no pré-natal, no parto e no puerpério.</li>
+<li>Aplicar os cortes de carga viral que definem via de parto e zidovudina venosa.</li>
+<li>Reconhecer as condutas intraparto que reduzem a exposição do recém-nascido.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Carga viral de 34 semanas</dt>
+<dd>Dosagem que decide a via de parto e a profilaxia intraparto; deve ser colhida entre 34 e 36 semanas.</dd>
+<dt>Zidovudina venosa intraparto</dt>
+<dd>AZT 2 mg/kg na primeira hora e 1 mg/kg/hora até o clampeamento; indicado com carga viral detectável ou desconhecida.</dd>
+<dt>Cesárea eletiva</dt>
+<dd>Cesárea com 38 semanas, com membranas íntegras e fora do trabalho de parto, para carga viral acima de 1.000 cópias ou desconhecida.</dd>
+<dt>Profilaxia neonatal</dt>
+<dd>Zidovudina oral por quatro semanas para todo exposto; esquema ampliado com lamivudina e raltegravir ou nevirapina para o alto risco.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Sem intervenção, a transmissão vertical do HIV chega a 25 a 30%; com o pacote completo, cai para menos de 1%. O pacote começa no pré-natal, com teste na primeira consulta, no terceiro trimestre e no parto, e <strong>terapia antirretroviral</strong> para toda gestante, de preferência tenofovir, lamivudina e dolutegravir, iniciada o quanto antes e mantida para a vida. O objetivo é chegar ao terceiro trimestre com carga viral <strong>indetectável</strong>, e a dosagem decisiva é colhida entre <strong>34 e 36 semanas</strong>.</p>
+<p>A carga viral de 34 semanas define o parto. <strong>Abaixo de 50 cópias</strong>, indetectável: via de parto obstétrica, sem zidovudina venosa. <strong>Entre 50 e 1.000 cópias</strong>: via obstétrica, mas com <strong>zidovudina venosa</strong> do início do trabalho de parto ao clampeamento.</p>
+<p>No parto vaginal da gestante com HIV evitam-se episiotomia, amniotomia, fórcipe e vácuo, e o tempo de bolsa rota é mantido o menor possível, pois cada hora acrescenta risco; o cordão é clampeado sem ordenha, e o recém-nascido é lavado e aspirado com delicadeza.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Grave dois números: 50 e 1.000. Abaixo de 50, nada de AZT venoso; acima de 50, AZT venoso; acima de 1.000, cesárea eletiva com 38 semanas, se a mulher ainda não está em trabalho de parto com bolsa rota. Terapia oral em uso não dispensa o AZT venoso, e a carga do primeiro trimestre não decide nada.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Toda gestante com HIV recebe terapia antirretroviral; meta é carga indetectável no terceiro trimestre.</li>
+<li>Carga viral de 34 a 36 semanas define a conduta no parto.</li>
+<li>Abaixo de 50: via obstétrica sem AZT; 50 a 1.000: via obstétrica com AZT venoso; acima de 1.000 ou desconhecida: AZT venoso e cesárea eletiva às 38 semanas.</li>
+<li>Em trabalho de parto avançado ou bolsa rota prolongada, a cesárea perde o benefício; segue via vaginal com AZT.</li>
+<li>Evitar episiotomia, amniotomia e instrumentação; AZT oral ao recém-nascido por quatro semanas; aleitamento contraindicado.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Com que carga viral a zidovudina venosa intraparto é dispensada? <details><summary>Resposta</summary>Com carga viral indetectável, abaixo de 50 cópias/mL, na dosagem de 34 a 36 semanas.</details></li>
+<li>Qual é a conduta quando a carga viral de 34 semanas é de 1.500 cópias e a gestante não está em trabalho de parto? <details><summary>Resposta</summary>Zidovudina venosa e cesárea eletiva às 38 semanas, com membranas íntegras.</details></li>
+<li>Por que a terapia antirretroviral oral em uso não substitui a zidovudina venosa no parto? <details><summary>Resposta</summary>Porque o AZT venoso atinge concentrações altas no feto no momento de maior exposição e reduz a transmissão mesmo em quem usa terapia oral com carga detectável.</details></li>
+</ol>
+`,
+
+"sirio2027#68": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Avaliar a candidata ao parto vaginal após cesárea e seus riscos.</li>
+<li>Aplicar a regra brasileira para uma e para duas ou mais cesáreas anteriores.</li>
+<li>Reconhecer a rotura uterina e as condutas que aumentam seu risco.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Parto vaginal após cesárea</dt>
+<dd>Tentativa de trabalho de parto em mulher com cesárea anterior; sucesso em 60 a 80% das candidatas bem selecionadas.</dd>
+<dt>Rotura uterina</dt>
+<dd>Separação completa da cicatriz com comunicação entre as cavidades uterina e peritoneal; emergência com risco de óbito fetal e histerectomia.</dd>
+<dt>Incisão segmentar transversa</dt>
+<dd>Incisão habitual da cesárea, no segmento inferior; a única que permite tentativa de parto vaginal posterior.</dd>
+<dt>Intervalo interpartal</dt>
+<dd>Tempo entre a cesárea e o parto seguinte; abaixo de 18 meses o risco de rotura aumenta.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O útero com cicatriz pode contrair e parir, mas a cicatriz é o ponto fraco. Após <strong>uma cesárea segmentar transversa</strong>, o risco de rotura na tentativa de parto vaginal é de 0,5 a 0,7%, e o sucesso chega a 70 a 80% quando a indicação da cesárea anterior não se repete (apresentação pélvica, sofrimento fetal) e há parto vaginal prévio. Por isso a tentativa é oferecida e incentivada, em hospital com cesárea disponível em 30 minutos, monitorização fetal contínua e anestesia presente.</p>
+<p>Com <strong>duas ou mais cesáreas</strong>, o risco de rotura sobe para cerca de 1,5 a 2%, e a diretriz do Ministério da Saúde e da CONITEC (2016) recomenda <strong>cesárea programada</strong>; o ACOG admite a tentativa após duas cesáreas em casos selecionados, mas a recomendação nacional é a que as provas brasileiras cobram. Cicatriz corporal ou em T, rotura prévia e miomectomia com abertura da cavidade são contraindicações absolutas ao trabalho de parto. A cesárea programada é feita às 39 semanas, ou antes se o trabalho de parto começar.</p>
+<p>Durante a tentativa de parto vaginal, as prostaglandinas são contraindicadas para preparo cervical, pelo risco de rotura duas a três vezes maior; a indução, quando indicada, usa balão e ocitocina em dose cautelosa, e a condução com ocitocina em útero com duas cicatrizes é evitada.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Uma cesárea anterior: pode tentar o parto vaginal, sem prostaglandina. Duas ou mais: no Brasil, cesárea. Se a mulher com duas cicatrizes chega em trabalho de parto, a resposta é cesárea agora, e nunca ocitocina ou amniotomia para "conduzir". Bradicardia fetal súbita em útero com cicatriz é rotura até prova em contrário.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Uma cesárea segmentar: tentativa de parto vaginal, com risco de rotura de 0,5 a 0,7% e sucesso de 70 a 80%.</li>
+<li>Duas ou mais cesáreas: cesárea programada pela diretriz brasileira; risco de rotura de 1,5 a 2%.</li>
+<li>Contraindicações absolutas: cicatriz corporal ou em T, rotura prévia, miomectomia com abertura da cavidade.</li>
+<li>Prostaglandinas contraindicadas no útero com cicatriz; indução com balão e ocitocina cautelosa só após uma cesárea.</li>
+<li>Rotura: bradicardia fetal súbita, dor atípica, apresentação que sobe; laparotomia imediata.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o risco de rotura uterina na tentativa de parto vaginal após uma cesárea segmentar? <details><summary>Resposta</summary>Cerca de 0,5 a 0,7%.</details></li>
+<li>Qual é a recomendação brasileira para a via de parto após duas cesáreas? <details><summary>Resposta</summary>Cesárea programada, pela diretriz do Ministério da Saúde e da CONITEC de 2016.</details></li>
+<li>Qual é o sinal mais frequente de rotura uterina durante o trabalho de parto? <details><summary>Resposta</summary>Bradicardia fetal súbita, seguida de dor atípica, perda da apresentação e instabilidade materna.</details></li>
+</ol>
+`,
+
+"sirio2027#69": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever a investigação e a conduta no óbito fetal intrauterino.</li>
+<li>Escolher o método de indução conforme a idade gestacional e o estado do colo.</li>
+<li>Reconhecer os riscos da retenção prolongada do feto morto e as contraindicações do misoprostol.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Óbito fetal</dt>
+<dd>Morte do concepto a partir de 20 a 22 semanas ou com 500 g, antes da expulsão; diagnóstico pela ausência de batimentos ao ultrassom.</dd>
+<dt>Coagulopatia de consumo</dt>
+<dd>Queda de fibrinogênio e plaquetas por liberação de tromboplastina do feto retido; rara antes de quatro semanas de retenção.</dd>
+<dt>Misoprostol</dt>
+<dd>Análogo da prostaglandina E1 que amadurece o colo e induz contrações; dose e intervalo dependem da idade gestacional.</dd>
+<dt>Sinal de Spalding</dt>
+<dd>Cavalgamento dos ossos do crânio fetal no ultrassom, sinal tardio de óbito, com maceração.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O óbito fetal se confirma pela ausência de atividade cardíaca no ultrassom, repetida por um segundo examinador quando possível. Antes de qualquer decisão, a mãe é avaliada: pressão arterial, hemograma, coagulograma com fibrinogênio, tipagem, sorologias e teste de Kleihauer-Betke se Rh negativo.</p>
+<p>A conduta é <strong>resolver a gestação por via vaginal</strong>, salvo indicação materna de cesárea (placenta prévia, duas ou mais cesáreas, situação transversa). A espera pelo trabalho de parto espontâneo é possível por alguns dias em mulher estável que a deseje, mas a maioria prefere a indução, e a retenção acima de três a quatro semanas traz risco de coagulopatia e de infecção. O método depende do <strong>colo</strong>: desfavorável, com Bishop baixo, pede <strong>misoprostol</strong>; favorável, aceita ocitocina.</p>
+<p>Em útero com <strong>cesárea anterior</strong>, o misoprostol é usado com cautela e doses reduzidas no segundo trimestre e evitado no terceiro, com preferência pelo balão transcervical e ocitocina. O balão isolado, sem preparo farmacológico, é opção mecânica em colo desfavorável, mas a ocitocina concomitante em colo impérvio e grosso tem baixa eficácia.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Feto morto é parto vaginal, e a prova testa se você resiste à cesárea. Colo impérvio e grosso pede misoprostol; colo favorável pede ocitocina; útero com cesárea prévia troca o misoprostol pelo balão. Esperar semanas pelo trabalho de parto espontâneo expõe a mãe a coagulopatia e infecção.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Confirmar o óbito ao ultrassom e avaliar a mãe: pressão, hemograma, coagulograma, fibrinogênio, tipagem.</li>
+<li>Investigar a causa: história, sorologias, autópsia e exame da placenta; metade fica sem causa.</li>
+<li>Resolução por via vaginal; cesárea só por indicação materna.</li>
+<li>Colo desfavorável: misoprostol (doses maiores que com feto vivo); colo favorável: ocitocina; cesárea anterior: balão.</li>
+<li>Retenção acima de três a quatro semanas: risco de coagulopatia e infecção; apoio ao luto e planejamento da próxima gestação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a cesárea não é a conduta no óbito fetal sem indicação materna? <details><summary>Resposta</summary>Porque expõe a mãe aos riscos cirúrgicos sem nenhum benefício fetal; a via vaginal é mais segura.</details></li>
+<li>Qual é o método de indução para o óbito fetal com colo impérvio e grosso? <details><summary>Resposta</summary>Misoprostol, que amadurece o colo e desencadeia contrações; a ocitocina entra depois do preparo.</details></li>
+<li>Qual é o risco da retenção prolongada do feto morto? <details><summary>Resposta</summary>Coagulopatia de consumo, por liberação de tromboplastina, e infecção, sobretudo após três a quatro semanas.</details></li>
+</ol>
+`,
+
+"sirio2027#70": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar os anti-hipertensivos permitidos na gestação e suas indicações.</li>
+<li>Explicar a fetotoxicidade dos inibidores do sistema renina-angiotensina.</li>
+<li>Definir metas pressóricas e o tratamento da emergência hipertensiva.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Inibidores da ECA e bloqueadores do receptor de angiotensina</dt>
+<dd>Enalapril, captopril, losartana e similares; contraindicados em toda a gestação pela toxicidade renal fetal.</dd>
+<dt>Metildopa</dt>
+<dd>Agonista alfa-2 central, droga oral de manutenção com maior experiência na gestação; limitada por sonolência e depressão.</dd>
+<dt>Nifedipina de liberação lenta</dt>
+<dd>Bloqueador de cálcio, primeira linha oral junto com a metildopa; a forma de ação rápida trata a crise.</dd>
+<dt>Hidralazina</dt>
+<dd>Vasodilatador venoso em bolus de 5 mg a cada 20 minutos para pressão de 160 × 110 ou mais.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O tratamento da hipertensão na gestação protege a mãe de acidente vascular cerebral e descolamento, sem reverter a pré-eclâmpsia, que só se cura com o parto.</p>
+<p>A contraindicação absoluta são os bloqueadores do sistema renina-angiotensina: <strong>inibidores da ECA</strong>, <strong>bloqueadores do receptor de angiotensina</strong> e inibidores diretos da renina. No segundo e terceiro trimestres, eles reduzem a perfusão e a filtração renal do feto, cujo rim depende da angiotensina II, causando oligúria fetal, <strong>oligoâmnio</strong>, hipoplasia pulmonar, contraturas, hipocalvária e insuficiência renal neonatal com anúria, muitas vezes fatal.</p>
+<p>A <strong>emergência hipertensiva</strong>, pressão de 160 × 110 ou mais confirmada em 15 minutos, exige redução em minutos a uma hora, sem levar a pressão abaixo de 140 × 90, para não comprometer a perfusão placentária. As opções são <strong>hidralazina</strong> venosa em bolus de 5 mg repetidos a cada 20 minutos até 20 mg, <strong>nifedipina</strong> oral de ação rápida 10 mg a cada 20 a 30 minutos, ou labetalol venoso onde disponível. Nitroprussiato fica para a refratariedade, por curto período, pelo risco de intoxicação fetal por cianeto.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Qualquer droga terminada em "pril" ou "sartana" está errada na gestante. As certas são metildopa, nifedipina, anlodipino e os betabloqueadores exceto atenolol para manutenção, e hidralazina ou nifedipina rápida para a crise. A pergunta "qual é contraindicado" tem resposta única: o bloqueador do sistema renina-angiotensina.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Manutenção: metildopa e nifedipina de liberação lenta em primeira linha; anlodipino, metoprolol e carvedilol como opções; atenolol evitado.</li>
+<li>Contraindicados: inibidores da ECA, bloqueadores do receptor de angiotensina, inibidores da renina; espironolactona evitada.</li>
+<li>Toxicidade: oligúria fetal, oligoâmnio, hipoplasia pulmonar, hipocalvária, insuficiência renal neonatal.</li>
+<li>Meta: 110 a 140 por 85; tratar a partir de 140 × 90 persistente.</li>
+<li>Emergência (160 × 110): hidralazina venosa ou nifedipina rápida; sulfato previne convulsão, não baixa pressão.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que efeitos fetais explicam a contraindicação dos inibidores da ECA na gestação? <details><summary>Resposta</summary>Hipoperfusão renal fetal com oligúria, oligoâmnio, hipoplasia pulmonar, hipocalvária e insuficiência renal neonatal.</details></li>
+<li>Quais são as drogas orais de primeira linha para manutenção da pressão na gestante? <details><summary>Resposta</summary>Metildopa e nifedipina de liberação lenta.</details></li>
+<li>Qual é a droga de escolha para a emergência hipertensiva da pré-eclâmpsia e sua dose? <details><summary>Resposta</summary>Hidralazina venosa, 5 mg em bolus a cada 20 minutos, até 20 mg; nifedipina oral de ação rápida é a outra opção.</details></li>
+</ol>
+`,
+
+"sirio2027#71": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Justificar o rastreamento e o tratamento da bacteriúria assintomática na gestação.</li>
+<li>Aplicar o critério diagnóstico e escolher antibióticos seguros por trimestre.</li>
+<li>Diferenciar bacteriúria, cistite e pielonefrite na gestante e suas condutas.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Bacteriúria assintomática</dt>
+<dd>Urocultura com 100.000 UFC/mL ou mais de um único uropatógeno em mulher sem sintomas urinários; afeta 2 a 10% das gestantes.</dd>
+<dt>Pielonefrite gestacional</dt>
+<dd>Infecção do parênquima renal, com febre, dor lombar e Giordano positivo; indica internação e antibiótico venoso.</dd>
+<dt>Fosfomicina trometamol</dt>
+<dd>Antibiótico de dose única, 3 g por via oral, seguro em qualquer trimestre e com baixa resistência.</dd>
+<dt>Nitrofurantoína</dt>
+<dd>Opção oral por 5 a 7 dias; evitada perto do termo pelo risco teórico de hemólise no recém-nascido com deficiência de G6PD.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A gestação favorece a infecção urinária: a progesterona relaxa o ureter, o útero comprime a pelve renal, há estase, glicosúria e alteração do pH. Por isso a <strong>bacteriúria assintomática</strong>, que fora da gestação não se trata, torna-se uma exceção: sem tratamento, <strong>20 a 35%</strong> das gestantes evoluem para pielonefrite, com risco de sepse, síndrome do desconforto respiratório, parto prematuro e baixo peso.</p>
+<p>O critério é a cultura com <strong>100.000 UFC/mL ou mais</strong> de um único germe, em amostra de jato médio; Escherichia coli responde por 70 a 80%, seguida de Klebsiella, Proteus e estreptococo do grupo B, cujo achado em qualquer contagem indica profilaxia intraparto.</p>
+<p>A <strong>cistite</strong> (disúria, polaciúria, urgência, sem febre) recebe os mesmos antibióticos por 7 dias. A <strong>pielonefrite</strong> (febre, calafrios, dor lombar, náuseas, Giordano positivo) exige internação, hidratação, hemocultura e urocultura e antibiótico venoso, em geral ceftriaxona, até 48 horas afebril, completando 10 a 14 dias por via oral; pielonefrite ou bacteriúria recorrente indicam profilaxia com nitrofurantoína ou cefalexina em dose baixa noturna até o parto.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Gestante assintomática com cultura de 100.000 colônias é tratada, ponto; a ausência de sintomas, que fora da gestação dispensaria antibiótico, aqui é irrelevante. Entre as opções, a fosfomicina em dose única é a resposta prática, e qualquer quinolona está errada. Febre com dor lombar muda tudo: internação e antibiótico venoso.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Bacteriúria assintomática na gestante: tratar sempre; 20 a 35% evoluem para pielonefrite sem tratamento.</li>
+<li>Diagnóstico: urocultura com 100.000 UFC/mL ou mais de um germe; rastreio na primeira consulta e no terceiro trimestre.</li>
+<li>Drogas seguras: fosfomicina dose única, nitrofurantoína (não após 36 semanas), cefalexina, amoxicilina-clavulanato; quinolonas e tetraciclinas proibidas.</li>
+<li>Cultura de controle após o tratamento; estreptococo B na urina indica profilaxia intraparto.</li>
+<li>Pielonefrite: internação, ceftriaxona venosa, 10 a 14 dias de tratamento, profilaxia até o parto se recorrente.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a bacteriúria assintomática é tratada na gestante e não na população geral? <details><summary>Resposta</summary>Porque na gestante 20 a 35% evoluem para pielonefrite, com risco de sepse, prematuridade e baixo peso; o tratamento reduz esse risco em cerca de 75%.</details></li>
+<li>Qual é o critério diagnóstico de bacteriúria assintomática na urocultura? <details><summary>Resposta</summary>Crescimento de 100.000 UFC/mL ou mais de um único uropatógeno em mulher sem sintomas.</details></li>
+<li>Por que a nitrofurantoína é evitada perto do termo? <details><summary>Resposta</summary>Pelo risco teórico de hemólise no recém-nascido com deficiência de G6PD.</details></li>
+</ol>
+`,
+
+"sirio2027#73": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Relacionar a resistência à insulina com os achados cutâneos e ovarianos da SOP.</li>
+<li>Aplicar os critérios diagnósticos de Rotterdam e excluir diferenciais.</li>
+<li>Descrever o rastreio metabólico e o tratamento conforme a queixa.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Síndrome dos ovários policísticos</dt>
+<dd>Endocrinopatia mais comum da mulher em idade reprodutiva, presente em 8 a 13%; diagnóstico por dois de três critérios de Rotterdam.</dd>
+<dt>Critérios de Rotterdam</dt>
+<dd>Oligo ou anovulação; hiperandrogenismo clínico ou laboratorial; morfologia ovariana policística ao ultrassom (20 ou mais folículos ou volume acima de 10 mL).</dd>
+<dt>Acantose nigricans</dt>
+<dd>Hiperpigmentação aveludada das dobras, marcador cutâneo de hiperinsulinemia; às vezes acompanhada de acrocórdons.</dd>
+<dt>Resistência à insulina</dt>
+<dd>Resposta reduzida dos tecidos à insulina, com hiperinsulinemia compensatória; presente em 50 a 70% das mulheres com SOP, magras ou obesas.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A fisiopatologia da SOP junta dois eixos. No <strong>eixo reprodutivo</strong>, a frequência aumentada dos pulsos de GnRH eleva o LH em relação ao FSH; o LH estimula a teca a produzir androgênios, e o FSH insuficiente não leva o folículo à ovulação, acumulando folículos pequenos.</p>
+<p>O diagnóstico usa os <strong>critérios de Rotterdam</strong>, dois de três, depois de excluir hiperprolactinemia, disfunção tireoidiana, hiperplasia adrenal não clássica (17-hidroxiprogesterona), síndrome de Cushing e tumores produtores de androgênio (testosterona acima de 200 ng/dL ou virilização rápida). Na adolescente, o ultrassom não vale como critério nos primeiros oito anos pós-menarca, pela frequência de ovários multifoliculares normais; exigem-se irregularidade menstrual persistente e hiperandrogenismo.</p>
+<p>Toda mulher com SOP recebe rastreio metabólico: glicemia de jejum e teste de tolerância ou hemoglobina glicada, perfil lipídico, pressão e circunferência abdominal, repetidos a cada um a três anos, além de triagem de apneia do sono, depressão e ansiedade.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Separe os sinais pela causa: acne, hirsutismo e alopecia são androgênio; acantose nigricans, acrocórdons e obesidade central são insulina. Quando a prova pergunta a causa da acantose, a resposta é hiperinsulinemia, não hiperandrogenismo. E lembre que SOP é diagnóstico de exclusão: tireoide, prolactina e 17-hidroxiprogesterona antes de fechar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Fisiopatologia: LH alto estimula androgênios na teca; hiperinsulinemia amplifica androgênios, reduz SHBG e causa acantose.</li>
+<li>Acantose nigricans é marcador de resistência à insulina, não de hiperandrogenismo.</li>
+<li>Rotterdam: dois de três entre anovulação, hiperandrogenismo e ovário policístico, após excluir diferenciais.</li>
+<li>Rastreio metabólico: glicemia ou teste de tolerância, lipídios, pressão, circunferência abdominal, a cada um a três anos.</li>
+<li>Tratamento: estilo de vida; combinado para ciclo e androgênio; metformina para o metabolismo; letrozol para ovulação.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o mecanismo da acantose nigricans na SOP? <details><summary>Resposta</summary>A hiperinsulinemia compensatória da resistência à insulina ativa receptores de IGF-1 nos queratinócitos, causando hiperqueratose e hiperpigmentação.</details></li>
+<li>Que diagnósticos devem ser excluídos antes de firmar SOP? <details><summary>Resposta</summary>Hiperprolactinemia, disfunção tireoidiana, hiperplasia adrenal não clássica, síndrome de Cushing e tumores produtores de androgênio.</details></li>
+<li>Qual é a primeira linha para induzir ovulação na mulher com SOP que deseja engravidar? <details><summary>Resposta</summary>O letrozol, após otimização do peso e do estilo de vida.</details></li>
+</ol>
+`,
+
+"sirio2027#74": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Organizar a investigação da amenorreia secundária em etapas.</li>
+<li>Usar FSH, prolactina, TSH e androgênios para localizar a causa no eixo.</li>
+<li>Reconhecer a amenorreia hipotalâmica funcional e seu tratamento.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Amenorreia secundária</dt>
+<dd>Ausência de menstruação por três meses em mulher com ciclos regulares, ou por seis meses em quem tinha ciclos irregulares.</dd>
+<dt>Amenorreia hipotalâmica funcional</dt>
+<dd>Supressão dos pulsos de GnRH por déficit energético, estresse ou exercício; gonadotrofinas baixas, estradiol baixo, sem lesão estrutural.</dd>
+<dt>Insuficiência ovariana prematura</dt>
+<dd>Falência ovariana antes dos 40 anos, com FSH acima de 25 UI/L em duas dosagens; causa hipergonadotrófica.</dd>
+<dt>Teste da progesterona</dt>
+<dd>Progestagênio por 7 a 10 dias; sangramento após a retirada indica estrogênio presente e trato íntegro.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A investigação da amenorreia secundária começa sempre pelo <strong>beta-hCG</strong>, porque a gestação é a causa mais comum. Em seguida, uma única rodada de exames localiza o problema: <strong>TSH</strong>, <strong>prolactina</strong> e <strong>FSH</strong>, acrescentando testosterona e 17-hidroxiprogesterona se houver sinais de hiperandrogenismo.</p>
+<p>O <strong>FSH</strong> divide os caminhos. <strong>Alto</strong> (acima de 25 UI/L, confirmado), o ovário falhou: insuficiência ovariana prematura, cujo cariótipo deve ser pedido antes dos 30 anos e que exige reposição hormonal até a idade da menopausa. <strong>Baixo ou normal</strong> com estradiol baixo, o defeito está acima: <strong>hipotálamo ou hipófise</strong>.</p>
+<p>A <strong>amenorreia hipotalâmica funcional</strong> é diagnóstico de exclusão em mulher jovem com déficit energético, treino intenso ou estresse: as gonadotrofinas e o estradiol estão baixos, o restante é normal, e o tratamento é corrigir a causa com recuperação do peso, redução do exercício e apoio psicológico, com atenção à densidade óssea, porque o hipoestrogenismo prolongado causa osteopenia; o contraceptivo combinado não recupera o osso e mascara a melhora, e o estradiol transdérmico é preferido quando se decide repor.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Amenorreia com FSH e LH baixos é central, e a prova quer que você diga "hipotalâmica ou hipofisária" sem titubear. Prolactina normal afasta o prolactinoma; androgênios normais afastam a SOP; FSH baixo afasta a falência ovariana e a disgenesia. A paciente típica é a jovem magra, estressada ou atleta.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Primeiro passo: beta-hCG; depois TSH, prolactina e FSH, com androgênios se houver hirsutismo.</li>
+<li>FSH alto: insuficiência ovariana prematura; cariótipo antes dos 30 anos; reposição hormonal.</li>
+<li>FSH baixo ou normal com estradiol baixo: causa hipotalâmica ou hipofisária; ressonância se prolactina alta, cefaleia ou sem causa funcional.</li>
+<li>Amenorreia hipotalâmica funcional: déficit energético, estresse ou exercício; tratar a causa e proteger o osso.</li>
+<li>Gonadotrofinas normais com androgênios altos: SOP; sem sangramento mesmo com hormônios: causa uterina (Asherman).</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o primeiro exame diante de qualquer amenorreia secundária? <details><summary>Resposta</summary>O beta-hCG, porque a gestação é a causa mais comum.</details></li>
+<li>O que indica um FSH baixo com estradiol baixo em mulher amenorreica? <details><summary>Resposta</summary>Hipogonadismo hipogonadotrófico: a causa está no hipotálamo ou na hipófise, não no ovário.</details></li>
+<li>Como se trata a amenorreia hipotalâmica funcional? <details><summary>Resposta</summary>Corrigindo a causa: recuperação do peso, redução do exercício e apoio psicológico, com atenção à densidade óssea.</details></li>
+</ol>
+`,
+
+"sirio2027#76": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Explicar o mecanismo de ação de cada classe no tratamento da endometriose.</li>
+<li>Ordenar as linhas de tratamento clínico e as indicações de cirurgia.</li>
+<li>Reconhecer o que cada método trata e o que não trata.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Endometriose</dt>
+<dd>Tecido endometrial fora da cavidade uterina, estrogênio-dependente e inflamatório; acomete 10% das mulheres em idade reprodutiva.</dd>
+<dt>Dienogeste</dt>
+<dd>Progestagênio de quarta geração, 2 mg/dia, com ação direta nos focos e supressão moderada do eixo; primeira linha hormonal.</dd>
+<dt>Análogos do GnRH</dt>
+<dd>Agonistas (leuprorrelina, gosserrelina) e antagonistas orais (elagolix); suprimem a hipófise e induzem hipoestrogenismo.</dd>
+<dt>Terapia add-back</dt>
+<dd>Estrogênio e progestagênio em baixa dose associados ao análogo para proteger o osso e aliviar fogachos.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A endometriose é doença estrogênio-dependente: os focos expressam aromatase, produzem estrogênio local, resistem à progesterona e mantêm inflamação crônica com prostaglandinas, citocinas e neoangiogênese, o que explica dismenorreia progressiva, dispareunia profunda, dor pélvica crônica, dor ao evacuar e infertilidade.</p>
+<p>Cada classe age de um jeito. Os <strong>progestagênios</strong>, com o <strong>dienogeste</strong> à frente, agem <strong>diretamente nos focos</strong>: decidualizam e atrofiam o tecido ectópico, reduzem aromatase, prostaglandinas e angiogênese, e ainda suprimem parcialmente a ovulação; o DIU de levonorgestrel faz o mesmo no útero e na pelve próxima, controlando dismenorreia e doença retocervical, mas não reduz endometriomas.</p>
+<p>A ordem é: primeira linha, progestagênio (dienogeste) ou combinado contínuo, com anti-inflamatório para a dor; segunda linha, análogo do GnRH com add-back ou inibidor da aromatase em casos selecionados.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando a prova pergunta mecanismo, lembre: progestagênio age no foco; análogo do GnRH age na hipófise; estrogênio não trata; DIU hormonal não reduz endometrioma; DIU de cobre piora. Quando pergunta conduta, a primeira linha é dienogeste ou combinado contínuo, e laparoscopia não é obrigatória para começar.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Doença estrogênio-dependente e inflamatória; diagnóstico clínico e por imagem, sem laparoscopia obrigatória.</li>
+<li>Dienogeste e progestagênios: ação direta nos focos (atrofia, menos aromatase e inflamação) e supressão parcial do eixo.</li>
+<li>Análogos do GnRH: ação na hipófise, hipoestrogenismo, efeito indireto nos focos; add-back e tempo limitado.</li>
+<li>Combinado contínuo age pelo progestagênio e pela anovulação; etinilestradiol não trata; DIU de cobre piora.</li>
+<li>Cirurgia: falha clínica, endometrioma sintomático acima de 4 cm, doença profunda obstrutiva, infertilidade selecionada.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a diferença de mecanismo entre o dienogeste e o análogo do GnRH na endometriose? <details><summary>Resposta</summary>O dienogeste age diretamente nos focos, decidualizando e atrofiando o tecido; o análogo age na hipófise, suprimindo o eixo e induzindo hipoestrogenismo, com efeito indireto.</details></li>
+<li>O DIU de levonorgestrel reduz o endometrioma ovariano? <details><summary>Resposta</summary>Não; controla dismenorreia e doença pélvica próxima ao útero, mas não tem efeito sobre o endometrioma.</details></li>
+<li>Por que o análogo do GnRH é usado por tempo limitado e com add-back? <details><summary>Resposta</summary>Porque o hipoestrogenismo causa fogachos e perda óssea; o add-back protege o osso e permite uso de seis a doze meses.</details></li>
+</ol>
+`,
+
+"sirio2027#77": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diferenciar vaginose, candidíase e tricomoníase por pH, teste das aminas e microscopia.</li>
+<li>Reconhecer a tricomoníase como infecção sexualmente transmissível e suas repercussões.</li>
+<li>Prescrever o tratamento e as medidas para o parceiro e para a gestante.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Trichomonas vaginalis</dt>
+<dd>Protozoário flagelado, móvel, transmitido por via sexual; a infecção sexualmente transmissível não viral mais comum no mundo.</dd>
+<dt>Colpite macular</dt>
+<dd>Pontilhado hemorrágico no colo e na vagina, o "colo em framboesa", visível em 2 a 5% das infectadas a olho nu e em mais da metade à colposcopia.</dd>
+<dt>Teste das aminas</dt>
+<dd>Odor de peixe ao adicionar hidróxido de potássio à secreção; positivo na vaginose e na tricomoníase, negativo na candidíase.</dd>
+<dt>Exame a fresco</dt>
+<dd>Microscopia da secreção em soro fisiológico: clue cells na vaginose, hifas na candidíase, protozoários móveis e muitos leucócitos na tricomoníase.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Os três corrimentos clássicos se separam com três ferramentas baratas. A <strong>candidíase</strong> tem pH <strong>normal</strong> (abaixo de 4,5), aminas <strong>negativas</strong>, corrimento branco grumoso aderente, prurido intenso, ardor e hiperemia, e hifas ou pseudo-hifas à microscopia com hidróxido de potássio.</p>
+<p>A tricomoníase é uma <strong>infecção sexualmente transmissível</strong>, e isso tem consequências: o parceiro deve ser tratado mesmo assintomático, o casal deve abster-se até completar o tratamento, e a paciente deve ser rastreada para HIV, sífilis, hepatites, clamídia e gonorreia. A infecção aumenta a aquisição e a transmissão do HIV e, na gestante, associa-se a rotura prematura de membranas, prematuridade e baixo peso.</p>
+<p>O tratamento é com nitroimidazólico: o CDC recomenda para a mulher <strong>metronidazol 500 mg por via oral duas vezes ao dia por sete dias</strong>, mais eficaz que a dose única de 2 g, que fica como opção; o Ministério da Saúde ainda aceita as duas. Para o homem, dose única de 2 g. Metronidazol tópico não funciona, porque não atinge uretra e glândulas.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Corrimento bolhoso, colo em framboesa e protozoário que se mexe no microscópio fecham tricomoníase; o pH alto e as aminas positivas são compartilhados com a vaginose, mas a vaginose não tem bichos móveis, nem piócitos, nem colpite. Trate com metronidazol oral por sete dias e não esqueça o parceiro e o rastreio das outras infecções.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Candidíase: pH normal, aminas negativas, grumos, prurido, hifas.</li>
+<li>Vaginose: pH alto, aminas positivas, corrimento fino acinzentado, sem inflamação, clue cells.</li>
+<li>Tricomoníase: pH acima de 5, aminas positivas, corrimento bolhoso amarelo-esverdeado, colpite macular, protozoários móveis e piócitos.</li>
+<li>Tricomoníase é IST: tratar o parceiro, abstinência, rastrear HIV, sífilis, hepatites, clamídia e gonorreia.</li>
+<li>Metronidazol oral 500 mg 2×/dia por 7 dias (mulher); 2 g dose única (homem); seguro na gestação; reteste em 3 meses.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que achado microscópico distingue a tricomoníase da vaginose, já que ambas têm pH alto e aminas positivas? <details><summary>Resposta</summary>Protozoários móveis flagelados com muitos leucócitos na tricomoníase; clue cells sem leucócitos na vaginose.</details></li>
+<li>Por que o parceiro deve ser tratado na tricomoníase e não na vaginose? <details><summary>Resposta</summary>Porque a tricomoníase é infecção sexualmente transmissível, com o homem como reservatório assintomático; a vaginose é desequilíbrio da flora.</details></li>
+<li>Qual é o esquema de tratamento recomendado pelo CDC para a mulher com tricomoníase? <details><summary>Resposta</summary>Metronidazol 500 mg por via oral duas vezes ao dia por sete dias.</details></li>
+</ol>
+`,
+
+"sirio2027#78": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Classificar a incontinência urinária feminina em esforço, urgência e mista.</li>
+<li>Interpretar o estudo urodinâmico, em especial a pressão de perda.</li>
+<li>Escolher o tratamento conforme o mecanismo da incontinência de esforço.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Incontinência urinária de esforço</dt>
+<dd>Perda involuntária aos esforços (tosse, riso, exercício), por hipermobilidade do colo vesical ou deficiência esfincteriana.</dd>
+<dt>Pressão de perda sob Valsalva</dt>
+<dd>Menor pressão abdominal que provoca perda sem contração do detrusor; abaixo de 60 cm H2O sugere deficiência esfincteriana, acima de 90, hipermobilidade.</dd>
+<dt>Bexiga hiperativa</dt>
+<dd>Urgência com ou sem incontinência, polaciúria e noctúria; contrações involuntárias do detrusor na urodinâmica.</dd>
+<dt>Sling de uretra média</dt>
+<dd>Faixa sintética sob a uretra média, retropúbica ou transobturatória; cirurgia padrão para incontinência de esforço.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A continência depende de dois elementos: um <strong>suporte</strong> que mantém a uretra fixa durante o esforço, dado pela fáscia endopélvica e pelo levantador do ânus, e um <strong>esfíncter</strong> que fecha a uretra, formado por musculatura lisa, estriada, mucosa e coxim vascular dependentes de estrogênio. Quando o suporte falha, a uretra desce com o esforço e a pressão abdominal não se transmite igualmente a ela: é a <strong>hipermobilidade</strong>, a forma mais comum, ligada a partos vaginais e envelhecimento.</p>
+<p>A avaliação começa pela história, diário miccional, exame com teste de esforço e Q-tip ou ultrassom para mobilidade uretral, urina e resíduo pós-miccional. O <strong>estudo urodinâmico</strong> é indicado antes de cirurgia, em casos mistos, recidivados ou complexos.</p>
+<p>O tratamento começa conservador para todas: perda de peso, fisioterapia do assoalho pélvico, tratamento da constipação e da tosse, estrogênio vaginal na pós-menopausa. Na incontinência de esforço por hipermobilidade, o <strong>sling de uretra média</strong> cura 80 a 90%.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pressão de perda baixa, abaixo de 60, com uretra que não se move: deficiência esfincteriana. Pressão alta, acima de 90, com uretra que desce: hipermobilidade. Urgência e contrações do detrusor: bexiga hiperativa. Resíduo grande e perda contínua: transbordamento. A prova monta o laudo e pergunta o mecanismo; responda pelo número e pela mobilidade.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Continência: suporte (fáscia e levantador) e esfíncter (músculo, mucosa, coxim vascular).</li>
+<li>Hipermobilidade: uretra desce ao esforço; deficiência esfincteriana: uretra não fecha, por cirurgia, radioterapia, denervação ou hipoestrogenismo.</li>
+<li>Pressão de perda sob Valsalva: abaixo de 60 é esfíncter; acima de 90 é hipermobilidade; entre eles, misto.</li>
+<li>Conservador para todas: fisioterapia, peso, estrogênio vaginal.</li>
+<li>Cirurgia: sling de uretra média; na deficiência esfincteriana, sling retropúbico, preenchimento periuretral ou esfíncter artificial.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual valor de pressão de perda sob Valsalva indica deficiência esfincteriana intrínseca? <details><summary>Resposta</summary>Abaixo de 60 cm H2O, sobretudo com uretra fixa, sem hipermobilidade.</details></li>
+<li>Como a bexiga hiperativa aparece no estudo urodinâmico? <details><summary>Resposta</summary>Com contrações involuntárias do detrusor durante a fase de enchimento, acompanhadas de urgência.</details></li>
+<li>Por que a deficiência esfincteriana responde pior à fisioterapia que a hipermobilidade? <details><summary>Resposta</summary>Porque o problema é a falha do próprio esfíncter, não do suporte; fortalecer o assoalho pélvico corrige a mobilidade, não o fechamento uretral.</details></li>
+</ol>
+`,
+
+"sirio2027#79": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Investigar o sangramento pós-menopausa com o corte do eco endometrial.</li>
+<li>Escolher o método de amostragem endometrial e conhecer seus limites.</li>
+<li>Reconhecer fatores de risco e achados do câncer de endométrio e da hiperplasia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Sangramento pós-menopausa</dt>
+<dd>Qualquer sangramento após 12 meses de amenorreia; câncer de endométrio em cerca de 10% dos casos, atrofia na maioria.</dd>
+<dt>Eco endometrial</dt>
+<dd>Espessura do endométrio medida no ultrassom transvaginal; 4 mm é o corte para investigar na mulher sem terapia hormonal.</dd>
+<dt>Histeroscopia com biópsia dirigida</dt>
+<dd>Visão direta da cavidade com retirada do tecido da área suspeita; padrão para lesões focais e pólipos.</dd>
+<dt>Hiperplasia endometrial com atipia</dt>
+<dd>Lesão precursora com risco de 30 a 40% de câncer concomitante ou futuro; tratada com histerectomia ou progestagênio se há desejo de preservar o útero.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O sangramento após a menopausa é o sintoma de apresentação de 90% dos cânceres de endométrio, e por isso todo episódio, mesmo discreto e único, exige investigação. A causa mais comum é a <strong>atrofia</strong> endometrial e vaginal, seguida de pólipos, terapia hormonal, hiperplasia e câncer.</p>
+<p>O primeiro exame é o <strong>ultrassom transvaginal</strong>. Eco endometrial de <strong>4 mm ou menos</strong>, fino e homogêneo, tem valor preditivo negativo acima de 99% para câncer na mulher sem terapia hormonal, e a conduta é observar, tratando a atrofia com estrogênio vaginal; sangramento recorrente, porém, exige amostragem mesmo com eco fino. Eco <strong>acima de 4 mm</strong>, heterogêneo, com coleção ou com lesão focal, exige <strong>amostra histológica</strong>.</p>
+<p>A histologia dita a conduta. Atrofia e pólipo benigno: tratamento sintomático ou polipectomia. <strong>Hiperplasia sem atipia</strong>: progestagênio, de preferência DIU de levonorgestrel, com biópsia de controle em seis meses. <strong>Hiperplasia com atipia</strong>: histerectomia total com salpingo-oforectomia, ou progestagênio com vigilância se a mulher não puder operar.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A sequência é fixa: sangramento pós-menopausa, ultrassom transvaginal, corte de 4 mm; acima dele, tecido para o patologista, de preferência por histeroscopia. Progestagênio, DIU hormonal, ácido tranexâmico e "repetir o ultrassom" são distratores que adiam ou escondem um câncer. A obesa nulípara é a paciente de maior risco.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Todo sangramento pós-menopausa se investiga; câncer em 10%, atrofia na maioria.</li>
+<li>Fatores de risco: estrogênio sem oposição, obesidade, nuliparidade, anovulação, tamoxifeno, diabetes, Lynch.</li>
+<li>Ultrassom transvaginal primeiro: eco até 4 mm observa; acima de 4 mm ou focal, amostra histológica.</li>
+<li>Histeroscopia com biópsia dirigida é o padrão de acurácia; Pipelle aceitável no espessamento difuso.</li>
+<li>Hiperplasia sem atipia: progestagênio; com atipia: histerectomia; carcinoma: estadiamento cirúrgico. Nunca hormônio empírico.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o corte de espessura endometrial que dispensa biópsia no sangramento pós-menopausa sem terapia hormonal? <details><summary>Resposta</summary>Eco endometrial de 4 mm ou menos, fino e homogêneo, salvo sangramento recorrente.</details></li>
+<li>Quando a histeroscopia é preferida à biópsia aspirativa ambulatorial? <details><summary>Resposta</summary>Quando o ultrassom sugere lesão focal ou pólipo, ou quando a biópsia às cegas foi insuficiente ou negativa com sangramento persistente.</details></li>
+<li>Qual é a conduta na hiperplasia endometrial com atipia? <details><summary>Resposta</summary>Histerectomia total com salpingo-oforectomia; progestagênio com vigilância só se a cirurgia for inviável.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · GO · UNESP 2025 (go81–go90) --------------------------------------------- */
+"unesp2025#21": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Calcular a idade gestacional pela data da última menstruação com contagem exata de dias.</li>
+<li>Aplicar a regra de Naegele e conhecer seus limites.</li>
+<li>Saber quando o ultrassom redefine a datação e qual exame é o padrão.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Idade gestacional</dt>
+<dd>Tempo decorrido desde o primeiro dia da última menstruação, em semanas completas e dias; a concepção ocorre cerca de duas semanas depois.</dd>
+<dt>Data provável do parto</dt>
+<dd>Dia em que se completam 40 semanas, ou 280 dias, a partir da última menstruação.</dd>
+<dt>Regra de Naegele</dt>
+<dd>Somar 7 ao dia e 9 ao mês (ou subtrair 3 e somar um ano) da última menstruação; aproximação dos 280 dias.</dd>
+<dt>Comprimento cabeça-nádega</dt>
+<dd>Medida do embrião no primeiro trimestre, o parâmetro mais preciso para datar a gestação, com erro de 5 a 7 dias.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Toda a obstetrícia depende de uma idade gestacional confiável: define prematuridade e pós-datismo, o momento dos exames de rastreamento, a interpretação do crescimento fetal e a decisão de induzir o parto. A contagem parte do <strong>primeiro dia da última menstruação</strong>, com a convenção de que a ovulação ocorreu no 14º dia; por isso a gestação "de 40 semanas" tem, de fato, 38 semanas de vida embrionária.</p>
+<p>A idade gestacional se calcula contando os dias do calendário e dividindo por sete, com atenção aos meses de 30 e 31 dias e ao fevereiro bissexto. Para a data provável do parto, a <strong>regra de Naegele</strong> é a aproximação clássica: dia mais 7, mês mais 9.</p>
+<p>O <strong>ultrassom de primeiro trimestre</strong>, pelo comprimento cabeça-nádega, é o método mais acurado, e o ACOG recomenda que ele seja oferecido a toda gestante para confirmar ou corrigir a data. A regra de redatação é por discordância: até 8 semanas e 6 dias, corrige-se se a diferença passar de 5 dias; de 9 a 13 semanas e 6 dias, se passar de 7 dias; no segundo trimestre, de 10 a 14 dias conforme a idade; no terceiro, acima de 21 dias, com a ressalva de que a esse ponto a imprecisão é grande.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Conte os dias no papel: do dia da última menstruação até o fim do mês, depois os meses inteiros, depois os dias do mês atual, lembrando que fevereiro de ano bissexto tem 29. Divida por sete para semanas e dias. Para a data do parto, some 280 dias; use Naegele só como atalho e confira quando as opções estiverem próximas.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Idade gestacional conta do primeiro dia da última menstruação; data confiável exige ciclos regulares e certeza.</li>
+<li>Semanas e dias: contar os dias do calendário e dividir por sete, com atenção aos meses e ao bissexto.</li>
+<li>Data provável do parto: 280 dias após a última menstruação; Naegele (dia + 7, mês + 9) é aproximação com erro de um a dois dias.</li>
+<li>Ultrassom de primeiro trimestre pelo comprimento cabeça-nádega é o padrão; redatar se a discordância passar de 5 a 7 dias.</li>
+<li>Estabelecida a melhor estimativa, ela não muda mais no pré-natal.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quantos dias tem uma gestação a termo contada a partir da última menstruação? <details><summary>Resposta</summary>280 dias, ou 40 semanas.</details></li>
+<li>Por que a regra de Naegele pode errar por um ou dois dias? <details><summary>Resposta</summary>Porque nove meses e sete dias nem sempre somam 280 dias, variando com os meses de 30 ou 31 dias e com o ano bissexto.</details></li>
+<li>Quando o ultrassom de primeiro trimestre corrige a data da última menstruação? <details><summary>Resposta</summary>Quando a discordância passa de 5 dias até 8 semanas e 6 dias, ou de 7 dias entre 9 e 13 semanas e 6 dias.</details></li>
+</ol>
+`,
+
+"unesp2025#23": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever a reclassificação glicêmica após o diabetes gestacional.</li>
+<li>Aplicar os critérios diagnósticos de diabetes e pré-diabetes fora da gestação.</li>
+<li>Orientar a prevenção do diabetes tipo 2 na mulher com antecedente de diabetes gestacional.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Teste oral de tolerância à glicose de 75 g</dt>
+<dd>Glicemia em jejum e duas horas após 75 g de glicose; usado na gestação e na reclassificação pós-parto.</dd>
+<dt>Glicemia de jejum alterada</dt>
+<dd>Jejum entre 100 e 125 mg/dL; forma de pré-diabetes.</dd>
+<dt>Tolerância à glicose diminuída</dt>
+<dd>Glicemia de 2 horas entre 140 e 199 mg/dL no teste de 75 g; forma de pré-diabetes também chamada intolerância à glicose.</dd>
+<dt>Diabetes mellitus</dt>
+<dd>Jejum de 126 ou mais, 2 horas de 200 ou mais, hemoglobina glicada de 6,5% ou mais, ou glicemia casual de 200 com sintomas; confirmados em duas ocasiões, salvo sintomas francos.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O diabetes gestacional é a hiperglicemia que surge na gestação por resistência à insulina induzida pelos hormônios placentários e costuma desaparecer após o parto. Mas ele denuncia uma reserva pancreática limitada: metade das mulheres desenvolve <strong>diabetes tipo 2</strong> nos dez anos seguintes, e o risco cardiovascular também aumenta.</p>
+<p>Fora da gestação valem os critérios da ADA e da SBD. <strong>Jejum</strong>: abaixo de 100 é normal, de 100 a 125 é glicemia de jejum alterada e 126 ou mais é diabetes. <strong>Segunda hora do teste</strong>: abaixo de 140 é normal, de <strong>140 a 199</strong> é <strong>tolerância diminuída</strong> e 200 ou mais é diabetes. Hemoglobina glicada de 5,7 a 6,4% é pré-diabetes e 6,5% ou mais é diabetes.</p>
+<p>O resultado orienta o seguimento. Normal: rastreio a cada um a três anos com glicemia de jejum, hemoglobina glicada ou teste de tolerância, e antes de nova gestação. Pré-diabetes: mudança intensiva de estilo de vida, com perda de 5 a 7% do peso e 150 minutos semanais de exercício, que reduz a progressão em quase 60%; a metformina é opção, sobretudo com IMC acima de 35 ou idade abaixo de 60. Diabetes: tratamento e planejamento das gestações futuras com glicada controlada antes da concepção.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Leia os dois números do teste separadamente e classifique pelo pior. Jejum de 99 com 2 horas de 155 é tolerância diminuída, não glicemia de jejum alterada nem diabetes. O examinador troca os cortes de propósito: 100 e 126 para o jejum, 140 e 200 para a segunda hora.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Reclassificar toda diabética gestacional com teste de 75 g entre quatro e doze semanas pós-parto.</li>
+<li>Jejum: 100 a 125 é alterada, 126 ou mais é diabetes; 2 horas: 140 a 199 é tolerância diminuída, 200 ou mais é diabetes.</li>
+<li>Jejum normal com segunda hora alterada já é pré-diabetes, classificado pelo componente pior.</li>
+<li>Normal: rastreio a cada um a três anos; pré-diabetes: estilo de vida, metformina selecionada; diabetes: tratar e planejar gestações.</li>
+<li>Metade das mulheres com diabetes gestacional terá diabetes tipo 2 em dez anos; amamentação protege.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quando e com que exame se reclassifica a mulher que teve diabetes gestacional? <details><summary>Resposta</summary>Entre quatro e doze semanas pós-parto, com o teste oral de tolerância à glicose de 75 g.</details></li>
+<li>Como se classifica jejum de 99 mg/dL com glicemia de 2 horas de 155 mg/dL? <details><summary>Resposta</summary>Como tolerância à glicose diminuída (intolerância), pela segunda hora entre 140 e 199, com jejum normal.</details></li>
+<li>Qual é a intervenção que mais reduz a progressão do pré-diabetes para diabetes? <details><summary>Resposta</summary>A mudança intensiva de estilo de vida, com perda de 5 a 7% do peso e 150 minutos semanais de exercício.</details></li>
+</ol>
+`,
+
+"unesp2025#25": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar os critérios diagnósticos do trabalho de parto prematuro.</li>
+<li>Diferenciar trabalho de parto verdadeiro de falso trabalho de parto e contrações de treino.</li>
+<li>Indicar corticoide, tocólise e sulfato de magnésio apenas quando há trabalho de parto real.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Trabalho de parto prematuro</dt>
+<dd>Contrações regulares (duas em 10 minutos ou quatro em 20) com modificação cervical (dilatação de 2 cm ou mais, esvaecimento de 80% ou mudança entre exames), antes de 37 semanas.</dd>
+<dt>Contrações de Braxton Hicks</dt>
+<dd>Contrações irregulares, curtas e indolores ou pouco dolorosas, sem modificar o colo; fisiológicas no terceiro trimestre.</dd>
+<dt>Fibronectina fetal</dt>
+<dd>Glicoproteína da interface coriodecidual; teste negativo na secreção cervicovaginal entre 22 e 34 semanas afasta parto nos próximos 7 a 14 dias.</dd>
+<dt>Corticoide antenatal</dt>
+<dd>Betametasona 12 mg IM em duas doses com 24 horas de intervalo, entre 24 e 34 semanas, quando o parto é provável em sete dias.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Metade das gestantes que chegam à maternidade com queixa de contrações antes do termo não está em trabalho de parto.</p>
+<p>Quando a dúvida persiste, há recursos: a <strong>observação</strong> por uma a duas horas com novo toque, o <strong>comprimento cervical</strong> ao ultrassom transvaginal (acima de 30 mm torna o parto muito improvável; abaixo de 15 mm, provável) e a <strong>fibronectina fetal</strong>, cujo valor é o negativo, que permite liberar com segurança.</p>
+<p>Confirmado o trabalho de parto prematuro entre 24 e 34 semanas, a conduta é o pacote: <strong>corticoide</strong> para maturação pulmonar, <strong>tocólise</strong> por 48 horas (nifedipina ou atosibana, nunca além de 34 semanas e nunca com corioamnionite, descolamento, sofrimento fetal ou óbito) apenas para dar tempo ao corticoide e à transferência, <strong>sulfato de magnésio</strong> para neuroproteção abaixo de 32 semanas, e profilaxia do estreptococo B se a cultura for desconhecida ou positiva.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Antes de marcar qualquer intervenção, confira se há trabalho de parto: contrações regulares mais colo modificado. Uma contração fraca com colo grosso e posterior é falso trabalho de parto, e a resposta é liberar com orientações. O pacote completo (tocólise, corticoide, sulfato) é só para o trabalho de parto verdadeiro, e o sulfato só abaixo de 32 semanas.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Trabalho de parto prematuro: contrações regulares (2 em 10 min) mais dilatação de 2 cm, esvaecimento de 80% ou mudança cervical.</li>
+<li>Uma contração curta com colo grosso e posterior é falso trabalho de parto; liberar com orientações.</li>
+<li>Na dúvida: observar e repetir o toque, comprimento cervical, fibronectina fetal (negativa libera).</li>
+<li>Trabalho de parto confirmado entre 24 e 34 semanas: corticoide, tocólise por 48 h, sulfato abaixo de 32 semanas, profilaxia do estreptococo B.</li>
+<li>Corticoide sem parto iminente não traz benefício; tocólise nunca após 34 semanas nem com infecção ou sofrimento fetal.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que dois critérios devem coexistir para o diagnóstico de trabalho de parto prematuro? <details><summary>Resposta</summary>Contrações regulares e eficazes (duas em dez minutos) e modificação cervical (dilatação de 2 cm ou mais, esvaecimento de 80% ou mudança entre exames).</details></li>
+<li>Qual é a utilidade da fibronectina fetal na gestante com contrações? <details><summary>Resposta</summary>O resultado negativo afasta parto nos próximos 7 a 14 dias e permite liberar com segurança.</details></li>
+<li>Até que idade gestacional se indica tocólise e por quanto tempo? <details><summary>Resposta</summary>Até 34 semanas, por 48 horas, apenas para completar o corticoide e permitir a transferência.</details></li>
+</ol>
+`,
+
+"unesp2025#26": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir morbidade febril puerperal e reconhecer as causas de febre no pós-parto.</li>
+<li>Diferenciar a elevação térmica fisiológica do ingurgitamento mamário da infecção.</li>
+<li>Interpretar o leucograma do puerpério e evitar antibiótico sem diagnóstico.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Morbidade febril puerperal</dt>
+<dd>Temperatura oral de 38 ºC ou mais em dois dias quaisquer dos primeiros dez dias pós-parto, excluídas as primeiras 24 horas.</dd>
+<dt>Endometrite puerperal</dt>
+<dd>Infecção polimicrobiana do endométrio, mais comum após cesárea; febre, dor à mobilização uterina, útero amolecido e lóquios fétidos.</dd>
+<dt>Ingurgitamento mamário</dt>
+<dd>Mamas cheias, tensas e quentes entre o terceiro e o quinto dia; pode elevar a temperatura axilar sem infecção.</dd>
+<dt>Leucocitose fisiológica</dt>
+<dd>Leucócitos de 12.000 a 20.000 nos primeiros dias pós-parto, sem desvio à esquerda, pelo estresse do parto.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A febre no puerpério tem causas previsíveis pelo dia e pelo foco: nas primeiras 24 horas, atelectasia e a resposta ao estresse do parto; do segundo ao quinto dia, <strong>endometrite</strong> (a mais frequente, sobretudo após cesárea, bolsa rota prolongada e muitos toques), infecção urinária e, após cesárea, infecção da ferida; do fim da primeira semana em diante, <strong>mastite</strong>, tromboflebite pélvica e abscessos.</p>
+<p>Nem toda elevação térmica é infecção. A definição de morbidade febril exige <strong>38 ºC ou mais</strong> por via <strong>oral</strong>, em dois dias, excluídas as primeiras 24 horas; medidas axilares entre 37,5 e 37,9 não cumprem o critério, e o <strong>ingurgitamento mamário</strong> do terceiro ao quinto dia é causa clássica de leitura axilar falsamente elevada, pelo calor local das mamas tensas.</p>
+<p>A conduta na puérpera sem febre verdadeira e sem foco é orientar a <strong>curva térmica sublingual</strong> em casa, cuidar do esvaziamento das mamas (mamadas frequentes, ordenha, compressas) e retornar se a temperatura atingir 38 ºC, se surgir dor, secreção ou mal-estar. Internar, pedir culturas ou iniciar antibiótico empírico sem diagnóstico medicaliza um fenômeno fisiológico, seleciona resistência e mascara um eventual quadro que apareceria dias depois.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Confira o termômetro e a via: temperatura axilar de 37,9 com sublingual de 37,2, mamas túrgidas e nenhum foco é ingurgitamento, não infecção. O leucograma de 12.000 sem bastões é normal no puerpério. A resposta é curva térmica e retorno se necessário, não antibiótico nem internação.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Morbidade febril puerperal: 38 ºC ou mais por via oral, em dois dias, após as primeiras 24 horas.</li>
+<li>Causas por dia: atelectasia (24 h); endometrite, urinária e ferida (2º ao 5º); mastite e tromboflebite (após a 1ª semana).</li>
+<li>Ingurgitamento mamário eleva a temperatura axilar sem infecção; conferir pela via sublingual.</li>
+<li>Leucócitos de 12.000 a 15.000 sem bastões são fisiológicos no puerpério.</li>
+<li>Sem febre verdadeira e sem foco: curva térmica, esvaziamento das mamas e retorno; antibiótico só com diagnóstico.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a definição de morbidade febril puerperal? <details><summary>Resposta</summary>Temperatura oral de 38 ºC ou mais em dois dias quaisquer dos primeiros dez dias, excluídas as primeiras 24 horas.</details></li>
+<li>Por que a temperatura axilar pode enganar na puérpera do terceiro ao quinto dia? <details><summary>Resposta</summary>Porque o ingurgitamento mamário aquece a região axilar e eleva a leitura sem que haja febre central.</details></li>
+<li>Qual é a causa mais comum de febre puerperal verdadeira e como se trata? <details><summary>Resposta</summary>A endometrite, tratada com clindamicina e gentamicina venosas até 48 horas afebril.</details></li>
+</ol>
+`,
+
+"unesp2025#27": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer os sinais de iminência de eclâmpsia e os critérios de gravidade da pré-eclâmpsia.</li>
+<li>Prescrever o sulfato de magnésio pelos esquemas de Pritchard e Zuspan e monitorar a toxicidade.</li>
+<li>Decidir anti-hipertensivo e momento do parto na pré-eclâmpsia grave.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Iminência de eclâmpsia</dt>
+<dd>Cefaleia persistente, escotomas ou turvação visual, epigastralgia ou dor no hipocôndrio direito, hiperreflexia; sinais que precedem a convulsão.</dd>
+<dt>Esquema de Pritchard</dt>
+<dd>Sulfato de magnésio 4 g venoso lento mais 10 g intramuscular (5 g em cada glúteo); manutenção de 5 g IM a cada 4 horas.</dd>
+<dt>Esquema de Zuspan</dt>
+<dd>Sulfato de magnésio 4 g venoso em 20 minutos; manutenção de 1 a 2 g por hora em bomba de infusão.</dd>
+<dt>Gluconato de cálcio</dt>
+<dd>Antídoto da intoxicação por magnésio: 1 g venoso lento diante de abolição dos reflexos, frequência respiratória abaixo de 12 ou diurese abaixo de 25 mL/h.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A pré-eclâmpsia ganha o rótulo de <strong>grave</strong> com pressão de 160 × 110 ou mais, sintomas de iminência de eclâmpsia, plaquetas abaixo de 100.000, creatinina acima de 1,1 ou duplicada, transaminases duplicadas, dor epigástrica persistente ou edema pulmonar; a proteinúria maciça não entra mais como critério de gravidade.</p>
+<p>O <strong>sulfato de magnésio</strong> é a droga que previne e trata a convulsão, reduzindo-a pela metade, e deve ser iniciado assim que a gravidade ou a iminência é reconhecida, antes de transferir a paciente. Há dois esquemas. <strong>Zuspan</strong>: 4 g venosos em 20 minutos e manutenção de 1 a 2 g por hora em bomba de infusão, ideal em ambiente com monitorização.</p>
+<p>O <strong>anti-hipertensivo</strong> de emergência entra só com pressão de 160 × 110 ou mais, com hidralazina venosa ou nifedipina oral, mantendo a pressão entre 140 a 150 por 90 a 100 para não hipoperfundir a placenta; ele não previne a convulsão.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Cefaleia, escotomas e epigastralgia em gestante hipertensa são iminência de eclâmpsia, e a primeira droga é sulfato de magnésio, não anti-hipertensivo nem diazepam. Se o cenário é unidade sem bomba e transferência, o esquema é Pritchard, com a dose muscular que protege durante a viagem. Hidralazina só a partir de 160 × 110.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Gravidade: 160 × 110, sintomas premonitórios, plaquetas abaixo de 100.000, creatinina ou transaminases alteradas, edema pulmonar.</li>
+<li>Iminência de eclâmpsia: cefaleia, escotomas, epigastralgia, hiperreflexia; convulsão pode vir com pressão pouco elevada.</li>
+<li>Sulfato de magnésio imediato: Zuspan (4 g IV e 1 a 2 g/h em bomba) ou Pritchard (4 g IV e 10 g IM, depois 5 g IM a cada 4 h) para transporte; manter 24 h pós-parto.</li>
+<li>Monitorar reflexo patelar, respiração e diurese; gluconato de cálcio na intoxicação.</li>
+<li>Hidralazina ou nifedipina só a partir de 160 × 110; parto após estabilização a partir de 34 semanas ou diante de complicações.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são os sinais de iminência de eclâmpsia? <details><summary>Resposta</summary>Cefaleia persistente, escotomas ou turvação visual, epigastralgia ou dor no hipocôndrio direito e hiperreflexia.</details></li>
+<li>Como é o esquema de Pritchard e por que ele é preferido antes de uma transferência? <details><summary>Resposta</summary>4 g venosos mais 10 g intramusculares (5 g em cada glúteo), com 5 g IM a cada 4 horas; a dose muscular mantém níveis terapêuticos durante o transporte sem bomba de infusão.</details></li>
+<li>Que sinais indicam intoxicação por magnésio e qual é o antídoto? <details><summary>Resposta</summary>Abolição do reflexo patelar, frequência respiratória abaixo de 12 e diurese abaixo de 25 mL/h; gluconato de cálcio 1 g venoso.</details></li>
+</ol>
+`,
+
+"unesp2025#30": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar indicações e contraindicações da terapia hormonal da menopausa.</li>
+<li>Explicar o risco trombótico do estrogênio e a diferença entre vias.</li>
+<li>Oferecer tratamentos não hormonais para os sintomas vasomotores e para a osteoporose.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Terapia hormonal da menopausa</dt>
+<dd>Estrogênio, com progestagênio se há útero, para sintomas vasomotores e geniturinários e prevenção de perda óssea, iniciada antes dos 60 anos ou de dez anos de menopausa.</dd>
+<dt>Janela de oportunidade</dt>
+<dd>Período em que o benefício supera o risco: menos de 60 anos e menos de dez anos da menopausa.</dd>
+<dt>Contraindicações absolutas</dt>
+<dd>Sangramento genital não esclarecido, câncer de mama ou de endométrio, tromboembolismo venoso ou arterial prévio, doença hepática ativa, porfiria, lúpus com antifosfolípide.</dd>
+<dt>Fezolinetanto</dt>
+<dd>Antagonista do receptor de neurocinina 3, tratamento não hormonal eficaz para os fogachos.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A terapia hormonal é o tratamento mais eficaz para os <strong>sintomas vasomotores</strong> e para a <strong>síndrome geniturinária</strong> da menopausa, e previne a perda óssea e a fratura. Quando iniciada na janela de oportunidade, em mulher saudável, o balanço é favorável e inclui redução da mortalidade e da doença coronariana em algumas análises.</p>
+<p>O ponto fraco do estrogênio é a <strong>coagulação</strong>.</p>
+<p>Quem não pode usar hormônio não fica sem tratamento. Para os fogachos, os inibidores de recaptação de serotonina e noradrenalina (venlafaxina, desvenlafaxina, paroxetina em quem não usa tamoxifeno), a gabapentina, a clonidina e o fezolinetanto reduzem a frequência e a intensidade; medidas comportamentais e terapia cognitivo-comportamental ajudam.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Liste primeiro as contraindicações antes de pensar nas indicações: trombose venosa prévia, câncer de mama, sangramento inexplicado e doença coronariana proíbem o hormônio mesmo com fogachos intensos e osteoporose. A obesidade não contraindica, só pede via transdérmica. Para os sintomas, sobram antidepressivos, gabapentina e fezolinetanto; para o osso, bisfosfonato.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Terapia hormonal: melhor tratamento para fogachos e atrofia geniturinária; previne perda óssea; iniciar antes dos 60 anos e de dez anos de menopausa.</li>
+<li>Com útero, acrescentar progestagênio; estrogênio isolado só na histerectomizada.</li>
+<li>Estrogênio oral dobra o risco de trombose; transdérmico evita a primeira passagem hepática e é preferido em fatores de risco.</li>
+<li>Contraindicações: tromboembolismo prévio, câncer de mama ou endométrio, sangramento inexplicado, doença coronariana ou cerebrovascular, hepatopatia ativa.</li>
+<li>Sem hormônio: antidepressivos, gabapentina, fezolinetanto para fogachos; estrogênio vaginal para atrofia; bisfosfonato para osteoporose.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o estrogênio transdérmico tem menor risco trombótico que o oral? <details><summary>Resposta</summary>Porque evita a primeira passagem hepática e não aumenta a síntese de fatores de coagulação, proteína C reativa e triglicerídeos.</details></li>
+<li>A obesidade contraindica a terapia hormonal da menopausa? <details><summary>Resposta</summary>Não; é fator de risco trombótico que orienta a preferência pela via transdérmica, não uma contraindicação.</details></li>
+<li>Que opções tratam os fogachos na mulher com tromboembolismo prévio? <details><summary>Resposta</summary>Inibidores de recaptação de serotonina e noradrenalina, gabapentina, clonidina e fezolinetanto, além de medidas comportamentais.</details></li>
+</ol>
+`,
+
+"unesp2025#33": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever os quatro subtipos moleculares do câncer de mama e seus marcadores imuno-histoquímicos.</li>
+<li>Relacionar cada subtipo ao prognóstico e ao tratamento sistêmico.</li>
+<li>Entender o papel do Ki-67 e das assinaturas genômicas na decisão de quimioterapia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Receptores hormonais</dt>
+<dd>Receptor de estrogênio e de progesterona na imuno-histoquímica; positivos a partir de 1% das células; definem sensibilidade à hormonioterapia.</dd>
+<dt>HER2</dt>
+<dd>Receptor do fator de crescimento epidérmico humano tipo 2; superexpresso em 15 a 20% dos tumores, alvo do trastuzumabe e do pertuzumabe.</dd>
+<dt>Ki-67</dt>
+<dd>Índice de proliferação celular; baixo (abaixo de 14 a 20%) no luminal A, alto no luminal B e no triplo-negativo.</dd>
+<dt>Assinaturas genômicas</dt>
+<dd>Testes de expressão gênica (Oncotype DX, MammaPrint) que estimam o risco de recorrência e a utilidade da quimioterapia nos tumores luminais.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O câncer de mama é um conjunto de doenças com biologia e tratamento diferentes, e a imuno-histoquímica de três marcadores, receptor de estrogênio, receptor de progesterona e HER2, mais o Ki-67, o separa em quatro grupos clínicos. O <strong>luminal A</strong> (cerca de 40%) tem receptores hormonais fortemente positivos, HER2 negativo e Ki-67 baixo: é o de crescimento mais lento e melhor prognóstico, muito sensível à hormonioterapia e pouco à quimioterapia.</p>
+<p>O subtipo <strong>HER2 superexpresso</strong> (10 a 15%) tem receptores hormonais negativos e HER2 positivo (imuno-histoquímica 3+ ou amplificação por hibridização in situ): era agressivo, mas o bloqueio anti-HER2 com trastuzumabe e pertuzumabe, associado à quimioterapia, transformou seu prognóstico.</p>
+<p>Na prática, o subtipo decide a terapia sistêmica. Tumores luminais recebem <strong>hormonioterapia</strong> por cinco a dez anos (tamoxifeno na pré-menopausa, inibidores de aromatase na pós-menopausa); nos luminais A iniciais, com linfonodo negativo, as assinaturas genômicas permitem omitir a quimioterapia na maioria das pacientes, e nos luminais B elas ajudam a indicá-la.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Memorize o luminal A como o "bonzinho": receptores altos, HER2 negativo, Ki-67 baixo, hormonioterapia e quase nunca quimioterapia. O triplo-negativo é o oposto: nada positivo, Ki-67 alto, quimioterapia. HER2 positivo pede trastuzumabe. Receptores positivos com Ki-67 alto ou HER2 positivo são luminal B.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Luminal A: receptores de estrogênio e progesterona altos, HER2 negativo, Ki-67 baixo; melhor prognóstico; hormonioterapia.</li>
+<li>Luminal B: receptor de estrogênio positivo com Ki-67 alto, progesterona baixa ou HER2 positivo; hormonioterapia e frequentemente quimioterapia.</li>
+<li>HER2 superexpresso: receptores negativos, HER2 positivo; quimioterapia com trastuzumabe e pertuzumabe.</li>
+<li>Triplo-negativo: nenhum marcador, Ki-67 alto, basal-like; quimioterapia, imunoterapia selecionada; pior prognóstico.</li>
+<li>Assinaturas genômicas poupam quimioterapia nos luminais A iniciais com linfonodo negativo.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são as características imuno-histoquímicas do câncer de mama luminal A? <details><summary>Resposta</summary>Receptores de estrogênio e progesterona fortemente positivos, HER2 negativo e Ki-67 baixo.</details></li>
+<li>O que distingue o luminal B do luminal A? <details><summary>Resposta</summary>Ki-67 alto, receptor de progesterona baixo ou ausente, ou HER2 positivo, com receptor de estrogênio positivo.</details></li>
+<li>Qual é o tratamento sistêmico do subtipo HER2 superexpresso? <details><summary>Resposta</summary>Quimioterapia associada ao bloqueio anti-HER2 com trastuzumabe e pertuzumabe, por um ano.</details></li>
+</ol>
+`,
+
+"unesp2025#37": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Definir atraso puberal e amenorreia primária e os marcos de idade para investigar.</li>
+<li>Organizar a investigação pela presença de caracteres sexuais e pelo FSH.</li>
+<li>Reconhecer a síndrome de Turner e as outras causas principais.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Atraso puberal</dt>
+<dd>Ausência de telarca aos 13 anos na menina (ou de aumento testicular aos 14 no menino); corresponde a dois desvios-padrão acima da média.</dd>
+<dt>Amenorreia primária</dt>
+<dd>Ausência de menarca aos 15 anos com caracteres sexuais presentes, ou aos 13 anos sem nenhum caractere sexual, ou três anos após a telarca.</dd>
+<dt>Disgenesia gonadal</dt>
+<dd>Desenvolvimento anormal das gônadas, com ovários em fita e falência; a síndrome de Turner (45,X e variantes) é a forma mais comum.</dd>
+<dt>Hipogonadismo hipogonadotrófico</dt>
+<dd>Puberdade ausente por falha do hipotálamo ou da hipófise, com FSH e LH baixos; inclui retardo constitucional, doenças crônicas e síndrome de Kallmann.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A puberdade feminina começa pela <strong>telarca</strong>, entre 8 e 13 anos, seguida da pubarca e, cerca de dois a três anos depois, da <strong>menarca</strong>, em média aos 12 anos e meio. A ausência de qualquer broto mamário aos 13 anos é atraso puberal e indica que o ovário nunca secretou estrogênio; não se espera.</p>
+<p>A investigação segue o <strong>FSH</strong> e o exame físico. Sem caracteres sexuais e <strong>FSH alto</strong>, a gônada falhou: a causa mais comum é a <strong>síndrome de Turner</strong>, com baixa estatura, pescoço alado, cúbito valgo, implantação baixa dos cabelos e cardiopatia, e o cariótipo confirma; outras são disgenesias 46,XX ou 46,XY e falência por quimioterapia ou radioterapia.</p>
+<p>O tratamento depende da causa.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Treze anos sem mama é investigar agora, porque o problema está no eixo, acima ou no ovário; quinze anos com mama é olhar o útero e a vagina. "Esperar até os 16" é a conduta antiga e só vale com caracteres presentes. A menina baixa, sem puberdade e com FSH alto é Turner até o cariótipo dizer o contrário.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Telarca entre 8 e 13 anos; menarca dois a três anos depois, em média aos 12,5 anos.</li>
+<li>Investigar aos 13 anos sem nenhum caractere sexual; aos 15 anos (ou três anos após a telarca) com caracteres presentes.</li>
+<li>Sem caracteres e FSH alto: falência gonadal, Turner em primeiro lugar; cariótipo.</li>
+<li>Sem caracteres e FSH baixo: causa hipotalâmica ou hipofisária, constitucional, funcional ou orgânica; ressonância se não houver causa funcional.</li>
+<li>Com caracteres e sem menarca: ultrassom pélvico para útero e vagina (Rokitansky, hímen imperfurado, insensibilidade aos androgênios).</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Com que idade se investiga a menina que não tem nenhum sinal de puberdade? <details><summary>Resposta</summary>Aos 13 anos, idade em que a ausência de telarca define atraso puberal.</details></li>
+<li>Qual é a causa mais comum de atraso puberal com FSH elevado na menina? <details><summary>Resposta</summary>A síndrome de Turner, disgenesia gonadal por cariótipo 45,X ou variantes.</details></li>
+<li>Por que a ausência de mamas afasta uma malformação útero-vaginal como causa da amenorreia? <details><summary>Resposta</summary>Porque nas malformações do trato genital o ovário funciona e os caracteres sexuais se desenvolvem normalmente; a falta de mamas indica que não houve estrogênio.</details></li>
+</ol>
+`,
+
+"unesp2025#38": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Planejar a avaliação pré-concepcional da mulher com síndrome dos ovários policísticos.</li>
+<li>Identificar os medicamentos que devem ser suspensos antes da gravidez.</li>
+<li>Descrever a suplementação de folato e o rastreio metabólico antes da concepção.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Consulta pré-concepcional</dt>
+<dd>Avaliação antes da gravidez para otimizar doenças crônicas, revisar medicamentos, vacinar e suplementar; reduz malformações e complicações.</dd>
+<dt>Espironolactona</dt>
+<dd>Antagonista da aldosterona com efeito antiandrogênico, usada no hirsutismo; potencialmente teratogênica, pode feminizar o feto masculino.</dd>
+<dt>Ácido fólico</dt>
+<dd>400 mcg por dia desde um a três meses antes da concepção até 12 semanas; 4 a 5 mg em obesas, diabéticas, epilépticas ou com antecedente de defeito do tubo neural.</dd>
+<dt>Letrozol</dt>
+<dd>Inibidor da aromatase, primeira linha para indução da ovulação na SOP, com mais nascidos vivos que o clomifeno.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A mulher com SOP que deseja engravidar enfrenta dois obstáculos: a <strong>anovulação</strong>, que dificulta a concepção, e o <strong>risco metabólico</strong>, que aumenta as complicações da gestação, como diabetes gestacional, hipertensão, pré-eclâmpsia e prematuridade. A consulta pré-concepcional ataca os dois. Nada disso contraindica a gravidez: com preparo, a maioria concebe e tem gestação segura.</p>
+<p>O <strong>contraceptivo combinado</strong>, usado para regularizar o ciclo e reduzir o androgênio, é suspenso, e a fertilidade retorna em um a três meses.</p>
+<p>A avaliação acrescenta a <strong>suplementação de folato</strong> (400 mcg por dia, ou 4 a 5 mg na obesa ou diabética), o <strong>rastreio metabólico</strong> com teste oral de tolerância à glicose, para diagnosticar diabetes pré-gestacional e intolerância que pioram malformações e perdas, perfil lipídico, pressão e função tireoidiana, e a orientação de <strong>perda de peso</strong> de 5 a 10% quando há sobrepeso, que por si só restaura a ovulação em parte das mulheres e reduz complicações.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Três ações resumem a consulta da mulher com SOP que quer engravidar: parar o contraceptivo e a espironolactona, começar o ácido fólico e fazer o teste de tolerância à glicose. Manter a espironolactona é o erro que a prova espera que você identifique; dizer que ela não pode engravidar é o outro.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>SOP não contraindica a gravidez; aumenta diabetes gestacional, pré-eclâmpsia e prematuridade, controláveis com preparo.</li>
+<li>Suspender contraceptivo combinado, espironolactona (antiandrogênico teratogênico), finasterida, retinoides e estatinas; metformina pode continuar.</li>
+<li>Ácido fólico 400 mcg/dia, ou 4 a 5 mg na obesa ou diabética, desde antes da concepção.</li>
+<li>Rastreio metabólico pré-concepcional: teste de tolerância à glicose, lipídios, pressão, TSH; perda de 5 a 10% do peso.</li>
+<li>Indução da ovulação com letrozol se a anovulação persistir; clomifeno em segunda linha.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que a espironolactona deve ser suspensa antes de tentar engravidar? <details><summary>Resposta</summary>Porque seu efeito antiandrogênico pode feminizar a genitália de um feto masculino.</details></li>
+<li>Qual é a dose de ácido fólico pré-concepcional para a mulher obesa com SOP? <details><summary>Resposta</summary>4 a 5 mg por dia, em vez dos 400 mcg habituais, pelo maior risco de defeito do tubo neural.</details></li>
+<li>Qual é a primeira linha para induzir a ovulação na SOP após otimizar o peso? <details><summary>Resposta</summary>O letrozol, com monitorização para evitar gestação múltipla.</details></li>
+</ol>
+`,
+
+"unesp2025#40": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever a relação temporal entre o DIU e a doença inflamatória pélvica.</li>
+<li>Conduzir a DIP na usuária de DIU, incluindo a decisão sobre o dispositivo.</li>
+<li>Revisar diagnóstico, critérios de internação e tratamento da DIP.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Doença inflamatória pélvica</dt>
+<dd>Infecção ascendente do trato genital superior (endometrite, salpingite, abscesso tubo-ovariano, pelviperitonite), em geral por Chlamydia, gonococo e anaeróbios.</dd>
+<dt>Critérios mínimos de diagnóstico</dt>
+<dd>Dor à mobilização do colo, dor uterina ou dor anexial em mulher sexualmente ativa com dor pélvica, sem outra causa evidente.</dd>
+<dt>Risco pós-inserção</dt>
+<dd>Aumento transitório de DIP nas três primeiras semanas após a colocação do DIU, por contaminação do canal cervical no procedimento.</dd>
+<dt>Critérios de internação</dt>
+<dd>Abscesso tubo-ovariano, gestação, doença grave com náuseas e febre alta, intolerância ou falha do tratamento oral, dúvida com emergência cirúrgica.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O medo histórico de que o DIU causasse DIP vinha dos dispositivos antigos e de estudos sem controle para comportamento sexual. A evidência atual mostra que o risco é <strong>transitório</strong>: concentra-se nas <strong>três primeiras semanas</strong> após a inserção e decorre da passagem de bactérias do canal cervical para a cavidade durante o procedimento, sobretudo quando há cervicite por Chlamydia ou gonococo não diagnosticada.</p>
+<p>Quando a usuária de DIU desenvolve DIP, as diretrizes do CDC e do Ministério da Saúde recomendam <strong>não retirar o dispositivo de rotina</strong>. O antibiótico é iniciado com o DIU no lugar, a mulher é reavaliada em <strong>48 a 72 horas</strong>, e a remoção só é considerada se não houver melhora clínica nesse prazo.</p>
+<p>O tratamento ambulatorial é ceftriaxona 500 mg intramuscular em dose única, doxiciclina 100 mg duas vezes ao dia por 14 dias e metronidazol 500 mg duas vezes ao dia por 14 dias, com reavaliação em 72 horas; o parceiro dos últimos 60 dias é tratado para Chlamydia e gonococo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Duas ideias derrubam os distratores: o DIU só aumenta a DIP nas três semanas após a inserção, e na DIP da usuária o DIU fica, com reavaliação em 48 a 72 horas. Retirar "para não disseminar", internar "por causa do DIU" e afirmar mais abscessos com o DIU de cobre são afirmações sem base na evidência atual.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Risco de DIP associado ao DIU é restrito às três primeiras semanas após a inserção; depois é igual ao das não usuárias.</li>
+<li>Rastreio de IST no dia da inserção, sem adiar; profilaxia antibiótica não reduz DIP.</li>
+<li>DIP na usuária de DIU: tratar com o dispositivo no lugar; reavaliar em 48 a 72 horas; retirar só sem melhora.</li>
+<li>Ambulatorial: ceftriaxona IM, doxiciclina e metronidazol por 14 dias; tratar o parceiro.</li>
+<li>Internar: abscesso, gestação, doença grave, falha ou intolerância oral, dúvida cirúrgica; o DIU não é critério.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Em que período o DIU aumenta o risco de doença inflamatória pélvica e por quê? <details><summary>Resposta</summary>Nas três primeiras semanas após a inserção, pela contaminação do canal cervical durante o procedimento.</details></li>
+<li>Qual é a conduta com o DIU na mulher que desenvolve DIP? <details><summary>Resposta</summary>Manter o dispositivo, iniciar antibiótico e reavaliar em 48 a 72 horas; retirar apenas se não houver melhora clínica.</details></li>
+<li>Quais são os critérios de internação na DIP? <details><summary>Resposta</summary>Abscesso tubo-ovariano, gestação, doença grave, intolerância ou falha do tratamento oral e impossibilidade de excluir emergência cirúrgica.</details></li>
+</ol>
+`,
+
+/* --- Volume 2 · GO · FAMEMA 2026 (go91–go100) ------------------------------------------- */
+"famema2026#49": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer a vaginose bacteriana pelos critérios de Amsel e pela história.</li>
+<li>Diferenciá-la da candidíase e da tricomoníase.</li>
+<li>Tratar a vaginose, inclusive na gestante e nos casos recorrentes.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Vaginose bacteriana</dt>
+<dd>Desequilíbrio da microbiota vaginal com queda dos lactobacilos e predomínio de anaeróbios (Gardnerella, Atopobium, Mobiluncus, Prevotella); causa mais comum de corrimento.</dd>
+<dt>Critérios de Amsel</dt>
+<dd>Corrimento homogêneo acinzentado, pH acima de 4,5, teste das aminas positivo e clue cells; três de quatro fecham o diagnóstico.</dd>
+<dt>Clue cells</dt>
+<dd>Células epiteliais vaginais recobertas por cocobacilos, com bordas apagadas, vistas no exame a fresco.</dd>
+<dt>Escore de Nugent</dt>
+<dd>Graduação da flora na coloração de Gram, de 0 a 10; 7 ou mais define vaginose; padrão laboratorial.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A vagina saudável é dominada por lactobacilos, que produzem ácido láctico e peróxido de hidrogênio e mantêm o pH entre 3,8 e 4,5. Na <strong>vaginose</strong> essa população cai e os anaeróbios se multiplicam, formando um biofilme sobre o epitélio e produzindo aminas voláteis (putrescina, cadaverina, trimetilamina), responsáveis pelo <strong>odor de peixe</strong>. O odor piora quando o meio fica alcalino, isto é, após o <strong>sêmen</strong> e durante a <strong>menstruação</strong>, e é esse detalhe da história que a identifica.</p>
+<p>O diagnóstico clínico usa os <strong>critérios de Amsel</strong>: corrimento fino, homogêneo e acinzentado, aderido às paredes; <strong>pH acima de 4,5</strong>; <strong>teste das aminas positivo</strong> (odor de peixe ao pingar hidróxido de potássio a 10%); e <strong>clue cells</strong> em mais de 20% das células no exame a fresco. Três de quatro bastam.</p>
+<p>O tratamento é <strong>metronidazol 500 mg por via oral duas vezes ao dia por sete dias</strong>, ou metronidazol gel vaginal por cinco noites, ou clindamicina creme vaginal por sete noites; a dose única de 2 g é menos eficaz e não é mais recomendada. O parceiro não é tratado, porque não reduz a recorrência.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>A frase que entrega a vaginose é "o cheiro piora depois da relação e na menstruação": o sêmen e o sangue alcalinizam o meio e volatilizam as aminas. Sem prurido, sem inflamação, sem resposta ao antifúngico. Trate com metronidazol oral por sete dias e não trate o parceiro.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Queda dos lactobacilos e predomínio de anaeróbios (Gardnerella e outros); aminas voláteis causam o odor de peixe.</li>
+<li>Odor piora com sêmen e menstruação; pouco prurido; mucosa sem inflamação; não é IST.</li>
+<li>Amsel: corrimento homogêneo, pH acima de 4,5, aminas positivas, clue cells; três de quatro.</li>
+<li>Diferenciais: candidíase (pH normal, grumos, prurido), tricomoníase (bolhoso, colpite, protozoários móveis).</li>
+<li>Metronidazol 500 mg 2×/dia por 7 dias; parceiro não se trata; gestante sintomática se trata; recorrência com gel supressivo.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que o odor da vaginose piora após a relação sexual e na menstruação? <details><summary>Resposta</summary>Porque sêmen e sangue alcalinizam o meio vaginal e volatilizam as aminas produzidas pelos anaeróbios.</details></li>
+<li>Quais são os critérios de Amsel e quantos são necessários? <details><summary>Resposta</summary>Corrimento homogêneo acinzentado, pH acima de 4,5, teste das aminas positivo e clue cells; três de quatro.</details></li>
+<li>O parceiro da mulher com vaginose deve ser tratado? <details><summary>Resposta</summary>Não; o tratamento do parceiro não reduz a recorrência e a vaginose não é infecção sexualmente transmissível.</details></li>
+</ol>
+`,
+
+"famema2026#51": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer os fatores de risco e as manifestações do leiomioma uterino.</li>
+<li>Classificar os miomas pela localização (FIGO) e relacionar com os sintomas.</li>
+<li>Escolher o tratamento conforme sintoma, desejo reprodutivo e idade.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Leiomioma</dt>
+<dd>Tumor benigno monoclonal do músculo liso uterino, estrogênio e progesterona-dependente; presente em até 70% das mulheres aos 50 anos, sintomático em um quarto.</dd>
+<dt>Classificação FIGO</dt>
+<dd>Tipos 0 a 2 submucosos, 3 e 4 intramurais, 5 a 7 subserosos, 8 outros; o tipo define sintomas e abordagem.</dd>
+<dt>Miomectomia</dt>
+<dd>Retirada dos miomas com preservação do útero, por histeroscopia (submucosos), laparoscopia ou laparotomia; indicada no desejo reprodutivo.</dd>
+<dt>Degeneração</dt>
+<dd>Alteração do mioma por isquemia (hialina, cística, rubra na gestação); causa dor aguda e crescimento aparente.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>Os leiomiomas nascem de uma única célula muscular lisa e crescem sob estrogênio e progesterona, o que explica por que surgem na menacme, crescem na gestação e regridem na menopausa.</p>
+<p>Os <strong>submucosos</strong> (FIGO 0 a 2) e os intramurais que deformam a cavidade causam <strong>sangramento menstrual aumentado</strong>, com ciclos regulares, por aumento da superfície endometrial, alteração da contratilidade e angiogênese local, e são os que mais reduzem a fertilidade, por prejudicar a implantação; os <strong>intramurais</strong> grandes aumentam o útero e dão sensação de peso; os <strong>subserosos</strong> (5 a 7) comprimem bexiga, reto e ureter, com polaciúria, constipação e dor lombar, e podem torcer quando pediculados.</p>
+<p>Mioma assintomático se observa. Para o sangramento, as opções clínicas são o DIU de levonorgestrel (sem distorção da cavidade), o ácido tranexâmico, os contraceptivos e, por curto prazo, os análogos do GnRH ou antagonistas orais, que reduzem o volume antes da cirurgia.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Mulher negra, nuligesta, com menarca precoce, menstruação cada vez mais volumosa, peso pélvico e infertilidade, sem dor na relação, tem miomatose; a dispareunia e a dismenorreia progressiva apontariam para endometriose, e a multípara acima de 40 com útero globoso e doloroso, para adenomiose. Com desejo de gravidez, a resposta terapêutica é miomectomia, não histerectomia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Tumor benigno hormônio-dependente; risco maior em negras, menarca precoce, nuliparidade, obesidade, 35 a 50 anos.</li>
+<li>Submucosos: sangramento e infertilidade; intramurais: volume e peso; subserosos: compressão e torção.</li>
+<li>Menorragia com ciclos regulares e sem dispareunia distingue mioma de endometriose e adenomiose.</li>
+<li>Ultrassom transvaginal diagnostica; histeroscopia e ressonância planejam.</li>
+<li>Assintomático observa; sangramento com DIU hormonal, tranexâmico ou análogos; desejo reprodutivo pede miomectomia; prole completa, histerectomia ou embolização.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais fatores de risco para leiomioma a história costuma trazer? <details><summary>Resposta</summary>Etnia negra, menarca precoce, nuliparidade, obesidade, história familiar e idade entre 35 e 50 anos.</details></li>
+<li>Que tipo de mioma mais causa sangramento e infertilidade? <details><summary>Resposta</summary>O submucoso e o intramural que deforma a cavidade, por aumentar a superfície endometrial e prejudicar a implantação.</details></li>
+<li>Qual é o tratamento cirúrgico para a mulher com miomas sintomáticos que deseja engravidar? <details><summary>Resposta</summary>A miomectomia, histeroscópica para os submucosos e laparoscópica ou aberta para os demais, preservando o útero.</details></li>
+</ol>
+`,
+
+"famema2026#52": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o transtorno do desejo sexual hipoativo na mulher climatérica.</li>
+<li>Descrever o uso da testosterona transdérmica: indicação, dose, monitorização.</li>
+<li>Entender o efeito das vias de estrogênio sobre a testosterona livre.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Transtorno do desejo sexual hipoativo</dt>
+<dd>Redução persistente do desejo e das fantasias sexuais que causa sofrimento pessoal, não explicada por relação, doença ou medicamento.</dd>
+<dt>Globulina ligadora de hormônios sexuais (SHBG)</dt>
+<dd>Proteína hepática que liga estradiol e testosterona; o estrogênio oral a eleva, reduzindo a testosterona livre.</dd>
+<dt>Testosterona transdérmica em dose feminina</dt>
+<dd>Cerca de 300 mcg/dia, um décimo da dose masculina, visando níveis séricos da pré-menopausa.</dd>
+<dt>Síndrome geniturinária da menopausa</dt>
+<dd>Atrofia vulvovaginal e urinária por hipoestrogenismo; dispareunia e secura que também reduzem o desejo e se tratam com estrogênio vaginal.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A função sexual feminina depende de fatores relacionais, psicológicos e hormonais, e o <strong>desejo</strong> tem forte componente androgênico. A produção ovariana e adrenal de testosterona cai gradualmente com a idade e despenca após a ooforectomia; a menopausa natural reduz menos, mas o hipoestrogenismo acrescenta secura e dispareunia, que afastam a mulher do sexo.</p>
+<p>O <strong>Consenso Global de 2019</strong> sobre testosterona na mulher concluiu que a única indicação com evidência é o <strong>transtorno do desejo sexual hipoativo na pós-menopausa</strong>, em dose fisiológica feminina por via <strong>transdérmica</strong>, com ganho significativo em desejo, excitação, orgasmo, prazer e redução do sofrimento.</p>
+<p>A testosterona se acrescenta à <strong>terapia estrogênica</strong> em curso, que deve ser mantida: o estrogênio controla os fogachos, trata a atrofia e é parte do substrato hormonal da resposta sexual.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Mulher climatérica em terapia hormonal com fogachos controlados e desejo baixo: a resposta é acrescentar testosterona transdérmica e manter o estrogênio. Trocar o estrogênio para a via oral piora, porque sobe a SHBG; suspender o estrogênio tira o alívio dos fogachos; mexer no anti-hipertensivo não resolve a libido.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Desejo tem componente androgênico; excluir depressão, antidepressivos, dispareunia, conflito, prolactina e tireoide antes de tratar.</li>
+<li>Única indicação com evidência para testosterona na mulher: desejo hipoativo na pós-menopausa, via transdérmica, dose de um décimo da masculina.</li>
+<li>Monitorar níveis para a faixa da pré-menopausa; efeitos: acne, hirsutismo; suspender se sem resposta em seis meses.</li>
+<li>Manter a terapia estrogênica; preferir via transdérmica, porque o estrogênio oral eleva a SHBG e reduz a testosterona livre.</li>
+<li>Estrogênio vaginal, lubrificantes e terapia sexual completam o cuidado; anti-hipertensivos raramente são a causa.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a única indicação com evidência para testosterona na mulher, segundo o consenso de 2019? <details><summary>Resposta</summary>O transtorno do desejo sexual hipoativo na pós-menopausa, em dose fisiológica por via transdérmica.</details></li>
+<li>Por que a mudança do estrogênio para a via oral pode piorar o desejo? <details><summary>Resposta</summary>Porque o estrogênio oral eleva a SHBG hepática e reduz a fração livre da testosterona.</details></li>
+<li>Como se monitora a mulher em uso de testosterona transdérmica? <details><summary>Resposta</summary>Dosando a testosterona antes e após três a seis semanas para mantê-la na faixa da pré-menopausa, e vigiando acne e hirsutismo.</details></li>
+</ol>
+`,
+
+"famema2026#53": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Descrever os métodos contraceptivos reversíveis de longa duração e sua eficácia.</li>
+<li>Justificar sua recomendação como primeira linha para adolescentes.</li>
+<li>Desfazer os mitos sobre DIU em nulíparas e sobre o acesso da adolescente à contracepção.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>LARC</dt>
+<dd>Contraceptivos reversíveis de longa duração: implante de etonogestrel (3 anos), DIU de levonorgestrel (5 a 8 anos) e DIU de cobre (10 anos).</dd>
+<dt>Taxa de falha de uso típico</dt>
+<dd>Gestações em um ano de uso real: abaixo de 1% para LARC, 7 a 9% para pílula, adesivo e anel, 13% para preservativo.</dd>
+<dt>Dupla proteção</dt>
+<dd>Associação de um método eficaz contra gravidez com o preservativo para prevenir infecções sexualmente transmissíveis.</dd>
+<dt>Confidencialidade</dt>
+<dd>Direito da adolescente ao atendimento e à prescrição contraceptiva sem a presença ou autorização dos pais, garantido pelo Estatuto da Criança e do Adolescente e pelo Código de Ética Médica.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A adolescência concentra a gravidez não planejada, e a principal razão é a falha de uso dos métodos que dependem de adesão diária: a pílula tem falha de 7 a 9% ao ano em uso típico, e nas adolescentes a descontinuação em um ano passa de 50%.</p>
+<p>Os mitos caem diante da evidência. O DIU não aumenta a infertilidade nem a doença inflamatória pélvica fora das três primeiras semanas após a inserção; o rastreio de clamídia e gonorreia é feito no dia da inserção sem adiá-la. A nuliparidade não contraindica: a expulsão é apenas um pouco mais frequente (até 5 a 10%) e a inserção é possível com analgesia adequada.</p>
+<p>A escolha entre eles considera o perfil de sangramento: o implante causa sangramento irregular em metade das usuárias, a principal causa de retirada; o DIU hormonal reduz o fluxo e trata dismenorreia; o DIU de cobre aumenta o fluxo e a cólica, mas não tem hormônio. O aconselhamento antecipa esses efeitos para melhorar a continuidade.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Adolescente pedindo contracepção segura além da camisinha: a resposta certa é oferecer LARC, implante ou DIU, como primeira linha, e reforçar a dupla proteção. Desconfie de qualquer afirmação de que DIU é contraindicado em nulíparas, de que LARC tem estrogênio ou de que o injetável trimestral é o mais indicado.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>LARC: implante de etonogestrel, DIU de levonorgestrel e DIU de cobre; falha abaixo de 1%, continuidade alta.</li>
+<li>Primeira linha para adolescentes, inclusive nulíparas, pelo ACOG, OMS e FEBRASGO; oferecer ativamente.</li>
+<li>Não aumentam DIP após as três primeiras semanas nem infertilidade; não contêm estrogênio.</li>
+<li>Injetável trimestral não é LARC e reduz a densidade óssea na adolescente; dupla proteção com preservativo sempre.</li>
+<li>Aconselhar sobre sangramento: implante irregular, DIU hormonal reduz fluxo, DIU de cobre aumenta; atendimento confidencial é direito.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Por que os LARC são recomendados como primeira linha para adolescentes? <details><summary>Resposta</summary>Porque não dependem de adesão diária, têm falha abaixo de 1% e continuidade muito maior que os métodos de curta duração.</details></li>
+<li>A nuliparidade contraindica o DIU na adolescente? <details><summary>Resposta</summary>Não; a expulsão é apenas um pouco mais frequente e não há aumento de infertilidade nem de DIP fora do período pós-inserção.</details></li>
+<li>Por que o injetável trimestral fica atrás do implante e do DIU na adolescente? <details><summary>Resposta</summary>Porque exige retorno a cada três meses, não é LARC e reduz a densidade óssea durante o crescimento.</details></li>
+</ol>
+`,
+
+"famema2026#54": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Reconhecer o abscesso tubo-ovariano e seus critérios de internação.</li>
+<li>Descrever a escalada terapêutica: antibiótico, drenagem e cirurgia.</li>
+<li>Identificar a rotura do abscesso como indicação cirúrgica absoluta.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Abscesso tubo-ovariano</dt>
+<dd>Coleção purulenta que envolve tuba e ovário, complicação de 15 a 30% das internações por doença inflamatória pélvica; polimicrobiano com anaeróbios.</dd>
+<dt>Drenagem guiada por imagem</dt>
+<dd>Punção percutânea, transvaginal ou transglútea, por ultrassom ou tomografia, com ou sem cateter; opção no lugar da cirurgia em abscessos acessíveis.</dd>
+<dt>Rotura do abscesso</dt>
+<dd>Extravasamento de pus na cavidade peritoneal, com peritonite difusa, íleo e choque séptico; emergência cirúrgica.</dd>
+<dt>Síndrome de Fitz-Hugh-Curtis</dt>
+<dd>Peri-hepatite por disseminação da DIP, com dor no hipocôndrio direito e aderências em corda de violino.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O abscesso tubo-ovariano é o estágio mais avançado da doença inflamatória pélvica: a infecção ascendente destrói o epitélio tubário, a tuba se fecha e enche de pus, e o processo envolve o ovário e as estruturas vizinhas. A paciente tem dor pélvica, febre, massa anexial dolorosa e leucocitose, e o ultrassom transvaginal mostra massa complexa, multiloculada, com paredes espessas e debris; a tomografia ajuda quando há dúvida com apendicite ou diverticulite.</p>
+<p>A resposta ao antibiótico isolado chega a 70% nos abscessos menores que 7 a 8 cm, e é avaliada em <strong>48 a 72 horas</strong> por febre, dor, leucograma e tamanho da coleção. Sem melhora nesse prazo, ou de início em abscessos grandes, acrescenta-se a <strong>drenagem guiada por imagem</strong>, que resolve a maioria dos casos restantes e poupa a cirurgia e a fertilidade.</p>
+<p>Uma situação dispensa qualquer escalada: a <strong>rotura</strong>. Quando o abscesso se rompe, o pus se espalha pela cavidade, e a paciente desenvolve dor abdominal difusa de início abrupto, defesa e descompressão positivas, íleo, taquicardia, hipotensão e sinais de sepse.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Abscesso tubo-ovariano: internar, antibiótico venoso com anaeróbios cobertos, reavaliar em 48 a 72 horas, drenar se não melhorar ou se grande, operar se falhar. A única indicação de cirurgia obrigatória e imediata é a rotura, com peritonite e choque. Tamanho de 5 cm, agente isolado e doze horas de antibiótico não decidem cirurgia.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Abscesso tubo-ovariano: dor, febre, massa anexial complexa ao ultrassom; sempre internar.</li>
+<li>Antibiótico venoso cobrindo anaeróbios: ceftriaxona com doxiciclina e metronidazol, ou clindamicina com gentamicina.</li>
+<li>Reavaliar em 48 a 72 horas; 70% respondem se menores que 7 a 8 cm.</li>
+<li>Sem melhora ou abscesso grande: drenagem guiada por imagem; cirurgia na falha ou na dúvida.</li>
+<li>Rotura (peritonite difusa, choque): cirurgia imediata obrigatória; depois, parceiro, rastreio de IST e aconselhamento sobre fertilidade.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é a única indicação absoluta e imediata de cirurgia no abscesso tubo-ovariano? <details><summary>Resposta</summary>A rotura do abscesso, com peritonite generalizada e sinais de sepse.</details></li>
+<li>Em quanto tempo se avalia a resposta ao antibiótico e qual é o próximo passo na falha? <details><summary>Resposta</summary>Em 48 a 72 horas; sem melhora, drenagem guiada por imagem antes de considerar cirurgia.</details></li>
+<li>Quais esquemas antibióticos venosos são adequados ao abscesso tubo-ovariano? <details><summary>Resposta</summary>Ceftriaxona com doxiciclina e metronidazol, ou clindamicina com gentamicina, ambos cobrindo anaeróbios.</details></li>
+</ol>
+`,
+
+"famema2026#56": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Interpretar os descritores de suspeição do nódulo mamário ao ultrassom e à mamografia.</li>
+<li>Aplicar as categorias BI-RADS e a conduta de cada uma.</li>
+<li>Escolher o método de biópsia do nódulo suspeito.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>BI-RADS</dt>
+<dd>Sistema do Colégio Americano de Radiologia que padroniza o laudo e a conduta: 0 incompleto, 1 negativo, 2 benigno, 3 provavelmente benigno, 4 suspeito, 5 altamente suspeito, 6 câncer confirmado.</dd>
+<dt>Orientação não paralela</dt>
+<dd>Nódulo mais alto que largo, com eixo maior perpendicular à pele; sinal de crescimento através dos planos teciduais, suspeito de malignidade.</dd>
+<dt>Margens</dt>
+<dd>Circunscritas sugerem benignidade; indistintas, angulares, microlobuladas ou espiculadas sugerem malignidade.</dd>
+<dt>Biópsia por agulha grossa</dt>
+<dd>Core biopsy guiada por ultrassom, método de escolha para nódulo sólido; fornece histologia e imuno-histoquímica.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O ultrassom caracteriza o nódulo mamário por forma, orientação, margens, ecogenicidade, padrão acústico posterior e calcificações. Os achados <strong>benignos</strong> são forma oval, orientação paralela à pele (mais largo que alto), margens circunscritas, ecotextura homogênea e, nos cistos, conteúdo anecoico com reforço acústico posterior.</p>
+<p>O <strong>BI-RADS</strong> traduz a imagem em conduta. <strong>1</strong> e <strong>2</strong>: rastreamento habitual. <strong>3</strong>, provavelmente benigno (risco abaixo de 2%): controle em seis meses, depois anual até dois anos de estabilidade; vale para nódulo oval, circunscrito e paralelo, e para fibroadenoma típico na jovem.</p>
+<p>A biópsia do nódulo sólido é feita por <strong>agulha grossa guiada por ultrassom</strong>, que retira fragmentos para histologia e imuno-histoquímica (receptores hormonais, HER2, Ki-67), definindo diagnóstico e subtipo antes de qualquer cirurgia. A punção por agulha fina serve para cistos e para linfonodos, mas não distingue carcinoma in situ de invasivo nem fornece marcadores.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Dois descritores suspeitos bastam para fechar BI-RADS 4 e pedir biópsia: nódulo mais alto que largo e margens irregulares. Nem o controle em seis meses (que é do BI-RADS 3, só para o nódulo oval e circunscrito) nem a calcificação grosseira ao lado tranquilizam. O método é a core biopsy guiada por ultrassom.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Benigno ao ultrassom: oval, paralelo, circunscrito, homogêneo, reforço posterior; suspeito: irregular, não paralelo, margens indistintas ou espiculadas, sombra, microcalcificações.</li>
+<li>Mamografia: espículas, distorção e microcalcificações pleomórficas são alarme; calcificações grosseiras isoladas são benignas.</li>
+<li>BI-RADS 1 e 2: rotina; 3: controle em seis meses; 4 e 5: biópsia; 0: completar o exame.</li>
+<li>Nódulo sólido com descritor suspeito é no mínimo 4; calcificação grosseira dentro dele não rebaixa a categoria.</li>
+<li>Biópsia por agulha grossa guiada por ultrassom para nódulo; a vácuo por estereotaxia para microcalcificações; agulha fina para cistos e linfonodos.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Que descritores ultrassonográficos indicam suspeição em um nódulo mamário? <details><summary>Resposta</summary>Forma irregular, orientação não paralela (mais alto que largo), margens indistintas, angulares, microlobuladas ou espiculadas, sombra acústica posterior e microcalcificações.</details></li>
+<li>Qual é a conduta para BI-RADS 3 e para BI-RADS 4? <details><summary>Resposta</summary>BI-RADS 3: controle em seis meses; BI-RADS 4: biópsia.</details></li>
+<li>Por que a biópsia por agulha grossa é preferida à agulha fina no nódulo sólido? <details><summary>Resposta</summary>Porque fornece histologia, distingue in situ de invasivo e permite imuno-histoquímica para receptores hormonais, HER2 e Ki-67.</details></li>
+</ol>
+`,
+
+"famema2026#57": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Aplicar o corte de 2 cm que define inserção normal, placenta baixa e prévia.</li>
+<li>Entender a migração placentária e o momento de repetir o ultrassom.</li>
+<li>Decidir a via de parto pela distância do bordo ao orifício interno.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Inserção normal</dt>
+<dd>Bordo placentário a 2 cm ou mais do orifício interno do colo ao ultrassom transvaginal; sem restrição à via vaginal.</dd>
+<dt>Segmento inferior</dt>
+<dd>Porção do útero entre o corpo e o colo, que se forma e se alonga no terceiro trimestre, afastando o bordo placentário do colo.</dd>
+<dt>Migração placentária</dt>
+<dd>Afastamento aparente do bordo da placenta em relação ao colo com o avanço da gestação; 90% das placentas baixas do segundo trimestre normalizam.</dd>
+<dt>Ultrassom transvaginal</dt>
+<dd>Método de escolha para medir a distância do bordo placentário ao orifício interno; seguro mesmo com sangramento.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A placenta se implanta onde o blastocisto aderiu, e no segundo trimestre cerca de 5% das gestações têm a placenta próxima ou sobre o colo. Com o crescimento do útero e a formação do <strong>segmento inferior</strong>, a porção baixa do útero se alonga e a placenta "sobe" em relação ao colo, fenômeno chamado <strong>migração</strong>, embora a placenta não se mova; é o útero que cresce sob ela, e a porção sobre o colo, menos vascularizada, tende a atrofiar.</p>
+<p>A classificação atual é medida no <strong>ultrassom transvaginal</strong>: <strong>prévia</strong> quando o tecido placentário cobre o orifício interno; <strong>baixa</strong> quando o bordo fica a menos de <strong>2 cm</strong> sem cobrir; <strong>normal</strong> quando a distância é de <strong>2 cm ou mais</strong>.</p>
+<p>A via de parto segue a distância final. Prévia: cesárea eletiva entre 36 e 37 semanas. Baixa com bordo entre 1 e 2 cm: parto vaginal pode ser tentado em serviço com banco de sangue e cesárea disponível, com taxa de sucesso de 60 a 75%; abaixo de 1 cm, a maioria dos protocolos indica cesárea pelo risco de hemorragia. Normal, com 2 cm ou mais: via obstétrica habitual. Qualquer sangramento ativo com instabilidade indica cesárea imediata, independentemente da classificação.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Pergunte sempre pela distância em centímetros. Três centímetros ou mais é normal, dois a três é normal, abaixo de dois é baixa, cobrindo é prévia. Marginal e lateral são nomes antigos e distratores. E o achado do segundo trimestre não é definitivo: repete-se às 32 e 36 semanas antes de rotular.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Formação do segmento inferior afasta o bordo placentário do colo; 90% das placentas baixas do segundo trimestre normalizam.</li>
+<li>Classificação pelo ultrassom transvaginal: prévia cobre o orifício; baixa fica a menos de 2 cm; normal a 2 cm ou mais.</li>
+<li>Inserção normal não exige repetição nem cuidados; baixa ou prévia reavalia às 32 e 36 semanas.</li>
+<li>Via de parto: prévia é cesárea 36 a 37 semanas; baixa entre 1 e 2 cm pode tentar vaginal; abaixo de 1 cm, cesárea; sangramento instável, cesárea imediata.</li>
+<li>Cesárea anterior com placenta baixa ou prévia anterior: pesquisar acretismo.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>A que distância do orifício interno a inserção placentária é considerada normal? <details><summary>Resposta</summary>A 2 cm ou mais, medida pelo ultrassom transvaginal.</details></li>
+<li>Por que a placenta parece "subir" ao longo da gestação? <details><summary>Resposta</summary>Porque o segmento inferior se forma e se alonga sob a placenta, afastando o bordo do colo, e a porção sobre o colo atrofia.</details></li>
+<li>Quando se repete o ultrassom numa placenta baixa diagnosticada às 20 semanas? <details><summary>Resposta</summary>Às 32 semanas e, se persistir, às 36 semanas, para planejar a via de parto.</details></li>
+</ol>
+`,
+
+"famema2026#59": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Confirmar a pré-eclâmpsia na gestante com hipertensão nova após 20 semanas.</li>
+<li>Interpretar a relação proteína/creatinina e os demais exames de gravidade.</li>
+<li>Reconhecer fatores de risco e sinais de alerta da pré-eclâmpsia.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Relação proteína/creatinina</dt>
+<dd>Razão entre proteína e creatinina em amostra isolada de urina; 0,3 ou mais equivale a 300 mg em 24 horas e define proteinúria significativa.</dd>
+<dt>Proteinúria de 24 horas</dt>
+<dd>Padrão histórico, 300 mg ou mais; demorada e sujeita a erro de coleta, substituída pela relação na urgência.</dd>
+<dt>Pré-eclâmpsia sem proteinúria</dt>
+<dd>Hipertensão nova com plaquetopenia, creatinina acima de 1,1, transaminases duplicadas, edema pulmonar ou sintomas neurológicos ou visuais.</dd>
+<dt>Fatores de risco</dt>
+<dd>Pré-eclâmpsia anterior, hipertensão crônica, diabetes, doença renal, autoimunidade, gemelaridade (alto risco); nuliparidade, obesidade, idade acima de 35, história familiar, troca de parceiro, reprodução assistida (moderado).</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A pré-eclâmpsia é a doença da placenta que adoece a mãe: a invasão trofoblástica deficiente das artérias espiraladas gera isquemia placentária, liberação de fatores antiangiogênicos (sFlt-1, endoglina solúvel) e disfunção endotelial sistêmica, com vasoconstrição, aumento da permeabilidade, ativação da coagulação e lesão glomerular.</p>
+<p>Diante da hipertensão nova, o exame que confirma o diagnóstico é a pesquisa de <strong>proteinúria</strong>, e o método recomendado é a <strong>relação proteína/creatinina em amostra isolada</strong>, com corte de <strong>0,3</strong> (mg/mg), que tem boa correlação com a proteinúria de 24 horas, resultado em horas e sem erro de coleta.</p>
+<p>Os <strong>fatores de risco</strong> importam na prevenção e na suspeita. A troca de parceiro aponta para a hipótese imunológica: a exposição a novos antígenos paternos aumenta o risco, assim como a nuliparidade e o intervalo interpartal longo.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Hipertensão que surge após 20 semanas pede um exame para fechar pré-eclâmpsia: a relação proteína/creatinina em amostra isolada, com corte de 0,3. Ácido úrico ajuda a graduar, proteínas totais e gasometria não ajudam em nada. Troca de parceiro, ganho de peso rápido e nuliparidade são as pistas que o enunciado planta.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Pré-eclâmpsia: hipertensão após 20 semanas com proteinúria ou disfunção de órgão; mecanismo placentário e endotelial.</li>
+<li>Confirmação: relação proteína/creatinina em amostra isolada, 0,3 ou mais; fita é só triagem; 24 horas é padrão antigo.</li>
+<li>Exames de gravidade: plaquetas, creatinina, transaminases, LDH, bilirrubinas; ácido úrico gradua, não diagnostica.</li>
+<li>Fatores de risco: pré-eclâmpsia anterior, hipertensão, diabetes, renal, autoimune, gemelar (alto); nuliparidade, obesidade, idade, troca de parceiro (moderado).</li>
+<li>Prevenção: aspirina 100 a 150 mg desde 12 semanas e cálcio em dieta pobre; sinais de alerta orientados a toda gestante.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual exame confirma a proteinúria da pré-eclâmpsia na urgência e qual é o corte? <details><summary>Resposta</summary>A relação proteína/creatinina em amostra isolada de urina, com corte de 0,3, equivalente a 300 mg em 24 horas.</details></li>
+<li>O ácido úrico é critério diagnóstico de pré-eclâmpsia? <details><summary>Resposta</summary>Não; eleva-se e correlaciona-se com a gravidade, mas não define o diagnóstico.</details></li>
+<li>Por que a troca de parceiro é fator de risco para pré-eclâmpsia? <details><summary>Resposta</summary>Pela hipótese imunológica: a exposição a novos antígenos paternos aumenta a resposta materna anormal à placentação.</details></li>
+</ol>
+`,
+
+"famema2026#61": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Listar as contraindicações absolutas e relativas à amamentação no Brasil.</li>
+<li>Diferenciar as infecções que impedem o aleitamento das que não impedem.</li>
+<li>Orientar a mulher que não pode amamentar: inibição da lactação e fórmula.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Contraindicação absoluta</dt>
+<dd>Situação em que o leite materno não pode ser oferecido em nenhuma circunstância: HIV, HTLV 1 e 2, antineoplásicos e radiofármacos (materna); galactosemia clássica (do lactente).</dd>
+<dt>Contraindicação temporária</dt>
+<dd>Interrupção enquanto dura a condição: varicela com lesões cinco dias antes a dois dias após o parto, herpes com lesão na mama, abscesso mamário na mama afetada, drogas de abuso.</dd>
+<dt>Inibição da lactação</dt>
+<dd>Cabergolina 1 mg em dose única no primeiro dia pós-parto, ou 0,25 mg a cada 12 horas por dois dias, quando a amamentação é contraindicada.</dd>
+<dt>Fórmula infantil</dt>
+<dd>Fornecida pelo SUS às crianças expostas ao HIV até os 6 meses, com orientação de preparo e acompanhamento.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>O aleitamento materno exclusivo até os seis meses e complementado até os dois anos é a recomendação universal, e as situações que o impedem são poucas e precisas.</p>
+<p>A maioria das infecções <strong>não contraindica</strong>. <strong>Hepatite B</strong>: amamenta, desde que o recém-nascido receba vacina e imunoglobulina nas primeiras 12 horas. <strong>Hepatite C</strong>: amamenta, com cautela apenas se há fissuras sangrantes. <strong>Tuberculose</strong>: amamenta com máscara, após início do tratamento, com o lactente em quimioprofilaxia. <strong>Citomegalovírus</strong>: amamenta a termo. <strong>Herpes</strong>: só impede na mama com lesão, cobrindo as outras.</p>
+<p>Quanto a <strong>medicamentos</strong>, quase todos são compatíveis, e a referência é a classificação do Ministério da Saúde e da Sociedade Brasileira de Pediatria: contraindicados são antineoplásicos, amiodarona, lítio em algumas situações, iodo radioativo, drogas de abuso e, por risco de sedação neonatal, doses altas de opioides e fenobarbital.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quatro situações proíbem a amamentação: HIV, HTLV, antineoplásicos e galactosemia. Hepatites B e C não proíbem, e a prova testa exatamente esse mito. A opção "só HIV" está incompleta porque esquece os antineoplásicos, e a que inclui hepatite C ou B está errada porque inclui uma infecção que permite o aleitamento.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Absolutas maternas: HIV, HTLV 1 e 2, antineoplásicos, imunossupressores potentes e radiofármacos; do lactente: galactosemia clássica.</li>
+<li>Não contraindicam: hepatite B (vacina e imunoglobulina ao recém-nascido), hepatite C, tuberculose tratada, CMV, mastite, COVID-19 e influenza.</li>
+<li>Temporárias: herpes na mama, abscesso na mama drenada, varicela perto do parto, drogas de abuso, radioisótopos de meia-vida curta.</li>
+<li>Medicamentos quase sempre compatíveis; exceções: antineoplásicos, amiodarona, iodo radioativo, drogas de abuso.</li>
+<li>Amamentação contraindicada: cabergolina para inibir a lactação, fórmula pelo SUS na exposição ao HIV, apoio emocional.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Quais são as contraindicações absolutas maternas à amamentação no Brasil? <details><summary>Resposta</summary>Infecção pelo HIV, pelo HTLV 1 e 2, e uso de antineoplásicos, imunossupressores potentes ou radiofármacos.</details></li>
+<li>A mãe com hepatite B pode amamentar? <details><summary>Resposta</summary>Sim, desde que o recém-nascido receba a vacina e a imunoglobulina contra hepatite B nas primeiras 12 horas de vida.</details></li>
+<li>Como se inibe a lactação quando a amamentação é contraindicada? <details><summary>Resposta</summary>Com cabergolina 1 mg em dose única no primeiro dia pós-parto, associada a enfaixamento das mamas e analgesia.</details></li>
+</ol>
+`,
+
+"famema2026#63": `
+<h4>Objetivos de aprendizagem</h4>
+<ul>
+<li>Diagnosticar a rotura prematura de membranas pela clínica e pelos testes complementares.</li>
+<li>Comparar a acurácia da nitrazina, da cristalização e dos testes imunocromatográficos.</li>
+<li>Conduzir a rotura prematura de membranas conforme a idade gestacional.</li>
+</ul>
+<h4>Termos-chave</h4>
+<dl>
+<dt>Rotura prematura de membranas</dt>
+<dd>Rotura antes do início do trabalho de parto, em qualquer idade gestacional; pré-termo quando antes de 37 semanas.</dd>
+<dt>Teste da nitrazina</dt>
+<dd>Papel que vira azul com pH acima de 6 a 6,5; falsos positivos com sangue, sêmen, vaginose e antissépticos; sensibilidade de 90%, especificidade de 80%.</dd>
+<dt>Cristalização</dt>
+<dd>Padrão em folha de samambaia do líquido amniótico seco na lâmina; falsos positivos com muco cervical e sêmen.</dd>
+<dt>PAMG-1</dt>
+<dd>Alfa-microglobulina placentária 1, proteína do líquido amniótico detectada por teste imunocromatográfico com sensibilidade e especificidade acima de 96%.</dd>
+</dl>
+<h4>O essencial</h4>
+<p>A rotura prematura de membranas complica 8% das gestações a termo e um terço dos partos prematuros.</p>
+<p>Quando a história é sugestiva e o exame não mostra líquido, entram os testes. O <strong>papel de nitrazina</strong> detecta o pH alcalino do líquido amniótico (7,0 a 7,5) contra o vaginal (4,5 a 5,5), mas erra com sangue, sêmen, urina alcalina, vaginose e antissépticos, e perde roturas antigas com pouco líquido residual.</p>
+<p>Confirmada a rotura, a conduta segue a idade gestacional. A termo (37 semanas ou mais): indução do parto em até 24 horas, com ocitocina ou misoprostol, e profilaxia do estreptococo B se indicada. De 34 a 36 semanas e 6 dias: a resolução é a conduta mais aceita, embora a expectante até 37 semanas seja opção com vigilância rigorosa.</p>
+<div class="ponto">
+<h4>Ponto clínico</h4>
+<p>Quando a gestante relata perda de líquido e o especular não mostra nada, o teste de maior acurácia para confirmar ou excluir a rotura é a PAMG-1. A nitrazina erra com sangue e vaginose, a cristalização erra com muco, e a fibronectina responde a outra pergunta. Confirmada a rotura antes de 34 semanas, o pacote é antibiótico de latência, corticoide e vigilância, nunca tocólise de rotina.</p>
+</div>
+<h4>Resumo</h4>
+<ul>
+<li>Diagnóstico clínico em 90%: história e líquido ao especular; evitar o toque.</li>
+<li>Nitrazina (pH) e cristalização têm falsos positivos com sangue, sêmen, vaginose e muco.</li>
+<li>PAMG-1 (AmniSure): sensibilidade e especificidade acima de 96%, sem interferência de sangue ou sêmen; o teste de maior acurácia.</li>
+<li>Fibronectina fetal mede risco de parto prematuro, não rotura; prova do fenol está em desuso.</li>
+<li>Conduta: a termo, indução em 24 h; 34 a 36 semanas, resolução; 24 a 33 semanas, expectante com antibiótico de latência, corticoide e vigilância, resolvendo às 34 semanas ou na infecção.</li>
+</ul>
+<h4>Verifique o que aprendeu</h4>
+<ol>
+<li>Qual é o teste de maior sensibilidade e especificidade para a rotura de membranas quando o exame especular é inconclusivo? <details><summary>Resposta</summary>A detecção da alfa-microglobulina placentária 1 (PAMG-1) por teste imunocromatográfico.</details></li>
+<li>Por que o papel de nitrazina pode dar falso positivo? <details><summary>Resposta</summary>Porque sangue, sêmen, urina alcalina, vaginose e antissépticos também elevam o pH vaginal.</details></li>
+<li>Qual é a conduta na rotura prematura de membranas com 30 semanas sem infecção? <details><summary>Resposta</summary>Expectante hospitalar: antibiótico de latência por sete dias, corticoide, vigilância de infecção e vitalidade, e resolução às 34 semanas ou diante de complicação.</details></li>
+</ol>
+`,
 };
