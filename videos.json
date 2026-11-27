@@ -4163,6 +4163,456 @@
   },
   "busca": "Insuficiência venosa crônica — CEAP C3 e o tratamento cirúrgico"
  },
+ "cir51": {
+  "fonte": "sirio2026",
+  "numero": 21,
+  "tema": "Síndrome de realimentação — parar a NPT, repor P, K, Mg e tiamina",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome de realimentação — parar a NPT, repor P, K, Mg e tiamina"
+ },
+ "cir52": {
+  "fonte": "sirio2026",
+  "numero": 22,
+  "tema": "Responsividade a volume — elevação passiva das pernas e débito",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Responsividade a volume — elevação passiva das pernas e débito"
+ },
+ "cir53": {
+  "fonte": "sirio2026",
+  "numero": 23,
+  "tema": "xABCDE do ATLS — hemorragia exsanguinante antes da via aérea",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "xABCDE do ATLS — hemorragia exsanguinante antes da via aérea"
+ },
+ "cir54": {
+  "fonte": "sirio2026",
+  "numero": 25,
+  "tema": "Choque, FAST positivo e pelve instável — laparotomia primeiro",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Choque, FAST positivo e pelve instável — laparotomia primeiro"
+ },
+ "cir55": {
+  "fonte": "sirio2026",
+  "numero": 26,
+  "tema": "Não intubo, não ventilo — cricotireoidostomia cirúrgica imediata",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Não intubo, não ventilo — cricotireoidostomia cirúrgica imediata"
+ },
+ "cir56": {
+  "fonte": "sirio2026",
+  "numero": 27,
+  "tema": "TCE grave — PAS acima de 110, normocapnia e nada de hiperventilar",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "TCE grave — PAS acima de 110, normocapnia e nada de hiperventilar"
+ },
+ "cir57": {
+  "fonte": "sirio2026",
+  "numero": 28,
+  "tema": "Lesão cervical penetrante com escape de ar — via aérea controlada",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Lesão cervical penetrante com escape de ar — via aérea controlada"
+ },
+ "cir58": {
+  "fonte": "sirio2026",
+  "numero": 29,
+  "tema": "Abscesso junto à anastomose, paciente estável — dreno percutâneo",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Abscesso junto à anastomose, paciente estável — dreno percutâneo"
+ },
+ "cir59": {
+  "fonte": "sirio2026",
+  "numero": 30,
+  "tema": "Hipotensão refratária com PVC alta no trauma — tamponamento cardíaco",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hipotensão refratária com PVC alta no trauma — tamponamento cardíaco"
+ },
+ "cir60": {
+  "fonte": "sirio2026",
+  "numero": 35,
+  "tema": "Hérnia inguinal indireta — a protrusão sentida na ponta do dedo",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hérnia inguinal indireta — a protrusão sentida na ponta do dedo"
+ },
+ "cir61": {
+  "fonte": "sirio2026",
+  "numero": 36,
+  "tema": "Triângulo de Calot — hepático comum, cístico e borda do fígado",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Triângulo de Calot — hepático comum, cístico e borda do fígado"
+ },
+ "cir62": {
+  "fonte": "sirio2026",
+  "numero": 37,
+  "tema": "Endarterectomia de carótida — o hipoglosso move a língua",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Endarterectomia de carótida — o hipoglosso move a língua"
+ },
+ "cir63": {
+  "fonte": "sirio2026",
+  "numero": 38,
+  "tema": "Coroa mortis — a obturatória aberrante lateral ao ligamento de Cooper",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Coroa mortis — a obturatória aberrante lateral ao ligamento de Cooper"
+ },
+ "cir64": {
+  "fonte": "sirio2026",
+  "numero": 39,
+  "tema": "Esplenectomia — poupar a gastroepiploica esquerda e os vasos curtos",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Esplenectomia — poupar a gastroepiploica esquerda e os vasos curtos"
+ },
+ "cir65": {
+  "fonte": "sirio2026",
+  "numero": 40,
+  "tema": "Ponto de Sudeck — ligadura alta da mesentérica inferior e a anastomose",
+  "rotulo": "Sírio-Libanês 2026",
+  "q": null,
+  "m": null,
+  "busca": "Ponto de Sudeck — ligadura alta da mesentérica inferior e a anastomose"
+ },
+ "cir66": {
+  "fonte": "sirio2027",
+  "numero": 21,
+  "tema": "Tríade letal do trauma — acidose, hipotermia e coagulopatia em ciclo",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Tríade letal do trauma — acidose, hipotermia e coagulopatia em ciclo"
+ },
+ "cir67": {
+  "fonte": "sirio2027",
+  "numero": 24,
+  "tema": "Cálculo renal de 2,6 cm — nefrolitotomia percutânea",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Cálculo renal de 2,6 cm — nefrolitotomia percutânea"
+ },
+ "cir68": {
+  "fonte": "sirio2027",
+  "numero": 25,
+  "tema": "Gestante no trauma — inclinar à esquerda para descomprimir a cava",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Gestante no trauma — inclinar à esquerda para descomprimir a cava"
+ },
+ "cir69": {
+  "fonte": "sirio2027",
+  "numero": 27,
+  "tema": "Choque hemorrágico até a hemostasia — hipotensão permissiva e 1:1:1",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Choque hemorrágico até a hemostasia — hipotensão permissiva e 1:1:1"
+ },
+ "cir70": {
+  "fonte": "sirio2027",
+  "numero": 28,
+  "tema": "Hérnia encarcerada crônica sem estrangulamento — cirurgia eletiva",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Hérnia encarcerada crônica sem estrangulamento — cirurgia eletiva"
+ },
+ "cir71": {
+  "fonte": "sirio2027",
+  "numero": 29,
+  "tema": "Doutrina de Monro-Kellie — compensação e depois a curva exponencial",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Doutrina de Monro-Kellie — compensação e depois a curva exponencial"
+ },
+ "cir72": {
+  "fonte": "sirio2027",
+  "numero": 30,
+  "tema": "Pneumotórax espontâneo que cresce — drenar com cateter fino",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Pneumotórax espontâneo que cresce — drenar com cateter fino"
+ },
+ "cir73": {
+  "fonte": "sirio2027",
+  "numero": 31,
+  "tema": "Pós-Billroth II com vômito bilioso em jato — síndrome da alça aferente",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Pós-Billroth II com vômito bilioso em jato — síndrome da alça aferente"
+ },
+ "cir74": {
+  "fonte": "sirio2027",
+  "numero": 32,
+  "tema": "Liberar a coluna cervical pela clínica — os critérios NEXUS",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Liberar a coluna cervical pela clínica — os critérios NEXUS"
+ },
+ "cir75": {
+  "fonte": "sirio2027",
+  "numero": 33,
+  "tema": "Sepse pós-operatória — culturas e antibiótico na primeira hora",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Sepse pós-operatória — culturas e antibiótico na primeira hora"
+ },
+ "cir76": {
+  "fonte": "sirio2027",
+  "numero": 35,
+  "tema": "Anatomia biliar duvidosa — colangiografia intraoperatória",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Anatomia biliar duvidosa — colangiografia intraoperatória"
+ },
+ "cir77": {
+  "fonte": "sirio2027",
+  "numero": 36,
+  "tema": "Escroto agudo no adolescente — explorar sem esperar o Doppler",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Escroto agudo no adolescente — explorar sem esperar o Doppler"
+ },
+ "cir78": {
+  "fonte": "sirio2027",
+  "numero": 38,
+  "tema": "Parada em AESP após facada no tórax — toracotomia de reanimação",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Parada em AESP após facada no tórax — toracotomia de reanimação"
+ },
+ "cir79": {
+  "fonte": "sirio2027",
+  "numero": 39,
+  "tema": "TVP com anticoagulação contraindicada — filtro de veia cava",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "TVP com anticoagulação contraindicada — filtro de veia cava"
+ },
+ "cir80": {
+  "fonte": "sirio2027",
+  "numero": 40,
+  "tema": "Síndrome compartimental abdominal após laparotomia — descomprimir",
+  "rotulo": "Sírio-Libanês 2027",
+  "q": null,
+  "m": null,
+  "busca": "Síndrome compartimental abdominal após laparotomia — descomprimir"
+ },
+ "cir81": {
+  "fonte": "unesp2025",
+  "numero": 61,
+  "tema": "Pirose refratária com endoscopia normal — pHmetria esofágica",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Pirose refratária com endoscopia normal — pHmetria esofágica"
+ },
+ "cir82": {
+  "fonte": "unesp2025",
+  "numero": 63,
+  "tema": "Motociclista inconsciente — tirar o capacete a dois para a via aérea",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Motociclista inconsciente — tirar o capacete a dois para a via aérea"
+ },
+ "cir83": {
+  "fonte": "unesp2025",
+  "numero": 64,
+  "tema": "Hipotensão com bradicardia após mergulho — choque neurogênico",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Hipotensão com bradicardia após mergulho — choque neurogênico"
+ },
+ "cir84": {
+  "fonte": "unesp2025",
+  "numero": 65,
+  "tema": "Dor biliar na obesa — o ultrassom vem antes da tomografia",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Dor biliar na obesa — o ultrassom vem antes da tomografia"
+ },
+ "cir85": {
+  "fonte": "unesp2025",
+  "numero": 67,
+  "tema": "Lactente com cólica em crises e fossa ilíaca vazia — invaginação",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Lactente com cólica em crises e fossa ilíaca vazia — invaginação"
+ },
+ "cir86": {
+  "fonte": "unesp2025",
+  "numero": 70,
+  "tema": "Cólica renal — tomografia de abdome sem contraste confirma",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Cólica renal — tomografia de abdome sem contraste confirma"
+ },
+ "cir87": {
+  "fonte": "unesp2025",
+  "numero": 72,
+  "tema": "Tamponamento pós-operatório no anticoagulado — drenar o pericárdio",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Tamponamento pós-operatório no anticoagulado — drenar o pericárdio"
+ },
+ "cir88": {
+  "fonte": "unesp2025",
+  "numero": 73,
+  "tema": "Queimadura de 2º grau superficial — analgesia venosa e sulfadiazina",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Queimadura de 2º grau superficial — analgesia venosa e sulfadiazina"
+ },
+ "cir89": {
+  "fonte": "unesp2025",
+  "numero": 75,
+  "tema": "Derrame parapneumônico não complicado — antibiótico e observar",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Derrame parapneumônico não complicado — antibiótico e observar"
+ },
+ "cir90": {
+  "fonte": "unesp2025",
+  "numero": 80,
+  "tema": "Aneurisma de aorta com dor, massa pulsátil e hipotensão — operar agora",
+  "rotulo": "UNESP 2025",
+  "q": null,
+  "m": null,
+  "busca": "Aneurisma de aorta com dor, massa pulsátil e hipotensão — operar agora"
+ },
+ "cir91": {
+  "fonte": "famema2026",
+  "numero": 18,
+  "tema": "Hemotórax maciço — 1.500 mL no dreno e choque: toracotomia",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hemotórax maciço — 1.500 mL no dreno e choque: toracotomia"
+ },
+ "cir92": {
+  "fonte": "famema2026",
+  "numero": 19,
+  "tema": "TCE leve na idosa anticoagulada — tomografia de crânio sem esperar",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "TCE leve na idosa anticoagulada — tomografia de crânio sem esperar"
+ },
+ "cir93": {
+  "fonte": "famema2026",
+  "numero": 20,
+  "tema": "Facada no flanco em paciente estável — observação, TC e exame seriado",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Facada no flanco em paciente estável — observação, TC e exame seriado"
+ },
+ "cir94": {
+  "fonte": "famema2026",
+  "numero": 22,
+  "tema": "Abdome em tábua com sinal de Jobert — úlcera péptica perfurada",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Abdome em tábua com sinal de Jobert — úlcera péptica perfurada"
+ },
+ "cir95": {
+  "fonte": "famema2026",
+  "numero": 23,
+  "tema": "Abdome operado e alças dilatadas sem gás distal — obstrução alta",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Abdome operado e alças dilatadas sem gás distal — obstrução alta"
+ },
+ "cir96": {
+  "fonte": "famema2026",
+  "numero": 24,
+  "tema": "Projeto ACERTO — os cinco pilares do cuidado perioperatório moderno",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Projeto ACERTO — os cinco pilares do cuidado perioperatório moderno"
+ },
+ "cir97": {
+  "fonte": "famema2026",
+  "numero": 28,
+  "tema": "Timoma com miastenia — ressecção completa, sem biópsia prévia",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Timoma com miastenia — ressecção completa, sem biópsia prévia"
+ },
+ "cir98": {
+  "fonte": "famema2026",
+  "numero": 29,
+  "tema": "Hemorroidectomia de Milligan-Morgan — excisão e ferida aberta",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Hemorroidectomia de Milligan-Morgan — excisão e ferida aberta"
+ },
+ "cir99": {
+  "fonte": "famema2026",
+  "numero": 30,
+  "tema": "Lesão hepática hipervascular na usuária de anticoncepcional — adenoma",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Lesão hepática hipervascular na usuária de anticoncepcional — adenoma"
+ },
+ "cir100": {
+  "fonte": "famema2026",
+  "numero": 32,
+  "tema": "Refluxo refratário com motilidade normal — fundoplicatura de Nissen",
+  "rotulo": "FAMEMA 2026",
+  "q": null,
+  "m": null,
+  "busca": "Refluxo refratário com motilidade normal — fundoplicatura de Nissen"
+ },
  "go01": {
   "fonte": "susp2026",
   "numero": 61,
