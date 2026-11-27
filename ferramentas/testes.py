@@ -267,7 +267,7 @@ def test_questoes_json_lista_uma_linha_por_questao():
     cod, saida = roda_node("ferramentas/questoes_json.js")
     assert cod == 0, saida[-300:]
     qs = json.loads(saida)
-    assert len(qs) >= 250 and qs[0]["id"] == "ped01" and qs[-1]["id"] == "cm50"   # 250 do volume 1 mais o volume 2 das áreas já feitas
+    assert len(qs) == 500 and qs[0]["id"] == "ped01" and qs[-1]["id"] == "cm100"   # volume 1 (01–50) e volume 2 (51–100) das cinco áreas
     assert all(set(q) == {"id", "area", "fonte", "numero", "tema", "termo", "rotulo"} for q in qs)
     assert qs[0]["rotulo"] == "SUS-SP 2026" and all(q["rotulo"] for q in qs)
     # termo = primeiro <dt> da mini-aula, sem tags
